@@ -9,125 +9,262 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Cozinha" />
     <title>Cozinha · Ana & Rafael</title>
+
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" href="./icons/icon-192.png" />
     <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
     <header class="topbar">
       <div class="brand">
-        <span class="brand-mark" aria-hidden="true"><span>♨</span></span>
+        <span class="brand-mark" aria-hidden="true">
+          <span>♨</span>
+        </span>
+
         <div>
           <h1>Cozinha</h1>
           <p>Ana &amp; Rafael</p>
         </div>
       </div>
-      <button class="icon-button" id="open-settings" type="button" aria-label="Abrir ajustes">•••</button>
+
+      <button
+        class="icon-button"
+        id="open-settings"
+        type="button"
+        aria-label="Abrir ajustes"
+      >
+        •••
+      </button>
     </header>
 
     <main id="conteudo" tabindex="-1">
-      <section class="view is-active" id="view-hoje" data-view="hoje" aria-labelledby="title-hoje">
+      <section
+        class="view is-active"
+        id="view-hoje"
+        data-view="hoje"
+        aria-labelledby="title-hoje"
+      >
         <div class="hero">
           <p class="eyebrow" id="today-label">Jantar de hoje</p>
           <h2 id="title-hoje">O que vamos cozinhar?</h2>
-          <p class="lede">Escolha um principal; entrada e sobremesa ficam por conta da vontade.</p>
+          <p class="lede">
+            Escolha um principal; entrada e sobremesa ficam por conta da vontade.
+          </p>
         </div>
+
         <div id="today-content" aria-live="polite"></div>
       </section>
 
-      <section class="view" id="view-semana" data-view="semana" aria-labelledby="title-semana">
+      <section
+        class="view"
+        id="view-semana"
+        data-view="semana"
+        aria-labelledby="title-semana"
+      >
         <div class="section-heading">
           <div>
             <p class="eyebrow">Planejamento</p>
             <h2 id="title-semana">A próxima semana</h2>
           </div>
+
           <span class="quiet" id="week-period"></span>
         </div>
-        <div class="day-strip" id="day-strip" role="tablist" aria-label="Dias da semana"></div>
+
+        <div
+          class="day-strip"
+          id="day-strip"
+          role="tablist"
+          aria-label="Dias da semana"
+        ></div>
+
         <div id="week-content" aria-live="polite"></div>
       </section>
 
-      <section class="view" id="view-buscar" data-view="buscar" aria-labelledby="title-buscar">
+      <section
+        class="view"
+        id="view-buscar"
+        data-view="buscar"
+        aria-labelledby="title-buscar"
+      >
         <div class="hero compact">
           <p class="eyebrow">Do acervo para a web</p>
           <h2 id="title-buscar">Encontre o jantar</h2>
-          <p class="lede">O acervo responde na hora. Se precisar, a busca verificada continua em segundo plano.</p>
+          <p class="lede">
+            O acervo responde na hora. Se precisar, a busca verificada continua
+            em segundo plano.
+          </p>
         </div>
 
         <form class="search-box" id="search-form">
           <label for="search-query">Estou com vontade de…</label>
+
           <div class="search-row">
-            <input id="search-query" type="search" placeholder="carne rápida, massa com abóbora…" autocomplete="off" />
-            <button class="primary-button" type="submit">Buscar</button>
+            <input
+              id="search-query"
+              type="search"
+              placeholder="carne rápida, massa com abóbora…"
+              autocomplete="off"
+            />
+
+            <button class="primary-button" type="submit">
+              Buscar
+            </button>
           </div>
+
           <div class="quick-chips" aria-label="Buscas rápidas">
-            <button type="button" data-quick-search="carne vermelha rápida">Carne rápida</button>
-            <button type="button" data-quick-search="frango airfryer">Airfryer</button>
-            <button type="button" data-quick-search="sobremesa fácil">Doce fácil</button>
+            <button type="button" data-quick-search="carne vermelha rápida">
+              Carne rápida
+            </button>
+
+            <button type="button" data-quick-search="frango airfryer">
+              Airfryer
+            </button>
+
+            <button type="button" data-quick-search="sobremesa fácil">
+              Doce fácil
+            </button>
           </div>
         </form>
 
         <form class="pantry-box" id="pantry-form">
           <div>
             <p class="eyebrow">Usar o que já temos</p>
-            <label for="pantry-query">Ingredientes separados por vírgula</label>
+
+            <label for="pantry-query">
+              Ingredientes separados por vírgula
+            </label>
           </div>
+
           <div class="search-row">
-            <input id="pantry-query" type="text" placeholder="ovos, batata, queijo…" autocomplete="off" />
-            <button class="secondary-button" type="submit">Montar</button>
+            <input
+              id="pantry-query"
+              type="text"
+              placeholder="ovos, batata, queijo…"
+              autocomplete="off"
+            />
+
+            <button class="secondary-button" type="submit">
+              Montar
+            </button>
           </div>
         </form>
 
-        <div class="search-status" id="search-status" aria-live="polite"></div>
+        <div
+          class="search-status"
+          id="search-status"
+          aria-live="polite"
+        ></div>
+
         <div id="search-results"></div>
       </section>
 
-      <section class="view" id="view-lista" data-view="lista" aria-labelledby="title-lista">
+      <section
+        class="view"
+        id="view-lista"
+        data-view="lista"
+        aria-labelledby="title-lista"
+      >
         <div class="section-heading">
           <div>
             <p class="eyebrow">Tudo em um lugar</p>
             <h2 id="title-lista">Lista de compras</h2>
           </div>
-          <button class="secondary-button small" id="share-list" type="button">Compartilhar</button>
+
+          <button
+            class="secondary-button small"
+            id="share-list"
+            type="button"
+          >
+            Compartilhar
+          </button>
         </div>
+
         <div class="upload-card">
           <div>
             <strong>Tem uma receita em papel?</strong>
             <p>Fotografe. O app lê os ingredientes e soma tudo.</p>
           </div>
-          <label class="secondary-button small" for="photo-input">Ler foto</label>
-          <input id="photo-input" type="file" accept="image/*" multiple hidden />
+
+          <label class="secondary-button small" for="photo-input">
+            Ler foto
+          </label>
+
+          <input
+            id="photo-input"
+            type="file"
+            accept="image/*"
+            multiple
+            hidden
+          />
         </div>
-        <div id="photo-status" class="search-status" aria-live="polite"></div>
+
+        <div
+          id="photo-status"
+          class="search-status"
+          aria-live="polite"
+        ></div>
+
         <div id="liked-recipes"></div>
         <div id="shopping-list" aria-live="polite"></div>
       </section>
 
-      <section class="view" id="view-perfil" data-view="perfil" aria-labelledby="title-perfil">
+      <section
+        class="view"
+        id="view-perfil"
+        data-view="perfil"
+        aria-labelledby="title-perfil"
+      >
         <div class="hero compact">
           <p class="eyebrow">Preferências explicáveis</p>
           <h2 id="title-perfil">O paladar de vocês</h2>
-          <p class="lede">Cada voto ajusta o perfil. Nada de caixa-preta: as tendências aparecem aqui.</p>
+
+          <p class="lede">
+            Cada voto ajusta o perfil. Nada de caixa-preta: as tendências
+            aparecem aqui.
+          </p>
         </div>
+
         <div id="profile-content"></div>
       </section>
     </main>
 
     <nav class="bottom-nav" aria-label="Navegação principal">
-      <button class="is-active" type="button" data-tab="hoje"><span aria-hidden="true">●</span>Hoje</button>
-      <button type="button" data-tab="semana"><span aria-hidden="true">□</span>Semana</button>
-      <button type="button" data-tab="buscar"><span aria-hidden="true">⌕</span>Buscar</button>
-      <button type="button" data-tab="lista"><span aria-hidden="true">✓</span>Lista</button>
-      <button type="button" data-tab="perfil"><span aria-hidden="true">○</span>Perfil</button>
+      <button class="is-active" type="button" data-tab="hoje">
+        <span aria-hidden="true">●</span>
+        Hoje
+      </button>
+
+      <button type="button" data-tab="semana">
+        <span aria-hidden="true">□</span>
+        Semana
+      </button>
+
+      <button type="button" data-tab="buscar">
+        <span aria-hidden="true">⌕</span>
+        Buscar
+      </button>
+
+      <button type="button" data-tab="lista">
+        <span aria-hidden="true">✓</span>
+        Lista
+      </button>
+
+      <button type="button" data-tab="perfil">
+        <span aria-hidden="true">○</span>
+        Perfil
+      </button>
     </nav>
 
     <dialog class="recipe-dialog" id="recipe-dialog">
@@ -135,23 +272,62 @@
     </dialog>
 
     <dialog class="settings-dialog" id="settings-dialog">
-      <form method="dialog" class="settings-sheet" id="settings-form">
+      <form
+        method="dialog"
+        class="settings-sheet"
+        id="settings-form"
+      >
         <div class="dialog-heading">
           <div>
             <p class="eyebrow">Configuração</p>
             <h2>Ajustes</h2>
           </div>
-          <button class="icon-button" value="cancel" aria-label="Fechar ajustes">×</button>
+
+          <button
+            class="icon-button"
+            value="cancel"
+            aria-label="Fechar ajustes"
+          >
+            ×
+          </button>
         </div>
-        <label for="worker-url">Endereço do Cloudflare Worker</label>
-        <input id="worker-url" type="url" placeholder="https://cozinha-a-dois-worker.seu-usuario.workers.dev" />
-        <p class="field-help">Você só precisa colar este endereço uma vez. Ele fica salvo neste aparelho.</p>
+
+        <label for="worker-url">
+          Endereço do Cloudflare Worker
+        </label>
+
+        <input
+          id="worker-url"
+          type="url"
+          placeholder="https://cozinha-a-dois-worker.brazaorafael.workers.dev"
+        />
+
+        <p class="field-help">
+          Você só precisa colar este endereço uma vez. Ele fica salvo neste aparelho.
+        </p>
+
         <label for="couple-name">Nome do casal</label>
-        <input id="couple-name" type="text" placeholder="Ana & Rafael" />
+
+        <input
+          id="couple-name"
+          type="text"
+          placeholder="Ana & Rafael"
+        />
+
         <div class="settings-actions">
-          <button class="primary-button" id="save-settings" value="default">Salvar</button>
+          <button
+            class="primary-button"
+            id="save-settings"
+            value="default"
+          >
+            Salvar
+          </button>
         </div>
-        <p class="sync-indicator" id="sync-indicator"></p>
+
+        <p
+          class="sync-indicator"
+          id="sync-indicator"
+        ></p>
       </form>
     </dialog>
 
@@ -159,7 +335,10 @@
       <div class="empty-state">
         <span aria-hidden="true">◌</span>
         <h3>A cozinha está aquecendo</h3>
-        <p>Rode a primeira geração no GitHub Actions para receber as receitas.</p>
+
+        <p>
+          Rode a primeira geração no GitHub Actions para receber as receitas.
+        </p>
       </div>
     </template>
 
