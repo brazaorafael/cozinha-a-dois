@@ -1,0 +1,14 @@
+name = "cozinha-a-dois-worker"
+main = "worker.js"
+compatibility_date = "2025-04-01"
+
+[vars]
+REPO = "SEU_USUARIO/cozinha-a-dois"
+ALLOWED_ORIGINS = "https://SEU_USUARIO.github.io"
+ALLOWED_RECIPE_HOSTS = "panelinha.com.br,receitas.globo.com,tudogostoso.com.br"
+GEMINI_MODEL = "gemini-2.5-flash"
+ENABLE_PEXELS_FALLBACK = "false"
+
+[observability]
+enabled = true
+head_sampling_rate = 1

@@ -1,0 +1,273 @@
+{
+  "versao_schema": 2,
+  "gerado_em": "exemplo",
+  "diario": {
+    "tipo": "diario",
+    "data": "exemplo",
+    "dia_semana": "quarta-feira",
+    "pratos": [
+      {
+        "id": "picadinho-de-carne-com-abobora-demo",
+        "nome": "Picadinho de carne com abóbora",
+        "curso": "principal",
+        "tempo": "40 min",
+        "porque": "Proteico, feito numa panela só e rende bem para o almoço.",
+        "tags": ["carne_vermelha", "uma_panela", "rende_sobra"],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500 g de coxão mole em cubos",
+          "400 g de abóbora cabotiá",
+          "1 cebola",
+          "2 dentes de alho",
+          "2 colheres (sopa) de azeite",
+          "Sal, pimenta e cheiro-verde"
+        ],
+        "preparo": [
+          "Seque e tempere a carne com sal e pimenta.",
+          "Aqueça uma panela larga com o azeite e doure a carne em etapas.",
+          "Refogue a cebola e o alho na mesma panela.",
+          "Junte a abóbora e um pouco de água, tampe e cozinhe até ficar macia.",
+          "Volte a carne para a panela, ajuste o tempero e finalize com cheiro-verde."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "checked_at": "exemplo"
+        },
+        "imagem": {
+          "kind": "none",
+          "url": "",
+          "alt": "Picadinho de carne com abóbora"
+        }
+      },
+      {
+        "id": "frango-crocante-airfryer-demo",
+        "nome": "Frango crocante na airfryer",
+        "curso": "principal",
+        "tempo": "35 min",
+        "porque": "Prático, rico em proteína e sem imersão em óleo.",
+        "tags": ["frango", "airfryer", "rapido"],
+        "rende_sobra": true,
+        "ingredientes": [
+          "600 g de sobrecoxa desossada",
+          "1 colher (chá) de páprica",
+          "1 colher (sopa) de mostarda",
+          "1 colher (sopa) de azeite",
+          "Sal e pimenta"
+        ],
+        "preparo": [
+          "Corte o frango em pedaços grandes e seque bem.",
+          "Tempere com páprica, mostarda, azeite, sal e pimenta.",
+          "Preaqueça a airfryer a 200 °C.",
+          "Asse por 20 a 24 minutos, virando na metade do tempo.",
+          "Descanse por 3 minutos antes de servir."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "checked_at": "exemplo"
+        },
+        "imagem": {
+          "kind": "none",
+          "url": "",
+          "alt": "Frango crocante na airfryer"
+        }
+      },
+      {
+        "id": "salada-crocante-de-repolho-demo",
+        "nome": "Salada crocante de repolho e cenoura",
+        "curso": "entrada",
+        "tempo": "15 min",
+        "porque": "Fresca, rápida e equilibra os pratos principais.",
+        "tags": ["salada", "rapido", "vegetariano"],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1/4 de repolho roxo",
+          "1 cenoura",
+          "1/2 limão",
+          "2 colheres (sopa) de azeite",
+          "Sal e gergelim"
+        ],
+        "preparo": [
+          "Fatie o repolho bem fino.",
+          "Rale a cenoura e misture aos poucos.",
+          "Tempere com limão, azeite e sal.",
+          "Finalize com gergelim e sirva."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "checked_at": "exemplo"
+        },
+        "imagem": {
+          "kind": "none",
+          "url": "",
+          "alt": "Salada crocante de repolho e cenoura"
+        }
+      },
+      {
+        "id": "banana-assada-com-canela-demo",
+        "nome": "Banana assada com canela",
+        "curso": "sobremesa",
+        "tempo": "18 min",
+        "porque": "Doce simples, quente e com poucos ingredientes.",
+        "tags": ["sobremesa", "forno", "rapido"],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 bananas maduras",
+          "1 colher (chá) de canela",
+          "1 colher (chá) de mel",
+          "2 colheres (sopa) de iogurte natural"
+        ],
+        "preparo": [
+          "Aqueça o forno a 200 °C.",
+          "Abra as bananas ao meio e acomode numa assadeira pequena.",
+          "Polvilhe canela e regue com mel.",
+          "Asse por 12 minutos e sirva com iogurte."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "checked_at": "exemplo"
+        },
+        "imagem": {
+          "kind": "none",
+          "url": "",
+          "alt": "Banana assada com canela"
+        }
+      }
+    ]
+  },
+  "semanal": {
+    "tipo": "semanal",
+    "periodo": "exemplo da próxima semana",
+    "dias": [
+      {
+        "dia": "Segunda",
+        "pratos": [
+          {
+            "id": "almondegas-assadas-demo",
+            "nome": "Almôndegas assadas com molho de tomate",
+            "curso": "principal",
+            "tempo": "45 min",
+            "porque": "Carne vermelha, preparo simples e boa sobra.",
+            "tags": ["carne_vermelha", "forno"],
+            "rende_sobra": true,
+            "ingredientes": ["500 g de carne moída", "1 ovo", "1/2 xícara de farinha de rosca", "2 xícaras de molho de tomate"],
+            "preparo": ["Misture a carne com ovo e farinha.", "Modele as almôndegas.", "Asse até dourar.", "Junte ao molho quente e cozinhe por 10 minutos."],
+            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
+            "imagem": {"kind": "none", "url": "", "alt": "Almôndegas assadas com molho de tomate"}
+          }
+        ]
+      },
+      {
+        "dia": "Terça",
+        "pratos": [
+          {
+            "id": "lombo-mostarda-demo",
+            "nome": "Lombo suíno com mostarda e batatas",
+            "curso": "principal",
+            "tempo": "45 min",
+            "porque": "Refeição completa feita na assadeira.",
+            "tags": ["porco", "forno"],
+            "rende_sobra": true,
+            "ingredientes": ["500 g de lombo suíno", "400 g de batatas", "2 colheres de mostarda", "Alecrim e sal"],
+            "preparo": ["Tempere o lombo.", "Corte e tempere as batatas.", "Asse tudo até dourar.", "Descanse a carne e fatie."],
+            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
+            "imagem": {"kind": "none", "url": "", "alt": "Lombo suíno com mostarda e batatas"}
+          }
+        ]
+      },
+      {
+        "dia": "Quarta",
+        "pratos": [
+          {
+            "id": "omelete-forno-demo",
+            "nome": "Omelete de forno com legumes",
+            "curso": "principal",
+            "tempo": "30 min",
+            "porque": "Opção rápida, proteica e boa para aproveitar vegetais.",
+            "tags": ["ovos", "forno", "rapido"],
+            "rende_sobra": false,
+            "ingredientes": ["6 ovos", "1 abobrinha pequena", "1 tomate", "100 g de queijo minas"],
+            "preparo": ["Bata os ovos.", "Misture os legumes e o queijo.", "Tempere.", "Asse até firmar e dourar."],
+            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
+            "imagem": {"kind": "none", "url": "", "alt": "Omelete de forno com legumes"}
+          }
+        ]
+      },
+      {
+        "dia": "Quinta",
+        "pratos": [
+          {
+            "id": "bife-cebolado-demo",
+            "nome": "Bife acebolado com arroz e vagem",
+            "curso": "principal",
+            "tempo": "35 min",
+            "porque": "Clássico proteico e fácil para o meio da semana.",
+            "tags": ["carne_vermelha", "grelhado", "rapido"],
+            "rende_sobra": true,
+            "ingredientes": ["4 bifes de alcatra", "2 cebolas", "1 xícara de arroz", "250 g de vagem"],
+            "preparo": ["Cozinhe o arroz.", "Cozinhe a vagem rapidamente.", "Grelhe os bifes.", "Doure a cebola na mesma frigideira e sirva."],
+            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
+            "imagem": {"kind": "none", "url": "", "alt": "Bife acebolado com arroz e vagem"}
+          }
+        ]
+      },
+      {
+        "dia": "Sexta",
+        "pratos": [
+          {
+            "id": "macarrao-ragu-demo",
+            "nome": "Macarrão com ragu rápido de carne",
+            "curso": "principal",
+            "tempo": "40 min",
+            "porque": "Confortável para a sexta e sem técnica complicada.",
+            "tags": ["carne_vermelha", "massa"],
+            "rende_sobra": true,
+            "ingredientes": ["300 g de macarrão", "400 g de carne moída", "2 xícaras de molho de tomate", "1 cebola"],
+            "preparo": ["Cozinhe o macarrão.", "Doure a carne.", "Refogue a cebola.", "Junte o molho e sirva com a massa."],
+            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
+            "imagem": {"kind": "none", "url": "", "alt": "Macarrão com ragu rápido de carne"}
+          }
+        ]
+      },
+      {
+        "dia": "Sábado",
+        "pratos": [
+          {
+            "id": "hamburguer-caseiro-demo",
+            "nome": "Hambúrguer caseiro com legumes assados",
+            "curso": "principal",
+            "tempo": "45 min",
+            "porque": "Tem clima de fim de semana sem depender de fritura.",
+            "tags": ["carne_vermelha", "grelhado", "forno"],
+            "rende_sobra": false,
+            "ingredientes": ["500 g de carne moída", "2 pães", "1 abobrinha", "1 cenoura", "Sal e pimenta"],
+            "preparo": ["Modele os hambúrgueres.", "Corte e tempere os legumes.", "Asse os legumes.", "Grelhe a carne e monte os sanduíches."],
+            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
+            "imagem": {"kind": "none", "url": "", "alt": "Hambúrguer caseiro com legumes assados"}
+          }
+        ]
+      },
+      {
+        "dia": "Domingo",
+        "pratos": [
+          {
+            "id": "frango-assado-limao-demo",
+            "nome": "Frango assado com limão e ervas",
+            "curso": "principal",
+            "tempo": "45 min",
+            "porque": "Domingo simples, aromático e com boa sobra.",
+            "tags": ["frango", "forno", "rende_sobra"],
+            "rende_sobra": true,
+            "ingredientes": ["700 g de sobrecoxa", "2 limões", "500 g de batatas", "Alecrim e alho"],
+            "preparo": ["Tempere o frango.", "Corte as batatas.", "Monte a assadeira.", "Asse até dourar e cozinhar por completo."],
+            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
+            "imagem": {"kind": "none", "url": "", "alt": "Frango assado com limão e ervas"}
+          }
+        ]
+      }
+    ]
+  }
+}
