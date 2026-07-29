@@ -3,8 +3,8 @@ main = "worker.js"
 compatibility_date = "2025-04-01"
 
 [vars]
-REPO = "SEU_USUARIO/cozinha-a-dois"
-ALLOWED_ORIGINS = "https://SEU_USUARIO.github.io"
+REPO = "brazaorafael/cozinha-a-dois"
+ALLOWED_ORIGINS = "https://brazaorafael.github.io"
 ALLOWED_RECIPE_HOSTS = "panelinha.com.br,receitas.globo.com,tudogostoso.com.br"
 GEMINI_MODEL = "gemini-2.5-flash"
 ENABLE_PEXELS_FALLBACK = "false"
