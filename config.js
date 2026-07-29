@@ -1,5 +1,5 @@
 /**
- * Este Ã© o Ãºnico arquivo que normalmente precisa ser editado Ã  mÃ£o.
+ * Este é o único arquivo que normalmente precisa ser editado à mão.
  * Cole abaixo a URL exibida pelo Cloudflare depois de publicar o Worker.
  */
 window.COZINHA_CONFIG = {
