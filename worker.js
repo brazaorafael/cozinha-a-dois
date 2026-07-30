@@ -63,7 +63,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v4-curated-r2";
+const SEARCH_CACHE_VERSION = "v5-fast-curated";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -437,7 +437,8 @@ O pedido atual tem prioridade sobre o perfil geral.
 ${constraints}
 Não inclua receitas apenas parecidas: cada candidato deve cumprir TODAS as restrições
 obrigatórias acima. Se não houver uma opção segura, retorne uma lista vazia.
-Pesquise agora. Use exclusivamente as fontes abaixo, respeitando a ordem de confiança:
+Selecione candidatos conhecidos exclusivamente nas fontes abaixo, respeitando a ordem de confiança.
+Depois, o sistema abrirá cada URL para confirmar que a página existe e corresponde à receita:
 ${sourceInstruction}
 No TudoGostoso e no Cookpad, prefira resultados com avaliações melhores e mais avaliações.
 Retorne até 5 candidatos diferentes. A URL precisa ser a página direta da receita, nunca uma busca,
@@ -456,7 +457,9 @@ Para cada candidato, retorne:
 }
 `.trim();
 
-  const raw = await geminiJson(env, prompt, true);
+  // O Google Search embutido costuma ultrapassar o limite de duração do Worker.
+  // A resposta sem a ferramenta é rápida; as URLs continuam sendo abertas e verificadas abaixo.
+  const raw = await geminiJson(env, prompt, false);
   const candidates = asRecipeArray(raw).slice(0, 5);
   const checked = await Promise.all(candidates.map((candidate) => enrichRecipe(candidate, env)));
   const ranked = checked
