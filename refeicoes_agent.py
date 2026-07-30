@@ -86,6 +86,7 @@ Cada prato deve ter:
 Use 2 a 4 tags padronizadas. Ingredientes devem trazer quantidades quando possível.
 O preparo deve ter de 4 a 7 passos curtos, claros e escritos com palavras próprias.
 """.strip()
+COURSE_COUNTS = {"principal": 2, "entrada": 1, "sobremesa": 1}
 
 
 def load_json(path: Path, fallback: Any) -> Any:
@@ -205,6 +206,25 @@ Retorne somente JSON neste formato:
 """.strip()
 
 
+def select_menu_recipes(raw_recipes: Any, context: str) -> list[dict[str, Any]]:
+    """Impede que o modelo devolva mais ou menos pratos que o aplicativo espera."""
+    if not isinstance(raw_recipes, list):
+        raise ValueError(f"Lista de pratos inválida em {context}.")
+    selected: list[dict[str, Any]] = []
+    for course, expected in COURSE_COUNTS.items():
+        matches = [
+            recipe
+            for recipe in raw_recipes
+            if isinstance(recipe, dict) and str(recipe.get("curso", "")).strip().lower() == course
+        ]
+        if len(matches) < expected:
+            raise ValueError(
+                f"{context}: esperado(s) {expected} prato(s) de {course}, recebido(s) {len(matches)}."
+            )
+        selected.extend(matches[:expected])
+    return selected
+
+
 def generate() -> dict[str, Any]:
     print(f"[{DATE_BR}] Pesquisando candidatos com {MODEL}…", flush=True)
     candidates = call_gemini(candidate_prompt(), 0.45)
@@ -214,10 +234,29 @@ def generate() -> dict[str, Any]:
         raise ValueError("O modelo não devolveu um objeto de cardápio.")
     print("Validando links e fotos nas páginas de origem…", flush=True)
     if MODE == "semanal":
-        for day in result.get("dias", []):
-            day["pratos"] = [enrich_recipe(recipe) for recipe in day.get("pratos", [])]
+        days = result.get("dias", [])
+        if not isinstance(days, list) or len(days) < 7:
+            raise ValueError("O cardápio semanal precisa conter os sete dias.")
+        result["dias"] = days[:7]
+        for day in result["dias"]:
+            chosen = select_menu_recipes(day.get("pratos", []), str(day.get("dia", "dia")))
+            day["pratos"] = [enrich_recipe(recipe) for recipe in chosen]
     else:
-        result["pratos"] = [enrich_recipe(recipe) for recipe in result.get("pratos", [])]
+        chosen = select_menu_recipes(result.get("pratos", []), "cardápio diário")
+        result["pratos"] = [enrich_recipe(recipe) for recipe in chosen]
+
+    recipes = every_recipe(result)
+    image_count = sum(bool(recipe.get("imagem", {}).get("url")) for recipe in recipes)
+    if image_count == 0:
+        raise ValueError(
+            "Nenhuma imagem foi encontrada. Confira o secret PEXELS_KEY (ou PEXELS_API_KEY)."
+        )
+    if image_count < len(recipes):
+        print(
+            f"::warning::{len(recipes) - image_count} prato(s) ficaram sem foto; "
+            f"{image_count}/{len(recipes)} receberam imagem.",
+            flush=True,
+        )
     return result
 
 
