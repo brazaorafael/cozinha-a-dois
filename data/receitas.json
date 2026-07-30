@@ -1,6 +1,6 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-07-29T22:29:13-03:00",
+  "gerado_em": "2026-07-29T22:31:05-03:00",
   "diario": {
     "tipo": "diario",
     "data": "29/07/2026",
@@ -175,44 +175,189 @@
   },
   "semanal": {
     "tipo": "semanal",
-    "periodo": "exemplo da próxima semana",
+    "periodo": "03/08 a 09/08/2026",
     "dias": [
       {
         "dia": "Segunda",
         "pratos": [
           {
-            "id": "almondegas-assadas-demo",
-            "nome": "Almôndegas assadas com molho de tomate",
+            "nome": "Rosbife de Panela",
             "curso": "principal",
-            "tempo": "45 min",
-            "porque": "Carne vermelha, preparo simples e boa sobra.",
+            "tempo": "30 minutos",
+            "porque": "Carne vermelha prática e rápida, preparada na panela, resultando em um rosbife suculento. Ideal para um jantar nutritivo e com possibilidade de sobras para o almoço.",
             "tags": [
               "carne_vermelha",
-              "forno"
+              "rapido",
+              "panela",
+              "pratico"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "500 g de carne moída",
-              "1 ovo",
-              "1/2 xícara de farinha de rosca",
-              "2 xícaras de molho de tomate"
+              "500 g de lagarto (em peça)",
+              "1 colher (chá) de sementes de mostarda",
+              "1 colher (chá) de grãos de pimenta-do-reino",
+              "2 colheres (sopa) de azeite",
+              "Sal a gosto"
             ],
             "preparo": [
-              "Misture a carne com ovo e farinha.",
-              "Modele as almôndegas.",
-              "Asse até dourar.",
-              "Junte ao molho quente e cozinhe por 10 minutos."
+              "No pilão, moa as sementes de mostarda e os grãos de pimenta-do-reino.",
+              "Tempere o lagarto com a mistura moída e sal a gosto.",
+              "Aqueça o azeite em uma panela e doure a carne por todos os lados, por cerca de 10 minutos.",
+              "Adicione ½ xícara (chá) de água, tampe a panela e cozinhe em fogo baixo por 15 minutos, virando a carne na metade do tempo.",
+              "Retire a carne, fatie e sirva com o molho que se formou na panela."
             ],
             "fonte": {
-              "status": "unverified",
-              "url": "",
-              "checked_at": "exemplo"
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/rosbife-de-panela",
+              "title": "Rosbife de panela - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:33:53+00:00"
             },
             "imagem": {
               "kind": "none",
               "url": "",
-              "alt": "Almôndegas assadas com molho de tomate"
-            }
+              "alt": "Rosbife de Panela"
+            },
+            "id": "rosbife-de-panela-22ebcc6c"
+          },
+          {
+            "nome": "Ensopado Rápido de Frango com Cuscuz Marroquino",
+            "curso": "principal",
+            "tempo": "30 minutos",
+            "porque": "Um ensopado de frango com grão-de-bico e cuscuz marroquino, pronto em meia hora. É uma refeição completa, saborosa e que rende bem para o almoço do dia seguinte.",
+            "tags": [
+              "frango",
+              "ensopado",
+              "rapido",
+              "mediterraneo"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 peito de frango inteiro sem pele nem osso (cerca de 500 g)",
+              "1 lata de grão-de-bico cozido",
+              "1 lata de tomate pelado em cubos (com o líquido)",
+              "½ cebola",
+              "1 dente de alho",
+              "½ xícara (chá) de água",
+              "Raspas e caldo de ½ limão",
+              "1 colher (sopa) de mel",
+              "1 colher (chá) de cominho em pó",
+              "½ colher (chá) de cúrcuma",
+              "1 pitada de pimenta-de-caiena",
+              "1 folha de louro",
+              "Azeite a gosto",
+              "Sal e pimenta-do-reino moída na hora a gosto",
+              "Folhas de coentro a gosto para servir",
+              "1 xícara (chá) de cuscuz marroquino",
+              "1 colher (sopa) de azeite (para o cuscuz)",
+              "1 colher (chá) de sal (para o cuscuz)",
+              "1 xícara (chá) de água fervente (para o cuscuz)"
+            ],
+            "preparo": [
+              "Pique a cebola e o alho finos. Corte o frango em cubos de 2 cm e tempere com sal e pimenta.",
+              "Em uma panela, aqueça azeite e refogue a cebola e o alho. Adicione o frango e doure.",
+              "Junte o tomate pelado, grão-de-bico, água, raspas e caldo de limão, mel, cominho, cúrcuma, pimenta-de-caiena e louro. Cozinhe por 20 minutos.",
+              "Enquanto o ensopado cozinha, prepare o cuscuz: em uma tigela, misture o cuscuz com azeite e sal. Cubra com água fervente e deixe hidratar por 5 minutos. Solte com um garfo.",
+              "Sirva o ensopado de frango com o cuscuz marroquino e finalize com folhas de coentro."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/ensopado-rapido-de-frango-com-cuscuz-marroquino",
+              "title": "Ensopado rÃ¡pido de frango com cuscuz marroquino - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:33:54+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Ensopado Rápido de Frango com Cuscuz Marroquino"
+            },
+            "id": "ensopado-rapido-de-frango-com-cuscuz-marroquino-7badecd1"
+          },
+          {
+            "nome": "Salada de Folhas Verdes",
+            "curso": "entrada",
+            "tempo": "10 minutos",
+            "porque": "Uma entrada leve e refrescante, perfeita para abrir o apetite. Rápida de preparar e pode ser variada com o molho de preferência.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "rapido",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "Folhas de alface-romana a gosto",
+              "Folhas de alface-americana a gosto",
+              "Folhas de rúcula a gosto",
+              "Molho para salada de sua preferência (ex: azeite, limão, sal e pimenta)"
+            ],
+            "preparo": [
+              "Lave as folhas sob água corrente e transfira para uma tigela com água e bactericida.",
+              "Enxágue bem e seque as folhas em uma centrífuga de saladas ou com papel toalha.",
+              "Disponha as folhas em uma saladeira ou travessa.",
+              "Tempere com o molho desejado apenas na hora de servir."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-de-folhas-verdes",
+              "title": "Salada de folhas verdes - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:33:55+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Folhas Verdes"
+            },
+            "id": "salada-de-folhas-verdes-ff7ac8ab"
+          },
+          {
+            "nome": "Bolo de Caneca de Maçã e Amendoim (de micro-ondas)",
+            "curso": "sobremesa",
+            "tempo": "5 minutos",
+            "porque": "Uma sobremesa individual, super rápida e prática, feita no micro-ondas. Ideal para um doce sem complicação no dia a dia.",
+            "tags": [
+              "sobremesa",
+              "rapido",
+              "micro_ondas",
+              "individual"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "1 maçã pequena",
+              "1 ovo",
+              "2 colheres (sopa) de açúcar mascavo",
+              "2 colheres (sopa) de leite",
+              "1 colher (sopa) de óleo",
+              "4 colheres (sopa) de farinha de trigo",
+              "½ colher (chá) de fermento em pó",
+              "1 pitada de canela em pó",
+              "1 colher (sopa) de amendoim torrado e picado"
+            ],
+            "preparo": [
+              "Descasque e rale a maçã. Reserve.",
+              "Em uma caneca grande, bata o ovo com o açúcar mascavo, o leite e o óleo.",
+              "Adicione a farinha de trigo, o fermento e a canela. Misture bem até incorporar.",
+              "Incorpore a maçã ralada e metade do amendoim picado à massa.",
+              "Leve ao micro-ondas em potência alta por 2 a 3 minutos, ou até o bolo crescer e firmar.",
+              "Retire do micro-ondas, salpique o restante do amendoim e sirva."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Bolo-de-caneca-de-maca-e-amendoim-de-micro-ondas",
+              "checked_at": "2026-07-30T01:33:55+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Bolo de Caneca de Maçã e Amendoim (de micro-ondas)"
+            },
+            "id": "bolo-de-caneca-de-maca-e-amendoim-de-micro-ondas-941dc95e"
           }
         ]
       },
@@ -220,38 +365,183 @@
         "dia": "Terça",
         "pratos": [
           {
-            "id": "lombo-mostarda-demo",
-            "nome": "Lombo suíno com mostarda e batatas",
+            "nome": "Carne de Panela com Batata e Cenoura na Pressão",
             "curso": "principal",
-            "tempo": "45 min",
-            "porque": "Refeição completa feita na assadeira.",
+            "tempo": "45 minutos",
+            "porque": "Um clássico reconfortante, feito na panela de pressão para agilizar o preparo. A carne fica macia e o molho encorpado, ideal para render sobras.",
             "tags": [
-              "porco",
-              "forno"
+              "carne_vermelha",
+              "panela_de_pressao",
+              "classico",
+              "rende_sobra"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "500 g de lombo suíno",
-              "400 g de batatas",
-              "2 colheres de mostarda",
-              "Alecrim e sal"
+              "500 g de acém ou músculo em cubos",
+              "1 cebola picada",
+              "2 dentes de alho picados",
+              "2 batatas médias em cubos grandes",
+              "2 cenouras médias em rodelas",
+              "1 lata de tomate pelado picado",
+              "1 xícara (chá) de caldo de carne",
+              "2 colheres (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto",
+              "Folha de louro a gosto",
+              "Salsinha picada para finalizar"
             ],
             "preparo": [
-              "Tempere o lombo.",
-              "Corte e tempere as batatas.",
-              "Asse tudo até dourar.",
-              "Descanse a carne e fatie."
+              "Tempere a carne com sal e pimenta-do-reino.",
+              "Na panela de pressão, aqueça o azeite e doure a carne por todos os lados.",
+              "Adicione a cebola e o alho, refogue até ficarem macios.",
+              "Junte o tomate pelado, o caldo de carne e a folha de louro. Tampe a panela e cozinhe por 25 minutos após pegar pressão.",
+              "Libere a pressão, adicione as batatas e cenouras. Cozinhe novamente na pressão por mais 10 minutos.",
+              "Verifique o cozimento dos legumes, ajuste o tempero e finalize com salsinha picada."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "checked_at": "exemplo"
+              "suggested_url": "https://www.panelinha.com.br/receita/Carne-de-panela-com-batata-e-cenoura-na-pressao",
+              "checked_at": "2026-07-30T01:33:56+00:00"
             },
             "imagem": {
               "kind": "none",
               "url": "",
-              "alt": "Lombo suíno com mostarda e batatas"
-            }
+              "alt": "Carne de Panela com Batata e Cenoura na Pressão"
+            },
+            "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+          },
+          {
+            "nome": "Peito de Frango Grelhado",
+            "curso": "principal",
+            "tempo": "20 minutos",
+            "porque": "Uma opção leve e rápida de proteína, preparada na grelha para um sabor defumado. Versátil para acompanhar diversos vegetais.",
+            "tags": [
+              "frango",
+              "grelhado",
+              "rapido",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 filés de peito de frango (cerca de 180g cada)",
+              "1 colher (sopa) de sal",
+              "1 colher (chá) de açúcar mascavo",
+              "1 dente de alho amassado",
+              "1 folha de louro",
+              "2 colheres (sopa) de azeite",
+              "Pimenta-do-reino moída na hora a gosto"
+            ],
+            "preparo": [
+              "Em uma tigela, misture o sal, açúcar mascavo, alho amassado e louro. Cubra os filés de frango com essa mistura e deixe marinar por 10 minutos.",
+              "Aqueça uma frigideira grande em fogo alto. Regue com azeite.",
+              "Retire o frango da marinada, seque bem e tempere com pimenta-do-reino.",
+              "Coloque os filés na frigideira quente e doure por cerca de 1 minuto de cada lado para selar.",
+              "Abaixe o fogo e cozinhe por mais 5 minutos de cada lado, ou até o frango estar cozido por completo.",
+              "Sirva imediatamente."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/peito-de-frango-grelhado",
+              "title": "Peito de frango grelhado - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:33:57+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Peito de Frango Grelhado"
+            },
+            "id": "peito-de-frango-grelhado-5fe2d73a"
+          },
+          {
+            "nome": "Salada de Grão-de-Bico com Cebola e Cenoura Assadas",
+            "curso": "entrada",
+            "tempo": "35 minutos",
+            "porque": "Uma salada nutritiva e saborosa, com legumes assados que realçam o sabor do grão-de-bico. Pode ser preparada com antecedência.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "forno",
+              "saudavel"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 lata de grão-de-bico cozido (cerca de 250g)",
+              "1 cebola roxa média",
+              "2 cenouras médias",
+              "2 colheres (sopa) de azeite",
+              "1 colher (sopa) de vinagre de vinho tinto",
+              "1 colher (chá) de cominho em pó",
+              "Sal e pimenta-do-reino a gosto",
+              "Salsinha picada para finalizar"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 220 ºC. Descasque e corte a cebola em pétalas e as cenouras em rodelas finas.",
+              "Em uma assadeira, misture a cebola e a cenoura com 1 colher (sopa) de azeite, sal e pimenta. Asse por 20-25 minutos, até ficarem macias e levemente douradas.",
+              "Enquanto os legumes assam, escorra e lave o grão-de-bico.",
+              "Em uma tigela, misture o grão-de-bico, os legumes assados, o restante do azeite, o vinagre e o cominho.",
+              "Ajuste o sal e a pimenta. Finalize com salsinha picada e sirva em temperatura ambiente ou fria."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-de-grao-de-bico-com-cebola-e-cenoura-assadas",
+              "title": "Salada de grÃ£o-de-bico com cebola e cenoura assadas - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.86,
+              "checked_at": "2026-07-30T01:33:57+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Grão-de-Bico com Cebola e Cenoura Assadas"
+            },
+            "id": "salada-de-grao-de-bico-com-cebola-e-cenoura-assa-18298479"
+          },
+          {
+            "nome": "Ambrosia Rápida de Leite em Pó",
+            "curso": "sobremesa",
+            "tempo": "20 minutos",
+            "porque": "Uma versão prática e rápida da clássica ambrosia, utilizando leite em pó para agilizar o preparo. Doce e reconfortante.",
+            "tags": [
+              "sobremesa",
+              "rapido",
+              "doce",
+              "classico"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1½ xícara (chá) de leite em pó",
+              "1 ovo",
+              "3 colheres (sopa) de água",
+              "1 pitada de sal",
+              "½ xícara (chá) de açúcar",
+              "1 xícara (chá) de água (para a calda)",
+              "1 canela em rama",
+              "3 cravos-da-índia"
+            ],
+            "preparo": [
+              "Em uma tigela, misture o leite em pó, o ovo, as 3 colheres de água e a pitada de sal até formar uma pasta.",
+              "Em uma panela, prepare a calda: junte o açúcar, 1 xícara de água, a canela em rama e os cravos. Leve ao fogo médio e cozinhe até obter uma calda rala.",
+              "Adicione a pasta de leite em pó à calda, em colheradas, sem mexer muito.",
+              "Cozinhe em fogo baixo por cerca de 10-15 minutos, até a ambrosia começar a talhar e os pedaços se formarem.",
+              "Misture delicadamente com uma espátula para quebrar os pedaços maiores.",
+              "Desligue o fogo e deixe esfriar. Sirva em temperatura ambiente ou gelada."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/ambrosia-rapida-de-leite-em-po",
+              "title": "Ambrosia rÃ¡pida de leite em pÃ³ - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:33:58+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Ambrosia Rápida de Leite em Pó"
+            },
+            "id": "ambrosia-rapida-de-leite-em-po-dc1cc872"
           }
         ]
       },
@@ -259,39 +549,179 @@
         "dia": "Quarta",
         "pratos": [
           {
-            "id": "omelete-forno-demo",
-            "nome": "Omelete de forno com legumes",
+            "nome": "Carne com Batatas na Pressão",
             "curso": "principal",
-            "tempo": "30 min",
-            "porque": "Opção rápida, proteica e boa para aproveitar vegetais.",
+            "tempo": "20 minutos",
+            "porque": "Receita de carne de panela com batatas, rápida e fácil de fazer na panela de pressão. Perfeita para um jantar prático e com gostinho de comida caseira.",
             "tags": [
-              "ovos",
-              "forno",
-              "rapido"
+              "carne_vermelha",
+              "panela_de_pressao",
+              "rapido",
+              "caseiro"
             ],
-            "rende_sobra": false,
+            "rende_sobra": true,
             "ingredientes": [
-              "6 ovos",
-              "1 abobrinha pequena",
-              "1 tomate",
-              "100 g de queijo minas"
+              "2 colheres (sopa) de óleo",
+              "1 kg de acém em cubos",
+              "2 cebolas picadas",
+              "4 dentes de alho espremidos",
+              "1 colher (sopa) de coentro picado",
+              "1 xícara (chá) de molho de tomate",
+              "2 xícaras (chá) de caldo de carne",
+              "6 batatas em cubos grandes",
+              "Sal e pimenta-do-reino a gosto"
             ],
             "preparo": [
-              "Bata os ovos.",
-              "Misture os legumes e o queijo.",
-              "Tempere.",
-              "Asse até firmar e dourar."
+              "Na panela de pressão, aqueça o óleo em fogo alto e sele a carne, dourando por igual.",
+              "Junte a cebola, o alho e o coentro, refogue por alguns minutos.",
+              "Acrescente o molho de tomate, o caldo de carne, sal e pimenta-do-reino. Tampe a panela.",
+              "Cozinhe em fogo médio por 30 minutos após pegar pressão.",
+              "Libere a pressão, abra a panela, adicione as batatas e cozinhe novamente na pressão por mais 6 minutos.",
+              "Transfira para uma travessa e sirva quente."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "checked_at": "exemplo"
+              "suggested_url": "https://receitas.globo.com/ana-maria-braga/receita/carne-com-batatas-na-pressao.ghtml",
+              "checked_at": "2026-07-30T01:33:58+00:00"
             },
             "imagem": {
               "kind": "none",
               "url": "",
-              "alt": "Omelete de forno com legumes"
-            }
+              "alt": "Carne com Batatas na Pressão"
+            },
+            "id": "carne-com-batatas-na-pressao-e89a8a84"
+          },
+          {
+            "nome": "Frango com Mel e Especiarias na Air Fryer da Rita Lobo",
+            "curso": "principal",
+            "tempo": "25 minutos",
+            "porque": "Frango suculento e aromático, preparado na Air Fryer para um jantar rápido e sem sujeira. A marinada com mel e especiarias garante muito sabor.",
+            "tags": [
+              "frango",
+              "air_fryer",
+              "rapido",
+              "aromatico"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 filés de peito de frango (cerca de 180g cada)",
+              "1 colher (sopa) de mel",
+              "1 colher (chá) de páprica doce",
+              "½ colher (chá) de cominho em pó",
+              "½ colher (chá) de alho em pó",
+              "1 pitada de pimenta-caiena (opcional)",
+              "1 colher (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto",
+              "Salsinha picada para servir"
+            ],
+            "preparo": [
+              "Em uma tigela, misture o mel, páprica, cominho, alho em pó, pimenta-caiena, azeite, sal e pimenta-do-reino.",
+              "Adicione os filés de frango à marinada, cobrindo bem. Deixe marinar por 15 minutos (ou mais, se tiver tempo).",
+              "Preaqueça a Air Fryer a 180 °C por 5 minutos.",
+              "Coloque os filés de frango na cesta da Air Fryer, sem sobrepor.",
+              "Asse por 12-15 minutos, virando na metade do tempo, até o frango estar dourado e cozido por dentro.",
+              "Sirva imediatamente, salpicado com salsinha picada."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Frango-com-mel-e-especiarias-na-Air-Fryer-da-Rita-Lobo",
+              "checked_at": "2026-07-30T01:33:59+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Frango com Mel e Especiarias na Air Fryer da Rita Lobo"
+            },
+            "id": "frango-com-mel-e-especiarias-na-air-fryer-da-rit-c57785bb"
+          },
+          {
+            "nome": "Salada de Ovos Cremosa Proteica",
+            "curso": "entrada",
+            "tempo": "15 minutos",
+            "porque": "Uma entrada rica em proteína, rápida e fácil de preparar. Ideal para quem busca uma opção leve e nutritiva.",
+            "tags": [
+              "salada",
+              "proteica",
+              "rapido",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "4 ovos cozidos e picados",
+              "1 cebola pequena picada",
+              "1 dente de alho espremido",
+              "2 colheres (sopa) de maionese",
+              "1 colher (sopa) de azeite de oliva",
+              "1 colher (sopa) de molho de mostarda",
+              "Salsa picada a gosto",
+              "Sal a gosto",
+              "Pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Cozinhe os ovos, descasque e pique em pedaços pequenos.",
+              "Pique a cebola e esprema o alho.",
+              "Em uma tigela, coloque os ovos picados, cebola, alho, maionese, azeite e molho de mostarda.",
+              "Misture delicadamente até todos os ingredientes estarem incorporados.",
+              "Tempere com sal, pimenta-do-reino e salsa picada a gosto.",
+              "Sirva em temperatura ambiente ou gelada."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://receitas.globo.com/ana-maria-braga/receita/salada-de-ovos-cremosa-proteica-receita-rapida-e-saudavel-da-ana-maria-braga.ghtml",
+              "checked_at": "2026-07-30T01:34:00+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Ovos Cremosa Proteica"
+            },
+            "id": "salada-de-ovos-cremosa-proteica-ee42962c"
+          },
+          {
+            "nome": "Musse de Morango",
+            "curso": "sobremesa",
+            "tempo": "20 minutos (+ tempo de geladeira)",
+            "porque": "Uma sobremesa leve e refrescante, com o sabor vibrante do morango. Fácil de fazer e agrada a todos.",
+            "tags": [
+              "sobremesa",
+              "fruta",
+              "rapido",
+              "refrescante"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "300 g de morango (2 xícaras (chá))",
+              "1 lata de leite condensado (395 g)",
+              "1 lata de creme de leite",
+              "1 pacote de gelatina em pó incolor e sem sabor (12g)",
+              "Caldo de ½ limão"
+            ],
+            "preparo": [
+              "Lave e pique os morangos. Reserve alguns para decorar.",
+              "Hidrate a gelatina em pó conforme as instruções da embalagem.",
+              "No liquidificador, bata os morangos picados, o leite condensado, o creme de leite e o caldo de limão até obter uma mistura homogênea.",
+              "Adicione a gelatina hidratada e bata rapidamente para incorporar.",
+              "Despeje a musse em taças individuais ou em um refratário.",
+              "Leve à geladeira por pelo menos 2 horas, ou até firmar.",
+              "Decore com os morangos reservados e sirva gelado."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/musse-de-morango",
+              "title": "Musse de morango - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:00+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Musse de Morango"
+            },
+            "id": "musse-de-morango-b9520038"
           }
         ]
       },
@@ -299,39 +729,178 @@
         "dia": "Quinta",
         "pratos": [
           {
-            "id": "bife-cebolado-demo",
-            "nome": "Bife acebolado com arroz e vagem",
+            "nome": "Rosbife",
             "curso": "principal",
-            "tempo": "35 min",
-            "porque": "Clássico proteico e fácil para o meio da semana.",
+            "tempo": "30 minutos",
+            "porque": "Um rosbife clássico, assado no forno rapidamente para um interior suculento e vermelho. Ótimo para um jantar especial e rende sobras para sanduíches.",
             "tags": [
               "carne_vermelha",
-              "grelhado",
-              "rapido"
+              "forno",
+              "rapido",
+              "classico"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "4 bifes de alcatra",
-              "2 cebolas",
-              "1 xícara de arroz",
-              "250 g de vagem"
+              "750 g de filé mignon em peça para rosbife",
+              "1 colher (chá) de mostarda amarela em pó",
+              "1 colher (chá) de páprica defumada",
+              "Azeite a gosto",
+              "Sal e pimenta-do-reino moída na hora a gosto"
             ],
             "preparo": [
-              "Cozinhe o arroz.",
-              "Cozinhe a vagem rapidamente.",
-              "Grelhe os bifes.",
-              "Doure a cebola na mesma frigideira e sirva."
+              "Preaqueça o forno a 220 ºC. Retire o filé mignon da geladeira 15 minutos antes.",
+              "Em uma tigela pequena, misture a mostarda em pó com a páprica defumada.",
+              "Tempere a peça de filé mignon com sal, pimenta-do-reino e a mistura de especiarias.",
+              "Regue com azeite e espalhe bem por toda a superfície da carne.",
+              "Transfira o filé mignon para uma assadeira e leve ao forno por 15 minutos.",
+              "Diminua a temperatura para 180 ºC e asse por mais 10 minutos para malpassado, ou 15 minutos para ao ponto.",
+              "Retire do forno, cubra com papel-alumínio e deixe descansar por 10 minutos antes de fatiar e servir."
             ],
             "fonte": {
-              "status": "unverified",
-              "url": "",
-              "checked_at": "exemplo"
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/rosbife",
+              "title": "Rosbife - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:01+00:00"
             },
             "imagem": {
               "kind": "none",
               "url": "",
-              "alt": "Bife acebolado com arroz e vagem"
-            }
+              "alt": "Rosbife"
+            },
+            "id": "rosbife-5d3431e6"
+          },
+          {
+            "nome": "Frango ao Curry com Maçã",
+            "curso": "principal",
+            "tempo": "35 minutos",
+            "porque": "Uma receita de frango com um toque exótico e agridoce, fácil e rápida de preparar. O molho cremoso com maçã e curry é delicioso e rende sobras.",
+            "tags": [
+              "frango",
+              "refogado",
+              "exotico",
+              "rapido"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "2 filés de peito de frango (cerca de 500g)",
+              "2 maçãs fuji",
+              "1 cebola",
+              "2 dentes de alho",
+              "2 colheres (sopa) de curry em pó",
+              "1 xícara (chá) de creme de leite fresco",
+              "2 colheres (sopa) de azeite",
+              "Folhas de coentro a gosto para servir",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Corte o frango em cubos de 2 cm. Descasque e pique a cebola e o alho. Descasque e corte as maçãs em cubos.",
+              "Em uma panela, aqueça o azeite e doure o frango temperado com sal e pimenta. Retire e reserve.",
+              "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
+              "Adicione o curry em pó e refogue por 1 minuto, mexendo sempre.",
+              "Volte o frango para a panela, junte as maçãs e o creme de leite fresco. Misture bem.",
+              "Cozinhe em fogo baixo por cerca de 10 minutos, até o molho encorpar e as maçãs ficarem macias.",
+              "Sirva com arroz branco e finalize com folhas de coentro."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Frango-ao-curry-com-maca",
+              "checked_at": "2026-07-30T01:34:02+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Frango ao Curry com Maçã"
+            },
+            "id": "frango-ao-curry-com-maca-a3e5a2ad"
+          },
+          {
+            "nome": "Salada Italiana de Grão-de-Bico",
+            "curso": "entrada",
+            "tempo": "20 minutos",
+            "porque": "Uma salada fresca e saborosa com grão-de-bico, pimentão e um toque italiano. Perfeita como entrada leve ou acompanhamento.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "mediterraneo",
+              "rapido"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "1 lata de grão-de-bico cozido (cerca de 250g)",
+              "1 pimentão vermelho",
+              "½ cebola roxa pequena",
+              "50g de queijo parmesão em lascas",
+              "10 tomates cereja cortados ao meio",
+              "Folhas de manjericão fresco a gosto",
+              "2 colheres (sopa) de azeite",
+              "1 colher (sopa) de vinagre balsâmico",
+              "Sementes de erva-doce a gosto",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Escorra e lave o grão-de-bico. Reserve.",
+              "Corte o pimentão em tiras finas e a cebola roxa em fatias bem finas.",
+              "Em uma frigideira, aqueça um fio de azeite e refogue o pimentão e as sementes de erva-doce por 5 minutos, até o pimentão ficar macio.",
+              "Em uma tigela, misture o grão-de-bico, o pimentão refogado, a cebola roxa, os tomates cereja e as folhas de manjericão.",
+              "Tempere com azeite, vinagre balsâmico, sal e pimenta-do-reino.",
+              "Finalize com as lascas de parmesão e sirva."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Salada-italiana-de-grao-de-bico",
+              "checked_at": "2026-07-30T01:34:02+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada Italiana de Grão-de-Bico"
+            },
+            "id": "salada-italiana-de-grao-de-bico-bcb00be3"
+          },
+          {
+            "nome": "Pastel de Banana com Chocolate na Air Fryer da Rita Lobo",
+            "curso": "sobremesa",
+            "tempo": "20 minutos",
+            "porque": "Uma sobremesa indulgente e rápida, feita na Air Fryer. A combinação de banana e chocolate é sempre um sucesso, com a praticidade do preparo.",
+            "tags": [
+              "sobremesa",
+              "air_fryer",
+              "rapido",
+              "doce"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 bananas nanicas maduras",
+              "100 g de chocolate meio amargo picado",
+              "1 pacote de massa para pastel (redonda)",
+              "1 ovo batido para pincelar",
+              "Açúcar e canela em pó para polvilhar"
+            ],
+            "preparo": [
+              "Amasse as bananas com um garfo. Pique o chocolate meio amargo.",
+              "Abra a massa de pastel. Em cada disco, coloque uma porção de banana amassada e um pouco de chocolate picado.",
+              "Dobre a massa ao meio, formando um pastel, e feche as bordas com um garfo.",
+              "Pincele os pastéis com o ovo batido.",
+              "Preaqueça a Air Fryer a 180 °C por 5 minutos.",
+              "Coloque os pastéis na cesta da Air Fryer, sem sobrepor, e asse por 10-12 minutos, virando na metade do tempo, até dourarem.",
+              "Retire da Air Fryer, polvilhe com açúcar e canela em pó e sirva quente."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Pastel-de-banana-com-chocolate-na-Air-Fryer-da-Rita-Lobo",
+              "checked_at": "2026-07-30T01:34:03+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Pastel de Banana com Chocolate na Air Fryer da Rita Lobo"
+            },
+            "id": "pastel-de-banana-com-chocolate-na-air-fryer-da-r-3aa1639b"
           }
         ]
       },
@@ -339,38 +908,177 @@
         "dia": "Sexta",
         "pratos": [
           {
-            "id": "macarrao-ragu-demo",
-            "nome": "Macarrão com ragu rápido de carne",
+            "nome": "Maminha na Pressão",
             "curso": "principal",
-            "tempo": "40 min",
-            "porque": "Confortável para a sexta e sem técnica complicada.",
+            "tempo": "40 minutos",
+            "porque": "Maminha macia e suculenta, preparada na panela de pressão com um molho encorpado. Ideal para um jantar saboroso e rende marmitas para a semana.",
             "tags": [
               "carne_vermelha",
-              "massa"
+              "panela_de_pressao",
+              "classico",
+              "rende_sobra"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "300 g de macarrão",
-              "400 g de carne moída",
-              "2 xícaras de molho de tomate",
-              "1 cebola"
+              "1 peça de maminha (cerca de 730 g)",
+              "1 pimentão vermelho",
+              "1 cebola",
+              "2 dentes de alho",
+              "1 colher (sopa) de extrato de tomate",
+              "2 colheres (sopa) de molho inglês",
+              "2 colheres (sopa) de vinagre de vinho branco",
+              "1 xícara (chá) de água",
+              "2 colheres (sopa) de azeite",
+              "2 colheres (chá) de amido de milho",
+              "1 colher (chá) de páprica",
+              "3 ramos de alecrim",
+              "Sal e pimenta-do-reino moída na hora a gosto"
             ],
             "preparo": [
-              "Cozinhe o macarrão.",
-              "Doure a carne.",
-              "Refogue a cebola.",
-              "Junte o molho e sirva com a massa."
+              "Tempere a maminha com páprica, sal e pimenta-do-reino. Deixe em temperatura ambiente.",
+              "Pique a cebola em meias-luas, o pimentão em cubos e o alho fino.",
+              "Na panela de pressão, aqueça o azeite e doure a maminha por todos os lados. Retire e reserve.",
+              "Na mesma panela, refogue a cebola, o pimentão e o alho. Adicione o extrato de tomate e refogue por 1 minuto.",
+              "Volte a maminha para a panela, junte o molho inglês, vinagre, água e alecrim. Tampe e cozinhe por 30 minutos após pegar pressão.",
+              "Libere a pressão, retire a maminha e fatie. Dissolva o amido de milho em um pouco de água fria e adicione ao molho na panela, mexendo até engrossar.",
+              "Sirva a maminha fatiada com o molho."
             ],
             "fonte": {
-              "status": "unverified",
-              "url": "",
-              "checked_at": "exemplo"
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/maminha-na-pressao",
+              "title": "Maminha na pressÃ£o - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.42,
+              "checked_at": "2026-07-30T01:34:04+00:00"
             },
             "imagem": {
               "kind": "none",
               "url": "",
-              "alt": "Macarrão com ragu rápido de carne"
-            }
+              "alt": "Maminha na Pressão"
+            },
+            "id": "maminha-na-pressao-2c5e4b95"
+          },
+          {
+            "nome": "Bisteca Grelhada com Páprica e Sálvia",
+            "curso": "principal",
+            "tempo": "25 minutos",
+            "porque": "Bistecas de porco suculentas e saborosas, grelhadas com um tempero aromático de páprica e sálvia. Uma opção rápida e deliciosa para o jantar.",
+            "tags": [
+              "carne_de_porco",
+              "grelhado",
+              "rapido",
+              "aromatico"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 bistecas de porco (cerca de 200g cada)",
+              "1 colher (chá) de páprica doce",
+              "½ colher (chá) de alho em pó",
+              "Folhas de sálvia fresca picadas a gosto",
+              "1 colher (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Tempere as bistecas com sal, pimenta-do-reino, páprica, alho em pó e sálvia picada. Esfregue bem os temperos na carne.",
+              "Aqueça o azeite em uma frigideira ou grelha em fogo médio-alto.",
+              "Coloque as bistecas na frigideira quente e grelhe por 5-7 minutos de cada lado, ou até dourarem e estarem cozidas por dentro.",
+              "O tempo pode variar dependendo da espessura da bisteca e do ponto desejado.",
+              "Retire as bistecas da frigideira e deixe descansar por alguns minutos antes de servir."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/bisteca-grelhada-com-paprica-e-salvia",
+              "title": "Bisteca grelhada com pÃ¡prica e sÃ¡lvia - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.58,
+              "checked_at": "2026-07-30T01:34:04+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Bisteca Grelhada com Páprica e Sálvia"
+            },
+            "id": "bisteca-grelhada-com-paprica-e-salvia-5c60ee47"
+          },
+          {
+            "nome": "Salada Rápida de Grão-de-Bico",
+            "curso": "entrada",
+            "tempo": "10 minutos",
+            "porque": "Uma salada prática e nutritiva, perfeita para uma entrada leve. O grão-de-bico oferece proteína e saciedade.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "rapido",
+              "proteica"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "1½ xícara (chá) de grão-de-bico cozido (1 lata)",
+              "2 colheres (sopa) de caldo de limão",
+              "4 colheres (sopa) de azeite",
+              "20 folhas de manjericão fresco",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Escorra e lave o grão-de-bico. Transfira para uma tigela.",
+              "Pique grosseiramente as folhas de manjericão.",
+              "Adicione o caldo de limão, o azeite, o manjericão picado, sal e pimenta-do-reino ao grão-de-bico.",
+              "Misture bem todos os ingredientes.",
+              "Sirva imediatamente ou leve à geladeira por alguns minutos para refrescar."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
+              "title": "Salada rÃ¡pida de grÃ£o-de-bico - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.72,
+              "checked_at": "2026-07-30T01:34:04+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada Rápida de Grão-de-Bico"
+            },
+            "id": "salada-rapida-de-grao-de-bico-f701bcb3"
+          },
+          {
+            "nome": "Manga Flambada com Cachaça",
+            "curso": "sobremesa",
+            "tempo": "15 minutos",
+            "porque": "Uma sobremesa elegante e rápida, com o sabor tropical da manga realçado pelo flambado com cachaça. Perfeita para um toque especial.",
+            "tags": [
+              "sobremesa",
+              "fruta",
+              "rapido",
+              "elegante"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 mangas maduras, firmes",
+              "2 colheres (sopa) de manteiga",
+              "2 colheres (sopa) de açúcar mascavo",
+              "¼ xícara (chá) de cachaça",
+              "Sorvete de creme ou iogurte natural para acompanhar (opcional)"
+            ],
+            "preparo": [
+              "Descasque as mangas e corte a polpa em fatias grossas ou cubos.",
+              "Em uma frigideira grande, derreta a manteiga em fogo médio.",
+              "Adicione as fatias de manga e o açúcar mascavo. Cozinhe por 2-3 minutos de cada lado, até a manga ficar levemente caramelizada.",
+              "Retire a frigideira do fogo, adicione a cachaça e, com cuidado, incline a frigideira para flambar (ou acenda com um fósforo longo).",
+              "Deixe o fogo apagar naturalmente. Sirva a manga flambada imediatamente, pura ou acompanhada de sorvete de creme."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Manga-flambada-com-cachaca",
+              "checked_at": "2026-07-30T01:34:04+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Manga Flambada com Cachaça"
+            },
+            "id": "manga-flambada-com-cachaca-f662ad58"
           }
         ]
       },
@@ -378,40 +1086,175 @@
         "dia": "Sábado",
         "pratos": [
           {
-            "id": "hamburguer-caseiro-demo",
-            "nome": "Hambúrguer caseiro com legumes assados",
+            "nome": "Picanha Assada com Sal Grosso",
             "curso": "principal",
-            "tempo": "45 min",
-            "porque": "Tem clima de fim de semana sem depender de fritura.",
+            "tempo": "60 minutos",
+            "porque": "Picanha suculenta e saborosa, assada no forno com sal grosso para uma crosta perfeita. Ideal para um jantar de fim de semana e rende sobras.",
             "tags": [
               "carne_vermelha",
-              "grelhado",
-              "forno"
+              "forno",
+              "fim_de_semana",
+              "rende_sobra"
             ],
-            "rende_sobra": false,
+            "rende_sobra": true,
             "ingredientes": [
-              "500 g de carne moída",
-              "2 pães",
-              "1 abobrinha",
-              "1 cenoura",
-              "Sal e pimenta"
+              "1,2 kg de picanha em peça",
+              "4 claras de ovo",
+              "1 kg de sal grosso",
+              "½ xícara (chá) de farinha de trigo",
+              "Ramos de tomilho fresco a gosto"
             ],
             "preparo": [
-              "Modele os hambúrgueres.",
-              "Corte e tempere os legumes.",
-              "Asse os legumes.",
-              "Grelhe a carne e monte os sanduíches."
+              "Preaqueça o forno a 220 ºC. Em uma tigela, misture o sal grosso, as claras e a farinha de trigo até obter uma pasta úmida.",
+              "Em uma assadeira grande, espalhe 1/3 da mistura de sal grosso, formando uma camada do tamanho da picanha. Disponha os ramos de tomilho.",
+              "Seque bem a peça de picanha e coloque sobre a camada de sal, com a gordura para cima.",
+              "Cubra toda a picanha com o restante da mistura de sal grosso, pressionando para formar uma capa firme.",
+              "Leve ao forno e diminua a temperatura para 200 °C. Asse por 45 minutos para carne ao ponto, ou 1 hora para bem passada.",
+              "Retire do forno, quebre a crosta de sal e fatie a picanha. Sirva imediatamente."
             ],
             "fonte": {
-              "status": "unverified",
-              "url": "",
-              "checked_at": "exemplo"
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/picanha-assada-com-sal-grosso",
+              "title": "Picanha assada com sal grosso - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:05+00:00"
             },
             "imagem": {
               "kind": "none",
               "url": "",
-              "alt": "Hambúrguer caseiro com legumes assados"
-            }
+              "alt": "Picanha Assada com Sal Grosso"
+            },
+            "id": "picanha-assada-com-sal-grosso-9a4c1b1f"
+          },
+          {
+            "nome": "Peixe Grelhado com Molho de Manteiga e Limão",
+            "curso": "principal",
+            "tempo": "20 minutos",
+            "porque": "Uma opção de peixe leve e saborosa, grelhada rapidamente e acompanhada de um molho cítrico. Perfeito para variar o cardápio da semana.",
+            "tags": [
+              "peixe",
+              "grelhado",
+              "rapido",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 filés de pescada (cerca de 90 g cada)",
+              "¼ de xícara (chá) de fubá (ou farinha de trigo)",
+              "2 colheres (chá) de azeite",
+              "Sal a gosto",
+              "Para o molho:",
+              "2 colheres (sopa) de manteiga",
+              "¼ de xícara (chá) de caldo de limão",
+              "Salsinha picada a gosto"
+            ],
+            "preparo": [
+              "Retire os filés de peixe da geladeira 10 minutos antes de grelhar. Tempere com sal.",
+              "Passe os filés no fubá (ou farinha de trigo), cobrindo bem todos os lados.",
+              "Aqueça o azeite em uma frigideira antiaderente em fogo médio-alto.",
+              "Grelhe os filés por 3-4 minutos de cada lado, até dourarem e estarem cozidos.",
+              "Para o molho: em uma tigela pequena, derreta a manteiga no micro-ondas. Junte o caldo de limão e a salsinha. Misture.",
+              "Sirva o peixe grelhado regado com o molho de manteiga e limão."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Peixe-grelhado-com-molho-de-manteiga-e-limao",
+              "checked_at": "2026-07-30T01:34:06+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Peixe Grelhado com Molho de Manteiga e Limão"
+            },
+            "id": "peixe-grelhado-com-molho-de-manteiga-e-limao-70d76d0e"
+          },
+          {
+            "nome": "Salada de Grãos com Miniagrião",
+            "curso": "entrada",
+            "tempo": "45 minutos",
+            "porque": "Uma salada completa e nutritiva, com uma variedade de grãos e um molho de romã. Pode ser uma entrada substanciosa ou até uma refeição leve.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "saudavel",
+              "graos"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "½ xícara (chá) de trigo em grão",
+              "½ xícara (chá) de quinoa",
+              "½ xícara (chá) de cevadinha",
+              "Sal grosso a gosto",
+              "Folha de louro a gosto",
+              "½ xícara (chá) de damasco seco picado",
+              "¼ xícara (chá) de castanhas-do-pará picadas",
+              "Miniagrião para servir",
+              "Para a vinagrete de romã:",
+              "½ xícara (chá) de vinagre balsâmico",
+              "2 colheres (sopa) de molho de romã (xarope)",
+              "½ xícara (chá) de azeite",
+              "3 colheres (sopa) de mel",
+              "Sal a gosto"
+            ],
+            "preparo": [
+              "Cozinhe o trigo, a quinoa e a cevadinha separadamente em água com sal e louro. Escorra e reserve.",
+              "Pique o damasco em cubos e as castanhas-do-pará grosseiramente.",
+              "Para a vinagrete: em uma tigela, misture o vinagre balsâmico, molho de romã, azeite, mel e sal.",
+              "Em uma tigela grande, misture os grãos cozidos, o damasco e as castanhas. Regue com a vinagrete de romã e misture delicadamente.",
+              "Leve à geladeira até a hora de servir. Sirva com miniagrião."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-graos-com-miniagriao",
+              "checked_at": "2026-07-30T01:34:06+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Grãos com Miniagrião"
+            },
+            "id": "salada-de-graos-com-miniagriao-c63f7dca"
+          },
+          {
+            "nome": "Brigadeiro de Colher da Rita Lobo",
+            "curso": "sobremesa",
+            "tempo": "20 minutos",
+            "porque": "O clássico brigadeiro, na versão de colher, com cacau em pó para um sabor mais intenso e menos doce. Uma sobremesa rápida e irresistível.",
+            "tags": [
+              "sobremesa",
+              "classico",
+              "rapido",
+              "chocolate"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 lata de leite condensado (395 g)",
+              "2 colheres (sopa) de cacau em pó 100%",
+              "1 colher (sopa) de manteiga",
+              "½ xícara (chá) de leite"
+            ],
+            "preparo": [
+              "Em uma panela de fundo grosso, misture o leite condensado e o cacau em pó até dissolver bem.",
+              "Adicione a manteiga e o leite. Leve ao fogo médio, mexendo sempre.",
+              "Cozinhe por cerca de 10-15 minutos, raspando o fundo e as laterais da panela, até o brigadeiro engrossar e começar a desgrudar do fundo.",
+              "O ponto ideal para comer de colher é quando ele ainda está cremoso, mas já encorpado.",
+              "Transfira para uma tigela e deixe esfriar em temperatura ambiente. Sirva em copinhos ou tigelas pequenas."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Brigadeiro-de-colher-da-Rita-Lobo",
+              "checked_at": "2026-07-30T01:34:07+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Brigadeiro de Colher da Rita Lobo"
+            },
+            "id": "brigadeiro-de-colher-da-rita-lobo-c32e6513"
           }
         ]
       },
@@ -419,39 +1262,1452 @@
         "dia": "Domingo",
         "pratos": [
           {
-            "id": "frango-assado-limao-demo",
-            "nome": "Frango assado com limão e ervas",
+            "nome": "Carne Moída com Refogado de Pimentão",
             "curso": "principal",
-            "tempo": "45 min",
-            "porque": "Domingo simples, aromático e com boa sobra.",
+            "tempo": "30 minutos",
+            "porque": "Carne moída saborosa e úmida, com um refogado de pimentão que adiciona cor e frescor. Um prato versátil para o dia a dia e que rende sobras.",
             "tags": [
-              "frango",
-              "forno",
-              "rende_sobra"
+              "carne_vermelha",
+              "refogado",
+              "rapido",
+              "versatil"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "700 g de sobrecoxa",
-              "2 limões",
-              "500 g de batatas",
-              "Alecrim e alho"
+              "500 g de patinho moído",
+              "1 pimentão vermelho",
+              "1 cebola",
+              "2 dentes de alho",
+              "½ xícara (chá) de água quente",
+              "3 colheres (sopa) de azeite",
+              "Cebolinha fatiada a gosto para servir",
+              "Sal e pimenta-do-reino moída na hora a gosto"
             ],
             "preparo": [
-              "Tempere o frango.",
-              "Corte as batatas.",
-              "Monte a assadeira.",
-              "Asse até dourar e cozinhar por completo."
+              "Retire a carne moída da geladeira. Pique o pimentão em cubos, a cebola em cubos pequenos e o alho fino.",
+              "Em uma panela, aqueça 2 colheres de azeite e refogue a cebola com uma pitada de sal por 10 minutos, até dourar.",
+              "Adicione o pimentão, tempere com sal e pimenta e refogue por 2 minutos. Junte o alho e misture.",
+              "Empurre os legumes para um lado da panela. Adicione o restante do azeite e a carne moída em montinhos, sem mexer, para dourar bem.",
+              "Quando a carne estiver dourada, misture com os legumes. Adicione a água quente e cozinhe por mais 5 minutos, mexendo ocasionalmente.",
+              "Ajuste o tempero, finalize com cebolinha fatiada e sirva com arroz e feijão."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "checked_at": "exemplo"
+              "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-refogado-de-pimentao",
+              "checked_at": "2026-07-30T01:34:07+00:00"
             },
             "imagem": {
               "kind": "none",
               "url": "",
-              "alt": "Frango assado com limão e ervas"
-            }
+              "alt": "Carne Moída com Refogado de Pimentão"
+            },
+            "id": "carne-moida-com-refogado-de-pimentao-283735d9"
+          },
+          {
+            "nome": "Ensopado Rápido de Filé Mignon Suíno e Couve",
+            "curso": "principal",
+            "tempo": "35 minutos",
+            "porque": "Um ensopado de carne de porco com couve, rápido e saboroso. O refogado caprichado garante um prato cheio de sabor e que rende sobras.",
+            "tags": [
+              "carne_de_porco",
+              "ensopado",
+              "rapido",
+              "refogado"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "500 g de filé mignon suíno em cubos",
+              "1 maço de couve",
+              "1 cebola",
+              "2 dentes de alho",
+              "1 tomate maduro",
+              "1 xícara (chá) de caldo de carne ou água",
+              "2 colheres (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto",
+              "Páprica doce a gosto"
+            ],
+            "preparo": [
+              "Corte o filé mignon suíno em cubos. Tempere com sal, pimenta-do-reino e páprica.",
+              "Pique a cebola e o alho finos. Corte o tomate em cubos e a couve em tiras finas.",
+              "Em uma panela, aqueça o azeite e doure a carne por todos os lados. Retire e reserve.",
+              "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
+              "Adicione o tomate e refogue por mais 5 minutos. Volte a carne para a panela.",
+              "Junte o caldo de carne ou água. Cozinhe em fogo baixo por 15 minutos, até a carne ficar macia.",
+              "Adicione a couve e cozinhe por mais 5 minutos, ou até a couve murchar. Ajuste o tempero e sirva."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/ensopado-rapido-de-file-mignon-suino-e-couve",
+              "title": "Ensopado rÃ¡pido de filÃ© mignon suÃ­no e couve - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.66,
+              "checked_at": "2026-07-30T01:34:07+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Ensopado Rápido de Filé Mignon Suíno e Couve"
+            },
+            "id": "ensopado-rapido-de-file-mignon-suino-e-couve-b81228e2"
+          },
+          {
+            "nome": "Salada de Laranja com Azeitonas Verdes, Cebola Roxa e Ervas",
+            "curso": "entrada",
+            "tempo": "15 minutos",
+            "porque": "Uma salada fresca e vibrante, com a doçura da laranja, o salgado da azeitona e o frescor das ervas. Uma combinação surpreendente e leve.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "citrico",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 laranjas",
+              "½ xícara (chá) de azeitonas verdes sem caroço",
+              "¼ de cebola roxa em fatias finas",
+              "Folhas de hortelã fresca a gosto",
+              "Folhas de salsinha fresca a gosto",
+              "Folhas de manjericão fresco a gosto",
+              "2 colheres (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Descasque as laranjas, retirando toda a parte branca. Corte em rodelas ou gomos.",
+              "Fatie a cebola roxa bem fina. Lave e seque as ervas frescas.",
+              "Em uma tigela, combine as rodelas de laranja, azeitonas verdes, cebola roxa e as ervas picadas.",
+              "Regue com azeite, tempere com sal e pimenta-do-reino a gosto.",
+              "Misture delicadamente para não desmanchar as laranjas.",
+              "Sirva imediatamente para aproveitar o frescor dos ingredientes."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-de-laranja-com-azeitonas-verdes-cebola-roxa-e-ervas",
+              "title": "Salada de laranja com azeitonas verdes, cebola roxa e ervas - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:08+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Laranja com Azeitonas Verdes, Cebola Roxa e Ervas"
+            },
+            "id": "salada-de-laranja-com-azeitonas-verdes-cebola-ro-0921c033"
+          },
+          {
+            "nome": "Cocada Mole",
+            "curso": "sobremesa",
+            "tempo": "25 minutos",
+            "porque": "Uma cocada cremosa e deliciosa, com a textura do coco fresco. Fácil de preparar e pode ser servida em temperatura ambiente ou gelada.",
+            "tags": [
+              "sobremesa",
+              "classico",
+              "doce",
+              "coco"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 lata de leite condensado (395 g)",
+              "1 xícara (chá) de coco fresco ralado grosso",
+              "1½ xícara (chá) de leite",
+              "1 colher (sopa) de manteiga"
+            ],
+            "preparo": [
+              "Em uma panela, misture o leite condensado, o coco ralado, o leite e a manteiga.",
+              "Leve ao fogo médio, mexendo sempre, até a mistura começar a engrossar e desgrudar do fundo da panela (cerca de 15-20 minutos).",
+              "O ponto ideal é cremoso, mas ainda mole, pois a cocada firmará um pouco ao esfriar.",
+              "Retire do fogo e transfira para um refratário ou potinhos individuais.",
+              "Deixe esfriar em temperatura ambiente e depois leve à geladeira por pelo menos 1 hora antes de servir."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/cocada-mole",
+              "title": "Cocada mole - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:08+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Cocada Mole"
+            },
+            "id": "cocada-mole-a594ccd4"
+          }
+        ]
+      },
+      {
+        "dia": "Segunda",
+        "pratos": [
+          {
+            "nome": "Maminha na Pressão",
+            "curso": "principal",
+            "tempo": "40 minutos",
+            "porque": "Maminha macia e suculenta, preparada na panela de pressão com um molho encorpado. Ideal para um jantar saboroso e rende marmitas para a semana.",
+            "tags": [
+              "carne_vermelha",
+              "panela_de_pressao",
+              "classico",
+              "rende_sobra"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 peça de maminha (cerca de 730 g)",
+              "1 pimentão vermelho",
+              "1 cebola",
+              "2 dentes de alho",
+              "1 colher (sopa) de extrato de tomate",
+              "2 colheres (sopa) de molho inglês",
+              "2 colheres (sopa) de vinagre de vinho branco",
+              "1 xícara (chá) de água",
+              "2 colheres (sopa) de azeite",
+              "2 colheres (chá) de amido de milho",
+              "1 colher (chá) de páprica",
+              "3 ramos de alecrim",
+              "Sal e pimenta-do-reino moída na hora a gosto"
+            ],
+            "preparo": [
+              "Tempere a maminha com páprica, sal e pimenta-do-reino. Deixe em temperatura ambiente.",
+              "Pique a cebola em meias-luas, o pimentão em cubos e o alho fino.",
+              "Na panela de pressão, aqueça o azeite e doure a maminha por todos os lados. Retire e reserve.",
+              "Na mesma panela, refogue a cebola, o pimentão e o alho. Adicione o extrato de tomate e refogue por 1 minuto.",
+              "Volte a maminha para a panela, junte o molho inglês, vinagre, água e alecrim. Tampe e cozinhe por 30 minutos após pegar pressão.",
+              "Libere a pressão, retire a maminha e fatie. Dissolva o amido de milho em um pouco de água fria e adicione ao molho na panela, mexendo até engrossar.",
+              "Sirva a maminha fatiada com o molho."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/maminha-na-pressao",
+              "title": "Maminha na pressÃ£o - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.42,
+              "checked_at": "2026-07-30T01:34:08+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Maminha na Pressão"
+            },
+            "id": "maminha-na-pressao-2c5e4b95"
+          },
+          {
+            "nome": "Ensopado Rápido de Frango com Grão-de-Bico",
+            "curso": "principal",
+            "tempo": "30 minutos",
+            "porque": "Um ensopado de frango com grão-de-bico e cuscuz marroquino, pronto em meia hora. É uma refeição completa, saborosa e que rende bem para o almoço do dia seguinte.",
+            "tags": [
+              "frango",
+              "ensopado",
+              "rapido",
+              "mediterraneo"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 peito de frango inteiro sem pele nem osso (cerca de 500 g)",
+              "1 lata de grão-de-bico cozido",
+              "1 lata de tomate pelado em cubos (com o líquido)",
+              "½ cebola",
+              "1 dente de alho",
+              "½ xícara (chá) de água",
+              "Raspas e caldo de ½ limão",
+              "1 colher (sopa) de mel",
+              "1 colher (chá) de cominho em pó",
+              "½ colher (chá) de cúrcuma",
+              "1 pitada de pimenta-de-caiena",
+              "1 folha de louro",
+              "Azeite a gosto",
+              "Sal e pimenta-do-reino moída na hora a gosto",
+              "Folhas de coentro a gosto para servir",
+              "1 xícara (chá) de cuscuz marroquino",
+              "1 colher (sopa) de azeite (para o cuscuz)",
+              "1 colher (chá) de sal (para o cuscuz)",
+              "1 xícara (chá) de água fervente (para o cuscuz)"
+            ],
+            "preparo": [
+              "Pique a cebola e o alho finos. Corte o frango em cubos de 2 cm e tempere com sal e pimenta.",
+              "Em uma panela, aqueça azeite e refogue a cebola e o alho. Adicione o frango e doure.",
+              "Junte o tomate pelado, grão-de-bico, água, raspas e caldo de limão, mel, cominho, cúrcuma, pimenta-de-caiena e louro. Cozinhe por 20 minutos.",
+              "Enquanto o ensopado cozinha, prepare o cuscuz: em uma tigela, misture o cuscuz com azeite e sal. Cubra com água fervente e deixe hidratar por 5 minutos. Solte com um garfo.",
+              "Sirva o ensopado de frango com o cuscuz marroquino e finalize com folhas de coentro."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/ensopado-rapido-de-frango-com-cuscuz-marroquino",
+              "title": "Ensopado rÃ¡pido de frango com cuscuz marroquino - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.58,
+              "checked_at": "2026-07-30T01:34:08+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Ensopado Rápido de Frango com Grão-de-Bico"
+            },
+            "id": "ensopado-rapido-de-frango-com-grao-de-bico-b72a65ab"
+          },
+          {
+            "nome": "Salada de Laranja com Azeitonas Verdes, Cebola Roxa e Ervas",
+            "curso": "entrada",
+            "tempo": "15 minutos",
+            "porque": "Uma salada fresca e vibrante, com a doçura da laranja, o salgado da azeitona e o frescor das ervas. Uma combinação surpreendente e leve.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "citrico",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 laranjas",
+              "½ xícara (chá) de azeitonas verdes sem caroço",
+              "¼ de cebola roxa em fatias finas",
+              "Folhas de hortelã fresca a gosto",
+              "Folhas de salsinha fresca a gosto",
+              "Folhas de manjericão fresco a gosto",
+              "2 colheres (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Descasque as laranjas, retirando toda a parte branca. Corte em rodelas ou gomos.",
+              "Fatie a cebola roxa bem fina. Lave e seque as ervas frescas.",
+              "Em uma tigela, combine as rodelas de laranja, azeitonas verdes, cebola roxa e as ervas picadas.",
+              "Regue com azeite, tempere com sal e pimenta-do-reino a gosto.",
+              "Misture delicadamente para não desmanchar as laranjas.",
+              "Sirva imediatamente para aproveitar o frescor dos ingredientes."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-de-laranja-com-azeitonas-verdes-cebola-roxa-e-ervas",
+              "title": "Salada de laranja com azeitonas verdes, cebola roxa e ervas - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:09+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Laranja com Azeitonas Verdes, Cebola Roxa e Ervas"
+            },
+            "id": "salada-de-laranja-com-azeitonas-verdes-cebola-ro-0921c033"
+          },
+          {
+            "nome": "Cocada Mole",
+            "curso": "sobremesa",
+            "tempo": "25 minutos",
+            "porque": "Uma cocada cremosa e deliciosa, com a textura do coco fresco. Fácil de preparar e pode ser servida em temperatura ambiente ou gelada.",
+            "tags": [
+              "sobremesa",
+              "classico",
+              "doce",
+              "coco"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 lata de leite condensado (395 g)",
+              "1 xícara (chá) de coco fresco ralado grosso",
+              "1½ xícara (chá) de leite",
+              "1 colher (sopa) de manteiga"
+            ],
+            "preparo": [
+              "Em uma panela, misture o leite condensado, o coco ralado, o leite e a manteiga.",
+              "Leve ao fogo médio, mexendo sempre, até a mistura começar a engrossar e desgrudar do fundo da panela (cerca de 15-20 minutos).",
+              "O ponto ideal é cremoso, mas ainda mole, pois a cocada firmará um pouco ao esfriar.",
+              "Retire do fogo e transfira para um refratário ou potinhos individuais.",
+              "Deixe esfriar em temperatura ambiente e depois leve à geladeira por pelo menos 1 hora antes de servir."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/cocada-mole",
+              "title": "Cocada mole - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:09+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Cocada Mole"
+            },
+            "id": "cocada-mole-a594ccd4"
+          }
+        ]
+      },
+      {
+        "dia": "Terça",
+        "pratos": [
+          {
+            "nome": "Carne de Panela com Batata e Cenoura na Pressão",
+            "curso": "principal",
+            "tempo": "45 minutos",
+            "porque": "Um clássico reconfortante, feito na panela de pressão para agilizar o preparo. A carne fica macia e o molho encorpado, ideal para render sobras.",
+            "tags": [
+              "carne_vermelha",
+              "panela_de_pressao",
+              "classico",
+              "rende_sobra"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "500 g de acém ou músculo em cubos",
+              "1 cebola picada",
+              "2 dentes de alho picados",
+              "2 batatas médias em cubos grandes",
+              "2 cenouras médias em rodelas",
+              "1 lata de tomate pelado picado",
+              "1 xícara (chá) de caldo de carne",
+              "2 colheres (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto",
+              "Folha de louro a gosto",
+              "Salsinha picada para finalizar"
+            ],
+            "preparo": [
+              "Tempere a carne com sal e pimenta-do-reino.",
+              "Na panela de pressão, aqueça o azeite e doure a carne por todos os lados.",
+              "Adicione a cebola e o alho, refogue até ficarem macios.",
+              "Junte o tomate pelado, o caldo de carne e a folha de louro. Tampe a panela e cozinhe por 25 minutos após pegar pressão.",
+              "Libere a pressão, adicione as batatas e cenouras. Cozinhe novamente na pressão por mais 10 minutos.",
+              "Verifique o cozimento dos legumes, ajuste o tempero e finalize com salsinha picada."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Carne-de-panela-com-batata-e-cenoura-na-pressao",
+              "checked_at": "2026-07-30T01:34:09+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Carne de Panela com Batata e Cenoura na Pressão"
+            },
+            "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+          },
+          {
+            "nome": "Peito de Frango Grelhado",
+            "curso": "principal",
+            "tempo": "20 minutos",
+            "porque": "Uma opção leve e rápida de proteína, preparada na grelha para um sabor defumado. Versátil para acompanhar diversos vegetais.",
+            "tags": [
+              "frango",
+              "grelhado",
+              "rapido",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 filés de peito de frango (cerca de 180g cada)",
+              "1 colher (sopa) de sal",
+              "1 colher (chá) de açúcar mascavo",
+              "1 dente de alho amassado",
+              "1 folha de louro",
+              "2 colheres (sopa) de azeite",
+              "Pimenta-do-reino moída na hora a gosto"
+            ],
+            "preparo": [
+              "Em uma tigela, misture o sal, açúcar mascavo, alho amassado e louro. Cubra os filés de frango com essa mistura e deixe marinar por 10 minutos.",
+              "Aqueça uma frigideira grande em fogo alto. Regue com azeite.",
+              "Retire o frango da marinada, seque bem e tempere com pimenta-do-reino.",
+              "Coloque os filés na frigideira quente e doure por cerca de 1 minuto de cada lado para selar.",
+              "Abaixe o fogo e cozinhe por mais 5 minutos de cada lado, ou até o frango estar cozido por completo.",
+              "Sirva imediatamente."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/peito-de-frango-grelhado",
+              "title": "Peito de frango grelhado - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:09+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Peito de Frango Grelhado"
+            },
+            "id": "peito-de-frango-grelhado-5fe2d73a"
+          },
+          {
+            "nome": "Salada de Grão-de-Bico com Cebola e Cenoura Assadas",
+            "curso": "entrada",
+            "tempo": "35 minutos",
+            "porque": "Uma salada nutritiva e saborosa, com legumes assados que realçam o sabor do grão-de-bico. Pode ser preparada com antecedência.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "forno",
+              "saudavel"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 lata de grão-de-bico cozido (cerca de 250g)",
+              "1 cebola roxa média",
+              "2 cenouras médias",
+              "2 colheres (sopa) de azeite",
+              "1 colher (sopa) de vinagre de vinho tinto",
+              "1 colher (chá) de cominho em pó",
+              "Sal e pimenta-do-reino a gosto",
+              "Salsinha picada para finalizar"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 220 ºC. Descasque e corte a cebola em pétalas e as cenouras em rodelas finas.",
+              "Em uma assadeira, misture a cebola e a cenoura com 1 colher (sopa) de azeite, sal e pimenta. Asse por 20-25 minutos, até ficarem macias e levemente douradas.",
+              "Enquanto os legumes assam, escorra e lave o grão-de-bico.",
+              "Em uma tigela, misture o grão-de-bico, os legumes assados, o restante do azeite, o vinagre e o cominho.",
+              "Ajuste o sal e a pimenta. Finalize com salsinha picada e sirva em temperatura ambiente ou fria."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-de-grao-de-bico-com-cebola-e-cenoura-assadas",
+              "title": "Salada de grÃ£o-de-bico com cebola e cenoura assadas - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.86,
+              "checked_at": "2026-07-30T01:34:09+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Grão-de-Bico com Cebola e Cenoura Assadas"
+            },
+            "id": "salada-de-grao-de-bico-com-cebola-e-cenoura-assa-18298479"
+          },
+          {
+            "nome": "Ambrosia Rápida de Leite em Pó",
+            "curso": "sobremesa",
+            "tempo": "20 minutos (+ tempo de geladeira)",
+            "porque": "Uma versão prática e rápida da clássica ambrosia, utilizando leite em pó para agilizar o preparo. Doce e reconfortante.",
+            "tags": [
+              "sobremesa",
+              "rapido",
+              "doce",
+              "classico"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1½ xícara (chá) de leite em pó",
+              "1 ovo",
+              "3 colheres (sopa) de água",
+              "1 pitada de sal",
+              "½ xícara (chá) de açúcar",
+              "1 xícara (chá) de água (para a calda)",
+              "1 canela em rama",
+              "3 cravos-da-índia"
+            ],
+            "preparo": [
+              "Em uma tigela, misture o leite em pó, o ovo, as 3 colheres de água e a pitada de sal até formar uma pasta.",
+              "Em uma panela, prepare a calda: junte o açúcar, 1 xícara de água, a canela em rama e os cravos. Leve ao fogo médio e cozinhe até obter uma calda rala.",
+              "Adicione a pasta de leite em pó à calda, em colheradas, sem mexer muito.",
+              "Cozinhe em fogo baixo por cerca de 10-15 minutos, até a ambrosia começar a talhar e os pedaços se formarem.",
+              "Misture delicadamente com uma espátula para quebrar os pedaços maiores.",
+              "Desligue o fogo e deixe esfriar. Sirva em temperatura ambiente ou gelada."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/ambrosia-rapida-de-leite-em-po",
+              "title": "Ambrosia rÃ¡pida de leite em pÃ³ - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:10+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Ambrosia Rápida de Leite em Pó"
+            },
+            "id": "ambrosia-rapida-de-leite-em-po-dc1cc872"
+          }
+        ]
+      },
+      {
+        "dia": "Quarta",
+        "pratos": [
+          {
+            "nome": "Carne com Batatas na Pressão",
+            "curso": "principal",
+            "tempo": "20 minutos",
+            "porque": "Receita de carne de panela com batatas, rápida e fácil de fazer na panela de pressão. Perfeita para um jantar prático e com gostinho de comida caseira.",
+            "tags": [
+              "carne_vermelha",
+              "panela_de_pressao",
+              "rapido",
+              "caseiro"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "2 colheres (sopa) de óleo",
+              "1 kg de acém em cubos",
+              "2 cebolas picadas",
+              "4 dentes de alho espremidos",
+              "1 colher (sopa) de coentro picado",
+              "1 xícara (chá) de molho de tomate",
+              "2 xícaras (chá) de caldo de carne",
+              "6 batatas em cubos grandes",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Na panela de pressão, aqueça o óleo em fogo alto e sele a carne, dourando por igual.",
+              "Junte a cebola, o alho e o coentro, refogue por alguns minutos.",
+              "Acrescente o molho de tomate, o caldo de carne, sal e pimenta-do-reino. Tampe a panela.",
+              "Cozinhe em fogo médio por 30 minutos após pegar pressão.",
+              "Libere a pressão, abra a panela, adicione as batatas e cozinhe novamente na pressão por mais 6 minutos.",
+              "Transfira para uma travessa e sirva quente."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://receitas.globo.com/ana-maria-braga/receita/carne-com-batatas-na-pressao.ghtml",
+              "checked_at": "2026-07-30T01:34:11+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Carne com Batatas na Pressão"
+            },
+            "id": "carne-com-batatas-na-pressao-e89a8a84"
+          },
+          {
+            "nome": "Frango com Mel e Especiarias na Air Fryer da Rita Lobo",
+            "curso": "principal",
+            "tempo": "25 minutos",
+            "porque": "Frango suculento e aromático, preparado na Air Fryer para um jantar rápido e sem sujeira. A marinada com mel e especiarias garante muito sabor.",
+            "tags": [
+              "frango",
+              "air_fryer",
+              "rapido",
+              "aromatico"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 filés de peito de frango (cerca de 180g cada)",
+              "1 colher (sopa) de mel",
+              "1 colher (chá) de páprica doce",
+              "½ colher (chá) de cominho em pó",
+              "½ colher (chá) de alho em pó",
+              "1 pitada de pimenta-caiena (opcional)",
+              "1 colher (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto",
+              "Salsinha picada para servir"
+            ],
+            "preparo": [
+              "Em uma tigela, misture o mel, páprica, cominho, alho em pó, pimenta-caiena, azeite, sal e pimenta-do-reino.",
+              "Adicione os filés de frango à marinada, cobrindo bem. Deixe marinar por 15 minutos (ou mais, se tiver tempo).",
+              "Preaqueça a Air Fryer a 180 °C por 5 minutos.",
+              "Coloque os filés de frango na cesta da Air Fryer, sem sobrepor.",
+              "Asse por 10-12 minutos, virando na metade do tempo, até o frango estar dourado e cozido por dentro.",
+              "Sirva imediatamente, salpicado com salsinha picada."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Frango-com-mel-e-especiarias-na-Air-Fryer-da-Rita-Lobo",
+              "checked_at": "2026-07-30T01:34:11+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Frango com Mel e Especiarias na Air Fryer da Rita Lobo"
+            },
+            "id": "frango-com-mel-e-especiarias-na-air-fryer-da-rit-c57785bb"
+          },
+          {
+            "nome": "Salada de Ovos Cremosa Proteica",
+            "curso": "entrada",
+            "tempo": "15 minutos",
+            "porque": "Uma entrada rica em proteína, rápida e fácil de preparar. Ideal para quem busca uma opção leve e nutritiva.",
+            "tags": [
+              "salada",
+              "proteica",
+              "rapido",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "4 ovos cozidos e picados",
+              "1 cebola pequena picada",
+              "1 dente de alho espremido",
+              "2 colheres (sopa) de maionese",
+              "1 colher (sopa) de azeite de oliva",
+              "1 colher (sopa) de molho de mostarda",
+              "Salsa picada a gosto",
+              "Sal a gosto",
+              "Pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Cozinhe os ovos, descasque e pique em pedaços pequenos.",
+              "Pique a cebola e esprema o alho.",
+              "Em uma tigela, coloque os ovos picados, cebola, alho, maionese, azeite e molho de mostarda.",
+              "Misture delicadamente até todos os ingredientes estarem incorporados.",
+              "Tempere com sal, pimenta-do-reino e salsa picada a gosto.",
+              "Sirva em temperatura ambiente ou gelada."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://receitas.globo.com/ana-maria-braga/receita/salada-de-ovos-cremosa-proteica-receita-rapida-e-saudavel-da-ana-maria-braga.ghtml",
+              "checked_at": "2026-07-30T01:34:12+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Ovos Cremosa Proteica"
+            },
+            "id": "salada-de-ovos-cremosa-proteica-ee42962c"
+          },
+          {
+            "nome": "Musse de Morango",
+            "curso": "sobremesa",
+            "tempo": "20 minutos (+ tempo de geladeira)",
+            "porque": "Uma sobremesa leve e refrescante, com o sabor vibrante do morango. Fácil de fazer e agrada a todos.",
+            "tags": [
+              "sobremesa",
+              "fruta",
+              "rapido",
+              "refrescante"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "300 g de morango (2 xícaras (chá))",
+              "1 lata de leite condensado (395 g)",
+              "1 lata de creme de leite",
+              "1 pacote de gelatina em pó incolor e sem sabor (12g)",
+              "Caldo de ½ limão"
+            ],
+            "preparo": [
+              "Lave e pique os morangos. Reserve alguns para decorar.",
+              "Hidrate a gelatina em pó conforme as instruções da embalagem.",
+              "No liquidificador, bata os morangos picados, o leite condensado, o creme de leite e o caldo de limão até obter uma mistura homogênea.",
+              "Adicione a gelatina hidratada e bata rapidamente para incorporar.",
+              "Despeje a musse em taças individuais ou em um refratário.",
+              "Leve à geladeira por pelo menos 2 horas, ou até firmar.",
+              "Decore com os morangos reservados e sirva gelado."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/musse-de-morango",
+              "title": "Musse de morango - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:12+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Musse de Morango"
+            },
+            "id": "musse-de-morango-b9520038"
+          }
+        ]
+      },
+      {
+        "dia": "Quinta",
+        "pratos": [
+          {
+            "nome": "Rosbife",
+            "curso": "principal",
+            "tempo": "30 minutos",
+            "porque": "Um rosbife clássico, assado no forno rapidamente para um interior suculento e vermelho. Ótimo para um jantar especial e rende sobras para sanduíches.",
+            "tags": [
+              "carne_vermelha",
+              "forno",
+              "rapido",
+              "classico"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "750 g de filé mignon em peça para rosbife",
+              "1 colher (chá) de mostarda amarela em pó",
+              "1 colher (chá) de páprica defumada",
+              "Azeite a gosto",
+              "Sal e pimenta-do-reino moída na hora a gosto"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 220 ºC. Retire o filé mignon da geladeira 15 minutos antes.",
+              "Em uma tigela pequena, misture a mostarda em pó com a páprica defumada.",
+              "Tempere a peça de filé mignon com sal, pimenta-do-reino e a mistura de especiarias.",
+              "Regue com azeite e espalhe bem por toda a superfície da carne.",
+              "Transfira o filé mignon para uma assadeira e leve ao forno por 15 minutos.",
+              "Diminua a temperatura para 180 ºC e asse por mais 10 minutos para malpassado, ou 15 minutos para ao ponto.",
+              "Retire do forno, cubra com papel-alumínio e deixe descansar por 10 minutos antes de fatiar e servir."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/rosbife",
+              "title": "Rosbife - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:12+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Rosbife"
+            },
+            "id": "rosbife-5d3431e6"
+          },
+          {
+            "nome": "Frango ao Curry com Maçã",
+            "curso": "principal",
+            "tempo": "35 minutos",
+            "porque": "Uma receita de frango com um toque exótico e agridoce, fácil e rápida de preparar. O molho cremoso com maçã e curry é delicioso e rende sobras.",
+            "tags": [
+              "frango",
+              "refogado",
+              "exotico",
+              "rapido"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "2 filés de peito de frango (cerca de 500g)",
+              "2 maçãs fuji",
+              "1 cebola",
+              "2 dentes de alho",
+              "2 colheres (sopa) de curry em pó",
+              "1 xícara (chá) de creme de leite fresco",
+              "2 colheres (sopa) de azeite",
+              "Folhas de coentro a gosto para servir",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Corte o frango em cubos de 2 cm. Descasque e pique a cebola e o alho. Descasque e corte as maçãs em cubos.",
+              "Em uma panela, aqueça o azeite e doure o frango temperado com sal e pimenta. Retire e reserve.",
+              "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
+              "Adicione o curry em pó e refogue por 1 minuto, mexendo sempre.",
+              "Volte o frango para a panela, junte as maçãs e o creme de leite fresco. Misture bem.",
+              "Cozinhe em fogo baixo por cerca de 10 minutos, até o molho encorpar e as maçãs ficarem macias.",
+              "Sirva com arroz branco e finalize com folhas de coentro."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Frango-ao-curry-com-maca",
+              "checked_at": "2026-07-30T01:34:12+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Frango ao Curry com Maçã"
+            },
+            "id": "frango-ao-curry-com-maca-a3e5a2ad"
+          },
+          {
+            "nome": "Salada Italiana de Grão-de-Bico",
+            "curso": "entrada",
+            "tempo": "20 minutos",
+            "porque": "Uma salada fresca e saborosa com grão-de-bico, pimentão e um toque italiano. Perfeita como entrada leve ou acompanhamento.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "mediterraneo",
+              "rapido"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "1 lata de grão-de-bico cozido (cerca de 250g)",
+              "1 pimentão vermelho",
+              "½ cebola roxa pequena",
+              "50g de queijo parmesão em lascas",
+              "10 tomates cereja cortados ao meio",
+              "Folhas de manjericão fresco a gosto",
+              "2 colheres (sopa) de azeite",
+              "1 colher (sopa) de vinagre balsâmico",
+              "Sementes de erva-doce a gosto",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Escorra e lave o grão-de-bico. Reserve.",
+              "Corte o pimentão em tiras finas e a cebola roxa em fatias bem finas.",
+              "Em uma frigideira, aqueça um fio de azeite e refogue o pimentão e as sementes de erva-doce por 5 minutos, até o pimentão ficar macio.",
+              "Em uma tigela, misture o grão-de-bico, o pimentão refogado, a cebola roxa, os tomates cereja e as folhas de manjericão.",
+              "Tempere com azeite, vinagre balsâmico, sal e pimenta-do-reino.",
+              "Finalize com as lascas de parmesão e sirva."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Salada-italiana-de-grao-de-bico",
+              "checked_at": "2026-07-30T01:34:12+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada Italiana de Grão-de-Bico"
+            },
+            "id": "salada-italiana-de-grao-de-bico-bcb00be3"
+          },
+          {
+            "nome": "Pastel de Banana com Chocolate na Air Fryer da Rita Lobo",
+            "curso": "sobremesa",
+            "tempo": "20 minutos",
+            "porque": "Uma sobremesa indulgente e rápida, feita na Air Fryer. A combinação de banana e chocolate é sempre um sucesso, com a praticidade do preparo.",
+            "tags": [
+              "sobremesa",
+              "air_fryer",
+              "rapido",
+              "doce"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 bananas nanicas maduras",
+              "100 g de chocolate meio amargo picado",
+              "1 pacote de massa para pastel (redonda)",
+              "1 ovo batido para pincelar",
+              "Açúcar e canela em pó para polvilhar"
+            ],
+            "preparo": [
+              "Amasse as bananas com um garfo. Pique o chocolate meio amargo.",
+              "Abra a massa de pastel. Em cada disco, coloque uma porção de banana amassada e um pouco de chocolate picado.",
+              "Dobre a massa ao meio, formando um pastel, e feche as bordas com um garfo.",
+              "Pincele os pastéis com o ovo batido.",
+              "Preaqueça a Air Fryer a 180 °C por 5 minutos.",
+              "Coloque os pastéis na cesta da Air Fryer, sem sobrepor, e asse por 10-12 minutos, virando na metade do tempo, até dourarem.",
+              "Retire da Air Fryer, polvilhe com açúcar e canela em pó e sirva quente."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Pastel-de-banana-com-chocolate-na-Air-Fryer-da-Rita-Lobo",
+              "checked_at": "2026-07-30T01:34:13+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Pastel de Banana com Chocolate na Air Fryer da Rita Lobo"
+            },
+            "id": "pastel-de-banana-com-chocolate-na-air-fryer-da-r-3aa1639b"
+          }
+        ]
+      },
+      {
+        "dia": "Sexta",
+        "pratos": [
+          {
+            "nome": "Maminha na Pressão",
+            "curso": "principal",
+            "tempo": "40 minutos",
+            "porque": "Maminha macia e suculenta, preparada na panela de pressão com um molho encorpado. Ideal para um jantar saboroso e rende marmitas para a semana.",
+            "tags": [
+              "carne_vermelha",
+              "panela_de_pressao",
+              "classico",
+              "rende_sobra"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 peça de maminha (cerca de 730 g)",
+              "1 pimentão vermelho",
+              "1 cebola",
+              "2 dentes de alho",
+              "1 colher (sopa) de extrato de tomate",
+              "2 colheres (sopa) de molho inglês",
+              "2 colheres (sopa) de vinagre de vinho branco",
+              "1 xícara (chá) de água",
+              "2 colheres (sopa) de azeite",
+              "2 colheres (chá) de amido de milho",
+              "1 colher (chá) de páprica",
+              "3 ramos de alecrim",
+              "Sal e pimenta-do-reino moída na hora a gosto"
+            ],
+            "preparo": [
+              "Tempere a maminha com páprica, sal e pimenta-do-reino. Deixe em temperatura ambiente.",
+              "Pique a cebola em meias-luas, o pimentão em cubos e o alho fino.",
+              "Na panela de pressão, aqueça o azeite e doure a maminha por todos os lados. Retire e reserve.",
+              "Na mesma panela, refogue a cebola, o pimentão e o alho. Adicione o extrato de tomate e refogue por 1 minuto.",
+              "Volte a maminha para a panela, junte o molho inglês, vinagre, água e alecrim. Tampe e cozinhe por 30 minutos após pegar pressão.",
+              "Libere a pressão, retire a maminha e fatie. Dissolva o amido de milho em um pouco de água fria e adicione ao molho na panela, mexendo até engrossar.",
+              "Sirva a maminha fatiada com o molho."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/maminha-na-pressao",
+              "title": "Maminha na pressÃ£o - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.42,
+              "checked_at": "2026-07-30T01:34:13+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Maminha na Pressão"
+            },
+            "id": "maminha-na-pressao-2c5e4b95"
+          },
+          {
+            "nome": "Bisteca Grelhada com Páprica e Sálvia",
+            "curso": "principal",
+            "tempo": "25 minutos",
+            "porque": "Bistecas de porco suculentas e saborosas, grelhadas com um tempero aromático de páprica e sálvia. Uma opção rápida e deliciosa para o jantar.",
+            "tags": [
+              "carne_de_porco",
+              "grelhado",
+              "rapido",
+              "aromatico"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 bistecas de porco (cerca de 200g cada)",
+              "1 colher (chá) de páprica doce",
+              "½ colher (chá) de alho em pó",
+              "Folhas de sálvia fresca picadas a gosto",
+              "1 colher (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Tempere as bistecas com sal, pimenta-do-reino, páprica, alho em pó e sálvia picada. Esfregue bem os temperos na carne.",
+              "Aqueça o azeite em uma frigideira ou grelha em fogo médio-alto.",
+              "Coloque as bistecas na frigideira quente e grelhe por 5-7 minutos de cada lado, ou até dourarem e estarem cozidas por dentro.",
+              "O tempo pode variar dependendo da espessura da bisteca e do ponto desejado.",
+              "Retire as bistecas da frigideira e deixe descansar por alguns minutos antes de servir."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/bisteca-grelhada-com-paprica-e-salvia",
+              "title": "Bisteca grelhada com pÃ¡prica e sÃ¡lvia - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.58,
+              "checked_at": "2026-07-30T01:34:13+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Bisteca Grelhada com Páprica e Sálvia"
+            },
+            "id": "bisteca-grelhada-com-paprica-e-salvia-5c60ee47"
+          },
+          {
+            "nome": "Salada Rápida de Grão-de-Bico",
+            "curso": "entrada",
+            "tempo": "10 minutos",
+            "porque": "Uma salada prática e nutritiva, perfeita para uma entrada leve. O grão-de-bico oferece proteína e saciedade.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "rapido",
+              "proteica"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "1½ xícara (chá) de grão-de-bico cozido (1 lata)",
+              "2 colheres (sopa) de caldo de limão",
+              "4 colheres (sopa) de azeite",
+              "20 folhas de manjericão fresco",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Escorra e lave o grão-de-bico. Transfira para uma tigela.",
+              "Pique grosseiramente as folhas de manjericão.",
+              "Adicione o caldo de limão, o azeite, o manjericão picado, sal e pimenta-do-reino ao grão-de-bico.",
+              "Misture bem todos os ingredientes.",
+              "Sirva imediatamente ou leve à geladeira por alguns minutos para refrescar."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
+              "title": "Salada rÃ¡pida de grÃ£o-de-bico - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.72,
+              "checked_at": "2026-07-30T01:34:13+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada Rápida de Grão-de-Bico"
+            },
+            "id": "salada-rapida-de-grao-de-bico-f701bcb3"
+          },
+          {
+            "nome": "Manga Flambada com Cachaça",
+            "curso": "sobremesa",
+            "tempo": "15 minutos",
+            "porque": "Uma sobremesa elegante e rápida, com o sabor tropical da manga realçado pelo flambado com cachaça. Perfeita para um toque especial.",
+            "tags": [
+              "sobremesa",
+              "fruta",
+              "rapido",
+              "elegante"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 mangas maduras, firmes",
+              "2 colheres (sopa) de manteiga",
+              "2 colheres (sopa) de açúcar mascavo",
+              "¼ xícara (chá) de cachaça",
+              "Sorvete de creme ou iogurte natural para acompanhar (opcional)"
+            ],
+            "preparo": [
+              "Descasque as mangas e corte a polpa em fatias grossas ou cubos.",
+              "Em uma frigideira grande, derreta a manteiga em fogo médio.",
+              "Adicione as fatias de manga e o açúcar mascavo. Cozinhe por 2-3 minutos de cada lado, até a manga ficar levemente caramelizada.",
+              "Retire a frigideira do fogo, adicione a cachaça e, com cuidado, incline a frigideira para flambar (ou acenda com um fósforo longo).",
+              "Deixe o fogo apagar naturalmente. Sirva a manga flambada imediatamente, pura ou acompanhada de sorvete de creme."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Manga-flambada-com-cachaca",
+              "checked_at": "2026-07-30T01:34:14+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Manga Flambada com Cachaça"
+            },
+            "id": "manga-flambada-com-cachaca-f662ad58"
+          }
+        ]
+      },
+      {
+        "dia": "Sábado",
+        "pratos": [
+          {
+            "nome": "Picanha Assada com Sal Grosso",
+            "curso": "principal",
+            "tempo": "60 minutos",
+            "porque": "Picanha suculenta e saborosa, assada no forno com sal grosso para uma crosta perfeita. Ideal para um jantar de fim de semana e rende sobras.",
+            "tags": [
+              "carne_vermelha",
+              "forno",
+              "fim_de_semana",
+              "rende_sobra"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1,2 kg de picanha em peça",
+              "4 claras de ovo",
+              "1 kg de sal grosso",
+              "½ xícara (chá) de farinha de trigo",
+              "Ramos de tomilho fresco a gosto"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 220 ºC. Em uma tigela, misture o sal grosso, as claras e a farinha de trigo até obter uma pasta úmida.",
+              "Em uma assadeira grande, espalhe 1/3 da mistura de sal grosso, formando uma camada do tamanho da picanha. Disponha os ramos de tomilho.",
+              "Seque bem a peça de picanha e coloque sobre a camada de sal, com a gordura para cima.",
+              "Cubra toda a picanha com o restante da mistura de sal grosso, pressionando para formar uma capa firme.",
+              "Leve ao forno e diminua a temperatura para 200 °C. Asse por 45 minutos para carne ao ponto, ou 1 hora para bem passada.",
+              "Retire do forno, quebre a crosta de sal e fatie a picanha. Sirva imediatamente."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/picanha-assada-com-sal-grosso",
+              "title": "Picanha assada com sal grosso - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:14+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Picanha Assada com Sal Grosso"
+            },
+            "id": "picanha-assada-com-sal-grosso-9a4c1b1f"
+          },
+          {
+            "nome": "Peixe Grelhado com Molho de Manteiga e Limão",
+            "curso": "principal",
+            "tempo": "20 minutos",
+            "porque": "Uma opção de peixe leve e saborosa, grelhada rapidamente e acompanhada de um molho cítrico. Perfeito para variar o cardápio da semana.",
+            "tags": [
+              "peixe",
+              "grelhado",
+              "rapido",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 filés de pescada (cerca de 90 g cada)",
+              "¼ de xícara (chá) de fubá (ou farinha de trigo)",
+              "2 colheres (chá) de azeite",
+              "Sal a gosto",
+              "Para o molho:",
+              "2 colheres (sopa) de manteiga",
+              "¼ de xícara (chá) de caldo de limão",
+              "Salsinha picada a gosto"
+            ],
+            "preparo": [
+              "Retire os filés de peixe da geladeira 10 minutos antes de grelhar. Tempere com sal.",
+              "Passe os filés no fubá (ou farinha de trigo), cobrindo bem todos os lados.",
+              "Aqueça o azeite em uma frigideira antiaderente em fogo médio-alto.",
+              "Grelhe os filés por 3-4 minutos de cada lado, até dourarem e estarem cozidos.",
+              "Para o molho: em uma tigela pequena, derreta a manteiga no micro-ondas. Junte o caldo de limão e a salsinha. Misture.",
+              "Sirva o peixe grelhado regado com o molho de manteiga e limão."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Peixe-grelhado-com-molho-de-manteiga-e-limao",
+              "checked_at": "2026-07-30T01:34:14+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Peixe Grelhado com Molho de Manteiga e Limão"
+            },
+            "id": "peixe-grelhado-com-molho-de-manteiga-e-limao-70d76d0e"
+          },
+          {
+            "nome": "Salada de Grãos com Miniagrião",
+            "curso": "entrada",
+            "tempo": "45 minutos",
+            "porque": "Uma salada completa e nutritiva, com uma variedade de grãos e um molho de romã. Pode ser uma entrada substanciosa ou até uma refeição leve.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "saudavel",
+              "graos"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "½ xícara (chá) de trigo em grão",
+              "½ xícara (chá) de quinoa",
+              "½ xícara (chá) de cevadinha",
+              "Sal grosso a gosto",
+              "Folha de louro a gosto",
+              "½ xícara (chá) de damasco seco picado",
+              "¼ xícara (chá) de castanhas-do-pará picadas",
+              "Miniagrião para servir",
+              "Para a vinagrete de romã:",
+              "½ xícara (chá) de vinagre balsâmico",
+              "2 colheres (sopa) de molho de romã (xarope)",
+              "½ xícara (chá) de azeite",
+              "3 colheres (sopa) de mel",
+              "Sal a gosto"
+            ],
+            "preparo": [
+              "Cozinhe o trigo, a quinoa e a cevadinha separadamente em água com sal e louro. Escorra e reserve.",
+              "Pique o damasco em cubos e as castanhas-do-pará grosseiramente.",
+              "Para a vinagrete: em uma tigela, misture o vinagre balsâmico, molho de romã, azeite, mel e sal.",
+              "Em uma tigela grande, misture os grãos cozidos, o damasco e as castanhas. Regue com a vinagrete de romã e misture delicadamente.",
+              "Leve à geladeira até a hora de servir. Sirva com miniagrião."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-graos-com-miniagriao",
+              "checked_at": "2026-07-30T01:34:14+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Grãos com Miniagrião"
+            },
+            "id": "salada-de-graos-com-miniagriao-c63f7dca"
+          },
+          {
+            "nome": "Brigadeiro de Colher da Rita Lobo",
+            "curso": "sobremesa",
+            "tempo": "20 minutos",
+            "porque": "O clássico brigadeiro, na versão de colher, com cacau em pó para um sabor mais intenso e menos doce. Uma sobremesa rápida e irresistível.",
+            "tags": [
+              "sobremesa",
+              "classico",
+              "rapido",
+              "chocolate"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 lata de leite condensado (395 g)",
+              "2 colheres (sopa) de cacau em pó 100%",
+              "1 colher (sopa) de manteiga",
+              "½ xícara (chá) de leite"
+            ],
+            "preparo": [
+              "Em uma panela de fundo grosso, misture o leite condensado e o cacau em pó até dissolver bem.",
+              "Adicione a manteiga e o leite. Leve ao fogo médio, mexendo sempre.",
+              "Cozinhe por cerca de 10-15 minutos, raspando o fundo e as laterais da panela, até o brigadeiro engrossar e começar a desgrudar do fundo.",
+              "O ponto ideal para comer de colher é quando ele ainda está cremoso, mas já encorpado.",
+              "Transfira para uma tigela e deixe esfriar em temperatura ambiente. Sirva em copinhos ou tigelas pequenas."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Brigadeiro-de-colher-da-Rita-Lobo",
+              "checked_at": "2026-07-30T01:34:14+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Brigadeiro de Colher da Rita Lobo"
+            },
+            "id": "brigadeiro-de-colher-da-rita-lobo-c32e6513"
+          }
+        ]
+      },
+      {
+        "dia": "Domingo",
+        "pratos": [
+          {
+            "nome": "Carne Moída com Refogado de Pimentão",
+            "curso": "principal",
+            "tempo": "30 minutos",
+            "porque": "Carne moída saborosa e úmida, com um refogado de pimentão que adiciona cor e frescor. Um prato versátil para o dia a dia e que rende sobras.",
+            "tags": [
+              "carne_vermelha",
+              "refogado",
+              "rapido",
+              "versatil"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "500 g de patinho moído",
+              "1 pimentão vermelho",
+              "1 cebola",
+              "2 dentes de alho",
+              "½ xícara (chá) de água quente",
+              "3 colheres (sopa) de azeite",
+              "Cebolinha fatiada a gosto para servir",
+              "Sal e pimenta-do-reino moída na hora a gosto"
+            ],
+            "preparo": [
+              "Retire a carne moída da geladeira. Pique o pimentão em cubos, a cebola em cubos pequenos e o alho fino.",
+              "Em uma panela, aqueça 2 colheres de azeite e refogue a cebola com uma pitada de sal por 10 minutos, até dourar.",
+              "Adicione o pimentão, tempere com sal e pimenta e refogue por 2 minutos. Junte o alho e misture.",
+              "Empurre os legumes para um lado da panela. Adicione o restante do azeite e a carne moída em montinhos, sem mexer, para dourar bem.",
+              "Quando a carne estiver dourada, misture com os legumes. Adicione a água quente e cozinhe por mais 5 minutos, mexendo ocasionalmente.",
+              "Ajuste o tempero, finalize com cebolinha fatiada e sirva com arroz e feijão."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-refogado-de-pimentao",
+              "checked_at": "2026-07-30T01:34:15+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Carne Moída com Refogado de Pimentão"
+            },
+            "id": "carne-moida-com-refogado-de-pimentao-283735d9"
+          },
+          {
+            "nome": "Ensopado Rápido de Filé Mignon Suíno e Couve",
+            "curso": "principal",
+            "tempo": "35 minutos",
+            "porque": "Um ensopado de carne de porco com couve, rápido e saboroso. O refogado caprichado garante um prato cheio de sabor e que rende sobras.",
+            "tags": [
+              "carne_de_porco",
+              "ensopado",
+              "rapido",
+              "refogado"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "500 g de filé mignon suíno em cubos",
+              "1 maço de couve",
+              "1 cebola",
+              "2 dentes de alho",
+              "1 tomate maduro",
+              "1 xícara (chá) de caldo de carne ou água",
+              "2 colheres (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto",
+              "Páprica doce a gosto"
+            ],
+            "preparo": [
+              "Corte o filé mignon suíno em cubos. Tempere com sal, pimenta-do-reino e páprica.",
+              "Pique a cebola e o alho finos. Corte o tomate em cubos e a couve em tiras finas.",
+              "Em uma panela, aqueça o azeite e doure a carne por todos os lados. Retire e reserve.",
+              "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
+              "Adicione o tomate e refogue por mais 5 minutos. Volte a carne para a panela.",
+              "Junte o caldo de carne ou água. Cozinhe em fogo baixo por 15 minutos, até a carne ficar macia.",
+              "Adicione a couve e cozinhe por mais 5 minutos, ou até a couve murchar. Ajuste o tempero e sirva."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/ensopado-rapido-de-file-mignon-suino-e-couve",
+              "title": "Ensopado rÃ¡pido de filÃ© mignon suÃ­no e couve - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 0.66,
+              "checked_at": "2026-07-30T01:34:15+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Ensopado Rápido de Filé Mignon Suíno e Couve"
+            },
+            "id": "ensopado-rapido-de-file-mignon-suino-e-couve-b81228e2"
+          },
+          {
+            "nome": "Salada de Laranja com Azeitonas Verdes, Cebola Roxa e Ervas",
+            "curso": "entrada",
+            "tempo": "15 minutos",
+            "porque": "Uma salada fresca e vibrante, com a doçura da laranja, o salgado da azeitona e o frescor das ervas. Uma combinação surpreendente e leve.",
+            "tags": [
+              "salada",
+              "vegetariano",
+              "citrico",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "2 laranjas",
+              "½ xícara (chá) de azeitonas verdes sem caroço",
+              "¼ de cebola roxa em fatias finas",
+              "Folhas de hortelã fresca a gosto",
+              "Folhas de salsinha fresca a gosto",
+              "Folhas de manjericão fresco a gosto",
+              "2 colheres (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Descasque as laranjas, retirando toda a parte branca. Corte em rodelas ou gomos.",
+              "Fatie a cebola roxa bem fina. Lave e seque as ervas frescas.",
+              "Em uma tigela, combine as rodelas de laranja, azeitonas verdes, cebola roxa e as ervas picadas.",
+              "Regue com azeite, tempere com sal e pimenta-do-reino a gosto.",
+              "Misture delicadamente para não desmanchar as laranjas.",
+              "Sirva imediatamente para aproveitar o frescor dos ingredientes."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-de-laranja-com-azeitonas-verdes-cebola-roxa-e-ervas",
+              "title": "Salada de laranja com azeitonas verdes, cebola roxa e ervas - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:15+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Salada de Laranja com Azeitonas Verdes, Cebola Roxa e Ervas"
+            },
+            "id": "salada-de-laranja-com-azeitonas-verdes-cebola-ro-0921c033"
+          },
+          {
+            "nome": "Cocada Mole",
+            "curso": "sobremesa",
+            "tempo": "25 minutos",
+            "porque": "Uma cocada cremosa e deliciosa, com a textura do coco fresco. Fácil de preparar e pode ser servida em temperatura ambiente ou gelada.",
+            "tags": [
+              "sobremesa",
+              "classico",
+              "doce",
+              "coco"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 lata de leite condensado (395 g)",
+              "1 xícara (chá) de coco fresco ralado grosso",
+              "1½ xícara (chá) de leite",
+              "1 colher (sopa) de manteiga"
+            ],
+            "preparo": [
+              "Em uma panela, misture o leite condensado, o coco ralado, o leite e a manteiga.",
+              "Leve ao fogo médio, mexendo sempre, até a mistura começar a engrossar e desgrudar do fundo da panela (cerca de 15-20 minutos).",
+              "O ponto ideal é cremoso, mas ainda mole, pois a cocada firmará um pouco ao esfriar.",
+              "Retire do fogo e transfira para um refratário ou potinhos individuais.",
+              "Deixe esfriar em temperatura ambiente e depois leve à geladeira por pelo menos 1 hora antes de servir."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/cocada-mole",
+              "title": "Cocada mole - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-07-30T01:34:15+00:00"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Cocada Mole"
+            },
+            "id": "cocada-mole-a594ccd4"
           }
         ]
       }

@@ -46,5 +46,353 @@
     ],
     "data": "29/07/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "rosbife-de-panela-22ebcc6c",
+    "titulo": "Rosbife de Panela",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "panela",
+      "pratico"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "ensopado-rapido-de-frango-com-cuscuz-marroquino-7badecd1",
+    "titulo": "Ensopado Rápido de Frango com Cuscuz Marroquino",
+    "tags": [
+      "frango",
+      "ensopado",
+      "rapido",
+      "mediterraneo"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-de-folhas-verdes-ff7ac8ab",
+    "titulo": "Salada de Folhas Verdes",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "rapido",
+      "leve"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bolo-de-caneca-de-maca-e-amendoim-de-micro-ondas-941dc95e",
+    "titulo": "Bolo de Caneca de Maçã e Amendoim (de micro-ondas)",
+    "tags": [
+      "sobremesa",
+      "rapido",
+      "micro_ondas",
+      "individual"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074",
+    "titulo": "Carne de Panela com Batata e Cenoura na Pressão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "classico",
+      "rende_sobra"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "peito-de-frango-grelhado-5fe2d73a",
+    "titulo": "Peito de Frango Grelhado",
+    "tags": [
+      "frango",
+      "grelhado",
+      "rapido",
+      "leve"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-de-grao-de-bico-com-cebola-e-cenoura-assa-18298479",
+    "titulo": "Salada de Grão-de-Bico com Cebola e Cenoura Assadas",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "forno",
+      "saudavel"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "ambrosia-rapida-de-leite-em-po-dc1cc872",
+    "titulo": "Ambrosia Rápida de Leite em Pó",
+    "tags": [
+      "sobremesa",
+      "rapido",
+      "doce",
+      "classico"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "carne-com-batatas-na-pressao-e89a8a84",
+    "titulo": "Carne com Batatas na Pressão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "rapido",
+      "caseiro"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-com-mel-e-especiarias-na-air-fryer-da-rit-c57785bb",
+    "titulo": "Frango com Mel e Especiarias na Air Fryer da Rita Lobo",
+    "tags": [
+      "frango",
+      "air_fryer",
+      "rapido",
+      "aromatico"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-ovos-cremosa-proteica-ee42962c",
+    "titulo": "Salada de Ovos Cremosa Proteica",
+    "tags": [
+      "salada",
+      "proteica",
+      "rapido",
+      "leve"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "musse-de-morango-b9520038",
+    "titulo": "Musse de Morango",
+    "tags": [
+      "sobremesa",
+      "fruta",
+      "rapido",
+      "refrescante"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "rosbife-5d3431e6",
+    "titulo": "Rosbife",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "rapido",
+      "classico"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "frango-ao-curry-com-maca-a3e5a2ad",
+    "titulo": "Frango ao Curry com Maçã",
+    "tags": [
+      "frango",
+      "refogado",
+      "exotico",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-italiana-de-grao-de-bico-bcb00be3",
+    "titulo": "Salada Italiana de Grão-de-Bico",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "mediterraneo",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pastel-de-banana-com-chocolate-na-air-fryer-da-r-3aa1639b",
+    "titulo": "Pastel de Banana com Chocolate na Air Fryer da Rita Lobo",
+    "tags": [
+      "sobremesa",
+      "air_fryer",
+      "rapido",
+      "doce"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "maminha-na-pressao-2c5e4b95",
+    "titulo": "Maminha na Pressão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "classico",
+      "rende_sobra"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bisteca-grelhada-com-paprica-e-salvia-5c60ee47",
+    "titulo": "Bisteca Grelhada com Páprica e Sálvia",
+    "tags": [
+      "carne_de_porco",
+      "grelhado",
+      "rapido",
+      "aromatico"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-rapida-de-grao-de-bico-f701bcb3",
+    "titulo": "Salada Rápida de Grão-de-Bico",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "rapido",
+      "proteica"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "manga-flambada-com-cachaca-f662ad58",
+    "titulo": "Manga Flambada com Cachaça",
+    "tags": [
+      "sobremesa",
+      "fruta",
+      "rapido",
+      "elegante"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "picanha-assada-com-sal-grosso-9a4c1b1f",
+    "titulo": "Picanha Assada com Sal Grosso",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "fim_de_semana",
+      "rende_sobra"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "peixe-grelhado-com-molho-de-manteiga-e-limao-70d76d0e",
+    "titulo": "Peixe Grelhado com Molho de Manteiga e Limão",
+    "tags": [
+      "peixe",
+      "grelhado",
+      "rapido",
+      "leve"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-graos-com-miniagriao-c63f7dca",
+    "titulo": "Salada de Grãos com Miniagrião",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "saudavel",
+      "graos"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "brigadeiro-de-colher-da-rita-lobo-c32e6513",
+    "titulo": "Brigadeiro de Colher da Rita Lobo",
+    "tags": [
+      "sobremesa",
+      "classico",
+      "rapido",
+      "chocolate"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-refogado-de-pimentao-283735d9",
+    "titulo": "Carne Moída com Refogado de Pimentão",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "versatil"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "ensopado-rapido-de-file-mignon-suino-e-couve-b81228e2",
+    "titulo": "Ensopado Rápido de Filé Mignon Suíno e Couve",
+    "tags": [
+      "carne_de_porco",
+      "ensopado",
+      "rapido",
+      "refogado"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-de-laranja-com-azeitonas-verdes-cebola-ro-0921c033",
+    "titulo": "Salada de Laranja com Azeitonas Verdes, Cebola Roxa e Ervas",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "citrico",
+      "leve"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "cocada-mole-a594ccd4",
+    "titulo": "Cocada Mole",
+    "tags": [
+      "sobremesa",
+      "classico",
+      "doce",
+      "coco"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "ensopado-rapido-de-frango-com-grao-de-bico-b72a65ab",
+    "titulo": "Ensopado Rápido de Frango com Grão-de-Bico",
+    "tags": [
+      "frango",
+      "ensopado",
+      "rapido",
+      "mediterraneo"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
   }
 ]
