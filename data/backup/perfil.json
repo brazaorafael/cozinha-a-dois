@@ -1,6 +1,6 @@
 {
   "cozinhados_recentes": [],
-  "gerado_em": "2026-07-30T20:39:13.506Z",
+  "gerado_em": "2026-07-30T20:41:07.498Z",
   "janela_dias": 21,
   "nao_repetir": [],
   "ok": true,
@@ -8,6 +8,7 @@
     "ambos": {
       "gostou": [
         {
+          "curso": "entrada",
           "tags": [
             "salada",
             "mediterranea",
@@ -17,6 +18,7 @@
           "titulo": "Salada grega"
         },
         {
+          "curso": "entrada",
           "tags": [
             "vegetariano",
             "rapido",
@@ -26,6 +28,7 @@
           "titulo": "Guacamole"
         },
         {
+          "curso": "sobremesa",
           "tags": [
             "doce",
             "gelado",
@@ -35,6 +38,7 @@
           "titulo": "Mousse de Maracujá"
         },
         {
+          "curso": "principal",
           "tags": [
             "carne_suina",
             "refogado",
@@ -44,6 +48,7 @@
           "titulo": "Picadinho Oriental com Lombo e Abacaxi"
         },
         {
+          "curso": "principal",
           "tags": [
             "carne_vermelha",
             "assado",
@@ -64,56 +69,96 @@
       "rejeitou": []
     }
   },
-  "resumo": "Os dois juntos gostou de: Salada grega; Guacamole; Mousse de Maracujá; Picadinho Oriental com Lombo e Abacaxi; Abobrinha Recheada com Carne Moída. Características bem avaliadas: vegetariano, rapido, facil, salada, mediterranea, queijo, fresco, entrada, doce, gelado, fruta, carne_suina.",
-  "tags_evitar": [],
-  "tags_favoritas": [
-    {
-      "pontos": 4,
-      "tag": "vegetariano"
-    },
-    {
-      "pontos": 4,
-      "tag": "rapido"
-    },
-    {
-      "pontos": 4,
-      "tag": "facil"
-    },
-    {
-      "pontos": 2,
-      "tag": "salada"
-    },
-    {
-      "pontos": 2,
-      "tag": "mediterranea"
-    },
-    {
-      "pontos": 2,
-      "tag": "queijo"
-    },
-    {
-      "pontos": 2,
-      "tag": "fresco"
-    },
-    {
-      "pontos": 2,
-      "tag": "entrada"
-    },
-    {
-      "pontos": 2,
-      "tag": "doce"
-    },
-    {
-      "pontos": 2,
-      "tag": "gelado"
-    },
-    {
-      "pontos": 2,
-      "tag": "fruta"
-    },
-    {
-      "pontos": 2,
-      "tag": "carne_suina"
-    }
-  ]
+  "resumo": "Os dois gostaram de: Salada grega (entrada); Guacamole (entrada); Mousse de Maracujá (sobremesa); Picadinho Oriental com Lombo e Abacaxi (principal); Abobrinha Recheada com Carne Moída (principal). Características avaliadas SEPARADAMENTE por tipo de prato. Não transfira a preferência de um tipo para outro: gostar de uma entrada vegetariana não significa querer prato principal vegetariano, e gostar de uma sobremesa doce não diz nada sobre o jantar. Pratos principais — aprovadas: carne_suina, refogado, oriental, rapido, carne_vermelha, assado, vegetais, facil. Entradas — aprovadas: vegetariano, salada, mediterranea, queijo, rapido, fresco, entrada. Sobremesas — aprovadas: doce, gelado, fruta, facil.",
+  "tags_evitar": {
+    "entrada": [],
+    "outros": [],
+    "principal": [],
+    "sobremesa": []
+  },
+  "tags_favoritas": {
+    "entrada": [
+      {
+        "pontos": 4,
+        "tag": "vegetariano"
+      },
+      {
+        "pontos": 2,
+        "tag": "salada"
+      },
+      {
+        "pontos": 2,
+        "tag": "mediterranea"
+      },
+      {
+        "pontos": 2,
+        "tag": "queijo"
+      },
+      {
+        "pontos": 2,
+        "tag": "rapido"
+      },
+      {
+        "pontos": 2,
+        "tag": "fresco"
+      },
+      {
+        "pontos": 2,
+        "tag": "entrada"
+      }
+    ],
+    "outros": [],
+    "principal": [
+      {
+        "pontos": 2,
+        "tag": "carne_suina"
+      },
+      {
+        "pontos": 2,
+        "tag": "refogado"
+      },
+      {
+        "pontos": 2,
+        "tag": "oriental"
+      },
+      {
+        "pontos": 2,
+        "tag": "rapido"
+      },
+      {
+        "pontos": 2,
+        "tag": "carne_vermelha"
+      },
+      {
+        "pontos": 2,
+        "tag": "assado"
+      },
+      {
+        "pontos": 2,
+        "tag": "vegetais"
+      },
+      {
+        "pontos": 2,
+        "tag": "facil"
+      }
+    ],
+    "sobremesa": [
+      {
+        "pontos": 2,
+        "tag": "doce"
+      },
+      {
+        "pontos": 2,
+        "tag": "gelado"
+      },
+      {
+        "pontos": 2,
+        "tag": "fruta"
+      },
+      {
+        "pontos": 2,
+        "tag": "facil"
+      }
+    ]
+  }
 }
