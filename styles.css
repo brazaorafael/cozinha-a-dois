@@ -586,6 +586,33 @@ input:focus-visible {
   background: var(--yellow);
 }
 
+.photo-actions {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 7px;
+}
+
+.photo-actions .secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 620px) {
+  .upload-card {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .photo-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .list-actions {
   display: flex;
   flex-wrap: wrap;
