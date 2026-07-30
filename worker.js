@@ -63,7 +63,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated";
+const SEARCH_CACHE_VERSION = "v5-fast-curated-r2";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -461,7 +461,9 @@ Para cada candidato, retorne:
   // A resposta sem a ferramenta é rápida; as URLs continuam sendo abertas e verificadas abaixo.
   const raw = await geminiJson(env, prompt, false);
   const candidates = asRecipeArray(raw).slice(0, 5);
-  const checked = await Promise.all(candidates.map((candidate) => enrichRecipe(candidate, env)));
+  const checked = await Promise.all(
+    candidates.map((candidate) => withDeadline(enrichRecipe(candidate, env), 6500, null)),
+  );
   const ranked = checked
     .filter((recipe) => recipe?.fonte?.status === "verified")
     .map((recipe) => {
@@ -842,7 +844,7 @@ async function geminiJson(env, prompt, useSearch, extraParts = []) {
   };
   if (useSearch) body.tools = [{ google_search: {} }];
 
-  const geminiTimeout = useSearch ? 22_000 : 16_000;
+  const geminiTimeout = useSearch ? 22_000 : 14_000;
   let response = await fetchGeminiWithRetry(endpoint, body, geminiTimeout, useSearch ? 2 : 1);
   if (!response.ok && response.status === 400 && body.generationConfig?.responseMimeType) {
     const fallbackBody = structuredClone(body);
@@ -1294,6 +1296,20 @@ async function fetchWithTimeout(url, options, timeoutMs) {
 
 function wait(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function withDeadline(promise, timeoutMs, fallback) {
+  let timeout;
+  try {
+    return await Promise.race([
+      Promise.resolve(promise).catch(() => fallback),
+      new Promise((resolve) => {
+        timeout = setTimeout(() => resolve(fallback), timeoutMs);
+      }),
+    ]);
+  } finally {
+    clearTimeout(timeout);
+  }
 }
 
 async function hashText(value) {
