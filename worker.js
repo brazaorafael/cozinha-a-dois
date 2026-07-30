@@ -64,7 +64,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated-r7";
+const SEARCH_CACHE_VERSION = "v5-fast-curated-r8";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -932,7 +932,32 @@ async function geminiJson(env, prompt, useSearch, extraParts = [], fast = false)
     .map((part) => part.text)
     .filter(Boolean)
     .join("");
-  return parseJson(text);
+  try {
+    return parseJson(text);
+  } catch (error) {
+    const grounded = useSearch
+      ? (payload?.candidates?.[0]?.groundingMetadata?.groundingChunks || [])
+          .map((chunk) => chunk?.web)
+          .filter((web) => web?.uri && web?.title)
+          .slice(0, 5)
+      : [];
+    if (grounded.length) {
+      return {
+        pratos: grounded.map((web) => ({
+          nome: cleanText(web.title).slice(0, 180),
+          curso: "principal",
+          tempo: "",
+          url: web.uri,
+          porque: "Resultado localizado em uma fonte permitida.",
+          tags: [],
+          rende_sobra: false,
+          ingredientes: [],
+          preparo: [],
+        })),
+      };
+    }
+    throw error;
+  }
 }
 
 async function fetchGeminiWithRetry(endpoint, body, timeoutMs, attempts) {
@@ -991,7 +1016,7 @@ async function enrichRecipe(raw, env) {
 }
 
 async function verifyRecipePage(name, rawUrl, env) {
-  const url = safePublicUrl(rawUrl, env);
+  const url = safeRecipeCandidateUrl(rawUrl, env);
   if (!url) return null;
 
   let response;
@@ -1060,6 +1085,23 @@ async function verifyRecipePage(name, rawUrl, env) {
     ingredients: Array.isArray(recipeSchema?.recipeIngredient) ? recipeSchema.recipeIngredient.map(String).slice(0, 60) : [],
     instructions: schemaInstructions(recipeSchema?.recipeInstructions),
   };
+}
+
+function safeRecipeCandidateUrl(raw, env) {
+  const direct = safePublicUrl(raw, env);
+  if (direct) return direct;
+
+  try {
+    const url = new URL(raw);
+    const isGroundingRedirect =
+      url.protocol === "https:" &&
+      url.hostname === "vertexaisearch.cloud.google.com" &&
+      url.pathname.startsWith("/grounding-api-redirect/");
+
+    return isGroundingRedirect ? url.toString() : null;
+  } catch {
+    return null;
+  }
 }
 
 function extractRecipeSchema(html) {
