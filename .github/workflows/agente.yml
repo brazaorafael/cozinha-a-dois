@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Baixar o projeto
         uses: actions/checkout@v5
+        with:
+          ref: main
 
       - name: Preparar Python
         uses: actions/setup-python@v6
