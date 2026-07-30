@@ -64,7 +64,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated-r6";
+const SEARCH_CACHE_VERSION = "v5-fast-curated-r7";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -463,7 +463,7 @@ Para cada candidato, retorne:
   const fallbacks = trustedFallbackCandidates(intent);
   let generated = [];
   try {
-    const raw = await geminiJson(env, prompt, false, [], true);
+    const raw = await geminiJson(env, prompt, !fallbacks.length, [], true);
     generated = asRecipeArray(raw);
   } catch (error) {
     if (!fallbacks.length) throw error;
@@ -907,10 +907,10 @@ async function geminiJson(env, prompt, useSearch, extraParts = [], fast = false)
   const body = {
     contents: [{ parts: [{ text: prompt }, ...extraParts] }],
     generationConfig: {
-      responseMimeType: "application/json",
       temperature: useSearch ? 0.25 : 0.15,
     },
   };
+  if (!useSearch) body.generationConfig.responseMimeType = "application/json";
   if (fast) {
     body.generationConfig.maxOutputTokens = 4096;
     if (model.startsWith("gemini-2.5")) {
