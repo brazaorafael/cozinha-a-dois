@@ -63,6 +63,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 60;
+const SEARCH_CACHE_VERSION = "v4-curated";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -394,10 +395,12 @@ async function handleSearch(body, env, ctx, cors) {
   const clean = query.trim().slice(0, 300);
   if (!clean) return respond({ pratos: [], status: "done" }, 200, cors);
 
-  const jobId = await hashText(`${action}:${normalize(clean)}`);
+  const jobId = await hashText(`${SEARCH_CACHE_VERSION}:${action}:${normalize(clean)}`);
   const ready = await readSearchJob(jobId);
   if (ready.status === "done") return respond(ready, 200, cors);
-  if (ready.status === "processing") return respond(ready, 202, cors);
+  if (ready.status === "processing" && Date.now() - Number(ready.started_at || 0) < 75_000) {
+    return respond(ready, 202, cors);
+  }
 
   await writeSearchJob(jobId, { status: "processing", job_id: jobId, started_at: Date.now() }, PENDING_TTL_SECONDS);
   ctx.waitUntil(
@@ -417,18 +420,24 @@ async function handleSearch(body, env, ctx, cors) {
 }
 
 async function runVerifiedSearch(action, query, env) {
+  const intent = parseSearchIntent(query, action);
   const sourceInstruction = sourcePriorityPrompt(env);
   const task = action === "com_ingredientes"
     ? `Crie opções usando principalmente estes ingredientes: ${query}.`
     : `Encontre receitas para este pedido: ${query}.`;
+  const constraints = searchConstraintPrompt(intent);
   const prompt = `
 Você é um pesquisador de receitas para um casal brasileiro.
 ${PROFILE}
 ${task}
+O pedido atual tem prioridade sobre o perfil geral.
+${constraints}
+Não inclua receitas apenas parecidas: cada candidato deve cumprir TODAS as restrições
+obrigatórias acima. Se não houver uma opção segura, retorne uma lista vazia.
 Pesquise agora. Use exclusivamente as fontes abaixo, respeitando a ordem de confiança:
 ${sourceInstruction}
 No TudoGostoso e no Cookpad, prefira resultados com avaliações melhores e mais avaliações.
-Retorne de 2 a 5 candidatos. A URL precisa ser a página direta da receita, nunca uma busca,
+Retorne até 5 candidatos diferentes. A URL precisa ser a página direta da receita, nunca uma busca,
 home, categoria, vídeo ou URL inventada. Não copie o texto da fonte.
 Para cada candidato, retorne:
 {
@@ -447,10 +456,163 @@ Para cada candidato, retorne:
   const raw = await geminiJson(env, prompt, true);
   const candidates = asRecipeArray(raw).slice(0, 5);
   const checked = await Promise.all(candidates.map((candidate) => enrichRecipe(candidate, env)));
-  return checked
-    .filter((recipe) => recipe)
-    .sort((a, b) => sourceRank(b) - sourceRank(a))
-    .slice(0, 4);
+  const ranked = checked
+    .filter((recipe) => recipe?.fonte?.status === "verified")
+    .map((recipe) => {
+      const relevance = scoreSearchRecipe(recipe, intent);
+      return relevance === null ? null : { recipe, score: relevance + sourceRank(recipe) };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.score - a.score);
+  return selectDiverseRecipes(ranked.map(({ recipe }) => recipe), 4);
+}
+
+const SEARCH_STOP_WORDS = new Set([
+  "a", "ao", "as", "com", "da", "das", "de", "do", "dos", "e", "em", "na", "nas", "no", "nos",
+  "o", "os", "para", "por", "pra", "prato", "principal", "receita", "receitas", "somente", "so",
+  "facil", "faceis", "rapida", "rapidas", "rapido", "rapidos", "pratica", "praticas", "pratico", "praticos",
+  "air", "fryer", "airfryer", "fritadeira", "sobremesa", "sobremesas", "doce", "doces", "entrada", "entradas",
+  "carne", "carnes", "vermelha", "vermelhas", "frango", "galinha", "peixe", "peixes", "porco", "suino",
+]);
+
+const PROTEIN_TERMS = {
+  carne_vermelha: [
+    "carne bovina", "carne vermelha", "bife", "patinho", "alcatra", "maminha", "picanha",
+    "file mignon", "contrafile", "acem", "musculo", "lagarto", "coxao", "cupim", "bovino", "boi",
+  ],
+  frango: ["frango", "galinha", "sobrecoxa", "coxa de frango", "peito de frango"],
+  peixe: ["peixe", "salmao", "tilapia", "bacalhau", "atum", "pescada", "sardinha"],
+  porco: ["porco", "suino", "lombo", "bisteca", "pernil", "costelinha", "panceta"],
+  vegetariano: ["vegetariano", "vegano", "sem carne"],
+};
+
+function parseSearchIntent(query, kind = "buscar") {
+  const text = normalize(query);
+  let course = "";
+  if (/(sobremesa|doce|bolo|pudim|mousse|brigadeiro|cookie|torta doce|sorvete)/.test(text)) {
+    course = "sobremesa";
+  } else if (/(entrada|petisco|aperitivo|canape)/.test(text)) {
+    course = "entrada";
+  } else if (/(prato principal|almoco|jantar)/.test(text)) {
+    course = "principal";
+  }
+
+  let protein = "";
+  if (/(carne vermelha|carne bovina|bife|patinho|alcatra|maminha|picanha|file mignon|contrafile|acem|coxao|cupim)/.test(text)) {
+    protein = "carne_vermelha";
+  } else if (/(frango|galinha|sobrecoxa)/.test(text)) {
+    protein = "frango";
+  } else if (/(peixe|salmao|tilapia|bacalhau|atum|pescada|sardinha)/.test(text)) {
+    protein = "peixe";
+  } else if (/(porco|suino|lombo|bisteca|pernil|costelinha|panceta)/.test(text)) {
+    protein = "porco";
+  } else if (/(vegetariano|vegano|sem carne)/.test(text)) {
+    protein = "vegetariano";
+  }
+
+  let method = "";
+  if (/(air ?fryer|fritadeira sem oleo)/.test(text)) method = "airfryer";
+  else if (/(panela de pressao)/.test(text)) method = "pressao";
+  else if (/(forno|assad[oa])/.test(text)) method = "forno";
+  else if (/(grelhad[oa])/.test(text)) method = "grelha";
+
+  const tokens = text
+    .split(" ")
+    .filter((token) => token.length > 1 && !SEARCH_STOP_WORDS.has(token));
+  return { text, kind, course, protein, method, tokens: [...new Set(tokens)] };
+}
+
+function searchConstraintPrompt(intent) {
+  const lines = [];
+  if (intent.course) lines.push(`- Curso obrigatório: ${intent.course}. Não misture outros tipos de prato.`);
+  if (intent.protein) lines.push(`- Proteína obrigatória: ${intent.protein.replaceAll("_", " ")}.`);
+  if (intent.method) lines.push(`- Método obrigatório: ${intent.method}.`);
+  if (intent.tokens.length) lines.push(`- O nome ou os ingredientes precisam corresponder a: ${intent.tokens.join(", ")}.`);
+  if (intent.kind === "com_ingredientes") lines.push("- Priorize o aproveitamento dos ingredientes informados.");
+  return lines.length ? `Restrições obrigatórias:\n${lines.join("\n")}` : "Responda exatamente à intenção do pedido.";
+}
+
+function recipeSearchText(recipe) {
+  return normalize([
+    recipe.nome,
+    recipe.curso,
+    recipe.porque,
+    ...(recipe.tags || []),
+    ...(recipe.ingredientes || []),
+    recipe.fonte?.title,
+  ].join(" "));
+}
+
+function includesAny(text, terms = []) {
+  return terms.some((term) => text.includes(term));
+}
+
+function recipeMatchesProtein(text, protein) {
+  if (!protein) return true;
+  if (protein === "carne_vermelha") {
+    if (includesAny(text, PROTEIN_TERMS.carne_vermelha)) return true;
+    const otherProtein = includesAny(text, [
+      ...PROTEIN_TERMS.frango,
+      ...PROTEIN_TERMS.peixe,
+      ...PROTEIN_TERMS.porco,
+    ]);
+    return text.includes("carne") && !otherProtein;
+  }
+  return includesAny(text, PROTEIN_TERMS[protein] || []);
+}
+
+function recipeMatchesMethod(text, method) {
+  if (!method) return true;
+  const methods = {
+    airfryer: ["airfryer", "air fryer", "fritadeira sem oleo"],
+    pressao: ["panela de pressao", "pressao"],
+    forno: ["forno", "assado", "assada"],
+    grelha: ["grelha", "grelhado", "grelhada"],
+  };
+  return includesAny(text, methods[method] || []);
+}
+
+function scoreSearchRecipe(recipe, intent) {
+  const text = recipeSearchText(recipe);
+  if (intent.course && recipe.curso !== intent.course) return null;
+  if (!recipeMatchesProtein(text, intent.protein)) return null;
+  if (!recipeMatchesMethod(text, intent.method)) return null;
+
+  const name = normalize(recipe.nome);
+  const ingredients = normalize((recipe.ingredientes || []).join(" "));
+  const tags = normalize((recipe.tags || []).join(" "));
+  const hits = intent.tokens.filter((token) => text.includes(token));
+  if (intent.tokens.length) {
+    const required = intent.kind === "com_ingredientes"
+      ? 1
+      : Math.max(1, Math.ceil(intent.tokens.length * 0.5));
+    if (hits.length < required) return null;
+  }
+
+  let score = hits.length * 5;
+  score += intent.tokens.filter((token) => name.includes(token)).length * 9;
+  score += intent.tokens.filter((token) => ingredients.includes(token)).length * (intent.kind === "com_ingredientes" ? 8 : 4);
+  score += intent.tokens.filter((token) => tags.includes(token)).length * 4;
+  if (intent.course) score += 18;
+  if (intent.protein) score += 20;
+  if (intent.method) score += 18;
+  return score;
+}
+
+function selectDiverseRecipes(recipes, limit) {
+  const selected = [];
+  const domainCounts = new Map();
+  const names = new Set();
+  for (const recipe of recipes) {
+    const name = normalize(recipe.nome);
+    const domain = recipe.fonte?.domain || "";
+    if (names.has(name) || (domainCounts.get(domain) || 0) >= 2) continue;
+    selected.push(recipe);
+    names.add(name);
+    domainCounts.set(domain, (domainCounts.get(domain) || 0) + 1);
+    if (selected.length >= limit) break;
+  }
+  return selected;
 }
 
 async function readSearchJob(jobId) {
@@ -674,11 +836,12 @@ async function geminiJson(env, prompt, useSearch, extraParts = []) {
   };
   if (useSearch) body.tools = [{ google_search: {} }];
 
+  const geminiTimeout = useSearch ? 25_000 : 16_000;
   let response = await fetchWithTimeout(endpoint, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body),
-  }, 16_000);
+  }, geminiTimeout);
   if (!response.ok && response.status === 400 && body.generationConfig?.responseMimeType) {
     const fallbackBody = structuredClone(body);
     delete fallbackBody.generationConfig.responseMimeType;
@@ -686,7 +849,7 @@ async function geminiJson(env, prompt, useSearch, extraParts = []) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(fallbackBody),
-    }, 16_000);
+    }, geminiTimeout);
   }
   if (!response.ok) throw new Error(`Gemini ${response.status}`);
   const payload = await response.json();
