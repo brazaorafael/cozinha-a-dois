@@ -2,9 +2,8 @@ name: Gerar cardápio e enviar e-mail
 
 on:
   schedule:
-    - cron: "0 11 * * *"
-    - cron: "30 22 * * 0"
-
+    - cron: "0 11 * * *"    # 08:00 em São Paulo
+    - cron: "30 22 * * 0"   # domingo, 19:30 em São Paulo
   workflow_dispatch:
     inputs:
       mode:
@@ -26,13 +25,12 @@ jobs:
   gerar:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-
     steps:
       - name: Baixar o projeto
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Preparar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -46,8 +44,8 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
-          PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
-          ENABLE_PEXELS_FALLBACK: ${{ vars.ENABLE_PEXELS_FALLBACK || 'false' }}
+          PEXELS_KEY: ${{ secrets.PEXELS_KEY || secrets.PEXELS_API_KEY }}
+          ENABLE_PEXELS_FALLBACK: ${{ vars.ENABLE_PEXELS_FALLBACK || 'true' }}
           APP_URL: ${{ vars.APP_URL }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
           AGENT_MODE: ${{ github.event.inputs.mode || (github.event.schedule == '30 22 * * 0' && 'semanal' || 'diario') }}
@@ -60,7 +58,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-
           if git diff --staged --quiet; then
             echo "Nenhum dado mudou."
           else
