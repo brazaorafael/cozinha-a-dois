@@ -63,7 +63,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated-r3";
+const SEARCH_CACHE_VERSION = "v5-fast-curated-r4";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -459,7 +459,7 @@ Para cada candidato, retorne:
 
   // O Google Search embutido costuma ultrapassar o limite de duração do Worker.
   // A resposta sem a ferramenta é rápida; as URLs continuam sendo abertas e verificadas abaixo.
-  const raw = await geminiJson(env, prompt, false);
+  const raw = await geminiJson(env, prompt, false, [], true);
   const candidates = asRecipeArray(raw).slice(0, 5);
   const checked = await Promise.all(
     candidates.map((candidate) => withDeadline(enrichRecipe(candidate, env), 6500, null)),
@@ -831,7 +831,7 @@ Retorne apenas um array JSON de objetos { "nome": string, "dica": string }.
   return { acompanhamentos: Array.isArray(result) ? result.slice(0, 4) : [] };
 }
 
-async function geminiJson(env, prompt, useSearch, extraParts = []) {
+async function geminiJson(env, prompt, useSearch, extraParts = [], fast = false) {
   requireSecret(env, "GEMINI_API_KEY");
   const model = String(env.GEMINI_MODEL || DEFAULT_MODEL);
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(env.GEMINI_API_KEY)}`;
@@ -842,6 +842,12 @@ async function geminiJson(env, prompt, useSearch, extraParts = []) {
       temperature: useSearch ? 0.25 : 0.15,
     },
   };
+  if (fast) {
+    body.generationConfig.maxOutputTokens = 4096;
+    if (model.startsWith("gemini-2.5")) {
+      body.generationConfig.thinkingConfig = { thinkingBudget: 0 };
+    }
+  }
   if (useSearch) body.tools = [{ google_search: {} }];
 
   const geminiTimeout = useSearch ? 22_000 : 20_000;
