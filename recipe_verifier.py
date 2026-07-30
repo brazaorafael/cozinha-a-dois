@@ -26,10 +26,12 @@ DEFAULT_HOSTS = (
     "tudogostoso.com.br",
 )
 USER_AGENT = "Mozilla/5.0 (compatible; CozinhaRecipeVerifier/2.0)"
+DISABLED_VALUES = {"0", "false", "nao", "não", "no", "off"}
 STOP_WORDS = {
     "receita", "facil", "rapida", "rapido", "caseiro", "caseira", "como",
     "fazer", "para", "com", "uma", "por", "dos", "das", "de", "da", "do", "e",
 }
+_USED_PEXELS_IDS: set[str] = set()
 
 
 def normalize(value: Any) -> str:
@@ -107,6 +109,49 @@ def _meta(html_text: str, property_name: str) -> str:
     )
 
 
+def _tag_attr(tag: str, attribute: str) -> str:
+    """Lê um atributo HTML com aspas simples, duplas ou sem aspas."""
+    name = re.escape(attribute)
+    return _first_match(
+        tag,
+        [
+            rf"\b{name}\s*=\s*[\"']([^\"']+)[\"']",
+            rf"\b{name}\s*=\s*([^\s>]+)",
+        ],
+    )
+
+
+def _best_html_image(html_text: str, base_url: str, recipe_name: str) -> str:
+    """Encontra a foto principal quando a página não expõe og:image/JSON-LD."""
+    ranked: list[tuple[float, str]] = []
+    for tag in re.findall(r"<img\b[^>]*>", html_text, re.I)[:250]:
+        alt = _tag_attr(tag, "alt")
+        score = title_similarity(recipe_name, alt)
+        hints = normalize(" ".join([
+            _tag_attr(tag, "itemprop"),
+            _tag_attr(tag, "class"),
+            _tag_attr(tag, "id"),
+        ]))
+        if "recipe" in hints or "receita" in hints or "hero" in hints:
+            score += 0.18
+        if score < 0.42:
+            continue
+
+        raw_url = (
+            _tag_attr(tag, "data-src")
+            or _tag_attr(tag, "data-lazy-src")
+            or _tag_attr(tag, "src")
+        )
+        if not raw_url:
+            srcset = _tag_attr(tag, "srcset") or _tag_attr(tag, "data-srcset")
+            if srcset:
+                raw_url = srcset.split(",")[-1].strip().split()[0]
+        image_url = safe_image_url(raw_url, base_url)
+        if image_url and not image_url.lower().endswith((".svg", ".gif")):
+            ranked.append((score, image_url))
+    return max(ranked, default=(0.0, ""))[1]
+
+
 def _flatten_ld(value: Any) -> list[dict[str, Any]]:
     if isinstance(value, list):
         out: list[dict[str, Any]] = []
@@ -171,6 +216,9 @@ def verify_recipe_page(name: str, raw_url: Any) -> dict[str, Any] | None:
     if len(response.content) > 2_000_000:
         return None
 
+    content_type = response.headers.get("content-type", "")
+    if "charset=" not in content_type.lower():
+        response.encoding = "utf-8"
     text = response.text
     schema = _recipe_schema(text)
     title = html.unescape(str(
@@ -206,7 +254,7 @@ def verify_recipe_page(name: str, raw_url: Any) -> dict[str, Any] | None:
     image = safe_image_url(
         schema_image or _meta(text, "og:image") or _meta(text, "twitter:image"),
         response.url,
-    )
+    ) or _best_html_image(text, response.url, name)
 
     ingredients = (schema or {}).get("recipeIngredient", [])
     if not isinstance(ingredients, list):
@@ -225,8 +273,11 @@ def verify_recipe_page(name: str, raw_url: Any) -> dict[str, Any] | None:
 
 def pexels_image(name: str) -> dict[str, Any] | None:
     """Plano B opcional e sempre rotulado como imagem ilustrativa."""
-    key = os.environ.get("PEXELS_KEY", "").strip()
-    enabled = os.environ.get("ENABLE_PEXELS_FALLBACK", "false").lower() == "true"
+    key = (
+        os.environ.get("PEXELS_KEY", "").strip()
+        or os.environ.get("PEXELS_API_KEY", "").strip()
+    )
+    enabled = os.environ.get("ENABLE_PEXELS_FALLBACK", "true").strip().lower() not in DISABLED_VALUES
     if not key or not enabled:
         return None
     try:
@@ -247,22 +298,34 @@ def pexels_image(name: str) -> dict[str, Any] | None:
         return None
     tokens = useful_tokens(name)
     ranked = sorted(
-        photos,
-        key=lambda photo: sum(token in normalize(photo.get("alt", "")) for token in tokens),
+        enumerate(photos),
+        key=lambda item: (
+            sum(token in normalize(item[1].get("alt", "")) for token in tokens),
+            -item[0],
+        ),
         reverse=True,
     )
     if not ranked:
         return None
-    best = ranked[0]
-    score = sum(token in normalize(best.get("alt", "")) for token in tokens)
-    if score < 1:
+    available = [
+        photo
+        for _, photo in ranked
+        if str(photo.get("id", "")) not in _USED_PEXELS_IDS
+        and (photo.get("src", {}).get("large") or photo.get("src", {}).get("medium"))
+    ]
+    if not available:
         return None
+    best = available[0]
+    bank_id = str(best.get("id", ""))
+    if bank_id:
+        _USED_PEXELS_IDS.add(bank_id)
     return {
         "kind": "bank",
         "url": best.get("src", {}).get("large") or best.get("src", {}).get("medium", ""),
         "alt": best.get("alt") or name,
-        "bank_id": str(best.get("id", "")),
+        "bank_id": bank_id,
         "credit": best.get("photographer", "Pexels"),
+        "query": name,
     }
 
 
@@ -300,7 +363,11 @@ def enrich_recipe(raw: dict[str, Any]) -> dict[str, Any]:
         recipe["imagem"] = (
             {"kind": "source", "url": verified["image"], "alt": recipe["nome"]}
             if verified["image"]
-            else {"kind": "none", "url": "", "alt": recipe["nome"]}
+            else pexels_image(recipe["nome"]) or {
+                "kind": "none",
+                "url": "",
+                "alt": recipe["nome"],
+            }
         )
         recipe["tempo"] = recipe["tempo"] or verified["total_time"]
         recipe["ingredientes"] = recipe["ingredientes"] or verified["ingredients"]
