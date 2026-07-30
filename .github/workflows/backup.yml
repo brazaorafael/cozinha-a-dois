@@ -62,10 +62,13 @@ jobs:
           }
 
 
+          # O Worker lê o campo "action" (em inglês). Se ele vier vazio, o
+          # roteador assume "voto" por padrão — e a chamada é tratada como um
+          # voto inválido. O nome do campo precisa ser exatamente este.
           def chamar(acao):
               pedido = urllib.request.Request(
                   worker,
-                  data=json.dumps({"acao": acao, "token": token}).encode("utf-8"),
+                  data=json.dumps({"action": acao, "token": token}).encode("utf-8"),
                   headers=CABECALHOS,
                   method="POST",
               )
