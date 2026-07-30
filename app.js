@@ -513,7 +513,14 @@ function renderSearch() {
   $("#search-query").value = state.search.kind === "buscar" ? state.search.query || "" : "";
   $("#pantry-query").value = state.search.kind === "com_ingredientes" ? state.search.query || "" : "";
   const target = $("#search-results");
-  const results = state.search.results || [];
+  const storedResults = state.search.results || [];
+  const results = state.settings.worker
+    ? storedResults.filter((rawRecipe) => {
+        const recipe = normalizeRecipe(rawRecipe);
+        return recipe.fonte?.status === "verified"
+          && /(^|\.)panelinha\.com\.br$/.test(String(recipe.fonte?.domain || ""));
+      })
+    : storedResults;
   target.innerHTML = results.length ? renderRecipeGroups(results) : "";
   bindRecipeInteractions(target);
 
