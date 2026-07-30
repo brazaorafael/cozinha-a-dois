@@ -64,7 +64,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated-r5";
+const SEARCH_CACHE_VERSION = "v5-fast-curated-r6";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -460,8 +460,16 @@ Para cada candidato, retorne:
 
   // O Google Search embutido costuma ultrapassar o limite de duração do Worker.
   // A resposta sem a ferramenta é rápida; as URLs continuam sendo abertas e verificadas abaixo.
-  const raw = await geminiJson(env, prompt, false, [], true);
-  const candidates = asRecipeArray(raw).slice(0, 5);
+  const fallbacks = trustedFallbackCandidates(intent);
+  let generated = [];
+  try {
+    const raw = await geminiJson(env, prompt, false, [], true);
+    generated = asRecipeArray(raw);
+  } catch (error) {
+    if (!fallbacks.length) throw error;
+    console.warn("search_model_fallback", { message: safeError(error) });
+  }
+  const candidates = [...fallbacks, ...generated].slice(0, 5);
   const checked = await Promise.all(
     candidates.map((candidate) => withDeadline(enrichRecipe(candidate, env), 6500, null)),
   );
@@ -622,6 +630,62 @@ function selectDiverseRecipes(recipes, limit) {
     if (selected.length >= limit) break;
   }
   return selected;
+}
+
+function trustedFallbackCandidates(intent) {
+  if (intent.protein === "frango" && intent.method === "airfryer") {
+    return [
+      {
+        nome: "Frango Suculento na Air Fryer",
+        curso: "principal",
+        tempo: "aprox. 30 minutos",
+        url: "https://www.receitasnestle.com.br/receitas/receita-frango-suculento-air-fryer",
+        porque: "Frango preparado diretamente na air fryer, com fonte testada.",
+        tags: ["frango", "airfryer", "pratico"],
+        rende_sobra: true,
+        ingredientes: [],
+        preparo: [],
+      },
+      {
+        nome: "Frango Crocante na Air Fryer",
+        curso: "principal",
+        tempo: "aprox. 30 minutos",
+        url: "https://www.receitasnestle.com.br/receitas/receita-frango-crocante-na-air-fryer",
+        porque: "Peito de frango crocante feito na air fryer.",
+        tags: ["frango", "airfryer", "crocante"],
+        rende_sobra: true,
+        ingredientes: [],
+        preparo: [],
+      },
+    ];
+  }
+  if (intent.protein === "carne_vermelha") {
+    return [{
+      nome: "Bife Simples e Rápido",
+      curso: "principal",
+      tempo: "15 minutos",
+      url: "https://www.tudogostoso.com.br/receita/122640-bife-simples-e-rapido.html",
+      porque: "Bife bovino rápido para uma refeição do dia a dia.",
+      tags: ["carne_vermelha", "bife", "rapido"],
+      rende_sobra: true,
+      ingredientes: [],
+      preparo: [],
+    }];
+  }
+  if (intent.course === "sobremesa") {
+    return [{
+      nome: "Brigadeirão de Micro-ondas",
+      curso: "sobremesa",
+      tempo: "10 minutos (+ geladeira)",
+      url: "https://www.receitasnestle.com.br/receitas/brigadeirao-de-micro-ondas",
+      porque: "Sobremesa de chocolate fácil, rápida e com fonte testada.",
+      tags: ["sobremesa", "chocolate", "rapido"],
+      rende_sobra: true,
+      ingredientes: [],
+      preparo: [],
+    }];
+  }
+  return [];
 }
 
 async function readSearchJob(jobId) {
