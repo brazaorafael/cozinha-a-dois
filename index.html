@@ -124,16 +124,16 @@
           </div>
 
           <div class="quick-chips" aria-label="Buscas rápidas">
-            <button type="button" data-quick-search="carne vermelha rápida">
-              Carne rápida
+            <button type="button" data-quick-search="prato principal com carne vermelha rápido">
+              Carne vermelha · rápido
             </button>
 
-            <button type="button" data-quick-search="frango airfryer">
-              Airfryer
+            <button type="button" data-quick-search="prato principal de frango na air fryer">
+              Frango na air fryer
             </button>
 
-            <button type="button" data-quick-search="sobremesa fácil">
-              Doce fácil
+            <button type="button" data-quick-search="somente sobremesa fácil">
+              Só sobremesas
             </button>
           </div>
         </form>
@@ -205,23 +205,36 @@
           <div>
             <strong>Gostaram de um prato?</strong>
             <p>
-              Fotografe o prato, uma receita em papel ou uma captura de tela.
-              O app identifica, procura uma fonte e guarda em Gostei.
+              Tire uma foto ou escolha uma imagem da galeria. O app identifica,
+              procura uma fonte e guarda em Gostei.
             </p>
           </div>
 
-          <label class="secondary-button small" for="photo-input">
-            Publicar foto
-          </label>
+          <div class="photo-actions" aria-label="Adicionar foto de uma receita">
+            <label class="secondary-button small" for="camera-input">
+              Tirar foto
+            </label>
 
-          <input
-            id="photo-input"
-            type="file"
-            accept="image/*"
-            multiple
-            capture="environment"
-            hidden
-          />
+            <label class="secondary-button small" for="gallery-input">
+              Escolher da galeria
+            </label>
+
+            <input
+              id="camera-input"
+              type="file"
+              accept="image/*"
+              capture="environment"
+              hidden
+            />
+
+            <input
+              id="gallery-input"
+              type="file"
+              accept="image/*"
+              multiple
+              hidden
+            />
+          </div>
         </div>
 
         <div
