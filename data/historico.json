@@ -442,5 +442,329 @@
     ],
     "data": "29/07/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "iscas-de-carne-com-cebola-roxa-e-pimentao-ccdea7f2",
+    "titulo": "Iscas de carne com cebola roxa e pimentão",
+    "tags": [
+      "carne",
+      "rapido",
+      "refogado",
+      "vegetais"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "risoto-de-abobrinha-com-queijo-ce4cdca5",
+    "titulo": "Risoto de abobrinha com queijo",
+    "tags": [
+      "vegetariano",
+      "risoto",
+      "queijo",
+      "confort_food"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-tomate-com-cebola-roxa-94819d2c",
+    "titulo": "Salada de tomate com cebola-roxa",
+    "tags": [
+      "salada",
+      "fresca",
+      "vegetariano",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "peras-assadas-no-micro-ondas-cf892371",
+    "titulo": "Peras assadas no micro-ondas",
+    "tags": [
+      "fruta",
+      "micro_ondas",
+      "rapido",
+      "leve"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-assado-com-batata-e-alecrim-17cf2ce5",
+    "titulo": "Frango assado com batata e alecrim",
+    "tags": [
+      "frango",
+      "forno",
+      "batata",
+      "rende_muito"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-acebolado-959638fa",
+    "titulo": "Bife acebolado",
+    "tags": [
+      "carne",
+      "rapido",
+      "refogado",
+      "cebola"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bruschetta-de-tomate-008b1157",
+    "titulo": "Bruschetta de tomate",
+    "tags": [
+      "italiana",
+      "pao",
+      "vegetariano",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "maca-assada-com-crocante-de-aveia-ea04cb0e",
+    "titulo": "Maçã assada com crocante de aveia",
+    "tags": [
+      "fruta",
+      "forno",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "picadinho-de-carne-com-legumes-60ed6959",
+    "titulo": "Picadinho de carne com legumes",
+    "tags": [
+      "carne",
+      "refogado",
+      "legumes",
+      "classico"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "lombo-suino-com-molho-de-laranja-eb9ee90d",
+    "titulo": "Lombo suíno com molho de laranja",
+    "tags": [
+      "carne_de_porco",
+      "agridoce",
+      "grelhado",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-grega-b2ca4a64",
+    "titulo": "Salada grega",
+    "tags": [
+      "salada",
+      "mediterranea",
+      "queijo",
+      "vegetariano"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "frutas-douradas-com-mel-d2fe1640",
+    "titulo": "Frutas douradas com mel",
+    "tags": [
+      "fruta",
+      "frigideira",
+      "rapido",
+      "doce"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salmao-assado-com-crosta-de-castanha-do-para-77cd5dfc",
+    "titulo": "Salmão assado com crosta de castanha-do-pará",
+    "tags": [
+      "peixe",
+      "forno",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "tapenade-com-limao-siciliano-e-tomilho-af1206bc",
+    "titulo": "Tapenade com limão-siciliano e tomilho",
+    "tags": [
+      "pate",
+      "azeitona",
+      "rapido",
+      "vegetariano"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "cocada-de-forno-6926be9d",
+    "titulo": "Cocada de forno",
+    "tags": [
+      "coco",
+      "forno",
+      "brasileira",
+      "doce"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-grelhado-com-vinagrete-f66a1291",
+    "titulo": "Bife grelhado com vinagrete",
+    "tags": [
+      "carne",
+      "grelhado",
+      "vinagrete",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "file-de-frango-grelhado-com-sal-temperado-b89746aa",
+    "titulo": "Filé de frango grelhado com sal temperado",
+    "tags": [
+      "frango",
+      "grelhado",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-de-pimentao-marinado-com-hortela-1043d971",
+    "titulo": "Salada de pimentão marinado com hortelã",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "forno",
+      "fresca"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "musse-de-chocolate-branco-0ea12b4b",
+    "titulo": "Musse de chocolate branco",
+    "tags": [
+      "chocolate",
+      "cremosa",
+      "rapida",
+      "doce"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "costelinha-de-porco-na-air-fryer-da-rita-lobo-08fe8836",
+    "titulo": "Costelinha de porco na Air Fryer da Rita Lobo",
+    "tags": [
+      "carne_de_porco",
+      "airfryer",
+      "pratico",
+      "assado"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-com-molho-de-limao-e-grao-de-bico-43f65ca8",
+    "titulo": "Bife com molho de limão e grão-de-bico",
+    "tags": [
+      "carne",
+      "rapido",
+      "uma_panela",
+      "grao_de_bico"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6",
+    "titulo": "Queijo brie aperitivo na Air Fryer da Rita Lobo",
+    "tags": [
+      "queijo",
+      "airfryer",
+      "aperitivo",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "arroz-doce-cremoso-668ad5cf",
+    "titulo": "Arroz-doce cremoso",
+    "tags": [
+      "arroz",
+      "doce",
+      "cremoso",
+      "tradicional"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "omelete-de-forno-com-legumes-c958751d",
+    "titulo": "Omelete de forno com legumes",
+    "tags": [
+      "vegetariano",
+      "forno",
+      "ovos",
+      "leve"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bisteca-com-vagem-e-tomate-na-air-fryer-da-rita--4d7dbff8",
+    "titulo": "Bisteca com vagem e tomate na Air Fryer da Rita Lobo",
+    "tags": [
+      "carne_de_porco",
+      "airfryer",
+      "vegetais",
+      "rapido"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bolinho-de-mandioca-com-queijo-na-air-fryer-da-r-6f16b5af",
+    "titulo": "Bolinho de mandioca com queijo na Air Fryer da Rita Lobo",
+    "tags": [
+      "airfryer",
+      "queijo",
+      "mandioca",
+      "petisco"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "musse-de-chocolate-com-agua-4c818a31",
+    "titulo": "Musse de chocolate com água",
+    "tags": [
+      "chocolate",
+      "rapida",
+      "leve",
+      "sem_lactose"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
   }
 ]
