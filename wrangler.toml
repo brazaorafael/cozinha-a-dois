@@ -14,8 +14,9 @@ binding = "DB"
 database_name = "cozinha-a-dois"
 database_id = "8c4e82dd-b3b2-46dd-9567-c72bcdc23891"
 
-# Depois de ativar o R2 e criar o bucket cozinha-a-dois-fotos,
-# acrescente aqui o binding PHOTOS conforme o guia de instalação.
+[[r2_buckets]]
+binding = "PHOTOS"
+bucket_name = "cozinha-a-dois-fotos"
 
 [observability]
 enabled = true
