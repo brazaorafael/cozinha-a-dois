@@ -62,8 +62,8 @@ const SOURCE_TIERS = {
   ],
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
-const PENDING_TTL_SECONDS = 60;
-const SEARCH_CACHE_VERSION = "v4-curated";
+const PENDING_TTL_SECONDS = 90;
+const SEARCH_CACHE_VERSION = "v4-curated-r2";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -407,12 +407,15 @@ async function handleSearch(body, env, ctx, cors) {
     runVerifiedSearch(action, clean, env)
       .then((pratos) => writeSearchJob(jobId, { status: "done", job_id: jobId, pratos }, SEARCH_TTL_SECONDS))
       .catch(async (error) => {
-        console.error("search_background_error", { jobId, message: safeError(error) });
+        const detail = safeError(error);
+        console.error("search_background_error", { jobId, message: detail });
         await writeSearchJob(jobId, {
           status: "done",
           job_id: jobId,
           pratos: [],
-          aviso: "A busca não encontrou fontes verificáveis.",
+          aviso: detail.includes("Gemini 429")
+            ? "A pesquisa atingiu o limite momentâneo do Gemini. Tente novamente em alguns minutos."
+            : "A busca não encontrou fontes verificáveis. Tente novamente com o nome do prato.",
         }, 300);
       }),
   );
@@ -836,20 +839,12 @@ async function geminiJson(env, prompt, useSearch, extraParts = []) {
   };
   if (useSearch) body.tools = [{ google_search: {} }];
 
-  const geminiTimeout = useSearch ? 25_000 : 16_000;
-  let response = await fetchWithTimeout(endpoint, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
-  }, geminiTimeout);
+  const geminiTimeout = useSearch ? 22_000 : 16_000;
+  let response = await fetchGeminiWithRetry(endpoint, body, geminiTimeout, useSearch ? 2 : 1);
   if (!response.ok && response.status === 400 && body.generationConfig?.responseMimeType) {
     const fallbackBody = structuredClone(body);
     delete fallbackBody.generationConfig.responseMimeType;
-    response = await fetchWithTimeout(endpoint, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(fallbackBody),
-    }, geminiTimeout);
+    response = await fetchGeminiWithRetry(endpoint, fallbackBody, geminiTimeout, useSearch ? 2 : 1);
   }
   if (!response.ok) throw new Error(`Gemini ${response.status}`);
   const payload = await response.json();
@@ -858,6 +853,26 @@ async function geminiJson(env, prompt, useSearch, extraParts = []) {
     .filter(Boolean)
     .join("");
   return parseJson(text);
+}
+
+async function fetchGeminiWithRetry(endpoint, body, timeoutMs, attempts) {
+  let response;
+  let lastError;
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    try {
+      response = await fetchWithTimeout(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      }, timeoutMs);
+      if (response.ok || (response.status !== 429 && response.status < 500)) return response;
+    } catch (error) {
+      lastError = error;
+    }
+    if (attempt + 1 < attempts) await wait(900 * (attempt + 1));
+  }
+  if (response) return response;
+  throw lastError || new Error("Gemini indisponível");
 }
 
 async function enrichRecipe(raw, env) {
@@ -1272,6 +1287,10 @@ async function fetchWithTimeout(url, options, timeoutMs) {
   } finally {
     clearTimeout(timeout);
   }
+}
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function hashText(value) {
