@@ -15,6 +15,7 @@
  */
 
 const DEFAULT_MODEL = "gemini-2.5-flash";
+const DEFAULT_SEARCH_MODEL = "gemini-2.5-flash-lite";
 const DEFAULT_RECIPE_HOSTS = [
   "panelinha.com.br",
   "receitasnestle.com.br",
@@ -63,7 +64,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated-r4";
+const SEARCH_CACHE_VERSION = "v5-fast-curated-r5";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -833,7 +834,11 @@ Retorne apenas um array JSON de objetos { "nome": string, "dica": string }.
 
 async function geminiJson(env, prompt, useSearch, extraParts = [], fast = false) {
   requireSecret(env, "GEMINI_API_KEY");
-  const model = String(env.GEMINI_MODEL || DEFAULT_MODEL);
+  const model = String(
+    fast
+      ? env.GEMINI_SEARCH_MODEL || DEFAULT_SEARCH_MODEL
+      : env.GEMINI_MODEL || DEFAULT_MODEL,
+  );
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(env.GEMINI_API_KEY)}`;
   const body = {
     contents: [{ parts: [{ text: prompt }, ...extraParts] }],
