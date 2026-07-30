@@ -1,175 +1,189 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-07-29T22:31:05-03:00",
+  "gerado_em": "2026-07-29T22:53:23-03:00",
   "diario": {
     "tipo": "diario",
     "data": "29/07/2026",
     "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Bifes de contrafilé",
+        "nome": "Almôndegas Assadas",
         "curso": "principal",
-        "tempo": "10-15 minutos",
-        "porque": "Carne vermelha preferida, grelhado (sem fritura), super rápido e fácil, ideal para um jantar a dois. Foco em proteína e preparo prático.",
+        "tempo": "40 minutos",
+        "porque": "Uma opção deliciosa de carne vermelha (com um toque de suína) que é assada no forno, evitando fritura. O tempo de preparo é adequado e a receita rende uma boa quantidade, ideal para o jantar do casal e com sobras para o almoço de uma pessoa.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
-          "rapido",
-          "para_dois"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bifes de contrafilé",
-          "1 colher (chá) de azeite",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Retire os bifes da geladeira e deixe em temperatura ambiente por alguns minutos antes de cozinhar.",
-          "Tempere os bifes com sal e pimenta-do-reino moída na hora a gosto.",
-          "Leve uma frigideira grande ao fogo alto. Quando estiver bem aquecida, regue com o azeite.",
-          "Coloque os bifes na frigideira e deixe dourar por cerca de 2 minutos de cada lado, sem mexer, até que se soltem do fundo.",
-          "Desligue o fogo e sirva os bifes imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/bifes-de-contrafile",
-          "title": "Bifes de contrafilÃ© - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 0.42,
-          "checked_at": "2026-07-30T01:30:15+00:00"
-        },
-        "imagem": {
-          "kind": "none",
-          "url": "",
-          "alt": "Bifes de contrafilé"
-        },
-        "id": "bifes-de-contrafile-47bd7deb"
-      },
-      {
-        "nome": "Carne moída com cebola e pimenta síria",
-        "curso": "principal",
-        "tempo": "20-25 minutos",
-        "porque": "Carne vermelha, refogada (sem fritura), rápida, saborosa e rende bem para sobras, garantindo uma refeição equilibrada com proteína.",
-        "tags": [
-          "carne_moida",
-          "refogado",
-          "rapido",
-          "rende_sobra"
+          "assado",
+          "pratico",
+          "proteico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de patinho moído",
-          "½ cebola",
-          "2 colheres (sopa) de azeite",
-          "¼ de colher (chá) de pimenta síria",
+          "200g de patinho moído",
+          "200g de pernil suíno moído",
+          "1 fatia de pão de forma sem casca",
+          "¼ xícara (chá) de leite",
+          "1 dente de alho",
+          "1 ovo",
+          "¼ xícara (chá) de queijo parmesão ralado",
+          "Salsinha fresca picada a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Azeite para untar"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 200 ºC e unte uma assadeira grande com azeite.",
+          "Em uma tigela, misture o miolo do pão com o leite. Descasque e pique o alho. Pique a salsinha.",
+          "Adicione as carnes moídas, o alho picado, o ovo, sal e pimenta-do-reino à tigela com o pão umedecido. Misture bem com as mãos até ficar homogêneo.",
+          "Incorpore o queijo parmesão ralado e a salsinha picada à massa.",
+          "Unte as mãos com azeite e modele as almôndegas em bolinhas do tamanho de uma bola de pingue-pongue.",
+          "Distribua as almôndegas na assadeira, deixando espaço entre elas, e leve ao forno preaquecido por 15 minutos ou até dourarem levemente.",
+          "Sirva as almôndegas assadas com um molho de tomate de sua preferência e acompanhamentos."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/almondegas-assadas",
+          "title": "Almôndegas assadas - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-07-30T01:54:37+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4130-almondegas-assadas.webp",
+          "alt": "Almôndegas Assadas"
+        },
+        "id": "almondegas-assadas-a212575e"
+      },
+      {
+        "nome": "Estrogonofe para Dois",
+        "curso": "principal",
+        "tempo": "35 minutos",
+        "porque": "Um clássico rápido e prático, perfeito para um jantar a dois. Utiliza carne vermelha (filé mignon ou alcatra) e pode ser preparado em cerca de 35 minutos. Embora a receita seja para duas porções, pode haver uma pequena sobra dependendo do apetite, ou pode ser facilmente ajustada para render um pouco mais.",
+        "tags": [
+          "carne_vermelha",
+          "refogado",
+          "rapido",
+          "cremoso"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 bifes de filé mignon ou alcatra (cerca de 200g)",
+          "1 cebola pequena",
+          "1 dente de alho",
+          "1 xícara (chá) de creme de leite fresco",
+          "1 colher (sopa) de extrato de tomate",
+          "1 colher (sopa) de ketchup",
+          "1 colher (sopa) de molho inglês",
+          "1 colher (sopa) de conhaque (opcional)",
+          "1½ colher (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "100g de cogumelos-de-paris frescos (opcional)"
+        ],
+        "preparo": [
+          "Corte a carne em tirinhas de aproximadamente 7 cm x 1 cm. Pique a cebola e o alho. Fatie os cogumelos, se usar.",
+          "Aqueça ½ colher (sopa) de azeite em uma panela média em fogo médio. Doure as tirinhas de carne em levas para não soltar água, tempere com sal e pimenta, e reserve.",
+          "Na mesma panela, adicione o restante do azeite e refogue a cebola até murchar (cerca de 3 minutos). Junte o alho e refogue por mais 1 minuto.",
+          "Acrescente o extrato de tomate e o ketchup, misturando bem.",
+          "Retorne a carne à panela, adicione o molho inglês e o conhaque (se usar). Junte os cogumelos e misture delicadamente.",
+          "Regue com o creme de leite, misture e cozinhe em fogo médio por cerca de 5 minutos, mexendo ocasionalmente, até o molho engrossar.",
+          "Desligue o fogo, prove e ajuste o sal. Sirva imediatamente com arroz branco e batata palha."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/estrogonofe-para-dois",
+          "title": "Estrogonofe para dois - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-07-30T01:54:37+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-3556-estrogonofe-para-dois.webp",
+          "alt": "Estrogonofe para Dois"
+        },
+        "id": "estrogonofe-para-dois-eff9cde3"
+      },
+      {
+        "nome": "Homus a Jato",
+        "curso": "entrada",
+        "tempo": "10 minutos",
+        "porque": "Esta entrada é super rápida e prática, ideal para abrir o apetite sem pesar. É rica em proteína vegetal (grão-de-bico) e pode ser preparada em poucos minutos, utilizando ingredientes acessíveis. Perfeita para um casal e rende bem para sobras.",
+        "tags": [
+          "vegetariano",
+          "rapido",
+          "saudavel",
+          "pasta"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 lata de grão-de-bico cozido (240g drenado)",
+          "3 colheres (sopa) de tahine (pasta de gergelim)",
+          "1 dente de alho descascado",
+          "Caldo de ½ limão",
+          "Água filtrada (para dar ponto)",
           "Sal a gosto"
         ],
         "preparo": [
-          "Retire a carne moída da geladeira e deixe em temperatura ambiente enquanto prepara os outros ingredientes.",
-          "Descasque e corte a cebola em meias-luas finas, de aproximadamente 0,5 cm.",
-          "Leve uma frigideira grande ao fogo médio. Regue com 1 colher (sopa) de azeite e doure metade da carne moída em montinhos por 1 minuto de cada lado. Transfira para uma tigela e repita com o restante da carne.",
-          "Na mesma frigideira, mantenha em fogo médio, adicione a cebola e tempere com uma pitada de sal. Refogue por cerca de 2 minutos, até murchar.",
-          "Volte toda a carne dourada para a frigideira, adicione a pimenta síria e misture bem.",
-          "Sirva quente, acompanhada de arroz e uma salada."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-cebola-e-pimenta-siria",
-          "checked_at": "2026-07-30T01:30:15+00:00"
-        },
-        "imagem": {
-          "kind": "none",
-          "url": "",
-          "alt": "Carne moída com cebola e pimenta síria"
-        },
-        "id": "carne-moida-com-cebola-e-pimenta-siria-b33c0200"
-      },
-      {
-        "nome": "Salada picadinha",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Entrada leve e equilibrada com vegetais, rápida e colorida, complementando bem os pratos principais.",
-        "tags": [
-          "salada",
-          "vegetais",
-          "rapido",
-          "leve"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 maço de alface-americana",
-          "½ repolho roxo (cerca de 3 xícaras [chá])",
-          "1 cenoura",
-          "1 pepino",
-          "2 colheres (sopa) de açúcar mascavo (para o molho)",
-          "3 colheres (sopa) de shoyu (molho de soja) (para o molho)",
-          "2 colheres (sopa) de vinagre de arroz (para o molho)",
-          "6 colheres (sopa) de óleo (para o molho)"
-        ],
-        "preparo": [
-          "Lave e seque bem as folhas de alface-americana, o repolho roxo, a cenoura e o pepino.",
-          "Pique a alface, fatie o repolho finamente, rale a cenoura e corte o pepino em cubos pequenos.",
-          "Em uma tigela pequena, prepare o molho misturando o açúcar mascavo, o shoyu, o vinagre de arroz e o óleo.",
-          "Combine todos os vegetais picados em uma saladeira.",
-          "Regue a salada com o molho apenas na hora de servir e misture delicadamente."
+          "Escorra o grão-de-bico cozido da lata e reserve um pouco da água do cozimento.",
+          "No liquidificador ou processador, coloque o grão-de-bico, o tahine, o alho e o caldo de limão.",
+          "Bata bem, adicionando a água reservada aos poucos, até obter uma pasta lisa e cremosa.",
+          "Tempere com sal a gosto e bata novamente para incorporar.",
+          "Transfira para uma tigela, regue com um fio de azeite e sirva com pães ou torradas."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-picadinha",
-          "title": "Salada picadinha - Panelinha",
+          "url": "https://panelinha.com.br/receita/homus-a-jato",
+          "title": "Homus a jato - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-07-30T01:30:16+00:00"
+          "checked_at": "2026-07-30T01:54:38+00:00"
         },
         "imagem": {
-          "kind": "none",
-          "url": "",
-          "alt": "Salada picadinha"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-3526-blog-homus-a-jato.webp",
+          "alt": "Homus a Jato"
         },
-        "id": "salada-picadinha-0b2eb76c"
+        "id": "homus-a-jato-fda240af"
       },
       {
-        "nome": "Pudim rápido de tapioca",
+        "nome": "Mousse de Limão Rápida",
         "curso": "sobremesa",
-        "tempo": "20 minutos (para firmar na geladeira)",
-        "porque": "Sobremesa rápida, fácil, leve e versátil, ideal para finalizar o jantar sem complicação e pode render para o almoço do dia seguinte.",
+        "tempo": "10 minutos (+ tempo de geladeira)",
+        "porque": "Uma sobremesa clássica, leve e refrescante, perfeita para finalizar o jantar. É incrivelmente fácil e rápida de preparar, levando apenas alguns minutos no liquidificador antes de ir para a geladeira. Rende bem para o casal e pode ter sobras.",
         "tags": [
-          "sobremesa",
+          "doce",
+          "citrico",
           "rapido",
-          "leve",
-          "doce"
+          "gelado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 xícara (chá) de leite",
-          "2 colheres (sopa) de tapioca granulada",
-          "1 colher (sopa) de açúcar",
-          "Doce de abóbora, goiabada ou frutas frescas para servir (opcional)"
+          "1 lata de leite condensado (395g)",
+          "1 lata de creme de leite (200g)",
+          "½ copo (americano) de suco puro de limão (cerca de 100ml)",
+          "Raspas de limão a gosto (para decorar)"
         ],
         "preparo": [
-          "Em uma panela, misture o leite e o açúcar. Leve ao fogo médio.",
-          "Assim que as primeiras bolhas começarem a subir, diminua o fogo e adicione a tapioca granulada.",
-          "Mexa continuamente por cerca de 2 minutos, até que o creme engrosse e a tapioca fique transparente.",
-          "Transfira o creme ainda quente para 2 potinhos individuais.",
-          "Leve os potinhos à geladeira por aproximadamente 20 minutos para que o pudim firme.",
-          "Sirva o pudim coberto com doce de abóbora, goiabada ou frutas frescas, se desejar."
+          "No liquidificador, adicione o leite condensado e o creme de leite. Bata por cerca de 3 minutos.",
+          "Com o liquidificador ainda ligado, adicione o suco de limão aos poucos, batendo até a mistura encorpar e ficar cremosa.",
+          "Despeje a mousse em um refratário ou taças individuais.",
+          "Leve à geladeira por, no mínimo, 2 horas, ou até que esteja firme e bem gelada.",
+          "Antes de servir, decore com raspas de limão a gosto."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
-          "title": "Pudim rÃ¡pido de tapioca - Panelinha",
-          "domain": "panelinha.com.br",
+          "url": "https://www.tudogostoso.com.br/receita/155693-mousse-de-limao-rapido.html",
+          "title": "Mousse de limão rápido",
+          "domain": "tudogostoso.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-07-30T01:30:16+00:00"
+          "checked_at": "2026-07-30T01:54:38+00:00"
         },
         "imagem": {
-          "kind": "none",
-          "url": "",
-          "alt": "Pudim rápido de tapioca"
+          "kind": "source",
+          "url": "https://static.itdg.com.br/images/1200-675/c39ddfeffc1bc601d1d77e585233f375/189080-160087-original.jpg.jpg",
+          "alt": "Mousse de Limão Rápida"
         },
-        "id": "pudim-rapido-de-tapioca-484a6aab"
+        "id": "mousse-de-limao-rapida-f60f75bf"
       }
     ]
   },

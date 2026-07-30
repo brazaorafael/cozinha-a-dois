@@ -394,5 +394,53 @@
     ],
     "data": "29/07/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "almondegas-assadas-a212575e",
+    "titulo": "Almôndegas Assadas",
+    "tags": [
+      "carne_vermelha",
+      "assado",
+      "pratico",
+      "proteico"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "estrogonofe-para-dois-eff9cde3",
+    "titulo": "Estrogonofe para Dois",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "cremoso"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "homus-a-jato-fda240af",
+    "titulo": "Homus a Jato",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "saudavel",
+      "pasta"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "mousse-de-limao-rapida-f60f75bf",
+    "titulo": "Mousse de Limão Rápida",
+    "tags": [
+      "doce",
+      "citrico",
+      "rapido",
+      "gelado"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
   }
 ]
