@@ -52,11 +52,21 @@ jobs:
               raise SystemExit("::error::O secret APP_TOKEN não está configurado no repositório.")
 
 
+          # O User-Agent importa: sem ele, o urllib se identifica como
+          # "Python-urllib" e a proteção anti-bot do Cloudflare responde 1010
+          # antes mesmo de a requisição chegar ao Worker.
+          CABECALHOS = {
+              "Content-Type": "application/json",
+              "Accept": "application/json",
+              "User-Agent": "Mozilla/5.0 (compatible; CozinhaADois/1.0)",
+          }
+
+
           def chamar(acao):
               pedido = urllib.request.Request(
                   worker,
                   data=json.dumps({"acao": acao, "token": token}).encode("utf-8"),
-                  headers={"Content-Type": "application/json"},
+                  headers=CABECALHOS,
                   method="POST",
               )
               try:
@@ -64,6 +74,12 @@ jobs:
                       return json.loads(resposta.read().decode("utf-8"))
               except urllib.error.HTTPError as erro:
                   detalhe = erro.read().decode("utf-8", "replace")[:400]
+                  if "1010" in detalhe or "1020" in detalhe:
+                      raise SystemExit(
+                          "::error::O Cloudflare bloqueou a requisição na borda "
+                          f"(código {erro.code}), antes de chegar ao Worker. "
+                          "Isso é proteção anti-bot, não problema de token."
+                      ) from None
                   raise SystemExit(
                       f"::error::A rota '{acao}' respondeu {erro.code}. Resposta: {detalhe}"
                   ) from None
