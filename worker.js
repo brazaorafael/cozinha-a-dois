@@ -64,7 +64,10 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated-r10";
+const SEARCH_CACHE_VERSION = "v6-panelinha-r1";
+// O próprio site do Panelinha usa este índice e esta chave pública somente para leitura.
+const PANELINHA_SEARCH_HOST = "lrcfpi14gd2kqnsap-1.a1.typesense.net";
+const PANELINHA_SEARCH_KEY = "h4mOKanY7wZS479ZsHGu33J4AtEnfFvP";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -388,7 +391,6 @@ async function dispatchTasteToGitHub({ voto, eventId, recipe }, env) {
 }
 
 async function handleSearch(body, env, ctx, cors) {
-  requireSecret(env, "GEMINI_API_KEY");
   const action = body.action;
   const query = action === "com_ingredientes"
     ? (Array.isArray(body.ingredientes) ? body.ingredientes.join(", ") : String(body.texto || ""))
@@ -425,56 +427,9 @@ async function handleSearch(body, env, ctx, cors) {
 
 async function runVerifiedSearch(action, query, env) {
   const intent = parseSearchIntent(query, action);
-  const sourceInstruction = sourcePriorityPrompt(env);
-  const task = action === "com_ingredientes"
-    ? `Crie opções usando principalmente estes ingredientes: ${query}.`
-    : `Encontre receitas para este pedido: ${query}.`;
-  const constraints = searchConstraintPrompt(intent);
-  const prompt = `
-Você é um pesquisador de receitas para um casal brasileiro.
-${PROFILE}
-${task}
-O pedido atual tem prioridade sobre o perfil geral.
-${constraints}
-Não inclua receitas apenas parecidas: cada candidato deve cumprir TODAS as restrições
-obrigatórias acima. Se não houver uma opção segura, retorne uma lista vazia.
-Selecione candidatos conhecidos exclusivamente nas fontes abaixo, respeitando a ordem de confiança.
-Depois, o sistema abrirá cada URL para confirmar que a página existe e corresponde à receita:
-${sourceInstruction}
-No TudoGostoso e no Cookpad, prefira resultados com avaliações melhores e mais avaliações.
-Retorne até 5 candidatos diferentes. A URL precisa ser a página direta da receita, nunca uma busca,
-home, categoria, vídeo ou URL inventada. Não copie o texto da fonte.
-Para cada candidato, retorne:
-{
-  "nome": string,
-  "curso": "principal" | "entrada" | "sobremesa",
-  "tempo": string,
-  "url": string,
-  "porque": string,
-  "tags": string[],
-  "rende_sobra": boolean,
-  "ingredientes": string[],
-  "preparo": string[]
-}
-`.trim();
-
-  // O Google Search embutido costuma ultrapassar o limite de duração do Worker.
-  // A resposta sem a ferramenta é rápida; as URLs continuam sendo abertas e verificadas abaixo.
-  const fallbacks = [
-    ...trustedFallbackCandidates(intent),
-    ...queryUrlCandidates(query, intent),
-  ];
-  let generated = [];
-  try {
-    const raw = await geminiJson(env, prompt, false, [], true);
-    generated = asRecipeArray(raw);
-  } catch (error) {
-    if (!fallbacks.length) throw error;
-    console.warn("search_model_fallback", { message: safeError(error) });
-  }
-  const candidates = [...fallbacks, ...generated].slice(0, 5);
+  const candidates = await searchPanelinhaCatalog(query, intent);
   const checked = await Promise.all(
-    candidates.map((candidate) => withDeadline(enrichRecipe(candidate, env), 6500, null)),
+    candidates.slice(0, 8).map((candidate) => withDeadline(enrichRecipe(candidate, env), 6500, null)),
   );
   const ranked = checked
     .filter((recipe) => recipe?.fonte?.status === "verified")
@@ -484,7 +439,88 @@ Para cada candidato, retorne:
     })
     .filter(Boolean)
     .sort((a, b) => b.score - a.score);
-  return selectDiverseRecipes(ranked.map(({ recipe }) => recipe), 4);
+  return selectDiverseRecipes(ranked.map(({ recipe }) => recipe), 4, 4);
+}
+
+async function searchPanelinhaCatalog(query, intent) {
+  const preciseQuery = panelinhaSearchQuery(query, intent);
+  if (!preciseQuery) return [];
+
+  const response = await fetchWithTimeout(
+    `https://${PANELINHA_SEARCH_HOST}/multi_search`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Typesense-Api-Key": PANELINHA_SEARCH_KEY,
+      },
+      body: JSON.stringify({
+        searches: [{
+          collection: "pan_pages",
+          q: preciseQuery,
+          query_by: "title,ingredients,description,categories,cuisines,extra",
+          filter_by: "page_type:=Receitas",
+          per_page: 12,
+          page: 1,
+        }],
+      }),
+    },
+    6000,
+  );
+  if (!response.ok) throw new Error(`Busca Panelinha ${response.status}`);
+
+  const payload = await response.json();
+  const hits = Array.isArray(payload?.results?.[0]?.hits) ? payload.results[0].hits : [];
+  return hits
+    .map((hit) => panelinhaDocumentToCandidate(hit?.document, intent))
+    .filter(Boolean);
+}
+
+function panelinhaSearchQuery(query, intent) {
+  const filler = new Set([
+    "a", "ao", "as", "com", "da", "das", "de", "do", "dos", "e", "em", "na", "nas", "no", "nos",
+    "o", "os", "para", "por", "pra", "prato", "principal", "receita", "receitas", "somente", "so",
+    "facil", "faceis", "rapida", "rapidas", "rapido", "rapidos", "pratica", "praticas", "pratico",
+    "praticos", "jantar", "almoco", "quero", "queria", "busca", "buscar", "procuro", "procurar", "fazer",
+    "uma", "um",
+  ]);
+  let words = normalize(query)
+    .split(" ")
+    .filter((word) => word.length > 1 && !filler.has(word));
+
+  if (intent.protein === "carne_vermelha" && words.join(" ").includes("carne vermelha")) {
+    words = words.join(" ").replace("carne vermelha", "carne bovina").split(" ");
+  }
+  if (!words.length && intent.course === "sobremesa") words = ["sobremesa"];
+  return words.join(" ").slice(0, 180);
+}
+
+function panelinhaDocumentToCandidate(document, intent) {
+  if (!document || typeof document !== "object") return null;
+  const trackback = String(document.trackback || "");
+  if (!trackback.startsWith("/receita/")) return null;
+
+  const categories = Array.isArray(document.categories) ? document.categories.map(String) : [];
+  const cuisines = Array.isArray(document.cuisines) ? document.cuisines.map(String) : [];
+  const ingredientNames = Array.isArray(document.ingredients) ? document.ingredients.map(String) : [];
+  const categoryText = normalize(categories.join(" "));
+  const course = intent.course
+    || (categoryText.includes("sobremesa") ? "sobremesa"
+      : /(entrada|aperitivo|petisco)/.test(categoryText) ? "entrada"
+        : "principal");
+  const servings = Number(String(document.recipe_yield_text || "").match(/\d+/)?.[0] || 0);
+
+  return {
+    nome: cleanText(document.title || "").slice(0, 180),
+    curso: course,
+    tempo: cleanText(document.total_time_text || "").slice(0, 40),
+    url: `https://panelinha.com.br${trackback}`,
+    porque: cleanText(document.description || "Receita encontrada no catálogo do Panelinha.").slice(0, 360),
+    tags: [...categories, ...cuisines, ...ingredientNames].slice(0, 24),
+    rende_sobra: servings > 2,
+    ingredientes: [],
+    preparo: [],
+  };
 }
 
 const SEARCH_STOP_WORDS = new Set([
@@ -497,7 +533,8 @@ const SEARCH_STOP_WORDS = new Set([
 
 const PROTEIN_TERMS = {
   carne_vermelha: [
-    "carne bovina", "carne vermelha", "bife", "patinho", "alcatra", "maminha", "picanha",
+    "carne bovina", "carne vermelha", "carne seca", "carne-seca", "charque", "jaba",
+    "bife", "patinho", "alcatra", "maminha", "picanha",
     "file mignon", "contrafile", "acem", "musculo", "lagarto", "coxao", "cupim", "bovino", "boi",
   ],
   frango: ["frango", "galinha", "sobrecoxa", "coxa de frango", "peito de frango"],
@@ -518,7 +555,7 @@ function parseSearchIntent(query, kind = "buscar") {
   }
 
   let protein = "";
-  if (/(carne vermelha|carne bovina|bife|patinho|alcatra|maminha|picanha|file mignon|contrafile|acem|coxao|cupim)/.test(text)) {
+  if (/(carne vermelha|carne bovina|carne seca|charque|jaba|bife|patinho|alcatra|maminha|picanha|file mignon|contrafile|acem|coxao|cupim)/.test(text)) {
     protein = "carne_vermelha";
   } else if (/(frango|galinha|sobrecoxa)/.test(text)) {
     protein = "frango";
@@ -619,14 +656,14 @@ function scoreSearchRecipe(recipe, intent) {
   return score;
 }
 
-function selectDiverseRecipes(recipes, limit) {
+function selectDiverseRecipes(recipes, limit, maxPerDomain = 2) {
   const selected = [];
   const domainCounts = new Map();
   const names = new Set();
   for (const recipe of recipes) {
     const name = normalize(recipe.nome);
     const domain = recipe.fonte?.domain || "";
-    if (names.has(name) || (domainCounts.get(domain) || 0) >= 2) continue;
+    if (names.has(name) || (domainCounts.get(domain) || 0) >= maxPerDomain) continue;
     selected.push(recipe);
     names.add(name);
     domainCounts.set(domain, (domainCounts.get(domain) || 0) + 1);
