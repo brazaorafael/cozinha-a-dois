@@ -62,12 +62,33 @@ PERFIL:
 """.strip()
 
 SOURCES = """
-FONTES PERMITIDAS, EM ORDEM DE PREFERÊNCIA:
+FONTES PERMITIDAS, EM ORDEM DE CONFIANÇA:
+Prioridade máxima — receitas mais testadas:
 - panelinha.com.br
-- panelinha.com.br/home/cozinha-pratica
-- receitas.globo.com/ana-maria-braga
-- tudogostoso.com.br
+- receitasnestle.com.br
+- receitas.globo.com
+- anamariabraga.globo.com
+- tudogostoso.com.br (prefira as mais bem avaliadas)
+
+Boas fontes para receitas práticas:
+- guiadacozinha.com.br
+- cookpad.com/br (prefira as mais bem avaliadas)
+- tudoreceitas.com
+- cybercook.com.br
+- tastemade.com.br
+
+Fontes complementares e especializadas:
+- naminhapanela.com
+- receitasdeminuto.com
+- presuntovegetariano.com.br
+- daninoce.com.br
+- amopaocaseiro.com.br
+- pitadinha.com
+- pratofundo.com
+- cozinhalegal.com.br
+
 As URLs precisam ser páginas diretas de receitas reais. Nunca invente URL.
+Em caso de empate, escolha a fonte do grupo mais confiável e a receita com melhor avaliação.
 """.strip()
 
 RECIPE_SCHEMA = """

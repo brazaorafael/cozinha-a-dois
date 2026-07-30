@@ -1,4 +1,4 @@
-const CACHE = "cozinha-shell-v2";
+const CACHE = "cozinha-shell-v3";
 const SHELL = [
   "./",
   "./index.html",

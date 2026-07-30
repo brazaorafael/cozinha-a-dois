@@ -7,7 +7,9 @@ App privado de planejamento de jantares, feito para custar praticamente zero:
 - site estático no GitHub Pages;
 - geração automática e e-mail pelo GitHub Actions;
 - chamadas com segredo em um único Cloudflare Worker;
-- receitas e preferências em arquivos JSON versionados no próprio repositório.
+- cardápio e perfil agregado em JSON no repositório;
+- favoritos e estado da lista no Cloudflare D1;
+- fotos enviadas pelo casal no Cloudflare R2.
 
 ## O que esta versão melhora
 
@@ -16,6 +18,9 @@ App privado de planejamento de jantares, feito para custar praticamente zero:
 3. **Links confiáveis:** o link direto só aparece quando a URL responde, pertence a um domínio permitido e realmente parece ser a receita. Caso contrário, o app abre uma busca pelo nome do prato.
 4. **Votos sem contagem duplicada:** trocar de 👍 para 👎 recalcula o perfil; não soma votos antigos indefinidamente.
 5. **Operação simples:** `config.js` é o único arquivo que normalmente precisa ser editado depois da publicação.
+6. **Caderno do casal:** uma foto de prato, página ou captura de tela é identificada, associada a uma receita e guardada automaticamente em Gostei.
+7. **Lista estável:** entrar e sair da aba não refaz a lista. Ela muda apenas quando uma receita ou item é incluído/retirado, ou quando o botão **Limpar lista** é usado.
+8. **Acervo ampliado:** a busca e as sugestões usam 18 fontes permitidas, divididas em três níveis de confiança.
 
 ## Instalação
 
@@ -26,12 +31,13 @@ Abra [GUIA_DE_INSTALACAO.md](./GUIA_DE_INSTALACAO.md). O guia foi escrito para u
 - `index.html`, `styles.css`, `app.js`: aplicativo.
 - `config.js`: endereço do Worker e nome do casal.
 - `worker.js`, `wrangler.toml`: mini-backend no Cloudflare.
+- `schema.sql`: estrutura de consulta do D1; o Worker cria as tabelas automaticamente.
 - `refeicoes_agent.py`: geração, validação e e-mail.
 - `recipe_verifier.py`: validação independente de URL, título, JSON-LD e imagem.
 - `registrar_gosto.py`: perfil de preferências idempotente.
-- `data/`: banco de dados em JSON.
+- `data/`: cardápio público e resumo do perfil em JSON.
 - `.github/workflows/`: horários e registro de votos.
 
 ## Privacidade
 
-O GitHub Pages exige repositório público no plano gratuito em muitos cenários. Portanto, não coloque chaves, senhas, e-mails pessoais ou outras informações privadas nos arquivos. Os segredos ficam apenas em GitHub Secrets e Cloudflare Secrets. Para privacidade real de acesso, use um repositório/plano que aceite Pages privado ou publique o frontend num serviço com controle de acesso.
+O GitHub Pages exige repositório público no plano gratuito em muitos cenários. Portanto, não coloque chaves, senhas, e-mails pessoais ou outras informações privadas nos arquivos. Os segredos ficam apenas em GitHub Secrets e Cloudflare Secrets. As fotos ficam no R2 e são servidas pelo Worker por endereços difíceis de adivinhar, mas isso não equivale a autenticação. Para privacidade real de acesso, use um frontend com controle de acesso.

@@ -1,5 +1,5 @@
 /**
- * Cozinha Worker v2
+ * Cozinha Worker v3
  *
  * Segredos no painel Cloudflare:
  *   GEMINI_API_KEY, GITHUB_TOKEN, PEXELS_KEY (opcional)
@@ -7,16 +7,60 @@
  * Variáveis comuns:
  *   REPO="usuario/cozinha-a-dois"
  *   ALLOWED_ORIGINS="https://usuario.github.io,http://localhost:8000"
- *   ALLOWED_RECIPE_HOSTS="panelinha.com.br,receitas.globo.com,tudogostoso.com.br"
+ *   ALLOWED_RECIPE_HOSTS="panelinha.com.br,receitasnestle.com.br,..."
  *   GEMINI_MODEL="gemini-2.5-flash"
+ *
+ * Bindings opcionais, mas recomendados:
+ *   DB (Cloudflare D1) e PHOTOS (Cloudflare R2)
  */
 
 const DEFAULT_MODEL = "gemini-2.5-flash";
 const DEFAULT_RECIPE_HOSTS = [
   "panelinha.com.br",
+  "receitasnestle.com.br",
   "receitas.globo.com",
+  "anamariabraga.globo.com",
   "tudogostoso.com.br",
+  "guiadacozinha.com.br",
+  "cookpad.com",
+  "tudoreceitas.com",
+  "cybercook.com.br",
+  "tastemade.com.br",
+  "naminhapanela.com",
+  "receitasdeminuto.com",
+  "presuntovegetariano.com.br",
+  "daninoce.com.br",
+  "amopaocaseiro.com.br",
+  "pitadinha.com",
+  "pratofundo.com",
+  "cozinhalegal.com.br",
 ];
+const SOURCE_TIERS = {
+  3: [
+    "panelinha.com.br",
+    "receitasnestle.com.br",
+    "receitas.globo.com",
+    "anamariabraga.globo.com",
+    "tudogostoso.com.br",
+  ],
+  2: [
+    "guiadacozinha.com.br",
+    "cookpad.com",
+    "tudoreceitas.com",
+    "cybercook.com.br",
+    "tastemade.com.br",
+  ],
+  1: [
+    "naminhapanela.com",
+    "receitasdeminuto.com",
+    "presuntovegetariano.com.br",
+    "daninoce.com.br",
+    "amopaocaseiro.com.br",
+    "pitadinha.com",
+    "pratofundo.com",
+    "cozinhalegal.com.br",
+  ],
+};
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 60;
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
@@ -31,7 +75,19 @@ export default {
   async fetch(request, env, ctx) {
     const cors = corsHeaders(request, env);
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
-    if (request.method === "GET") return respond({ ok: true, servico: "cozinha-a-dois-worker", versao: 2 }, 200, cors);
+    const requestUrl = new URL(request.url);
+    if (request.method === "GET" && requestUrl.pathname.startsWith("/media/")) {
+      return handleMedia(requestUrl.pathname.slice("/media/".length), env, cors);
+    }
+    if (request.method === "GET") {
+      return respond({
+        ok: true,
+        servico: "cozinha-a-dois-worker",
+        versao: 3,
+        banco: Boolean(env.DB),
+        fotos: Boolean(env.PHOTOS),
+      }, 200, cors);
+    }
     if (request.method !== "POST") return respond({ error: "metodo_nao_permitido" }, 405, cors);
     if (!originAllowed(request, env)) return respond({ error: "origem_nao_permitida" }, 403, cors);
 
@@ -47,6 +103,8 @@ export default {
 
     try {
       switch (body.action || "voto") {
+        case "bootstrap":
+          return respond(await handleBootstrap(env), 200, cors);
         case "voto":
           return respond(await handleVote(body, env), 200, cors);
         case "buscar":
@@ -58,8 +116,12 @@ export default {
           return respond(await handleImage(body, env), 200, cors);
         case "foto":
           return respond(await handlePhoto(body, env), 200, cors);
+        case "foto_receita":
+          return respond(await handleRecipePhoto(body, env, requestUrl.origin), 200, cors);
         case "consolidar":
           return respond(await handleConsolidate(body, env), 200, cors);
+        case "lista_salvar":
+          return respond(await handleSaveShopping(body, env), 200, cors);
         case "acompanhar":
           return respond(await handleSides(body, env), 200, cors);
         default:
@@ -116,33 +178,199 @@ function requireSecret(env, key) {
   if (!env[key]) throw new Error(`${key} ausente`);
 }
 
-async function handleVote(body, env) {
-  requireSecret(env, "GITHUB_TOKEN");
+async function ensureDatabase(env) {
+  if (!env.DB) return false;
+  await env.DB.exec(`
+    CREATE TABLE IF NOT EXISTS favorites (
+      recipe_id TEXT PRIMARY KEY,
+      recipe_json TEXT NOT NULL,
+      source_type TEXT NOT NULL DEFAULT 'vote',
+      photo_key TEXT,
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+    CREATE TABLE IF NOT EXISTS taste_events (
+      event_id TEXT PRIMARY KEY,
+      recipe_id TEXT NOT NULL,
+      vote TEXT NOT NULL,
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+    CREATE TABLE IF NOT EXISTS app_state (
+      state_key TEXT PRIMARY KEY,
+      state_json TEXT NOT NULL,
+      updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+    CREATE INDEX IF NOT EXISTS idx_favorites_updated_at ON favorites(updated_at);
+    CREATE INDEX IF NOT EXISTS idx_taste_events_recipe ON taste_events(recipe_id);
+  `);
+  return true;
+}
+
+async function handleBootstrap(env) {
+  if (!await ensureDatabase(env)) {
+    return {
+      favorites: [],
+      shopping: null,
+      storage: "local",
+      aviso: "Adicione o binding D1 chamado DB para sincronizar entre aparelhos.",
+    };
+  }
+  let [favoritesResult, shoppingResult] = await Promise.all([
+    env.DB.prepare(`
+      SELECT recipe_json, updated_at
+      FROM favorites
+      ORDER BY updated_at DESC
+      LIMIT 500
+    `).all(),
+    env.DB.prepare(`
+      SELECT state_json, updated_at
+      FROM app_state
+      WHERE state_key = 'shopping'
+    `).first(),
+  ]);
+  if (!(favoritesResult.results || []).length) {
+    await seedFavoritesFromGitHub(env);
+    favoritesResult = await env.DB.prepare(`
+      SELECT recipe_json, updated_at
+      FROM favorites
+      ORDER BY updated_at DESC
+      LIMIT 500
+    `).all();
+  }
+  const favorites = (favoritesResult.results || []).flatMap((row) => {
+    try {
+      return [{ ...JSON.parse(row.recipe_json), saved_at: row.updated_at }];
+    } catch {
+      return [];
+    }
+  });
+  let shopping = null;
+  if (shoppingResult?.state_json) {
+    try {
+      shopping = {
+        ...JSON.parse(shoppingResult.state_json),
+        updatedAt: shoppingResult.updated_at,
+      };
+    } catch {
+      shopping = null;
+    }
+  }
+  return { favorites, shopping, storage: "d1" };
+}
+
+async function seedFavoritesFromGitHub(env) {
   const repo = String(env.REPO || "").trim();
-  if (!/^[\w.-]+\/[\w.-]+$/.test(repo)) throw new Error("REPO inválido");
+  if (!/^[\w.-]+\/[\w.-]+$/.test(repo)) return;
+  try {
+    const headers = {
+      "Accept": "application/vnd.github.raw+json",
+      "User-Agent": "cozinha-app-worker-v3",
+      "X-GitHub-Api-Version": "2022-11-28",
+    };
+    if (env.GITHUB_TOKEN) headers.Authorization = `Bearer ${env.GITHUB_TOKEN}`;
+    const response = await fetch(`https://api.github.com/repos/${repo}/contents/data/lista_final.json`, { headers });
+    if (!response.ok) return;
+    const payload = await response.json();
+    for (const raw of (payload.itens || []).slice(0, 500)) {
+      const recipe = sanitizeRecipe(raw);
+      if (recipe.id) await saveFavorite(env, recipe, "github_migration");
+    }
+  } catch {
+    // Um banco novo pode começar vazio sem impedir o funcionamento.
+  }
+}
+
+async function handleMedia(rawKey, env, cors) {
+  if (!env.PHOTOS) return respond({ error: "fotos_nao_configuradas" }, 404, cors);
+  const key = decodeURIComponent(String(rawKey || ""));
+  if (!key || key.includes("..") || key.startsWith("/")) {
+    return respond({ error: "arquivo_invalido" }, 400, cors);
+  }
+  const object = await env.PHOTOS.get(key);
+  if (!object) return respond({ error: "arquivo_nao_encontrado" }, 404, cors);
+  const headers = new Headers(cors);
+  object.writeHttpMetadata(headers);
+  headers.set("Cache-Control", "private, max-age=86400");
+  headers.set("ETag", object.httpEtag);
+  return new Response(object.body, { headers });
+}
+
+async function handleVote(body, env) {
   if (!["like", "dislike", "remove"].includes(body.voto)) throw new Error("voto inválido");
   if (!body.receita?.id) throw new Error("receita sem id");
+  const recipe = sanitizeRecipe(body.receita);
+  const eventId = String(body.event_id || crypto.randomUUID()).slice(0, 180);
 
-  const response = await fetch(`https://api.github.com/repos/${repo}/dispatches`, {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${env.GITHUB_TOKEN}`,
-      "Accept": "application/vnd.github+json",
-      "Content-Type": "application/json",
-      "User-Agent": "cozinha-app-worker-v2",
-      "X-GitHub-Api-Version": "2022-11-28",
-    },
-    body: JSON.stringify({
-      event_type: "gosto",
-      client_payload: {
-        voto: body.voto,
-        event_id: String(body.event_id || crypto.randomUUID()),
-        receita: sanitizeRecipe(body.receita),
+  if (await ensureDatabase(env)) {
+    await env.DB.prepare(`
+      INSERT OR IGNORE INTO taste_events (event_id, recipe_id, vote)
+      VALUES (?, ?, ?)
+    `).bind(eventId, recipe.id, body.voto).run();
+    if (body.voto === "like") {
+      await saveFavorite(env, recipe, body.source_type || "vote", body.photo_key || null);
+    } else {
+      await env.DB.prepare("DELETE FROM favorites WHERE recipe_id = ?").bind(recipe.id).run();
+    }
+  }
+
+  const githubSynced = await dispatchTasteToGitHub({
+    voto: body.voto,
+    eventId,
+    recipe,
+  }, env);
+  return {
+    ok: true,
+    banco: Boolean(env.DB),
+    perfil_github: githubSynced,
+  };
+}
+
+async function saveFavorite(env, recipe, sourceType = "vote", photoKey = null) {
+  if (!env.DB) return;
+  await env.DB.prepare(`
+    INSERT INTO favorites (
+      recipe_id, recipe_json, source_type, photo_key, created_at, updated_at
+    )
+    VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+    ON CONFLICT(recipe_id) DO UPDATE SET
+      recipe_json = excluded.recipe_json,
+      source_type = excluded.source_type,
+      photo_key = COALESCE(excluded.photo_key, favorites.photo_key),
+      updated_at = CURRENT_TIMESTAMP
+  `).bind(
+    recipe.id,
+    JSON.stringify(recipe),
+    String(sourceType || "vote").slice(0, 40),
+    photoKey,
+  ).run();
+}
+
+async function dispatchTasteToGitHub({ voto, eventId, recipe }, env) {
+  const repo = String(env.REPO || "").trim();
+  if (!env.GITHUB_TOKEN || !/^[\w.-]+\/[\w.-]+$/.test(repo)) return false;
+  try {
+    const response = await fetch(`https://api.github.com/repos/${repo}/dispatches`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${env.GITHUB_TOKEN}`,
+        "Accept": "application/vnd.github+json",
+        "Content-Type": "application/json",
+        "User-Agent": "cozinha-app-worker-v3",
+        "X-GitHub-Api-Version": "2022-11-28",
       },
-    }),
-  });
-  if (!response.ok) throw new Error(`GitHub ${response.status}`);
-  return { ok: true };
+      body: JSON.stringify({
+        event_type: "gosto",
+        client_payload: {
+          voto,
+          event_id: eventId,
+          receita: recipe,
+        },
+      }),
+    });
+    return response.ok;
+  } catch {
+    return false;
+  }
 }
 
 async function handleSearch(body, env, ctx, cors) {
@@ -177,7 +405,7 @@ async function handleSearch(body, env, ctx, cors) {
 }
 
 async function runVerifiedSearch(action, query, env) {
-  const sourceInstruction = allowedRecipeHosts(env).map((host) => `site:${host}`).join(" OR ");
+  const sourceInstruction = sourcePriorityPrompt(env);
   const task = action === "com_ingredientes"
     ? `Crie opções usando principalmente estes ingredientes: ${query}.`
     : `Encontre receitas para este pedido: ${query}.`;
@@ -185,7 +413,9 @@ async function runVerifiedSearch(action, query, env) {
 Você é um pesquisador de receitas para um casal brasileiro.
 ${PROFILE}
 ${task}
-Pesquise agora, priorizando exclusivamente estas fontes: ${sourceInstruction}.
+Pesquise agora. Use exclusivamente as fontes abaixo, respeitando a ordem de confiança:
+${sourceInstruction}
+No TudoGostoso e no Cookpad, prefira resultados com avaliações melhores e mais avaliações.
 Retorne de 2 a 5 candidatos. A URL precisa ser a página direta da receita, nunca uma busca,
 home, categoria, vídeo ou URL inventada. Não copie o texto da fonte.
 Para cada candidato, retorne:
@@ -274,6 +504,117 @@ async function handlePhoto(body, env) {
   return { ingredientes: Array.isArray(result) ? result.slice(0, 100).map(String) : [] };
 }
 
+async function handleRecipePhoto(body, env, workerOrigin) {
+  requireSecret(env, "GEMINI_API_KEY");
+  if (!env.DB) throw new Error("binding D1 DB ausente");
+  if (!env.PHOTOS) throw new Error("binding R2 PHOTOS ausente");
+  if (!body.imagem || String(body.imagem).length > 10_500_000) {
+    throw new Error("imagem ausente ou grande demais");
+  }
+  await ensureDatabase(env);
+
+  const mime = safeMime(body.mime);
+  const visionPrompt = `
+Analise esta foto enviada por um casal para seu caderno privado de receitas.
+Ela pode mostrar um prato pronto, uma página de livro, uma receita manuscrita ou uma captura de tela.
+Identifique o nome mais provável do prato. Quando houver texto legível, extraia ingredientes e preparo
+sem inventar o que não está visível. Quando for apenas a foto do prato, deixe ingredientes e preparo vazios,
+pois outra etapa encontrará uma receita confiável.
+Retorne somente:
+{
+  "nome": string,
+  "curso": "principal" | "entrada" | "sobremesa",
+  "tempo": string,
+  "porque": string,
+  "tags": string[],
+  "rende_sobra": boolean,
+  "ingredientes": string[],
+  "preparo": string[]
+}
+`.trim();
+  const identified = await geminiJson(env, visionPrompt, false, [{
+    inline_data: {
+      mime_type: mime,
+      data: body.imagem,
+    },
+  }]);
+  const cleanIdentified = sanitizeRecipe(identified);
+  if (!cleanIdentified.nome) throw new Error("não foi possível identificar o prato");
+
+  let matched = null;
+  try {
+    const candidates = await runVerifiedSearch("buscar", cleanIdentified.nome, env);
+    matched = candidates.find((recipe) => recipe.fonte?.status === "verified") || candidates[0] || null;
+  } catch {
+    matched = null;
+  }
+  const recipe = sanitizeRecipe({
+    ...(matched || cleanIdentified),
+    porque: matched?.porque || cleanIdentified.porque || "Prato registrado por foto.",
+    tags: [...new Set([...(matched?.tags || []), ...(cleanIdentified.tags || []), "foto_do_casal"])],
+    ingredientes: matched?.ingredientes?.length ? matched.ingredientes : cleanIdentified.ingredientes,
+    preparo: matched?.preparo?.length ? matched.preparo : cleanIdentified.preparo,
+  });
+  recipe.id ||= stableRecipeId(recipe);
+
+  const key = `favorite-${Date.now()}-${crypto.randomUUID()}.${extensionForMime(mime)}`;
+  await env.PHOTOS.put(key, base64ToBytes(body.imagem), {
+    httpMetadata: { contentType: mime },
+    customMetadata: {
+      recipeId: recipe.id,
+      recipeName: recipe.nome.slice(0, 120),
+    },
+  });
+
+  const mediaUrl = `${workerOrigin}/media/${encodeURIComponent(key)}`;
+  recipe.imagem = {
+    kind: "user",
+    url: mediaUrl,
+    alt: `Foto enviada de ${recipe.nome}`,
+    credit: "Ana & Rafael",
+  };
+  const eventId = String(body.event_id || crypto.randomUUID()).slice(0, 180);
+  try {
+    await saveFavorite(env, recipe, "photo", key);
+    await env.DB.prepare(`
+      INSERT OR IGNORE INTO taste_events (event_id, recipe_id, vote)
+      VALUES (?, ?, 'like')
+    `).bind(eventId, recipe.id).run();
+  } catch (error) {
+    await env.PHOTOS.delete(key);
+    throw error;
+  }
+  const githubSynced = await dispatchTasteToGitHub({
+    voto: "like",
+    eventId,
+    recipe,
+  }, env);
+  return {
+    ok: true,
+    receita: recipe,
+    banco: true,
+    foto_armazenada: true,
+    perfil_github: githubSynced,
+  };
+}
+
+async function handleSaveShopping(body, env) {
+  if (!await ensureDatabase(env)) {
+    return { ok: true, storage: "local" };
+  }
+  const state = body.shopping && typeof body.shopping === "object" ? body.shopping : {};
+  const serialized = JSON.stringify(state);
+  if (serialized.length > 120_000) throw new Error("lista grande demais");
+  await env.DB.prepare(`
+    INSERT INTO app_state (state_key, state_json, updated_at)
+    VALUES ('shopping', ?, CURRENT_TIMESTAMP)
+    ON CONFLICT(state_key) DO UPDATE SET
+      state_json = excluded.state_json,
+      updated_at = CURRENT_TIMESTAMP
+  `).bind(serialized).run();
+  return { ok: true, storage: "d1" };
+}
+
 async function handleConsolidate(body, env) {
   requireSecret(env, "GEMINI_API_KEY");
   const ingredients = Array.isArray(body.ingredientes)
@@ -356,6 +697,8 @@ async function enrichRecipe(raw, env) {
       domain: verified.domain,
       checked_at: new Date().toISOString(),
       confidence: verified.confidence,
+      rating: verified.rating,
+      rating_count: verified.ratingCount,
     };
     recipe.imagem = verified.image
       ? { kind: "source", url: verified.image, alt: recipe.nome }
@@ -386,7 +729,7 @@ async function verifyRecipePage(name, rawUrl, env) {
     response = await fetchWithTimeout(url, {
       redirect: "follow",
       headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; CozinhaRecipeVerifier/2.0)",
+        "User-Agent": "Mozilla/5.0 (compatible; CozinhaRecipeVerifier/3.0)",
         "Accept": "text/html,application/xhtml+xml",
       },
     }, 5500);
@@ -428,12 +771,20 @@ async function verifyRecipePage(name, rawUrl, env) {
       : recipeSchema?.image;
   const imageRaw = schemaImage || metaContent(html, "og:image") || metaContent(html, "twitter:image");
   const image = safeImageUrl(resolveUrl(imageRaw, finalUrl));
+  const rating = Number(recipeSchema?.aggregateRating?.ratingValue || 0);
+  const ratingCount = Number(
+    recipeSchema?.aggregateRating?.ratingCount
+    || recipeSchema?.aggregateRating?.reviewCount
+    || 0,
+  );
 
   return {
     url: canonical,
     title: cleanText(title).slice(0, 220),
     domain: new URL(canonical).hostname.replace(/^www\./, ""),
     confidence: Number(similarity.toFixed(2)),
+    rating: Number.isFinite(rating) ? rating : 0,
+    ratingCount: Number.isFinite(ratingCount) ? ratingCount : 0,
     image,
     totalTime: String(recipeSchema?.totalTime || ""),
     ingredients: Array.isArray(recipeSchema?.recipeIngredient) ? recipeSchema.recipeIngredient.map(String).slice(0, 60) : [],
@@ -528,14 +879,18 @@ function sanitizeRecipe(raw) {
           title: cleanText(recipe.fonte.title || "").slice(0, 220),
           domain: cleanText(recipe.fonte.domain || "").slice(0, 120),
           checked_at: cleanText(recipe.fonte.checked_at || "").slice(0, 80),
+          confidence: Number(recipe.fonte.confidence || 0),
+          rating: Number(recipe.fonte.rating || 0),
+          rating_count: Number(recipe.fonte.rating_count || 0),
         }
       : undefined,
     imagem: recipe.imagem && typeof recipe.imagem === "object"
       ? {
-          kind: ["source", "bank"].includes(recipe.imagem.kind) ? recipe.imagem.kind : "none",
+          kind: ["source", "bank", "user"].includes(recipe.imagem.kind) ? recipe.imagem.kind : "none",
           url: safeLooseHttpUrl(recipe.imagem.url),
           alt: cleanText(recipe.imagem.alt || "").slice(0, 220),
           credit: cleanText(recipe.imagem.credit || "").slice(0, 160),
+          bank_id: cleanText(recipe.imagem.bank_id || "").slice(0, 80),
         }
       : undefined,
   };
@@ -587,6 +942,32 @@ function allowedRecipeHosts(env) {
     .map((host) => host.trim().toLowerCase().replace(/^www\./, ""))
     .filter(Boolean);
   return configured.length ? configured : DEFAULT_RECIPE_HOSTS;
+}
+
+function sourcePriorityPrompt(env) {
+  const allowed = new Set(allowedRecipeHosts(env));
+  const lines = [];
+  for (const [tier, hosts] of Object.entries(SOURCE_TIERS).sort((a, b) => Number(b[0]) - Number(a[0]))) {
+    const available = hosts.filter((host) => allowed.has(host));
+    if (available.length) {
+      const label = Number(tier) === 3 ? "Prioridade máxima" : Number(tier) === 2 ? "Boas fontes práticas" : "Fontes complementares";
+      lines.push(`- ${label}: ${available.join(", ")}`);
+    }
+  }
+  const listed = new Set(Object.values(SOURCE_TIERS).flat());
+  const extra = [...allowed].filter((host) => !listed.has(host));
+  if (extra.length) lines.push(`- Outras fontes permitidas: ${extra.join(", ")}`);
+  return lines.join("\n");
+}
+
+function sourceTier(domain) {
+  const host = String(domain || "").toLowerCase().replace(/^www\./, "");
+  for (const [tier, hosts] of Object.entries(SOURCE_TIERS)) {
+    if (hosts.some((allowed) => host === allowed || host.endsWith(`.${allowed}`))) {
+      return Number(tier);
+    }
+  }
+  return 0;
 }
 
 function titleSimilarity(name, title) {
@@ -652,7 +1033,10 @@ function resolveUrl(raw, base) {
 function sourceRank(recipe) {
   const verified = recipe.fonte?.status === "verified" ? 10 : 0;
   const sourceImage = recipe.imagem?.kind === "source" ? 3 : 0;
-  return verified + sourceImage + Number(recipe.fonte?.confidence || 0);
+  const trust = sourceTier(recipe.fonte?.domain) * 2;
+  const rating = Math.min(2, Number(recipe.fonte?.rating || 0) / 2.5);
+  const popularity = Math.min(1.5, Math.log10(1 + Number(recipe.fonte?.rating_count || 0)) / 2);
+  return verified + sourceImage + trust + rating + popularity + Number(recipe.fonte?.confidence || 0);
 }
 
 function stableRecipeId(recipe) {
@@ -668,6 +1052,24 @@ function stableRecipeId(recipe) {
 function safeMime(value) {
   const allowed = new Set(["image/jpeg", "image/png", "image/webp", "image/heic", "image/heif"]);
   return allowed.has(String(value).toLowerCase()) ? String(value).toLowerCase() : "image/jpeg";
+}
+
+function extensionForMime(mime) {
+  return {
+    "image/png": "png",
+    "image/webp": "webp",
+    "image/heic": "heic",
+    "image/heif": "heif",
+  }[mime] || "jpg";
+}
+
+function base64ToBytes(value) {
+  const binary = atob(String(value || ""));
+  const bytes = new Uint8Array(binary.length);
+  for (let index = 0; index < binary.length; index += 1) {
+    bytes[index] = binary.charCodeAt(index);
+  }
+  return bytes;
 }
 
 function parseJson(text) {

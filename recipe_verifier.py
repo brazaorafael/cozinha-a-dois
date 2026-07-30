@@ -22,8 +22,23 @@ import requests
 
 DEFAULT_HOSTS = (
     "panelinha.com.br",
+    "receitasnestle.com.br",
     "receitas.globo.com",
+    "anamariabraga.globo.com",
     "tudogostoso.com.br",
+    "guiadacozinha.com.br",
+    "cookpad.com",
+    "tudoreceitas.com",
+    "cybercook.com.br",
+    "tastemade.com.br",
+    "naminhapanela.com",
+    "receitasdeminuto.com",
+    "presuntovegetariano.com.br",
+    "daninoce.com.br",
+    "amopaocaseiro.com.br",
+    "pitadinha.com",
+    "pratofundo.com",
+    "cozinhalegal.com.br",
 )
 USER_AGENT = "Mozilla/5.0 (compatible; CozinhaRecipeVerifier/2.0)"
 DISABLED_VALUES = {"0", "false", "nao", "não", "no", "off"}

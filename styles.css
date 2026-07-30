@@ -586,6 +586,28 @@ input:focus-visible {
   background: var(--yellow);
 }
 
+.list-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 7px;
+}
+
+.manual-item-form {
+  margin: 18px 0 8px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255, 253, 248, 0.78);
+}
+
+.manual-item-form > label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 .shopping-category {
   margin: 22px 0;
 }
@@ -605,17 +627,27 @@ input:focus-visible {
 .shopping-item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 11px;
   padding: 12px 14px;
   border-bottom: 1px solid var(--line);
-  cursor: pointer;
 }
 
 .shopping-item:last-child {
   border-bottom: 0;
 }
 
+.shopping-item label {
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  cursor: pointer;
+}
+
 .shopping-item input {
+  flex: 0 0 auto;
   width: 18px;
   height: 18px;
   accent-color: var(--green);
@@ -624,6 +656,24 @@ input:focus-visible {
 .shopping-item:has(input:checked) span {
   color: var(--muted);
   text-decoration: line-through;
+}
+
+.remove-item {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 10px;
+  color: var(--muted);
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.remove-item:hover,
+.remove-item:focus-visible {
+  color: var(--red);
+  background: #fff0ed;
 }
 
 .profile-card {

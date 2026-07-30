@@ -13,8 +13,14 @@ const state = {
   repoList: null,
   votes: readStore("votes", {}),
   liked: readStore("liked", {}),
-  photos: readStore("photos", []),
+  pendingVotes: readStore("pending-votes", []),
   checked: readStore("checked", {}),
+  shopping: readStore("shopping-v3", {
+    sourceSignature: "",
+    list: {},
+    checked: {},
+    updatedAt: "",
+  }),
   settings: readStore("settings", {
     worker: CONFIG.WORKER_URL || "",
     coupleName: CONFIG.NOME_CASAL || "Ana & Rafael",
@@ -29,6 +35,7 @@ const state = {
   }),
   activeWeekDay: 0,
   index: new Map(),
+  remoteStorage: "local",
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -116,6 +123,9 @@ function normalizeRecipe(raw) {
     url: recipe.url || "",
   };
   recipe.imagem = recipe.imagem || recipe.image || { kind: "none", url: "" };
+  if (!["source", "bank", "user"].includes(recipe.imagem.kind)) {
+    recipe.imagem = { ...recipe.imagem, kind: recipe.imagem.url ? "user" : "none" };
+  }
   return recipe;
 }
 
@@ -137,14 +147,76 @@ async function initialize() {
   state.data = data;
   state.profile = profile;
   state.repoList = repoList;
+  await syncRemoteState();
   rebuildIndex();
   renderAll();
   bindShell();
   restorePendingSearch();
+  refreshShoppingList();
 
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
     navigator.serviceWorker.register("./sw.js").catch(() => {});
   }
+}
+
+async function syncRemoteState() {
+  if (!state.settings.worker) return;
+  await flushPendingVotes();
+  try {
+    const response = await workerRequest({ action: "bootstrap" });
+    state.remoteStorage = response.storage || "local";
+    if (response.storage === "d1") {
+      const remoteLiked = {};
+      (response.favorites || []).map(normalizeRecipe).forEach((recipe) => {
+        remoteLiked[recipe.id] = recipe;
+        state.votes[recipe.id] = "like";
+      });
+      Object.keys(state.liked).forEach((id) => {
+        if (!remoteLiked[id] && state.votes[id] === "like") delete state.votes[id];
+      });
+      state.liked = remoteLiked;
+      writeStore("liked", state.liked);
+      writeStore("votes", state.votes);
+    }
+    if (response.shopping && isRemoteNewer(response.shopping, state.shopping)) {
+      state.shopping = normalizeShoppingState(response.shopping);
+      state.checked = { ...(state.shopping.checked || {}) };
+      writeStore("shopping-v3", state.shopping);
+      writeStore("checked", state.checked);
+    }
+  } catch {
+    // O app continua com o acervo e a lista salvos neste aparelho.
+  }
+}
+
+async function flushPendingVotes() {
+  if (!state.pendingVotes.length || !state.settings.worker) return;
+  const remaining = [];
+  for (const payload of state.pendingVotes.slice(-50)) {
+    try {
+      await workerRequest(payload);
+    } catch {
+      remaining.push(payload);
+    }
+  }
+  state.pendingVotes = remaining;
+  writeStore("pending-votes", state.pendingVotes);
+}
+
+function normalizeShoppingState(value) {
+  const input = value && typeof value === "object" ? value : {};
+  return {
+    sourceSignature: String(input.sourceSignature || ""),
+    list: input.list && typeof input.list === "object" && !Array.isArray(input.list) ? input.list : {},
+    checked: input.checked && typeof input.checked === "object" && !Array.isArray(input.checked) ? input.checked : {},
+    updatedAt: String(input.updatedAt || new Date().toISOString()),
+  };
+}
+
+function isRemoteNewer(remote, local) {
+  const remoteTime = Date.parse(remote?.updatedAt || 0) || 0;
+  const localTime = Date.parse(local?.updatedAt || 0) || 0;
+  return remoteTime > localTime;
 }
 
 function allGeneratedRecipes() {
@@ -203,11 +275,13 @@ function renderRecipeGroups(recipes, options = {}) {
 function recipeCard(recipe, { featured = false } = {}) {
   const vote = state.votes[recipe.id];
   const image = recipe.imagem || {};
-  const hasImage = Boolean(image.url && ["source", "bank"].includes(image.kind));
+  const hasImage = Boolean(image.url && ["source", "bank", "user"].includes(image.kind));
   const sourceLabel = image.kind === "source"
     ? `Foto da fonte · ${escapeHtml(domainOf(recipe.fonte?.url))}`
     : image.kind === "bank"
       ? "Imagem ilustrativa · Pexels"
+      : image.kind === "user"
+        ? "Foto do casal"
       : "";
   const imageStyle = hasImage ? `style="background-image:url('${cssUrl(image.url)}')"` : "";
   const tags = [
@@ -468,10 +542,12 @@ function restorePendingSearch() {
 
 function likedRecipes() {
   const merged = new Map();
-  (state.repoList?.itens || []).map(normalizeRecipe).forEach((recipe) => merged.set(recipe.id, recipe));
+  if (state.remoteStorage !== "d1") {
+    (state.repoList?.itens || []).map(normalizeRecipe).forEach((recipe) => merged.set(recipe.id, recipe));
+  }
   Object.values(state.liked).map(normalizeRecipe).forEach((recipe) => merged.set(recipe.id, recipe));
   Object.entries(state.votes).forEach(([id, voteValue]) => {
-    if (voteValue === "dislike") merged.delete(id);
+    if (voteValue !== "like") merged.delete(id);
   });
   return [...merged.values()];
 }
@@ -483,12 +559,7 @@ function renderList() {
     ? `<div class="course-heading">Receitas escolhidas · ${recipes.length}</div>${renderRecipeGroups(recipes)}`
     : "";
   bindRecipeInteractions(likedTarget);
-
-  const ingredients = [
-    ...recipes.flatMap((recipe) => recipe.ingredientes || []),
-    ...state.photos.flatMap((photo) => photo.ingredientes || []),
-  ];
-  renderShoppingList(ingredients);
+  renderShoppingList(state.shopping.list);
 }
 
 function fallbackConsolidate(ingredients) {
@@ -502,40 +573,61 @@ function fallbackConsolidate(ingredients) {
 
 async function refreshShoppingList() {
   const recipes = likedRecipes();
-  const ingredients = [
-    ...recipes.flatMap((recipe) => recipe.ingredientes || []),
-    ...state.photos.flatMap((photo) => photo.ingredientes || []),
-  ];
-  if (!ingredients.length || !state.settings.worker) {
-    renderShoppingList(ingredients);
+  const ingredients = recipes.flatMap((recipe) => recipe.ingredientes || []);
+  const signature = shoppingSourceSignature(recipes);
+  if (state.shopping.sourceSignature === signature) {
+    renderShoppingList(state.shopping.list);
     return;
   }
 
-  const signature = smallHash([...ingredients].sort().join("|"));
-  const cached = readStore("shopping", {});
-  if (cached.signature === signature && cached.list) {
-    renderShoppingList(cached.list, true);
+  if (!ingredients.length) {
+    await saveShoppingState({}, signature);
     return;
   }
 
   $("#shopping-list").innerHTML = `<div class="search-status"><span class="progress">Somando quantidades e organizando os corredores…</span></div>`;
+  let list = fallbackConsolidate(ingredients);
   try {
-    const response = await workerRequest({ action: "consolidar", ingredientes: ingredients });
-    const list = response.lista && Object.keys(response.lista).length
-      ? response.lista
-      : fallbackConsolidate(ingredients);
-    writeStore("shopping", { signature, list });
-    renderShoppingList(list, true);
+    if (state.settings.worker) {
+      const response = await workerRequest({ action: "consolidar", ingredientes: ingredients });
+      if (response.lista && Object.keys(response.lista).length) list = response.lista;
+    }
   } catch {
-    renderShoppingList(ingredients);
+    // A consolidação local continua disponível.
+  }
+  await saveShoppingState(list, signature);
+}
+
+function shoppingSourceSignature(recipes = likedRecipes()) {
+  return smallHash(
+    recipes
+      .map((recipe) => `${recipe.id}:${smallHash((recipe.ingredientes || []).join("|"))}`)
+      .sort()
+      .join("|"),
+  );
+}
+
+async function saveShoppingState(list, sourceSignature = state.shopping.sourceSignature, sync = true) {
+  state.shopping = normalizeShoppingState({
+    sourceSignature,
+    list,
+    checked: state.checked,
+    updatedAt: new Date().toISOString(),
+  });
+  writeStore("shopping-v3", state.shopping);
+  renderShoppingList(state.shopping.list);
+  if (!sync || !state.settings.worker) return;
+  try {
+    await workerRequest({ action: "lista_salvar", shopping: state.shopping });
+  } catch {
+    // A lista local permanece intacta e será usada mesmo sem internet.
   }
 }
 
-function renderShoppingList(input, alreadyGrouped = false) {
+function renderShoppingList(list = {}) {
   const target = $("#shopping-list");
-  const list = alreadyGrouped ? input : fallbackConsolidate(input);
-  if (!input || (Array.isArray(input) && !input.length) || !Object.keys(list).length) {
-    target.innerHTML = emptyState("Curta uma receita para montar a lista automaticamente.");
+  if (!list || !Object.keys(list).some((category) => (list[category] || []).length)) {
+    target.innerHTML = emptyState("A lista está vazia. Curta uma receita ou adicione um item.");
     return;
   }
   target.innerHTML = `
@@ -547,10 +639,13 @@ function renderShoppingList(input, alreadyGrouped = false) {
           ${(items || []).map((item) => {
             const key = smallHash(`${category}:${item}`);
             return `
-              <label class="shopping-item">
-                <input type="checkbox" data-shopping-key="${key}" ${state.checked[key] ? "checked" : ""} />
-                <span>${escapeHtml(item)}</span>
-              </label>
+              <div class="shopping-item">
+                <label>
+                  <input type="checkbox" data-shopping-key="${key}" ${state.checked[key] ? "checked" : ""} />
+                  <span>${escapeHtml(item)}</span>
+                </label>
+                <button type="button" class="remove-item" data-remove-shopping="${key}" aria-label="Retirar ${escapeHtml(item)} da lista">×</button>
+              </div>
             `;
           }).join("")}
         </div>
@@ -561,53 +656,108 @@ function renderShoppingList(input, alreadyGrouped = false) {
     inputElement.addEventListener("change", () => {
       state.checked[inputElement.dataset.shoppingKey] = inputElement.checked;
       writeStore("checked", state.checked);
+      saveShoppingState(state.shopping.list);
     });
   });
+  $$("[data-remove-shopping]", target).forEach((button) => {
+    button.addEventListener("click", () => removeShoppingItem(button.dataset.removeShopping));
+  });
+}
+
+async function addManualShoppingItem(value) {
+  const item = String(value || "").trim();
+  if (!item) return;
+  const list = structuredClone(state.shopping.list || {});
+  const items = Array.isArray(list.Outros) ? list.Outros : [];
+  if (!items.some((current) => normalize(current) === normalize(item))) items.push(item);
+  list.Outros = items;
+  await saveShoppingState(list);
+}
+
+async function removeShoppingItem(key) {
+  const list = structuredClone(state.shopping.list || {});
+  Object.entries(list).forEach(([category, items]) => {
+    list[category] = (items || []).filter((item) => smallHash(`${category}:${item}`) !== key);
+    if (!list[category].length) delete list[category];
+  });
+  delete state.checked[key];
+  writeStore("checked", state.checked);
+  await saveShoppingState(list);
+}
+
+async function clearShoppingList() {
+  state.checked = {};
+  writeStore("checked", state.checked);
+  await saveShoppingState({}, shoppingSourceSignature());
 }
 
 async function handlePhotos(files) {
   if (!files?.length) return;
   const target = $("#photo-status");
   if (!state.settings.worker) {
-    target.textContent = "Configure o Worker nos Ajustes para ler ingredientes de fotos.";
+    target.textContent = "Configure o Worker nos Ajustes para guardar receitas por foto.";
     return;
   }
   let count = 0;
+  let saved = 0;
   for (const file of files) {
     count += 1;
-    target.innerHTML = `<span class="progress">Lendo foto ${count} de ${files.length}…</span>`;
+    target.innerHTML = `<span class="progress">Identificando e procurando a receita ${count} de ${files.length}…</span>`;
     try {
-      const data = await fileAsBase64(file);
+      const prepared = await prepareImageUpload(file);
       const response = await workerRequest({
-        action: "foto",
-        imagem: data,
-        mime: file.type || "image/jpeg",
-      });
-      if (response.ingredientes?.length) {
-        state.photos.push({
-          id: `foto-${Date.now()}-${count}`,
-          nome: file.name || `Foto ${count}`,
-          ingredientes: response.ingredientes,
-        });
+        action: "foto_receita",
+        imagem: prepared.base64,
+        mime: prepared.mime,
+        event_id: `foto:${Date.now()}:${count}:${smallHash(file.name)}`,
+      }, 48_000);
+      if (response.receita) {
+        const recipe = normalizeRecipe(response.receita);
+        state.liked[recipe.id] = recipe;
+        state.votes[recipe.id] = "like";
+        saved += 1;
       }
     } catch {
-      target.textContent = `Não consegui ler ${file.name || "uma das fotos"}.`;
+      target.textContent = `Não consegui guardar ${file.name || "uma das fotos"}. Confira os bindings DB e PHOTOS do Worker.`;
     }
   }
-  writeStore("photos", state.photos);
-  target.textContent = state.photos.length
-    ? `${state.photos.length} receita(s) de foto incluída(s).`
-    : "Nenhum ingrediente foi identificado.";
-  renderList();
-  refreshShoppingList();
+  writeStore("liked", state.liked);
+  writeStore("votes", state.votes);
+  rebuildIndex();
+  renderAll();
+  await refreshShoppingList();
+  target.textContent = saved
+    ? `${saved} receita(s) guardada(s) em Gostei com a foto original.`
+    : "Nenhuma receita foi adicionada.";
 }
 
-function fileAsBase64(file) {
+async function prepareImageUpload(file) {
+  const originalMime = file.type || "image/jpeg";
+  if (file.size <= 2_400_000) {
+    return { base64: await fileAsBase64(file), mime: originalMime };
+  }
+  try {
+    const bitmap = await createImageBitmap(file);
+    const scale = Math.min(1, 1600 / Math.max(bitmap.width, bitmap.height));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.max(1, Math.round(bitmap.width * scale));
+    canvas.height = Math.max(1, Math.round(bitmap.height * scale));
+    canvas.getContext("2d").drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+    bitmap.close();
+    const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/jpeg", 0.82));
+    if (!blob) throw new Error("compressão indisponível");
+    return { base64: await fileAsBase64(blob), mime: "image/jpeg" };
+  } catch {
+    return { base64: await fileAsBase64(file), mime: originalMime };
+  }
+}
+
+function fileAsBase64(fileOrBlob) {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
     reader.onload = () => resolve(String(reader.result).split(",")[1]);
     reader.onerror = reject;
-    reader.readAsDataURL(file);
+    reader.readAsDataURL(fileOrBlob);
   });
 }
 
@@ -657,7 +807,7 @@ function openRecipe(id) {
   if (!recipe) return;
   const dialog = $("#recipe-dialog");
   const image = recipe.imagem || {};
-  const hasImage = Boolean(image.url && ["source", "bank"].includes(image.kind));
+  const hasImage = Boolean(image.url && ["source", "bank", "user"].includes(image.kind));
   const verified = recipe.fonte?.status === "verified" && recipe.fonte?.url;
   const sourceUrl = verified && safeExternalLink(recipe.fonte.url)
     ? safeExternalLink(recipe.fonte.url)
@@ -720,17 +870,26 @@ async function vote(id, value) {
   writeStore("votes", state.votes);
   writeStore("liked", state.liked);
   renderAll();
+  await refreshShoppingList();
 
-  if (!state.settings.worker) return;
+  const payload = {
+    action: "voto",
+    voto: next || "remove",
+    receita: recipe,
+    event_id: `${id}:${Date.now()}:${smallHash(Math.random())}`,
+  };
+  if (!state.settings.worker) {
+    state.pendingVotes.push(payload);
+    state.pendingVotes = state.pendingVotes.slice(-50);
+    writeStore("pending-votes", state.pendingVotes);
+    return;
+  }
   try {
-    await workerRequest({
-      action: "voto",
-      voto: next || "remove",
-      receita: recipe,
-      event_id: `${id}:${Date.now()}:${smallHash(Math.random())}`,
-    });
+    await workerRequest(payload);
   } catch {
-    // O voto local continua valendo e será visível neste aparelho.
+    state.pendingVotes.push(payload);
+    state.pendingVotes = state.pendingVotes.slice(-50);
+    writeStore("pending-votes", state.pendingVotes);
   }
 }
 
@@ -741,6 +900,13 @@ function bindShell() {
   bindSearch();
   $("#photo-input").addEventListener("change", (event) => handlePhotos(event.target.files));
   $("#share-list").addEventListener("click", shareShoppingList);
+  $("#clear-list").addEventListener("click", clearShoppingList);
+  $("#manual-item-form").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const input = $("#manual-item");
+    await addManualShoppingItem(input.value);
+    input.value = "";
+  });
   $("#open-settings").addEventListener("click", openSettings);
   $("#save-settings").addEventListener("click", saveSettings);
   $("#recipe-dialog").addEventListener("click", (event) => {
@@ -754,7 +920,7 @@ function bindShell() {
 function activateTab(tab) {
   $$(".bottom-nav [data-tab]").forEach((button) => button.classList.toggle("is-active", button.dataset.tab === tab));
   $$(".view").forEach((view) => view.classList.toggle("is-active", view.dataset.view === tab));
-  if (tab === "lista") refreshShoppingList();
+  if (tab === "lista") renderList();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -767,7 +933,7 @@ function openSettings() {
   $("#settings-dialog").showModal();
 }
 
-function saveSettings(event) {
+async function saveSettings(event) {
   event.preventDefault();
   state.settings = {
     worker: $("#worker-url").value.trim().replace(/\/+$/, ""),
@@ -776,13 +942,17 @@ function saveSettings(event) {
   writeStore("settings", state.settings);
   renderBrand();
   $("#settings-dialog").close();
+  await syncRemoteState();
+  rebuildIndex();
+  renderAll();
+  await refreshShoppingList();
 }
 
-async function workerRequest(payload) {
+async function workerRequest(payload, timeoutMs = 18_000) {
   const url = state.settings.worker;
   if (!url) throw new Error("Worker não configurado");
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 18000);
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try {
     const response = await fetch(url, {
       method: "POST",
@@ -799,10 +969,7 @@ async function workerRequest(payload) {
 }
 
 async function shareShoppingList() {
-  const recipes = likedRecipes();
-  const ingredients = recipes.flatMap((recipe) => recipe.ingredientes || []);
-  const grouped = fallbackConsolidate(ingredients);
-  const text = Object.entries(grouped)
+  const text = Object.entries(state.shopping.list || {})
     .map(([category, items]) => `${category}\n${items.map((item) => `• ${item}`).join("\n")}`)
     .join("\n\n");
   if (!text) return;

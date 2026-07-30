@@ -102,8 +102,8 @@
           <p class="eyebrow">Do acervo para a web</p>
           <h2 id="title-buscar">Encontre o jantar</h2>
           <p class="lede">
-            O acervo responde na hora. Se precisar, a busca verificada continua
-            em segundo plano.
+            Digite um prato, abra o resultado e marque Gostei. Ele entra no
+            histórico de vocês e ajuda a refinar as próximas sugestões.
           </p>
         </div>
 
@@ -182,23 +182,36 @@
             <h2 id="title-lista">Lista de compras</h2>
           </div>
 
-          <button
-            class="secondary-button small"
-            id="share-list"
-            type="button"
-          >
-            Compartilhar
-          </button>
+          <div class="list-actions">
+            <button
+              class="secondary-button small"
+              id="clear-list"
+              type="button"
+            >
+              Limpar lista
+            </button>
+
+            <button
+              class="secondary-button small"
+              id="share-list"
+              type="button"
+            >
+              Compartilhar
+            </button>
+          </div>
         </div>
 
         <div class="upload-card">
           <div>
-            <strong>Tem uma receita em papel?</strong>
-            <p>Fotografe. O app lê os ingredientes e soma tudo.</p>
+            <strong>Gostaram de um prato?</strong>
+            <p>
+              Fotografe o prato, uma receita em papel ou uma captura de tela.
+              O app identifica, procura uma fonte e guarda em Gostei.
+            </p>
           </div>
 
           <label class="secondary-button small" for="photo-input">
-            Ler foto
+            Publicar foto
           </label>
 
           <input
@@ -206,6 +219,7 @@
             type="file"
             accept="image/*"
             multiple
+            capture="environment"
             hidden
           />
         </div>
@@ -217,6 +231,20 @@
         ></div>
 
         <div id="liked-recipes"></div>
+
+        <form class="manual-item-form" id="manual-item-form">
+          <label for="manual-item">Adicionar algo à lista</label>
+          <div class="search-row">
+            <input
+              id="manual-item"
+              type="text"
+              placeholder="ex.: papel-toalha, café…"
+              autocomplete="off"
+            />
+            <button class="secondary-button" type="submit">Adicionar</button>
+          </div>
+        </form>
+
         <div id="shopping-list" aria-live="polite"></div>
       </section>
 

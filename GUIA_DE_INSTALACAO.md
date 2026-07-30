@@ -1,6 +1,6 @@
 # Guia de instalação — sem terminal
 
-Reserve cerca de 25 minutos. Você vai usar apenas os sites do GitHub e do Cloudflare.
+Reserve cerca de 35 minutos. Você vai usar apenas os sites do GitHub e do Cloudflare.
 
 ## Antes de começar
 
@@ -13,7 +13,7 @@ Tenha em mãos:
 - uma conta gratuita no GitHub;
 - uma conta gratuita no Cloudflare.
 
-O Pexels é opcional. Nesta versão, ele vem desligado por padrão para evitar imagens genéricas.
+O Pexels é opcional e aparece sempre identificado como imagem ilustrativa.
 
 ## Parte 1 — GitHub
 
@@ -45,7 +45,7 @@ Abra a aba **Variables** e crie:
 
 - `APP_URL` — a URL do GitHub Pages
 - `GEMINI_MODEL` — `gemini-2.5-flash`
-- `ENABLE_PEXELS_FALLBACK` — `false`
+- `ENABLE_PEXELS_FALLBACK` — `true`
 
 ## Parte 2 — token do GitHub
 
@@ -92,7 +92,44 @@ As outras variáveis já estão no `wrangler.toml`.
 Copie a URL final do Worker, parecida com:
 `https://cozinha-a-dois-worker.seu-usuario.workers.dev`
 
-## Parte 4 — ligar o app ao Worker
+## Parte 4 — criar o banco e o espaço de fotos
+
+Estas duas configurações ativam o caderno de Gostei sincronizado e o envio de fotos.
+Os nomes dos bindings precisam ser exatamente os indicados.
+
+### Banco D1
+
+1. No painel do Cloudflare, abra **Storage & databases → D1 SQL database**.
+2. Clique em **Create database**.
+3. Use o nome `cozinha-a-dois`.
+4. Volte ao Worker `cozinha-a-dois-worker`.
+5. Abra **Settings → Bindings → Add binding**.
+6. Escolha **D1 database**.
+7. Em **Variable name**, escreva `DB`.
+8. Selecione o banco `cozinha-a-dois` e salve.
+
+Não é necessário colar comandos SQL. No primeiro uso, o próprio Worker cria as tabelas.
+O arquivo `schema.sql` está no repositório apenas como cópia de segurança.
+
+### Fotos R2
+
+1. No painel do Cloudflare, abra **Storage & databases → R2 Object Storage**.
+2. Clique em **Create bucket**.
+3. Use o nome `cozinha-a-dois-fotos`.
+4. Volte ao Worker `cozinha-a-dois-worker`.
+5. Abra **Settings → Bindings → Add binding**.
+6. Escolha **R2 bucket**.
+7. Em **Variable name**, escreva `PHOTOS`.
+8. Selecione `cozinha-a-dois-fotos` e salve.
+
+O bucket não precisa ser público. As imagens são entregues pelo próprio Worker.
+
+Depois de salvar os dois bindings, abra a URL do Worker no navegador. Ela deve mostrar:
+
+- `"banco": true`
+- `"fotos": true`
+
+## Parte 5 — ligar o app ao Worker
 
 1. No GitHub, abra `config.js`.
 2. Clique no lápis.
@@ -102,7 +139,7 @@ Copie a URL final do Worker, parecida com:
 
 Em alguns minutos, o GitHub Pages publica a mudança.
 
-## Parte 5 — primeira geração
+## Parte 6 — primeira geração
 
 1. No repositório, abra **Actions**.
 2. Selecione **Gerar cardápio e enviar e-mail**.
@@ -124,4 +161,6 @@ Quando os dois fluxos terminarem com marca verde, o app já terá cardápio real
 - **As receitas não mudam:** abra Actions e veja se a última execução está verde.
 - **O e-mail não chega:** confirme a Senha de App do Gmail e `MAIL_TO`.
 - **A foto não aparece:** isso pode ser intencional; a versão só mostra foto que passou pela validação.
+- **A foto enviada não é guardada:** abra a URL do Worker e confirme se `banco` e `fotos` aparecem como `true`.
+- **Favoritos não sincronizam entre aparelhos:** confirme o binding D1 com o nome exato `DB`.
 - **O link abre o Google:** a fonte direta não passou pela validação. É uma proteção contra URL errada.

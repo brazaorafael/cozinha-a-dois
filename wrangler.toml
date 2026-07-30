@@ -5,9 +5,13 @@ compatibility_date = "2025-04-01"
 [vars]
 REPO = "brazaorafael/cozinha-a-dois"
 ALLOWED_ORIGINS = "https://brazaorafael.github.io"
-ALLOWED_RECIPE_HOSTS = "panelinha.com.br,receitas.globo.com,tudogostoso.com.br"
+ALLOWED_RECIPE_HOSTS = "panelinha.com.br,receitasnestle.com.br,receitas.globo.com,anamariabraga.globo.com,tudogostoso.com.br,guiadacozinha.com.br,cookpad.com,tudoreceitas.com,cybercook.com.br,tastemade.com.br,naminhapanela.com,receitasdeminuto.com,presuntovegetariano.com.br,daninoce.com.br,amopaocaseiro.com.br,pitadinha.com,pratofundo.com,cozinhalegal.com.br"
 GEMINI_MODEL = "gemini-2.5-flash"
-ENABLE_PEXELS_FALLBACK = "false"
+ENABLE_PEXELS_FALLBACK = "true"
+
+# No painel Cloudflare, adicione sem editar este arquivo:
+# - binding D1 chamado DB
+# - binding R2 chamado PHOTOS
 
 [observability]
 enabled = true
