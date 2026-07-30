@@ -1,0 +1,119 @@
+{
+  "cozinhados_recentes": [],
+  "gerado_em": "2026-07-30T20:27:23.499Z",
+  "janela_dias": 21,
+  "nao_repetir": [],
+  "ok": true,
+  "pessoas": {
+    "ambos": {
+      "gostou": [
+        {
+          "tags": [
+            "salada",
+            "mediterranea",
+            "queijo",
+            "vegetariano"
+          ],
+          "titulo": "Salada grega"
+        },
+        {
+          "tags": [
+            "vegetariano",
+            "rapido",
+            "fresco",
+            "entrada"
+          ],
+          "titulo": "Guacamole"
+        },
+        {
+          "tags": [
+            "doce",
+            "gelado",
+            "fruta",
+            "facil"
+          ],
+          "titulo": "Mousse de Maracujá"
+        },
+        {
+          "tags": [
+            "carne_suina",
+            "refogado",
+            "oriental",
+            "rapido"
+          ],
+          "titulo": "Picadinho Oriental com Lombo e Abacaxi"
+        },
+        {
+          "tags": [
+            "carne_vermelha",
+            "assado",
+            "vegetais",
+            "facil"
+          ],
+          "titulo": "Abobrinha Recheada com Carne Moída"
+        }
+      ],
+      "rejeitou": []
+    },
+    "ana": {
+      "gostou": [],
+      "rejeitou": []
+    },
+    "rafael": {
+      "gostou": [],
+      "rejeitou": []
+    }
+  },
+  "resumo": "Os dois juntos gostou de: Salada grega; Guacamole; Mousse de Maracujá; Picadinho Oriental com Lombo e Abacaxi; Abobrinha Recheada com Carne Moída. Características bem avaliadas: vegetariano, rapido, facil, salada, mediterranea, queijo, fresco, entrada, doce, gelado, fruta, carne_suina.",
+  "tags_evitar": [],
+  "tags_favoritas": [
+    {
+      "pontos": 4,
+      "tag": "vegetariano"
+    },
+    {
+      "pontos": 4,
+      "tag": "rapido"
+    },
+    {
+      "pontos": 4,
+      "tag": "facil"
+    },
+    {
+      "pontos": 2,
+      "tag": "salada"
+    },
+    {
+      "pontos": 2,
+      "tag": "mediterranea"
+    },
+    {
+      "pontos": 2,
+      "tag": "queijo"
+    },
+    {
+      "pontos": 2,
+      "tag": "fresco"
+    },
+    {
+      "pontos": 2,
+      "tag": "entrada"
+    },
+    {
+      "pontos": 2,
+      "tag": "doce"
+    },
+    {
+      "pontos": 2,
+      "tag": "gelado"
+    },
+    {
+      "pontos": 2,
+      "tag": "fruta"
+    },
+    {
+      "pontos": 2,
+      "tag": "carne_suina"
+    }
+  ]
+}

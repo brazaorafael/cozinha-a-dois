@@ -1,0 +1,99 @@
+{
+  "contagem": {
+    "app_state": 1,
+    "cooked": 0,
+    "favorites": 5,
+    "taste_events": 5
+  },
+  "exportado_em": "2026-07-30T20:27:21.881Z",
+  "ok": true,
+  "tabelas": {
+    "app_state": [
+      {
+        "state_json": "{\"sourceSignature\":\"15uqmed\",\"list\":{\"Itens das receitas\":[\"1 caixa de creme de leite\",\"1 cebola\",\"1 cebola-roxa pequena\",\"1 colher (café) de pimenta dedo de moça sem sementes\",\"1 colher (sopa) de gengibre ralado\",\"1 colher (sopa) de óleo\",\"1 colher rasa (sopa) de coentro picado\",\"1 dente de alho picado\",\"1 envelope de gelatina em pó incolor\",\"1 lata de leite condensado\",\"1 pepino comum\",\"1 pimentão vermelho\",\"1 tomate sem sementes em cubos\",\"1 xícara (chá) de queijo muçarela ralado\",\"1 xícara de chá de suco de maracujá concentrado\",\"1/2 cebola picada\",\"½ abacate (se for grande) ou 1 inteiro se for pequeno (sempre maduro)\",\"½ abacaxi cortado em cubos (cerca de 2 xícaras (chá))\",\"½ cebola\",\"½ maço de couve (7 folhas)\",\"½ tomate maduro\",\"½ xícara (chá) de água\",\"½ xícara (chá) de shoyu (molho de soja)\",\"⅓ de xícara (chá) de azeitona preta grega\",\"100 g de queijo feta em peça\",\"2 abobrinhas italianas grandes\",\"2 colheres (sopa) azeite\",\"2 colheres (sopa) de amido de milho\",\"2 colheres (sopa) de óleo\",\"2 dentes de alho\",\"2 pimentas dedo-de-moça\",\"3 tomates maduros\",\"300g de carne moída\",\"400 g de lombo de porco em peça\",\"amendoim torrado picado a gosto para servir\",\"Azeite a gosto\",\"caldo de meio limão\",\"óleo de gergelim torrado a gosto (opcional)\",\"Pimenta-do-reino moída na hora a gosto\",\"sal e pimenta do reino a gosto\",\"Sal, pimenta-do-reino e manjericão picado a gosto\"]},\"checked\":{},\"updatedAt\":\"2026-07-30T20:14:43.899Z\"}",
+        "state_key": "shopping",
+        "updated_at": "2026-07-30 20:14:44"
+      }
+    ],
+    "cooked": [],
+    "favorites": [
+      {
+        "created_at": "2026-07-30 18:39:19",
+        "recipe_id": "abobrinha-recheada-com-carne-moida-03985fbb",
+        "recipe_json": "{\"id\":\"abobrinha-recheada-com-carne-moida-03985fbb\",\"nome\":\"Abobrinha Recheada com Carne Moída\",\"curso\":\"principal\",\"tempo\":\"45min\",\"porque\":\"Uma refeição prática, saudável e saborosa, onde a versátil abobrinha é recheada e assada no forno, garantindo um bom equilíbrio de proteína e vegetais. Rende para 4 porções, ideal para o casal e sobra para uma pessoa.\",\"tags\":[\"carne_vermelha\",\"assado\",\"vegetais\",\"facil\"],\"rende_sobra\":true,\"ingredientes\":[\"2 abobrinhas italianas grandes\",\"Sal, pimenta-do-reino e manjericão picado a gosto\",\"1 colher (sopa) de óleo\",\"1 dente de alho picado\",\"1/2 cebola picada\",\"300g de carne moída\",\"1 tomate sem sementes em cubos\",\"1 xícara (chá) de queijo muçarela ralado\"],\"preparo\":[\"Lave as abobrinhas, faça furos na casca com um palito e cozinhe inteiras em água fervente com sal por 3 minutos. Escorra e deixe amornar.\",\"Corte as abobrinhas ao meio no sentido do comprimento e, com uma colher, retire o miolo com cuidado. Reserve.\",\"Aqueça uma panela com o óleo em fogo médio, e frite o alho e a cebola por 2 minutos.\",\"Adicione a carne moída e frite por 5 minutos ou até secar toda a água. Desligue.\",\"Acrescente o miolo da abobrinha reservado, o tomate, tempere com sal, pimenta, manjericão e misture.\",\"Recheie as abobrinhas com o refogado. Coloque em uma fôrma, polvilhe com a muçarela e leve ao forno alto, preaquecido, por 5 minutos ou até gratinar. Sirva em seguida.\"],\"fonte\":{\"status\":\"verified\",\"url\":\"https://guiadacozinha.com.br/receitas/abobrinha-recheada-com-carne-moida/\",\"title\":\"Abobrinha recheada com carne moída\",\"domain\":\"guiadacozinha.com.br\",\"checked_at\":\"2026-07-30T12:30:39+00:00\",\"confidence\":1,\"rating\":0,\"rating_count\":0},\"imagem\":{\"kind\":\"source\",\"url\":\"https://guiadacozinha.com.br/wp-content/uploads/2019/10/abobrinha-recheada-carne-moida-768x619.jpg\",\"alt\":\"Abobrinha Recheada com Carne Moída\",\"credit\":\"\",\"bank_id\":\"\"}}",
+        "source_type": "vote",
+        "tem_foto": false,
+        "updated_at": "2026-07-30 18:39:19"
+      },
+      {
+        "created_at": "2026-07-30 18:39:34",
+        "recipe_id": "picadinho-oriental-com-lombo-e-abacaxi-baec7995",
+        "recipe_json": "{\"id\":\"picadinho-oriental-com-lombo-e-abacaxi-baec7995\",\"nome\":\"Picadinho Oriental com Lombo e Abacaxi\",\"curso\":\"principal\",\"tempo\":\"40min\",\"porque\":\"Uma combinação surpreendente de sabores orientais e brasileiros, com cozimento rápido, ideal para variar o cardápio com carne de porco e frutas.\",\"tags\":[\"carne_suina\",\"refogado\",\"oriental\",\"rapido\"],\"rende_sobra\":true,\"ingredientes\":[\"400 g de lombo de porco em peça\",\"½ abacaxi cortado em cubos (cerca de 2 xícaras (chá))\",\"½ maço de couve (7 folhas)\",\"1 pimentão vermelho\",\"1 cebola\",\"2 dentes de alho\",\"2 pimentas dedo-de-moça\",\"1 colher (sopa) de gengibre ralado\",\"½ xícara (chá) de shoyu (molho de soja)\",\"½ xícara (chá) de água\",\"2 colheres (sopa) de amido de milho\",\"2 colheres (sopa) de óleo\",\"óleo de gergelim torrado a gosto (opcional)\",\"amendoim torrado picado a gosto para servir\"],\"preparo\":[\"Retire o lombo da geladeira para que atinja a temperatura ambiente. Lave e pique a couve em quadrados, o pimentão em cubos de 2 cm, as pimentas em rodelas finas, a cebola em cubos médios, o alho em fatias finas e o abacaxi em cubos de 2 cm. Corte o lombo em cubos médios de 2 cm. [cite: 10, previous search]\",\"Em uma jarra, misture a água, o shoyu e o amido de milho até dissolver. [cite: 10, previous search]\",\"Aqueça uma wok ou panela grande em fogo médio com 1 colher (sopa) de óleo. Doure o lombo em levas, transferindo para uma tigela. [cite: 10, previous search]\",\"Adicione o óleo restante na wok e refogue a cebola por 2 minutos. Junte o alho, gengibre e pimentas, refogando por mais 1 minuto. [cite: 10, previous search]\",\"Acrescente o pimentão e refogue por 3 minutos. Volte o lombo para a panela, adicione a couve e o abacaxi. [cite: 10, previous search]\",\"Despeje a mistura de shoyu e cozinhe, mexendo, até o molho engrossar. Finalize com óleo de gergelim (opcional) e amendoim picado. [cite: 10, previous search]\"],\"fonte\":{\"status\":\"verified\",\"url\":\"https://panelinha.com.br/receita/picadinho-oriental-com-lombo-e-abacaxi\",\"title\":\"Picadinho oriental com lombo e abacaxi - Panelinha\",\"domain\":\"panelinha.com.br\",\"checked_at\":\"2026-07-30T12:30:40+00:00\",\"confidence\":1,\"rating\":0,\"rating_count\":0},\"imagem\":{\"kind\":\"source\",\"url\":\"https://i.panelinha.com.br/i1/bk-9067-img-8170.webp\",\"alt\":\"Picadinho Oriental com Lombo e Abacaxi\",\"credit\":\"\",\"bank_id\":\"\"}}",
+        "source_type": "vote",
+        "tem_foto": false,
+        "updated_at": "2026-07-30 18:39:34"
+      },
+      {
+        "created_at": "2026-07-30 18:48:27",
+        "recipe_id": "mousse-de-maracuja-faf326c4",
+        "recipe_json": "{\"id\":\"mousse-de-maracuja-faf326c4\",\"nome\":\"Mousse de Maracujá\",\"curso\":\"sobremesa\",\"tempo\":\"10 minutos de preparo + 4-6 horas de gel\",\"porque\":\"Uma sobremesa refrescante e deliciosa, perfeita para o verão e as festas de fim de ano, com apenas 4 ingredientes, prática e irresistível.\",\"tags\":[\"doce\",\"gelado\",\"fruta\",\"facil\"],\"rende_sobra\":true,\"ingredientes\":[\"1 xícara de chá de suco de maracujá concentrado\",\"1 lata de leite condensado\",\"1 caixa de creme de leite\",\"1 envelope de gelatina em pó incolor\"],\"preparo\":[\"Bata o suco de maracujá com o leite condensado e o creme de leite no liquidificador até obter um creme aerado.\",\"Adicione a gelatina preparada conforme indicações do fabricante e bata por 2 minutos.\",\"Distribua em taças individuais e leve à geladeira por 4 a 6 horas ou até ficar consistente.\"],\"fonte\":{\"status\":\"unverified\",\"url\":\"\",\"title\":\"\",\"domain\":\"\",\"checked_at\":\"2026-07-30T12:30:43+00:00\",\"confidence\":0,\"rating\":0,\"rating_count\":0},\"imagem\":{\"kind\":\"bank\",\"url\":\"https://images.pexels.com/photos/15792481/pexels-photo-15792481.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\",\"alt\":\"Close-up de uma mão despejando molho de maracujá sobre panna cotta em uma mesa rústica.\",\"credit\":\"Eric Melo\",\"bank_id\":\"15792481\"}}",
+        "source_type": "vote",
+        "tem_foto": false,
+        "updated_at": "2026-07-30 18:48:27"
+      },
+      {
+        "created_at": "2026-07-30 20:14:29",
+        "recipe_id": "guacamole-528e1303",
+        "recipe_json": "{\"id\":\"guacamole-528e1303\",\"nome\":\"Guacamole\",\"curso\":\"entrada\",\"tempo\":\"10 minutos\",\"porque\":\"Um aperitivo mexicano clássico, fácil e rápido de preparar, perfeito para abrir o apetite com sabores frescos e vibrantes.\",\"tags\":[\"vegetariano\",\"rapido\",\"fresco\",\"entrada\"],\"rende_sobra\":false,\"ingredientes\":[\"½ abacate (se for grande) ou 1 inteiro se for pequeno (sempre maduro)\",\"½ tomate maduro\",\"½ cebola\",\"caldo de meio limão\",\"2 colheres (sopa) azeite\",\"1 colher rasa (sopa) de coentro picado\",\"1 colher (café) de pimenta dedo de moça sem sementes\",\"sal e pimenta do reino a gosto\"],\"preparo\":[\"Retire a polpa do abacate e coloque-a numa tigela amassando grosseiramente até formar um purê rústico.\",\"Corte o tomate (sem as sementes) e a cebola em cubinhos pequenos. Pique o coentro.\",\"Junte o tomate, a cebola, o coentro, o caldo de limão, o azeite e a pimenta ao abacate amassado.\",\"Tempere com sal e pimenta do reino a gosto e misture bem.\",\"Sirva imediatamente com nachos ou torradas.\"],\"fonte\":{\"status\":\"unverified\",\"url\":\"\",\"title\":\"\",\"domain\":\"\",\"checked_at\":\"2026-07-30T12:30:42+00:00\",\"confidence\":0,\"rating\":0,\"rating_count\":0},\"imagem\":{\"kind\":\"bank\",\"url\":\"https://images.pexels.com/photos/36498696/pexels-photo-36498696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940\",\"alt\":\"Close-up de três tacos de frango com guacamole, ervas e cebola em um restaurante.\",\"credit\":\"DΛVΞ GΛRCIΛ\",\"bank_id\":\"36498696\"}}",
+        "source_type": "vote",
+        "tem_foto": false,
+        "updated_at": "2026-07-30 20:14:29"
+      },
+      {
+        "created_at": "2026-07-30 20:14:44",
+        "recipe_id": "salada-grega-b2ca4a64",
+        "recipe_json": "{\"id\":\"salada-grega-b2ca4a64\",\"nome\":\"Salada grega\",\"curso\":\"entrada\",\"tempo\":\"20 minutos\",\"porque\":\"Uma salada colorida e cheia de sabor, com ingredientes frescos e queijo feta. É uma opção leve e nutritiva para começar a refeição.\",\"tags\":[\"salada\",\"mediterranea\",\"queijo\",\"vegetariano\"],\"rende_sobra\":false,\"ingredientes\":[\"3 tomates maduros\",\"1 pepino comum\",\"1 cebola-roxa pequena\",\"100 g de queijo feta em peça\",\"⅓ de xícara (chá) de azeitona preta grega\",\"Azeite a gosto\",\"Pimenta-do-reino moída na hora a gosto\"],\"preparo\":[\"Lave os tomates e o pepino. Corte os tomates em gomos e o pepino em rodelas.\",\"Descasque e corte a cebola-roxa em meias-luas finas. Se desejar, deixe-a de molho em água gelada por 10 minutos para suavizar o sabor.\",\"Em uma saladeira, junte os tomates, o pepino, a cebola e as azeitonas.\",\"Corte o queijo feta em cubos e adicione à salada.\",\"Regue com bastante azeite e tempere com pimenta-do-reino a gosto. Sirva imediatamente.\"],\"fonte\":{\"status\":\"verified\",\"url\":\"https://panelinha.com.br/receita/salada-grega\",\"title\":\"Salada grega - Panelinha\",\"domain\":\"panelinha.com.br\",\"checked_at\":\"2026-07-30T02:05:24+00:00\",\"confidence\":1,\"rating\":0,\"rating_count\":0},\"imagem\":{\"kind\":\"source\",\"url\":\"https://i.panelinha.com.br/i1/bk-3109-salada-grega.webp\",\"alt\":\"Salada grega\",\"credit\":\"\",\"bank_id\":\"\"}}",
+        "source_type": "vote",
+        "tem_foto": false,
+        "updated_at": "2026-07-30 20:14:44"
+      }
+    ],
+    "taste_events": [
+      {
+        "created_at": "2026-07-30 18:39:19",
+        "event_id": "abobrinha-recheada-com-carne-moida-03985fbb:1785436759049:2dcraw",
+        "recipe_id": "abobrinha-recheada-com-carne-moida-03985fbb",
+        "vote": "like",
+        "voter_id": "ambos"
+      },
+      {
+        "created_at": "2026-07-30 18:39:34",
+        "event_id": "picadinho-oriental-com-lombo-e-abacaxi-baec7995:1785436774008:13d4q2s",
+        "recipe_id": "picadinho-oriental-com-lombo-e-abacaxi-baec7995",
+        "vote": "like",
+        "voter_id": "ambos"
+      },
+      {
+        "created_at": "2026-07-30 18:48:27",
+        "event_id": "mousse-de-maracuja-faf326c4:1785437306764:10dpwjz",
+        "recipe_id": "mousse-de-maracuja-faf326c4",
+        "vote": "like",
+        "voter_id": "ambos"
+      },
+      {
+        "created_at": "2026-07-30 20:14:29",
+        "event_id": "guacamole-528e1303:1785442469622:hwhkn8",
+        "recipe_id": "guacamole-528e1303",
+        "vote": "like",
+        "voter_id": "ambos"
+      },
+      {
+        "created_at": "2026-07-30 20:14:44",
+        "event_id": "salada-grega-b2ca4a64:1785442484344:1469h8o",
+        "recipe_id": "salada-grega-b2ca4a64",
+        "vote": "like",
+        "voter_id": "ambos"
+      }
+    ]
+  }
+}
