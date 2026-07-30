@@ -64,7 +64,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated-r8";
+const SEARCH_CACHE_VERSION = "v5-fast-curated-r9";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -932,30 +932,30 @@ async function geminiJson(env, prompt, useSearch, extraParts = [], fast = false)
     .map((part) => part.text)
     .filter(Boolean)
     .join("");
+  const grounded = useSearch
+    ? (payload?.candidates?.[0]?.groundingMetadata?.groundingChunks || [])
+        .map((chunk) => chunk?.web)
+        .filter((web) => web?.uri && web?.title)
+        .slice(0, 5)
+    : [];
+  const groundedRecipes = grounded.map((web) => ({
+    nome: cleanText(web.title).slice(0, 180),
+    curso: "principal",
+    tempo: "",
+    url: web.uri,
+    porque: "Resultado localizado em uma fonte permitida.",
+    tags: [],
+    rende_sobra: false,
+    ingredientes: [],
+    preparo: [],
+  }));
+
   try {
-    return parseJson(text);
+    const parsed = parseJson(text);
+    if (!groundedRecipes.length) return parsed;
+    return { pratos: [...asRecipeArray(parsed), ...groundedRecipes] };
   } catch (error) {
-    const grounded = useSearch
-      ? (payload?.candidates?.[0]?.groundingMetadata?.groundingChunks || [])
-          .map((chunk) => chunk?.web)
-          .filter((web) => web?.uri && web?.title)
-          .slice(0, 5)
-      : [];
-    if (grounded.length) {
-      return {
-        pratos: grounded.map((web) => ({
-          nome: cleanText(web.title).slice(0, 180),
-          curso: "principal",
-          tempo: "",
-          url: web.uri,
-          porque: "Resultado localizado em uma fonte permitida.",
-          tags: [],
-          rende_sobra: false,
-          ingredientes: [],
-          preparo: [],
-        })),
-      };
-    }
+    if (groundedRecipes.length) return { pratos: groundedRecipes };
     throw error;
   }
 }
