@@ -388,7 +388,8 @@ const SEARCH_STOP_WORDS = new Set([
 
 const PROTEIN_TERMS = {
   carne_vermelha: [
-    "carne bovina", "carne vermelha", "bife", "patinho", "alcatra", "maminha", "picanha",
+    "carne bovina", "carne vermelha", "carne seca", "carne-seca", "charque", "jaba",
+    "bife", "patinho", "alcatra", "maminha", "picanha",
     "file mignon", "contrafile", "acem", "musculo", "lagarto", "coxao", "cupim", "bovino", "boi",
   ],
   frango: ["frango", "galinha", "sobrecoxa", "coxa de frango", "peito de frango"],
@@ -409,7 +410,7 @@ function parseSearchIntent(query, kind = "buscar") {
   }
 
   let protein = "";
-  if (/(carne vermelha|carne bovina|bife|patinho|alcatra|maminha|picanha|file mignon|contrafile|acem|coxao|cupim)/.test(text)) {
+  if (/(carne vermelha|carne bovina|carne seca|charque|jaba|bife|patinho|alcatra|maminha|picanha|file mignon|contrafile|acem|coxao|cupim)/.test(text)) {
     protein = "carne_vermelha";
   } else if (/(frango|galinha|sobrecoxa)/.test(text)) {
     protein = "frango";
@@ -556,7 +557,7 @@ async function startSearch(query, kind) {
   const clean = String(query || "").trim();
   if (!clean) return;
 
-  const instant = localSearch(clean, kind);
+  const instant = state.settings.worker ? [] : localSearch(clean, kind);
   state.search = {
     query: clean,
     results: instant,
@@ -578,7 +579,7 @@ async function startSearch(query, kind) {
     await handleSearchResponse(response, instant);
   } catch (error) {
     state.search.status = "error";
-    state.search.message = "A busca web não respondeu. Mostrei o que já existia no seu acervo.";
+    state.search.message = "A busca do Panelinha não respondeu. Tente novamente em alguns instantes.";
     writeStore("search", state.search);
     renderSearch();
   }
@@ -595,7 +596,7 @@ async function handleSearchResponse(response, instant) {
 
   const remote = (response.pratos || []).map(normalizeRecipe);
   finishSearch(
-    mergeRecipes(instant, remote, state.search.query, state.search.kind),
+    rankSearchRecipes(remote, state.search.query, state.search.kind, 8),
     response.aviso || "",
   );
 }
@@ -620,7 +621,7 @@ async function pollSearch(jobId, instant, attempt = 0, expectedStartedAt = state
     if (state.search.jobId && state.search.jobId !== jobId) return;
     const remote = (response.pratos || []).map(normalizeRecipe);
     finishSearch(
-      mergeRecipes(instant, remote, state.search.query, state.search.kind),
+      rankSearchRecipes(remote, state.search.query, state.search.kind, 8),
       response.aviso || "",
     );
   } catch {
@@ -652,7 +653,7 @@ function mergeRecipes(local, remote, query, kind) {
 
 function restorePendingSearch() {
   if (state.search.status !== "loading" || !state.search.jobId || !state.settings.worker) return;
-  const instant = localSearch(state.search.query, state.search.kind);
+  const instant = [];
   pollSearch(state.search.jobId, instant, 0, state.search.startedAt);
 }
 
