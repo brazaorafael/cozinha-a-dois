@@ -95,18 +95,26 @@ Copie a URL final do Worker, parecida com:
 ## Parte 4 — criar o banco e o espaço de fotos
 
 Estas duas configurações ativam o caderno de Gostei sincronizado e o envio de fotos.
-Os nomes dos bindings precisam ser exatamente os indicados.
+Os nomes dos bindings precisam ser exatamente os indicados. Como este Worker é
+publicado pelo Git, os bindings também precisam estar no `wrangler.toml`;
+um vínculo criado apenas pelo painel pode desaparecer no próximo deploy.
 
 ### Banco D1
 
 1. No painel do Cloudflare, abra **Storage & databases → D1 SQL database**.
 2. Clique em **Create database**.
 3. Use o nome `cozinha-a-dois`.
-4. Volte ao Worker `cozinha-a-dois-worker`.
-5. Abra **Settings → Bindings → Add binding**.
-6. Escolha **D1 database**.
-7. Em **Variable name**, escreva `DB`.
-8. Selecione o banco `cozinha-a-dois` e salve.
+4. Abra o banco e copie o **Database ID**.
+5. No GitHub, abra `wrangler.toml` e confirme este bloco:
+
+```toml
+[[d1_databases]]
+binding = "DB"
+database_name = "cozinha-a-dois"
+database_id = "COLE_AQUI_O_DATABASE_ID"
+```
+
+Neste projeto o ID atual já está preenchido. Só o troque se você criar outro banco.
 
 Não é necessário colar comandos SQL. No primeiro uso, o próprio Worker cria as tabelas.
 O arquivo `schema.sql` está no repositório apenas como cópia de segurança.
@@ -114,13 +122,19 @@ O arquivo `schema.sql` está no repositório apenas como cópia de segurança.
 ### Fotos R2
 
 1. No painel do Cloudflare, abra **Storage & databases → R2 Object Storage**.
-2. Clique em **Create bucket**.
-3. Use o nome `cozinha-a-dois-fotos`.
-4. Volte ao Worker `cozinha-a-dois-worker`.
-5. Abra **Settings → Bindings → Add binding**.
-6. Escolha **R2 bucket**.
-7. Em **Variable name**, escreva `PHOTOS`.
-8. Selecione `cozinha-a-dois-fotos` e salve.
+2. Ative o R2 se a conta ainda não o tiver habilitado. Leia os limites gratuitos e
+   a cobrança por excedente antes de confirmar.
+3. Clique em **Create bucket**.
+4. Use o nome `cozinha-a-dois-fotos`.
+5. No GitHub, acrescente este bloco ao `wrangler.toml`, antes de `[observability]`:
+
+```toml
+[[r2_buckets]]
+binding = "PHOTOS"
+bucket_name = "cozinha-a-dois-fotos"
+```
+
+6. Confirme a alteração no GitHub e aguarde o novo deploy do Worker.
 
 O bucket não precisa ser público. As imagens são entregues pelo próprio Worker.
 

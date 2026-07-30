@@ -9,9 +9,13 @@ ALLOWED_RECIPE_HOSTS = "panelinha.com.br,receitasnestle.com.br,receitas.globo.co
 GEMINI_MODEL = "gemini-2.5-flash"
 ENABLE_PEXELS_FALLBACK = "true"
 
-# No painel Cloudflare, adicione sem editar este arquivo:
-# - binding D1 chamado DB
-# - binding R2 chamado PHOTOS
+[[d1_databases]]
+binding = "DB"
+database_name = "cozinha-a-dois"
+database_id = "8c4e82dd-b3b2-46dd-9567-c72bcdc23891"
+
+# Depois de ativar o R2 e criar o bucket cozinha-a-dois-fotos,
+# acrescente aqui o binding PHOTOS conforme o guia de instalação.
 
 [observability]
 enabled = true
