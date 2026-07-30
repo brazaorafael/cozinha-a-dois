@@ -64,7 +64,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated-r9";
+const SEARCH_CACHE_VERSION = "v5-fast-curated-r10";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -460,10 +460,13 @@ Para cada candidato, retorne:
 
   // O Google Search embutido costuma ultrapassar o limite de duração do Worker.
   // A resposta sem a ferramenta é rápida; as URLs continuam sendo abertas e verificadas abaixo.
-  const fallbacks = trustedFallbackCandidates(intent);
+  const fallbacks = [
+    ...trustedFallbackCandidates(intent),
+    ...queryUrlCandidates(query, intent),
+  ];
   let generated = [];
   try {
-    const raw = await geminiJson(env, prompt, !fallbacks.length, [], true);
+    const raw = await geminiJson(env, prompt, false, [], true);
     generated = asRecipeArray(raw);
   } catch (error) {
     if (!fallbacks.length) throw error;
@@ -686,6 +689,35 @@ function trustedFallbackCandidates(intent) {
     }];
   }
   return [];
+}
+
+function queryUrlCandidates(query, intent) {
+  const phrase = normalize(query)
+    .replace(/\b(eu|quero|queria|busca|buscar|procuro|procurar|fazer|uma|um|receita|receitas)\b/g, " ")
+    .replace(/\b(prato principal|para o jantar|para jantar|para o almoco|para almoco)\b/g, " ")
+    .replace(/\b(facil|faceis|rapida|rapidas|rapido|rapidos|pratica|praticas|pratico|praticos)\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!phrase || phrase.length < 3) return [];
+
+  const slug = phrase.replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  if (!slug) return [];
+  const name = phrase.replace(/\b\w/g, (letter) => letter.toUpperCase());
+  const base = {
+    nome: name,
+    curso: intent.course || "principal",
+    tempo: "",
+    porque: "Correspondência direta com o prato digitado.",
+    tags: [...intent.tokens, intent.method, intent.protein].filter(Boolean),
+    rende_sobra: false,
+    ingredientes: [],
+    preparo: [],
+  };
+  return [
+    { ...base, url: `https://www.receitasnestle.com.br/receitas/${slug}` },
+    { ...base, url: `https://www.receitasnestle.com.br/receitas/receita-${slug}` },
+    { ...base, url: `https://panelinha.com.br/receita/${slug}` },
+  ];
 }
 
 async function readSearchJob(jobId) {
