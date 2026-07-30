@@ -378,31 +378,134 @@ function searchHaystack(recipe) {
   ].join(" "));
 }
 
-function localSearch(query, kind = "buscar") {
-  const terms = normalize(query).split(" ").filter((term) => term.length > 1);
-  if (!terms.length) return [];
+const SEARCH_STOP_WORDS = new Set([
+  "a", "ao", "as", "com", "da", "das", "de", "do", "dos", "e", "em", "na", "nas", "no", "nos",
+  "o", "os", "para", "por", "pra", "prato", "principal", "receita", "receitas", "somente", "so",
+  "facil", "faceis", "rapida", "rapidas", "rapido", "rapidos", "pratica", "praticas", "pratico", "praticos",
+  "air", "fryer", "airfryer", "fritadeira", "sobremesa", "sobremesas", "doce", "doces", "entrada", "entradas",
+  "carne", "carnes", "vermelha", "vermelhas", "frango", "galinha", "peixe", "peixes", "porco", "suino",
+]);
 
+const PROTEIN_TERMS = {
+  carne_vermelha: [
+    "carne bovina", "carne vermelha", "bife", "patinho", "alcatra", "maminha", "picanha",
+    "file mignon", "contrafile", "acem", "musculo", "lagarto", "coxao", "cupim", "bovino", "boi",
+  ],
+  frango: ["frango", "galinha", "sobrecoxa", "coxa de frango", "peito de frango"],
+  peixe: ["peixe", "salmao", "tilapia", "bacalhau", "atum", "pescada", "sardinha"],
+  porco: ["porco", "suino", "lombo", "bisteca", "pernil", "costelinha", "panceta"],
+  vegetariano: ["vegetariano", "vegano", "sem carne"],
+};
+
+function parseSearchIntent(query, kind = "buscar") {
+  const text = normalize(query);
+  let course = "";
+  if (/(sobremesa|doce|bolo|pudim|mousse|brigadeiro|cookie|torta doce|sorvete)/.test(text)) {
+    course = "sobremesa";
+  } else if (/(entrada|petisco|aperitivo|canape)/.test(text)) {
+    course = "entrada";
+  } else if (/(prato principal|almoco|jantar)/.test(text)) {
+    course = "principal";
+  }
+
+  let protein = "";
+  if (/(carne vermelha|carne bovina|bife|patinho|alcatra|maminha|picanha|file mignon|contrafile|acem|coxao|cupim)/.test(text)) {
+    protein = "carne_vermelha";
+  } else if (/(frango|galinha|sobrecoxa)/.test(text)) {
+    protein = "frango";
+  } else if (/(peixe|salmao|tilapia|bacalhau|atum|pescada|sardinha)/.test(text)) {
+    protein = "peixe";
+  } else if (/(porco|suino|lombo|bisteca|pernil|costelinha|panceta)/.test(text)) {
+    protein = "porco";
+  } else if (/(vegetariano|vegano|sem carne)/.test(text)) {
+    protein = "vegetariano";
+  }
+
+  let method = "";
+  if (/(air ?fryer|fritadeira sem oleo)/.test(text)) method = "airfryer";
+  else if (/(panela de pressao)/.test(text)) method = "pressao";
+  else if (/(forno|assad[oa])/.test(text)) method = "forno";
+  else if (/(grelhad[oa])/.test(text)) method = "grelha";
+
+  const tokens = text
+    .split(" ")
+    .filter((token) => token.length > 1 && !SEARCH_STOP_WORDS.has(token));
+  return { text, kind, course, protein, method, tokens: [...new Set(tokens)] };
+}
+
+function includesAny(text, terms = []) {
+  return terms.some((term) => text.includes(term));
+}
+
+function recipeMatchesProtein(text, protein) {
+  if (!protein) return true;
+  if (protein === "carne_vermelha") {
+    if (includesAny(text, PROTEIN_TERMS.carne_vermelha)) return true;
+    const otherProtein = includesAny(text, [
+      ...PROTEIN_TERMS.frango,
+      ...PROTEIN_TERMS.peixe,
+      ...PROTEIN_TERMS.porco,
+    ]);
+    return text.includes("carne") && !otherProtein;
+  }
+  return includesAny(text, PROTEIN_TERMS[protein] || []);
+}
+
+function recipeMatchesMethod(text, method) {
+  if (!method) return true;
+  const methods = {
+    airfryer: ["airfryer", "air fryer", "fritadeira sem oleo"],
+    pressao: ["panela de pressao", "pressao"],
+    forno: ["forno", "assado", "assada"],
+    grelha: ["grelha", "grelhado", "grelhada"],
+  };
+  return includesAny(text, methods[method] || []);
+}
+
+function scoreSearchRecipe(rawRecipe, intent) {
+  const recipe = normalizeRecipe(rawRecipe);
+  const haystack = searchHaystack(recipe);
+  if (intent.course && recipe.curso !== intent.course) return null;
+  if (!recipeMatchesProtein(haystack, intent.protein)) return null;
+  if (!recipeMatchesMethod(haystack, intent.method)) return null;
+
+  const name = normalize(recipe.nome);
+  const ingredients = normalize((recipe.ingredientes || []).join(" "));
+  const tags = normalize((recipe.tags || []).join(" "));
+  const tokenHits = intent.tokens.filter((token) => haystack.includes(token));
+  if (intent.tokens.length) {
+    const required = intent.kind === "com_ingredientes"
+      ? 1
+      : Math.max(1, Math.ceil(intent.tokens.length * 0.5));
+    if (tokenHits.length < required) return null;
+  }
+
+  let score = tokenHits.length * 5;
+  score += intent.tokens.filter((token) => name.includes(token)).length * 9;
+  score += intent.tokens.filter((token) => ingredients.includes(token)).length * (intent.kind === "com_ingredientes" ? 8 : 4);
+  score += intent.tokens.filter((token) => tags.includes(token)).length * 4;
+  if (intent.course) score += 18;
+  if (intent.protein) score += 20;
+  if (intent.method) score += 18;
+  if (recipe.fonte?.status === "verified") score += 5;
+  return { recipe, score };
+}
+
+function rankSearchRecipes(recipes, query, kind = "buscar", limit = 8) {
+  const intent = parseSearchIntent(query, kind);
+  return recipes
+    .map((recipe) => scoreSearchRecipe(recipe, intent))
+    .filter(Boolean)
+    .sort((a, b) => b.score - a.score || a.recipe.nome.localeCompare(b.recipe.nome, "pt-BR"))
+    .slice(0, limit)
+    .map(({ recipe }) => recipe);
+}
+
+function localSearch(query, kind = "buscar") {
   const unique = new Map();
   allGeneratedRecipes().forEach((recipe) => unique.set(recipe.id, recipe));
   Object.values(state.liked).map(normalizeRecipe).forEach((recipe) => unique.set(recipe.id, recipe));
-
-  return [...unique.values()]
-    .map((recipe) => {
-      const haystack = searchHaystack(recipe);
-      const name = normalize(recipe.nome);
-      const ingredients = normalize((recipe.ingredientes || []).join(" "));
-      const hits = terms.filter((term) => haystack.includes(term)).length;
-      let score = hits * 3;
-      score += terms.filter((term) => name.includes(term)).length * 4;
-      if (kind === "com_ingredientes") {
-        score += terms.filter((term) => ingredients.includes(term)).length * 5;
-      }
-      return { recipe, score };
-    })
-    .filter(({ score }) => score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 6)
-    .map(({ recipe }) => recipe);
+  return rankSearchRecipes([...unique.values()], query, kind, 6);
 }
 
 function renderSearch() {
@@ -422,9 +525,9 @@ function renderSearch() {
       : "Nada no acervo. Conecte o Worker nos Ajustes para pesquisar na web.";
   } else if (state.search.status === "done") {
     const verified = results.filter((recipe) => normalizeRecipe(recipe).fonte?.status === "verified").length;
-    status.textContent = results.length
+    status.textContent = state.search.message || (results.length
       ? `${results.length} resultado(s), ${verified} com fonte direta verificada.`
-      : "Não encontrei uma receita com fonte confiável. Tente outras palavras.";
+      : "Não encontrei uma receita que corresponda ao pedido em uma fonte confiável. Tente outras palavras.");
   } else if (state.search.status === "error") {
     status.textContent = state.search.message || "Não consegui completar a busca. Os resultados locais continuam disponíveis.";
   } else {
@@ -486,15 +589,20 @@ async function handleSearchResponse(response, instant) {
     state.search.jobId = response.job_id;
     writeStore("search", state.search);
     renderSearch();
-    await pollSearch(response.job_id, instant);
+    await pollSearch(response.job_id, instant, 0, state.search.startedAt);
     return;
   }
 
   const remote = (response.pratos || []).map(normalizeRecipe);
-  finishSearch(mergeRecipes(instant, remote));
+  finishSearch(
+    mergeRecipes(instant, remote, state.search.query, state.search.kind),
+    response.aviso || "",
+  );
 }
 
-async function pollSearch(jobId, instant, attempt = 0) {
+async function pollSearch(jobId, instant, attempt = 0, expectedStartedAt = state.search.startedAt) {
+  if (state.search.startedAt !== expectedStartedAt) return;
+  if (state.search.jobId && state.search.jobId !== jobId) return;
   if (!jobId || attempt > 25) {
     state.search.status = "error";
     state.search.message = "A busca continua demorando. Tente novamente; resultados prontos ficam em cache.";
@@ -506,26 +614,31 @@ async function pollSearch(jobId, instant, attempt = 0) {
   try {
     const response = await workerRequest({ action: "buscar_status", job_id: jobId });
     if (response.status === "processing") {
-      await pollSearch(jobId, instant, attempt + 1);
+      await pollSearch(jobId, instant, attempt + 1, expectedStartedAt);
       return;
     }
+    if (state.search.jobId && state.search.jobId !== jobId) return;
     const remote = (response.pratos || []).map(normalizeRecipe);
-    finishSearch(mergeRecipes(instant, remote));
+    finishSearch(
+      mergeRecipes(instant, remote, state.search.query, state.search.kind),
+      response.aviso || "",
+    );
   } catch {
-    await pollSearch(jobId, instant, attempt + 1);
+    await pollSearch(jobId, instant, attempt + 1, expectedStartedAt);
   }
 }
 
-function finishSearch(results) {
+function finishSearch(results, message = "") {
   state.search.results = results;
   state.search.status = "done";
   state.search.jobId = "";
+  state.search.message = message;
   writeStore("search", state.search);
   rebuildIndex();
   renderSearch();
 }
 
-function mergeRecipes(local, remote) {
+function mergeRecipes(local, remote, query, kind) {
   const merged = new Map();
   [...remote, ...local].forEach((recipe) => {
     const normalized = normalizeRecipe(recipe);
@@ -534,13 +647,13 @@ function mergeRecipes(local, remote) {
       : normalize(normalized.nome);
     if (!merged.has(key)) merged.set(key, normalized);
   });
-  return [...merged.values()].slice(0, 8);
+  return rankSearchRecipes([...merged.values()], query, kind, 8);
 }
 
 function restorePendingSearch() {
   if (state.search.status !== "loading" || !state.search.jobId || !state.settings.worker) return;
   const instant = localSearch(state.search.query, state.search.kind);
-  pollSearch(state.search.jobId, instant);
+  pollSearch(state.search.jobId, instant, 0, state.search.startedAt);
 }
 
 function likedRecipes() {
@@ -720,8 +833,8 @@ async function handlePhotos(files) {
         state.votes[recipe.id] = "like";
         saved += 1;
       }
-    } catch {
-      target.textContent = `Não consegui guardar ${file.name || "uma das fotos"}. Confira os bindings DB e PHOTOS do Worker.`;
+    } catch (error) {
+      target.textContent = `Não consegui analisar ${file.name || "uma das imagens"}: ${error.message || "tente outra imagem"}.`;
     }
   }
   writeStore("liked", state.liked);
@@ -901,7 +1014,12 @@ function bindShell() {
     button.addEventListener("click", () => activateTab(button.dataset.tab));
   });
   bindSearch();
-  $("#photo-input").addEventListener("change", (event) => handlePhotos(event.target.files));
+  ["#camera-input", "#gallery-input"].forEach((selector) => {
+    $(selector).addEventListener("change", async (event) => {
+      await handlePhotos(event.target.files);
+      event.target.value = "";
+    });
+  });
   $("#share-list").addEventListener("click", shareShoppingList);
   $("#clear-list").addEventListener("click", clearShoppingList);
   $("#manual-item-form").addEventListener("submit", async (event) => {
