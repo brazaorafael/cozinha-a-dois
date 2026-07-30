@@ -64,7 +64,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v6-panelinha-r1";
+const SEARCH_CACHE_VERSION = "v6-panelinha-r2";
 // O próprio site do Panelinha usa este índice e esta chave pública somente para leitura.
 const PANELINHA_SEARCH_HOST = "lrcfpi14gd2kqnsap-1.a1.typesense.net";
 const PANELINHA_SEARCH_KEY = "h4mOKanY7wZS479ZsHGu33J4AtEnfFvP";
@@ -1128,11 +1128,12 @@ async function verifyRecipePage(name, rawUrl, env) {
   const canonical = resolveUrl(canonicalRaw, finalUrl) || finalUrl;
   if (!safePublicUrl(canonical, env)) return null;
 
-  const schemaImage = Array.isArray(recipeSchema?.image)
+  const schemaImageValue = Array.isArray(recipeSchema?.image)
     ? recipeSchema.image[0]
-    : typeof recipeSchema?.image === "object"
-      ? recipeSchema.image.url
-      : recipeSchema?.image;
+    : recipeSchema?.image;
+  const schemaImage = typeof schemaImageValue === "object"
+    ? schemaImageValue.url || schemaImageValue.contentUrl
+    : schemaImageValue;
   const imageRaw = schemaImage || metaContent(html, "og:image") || metaContent(html, "twitter:image");
   const image = safeImageUrl(resolveUrl(imageRaw, finalUrl));
   const rating = Number(recipeSchema?.aggregateRating?.ratingValue || 0);
@@ -1174,7 +1175,9 @@ function safeRecipeCandidateUrl(raw, env) {
 }
 
 function extractRecipeSchema(html) {
-  const blocks = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
+  const blocks = [...html.matchAll(
+    /<script[^>]+type=(?:["']application\/ld\+json["']|application\/ld\+json)[^>]*>([\s\S]*?)<\/script>/gi,
+  )];
   for (const match of blocks.slice(0, 20)) {
     try {
       const data = JSON.parse(decodeHtml(match[1].trim()));
@@ -1201,7 +1204,11 @@ function schemaInstructions(value) {
   if (!Array.isArray(value)) return [];
   return value.flatMap((step) => {
     if (typeof step === "string") return [cleanText(step)];
-    if (Array.isArray(step?.itemListElement)) return schemaInstructions(step.itemListElement);
+    if (step?.itemListElement) {
+      return schemaInstructions(Array.isArray(step.itemListElement)
+        ? step.itemListElement
+        : [step.itemListElement]);
+    }
     return step?.text ? [cleanText(step.text)] : [];
   }).filter(Boolean).slice(0, 20);
 }
