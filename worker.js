@@ -14,6 +14,7 @@
  *   DB (Cloudflare D1) e PHOTOS (Cloudflare R2)
  */
 
+import { normalizeVoter, handleCooked, handleUncooked, handlePerfil, handleExport } from "./worker_perfil.js";
 const DEFAULT_MODEL = "gemini-2.5-flash";
 const DEFAULT_SEARCH_MODEL = "gemini-2.5-flash-lite";
 const DEFAULT_RECIPE_HOSTS = [
@@ -112,6 +113,14 @@ export default {
           return respond(await handleBootstrap(env), 200, cors);
         case "voto":
           return respond(await handleVote(body, env), 200, cors);
+        case "cozinhamos":
+          return respond(await handleCooked(body, env), 200, cors);
+        case "descozinhamos":
+          return respond(await handleUncooked(body, env), 200, cors);
+        case "perfil":
+          return respond(await handlePerfil(body, env), 200, cors);
+        case "exportar":
+          return respond(await handleExport(body, env), 200, cors);
         case "buscar":
         case "com_ingredientes":
           return handleSearch(body, env, ctx, cors);
@@ -320,9 +329,9 @@ async function handleVote(body, env) {
 
   if (await ensureDatabase(env)) {
     await env.DB.prepare(`
-      INSERT OR IGNORE INTO taste_events (event_id, recipe_id, vote)
-      VALUES (?, ?, ?)
-    `).bind(eventId, recipe.id, body.voto).run();
+      INSERT OR IGNORE INTO taste_events (event_id, recipe_id, vote, voter_id)
+      VALUES (?, ?, ?, ?)
+    `).bind(eventId, recipe.id, body.voto, normalizeVoter(body.quem)).run();
     if (body.voto === "like") {
       await saveFavorite(env, recipe, body.source_type || "vote", body.photo_key || null);
     } else {
