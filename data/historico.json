@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "bifes-de-contrafile-47bd7deb",
+    "titulo": "Bifes de contrafilé",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "rapido",
+      "para_dois"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "carne-moida-com-cebola-e-pimenta-siria-b33c0200",
+    "titulo": "Carne moída com cebola e pimenta síria",
+    "tags": [
+      "carne_moida",
+      "refogado",
+      "rapido",
+      "rende_sobra"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-picadinha-0b2eb76c",
+    "titulo": "Salada picadinha",
+    "tags": [
+      "salada",
+      "vegetais",
+      "rapido",
+      "leve"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "pudim-rapido-de-tapioca-484a6aab",
+    "titulo": "Pudim rápido de tapioca",
+    "tags": [
+      "sobremesa",
+      "rapido",
+      "leve",
+      "doce"
+    ],
+    "data": "29/07/2026",
+    "fonte_status": "verified"
+  }
+]

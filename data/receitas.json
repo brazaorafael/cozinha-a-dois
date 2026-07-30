@@ -1,140 +1,175 @@
 {
   "versao_schema": 2,
-  "gerado_em": "exemplo",
+  "gerado_em": "2026-07-29T22:29:13-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "exemplo",
-    "dia_semana": "quarta-feira",
+    "data": "29/07/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "id": "picadinho-de-carne-com-abobora-demo",
-        "nome": "Picadinho de carne com abóbora",
+        "nome": "Bifes de contrafilé",
         "curso": "principal",
-        "tempo": "40 min",
-        "porque": "Proteico, feito numa panela só e rende bem para o almoço.",
-        "tags": ["carne_vermelha", "uma_panela", "rende_sobra"],
+        "tempo": "10-15 minutos",
+        "porque": "Carne vermelha preferida, grelhado (sem fritura), super rápido e fácil, ideal para um jantar a dois. Foco em proteína e preparo prático.",
+        "tags": [
+          "carne_vermelha",
+          "grelhado",
+          "rapido",
+          "para_dois"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 bifes de contrafilé",
+          "1 colher (chá) de azeite",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto"
+        ],
+        "preparo": [
+          "Retire os bifes da geladeira e deixe em temperatura ambiente por alguns minutos antes de cozinhar.",
+          "Tempere os bifes com sal e pimenta-do-reino moída na hora a gosto.",
+          "Leve uma frigideira grande ao fogo alto. Quando estiver bem aquecida, regue com o azeite.",
+          "Coloque os bifes na frigideira e deixe dourar por cerca de 2 minutos de cada lado, sem mexer, até que se soltem do fundo.",
+          "Desligue o fogo e sirva os bifes imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/bifes-de-contrafile",
+          "title": "Bifes de contrafilÃ© - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 0.42,
+          "checked_at": "2026-07-30T01:30:15+00:00"
+        },
+        "imagem": {
+          "kind": "none",
+          "url": "",
+          "alt": "Bifes de contrafilé"
+        },
+        "id": "bifes-de-contrafile-47bd7deb"
+      },
+      {
+        "nome": "Carne moída com cebola e pimenta síria",
+        "curso": "principal",
+        "tempo": "20-25 minutos",
+        "porque": "Carne vermelha, refogada (sem fritura), rápida, saborosa e rende bem para sobras, garantindo uma refeição equilibrada com proteína.",
+        "tags": [
+          "carne_moida",
+          "refogado",
+          "rapido",
+          "rende_sobra"
+        ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de coxão mole em cubos",
-          "400 g de abóbora cabotiá",
-          "1 cebola",
-          "2 dentes de alho",
+          "500 g de patinho moído",
+          "½ cebola",
           "2 colheres (sopa) de azeite",
-          "Sal, pimenta e cheiro-verde"
+          "¼ de colher (chá) de pimenta síria",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Seque e tempere a carne com sal e pimenta.",
-          "Aqueça uma panela larga com o azeite e doure a carne em etapas.",
-          "Refogue a cebola e o alho na mesma panela.",
-          "Junte a abóbora e um pouco de água, tampe e cozinhe até ficar macia.",
-          "Volte a carne para a panela, ajuste o tempero e finalize com cheiro-verde."
+          "Retire a carne moída da geladeira e deixe em temperatura ambiente enquanto prepara os outros ingredientes.",
+          "Descasque e corte a cebola em meias-luas finas, de aproximadamente 0,5 cm.",
+          "Leve uma frigideira grande ao fogo médio. Regue com 1 colher (sopa) de azeite e doure metade da carne moída em montinhos por 1 minuto de cada lado. Transfira para uma tigela e repita com o restante da carne.",
+          "Na mesma frigideira, mantenha em fogo médio, adicione a cebola e tempere com uma pitada de sal. Refogue por cerca de 2 minutos, até murchar.",
+          "Volte toda a carne dourada para a frigideira, adicione a pimenta síria e misture bem.",
+          "Sirva quente, acompanhada de arroz e uma salada."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "checked_at": "exemplo"
+          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-cebola-e-pimenta-siria",
+          "checked_at": "2026-07-30T01:30:15+00:00"
         },
         "imagem": {
           "kind": "none",
           "url": "",
-          "alt": "Picadinho de carne com abóbora"
-        }
-      },
-      {
-        "id": "frango-crocante-airfryer-demo",
-        "nome": "Frango crocante na airfryer",
-        "curso": "principal",
-        "tempo": "35 min",
-        "porque": "Prático, rico em proteína e sem imersão em óleo.",
-        "tags": ["frango", "airfryer", "rapido"],
-        "rende_sobra": true,
-        "ingredientes": [
-          "600 g de sobrecoxa desossada",
-          "1 colher (chá) de páprica",
-          "1 colher (sopa) de mostarda",
-          "1 colher (sopa) de azeite",
-          "Sal e pimenta"
-        ],
-        "preparo": [
-          "Corte o frango em pedaços grandes e seque bem.",
-          "Tempere com páprica, mostarda, azeite, sal e pimenta.",
-          "Preaqueça a airfryer a 200 °C.",
-          "Asse por 20 a 24 minutos, virando na metade do tempo.",
-          "Descanse por 3 minutos antes de servir."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "checked_at": "exemplo"
+          "alt": "Carne moída com cebola e pimenta síria"
         },
-        "imagem": {
-          "kind": "none",
-          "url": "",
-          "alt": "Frango crocante na airfryer"
-        }
+        "id": "carne-moida-com-cebola-e-pimenta-siria-b33c0200"
       },
       {
-        "id": "salada-crocante-de-repolho-demo",
-        "nome": "Salada crocante de repolho e cenoura",
+        "nome": "Salada picadinha",
         "curso": "entrada",
-        "tempo": "15 min",
-        "porque": "Fresca, rápida e equilibra os pratos principais.",
-        "tags": ["salada", "rapido", "vegetariano"],
+        "tempo": "15 minutos",
+        "porque": "Entrada leve e equilibrada com vegetais, rápida e colorida, complementando bem os pratos principais.",
+        "tags": [
+          "salada",
+          "vegetais",
+          "rapido",
+          "leve"
+        ],
         "rende_sobra": false,
         "ingredientes": [
-          "1/4 de repolho roxo",
+          "1 maço de alface-americana",
+          "½ repolho roxo (cerca de 3 xícaras [chá])",
           "1 cenoura",
-          "1/2 limão",
-          "2 colheres (sopa) de azeite",
-          "Sal e gergelim"
+          "1 pepino",
+          "2 colheres (sopa) de açúcar mascavo (para o molho)",
+          "3 colheres (sopa) de shoyu (molho de soja) (para o molho)",
+          "2 colheres (sopa) de vinagre de arroz (para o molho)",
+          "6 colheres (sopa) de óleo (para o molho)"
         ],
         "preparo": [
-          "Fatie o repolho bem fino.",
-          "Rale a cenoura e misture aos poucos.",
-          "Tempere com limão, azeite e sal.",
-          "Finalize com gergelim e sirva."
+          "Lave e seque bem as folhas de alface-americana, o repolho roxo, a cenoura e o pepino.",
+          "Pique a alface, fatie o repolho finamente, rale a cenoura e corte o pepino em cubos pequenos.",
+          "Em uma tigela pequena, prepare o molho misturando o açúcar mascavo, o shoyu, o vinagre de arroz e o óleo.",
+          "Combine todos os vegetais picados em uma saladeira.",
+          "Regue a salada com o molho apenas na hora de servir e misture delicadamente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "checked_at": "exemplo"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/salada-picadinha",
+          "title": "Salada picadinha - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-07-30T01:30:16+00:00"
         },
         "imagem": {
           "kind": "none",
           "url": "",
-          "alt": "Salada crocante de repolho e cenoura"
-        }
+          "alt": "Salada picadinha"
+        },
+        "id": "salada-picadinha-0b2eb76c"
       },
       {
-        "id": "banana-assada-com-canela-demo",
-        "nome": "Banana assada com canela",
+        "nome": "Pudim rápido de tapioca",
         "curso": "sobremesa",
-        "tempo": "18 min",
-        "porque": "Doce simples, quente e com poucos ingredientes.",
-        "tags": ["sobremesa", "forno", "rapido"],
-        "rende_sobra": false,
+        "tempo": "20 minutos (para firmar na geladeira)",
+        "porque": "Sobremesa rápida, fácil, leve e versátil, ideal para finalizar o jantar sem complicação e pode render para o almoço do dia seguinte.",
+        "tags": [
+          "sobremesa",
+          "rapido",
+          "leve",
+          "doce"
+        ],
+        "rende_sobra": true,
         "ingredientes": [
-          "2 bananas maduras",
-          "1 colher (chá) de canela",
-          "1 colher (chá) de mel",
-          "2 colheres (sopa) de iogurte natural"
+          "1 xícara (chá) de leite",
+          "2 colheres (sopa) de tapioca granulada",
+          "1 colher (sopa) de açúcar",
+          "Doce de abóbora, goiabada ou frutas frescas para servir (opcional)"
         ],
         "preparo": [
-          "Aqueça o forno a 200 °C.",
-          "Abra as bananas ao meio e acomode numa assadeira pequena.",
-          "Polvilhe canela e regue com mel.",
-          "Asse por 12 minutos e sirva com iogurte."
+          "Em uma panela, misture o leite e o açúcar. Leve ao fogo médio.",
+          "Assim que as primeiras bolhas começarem a subir, diminua o fogo e adicione a tapioca granulada.",
+          "Mexa continuamente por cerca de 2 minutos, até que o creme engrosse e a tapioca fique transparente.",
+          "Transfira o creme ainda quente para 2 potinhos individuais.",
+          "Leve os potinhos à geladeira por aproximadamente 20 minutos para que o pudim firme.",
+          "Sirva o pudim coberto com doce de abóbora, goiabada ou frutas frescas, se desejar."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "checked_at": "exemplo"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+          "title": "Pudim rÃ¡pido de tapioca - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-07-30T01:30:16+00:00"
         },
         "imagem": {
           "kind": "none",
           "url": "",
-          "alt": "Banana assada com canela"
-        }
+          "alt": "Pudim rápido de tapioca"
+        },
+        "id": "pudim-rapido-de-tapioca-484a6aab"
       }
     ]
   },
@@ -151,12 +186,33 @@
             "curso": "principal",
             "tempo": "45 min",
             "porque": "Carne vermelha, preparo simples e boa sobra.",
-            "tags": ["carne_vermelha", "forno"],
+            "tags": [
+              "carne_vermelha",
+              "forno"
+            ],
             "rende_sobra": true,
-            "ingredientes": ["500 g de carne moída", "1 ovo", "1/2 xícara de farinha de rosca", "2 xícaras de molho de tomate"],
-            "preparo": ["Misture a carne com ovo e farinha.", "Modele as almôndegas.", "Asse até dourar.", "Junte ao molho quente e cozinhe por 10 minutos."],
-            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
-            "imagem": {"kind": "none", "url": "", "alt": "Almôndegas assadas com molho de tomate"}
+            "ingredientes": [
+              "500 g de carne moída",
+              "1 ovo",
+              "1/2 xícara de farinha de rosca",
+              "2 xícaras de molho de tomate"
+            ],
+            "preparo": [
+              "Misture a carne com ovo e farinha.",
+              "Modele as almôndegas.",
+              "Asse até dourar.",
+              "Junte ao molho quente e cozinhe por 10 minutos."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "checked_at": "exemplo"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Almôndegas assadas com molho de tomate"
+            }
           }
         ]
       },
@@ -169,12 +225,33 @@
             "curso": "principal",
             "tempo": "45 min",
             "porque": "Refeição completa feita na assadeira.",
-            "tags": ["porco", "forno"],
+            "tags": [
+              "porco",
+              "forno"
+            ],
             "rende_sobra": true,
-            "ingredientes": ["500 g de lombo suíno", "400 g de batatas", "2 colheres de mostarda", "Alecrim e sal"],
-            "preparo": ["Tempere o lombo.", "Corte e tempere as batatas.", "Asse tudo até dourar.", "Descanse a carne e fatie."],
-            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
-            "imagem": {"kind": "none", "url": "", "alt": "Lombo suíno com mostarda e batatas"}
+            "ingredientes": [
+              "500 g de lombo suíno",
+              "400 g de batatas",
+              "2 colheres de mostarda",
+              "Alecrim e sal"
+            ],
+            "preparo": [
+              "Tempere o lombo.",
+              "Corte e tempere as batatas.",
+              "Asse tudo até dourar.",
+              "Descanse a carne e fatie."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "checked_at": "exemplo"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Lombo suíno com mostarda e batatas"
+            }
           }
         ]
       },
@@ -187,12 +264,34 @@
             "curso": "principal",
             "tempo": "30 min",
             "porque": "Opção rápida, proteica e boa para aproveitar vegetais.",
-            "tags": ["ovos", "forno", "rapido"],
+            "tags": [
+              "ovos",
+              "forno",
+              "rapido"
+            ],
             "rende_sobra": false,
-            "ingredientes": ["6 ovos", "1 abobrinha pequena", "1 tomate", "100 g de queijo minas"],
-            "preparo": ["Bata os ovos.", "Misture os legumes e o queijo.", "Tempere.", "Asse até firmar e dourar."],
-            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
-            "imagem": {"kind": "none", "url": "", "alt": "Omelete de forno com legumes"}
+            "ingredientes": [
+              "6 ovos",
+              "1 abobrinha pequena",
+              "1 tomate",
+              "100 g de queijo minas"
+            ],
+            "preparo": [
+              "Bata os ovos.",
+              "Misture os legumes e o queijo.",
+              "Tempere.",
+              "Asse até firmar e dourar."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "checked_at": "exemplo"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Omelete de forno com legumes"
+            }
           }
         ]
       },
@@ -205,12 +304,34 @@
             "curso": "principal",
             "tempo": "35 min",
             "porque": "Clássico proteico e fácil para o meio da semana.",
-            "tags": ["carne_vermelha", "grelhado", "rapido"],
+            "tags": [
+              "carne_vermelha",
+              "grelhado",
+              "rapido"
+            ],
             "rende_sobra": true,
-            "ingredientes": ["4 bifes de alcatra", "2 cebolas", "1 xícara de arroz", "250 g de vagem"],
-            "preparo": ["Cozinhe o arroz.", "Cozinhe a vagem rapidamente.", "Grelhe os bifes.", "Doure a cebola na mesma frigideira e sirva."],
-            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
-            "imagem": {"kind": "none", "url": "", "alt": "Bife acebolado com arroz e vagem"}
+            "ingredientes": [
+              "4 bifes de alcatra",
+              "2 cebolas",
+              "1 xícara de arroz",
+              "250 g de vagem"
+            ],
+            "preparo": [
+              "Cozinhe o arroz.",
+              "Cozinhe a vagem rapidamente.",
+              "Grelhe os bifes.",
+              "Doure a cebola na mesma frigideira e sirva."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "checked_at": "exemplo"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Bife acebolado com arroz e vagem"
+            }
           }
         ]
       },
@@ -223,12 +344,33 @@
             "curso": "principal",
             "tempo": "40 min",
             "porque": "Confortável para a sexta e sem técnica complicada.",
-            "tags": ["carne_vermelha", "massa"],
+            "tags": [
+              "carne_vermelha",
+              "massa"
+            ],
             "rende_sobra": true,
-            "ingredientes": ["300 g de macarrão", "400 g de carne moída", "2 xícaras de molho de tomate", "1 cebola"],
-            "preparo": ["Cozinhe o macarrão.", "Doure a carne.", "Refogue a cebola.", "Junte o molho e sirva com a massa."],
-            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
-            "imagem": {"kind": "none", "url": "", "alt": "Macarrão com ragu rápido de carne"}
+            "ingredientes": [
+              "300 g de macarrão",
+              "400 g de carne moída",
+              "2 xícaras de molho de tomate",
+              "1 cebola"
+            ],
+            "preparo": [
+              "Cozinhe o macarrão.",
+              "Doure a carne.",
+              "Refogue a cebola.",
+              "Junte o molho e sirva com a massa."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "checked_at": "exemplo"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Macarrão com ragu rápido de carne"
+            }
           }
         ]
       },
@@ -241,12 +383,35 @@
             "curso": "principal",
             "tempo": "45 min",
             "porque": "Tem clima de fim de semana sem depender de fritura.",
-            "tags": ["carne_vermelha", "grelhado", "forno"],
+            "tags": [
+              "carne_vermelha",
+              "grelhado",
+              "forno"
+            ],
             "rende_sobra": false,
-            "ingredientes": ["500 g de carne moída", "2 pães", "1 abobrinha", "1 cenoura", "Sal e pimenta"],
-            "preparo": ["Modele os hambúrgueres.", "Corte e tempere os legumes.", "Asse os legumes.", "Grelhe a carne e monte os sanduíches."],
-            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
-            "imagem": {"kind": "none", "url": "", "alt": "Hambúrguer caseiro com legumes assados"}
+            "ingredientes": [
+              "500 g de carne moída",
+              "2 pães",
+              "1 abobrinha",
+              "1 cenoura",
+              "Sal e pimenta"
+            ],
+            "preparo": [
+              "Modele os hambúrgueres.",
+              "Corte e tempere os legumes.",
+              "Asse os legumes.",
+              "Grelhe a carne e monte os sanduíches."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "checked_at": "exemplo"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Hambúrguer caseiro com legumes assados"
+            }
           }
         ]
       },
@@ -259,12 +424,34 @@
             "curso": "principal",
             "tempo": "45 min",
             "porque": "Domingo simples, aromático e com boa sobra.",
-            "tags": ["frango", "forno", "rende_sobra"],
+            "tags": [
+              "frango",
+              "forno",
+              "rende_sobra"
+            ],
             "rende_sobra": true,
-            "ingredientes": ["700 g de sobrecoxa", "2 limões", "500 g de batatas", "Alecrim e alho"],
-            "preparo": ["Tempere o frango.", "Corte as batatas.", "Monte a assadeira.", "Asse até dourar e cozinhar por completo."],
-            "fonte": {"status": "unverified", "url": "", "checked_at": "exemplo"},
-            "imagem": {"kind": "none", "url": "", "alt": "Frango assado com limão e ervas"}
+            "ingredientes": [
+              "700 g de sobrecoxa",
+              "2 limões",
+              "500 g de batatas",
+              "Alecrim e alho"
+            ],
+            "preparo": [
+              "Tempere o frango.",
+              "Corte as batatas.",
+              "Monte a assadeira.",
+              "Asse até dourar e cozinhar por completo."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "checked_at": "exemplo"
+            },
+            "imagem": {
+              "kind": "none",
+              "url": "",
+              "alt": "Frango assado com limão e ervas"
+            }
           }
         ]
       }
