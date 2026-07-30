@@ -766,5 +766,53 @@
     ],
     "data": "29/07/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "abobrinha-recheada-com-carne-moida-03985fbb",
+    "titulo": "Abobrinha Recheada com Carne Moída",
+    "tags": [
+      "carne_vermelha",
+      "assado",
+      "vegetais",
+      "facil"
+    ],
+    "data": "30/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "picadinho-oriental-com-lombo-e-abacaxi-baec7995",
+    "titulo": "Picadinho Oriental com Lombo e Abacaxi",
+    "tags": [
+      "carne_suina",
+      "refogado",
+      "oriental",
+      "rapido"
+    ],
+    "data": "30/07/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "guacamole-528e1303",
+    "titulo": "Guacamole",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "fresco",
+      "entrada"
+    ],
+    "data": "30/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-maracuja-faf326c4",
+    "titulo": "Mousse de Maracujá",
+    "tags": [
+      "doce",
+      "gelado",
+      "fruta",
+      "facil"
+    ],
+    "data": "30/07/2026",
+    "fonte_status": "unverified"
   }
 ]

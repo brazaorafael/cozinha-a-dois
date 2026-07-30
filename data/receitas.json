@@ -1,189 +1,190 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-07-29T23:03:05-03:00",
+  "gerado_em": "2026-07-30T09:28:51-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "29/07/2026",
-    "dia_semana": "quarta",
+    "data": "30/07/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Almôndegas Assadas",
+        "nome": "Abobrinha Recheada com Carne Moída",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma opção deliciosa de carne vermelha (com um toque de suína) que é assada no forno, evitando fritura. O tempo de preparo é adequado e a receita rende uma boa quantidade, ideal para o jantar do casal e com sobras para o almoço de uma pessoa.",
+        "tempo": "45min",
+        "porque": "Uma refeição prática, saudável e saborosa, onde a versátil abobrinha é recheada e assada no forno, garantindo um bom equilíbrio de proteína e vegetais. Rende para 4 porções, ideal para o casal e sobra para uma pessoa.",
         "tags": [
           "carne_vermelha",
           "assado",
-          "pratico",
-          "proteico"
+          "vegetais",
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "200g de patinho moído",
-          "200g de pernil suíno moído",
-          "1 fatia de pão de forma sem casca",
-          "¼ xícara (chá) de leite",
-          "1 dente de alho",
-          "1 ovo",
-          "¼ xícara (chá) de queijo parmesão ralado",
-          "Salsinha fresca picada a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Azeite para untar"
+          "2 abobrinhas italianas grandes",
+          "Sal, pimenta-do-reino e manjericão picado a gosto",
+          "1 colher (sopa) de óleo",
+          "1 dente de alho picado",
+          "1/2 cebola picada",
+          "300g de carne moída",
+          "1 tomate sem sementes em cubos",
+          "1 xícara (chá) de queijo muçarela ralado"
         ],
         "preparo": [
-          "Preaqueça o forno a 200 ºC e unte uma assadeira grande com azeite.",
-          "Em uma tigela, misture o miolo do pão com o leite. Descasque e pique o alho. Pique a salsinha.",
-          "Adicione as carnes moídas, o alho picado, o ovo, sal e pimenta-do-reino à tigela com o pão umedecido. Misture bem com as mãos até ficar homogêneo.",
-          "Incorpore o queijo parmesão ralado e a salsinha picada à massa.",
-          "Unte as mãos com azeite e modele as almôndegas em bolinhas do tamanho de uma bola de pingue-pongue.",
-          "Distribua as almôndegas na assadeira, deixando espaço entre elas, e leve ao forno preaquecido por 15 minutos ou até dourarem levemente.",
-          "Sirva as almôndegas assadas com um molho de tomate de sua preferência e acompanhamentos."
+          "Lave as abobrinhas, faça furos na casca com um palito e cozinhe inteiras em água fervente com sal por 3 minutos. Escorra e deixe amornar.",
+          "Corte as abobrinhas ao meio no sentido do comprimento e, com uma colher, retire o miolo com cuidado. Reserve.",
+          "Aqueça uma panela com o óleo em fogo médio, e frite o alho e a cebola por 2 minutos.",
+          "Adicione a carne moída e frite por 5 minutos ou até secar toda a água. Desligue.",
+          "Acrescente o miolo da abobrinha reservado, o tomate, tempere com sal, pimenta, manjericão e misture.",
+          "Recheie as abobrinhas com o refogado. Coloque em uma fôrma, polvilhe com a muçarela e leve ao forno alto, preaquecido, por 5 minutos ou até gratinar. Sirva em seguida."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/almondegas-assadas",
-          "title": "Almôndegas assadas - Panelinha",
-          "domain": "panelinha.com.br",
+          "url": "https://guiadacozinha.com.br/receitas/abobrinha-recheada-com-carne-moida/",
+          "title": "Abobrinha recheada com carne moída",
+          "domain": "guiadacozinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-07-30T01:54:37+00:00"
+          "checked_at": "2026-07-30T12:30:39+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4130-almondegas-assadas.webp",
-          "alt": "Almôndegas Assadas"
+          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/abobrinha-recheada-carne-moida-768x619.jpg",
+          "alt": "Abobrinha Recheada com Carne Moída"
         },
-        "id": "almondegas-assadas-a212575e"
+        "id": "abobrinha-recheada-com-carne-moida-03985fbb"
       },
       {
-        "nome": "Estrogonofe para Dois",
+        "nome": "Picadinho Oriental com Lombo e Abacaxi",
         "curso": "principal",
-        "tempo": "35 minutos",
-        "porque": "Um clássico rápido e prático, perfeito para um jantar a dois. Utiliza carne vermelha (filé mignon ou alcatra) e pode ser preparado em cerca de 35 minutos. Embora a receita seja para duas porções, pode haver uma pequena sobra dependendo do apetite, ou pode ser facilmente ajustada para render um pouco mais.",
+        "tempo": "40min",
+        "porque": "Uma combinação surpreendente de sabores orientais e brasileiros, com cozimento rápido, ideal para variar o cardápio com carne de porco e frutas.",
         "tags": [
-          "carne_vermelha",
+          "carne_suina",
           "refogado",
-          "rapido",
-          "cremoso"
+          "oriental",
+          "rapido"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "2 bifes de filé mignon ou alcatra (cerca de 200g)",
-          "1 cebola pequena",
-          "1 dente de alho",
-          "1 xícara (chá) de creme de leite fresco",
-          "1 colher (sopa) de extrato de tomate",
-          "1 colher (sopa) de ketchup",
-          "1 colher (sopa) de molho inglês",
-          "1 colher (sopa) de conhaque (opcional)",
-          "1½ colher (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "100g de cogumelos-de-paris frescos (opcional)"
+          "400 g de lombo de porco em peça",
+          "½ abacaxi cortado em cubos (cerca de 2 xícaras (chá))",
+          "½ maço de couve (7 folhas)",
+          "1 pimentão vermelho",
+          "1 cebola",
+          "2 dentes de alho",
+          "2 pimentas dedo-de-moça",
+          "1 colher (sopa) de gengibre ralado",
+          "½ xícara (chá) de shoyu (molho de soja)",
+          "½ xícara (chá) de água",
+          "2 colheres (sopa) de amido de milho",
+          "2 colheres (sopa) de óleo",
+          "óleo de gergelim torrado a gosto (opcional)",
+          "amendoim torrado picado a gosto para servir"
         ],
         "preparo": [
-          "Corte a carne em tirinhas de aproximadamente 7 cm x 1 cm. Pique a cebola e o alho. Fatie os cogumelos, se usar.",
-          "Aqueça ½ colher (sopa) de azeite em uma panela média em fogo médio. Doure as tirinhas de carne em levas para não soltar água, tempere com sal e pimenta, e reserve.",
-          "Na mesma panela, adicione o restante do azeite e refogue a cebola até murchar (cerca de 3 minutos). Junte o alho e refogue por mais 1 minuto.",
-          "Acrescente o extrato de tomate e o ketchup, misturando bem.",
-          "Retorne a carne à panela, adicione o molho inglês e o conhaque (se usar). Junte os cogumelos e misture delicadamente.",
-          "Regue com o creme de leite, misture e cozinhe em fogo médio por cerca de 5 minutos, mexendo ocasionalmente, até o molho engrossar.",
-          "Desligue o fogo, prove e ajuste o sal. Sirva imediatamente com arroz branco e batata palha."
+          "Retire o lombo da geladeira para que atinja a temperatura ambiente. Lave e pique a couve em quadrados, o pimentão em cubos de 2 cm, as pimentas em rodelas finas, a cebola em cubos médios, o alho em fatias finas e o abacaxi em cubos de 2 cm. Corte o lombo em cubos médios de 2 cm. [cite: 10, previous search]",
+          "Em uma jarra, misture a água, o shoyu e o amido de milho até dissolver. [cite: 10, previous search]",
+          "Aqueça uma wok ou panela grande em fogo médio com 1 colher (sopa) de óleo. Doure o lombo em levas, transferindo para uma tigela. [cite: 10, previous search]",
+          "Adicione o óleo restante na wok e refogue a cebola por 2 minutos. Junte o alho, gengibre e pimentas, refogando por mais 1 minuto. [cite: 10, previous search]",
+          "Acrescente o pimentão e refogue por 3 minutos. Volte o lombo para a panela, adicione a couve e o abacaxi. [cite: 10, previous search]",
+          "Despeje a mistura de shoyu e cozinhe, mexendo, até o molho engrossar. Finalize com óleo de gergelim (opcional) e amendoim picado. [cite: 10, previous search]"
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/estrogonofe-para-dois",
-          "title": "Estrogonofe para dois - Panelinha",
+          "url": "https://panelinha.com.br/receita/picadinho-oriental-com-lombo-e-abacaxi",
+          "title": "Picadinho oriental com lombo e abacaxi - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-07-30T01:54:37+00:00"
+          "checked_at": "2026-07-30T12:30:40+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-3556-estrogonofe-para-dois.webp",
-          "alt": "Estrogonofe para Dois"
+          "url": "https://i.panelinha.com.br/i1/bk-9067-img-8170.webp",
+          "alt": "Picadinho Oriental com Lombo e Abacaxi"
         },
-        "id": "estrogonofe-para-dois-eff9cde3"
+        "id": "picadinho-oriental-com-lombo-e-abacaxi-baec7995"
       },
       {
-        "nome": "Homus a Jato",
+        "nome": "Guacamole",
         "curso": "entrada",
         "tempo": "10 minutos",
-        "porque": "Esta entrada é super rápida e prática, ideal para abrir o apetite sem pesar. É rica em proteína vegetal (grão-de-bico) e pode ser preparada em poucos minutos, utilizando ingredientes acessíveis. Perfeita para um casal e rende bem para sobras.",
+        "porque": "Um aperitivo mexicano clássico, fácil e rápido de preparar, perfeito para abrir o apetite com sabores frescos e vibrantes.",
         "tags": [
           "vegetariano",
           "rapido",
-          "saudavel",
-          "pasta"
+          "fresco",
+          "entrada"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 lata de grão-de-bico cozido (240g drenado)",
-          "3 colheres (sopa) de tahine (pasta de gergelim)",
-          "1 dente de alho descascado",
-          "Caldo de ½ limão",
-          "Água filtrada (para dar ponto)",
-          "Sal a gosto"
+          "½ abacate (se for grande) ou 1 inteiro se for pequeno (sempre maduro)",
+          "½ tomate maduro",
+          "½ cebola",
+          "caldo de meio limão",
+          "2 colheres (sopa) azeite",
+          "1 colher rasa (sopa) de coentro picado",
+          "1 colher (café) de pimenta dedo de moça sem sementes",
+          "sal e pimenta do reino a gosto"
         ],
         "preparo": [
-          "Escorra o grão-de-bico cozido da lata e reserve um pouco da água do cozimento.",
-          "No liquidificador ou processador, coloque o grão-de-bico, o tahine, o alho e o caldo de limão.",
-          "Bata bem, adicionando a água reservada aos poucos, até obter uma pasta lisa e cremosa.",
-          "Tempere com sal a gosto e bata novamente para incorporar.",
-          "Transfira para uma tigela, regue com um fio de azeite e sirva com pães ou torradas."
+          "Retire a polpa do abacate e coloque-a numa tigela amassando grosseiramente até formar um purê rústico.",
+          "Corte o tomate (sem as sementes) e a cebola em cubinhos pequenos. Pique o coentro.",
+          "Junte o tomate, a cebola, o coentro, o caldo de limão, o azeite e a pimenta ao abacate amassado.",
+          "Tempere com sal e pimenta do reino a gosto e misture bem.",
+          "Sirva imediatamente com nachos ou torradas."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/homus-a-jato",
-          "title": "Homus a jato - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-07-30T01:54:38+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.tudogostoso.com.br/receita/16281-guacamole-mexicano.html",
+          "checked_at": "2026-07-30T12:30:42+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-3526-blog-homus-a-jato.webp",
-          "alt": "Homus a Jato"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36498696/pexels-photo-36498696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de três tacos de frango com guacamole, ervas e cebola em um restaurante.",
+          "bank_id": "36498696",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Guacamole"
         },
-        "id": "homus-a-jato-fda240af"
+        "id": "guacamole-528e1303"
       },
       {
-        "nome": "Mousse de Limão Rápida",
+        "nome": "Mousse de Maracujá",
         "curso": "sobremesa",
-        "tempo": "10 minutos (+ tempo de geladeira)",
-        "porque": "Uma sobremesa clássica, leve e refrescante, perfeita para finalizar o jantar. É incrivelmente fácil e rápida de preparar, levando apenas alguns minutos no liquidificador antes de ir para a geladeira. Rende bem para o casal e pode ter sobras.",
+        "tempo": "10 minutos de preparo + 4-6 horas de gel",
+        "porque": "Uma sobremesa refrescante e deliciosa, perfeita para o verão e as festas de fim de ano, com apenas 4 ingredientes, prática e irresistível.",
         "tags": [
           "doce",
-          "citrico",
-          "rapido",
-          "gelado"
+          "gelado",
+          "fruta",
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 lata de leite condensado (395g)",
-          "1 lata de creme de leite (200g)",
-          "½ copo (americano) de suco puro de limão (cerca de 100ml)",
-          "Raspas de limão a gosto (para decorar)"
+          "1 xícara de chá de suco de maracujá concentrado",
+          "1 lata de leite condensado",
+          "1 caixa de creme de leite",
+          "1 envelope de gelatina em pó incolor"
         ],
         "preparo": [
-          "No liquidificador, adicione o leite condensado e o creme de leite. Bata por cerca de 3 minutos.",
-          "Com o liquidificador ainda ligado, adicione o suco de limão aos poucos, batendo até a mistura encorpar e ficar cremosa.",
-          "Despeje a mousse em um refratário ou taças individuais.",
-          "Leve à geladeira por, no mínimo, 2 horas, ou até que esteja firme e bem gelada.",
-          "Antes de servir, decore com raspas de limão a gosto."
+          "Bata o suco de maracujá com o leite condensado e o creme de leite no liquidificador até obter um creme aerado.",
+          "Adicione a gelatina preparada conforme indicações do fabricante e bata por 2 minutos.",
+          "Distribua em taças individuais e leve à geladeira por 4 a 6 horas ou até ficar consistente."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.tudogostoso.com.br/receita/155693-mousse-de-limao-rapido.html",
-          "title": "Mousse de limão rápido",
-          "domain": "tudogostoso.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-07-30T01:54:38+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://receitas.globo.com/ana-maria-braga/receitas/mousse-de-maracuja-facil-de-apenas-4-ingredientes-ana-maria-braga-receitas.ghtml",
+          "checked_at": "2026-07-30T12:30:43+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://static.itdg.com.br/images/1200-675/c39ddfeffc1bc601d1d77e585233f375/189080-160087-original.jpg.jpg",
-          "alt": "Mousse de Limão Rápida"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/15792481/pexels-photo-15792481.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de uma mão despejando molho de maracujá sobre panna cotta em uma mesa rústica.",
+          "bank_id": "15792481",
+          "credit": "Eric Melo",
+          "query": "Mousse de Maracujá"
         },
-        "id": "mousse-de-limao-rapida-f60f75bf"
+        "id": "mousse-de-maracuja-faf326c4"
       }
     ]
   },
