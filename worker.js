@@ -180,29 +180,41 @@ function requireSecret(env, key) {
 
 async function ensureDatabase(env) {
   if (!env.DB) return false;
-  await env.DB.exec(`
-    CREATE TABLE IF NOT EXISTS favorites (
-      recipe_id TEXT PRIMARY KEY,
-      recipe_json TEXT NOT NULL,
-      source_type TEXT NOT NULL DEFAULT 'vote',
-      photo_key TEXT,
-      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
-      updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
-    );
-    CREATE TABLE IF NOT EXISTS taste_events (
-      event_id TEXT PRIMARY KEY,
-      recipe_id TEXT NOT NULL,
-      vote TEXT NOT NULL,
-      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
-    );
-    CREATE TABLE IF NOT EXISTS app_state (
-      state_key TEXT PRIMARY KEY,
-      state_json TEXT NOT NULL,
-      updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
-    );
-    CREATE INDEX IF NOT EXISTS idx_favorites_updated_at ON favorites(updated_at);
-    CREATE INDEX IF NOT EXISTS idx_taste_events_recipe ON taste_events(recipe_id);
-  `);
+  await env.DB.batch([
+    env.DB.prepare(`
+      CREATE TABLE IF NOT EXISTS favorites (
+        recipe_id TEXT PRIMARY KEY,
+        recipe_json TEXT NOT NULL,
+        source_type TEXT NOT NULL DEFAULT 'vote',
+        photo_key TEXT,
+        created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+      )
+    `),
+    env.DB.prepare(`
+      CREATE TABLE IF NOT EXISTS taste_events (
+        event_id TEXT PRIMARY KEY,
+        recipe_id TEXT NOT NULL,
+        vote TEXT NOT NULL,
+        created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+      )
+    `),
+    env.DB.prepare(`
+      CREATE TABLE IF NOT EXISTS app_state (
+        state_key TEXT PRIMARY KEY,
+        state_json TEXT NOT NULL,
+        updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+      )
+    `),
+    env.DB.prepare(`
+      CREATE INDEX IF NOT EXISTS idx_favorites_updated_at
+      ON favorites(updated_at)
+    `),
+    env.DB.prepare(`
+      CREATE INDEX IF NOT EXISTS idx_taste_events_recipe
+      ON taste_events(recipe_id)
+    `),
+  ]);
   return true;
 }
 
