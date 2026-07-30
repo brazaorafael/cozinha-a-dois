@@ -1,0 +1,126 @@
+name: Backup do banco
+
+# Guarda uma cópia do Cloudflare D1 no próprio repositório.
+#
+# Duas saídas, de propósito:
+#   1. data/backup/d1.json      -> vai para o repositório (que é PÚBLICO).
+#                                  A chave das fotos é omitida aqui, para não
+#                                  tornar os endereços do R2 adivinháveis.
+#   2. backup-completo.json     -> sobe como artefato da execução, visível só
+#                                  para quem tem acesso ao repositório. É esta
+#                                  a cópia usada para restaurar de verdade.
+
+on:
+  schedule:
+    - cron: "0 6 * * 0" # domingo, 03:00 em São Paulo
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Mesmo grupo do workflow de cardápio: os dois escrevem na main,
+# então eles se enfileiram em vez de disputar o push.
+concurrency:
+  group: cozinha-dados
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Baixar o projeto
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Exportar o banco e o perfil
+        env:
+          APP_TOKEN: ${{ secrets.APP_TOKEN }}
+          WORKER_URL: ${{ vars.WORKER_URL || 'https://cozinha-a-dois-worker.brazaorafael.workers.dev' }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import pathlib
+          import urllib.error
+          import urllib.request
+
+          worker = os.environ["WORKER_URL"].rstrip("/")
+          token = os.environ.get("APP_TOKEN", "").strip()
+          if not token:
+              raise SystemExit("::error::O secret APP_TOKEN não está configurado no repositório.")
+
+
+          def chamar(acao):
+              pedido = urllib.request.Request(
+                  worker,
+                  data=json.dumps({"acao": acao, "token": token}).encode("utf-8"),
+                  headers={"Content-Type": "application/json"},
+                  method="POST",
+              )
+              try:
+                  with urllib.request.urlopen(pedido, timeout=60) as resposta:
+                      return json.loads(resposta.read().decode("utf-8"))
+              except urllib.error.HTTPError as erro:
+                  detalhe = erro.read().decode("utf-8", "replace")[:400]
+                  raise SystemExit(
+                      f"::error::A rota '{acao}' respondeu {erro.code}. Resposta: {detalhe}"
+                  ) from None
+              except urllib.error.URLError as erro:
+                  raise SystemExit(f"::error::Não consegui falar com o Worker: {erro.reason}") from None
+
+
+          exportacao = chamar("exportar")
+          if not exportacao.get("ok"):
+              raise SystemExit(f"::error::A exportação não deu certo: {exportacao}")
+          perfil = chamar("perfil")
+
+          pasta = pathlib.Path("data/backup")
+          pasta.mkdir(parents=True, exist_ok=True)
+
+          def gravar(caminho, conteudo):
+              caminho.write_text(
+                  json.dumps(conteudo, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                  encoding="utf-8",
+              )
+
+          # Cópia completa: fica só no artefato da execução, nunca no repositório.
+          gravar(pathlib.Path("backup-completo.json"), exportacao)
+
+          # Cópia pública: idêntica, mas sem a chave das fotos.
+          publico = json.loads(json.dumps(exportacao))
+          for favorito in publico.get("tabelas", {}).get("favorites", []):
+              favorito["tem_foto"] = bool(favorito.pop("photo_key", None))
+          gravar(pasta / "d1.json", publico)
+          gravar(pasta / "perfil.json", perfil)
+
+          contagem = exportacao.get("contagem", {})
+          print("::notice::Backup concluído — " + ", ".join(
+              f"{tabela}: {total}" for tabela, total in sorted(contagem.items())
+          ))
+          print("\nResumo do perfil que o gerador vai receber:\n")
+          print(perfil.get("resumo", "(vazio)"))
+          PY
+
+      - name: Guardar a cópia completa como artefato
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backup-completo
+          path: backup-completo.json
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Publicar a cópia pública no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/backup
+          if git diff --staged --quiet; then
+            echo "Nada mudou desde o último backup."
+          else
+            git commit -m "Backup do banco"
+            git pull --rebase --autostash
+            git push
+          fi
