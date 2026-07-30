@@ -63,7 +63,7 @@ const SOURCE_TIERS = {
 };
 const SEARCH_TTL_SECONDS = 60 * 60 * 12;
 const PENDING_TTL_SECONDS = 90;
-const SEARCH_CACHE_VERSION = "v5-fast-curated-r2";
+const SEARCH_CACHE_VERSION = "v5-fast-curated-r3";
 const MAX_BODY_BYTES = 8 * 1024 * 1024;
 const PROFILE = [
   "Casal jovem, jantar para 2, com sobra para o almoço de 1 quando fizer sentido.",
@@ -844,7 +844,7 @@ async function geminiJson(env, prompt, useSearch, extraParts = []) {
   };
   if (useSearch) body.tools = [{ google_search: {} }];
 
-  const geminiTimeout = useSearch ? 22_000 : 14_000;
+  const geminiTimeout = useSearch ? 22_000 : 20_000;
   let response = await fetchGeminiWithRetry(endpoint, body, geminiTimeout, useSearch ? 2 : 1);
   if (!response.ok && response.status === 400 && body.generationConfig?.responseMimeType) {
     const fallbackBody = structuredClone(body);
