@@ -814,5 +814,41 @@
     ],
     "data": "30/07/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-simples-e-saborosa-3ceee17b",
+    "titulo": "Carne de Panela Simples e Saborosa",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "rapido",
+      "facil"
+    ],
+    "data": "31/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "lombo-assado-com-tomates-e-ervas-82ee4f9a",
+    "titulo": "Lombo Assado com Tomates e Ervas",
+    "tags": [
+      "carne_de_porco",
+      "forno",
+      "assado",
+      "equilibrado"
+    ],
+    "data": "31/07/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "dip-de-queijo-minas-com-iogurte-nestle-grego-lig-54e4ba61",
+    "titulo": "Dip de Queijo Minas com Iogurte Nestlé Grego Light",
+    "tags": [
+      "entrada",
+      "rapido",
+      "facil",
+      "vegetariano"
+    ],
+    "data": "31/07/2026",
+    "fonte_status": "verified"
   }
 ]
