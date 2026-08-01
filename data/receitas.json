@@ -1,185 +1,192 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-07-31T09:56:13-03:00",
+  "gerado_em": "2026-08-01T09:02:14-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "31/07/2026",
-    "dia_semana": "sexta",
+    "data": "01/08/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Carne de Panela Simples e Saborosa",
+        "nome": "Picadinho de Filé Mignon",
         "curso": "principal",
         "tempo": "30 minutos",
-        "porque": "Uma receita de carne vermelha prática e rápida, cozida na panela de pressão para garantir maciez em apenas 30 minutos. Ideal para um jantar a dois com sobras para o almoço.",
+        "porque": "Carne vermelha (filé mignon), pronta em 30 minutos, prática e versátil. Ideal para um jantar a dois com potencial de sobras para o almoço. A receita utiliza métodos de refogado e cozimento rápido, alinhados com as preferências.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
+          "refogado",
           "rapido",
-          "facil"
+          "jantar"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "800 gramas de carne bovina (acém, paleta ou músculo)",
-          "1 cebola média picada",
-          "2 dentes de alho picados",
-          "½ copo de água",
-          "1 fio de óleo ou azeite",
-          "Sal e pimenta do reino a gosto"
+          "1 colher (sopa) de óleo",
+          "500 gramas de filé mignon cortado em cubos",
+          "1 xícara (chá) de água",
+          "1 colher (chá) de Amido de Milho Maizena",
+          "2 colheres (sopa) de azeite de oliva extra virgem",
+          "1 cebola pequena picada",
+          "1 dente de alho",
+          "75 ml de cerveja stout",
+          "2 colheres (sopa) de molho de soja",
+          "1 colher (chá) de molho inglês",
+          "1 colher (chá) de sal",
+          "1 colher (café) de pimenta-do-reino preta em pó",
+          "2 colheres (sopa) de salsinha fresca picada"
         ],
         "preparo": [
-          "Corte a carne em cubos grandes e tempere com sal, pimenta e alho picado.",
-          "Aqueça o óleo ou azeite na panela de pressão e refogue a cebola picada até murchar.",
-          "Ajeite os pedaços de carne temperados na panela e tampe.",
-          "Cozinhe em fogo médio-baixo por 10 minutos após pegar pressão.",
-          "Desligue o fogo, espere a pressão sair naturalmente e abra a panela.",
-          "Adicione o ½ copo de água, misture e cozinhe por mais 5 minutos sem pressão para apurar o molho.",
-          "Sirva quente."
+          "Em um recipiente pequeno, dissolva o amido de milho Maizena na água e reserve.",
+          "Em uma frigideira grande, aqueça o óleo em fogo alto e doure os cubos de filé mignon. Retire a carne e reserve.",
+          "Na mesma frigideira, adicione o azeite e refogue a cebola picada e o alho até ficarem macios e perfumados.",
+          "Acrescente a cerveja stout, o molho de soja e o molho inglês. Mexa bem para incorporar os sabores.",
+          "Volte a carne dourada para a frigideira e adicione a mistura de amido de milho dissolvido. Cozinhe, mexendo sempre, por cerca de 5 minutos ou até o molho engrossar.",
+          "Tempere com sal e pimenta-do-reino a gosto. Finalize com a salsinha fresca picada e sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.tudoreceitas.com/receita-de-carne-de-panela-simples-e-saborosa-3622.html",
-          "checked_at": "2026-07-31T12:58:39+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-08-01T12:04:24+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
-          "bank_id": "34837746",
-          "credit": "Caleb Oquendo",
-          "query": "Carne de Panela Simples e Saborosa"
+          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
+          "bank_id": "25205263",
+          "credit": "Adriano Bragi",
+          "query": "Picadinho de Filé Mignon"
         },
-        "id": "carne-de-panela-simples-e-saborosa-3ceee17b"
+        "id": "picadinho-de-file-mignon-9c17e17d"
       },
       {
-        "nome": "Lombo Assado com Tomates e Ervas",
+        "nome": "Kafta Assada",
         "curso": "principal",
-        "tempo": "45 minutos (no forno)",
-        "porque": "Uma opção de carne de porco assada no forno, que fica úmida e perfumada com ervas e tomates. O preparo é prático e o tempo de forno se encaixa no limite, ideal para um jantar especial com sobras.",
+        "tempo": "25 minutos (preparo ativo)",
+        "porque": "Carne vermelha (kafta) preparada de forma rápida (25 minutos de preparo ativo) e assada no forno, método preferido. É uma opção saborosa e fácil, com bom rendimento para sobras.",
         "tags": [
-          "carne_de_porco",
+          "carne_vermelha",
           "forno",
-          "assado",
-          "equilibrado"
+          "rapido",
+          "jantar"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de lombo de porco (cerca de 800g a 1kg)",
-          "1 kg de tomate cereja em rama",
-          "4 dentes de alho",
-          "4 ramos de alecrim fresco",
-          "4 ramos de louro fresco",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "500 gramas de carne moída crua",
+          "2 colheres (sopa) picadas de cebola",
+          "2 dentes de alho cru",
+          "3 colheres (sopa) de hortelã",
+          "3 pitadas de sal moído iodado marinho Mais Vita",
+          "Azeite de oliva extravirgem à gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 180 ºC. Seque bem o lombo com papel-toalha.",
-          "Tempere o lombo com sal e pimenta-do-reino a gosto.",
-          "Em uma assadeira, regue com 1 colher (sopa) de azeite e doure o lombo em todos os lados na boca do fogão (se a assadeira puder ir ao fogo) ou em uma frigideira grande.",
-          "Transfira o lombo para a assadeira. Lave os tomates e disponha-os ao redor do lombo, junto com os ramos de alecrim, louro e os dentes de alho amassados.",
-          "Regue tudo com o restante do azeite e leve ao forno por cerca de 45 minutos, ou até o lombo estar cozido e suculento.",
-          "Deixe o lombo descansar por 10 minutos antes de fatiar e servir com os tomates e o molho da assadeira."
+          "Em um processador ou liquidificador, bata a cebola, o alho, a hortelã e o sal até obter uma pasta.",
+          "Em uma tigela, misture essa pasta de temperos com a carne moída crua. Deixe a carne descansar por 20 minutos para absorver os sabores.",
+          "Enquanto a carne descansa, unte uma travessa quadrada média com azeite de oliva.",
+          "Com as mãos, modele a carne temperada em formato de kaftas (pequenos hambúrgueres ou formato alongado).",
+          "Disponha as kaftas na travessa untada e leve ao forno pré-aquecido.",
+          "Asse por 20 a 35 minutos, ou até que estejam douradas e cozidas por dentro. Sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/lombo-assado-com-tomates-e-ervas",
-          "checked_at": "2026-07-31T12:58:40+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-08-01T12:04:25+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/13014037/pexels-photo-13014037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso peixe grelhado servido com tomates assados e ervas em um prato decorativo.",
-          "bank_id": "13014037",
-          "credit": "Kostiantyn Klymovets",
-          "query": "Lombo Assado com Tomates e Ervas"
+          "url": "https://images.pexels.com/photos/31064269/pexels-photo-31064269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de kafta com halloumi grelhado, ervas e vegetais em um ambiente rústico.",
+          "bank_id": "31064269",
+          "credit": "Mahmoud Salem",
+          "query": "Kafta Assada"
         },
-        "id": "lombo-assado-com-tomates-e-ervas-82ee4f9a"
+        "id": "kafta-assada-4a111a79"
       },
       {
-        "nome": "Dip de Queijo Minas com Iogurte Nestlé Grego Light",
+        "nome": "Ricota Grelhada",
         "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada leve, refrescante e muito rápida de preparar, combinando queijo minas com iogurte grego e ervas frescas. Perfeito para abrir o apetite sem pesar.",
+        "tempo": "8 minutos",
+        "porque": "Entrada extremamente rápida (pronta em minutos), saudável e elegante, da fonte de maior confiança (Panelinha). Perfeita para iniciar o jantar sem complicação.",
         "tags": [
+          "vegetariano",
+          "rapido",
           "entrada",
-          "rapido",
-          "facil",
-          "vegetariano"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "100g de queijo minas frescal",
-          "1 pote (90g) de Iogurte NESTLÉ Grego Light Tradicional",
-          "1 colher (sopa) de cebolinha verde picada",
-          "1 colher (chá) de tomilho fresco picado",
-          "Sal e pimenta-do-reino a gosto",
-          "Cenouras baby ou palitos de pepino para acompanhar"
-        ],
-        "preparo": [
-          "Em um recipiente, amasse o queijo minas frescal com um garfo.",
-          "Adicione o Iogurte NESTLÉ Grego Light e misture bem até incorporar.",
-          "Acrescente a cebolinha picada e o tomilho fresco.",
-          "Tempere com sal e pimenta-do-reino a gosto, misturando novamente.",
-          "Sirva imediatamente com cenouras baby ou palitos de pepino."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/dip-de-queijo-minas-com-iogurte-nestle-grego-light",
-          "title": "Dip de Queijo Minas com Iogurte Nestlé Grego Light",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-07-31T12:58:40+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/0aa4f30ca6b0e7cdd06a671b389fae44.jpg",
-          "alt": "Dip de Queijo Minas com Iogurte Nestlé Grego Light"
-        },
-        "id": "dip-de-queijo-minas-com-iogurte-nestle-grego-lig-54e4ba61"
-      },
-      {
-        "nome": "Frutas Douradas com Mel",
-        "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Uma sobremesa leve, rápida e elegante, que realça o sabor natural das frutas com um toque de mel e manteiga. Perfeita para um casal jovem e para finalizar o jantar.",
-        "tags": [
-          "sobremesa",
-          "frutas",
-          "rapido",
           "leve"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 maçãs pequenas (ou miniperas)",
-          "½ xícara (chá) de água",
-          "¼ de xícara (chá) de caldo de laranja",
-          "1 colher (sopa) de manteiga",
-          "2 colheres (sopa) de mel"
+          "1 ricota fresca (de 400g, aproximadamente)",
+          "4 colheres (sopa) de azeite",
+          "8 folhas de manjericão",
+          "8 folhas de hortelã",
+          "8 folhas de salsa crespa",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Grãos de pimenta rosa para perfumar"
         ],
         "preparo": [
-          "Lave e seque as frutas. Corte cada uma ao meio, no sentido do comprimento.",
-          "Em uma panela média, misture a água e o caldo de laranja. Adicione as frutas e leve ao fogo médio.",
-          "Assim que ferver, diminua o fogo e cozinhe por cerca de 10 minutos, até as frutas ficarem macias, mas ainda firmes.",
-          "Com uma escumadeira, transfira as frutas para uma travessa e descarte o líquido.",
-          "Pincele mel apenas no lado cortado das frutas.",
-          "Aqueça uma frigideira antiaderente em fogo médio, adicione a manteiga e deixe derreter.",
-          "Coloque as frutas com o lado cortado para baixo e doure por cerca de 2 minutos. Sirva imediatamente."
+          "Corte a ricota em fatias de 2 cm de espessura. Lave e seque as ervas frescas.",
+          "Aqueça uma frigideira antiaderente em fogo médio com 1 colher (sopa) de azeite.",
+          "Coloque as fatias de ricota na frigideira (até duas por vez) e grelhe por 4 minutos de cada lado, até dourar.",
+          "Transfira a ricota grelhada para um prato, tempere com sal e pimenta-do-reino moída na hora.",
+          "Salpique as folhas de manjericão, hortelã e salsa crespa, e os grãos de pimenta rosa. Regue com um fio de azeite e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/frutas-douradas-com-mel",
-          "title": "Frutas douradas com mel - Panelinha",
+          "url": "https://panelinha.com.br/receita/ricota-grelhada",
+          "title": "Ricota grelhada - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-07-31T12:58:41+00:00"
+          "checked_at": "2026-08-01T12:04:26+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-8082-frutas-douradas-com-mel.webp",
-          "alt": "Frutas Douradas com Mel"
+          "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
+          "alt": "Ricota Grelhada"
         },
-        "id": "frutas-douradas-com-mel-d2fe1640"
+        "id": "ricota-grelhada-bb272a1a"
+      },
+      {
+        "nome": "Maria Mole Tradicional",
+        "curso": "sobremesa",
+        "tempo": "10 minutos (preparo ativo)",
+        "porque": "Sobremesa clássica com gostinho de infância, fácil e rápida de preparar (poucos ingredientes, tempo de cozimento mínimo). Rende bem e é uma opção leve após o jantar.",
+        "tags": [
+          "doce",
+          "rapido",
+          "facil",
+          "classico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 xícara de açúcar",
+          "1/4 xícara de água para a calda",
+          "3 claras",
+          "1 envelope de gelatina incolor sem sabor (12g)",
+          "1/2 xícara de água para a gelatina",
+          "Coco ralado para polvilhar"
+        ],
+        "preparo": [
+          "Em uma panela, misture o açúcar e 1/4 xícara de água. Leve ao fogo baixo até o açúcar dissolver e formar uma calda rala. Reserve.",
+          "Hidrate a gelatina incolor em 1/2 xícara de água fria por 5 minutos. Em seguida, leve ao micro-ondas por 15 segundos ou em banho-maria para dissolver.",
+          "Na batedeira, bata as claras em neve. Com a batedeira ligada, adicione a calda de açúcar em fio e continue batendo até esfriar e formar um merengue firme.",
+          "Com a batedeira ainda ligada, adicione a gelatina dissolvida e bata por mais 2 minutos.",
+          "Despeje a mistura em uma forma untada com óleo e polvilhada com coco ralado.",
+          "Leve à geladeira por pelo menos 3 horas para firmar. Desenforme, corte em pedaços e passe no coco ralado."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-08-01T12:04:26+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/26587855/pexels-photo-26587855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Vista de cima de um prato tradicional de peixe com arroz e legumes em um prato rústico, perfeito para fotografia de alimentos.",
+          "bank_id": "26587855",
+          "credit": "Luiz Henrique  Mendes",
+          "query": "Maria Mole Tradicional"
+        },
+        "id": "maria-mole-tradicional-e7c97ba5"
       }
     ]
   },

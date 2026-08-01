@@ -850,5 +850,53 @@
     ],
     "data": "31/07/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "picadinho-de-file-mignon-9c17e17d",
+    "titulo": "Picadinho de Filé Mignon",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "jantar"
+    ],
+    "data": "01/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "kafta-assada-4a111a79",
+    "titulo": "Kafta Assada",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "rapido",
+      "jantar"
+    ],
+    "data": "01/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "ricota-grelhada-bb272a1a",
+    "titulo": "Ricota Grelhada",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "entrada",
+      "leve"
+    ],
+    "data": "01/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "maria-mole-tradicional-e7c97ba5",
+    "titulo": "Maria Mole Tradicional",
+    "tags": [
+      "doce",
+      "rapido",
+      "facil",
+      "classico"
+    ],
+    "data": "01/08/2026",
+    "fonte_status": "unverified"
   }
 ]
