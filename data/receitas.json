@@ -1,192 +1,130 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-01T09:02:14-03:00",
+  "gerado_em": "2026-08-02T09:02:49-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "01/08/2026",
-    "dia_semana": "sábado",
+    "data": "02/08/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Picadinho de Filé Mignon",
+        "nome": "Bife à Rolê",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Carne vermelha (filé mignon), pronta em 30 minutos, prática e versátil. Ideal para um jantar a dois com potencial de sobras para o almoço. A receita utiliza métodos de refogado e cozimento rápido, alinhados com as preferências.",
+        "tempo": "45 minutos",
+        "porque": "Uma receita clássica de carne vermelha, prática e pronta em 45 minutos. Ideal para um jantar a dois com possível sobra para o almoço. Utiliza refogado, evitando fritura.",
         "tags": [
           "carne_vermelha",
           "refogado",
-          "rapido",
-          "jantar"
+          "jantar_rapido",
+          "equilibrado"
         ],
         "rende_sobra": true,
-        "ingredientes": [
-          "1 colher (sopa) de óleo",
-          "500 gramas de filé mignon cortado em cubos",
-          "1 xícara (chá) de água",
-          "1 colher (chá) de Amido de Milho Maizena",
-          "2 colheres (sopa) de azeite de oliva extra virgem",
-          "1 cebola pequena picada",
-          "1 dente de alho",
-          "75 ml de cerveja stout",
-          "2 colheres (sopa) de molho de soja",
-          "1 colher (chá) de molho inglês",
-          "1 colher (chá) de sal",
-          "1 colher (café) de pimenta-do-reino preta em pó",
-          "2 colheres (sopa) de salsinha fresca picada"
-        ],
-        "preparo": [
-          "Em um recipiente pequeno, dissolva o amido de milho Maizena na água e reserve.",
-          "Em uma frigideira grande, aqueça o óleo em fogo alto e doure os cubos de filé mignon. Retire a carne e reserve.",
-          "Na mesma frigideira, adicione o azeite e refogue a cebola picada e o alho até ficarem macios e perfumados.",
-          "Acrescente a cerveja stout, o molho de soja e o molho inglês. Mexa bem para incorporar os sabores.",
-          "Volte a carne dourada para a frigideira e adicione a mistura de amido de milho dissolvido. Cozinhe, mexendo sempre, por cerca de 5 minutos ou até o molho engrossar.",
-          "Tempere com sal e pimenta-do-reino a gosto. Finalize com a salsinha fresca picada e sirva imediatamente."
-        ],
+        "ingredientes": [],
+        "preparo": [],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-01T12:04:24+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/bife-a-role",
+          "checked_at": "2026-08-02T12:04:10+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
-          "bank_id": "25205263",
-          "credit": "Adriano Bragi",
-          "query": "Picadinho de Filé Mignon"
+          "url": "https://images.pexels.com/photos/3660/food-restaurant-dinner-lunch.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso bife servido com batatas e fatias de tomate fresco. Perfeito para o almoço ou jantar.",
+          "bank_id": "3660",
+          "credit": "JÉSHOOTS",
+          "query": "Bife à Rolê"
         },
-        "id": "picadinho-de-file-mignon-9c17e17d"
+        "id": "bife-a-role-ae0c645c"
       },
       {
-        "nome": "Kafta Assada",
+        "nome": "Bife à Parmegiana de Forno",
         "curso": "principal",
-        "tempo": "25 minutos (preparo ativo)",
-        "porque": "Carne vermelha (kafta) preparada de forma rápida (25 minutos de preparo ativo) e assada no forno, método preferido. É uma opção saborosa e fácil, com bom rendimento para sobras.",
+        "tempo": "40 minutos",
+        "porque": "Uma alternativa saborosa de carne vermelha, preparada no forno para evitar fritura. É um prato substancioso e com bom equilíbrio de proteína e carboidrato, perfeito para um jantar a dois com potencial de sobras.",
         "tags": [
           "carne_vermelha",
           "forno",
-          "rapido",
-          "jantar"
+          "jantar_rapido",
+          "queijo"
         ],
         "rende_sobra": true,
-        "ingredientes": [
-          "500 gramas de carne moída crua",
-          "2 colheres (sopa) picadas de cebola",
-          "2 dentes de alho cru",
-          "3 colheres (sopa) de hortelã",
-          "3 pitadas de sal moído iodado marinho Mais Vita",
-          "Azeite de oliva extravirgem à gosto"
-        ],
-        "preparo": [
-          "Em um processador ou liquidificador, bata a cebola, o alho, a hortelã e o sal até obter uma pasta.",
-          "Em uma tigela, misture essa pasta de temperos com a carne moída crua. Deixe a carne descansar por 20 minutos para absorver os sabores.",
-          "Enquanto a carne descansa, unte uma travessa quadrada média com azeite de oliva.",
-          "Com as mãos, modele a carne temperada em formato de kaftas (pequenos hambúrgueres ou formato alongado).",
-          "Disponha as kaftas na travessa untada e leve ao forno pré-aquecido.",
-          "Asse por 20 a 35 minutos, ou até que estejam douradas e cozidas por dentro. Sirva quente."
-        ],
+        "ingredientes": [],
+        "preparo": [],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-01T12:04:25+00:00"
+          "suggested_url": "https://www.tudogostoso.com.br/receita/2856-bife-a-parmegiana-de-forno.html",
+          "checked_at": "2026-08-02T12:04:11+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/31064269/pexels-photo-31064269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso prato de kafta com halloumi grelhado, ervas e vegetais em um ambiente rústico.",
-          "bank_id": "31064269",
+          "url": "https://images.pexels.com/photos/31064273/pexels-photo-31064273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Saboroso frango à parmegiana com macarrão e ingredientes frescos em uma mesa rústica.",
+          "bank_id": "31064273",
           "credit": "Mahmoud Salem",
-          "query": "Kafta Assada"
+          "query": "Bife à Parmegiana de Forno"
         },
-        "id": "kafta-assada-4a111a79"
+        "id": "bife-a-parmegiana-de-forno-c7bcb3ea"
       },
       {
-        "nome": "Ricota Grelhada",
+        "nome": "Dadinhos de Tapioca Assados",
         "curso": "entrada",
-        "tempo": "8 minutos",
-        "porque": "Entrada extremamente rápida (pronta em minutos), saudável e elegante, da fonte de maior confiança (Panelinha). Perfeita para iniciar o jantar sem complicação.",
+        "tempo": "40 minutos",
+        "porque": "Uma entrada brasileira popular e prática, adaptada para ser assada no forno, tornando-a mais leve. É rápida de preparar e perfeita para abrir o apetite.",
         "tags": [
-          "vegetariano",
-          "rapido",
           "entrada",
-          "leve"
+          "vegetariano",
+          "forno",
+          "pratico"
         ],
         "rende_sobra": false,
-        "ingredientes": [
-          "1 ricota fresca (de 400g, aproximadamente)",
-          "4 colheres (sopa) de azeite",
-          "8 folhas de manjericão",
-          "8 folhas de hortelã",
-          "8 folhas de salsa crespa",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Grãos de pimenta rosa para perfumar"
-        ],
-        "preparo": [
-          "Corte a ricota em fatias de 2 cm de espessura. Lave e seque as ervas frescas.",
-          "Aqueça uma frigideira antiaderente em fogo médio com 1 colher (sopa) de azeite.",
-          "Coloque as fatias de ricota na frigideira (até duas por vez) e grelhe por 4 minutos de cada lado, até dourar.",
-          "Transfira a ricota grelhada para um prato, tempere com sal e pimenta-do-reino moída na hora.",
-          "Salpique as folhas de manjericão, hortelã e salsa crespa, e os grãos de pimenta rosa. Regue com um fio de azeite e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/ricota-grelhada",
-          "title": "Ricota grelhada - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-01T12:04:26+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
-          "alt": "Ricota Grelhada"
-        },
-        "id": "ricota-grelhada-bb272a1a"
-      },
-      {
-        "nome": "Maria Mole Tradicional",
-        "curso": "sobremesa",
-        "tempo": "10 minutos (preparo ativo)",
-        "porque": "Sobremesa clássica com gostinho de infância, fácil e rápida de preparar (poucos ingredientes, tempo de cozimento mínimo). Rende bem e é uma opção leve após o jantar.",
-        "tags": [
-          "doce",
-          "rapido",
-          "facil",
-          "classico"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 xícara de açúcar",
-          "1/4 xícara de água para a calda",
-          "3 claras",
-          "1 envelope de gelatina incolor sem sabor (12g)",
-          "1/2 xícara de água para a gelatina",
-          "Coco ralado para polvilhar"
-        ],
-        "preparo": [
-          "Em uma panela, misture o açúcar e 1/4 xícara de água. Leve ao fogo baixo até o açúcar dissolver e formar uma calda rala. Reserve.",
-          "Hidrate a gelatina incolor em 1/2 xícara de água fria por 5 minutos. Em seguida, leve ao micro-ondas por 15 segundos ou em banho-maria para dissolver.",
-          "Na batedeira, bata as claras em neve. Com a batedeira ligada, adicione a calda de açúcar em fio e continue batendo até esfriar e formar um merengue firme.",
-          "Com a batedeira ainda ligada, adicione a gelatina dissolvida e bata por mais 2 minutos.",
-          "Despeje a mistura em uma forma untada com óleo e polvilhada com coco ralado.",
-          "Leve à geladeira por pelo menos 3 horas para firmar. Desenforme, corte em pedaços e passe no coco ralado."
-        ],
+        "ingredientes": [],
+        "preparo": [],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-01T12:04:26+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/dadinhos-de-tapioca-assados",
+          "checked_at": "2026-08-02T12:04:12+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/26587855/pexels-photo-26587855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Vista de cima de um prato tradicional de peixe com arroz e legumes em um prato rústico, perfeito para fotografia de alimentos.",
-          "bank_id": "26587855",
-          "credit": "Luiz Henrique  Mendes",
-          "query": "Maria Mole Tradicional"
+          "url": "https://images.pexels.com/photos/3324431/pexels-photo-3324431.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Cubos crocantes de tapioca brasileira servidos com um molho sabroso em uma bandeja de pedra rústica.",
+          "bank_id": "3324431",
+          "credit": "Marcelo Chagas",
+          "query": "Dadinhos de Tapioca Assados"
         },
-        "id": "maria-mole-tradicional-e7c97ba5"
+        "id": "dadinhos-de-tapioca-assados-ce0de353"
+      },
+      {
+        "nome": "Creme de Papaia com Cassis",
+        "curso": "sobremesa",
+        "tempo": "10 minutos",
+        "porque": "Uma sobremesa leve, refrescante e extremamente rápida de preparar, ideal para finalizar o jantar sem pesar. Não requer forno e é perfeita para duas pessoas.",
+        "tags": [
+          "sobremesa",
+          "frutas",
+          "rapido",
+          "sem_forno"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [],
+        "preparo": [],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/creme-de-papaia-com-cassis",
+          "checked_at": "2026-08-02T12:04:13+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/264727/pexels-photo-264727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma panqueca de dar água na boca coberta com frutas frescas e creme em um prato estiloso, perfeita para um café da manhã doce.",
+          "bank_id": "264727",
+          "credit": "Pixabay",
+          "query": "Creme de Papaia com Cassis"
+        },
+        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
       }
     ]
   },

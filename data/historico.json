@@ -898,5 +898,53 @@
     ],
     "data": "01/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-role-ae0c645c",
+    "titulo": "Bife à Rolê",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "jantar_rapido",
+      "equilibrado"
+    ],
+    "data": "02/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-parmegiana-de-forno-c7bcb3ea",
+    "titulo": "Bife à Parmegiana de Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "jantar_rapido",
+      "queijo"
+    ],
+    "data": "02/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "dadinhos-de-tapioca-assados-ce0de353",
+    "titulo": "Dadinhos de Tapioca Assados",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "forno",
+      "pratico"
+    ],
+    "data": "02/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "creme-de-papaia-com-cassis-c6f7ec8b",
+    "titulo": "Creme de Papaia com Cassis",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "rapido",
+      "sem_forno"
+    ],
+    "data": "02/08/2026",
+    "fonte_status": "unverified"
   }
 ]
