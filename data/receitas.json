@@ -1,30 +1,85 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-02T09:02:49-03:00",
+  "gerado_em": "2026-08-03T10:41:27-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "02/08/2026",
-    "dia_semana": "domingo",
+    "data": "03/08/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Bife à Rolê",
+        "nome": "Filé Mignon com Cebola e Shoyu",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Uma receita clássica de carne vermelha, prática e pronta em 45 minutos. Ideal para um jantar a dois com possível sobra para o almoço. Utiliza refogado, evitando fritura.",
+        "tempo": "40 minutos",
+        "porque": "Uma receita clássica e saborosa de carne vermelha, fácil de preparar e pronta em tempo hábil. O filé mignon refogado com cebola caramelizada e shoyu oferece um perfil de sabor agridoce que agrada. Serve bem um casal e pode render para o almoço do dia seguinte, sendo um prato equilibrado com os acompanhamentos certos.",
         "tags": [
           "carne_vermelha",
           "refogado",
-          "jantar_rapido",
-          "equilibrado"
+          "rapido",
+          "jantar_a_dois"
         ],
         "rende_sobra": true,
-        "ingredientes": [],
-        "preparo": [],
+        "ingredientes": [
+          "1 peça de filé-mignon",
+          "8 colheres (sopa) de azeite",
+          "1/2 xícara de shoyu",
+          "2 cebolas picadas"
+        ],
+        "preparo": [
+          "Corte o filé-mignon em medalhões ou tiras e tempere a gosto.",
+          "Em uma panela grande e funda, aqueça o azeite e doure o filé-mignon. Retire a carne e reserve.",
+          "Na mesma panela, adicione as cebolas picadas e refogue até caramelizarem.",
+          "Retorne a carne à panela, adicione o shoyu e misture bem.",
+          "Cozinhe por mais alguns minutos até o molho encorpar e a carne atingir o ponto desejado.",
+          "Sirva imediatamente, acompanhado de arroz e legumes salteados."
+        ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/bife-a-role",
-          "checked_at": "2026-08-02T12:04:10+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-08-03T13:42:44+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/33673974/pexels-photo-33673974.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso filé mignon com molho de cogumelos e massa cremosa, guarnecido com microverdes.",
+          "bank_id": "33673974",
+          "credit": "pedro furtado",
+          "query": "Filé Mignon com Cebola e Shoyu"
+        },
+        "id": "file-mignon-com-cebola-e-shoyu-91fdf2aa"
+      },
+      {
+        "nome": "Maminha na Airfryer",
+        "curso": "principal",
+        "tempo": "40 minutos",
+        "porque": "Esta receita oferece uma forma prática e com pouca gordura de preparar carne vermelha na airfryer. A maminha fica macia e suculenta, ideal para um jantar especial que também pode gerar sobras para o almoço. É uma opção que utiliza um método de cozimento moderno e eficiente.",
+        "tags": [
+          "carne_vermelha",
+          "airfryer",
+          "pratico",
+          "jantar_a_dois"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500 g de maminha",
+          "Azeite a gosto",
+          "Sal a gosto",
+          "Manteiga a gosto"
+        ],
+        "preparo": [
+          "Tempere a maminha com azeite e sal a gosto.",
+          "Pré-aqueça a Airfryer a 180ºC.",
+          "Coloque a maminha na Airfryer e asse por 40 minutos.",
+          "A cada 10 minutos, abra a Airfryer e vire a carne para um cozimento uniforme.",
+          "Ao final do tempo, retire a maminha e coloque-a em uma tábua de madeira.",
+          "Deixe a carne descansar por 5 minutos antes de cortar.",
+          "Corte em fatias e pincele manteiga a gosto para finalizar."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-08-03T13:42:44+00:00"
         },
         "imagem": {
           "kind": "bank",
@@ -32,99 +87,98 @@
           "alt": "Delicioso bife servido com batatas e fatias de tomate fresco. Perfeito para o almoço ou jantar.",
           "bank_id": "3660",
           "credit": "JÉSHOOTS",
-          "query": "Bife à Rolê"
+          "query": "Maminha na Airfryer"
         },
-        "id": "bife-a-role-ae0c645c"
+        "id": "maminha-na-airfryer-593a2391"
       },
       {
-        "nome": "Bife à Parmegiana de Forno",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma alternativa saborosa de carne vermelha, preparada no forno para evitar fritura. É um prato substancioso e com bom equilíbrio de proteína e carboidrato, perfeito para um jantar a dois com potencial de sobras.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
-          "jantar_rapido",
-          "queijo"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [],
-        "preparo": [],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/2856-bife-a-parmegiana-de-forno.html",
-          "checked_at": "2026-08-02T12:04:11+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/31064273/pexels-photo-31064273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Saboroso frango à parmegiana com macarrão e ingredientes frescos em uma mesa rústica.",
-          "bank_id": "31064273",
-          "credit": "Mahmoud Salem",
-          "query": "Bife à Parmegiana de Forno"
-        },
-        "id": "bife-a-parmegiana-de-forno-c7bcb3ea"
-      },
-      {
-        "nome": "Dadinhos de Tapioca Assados",
+        "nome": "Salada de Lentilha Rápida",
         "curso": "entrada",
-        "tempo": "40 minutos",
-        "porque": "Uma entrada brasileira popular e prática, adaptada para ser assada no forno, tornando-a mais leve. É rápida de preparar e perfeita para abrir o apetite.",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada leve, nutritiva e prática, pronta em poucos minutos. A lentilha é uma leguminosa rica em fibras e proteínas, combinada com vegetais frescos para um bom equilíbrio. Não está na lista de pratos a evitar e é uma ótima opção para começar a refeição.",
         "tags": [
-          "entrada",
           "vegetariano",
-          "forno",
-          "pratico"
+          "rapido",
+          "saudavel",
+          "salada"
         ],
         "rende_sobra": false,
-        "ingredientes": [],
-        "preparo": [],
+        "ingredientes": [
+          "1 xícara de lentilha cozida",
+          "1 cenoura ralada",
+          "1/2 cebola roxa picada em cubos pequenos",
+          "1/2 xícara de milho verde",
+          "1/2 pimentão vermelho picado em cubos pequenos",
+          "Suco de 1 limão",
+          "3 colheres de sopa de azeite de oliva",
+          "Sal e pimenta-do-reino a gosto",
+          "Salsinha ou cebolinha picada para finalizar"
+        ],
+        "preparo": [
+          "Se usar lentilhas secas, cozinhe-as em água com sal até ficarem macias (cerca de 20 minutos). Se usar enlatadas, apenas enxágue-as.",
+          "Em uma tigela grande, misture as lentilhas cozidas com a cenoura ralada, a cebola roxa, o milho verde e o pimentão vermelho.",
+          "Adicione o suco de limão, o azeite de oliva, sal e pimenta-do-reino a gosto.",
+          "Misture bem todos os ingredientes para incorporar os sabores.",
+          "Finalize com salsinha ou cebolinha picada antes de servir."
+        ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/dadinhos-de-tapioca-assados",
-          "checked_at": "2026-08-02T12:04:12+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-08-03T13:42:44+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/3324431/pexels-photo-3324431.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Cubos crocantes de tapioca brasileira servidos com um molho sabroso em uma bandeja de pedra rústica.",
-          "bank_id": "3324431",
-          "credit": "Marcelo Chagas",
-          "query": "Dadinhos de Tapioca Assados"
+          "url": "https://images.pexels.com/photos/8934919/pexels-photo-8934919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma salada de legumes fresca e deliciosa com lentilhas e milho servida em uma tigela branca.",
+          "bank_id": "8934919",
+          "credit": "makafood",
+          "query": "Salada de Lentilha Rápida"
         },
-        "id": "dadinhos-de-tapioca-assados-ce0de353"
+        "id": "salada-de-lentilha-rapida-84874f1e"
       },
       {
-        "nome": "Creme de Papaia com Cassis",
+        "nome": "Creme de Abacate com Cacau",
         "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Uma sobremesa leve, refrescante e extremamente rápida de preparar, ideal para finalizar o jantar sem pesar. Não requer forno e é perfeita para duas pessoas.",
+        "tempo": "15 minutos (incluindo resfriamento)",
+        "porque": "Uma sobremesa rápida, saudável e deliciosa, perfeita para um casal jovem. É rica em gorduras boas do abacate e antioxidantes do cacau, oferecendo um doce sem culpa. Fica pronta em minutos e pode ser resfriada para uma textura ainda mais agradável.",
         "tags": [
-          "sobremesa",
-          "frutas",
+          "saudavel",
           "rapido",
+          "doce",
           "sem_forno"
         ],
         "rende_sobra": false,
-        "ingredientes": [],
-        "preparo": [],
+        "ingredientes": [
+          "1 abacate maduro",
+          "2 colheres (sopa) de cacau 100%",
+          "1 colher (chá) de essência de baunilha (opcional)",
+          "2 colheres (sopa) de creme de leite",
+          "Adoçante a gosto"
+        ],
+        "preparo": [
+          "Descasque o abacate, retire o caroço e coloque a polpa no liquidificador.",
+          "Adicione o cacau 100%, a essência de baunilha (se usar), o creme de leite e o adoçante a gosto.",
+          "Bata todos os ingredientes até obter um creme liso e homogêneo.",
+          "Transfira o creme para taças individuais.",
+          "Leve à geladeira por pelo menos 1 hora para firmar e gelar.",
+          "Sirva com raspas de chocolate 70% ou um toque de canela, se desejar."
+        ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/creme-de-papaia-com-cassis",
-          "checked_at": "2026-08-02T12:04:13+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-08-03T13:42:45+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/264727/pexels-photo-264727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma panqueca de dar água na boca coberta com frutas frescas e creme em um prato estiloso, perfeita para um café da manhã doce.",
-          "bank_id": "264727",
-          "credit": "Pixabay",
-          "query": "Creme de Papaia com Cassis"
+          "url": "https://images.pexels.com/photos/17478677/pexels-photo-17478677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma foto em close de camarões servidos em sopa de abacate em uma tigela decorativa, guarnecida com creme e ervas.",
+          "bank_id": "17478677",
+          "credit": "Nadin Sh",
+          "query": "Creme de Abacate com Cacau"
         },
-        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
+        "id": "creme-de-abacate-com-cacau-f9bf811e"
       }
     ]
   },

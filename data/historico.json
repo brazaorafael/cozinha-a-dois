@@ -946,5 +946,53 @@
     ],
     "data": "02/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "file-mignon-com-cebola-e-shoyu-91fdf2aa",
+    "titulo": "Filé Mignon com Cebola e Shoyu",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "jantar_a_dois"
+    ],
+    "data": "03/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "maminha-na-airfryer-593a2391",
+    "titulo": "Maminha na Airfryer",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "pratico",
+      "jantar_a_dois"
+    ],
+    "data": "03/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-lentilha-rapida-84874f1e",
+    "titulo": "Salada de Lentilha Rápida",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "saudavel",
+      "salada"
+    ],
+    "data": "03/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "creme-de-abacate-com-cacau-f9bf811e",
+    "titulo": "Creme de Abacate com Cacau",
+    "tags": [
+      "saudavel",
+      "rapido",
+      "doce",
+      "sem_forno"
+    ],
+    "data": "03/08/2026",
+    "fonte_status": "unverified"
   }
 ]
