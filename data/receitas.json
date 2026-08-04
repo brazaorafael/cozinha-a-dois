@@ -1,184 +1,187 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-03T10:41:27-03:00",
+  "gerado_em": "2026-08-04T10:02:53-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "03/08/2026",
-    "dia_semana": "segunda",
+    "data": "04/08/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Filé Mignon com Cebola e Shoyu",
+        "nome": "Jardineira de Novilho",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma receita clássica e saborosa de carne vermelha, fácil de preparar e pronta em tempo hábil. O filé mignon refogado com cebola caramelizada e shoyu oferece um perfil de sabor agridoce que agrada. Serve bem um casal e pode render para o almoço do dia seguinte, sendo um prato equilibrado com os acompanhamentos certos.",
+        "tempo": "45 minutos",
+        "porque": "Prato principal robusto com carne vermelha e legumes, ideal para um jantar nutritivo e com potencial de sobras para o almoço. Preparo em panela, sem fritura, garantindo um equilíbrio de sabores e nutrientes.",
         "tags": [
           "carne_vermelha",
           "refogado",
-          "rapido",
-          "jantar_a_dois"
+          "legumes",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de filé-mignon",
-          "8 colheres (sopa) de azeite",
-          "1/2 xícara de shoyu",
-          "2 cebolas picadas"
+          "1 fio de azeite",
+          "1 cebola picada",
+          "3 dentes de alho picados",
+          "1 folha de louro",
+          "Vinho branco, q.b.",
+          "600g de novilho em cubos",
+          "5 colheres (sopa) de polpa de tomate",
+          "Sal e pimenta, q.b.",
+          "150g de batata em cubos",
+          "2 cenouras em cubos",
+          "100g de ervilhas"
         ],
         "preparo": [
-          "Corte o filé-mignon em medalhões ou tiras e tempere a gosto.",
-          "Em uma panela grande e funda, aqueça o azeite e doure o filé-mignon. Retire a carne e reserve.",
-          "Na mesma panela, adicione as cebolas picadas e refogue até caramelizarem.",
-          "Retorne a carne à panela, adicione o shoyu e misture bem.",
-          "Cozinhe por mais alguns minutos até o molho encorpar e a carne atingir o ponto desejado.",
-          "Sirva imediatamente, acompanhado de arroz e legumes salteados."
+          "Em um tacho, refogue a cebola e os alhos em um fio de azeite com a folha de louro.",
+          "Adicione um pouco de vinho branco e deixe evaporar.",
+          "Junte a carne de novilho em cubos, a polpa de tomate, tempere com sal e pimenta, e cozinhe por alguns instantes.",
+          "Acrescente a batata e a cenoura em cubos, cubra com água, mexa e cozinhe por 20 minutos.",
+          "Após esse tempo, adicione as ervilhas e cozinhe por mais 5 minutos.",
+          "Retire do lume e sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
           "suggested_url": "",
-          "checked_at": "2026-08-03T13:42:44+00:00"
+          "checked_at": "2026-08-04T13:05:04+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673974/pexels-photo-33673974.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso filé mignon com molho de cogumelos e massa cremosa, guarnecido com microverdes.",
-          "bank_id": "33673974",
+          "url": "https://images.pexels.com/photos/28893437/pexels-photo-28893437.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma exibição apetitosa de pratos mistos, incluindo fritas, salada e arroz, em uma mesa de madeira ao ar livre.",
+          "bank_id": "28893437",
           "credit": "pedro furtado",
-          "query": "Filé Mignon com Cebola e Shoyu"
+          "query": "Jardineira de Novilho"
         },
-        "id": "file-mignon-com-cebola-e-shoyu-91fdf2aa"
+        "id": "jardineira-de-novilho-b02648f2"
       },
       {
-        "nome": "Maminha na Airfryer",
+        "nome": "Filé Mignon com Molho Mostarda",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Esta receita oferece uma forma prática e com pouca gordura de preparar carne vermelha na airfryer. A maminha fica macia e suculenta, ideal para um jantar especial que também pode gerar sobras para o almoço. É uma opção que utiliza um método de cozimento moderno e eficiente.",
+        "tempo": "20 minutos",
+        "porque": "Uma opção rápida e elegante de carne vermelha, perfeita para um jantar a dois. O molho cremoso de mostarda adiciona um toque especial, e o preparo na frigideira é prático e rápido.",
         "tags": [
           "carne_vermelha",
-          "airfryer",
-          "pratico",
-          "jantar_a_dois"
+          "rapido",
+          "grelhado",
+          "molho"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 medalhões de filé mignon",
+          "1 colher (café) de sal",
+          "1 colher (café) de pimenta-do-reino preta em pó",
+          "1 colher de sopa de azeite de oliva extra virgem",
+          "1/2 xícara de chá de creme de leite fresco",
+          "1 colher de sopa de Mostarda Hellmann's"
+        ],
+        "preparo": [
+          "Tempere os filés mignon com sal e pimenta do reino.",
+          "Aqueça uma frigideira ou grelha com o azeite.",
+          "Doure os dois lados dos medalhões por 3 minutos de cada lado para carne ao ponto.",
+          "Em uma panela pequena, aqueça o creme de leite fresco até engrossar levemente.",
+          "Adicione a mostarda ao creme de leite e misture bem.",
+          "Sirva os medalhões com o molho de mostarda por cima."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-08-04T13:05:05+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
+          "bank_id": "25205263",
+          "credit": "Adriano Bragi",
+          "query": "Filé Mignon com Molho Mostarda"
+        },
+        "id": "file-mignon-com-molho-mostarda-e440930e"
+      },
+      {
+        "nome": "Patê de Alho Assado",
+        "curso": "entrada",
+        "tempo": "45 minutos",
+        "porque": "Uma entrada saborosa e cremosa, ideal para acompanhar pães e torradas. O alho assado confere um sabor suave e adocicado, sendo fácil de preparar no forno e com potencial para sobras.",
+        "tags": [
+          "vegetariano",
+          "forno",
+          "entrada",
+          "cremoso"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de maminha",
-          "Azeite a gosto",
-          "Sal a gosto",
-          "Manteiga a gosto"
+          "1 cabeça de alho",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta do reino a gosto",
+          "2 colheres (sopa) de maionese",
+          "2 colheres (sopa) de requeijão",
+          "2 colheres (sopa) de cebolinha picada"
         ],
         "preparo": [
-          "Tempere a maminha com azeite e sal a gosto.",
-          "Pré-aqueça a Airfryer a 180ºC.",
-          "Coloque a maminha na Airfryer e asse por 40 minutos.",
-          "A cada 10 minutos, abra a Airfryer e vire a carne para um cozimento uniforme.",
-          "Ao final do tempo, retire a maminha e coloque-a em uma tábua de madeira.",
-          "Deixe a carne descansar por 5 minutos antes de cortar.",
-          "Corte em fatias e pincele manteiga a gosto para finalizar."
+          "Corte a ponta de cima da cabeça de alho, tempere com sal e pimenta do reino.",
+          "Coloque em uma forma, regue com um fio de azeite e leve ao forno pré-aquecido a 200ºC.",
+          "Asse por cerca de 30 minutos ou até o alho ficar macio e levemente tostado.",
+          "Retire o alho do forno, esprema os dentes para fora da casca em um recipiente e amasse bem.",
+          "Junte a maionese, o requeijão e a cebolinha picada.",
+          "Acerte o sal e a pimenta do reino, misture tudo e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
           "suggested_url": "",
-          "checked_at": "2026-08-03T13:42:44+00:00"
+          "checked_at": "2026-08-04T13:05:05+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/3660/food-restaurant-dinner-lunch.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife servido com batatas e fatias de tomate fresco. Perfeito para o almoço ou jantar.",
-          "bank_id": "3660",
-          "credit": "JÉSHOOTS",
-          "query": "Maminha na Airfryer"
-        },
-        "id": "maminha-na-airfryer-593a2391"
-      },
-      {
-        "nome": "Salada de Lentilha Rápida",
-        "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada leve, nutritiva e prática, pronta em poucos minutos. A lentilha é uma leguminosa rica em fibras e proteínas, combinada com vegetais frescos para um bom equilíbrio. Não está na lista de pratos a evitar e é uma ótima opção para começar a refeição.",
-        "tags": [
-          "vegetariano",
-          "rapido",
-          "saudavel",
-          "salada"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 xícara de lentilha cozida",
-          "1 cenoura ralada",
-          "1/2 cebola roxa picada em cubos pequenos",
-          "1/2 xícara de milho verde",
-          "1/2 pimentão vermelho picado em cubos pequenos",
-          "Suco de 1 limão",
-          "3 colheres de sopa de azeite de oliva",
-          "Sal e pimenta-do-reino a gosto",
-          "Salsinha ou cebolinha picada para finalizar"
-        ],
-        "preparo": [
-          "Se usar lentilhas secas, cozinhe-as em água com sal até ficarem macias (cerca de 20 minutos). Se usar enlatadas, apenas enxágue-as.",
-          "Em uma tigela grande, misture as lentilhas cozidas com a cenoura ralada, a cebola roxa, o milho verde e o pimentão vermelho.",
-          "Adicione o suco de limão, o azeite de oliva, sal e pimenta-do-reino a gosto.",
-          "Misture bem todos os ingredientes para incorporar os sabores.",
-          "Finalize com salsinha ou cebolinha picada antes de servir."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-03T13:42:44+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/8934919/pexels-photo-8934919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma salada de legumes fresca e deliciosa com lentilhas e milho servida em uma tigela branca.",
-          "bank_id": "8934919",
+          "url": "https://images.pexels.com/photos/8840884/pexels-photo-8840884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de um prato gourmet com alho assado e carnes variadas em um prato branco.",
+          "bank_id": "8840884",
           "credit": "makafood",
-          "query": "Salada de Lentilha Rápida"
+          "query": "Patê de Alho Assado"
         },
-        "id": "salada-de-lentilha-rapida-84874f1e"
+        "id": "pate-de-alho-assado-fdaccafc"
       },
       {
-        "nome": "Creme de Abacate com Cacau",
+        "nome": "S'mores Garoto",
         "curso": "sobremesa",
-        "tempo": "15 minutos (incluindo resfriamento)",
-        "porque": "Uma sobremesa rápida, saudável e deliciosa, perfeita para um casal jovem. É rica em gorduras boas do abacate e antioxidantes do cacau, oferecendo um doce sem culpa. Fica pronta em minutos e pode ser resfriada para uma textura ainda mais agradável.",
+        "tempo": "15 minutos",
+        "porque": "Uma sobremesa rápida, divertida e deliciosa, perfeita para um toque doce e indulgente. Utiliza forno, sem fritura, e é muito prática para finalizar o jantar.",
         "tags": [
-          "saudavel",
-          "rapido",
           "doce",
-          "sem_forno"
+          "forno",
+          "chocolate",
+          "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 abacate maduro",
-          "2 colheres (sopa) de cacau 100%",
-          "1 colher (chá) de essência de baunilha (opcional)",
-          "2 colheres (sopa) de creme de leite",
-          "Adoçante a gosto"
+          "1 pacote de biscoito NEGRESCO (ou similar)",
+          "1 barra de Chocolate GAROTO picado (cerca de 80g)",
+          "1 pacote de marshmallow para assar (cerca de 80g)"
         ],
         "preparo": [
-          "Descasque o abacate, retire o caroço e coloque a polpa no liquidificador.",
-          "Adicione o cacau 100%, a essência de baunilha (se usar), o creme de leite e o adoçante a gosto.",
-          "Bata todos os ingredientes até obter um creme liso e homogêneo.",
-          "Transfira o creme para taças individuais.",
-          "Leve à geladeira por pelo menos 1 hora para firmar e gelar.",
-          "Sirva com raspas de chocolate 70% ou um toque de canela, se desejar."
+          "Em um refratário pequeno, faça uma camada com os biscoitos NEGRESCO.",
+          "Cubra com o Chocolate GAROTO picado.",
+          "Disponha o marshmallow por cima do chocolate.",
+          "Leve ao forno médio (180°C), preaquecido, por cerca de 15 minutos ou até dourar.",
+          "Sirva quente, com colher."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-03T13:42:45+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/smores-garoto",
+          "checked_at": "2026-08-04T13:05:06+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/17478677/pexels-photo-17478677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma foto em close de camarões servidos em sopa de abacate em uma tigela decorativa, guarnecida com creme e ervas.",
-          "bank_id": "17478677",
-          "credit": "Nadin Sh",
-          "query": "Creme de Abacate com Cacau"
+          "url": "https://images.pexels.com/photos/32066903/pexels-photo-32066903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de uma sobremesa clássica de s'mores com chocolate derretido e marshmallows tostados.",
+          "bank_id": "32066903",
+          "credit": "Miro Vrlik",
+          "query": "S'mores Garoto"
         },
-        "id": "creme-de-abacate-com-cacau-f9bf811e"
+        "id": "s-mores-garoto-e621acf8"
       }
     ]
   },

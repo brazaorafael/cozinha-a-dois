@@ -994,5 +994,53 @@
     ],
     "data": "03/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "jardineira-de-novilho-b02648f2",
+    "titulo": "Jardineira de Novilho",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "legumes",
+      "sobra"
+    ],
+    "data": "04/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-mignon-com-molho-mostarda-e440930e",
+    "titulo": "Filé Mignon com Molho Mostarda",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "grelhado",
+      "molho"
+    ],
+    "data": "04/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pate-de-alho-assado-fdaccafc",
+    "titulo": "Patê de Alho Assado",
+    "tags": [
+      "vegetariano",
+      "forno",
+      "entrada",
+      "cremoso"
+    ],
+    "data": "04/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "s-mores-garoto-e621acf8",
+    "titulo": "S'mores Garoto",
+    "tags": [
+      "doce",
+      "forno",
+      "chocolate",
+      "rapido"
+    ],
+    "data": "04/08/2026",
+    "fonte_status": "unverified"
   }
 ]
