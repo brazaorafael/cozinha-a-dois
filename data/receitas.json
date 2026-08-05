@@ -1,93 +1,88 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-04T10:02:53-03:00",
+  "gerado_em": "2026-08-05T09:52:50-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "04/08/2026",
-    "dia_semana": "terça",
+    "data": "05/08/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Jardineira de Novilho",
+        "nome": "Rosbife de Lagarto na Air Fryer da Rita Lobo",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Prato principal robusto com carne vermelha e legumes, ideal para um jantar nutritivo e com potencial de sobras para o almoço. Preparo em panela, sem fritura, garantindo um equilíbrio de sabores e nutrientes.",
+        "tempo": "30-40 minutos",
+        "porque": "Carne vermelha preferida, utiliza a Air Fryer para um preparo prático e com pouca gordura, resultando em uma carne suculenta e com crosta saborosa. Rende bem para sobras.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "legumes",
-          "sobra"
+          "air_fryer",
+          "rapido",
+          "proteico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 fio de azeite",
-          "1 cebola picada",
-          "3 dentes de alho picados",
-          "1 folha de louro",
-          "Vinho branco, q.b.",
-          "600g de novilho em cubos",
-          "5 colheres (sopa) de polpa de tomate",
-          "Sal e pimenta, q.b.",
-          "150g de batata em cubos",
-          "2 cenouras em cubos",
-          "100g de ervilhas"
+          "1 peça de lagarto (800 g)",
+          "1 colher (sopa) de sal grosso",
+          "3 colheres (chá) de páprica doce",
+          "½ colher (chá) de pimenta-do-reino em grãos",
+          "2 colheres (chá) de azeite"
         ],
         "preparo": [
-          "Em um tacho, refogue a cebola e os alhos em um fio de azeite com a folha de louro.",
-          "Adicione um pouco de vinho branco e deixe evaporar.",
-          "Junte a carne de novilho em cubos, a polpa de tomate, tempere com sal e pimenta, e cozinhe por alguns instantes.",
-          "Acrescente a batata e a cenoura em cubos, cubra com água, mexa e cozinhe por 20 minutos.",
-          "Após esse tempo, adicione as ervilhas e cozinhe por mais 5 minutos.",
-          "Retire do lume e sirva imediatamente."
+          "Retire a capa de gordura do lagarto, se houver, e seque bem a carne com papel-toalha.",
+          "Num pilão, amasse a pimenta-do-reino em grãos. Transfira para uma tigela e misture com o sal grosso e a páprica doce.",
+          "Regue a peça de lagarto com o azeite e esfregue a mistura de temperos por toda a carne.",
+          "Preaqueça a Air Fryer a 200 °C. Coloque o lagarto na cesta da Air Fryer e asse por 15 minutos.",
+          "Vire a carne e asse por mais 15 minutos, ou até dourar por fora e ficar rosado por dentro.",
+          "Retire o rosbife da Air Fryer, coloque sobre uma grade e deixe descansar por 5 minutos antes de fatiar.",
+          "Fatie o rosbife finamente e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-04T13:05:04+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Rosbife-de-lagarto-na-Air-Fryer-da-Rita-Lobo",
+          "checked_at": "2026-08-05T12:54:39+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/28893437/pexels-photo-28893437.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma exibição apetitosa de pratos mistos, incluindo fritas, salada e arroz, em uma mesa de madeira ao ar livre.",
-          "bank_id": "28893437",
-          "credit": "pedro furtado",
-          "query": "Jardineira de Novilho"
+          "url": "https://images.pexels.com/photos/11179202/pexels-photo-11179202.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um delicioso rosbife temperado com ervas e decorado com tomates-cereja, perfeito para uma refeição gourmet.",
+          "bank_id": "11179202",
+          "credit": "Hadis Padidaran",
+          "query": "Rosbife de Lagarto na Air Fryer da Rita Lobo"
         },
-        "id": "jardineira-de-novilho-b02648f2"
+        "id": "rosbife-de-lagarto-na-air-fryer-da-rita-lobo-33b89a4a"
       },
       {
         "nome": "Filé Mignon com Molho Mostarda",
         "curso": "principal",
         "tempo": "20 minutos",
-        "porque": "Uma opção rápida e elegante de carne vermelha, perfeita para um jantar a dois. O molho cremoso de mostarda adiciona um toque especial, e o preparo na frigideira é prático e rápido.",
+        "porque": "Carne vermelha preferida, fácil e rápido de preparar, ideal para duas pessoas e com um molho cremoso e saboroso.",
         "tags": [
           "carne_vermelha",
+          "refogado",
           "rapido",
-          "grelhado",
-          "molho"
+          "jantar_a_dois"
         ],
         "rende_sobra": false,
         "ingredientes": [
           "2 medalhões de filé mignon",
           "1 colher (café) de sal",
           "1 colher (café) de pimenta-do-reino preta em pó",
-          "1 colher de sopa de azeite de oliva extra virgem",
+          "1 colher (sopa) de azeite de oliva extra virgem",
           "1/2 xícara de chá de creme de leite fresco",
           "1 colher de sopa de Mostarda Hellmann's"
         ],
         "preparo": [
-          "Tempere os filés mignon com sal e pimenta do reino.",
-          "Aqueça uma frigideira ou grelha com o azeite.",
-          "Doure os dois lados dos medalhões por 3 minutos de cada lado para carne ao ponto.",
-          "Em uma panela pequena, aqueça o creme de leite fresco até engrossar levemente.",
-          "Adicione a mostarda ao creme de leite e misture bem.",
-          "Sirva os medalhões com o molho de mostarda por cima."
+          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino.",
+          "Em uma frigideira, aqueça o azeite em fogo médio-alto.",
+          "Doure os medalhões por cerca de 3-4 minutos de cada lado, ou até atingir o ponto desejado. Retire da frigideira e reserve.",
+          "Na mesma frigideira, adicione o creme de leite fresco e a mostarda.",
+          "Misture bem e deixe o molho aquecer e encorpar levemente.",
+          "Retorne os medalhões à frigideira para envolver no molho e sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
           "suggested_url": "",
-          "checked_at": "2026-08-04T13:05:05+00:00"
+          "checked_at": "2026-08-05T12:54:39+00:00"
         },
         "imagem": {
           "kind": "bank",
@@ -100,88 +95,93 @@
         "id": "file-mignon-com-molho-mostarda-e440930e"
       },
       {
-        "nome": "Patê de Alho Assado",
+        "nome": "Salada de Pepino com Iogurte e Hortelã",
         "curso": "entrada",
-        "tempo": "45 minutos",
-        "porque": "Uma entrada saborosa e cremosa, ideal para acompanhar pães e torradas. O alho assado confere um sabor suave e adocicado, sendo fácil de preparar no forno e com potencial para sobras.",
+        "tempo": "10 minutos",
+        "porque": "Entrada leve e refrescante, rápida e fácil de preparar, ideal para equilibrar o jantar.",
         "tags": [
+          "salada",
           "vegetariano",
-          "forno",
-          "entrada",
-          "cremoso"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 cabeça de alho",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta do reino a gosto",
-          "2 colheres (sopa) de maionese",
-          "2 colheres (sopa) de requeijão",
-          "2 colheres (sopa) de cebolinha picada"
-        ],
-        "preparo": [
-          "Corte a ponta de cima da cabeça de alho, tempere com sal e pimenta do reino.",
-          "Coloque em uma forma, regue com um fio de azeite e leve ao forno pré-aquecido a 200ºC.",
-          "Asse por cerca de 30 minutos ou até o alho ficar macio e levemente tostado.",
-          "Retire o alho do forno, esprema os dentes para fora da casca em um recipiente e amasse bem.",
-          "Junte a maionese, o requeijão e a cebolinha picada.",
-          "Acerte o sal e a pimenta do reino, misture tudo e sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-04T13:05:05+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/8840884/pexels-photo-8840884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de um prato gourmet com alho assado e carnes variadas em um prato branco.",
-          "bank_id": "8840884",
-          "credit": "makafood",
-          "query": "Patê de Alho Assado"
-        },
-        "id": "pate-de-alho-assado-fdaccafc"
-      },
-      {
-        "nome": "S'mores Garoto",
-        "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Uma sobremesa rápida, divertida e deliciosa, perfeita para um toque doce e indulgente. Utiliza forno, sem fritura, e é muito prática para finalizar o jantar.",
-        "tags": [
-          "doce",
-          "forno",
-          "chocolate",
-          "rapido"
+          "rapido",
+          "refrescante"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pacote de biscoito NEGRESCO (ou similar)",
-          "1 barra de Chocolate GAROTO picado (cerca de 80g)",
-          "1 pacote de marshmallow para assar (cerca de 80g)"
+          "2 pepinos japoneses",
+          "1 pote de iogurte natural sem açúcar (170 g)",
+          "1 colher (sopa) de azeite",
+          "20 folhas de hortelã",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Em um refratário pequeno, faça uma camada com os biscoitos NEGRESCO.",
-          "Cubra com o Chocolate GAROTO picado.",
-          "Disponha o marshmallow por cima do chocolate.",
-          "Leve ao forno médio (180°C), preaquecido, por cerca de 15 minutos ou até dourar.",
-          "Sirva quente, com colher."
+          "Lave e seque os pepinos. Corte as pontas e fatie-os em rodelas finas usando um fatiador de legumes.",
+          "Lave e seque as folhas de hortelã.",
+          "Em uma tigela média, junte o pepino fatiado, as folhas de hortelã e o iogurte natural.",
+          "Tempere com o azeite e sal a gosto.",
+          "Misture delicadamente todos os ingredientes.",
+          "Sirva a seguir ou mantenha na geladeira por até 20 minutos para ficar mais gostosa."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/smores-garoto",
-          "checked_at": "2026-08-04T13:05:06+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-pepino-com-iogurte-e-hortela",
+          "checked_at": "2026-08-05T12:54:40+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/32066903/pexels-photo-32066903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de uma sobremesa clássica de s'mores com chocolate derretido e marshmallows tostados.",
-          "bank_id": "32066903",
-          "credit": "Miro Vrlik",
-          "query": "S'mores Garoto"
+          "url": "https://images.pexels.com/photos/36929190/pexels-photo-36929190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma salada vibrante de tomate e pepino com uma folha de hortelã como guarnição, servida em um prato de vidro decorativo.",
+          "bank_id": "36929190",
+          "credit": "Christina & Peter",
+          "query": "Salada de Pepino com Iogurte e Hortelã"
         },
-        "id": "s-mores-garoto-e621acf8"
+        "id": "salada-de-pepino-com-iogurte-e-hortela-af852756"
+      },
+      {
+        "nome": "Crumble de Frutas Vermelhas",
+        "curso": "sobremesa",
+        "tempo": "30 minutos",
+        "porque": "Sobremesa fácil e rápida de forno, com frutas e uma farofa crocante, perfeita para um jantar a dois e com potencial para sobras.",
+        "tags": [
+          "sobremesa",
+          "frutas",
+          "forno",
+          "facil"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "100 g de manteiga",
+          "1 xícara (chá) de farinha de trigo",
+          "1/2 xícara (chá) de açúcar",
+          "1 pitada de sal",
+          "2 xícaras (chá) de frutas vermelhas (frescas ou congeladas)",
+          "1/4 xícara (chá) de açúcar (para as frutas)",
+          "Suco de 1/2 limão (opcional, para as frutas)"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 180°C.",
+          "Em uma tigela, misture a manteiga gelada em cubos com a farinha de trigo, o açúcar e a pitada de sal, usando a ponta dos dedos, até formar uma farofa. Reserve.",
+          "Em outro recipiente, misture as frutas vermelhas com o açúcar e o suco de limão (se usar).",
+          "Distribua as frutas em um refratário único ou em refratários individuais untados com manteiga.",
+          "Cubra as frutas com a farofa reservada, pressionando levemente.",
+          "Leve ao forno preaquecido por cerca de 20-25 minutos, ou até a farofa dourar e as frutas borbulharem.",
+          "Sirva quente, acompanhado de sorvete ou creme, se desejar."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receita/crumble-de-frutas-vermelhas-ana-maria-braga-1-1/",
+          "checked_at": "2026-08-05T12:54:41+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/226632/pexels-photo-226632.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de uma deliciosa torta caseira de frutas vermelhas sobre uma superfície de madeira, perfeita para sobremesas.",
+          "bank_id": "226632",
+          "credit": "freestocks.org",
+          "query": "Crumble de Frutas Vermelhas"
+        },
+        "id": "crumble-de-frutas-vermelhas-f770e031"
       }
     ]
   },

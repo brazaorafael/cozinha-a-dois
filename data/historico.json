@@ -1042,5 +1042,41 @@
     ],
     "data": "04/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "rosbife-de-lagarto-na-air-fryer-da-rita-lobo-33b89a4a",
+    "titulo": "Rosbife de Lagarto na Air Fryer da Rita Lobo",
+    "tags": [
+      "carne_vermelha",
+      "air_fryer",
+      "rapido",
+      "proteico"
+    ],
+    "data": "05/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-pepino-com-iogurte-e-hortela-af852756",
+    "titulo": "Salada de Pepino com Iogurte e Hortelã",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "rapido",
+      "refrescante"
+    ],
+    "data": "05/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "crumble-de-frutas-vermelhas-f770e031",
+    "titulo": "Crumble de Frutas Vermelhas",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "forno",
+      "facil"
+    ],
+    "data": "05/08/2026",
+    "fonte_status": "unverified"
   }
 ]
