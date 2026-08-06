@@ -1078,5 +1078,53 @@
     ],
     "data": "05/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "rocambole-de-carne-moida-recheada-2f74b4d5",
+    "titulo": "Rocambole de Carne Moída Recheada",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "facil",
+      "jantar"
+    ],
+    "data": "06/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-em-tiras-com-legumes-57f34f09",
+    "titulo": "Carne em Tiras com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "legumes",
+      "facil"
+    ],
+    "data": "06/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "petisco-de-azeitonas-queijo-tomate-azeite-e-erva-b71e5b91",
+    "titulo": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
+    "tags": [
+      "entrada",
+      "rapido",
+      "facil",
+      "sem_forno"
+    ],
+    "data": "06/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "pave-de-limao-na-travessa-2ce0ea7a",
+    "titulo": "Pavê de Limão na Travessa",
+    "tags": [
+      "sobremesa",
+      "facil",
+      "gelado",
+      "sem_forno"
+    ],
+    "data": "06/08/2026",
+    "fonte_status": "unverified"
   }
 ]

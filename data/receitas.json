@@ -1,187 +1,204 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-05T09:52:50-03:00",
+  "gerado_em": "2026-08-06T09:57:03-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "05/08/2026",
-    "dia_semana": "quarta",
+    "data": "06/08/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Rosbife de Lagarto na Air Fryer da Rita Lobo",
+        "nome": "Rocambole de Carne Moída Recheada",
         "curso": "principal",
-        "tempo": "30-40 minutos",
-        "porque": "Carne vermelha preferida, utiliza a Air Fryer para um preparo prático e com pouca gordura, resultando em uma carne suculenta e com crosta saborosa. Rende bem para sobras.",
+        "tempo": "40 min",
+        "porque": "Carne vermelha, assado no forno, tempo de preparo adequado e ingredientes acessíveis. Permite sobras para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "air_fryer",
-          "rapido",
-          "proteico"
+          "forno",
+          "facil",
+          "jantar"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de lagarto (800 g)",
-          "1 colher (sopa) de sal grosso",
-          "3 colheres (chá) de páprica doce",
-          "½ colher (chá) de pimenta-do-reino em grãos",
-          "2 colheres (chá) de azeite"
+          "1 Kg de carne moída",
+          "1 envelope de MAGGI® Creme de Cebola",
+          "Meia cebola ralada",
+          "2 ramos de tomilho",
+          "2 pitadas de pimenta-do-reino preta moída",
+          "180g de queijo mozarela",
+          "100g de presunto fatiado",
+          "10 fatias de bacon em tiras",
+          "1 tomate grande picado em cubos pequenos",
+          "1 colher (sopa) de orégano",
+          "200g de azeitona sem caroço picada",
+          "3 colheres (sopa) de azeite",
+          "200g de NESTLÉ® Requeijão Cremoso",
+          "100g de queijo parmesão"
         ],
         "preparo": [
-          "Retire a capa de gordura do lagarto, se houver, e seque bem a carne com papel-toalha.",
-          "Num pilão, amasse a pimenta-do-reino em grãos. Transfira para uma tigela e misture com o sal grosso e a páprica doce.",
-          "Regue a peça de lagarto com o azeite e esfregue a mistura de temperos por toda a carne.",
-          "Preaqueça a Air Fryer a 200 °C. Coloque o lagarto na cesta da Air Fryer e asse por 15 minutos.",
-          "Vire a carne e asse por mais 15 minutos, ou até dourar por fora e ficar rosado por dentro.",
-          "Retire o rosbife da Air Fryer, coloque sobre uma grade e deixe descansar por 5 minutos antes de fatiar.",
-          "Fatie o rosbife finamente e sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Rosbife-de-lagarto-na-Air-Fryer-da-Rita-Lobo",
-          "checked_at": "2026-08-05T12:54:39+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/11179202/pexels-photo-11179202.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um delicioso rosbife temperado com ervas e decorado com tomates-cereja, perfeito para uma refeição gourmet.",
-          "bank_id": "11179202",
-          "credit": "Hadis Padidaran",
-          "query": "Rosbife de Lagarto na Air Fryer da Rita Lobo"
-        },
-        "id": "rosbife-de-lagarto-na-air-fryer-da-rita-lobo-33b89a4a"
-      },
-      {
-        "nome": "Filé Mignon com Molho Mostarda",
-        "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Carne vermelha preferida, fácil e rápido de preparar, ideal para duas pessoas e com um molho cremoso e saboroso.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "rapido",
-          "jantar_a_dois"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 medalhões de filé mignon",
-          "1 colher (café) de sal",
-          "1 colher (café) de pimenta-do-reino preta em pó",
-          "1 colher (sopa) de azeite de oliva extra virgem",
-          "1/2 xícara de chá de creme de leite fresco",
-          "1 colher de sopa de Mostarda Hellmann's"
-        ],
-        "preparo": [
-          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino.",
-          "Em uma frigideira, aqueça o azeite em fogo médio-alto.",
-          "Doure os medalhões por cerca de 3-4 minutos de cada lado, ou até atingir o ponto desejado. Retire da frigideira e reserve.",
-          "Na mesma frigideira, adicione o creme de leite fresco e a mostarda.",
-          "Misture bem e deixe o molho aquecer e encorpar levemente.",
-          "Retorne os medalhões à frigideira para envolver no molho e sirva imediatamente."
+          "Em um recipiente, misture bem a carne moída com o MAGGI® Creme de Cebola, a cebola ralada, o tomilho e a pimenta-do-reino até ficar homogêneo.",
+          "Abra a mistura de carne moída sobre um plástico-filme em formato retangular, com cerca de 1 cm de espessura.",
+          "Disponha as fatias de queijo muçarela e presunto sobre a carne, deixando uma borda.",
+          "Espalhe o tomate picado, o orégano, as azeitonas picadas e o NESTLÉ® Requeijão Cremoso.",
+          "Com a ajuda do plástico-filme, enrole a carne, formando um rocambole. Pressione bem para fechar as laterais.",
+          "Transfira o rocambole para uma assadeira untada, cubra com papel alumínio e leve ao forno pré-aquecido a 200°C por cerca de 25 minutos.",
+          "Retire o papel alumínio, espalhe as fatias de bacon e o queijo parmesão por cima e retorne ao forno para dourar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
           "suggested_url": "",
-          "checked_at": "2026-08-05T12:54:39+00:00"
+          "checked_at": "2026-08-06T12:58:54+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
-          "bank_id": "25205263",
-          "credit": "Adriano Bragi",
-          "query": "Filé Mignon com Molho Mostarda"
+          "url": "https://images.pexels.com/photos/7489008/pexels-photo-7489008.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne moída crua em uma tigela de vidro com ingredientes sendo preparados nas proximidades.",
+          "bank_id": "7489008",
+          "credit": "Gustavo Fring",
+          "query": "Rocambole de Carne Moída Recheada"
         },
-        "id": "file-mignon-com-molho-mostarda-e440930e"
+        "id": "rocambole-de-carne-moida-recheada-2f74b4d5"
       },
       {
-        "nome": "Salada de Pepino com Iogurte e Hortelã",
-        "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Entrada leve e refrescante, rápida e fácil de preparar, ideal para equilibrar o jantar.",
+        "nome": "Carne em Tiras com Legumes",
+        "curso": "principal",
+        "tempo": "40min",
+        "porque": "Carne vermelha, refogada com diversos legumes, pronta em 40 minutos. É uma opção equilibrada e prática que rende sobras.",
         "tags": [
-          "salada",
-          "vegetariano",
-          "rapido",
-          "refrescante"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 pepinos japoneses",
-          "1 pote de iogurte natural sem açúcar (170 g)",
-          "1 colher (sopa) de azeite",
-          "20 folhas de hortelã",
-          "Sal a gosto"
-        ],
-        "preparo": [
-          "Lave e seque os pepinos. Corte as pontas e fatie-os em rodelas finas usando um fatiador de legumes.",
-          "Lave e seque as folhas de hortelã.",
-          "Em uma tigela média, junte o pepino fatiado, as folhas de hortelã e o iogurte natural.",
-          "Tempere com o azeite e sal a gosto.",
-          "Misture delicadamente todos os ingredientes.",
-          "Sirva a seguir ou mantenha na geladeira por até 20 minutos para ficar mais gostosa."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-pepino-com-iogurte-e-hortela",
-          "checked_at": "2026-08-05T12:54:40+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/36929190/pexels-photo-36929190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma salada vibrante de tomate e pepino com uma folha de hortelã como guarnição, servida em um prato de vidro decorativo.",
-          "bank_id": "36929190",
-          "credit": "Christina & Peter",
-          "query": "Salada de Pepino com Iogurte e Hortelã"
-        },
-        "id": "salada-de-pepino-com-iogurte-e-hortela-af852756"
-      },
-      {
-        "nome": "Crumble de Frutas Vermelhas",
-        "curso": "sobremesa",
-        "tempo": "30 minutos",
-        "porque": "Sobremesa fácil e rápida de forno, com frutas e uma farofa crocante, perfeita para um jantar a dois e com potencial para sobras.",
-        "tags": [
-          "sobremesa",
-          "frutas",
-          "forno",
+          "carne_vermelha",
+          "refogado",
+          "legumes",
           "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "100 g de manteiga",
-          "1 xícara (chá) de farinha de trigo",
-          "1/2 xícara (chá) de açúcar",
-          "1 pitada de sal",
-          "2 xícaras (chá) de frutas vermelhas (frescas ou congeladas)",
-          "1/4 xícara (chá) de açúcar (para as frutas)",
-          "Suco de 1/2 limão (opcional, para as frutas)"
+          "600g de bife de alcatra em tiras",
+          "Sal, pimenta-do-reino e cheiro-verde picado a gosto",
+          "4 colheres (sopa) de óleo",
+          "1 cebola em pétalas",
+          "1 tomate sem semente em tiras",
+          "1 cenoura em fatias finas",
+          "1 xícara (chá) de brócolis cozido em buquês",
+          "1 xícara (chá) de couve-flor cozida em buquês",
+          "1/2 xícara (chá) de champignon em lâminas",
+          "1 colher (chá) de maisena",
+          "1/2 xícara (chá) de molho de soja (shoyu)",
+          "1/3 de xícara (chá) de água"
         ],
         "preparo": [
-          "Preaqueça o forno a 180°C.",
-          "Em uma tigela, misture a manteiga gelada em cubos com a farinha de trigo, o açúcar e a pitada de sal, usando a ponta dos dedos, até formar uma farofa. Reserve.",
-          "Em outro recipiente, misture as frutas vermelhas com o açúcar e o suco de limão (se usar).",
-          "Distribua as frutas em um refratário único ou em refratários individuais untados com manteiga.",
-          "Cubra as frutas com a farofa reservada, pressionando levemente.",
-          "Leve ao forno preaquecido por cerca de 20-25 minutos, ou até a farofa dourar e as frutas borbulharem.",
-          "Sirva quente, acompanhado de sorvete ou creme, se desejar."
+          "Tempere a carne em tiras com sal e pimenta-do-reino a gosto.",
+          "Aqueça o óleo em uma panela em fogo alto e doure a carne. Retire e reserve.",
+          "Na mesma panela, junte a cebola, o tomate e a cenoura, refogando por 4 minutos.",
+          "Adicione o brócolis, a couve-flor e o champignon, refogando por mais 2 minutos.",
+          "Retorne a carne reservada à panela.",
+          "Dissolva a maisena no molho de soja e na água misturados, e adicione ao refogado.",
+          "Misture até o molho engrossar levemente. Transfira para uma travessa, polvilhe com cheiro-verde e sirva."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://guiadacozinha.com.br/receitas/carne-em-tiras-com-legumes/",
+          "title": "Carne em tiras com legumes",
+          "domain": "guiadacozinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-06T12:58:55+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://guiadacozinha.com.br/wp-content/uploads/2020/01/carne-tiras-legumes.jpg",
+          "alt": "Carne em Tiras com Legumes"
+        },
+        "id": "carne-em-tiras-com-legumes-57f34f09"
+      },
+      {
+        "nome": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
+        "curso": "entrada",
+        "tempo": "10 min",
+        "porque": "Entrada rápida, prática e refrescante, pronta em apenas 10 minutos, ideal para um casal jovem.",
+        "tags": [
+          "entrada",
+          "rapido",
+          "facil",
+          "sem_forno"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "Meia xícara (chá) de azeitonas pretas sem caroço",
+          "Meia xícara (chá) de azeitonas verdes sem caroço",
+          "Meia xícara (chá) de queijo parmesão em cubos",
+          "Meia xícara (chá) de tomate-cereja",
+          "2 dentes de alho em fatias",
+          "Meia xícara (chá) de azeite",
+          "2 colheres (sopa) de vinagre balsâmico",
+          "1 sachê de MAGGI Natusabor Salsinha, Orégano, Cebolinha",
+          "1 pitada de pimenta-do-reino",
+          "Meia colher (chá) de pimenta-rosa",
+          "4 ramos de alecrim fresco"
+        ],
+        "preparo": [
+          "Em um recipiente, misture todos os ingredientes: azeitonas pretas e verdes, queijo parmesão em cubos, tomate-cereja, alho em fatias, azeite, vinagre balsâmico, MAGGI Natusabor, pimenta-do-reino e pimenta-rosa.",
+          "Adicione os ramos de alecrim fresco.",
+          "Misture bem para que todos os sabores se incorporem.",
+          "Reserve em geladeira até o momento de servir para tomar gosto.",
+          "Sirva com fatias de pão italiano."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/petisco-de-azeitonas-queijo-tomate-azeite-e-ervas",
+          "title": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-06T12:58:55+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/36fe0061758aef710ecaa60fc46f29d9.jpg",
+          "alt": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas"
+        },
+        "id": "petisco-de-azeitonas-queijo-tomate-azeite-e-erva-b71e5b91"
+      },
+      {
+        "nome": "Pavê de Limão na Travessa",
+        "curso": "sobremesa",
+        "tempo": "80 min",
+        "porque": "Sobremesa refrescante, fácil de preparar e não requer forno. O tempo de preparo ativo é rápido, com o restante sendo tempo de geladeira para firmar.",
+        "tags": [
+          "sobremesa",
+          "facil",
+          "gelado",
+          "sem_forno"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "Creme:",
+          "2 latas de Leite Condensado MOÇA®",
+          "Suco de 3 a 4 limões (limão-tahiti ou limão-siciliano)",
+          "1 caixinha de NESTLÉ® Creme de Leite (200 g)",
+          "Montagem:",
+          "1 pacote de Biscoito TOSTINES® Maisena"
+        ],
+        "preparo": [
+          "Em um liquidificador, bata o Leite Condensado MOÇA®, o suco de limão e o NESTLÉ® Creme de Leite até obter um creme homogêneo e encorpado.",
+          "Em uma travessa, faça uma camada de Biscoito TOSTINES® Maisena.",
+          "Cubra os biscoitos com uma camada do creme de limão.",
+          "Repita as camadas de biscoito e creme, finalizando com uma camada de creme.",
+          "Leve à geladeira por pelo menos 4 horas para firmar e gelar bem.",
+          "Se desejar, decore com raspas de limão antes de servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/crumble-de-frutas-vermelhas-ana-maria-braga-1-1/",
-          "checked_at": "2026-08-05T12:54:41+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/pave-de-limao-na-travessa",
+          "checked_at": "2026-08-06T12:58:56+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/226632/pexels-photo-226632.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de uma deliciosa torta caseira de frutas vermelhas sobre uma superfície de madeira, perfeita para sobremesas.",
-          "bank_id": "226632",
-          "credit": "freestocks.org",
-          "query": "Crumble de Frutas Vermelhas"
+          "url": "https://images.pexels.com/photos/28992229/pexels-photo-28992229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Bolinhos fritos crocantes servidos com limão fresco e tomate fatiado sobre uma cama de alface.",
+          "bank_id": "28992229",
+          "credit": "pedro furtado",
+          "query": "Pavê de Limão na Travessa"
         },
-        "id": "crumble-de-frutas-vermelhas-f770e031"
+        "id": "pave-de-limao-na-travessa-2ce0ea7a"
       }
     ]
   },
