@@ -1,204 +1,193 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-06T09:57:03-03:00",
+  "gerado_em": "2026-08-07T08:45:30-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "06/08/2026",
-    "dia_semana": "quinta",
+    "data": "07/08/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Rocambole de Carne Moída Recheada",
+        "nome": "Bife de Alcatra com Molho de Mostarda e Mel",
         "curso": "principal",
-        "tempo": "40 min",
-        "porque": "Carne vermelha, assado no forno, tempo de preparo adequado e ingredientes acessíveis. Permite sobras para o almoço do dia seguinte.",
+        "tempo": "25 minutos",
+        "porque": "Uma excelente opção de carne vermelha, grelhada e pronta em pouco tempo, ideal para um jantar a dois. O molho de mostarda e mel adiciona um toque agridoce delicioso.",
         "tags": [
           "carne_vermelha",
-          "forno",
-          "facil",
-          "jantar"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 Kg de carne moída",
-          "1 envelope de MAGGI® Creme de Cebola",
-          "Meia cebola ralada",
-          "2 ramos de tomilho",
-          "2 pitadas de pimenta-do-reino preta moída",
-          "180g de queijo mozarela",
-          "100g de presunto fatiado",
-          "10 fatias de bacon em tiras",
-          "1 tomate grande picado em cubos pequenos",
-          "1 colher (sopa) de orégano",
-          "200g de azeitona sem caroço picada",
-          "3 colheres (sopa) de azeite",
-          "200g de NESTLÉ® Requeijão Cremoso",
-          "100g de queijo parmesão"
-        ],
-        "preparo": [
-          "Em um recipiente, misture bem a carne moída com o MAGGI® Creme de Cebola, a cebola ralada, o tomilho e a pimenta-do-reino até ficar homogêneo.",
-          "Abra a mistura de carne moída sobre um plástico-filme em formato retangular, com cerca de 1 cm de espessura.",
-          "Disponha as fatias de queijo muçarela e presunto sobre a carne, deixando uma borda.",
-          "Espalhe o tomate picado, o orégano, as azeitonas picadas e o NESTLÉ® Requeijão Cremoso.",
-          "Com a ajuda do plástico-filme, enrole a carne, formando um rocambole. Pressione bem para fechar as laterais.",
-          "Transfira o rocambole para uma assadeira untada, cubra com papel alumínio e leve ao forno pré-aquecido a 200°C por cerca de 25 minutos.",
-          "Retire o papel alumínio, espalhe as fatias de bacon e o queijo parmesão por cima e retorne ao forno para dourar."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-06T12:58:54+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/7489008/pexels-photo-7489008.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne moída crua em uma tigela de vidro com ingredientes sendo preparados nas proximidades.",
-          "bank_id": "7489008",
-          "credit": "Gustavo Fring",
-          "query": "Rocambole de Carne Moída Recheada"
-        },
-        "id": "rocambole-de-carne-moida-recheada-2f74b4d5"
-      },
-      {
-        "nome": "Carne em Tiras com Legumes",
-        "curso": "principal",
-        "tempo": "40min",
-        "porque": "Carne vermelha, refogada com diversos legumes, pronta em 40 minutos. É uma opção equilibrada e prática que rende sobras.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "legumes",
-          "facil"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "600g de bife de alcatra em tiras",
-          "Sal, pimenta-do-reino e cheiro-verde picado a gosto",
-          "4 colheres (sopa) de óleo",
-          "1 cebola em pétalas",
-          "1 tomate sem semente em tiras",
-          "1 cenoura em fatias finas",
-          "1 xícara (chá) de brócolis cozido em buquês",
-          "1 xícara (chá) de couve-flor cozida em buquês",
-          "1/2 xícara (chá) de champignon em lâminas",
-          "1 colher (chá) de maisena",
-          "1/2 xícara (chá) de molho de soja (shoyu)",
-          "1/3 de xícara (chá) de água"
-        ],
-        "preparo": [
-          "Tempere a carne em tiras com sal e pimenta-do-reino a gosto.",
-          "Aqueça o óleo em uma panela em fogo alto e doure a carne. Retire e reserve.",
-          "Na mesma panela, junte a cebola, o tomate e a cenoura, refogando por 4 minutos.",
-          "Adicione o brócolis, a couve-flor e o champignon, refogando por mais 2 minutos.",
-          "Retorne a carne reservada à panela.",
-          "Dissolva a maisena no molho de soja e na água misturados, e adicione ao refogado.",
-          "Misture até o molho engrossar levemente. Transfira para uma travessa, polvilhe com cheiro-verde e sirva."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://guiadacozinha.com.br/receitas/carne-em-tiras-com-legumes/",
-          "title": "Carne em tiras com legumes",
-          "domain": "guiadacozinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-06T12:58:55+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://guiadacozinha.com.br/wp-content/uploads/2020/01/carne-tiras-legumes.jpg",
-          "alt": "Carne em Tiras com Legumes"
-        },
-        "id": "carne-em-tiras-com-legumes-57f34f09"
-      },
-      {
-        "nome": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
-        "curso": "entrada",
-        "tempo": "10 min",
-        "porque": "Entrada rápida, prática e refrescante, pronta em apenas 10 minutos, ideal para um casal jovem.",
-        "tags": [
-          "entrada",
+          "grelhado",
           "rapido",
-          "facil",
-          "sem_forno"
+          "jantar_a_dois"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "Meia xícara (chá) de azeitonas pretas sem caroço",
-          "Meia xícara (chá) de azeitonas verdes sem caroço",
-          "Meia xícara (chá) de queijo parmesão em cubos",
-          "Meia xícara (chá) de tomate-cereja",
-          "2 dentes de alho em fatias",
-          "Meia xícara (chá) de azeite",
-          "2 colheres (sopa) de vinagre balsâmico",
-          "1 sachê de MAGGI Natusabor Salsinha, Orégano, Cebolinha",
-          "1 pitada de pimenta-do-reino",
-          "Meia colher (chá) de pimenta-rosa",
-          "4 ramos de alecrim fresco"
+          "2 bifes de alcatra (cerca de 150g cada)",
+          "Sal e pimenta-do-reino moída a gosto",
+          "1 colher (sopa) de azeite",
+          "2 colheres (sopa) de mostarda Dijon",
+          "1 colher (sopa) de mel",
+          "1 colher (sopa) de água (opcional, para diluir o molho)"
         ],
         "preparo": [
-          "Em um recipiente, misture todos os ingredientes: azeitonas pretas e verdes, queijo parmesão em cubos, tomate-cereja, alho em fatias, azeite, vinagre balsâmico, MAGGI Natusabor, pimenta-do-reino e pimenta-rosa.",
-          "Adicione os ramos de alecrim fresco.",
-          "Misture bem para que todos os sabores se incorporem.",
-          "Reserve em geladeira até o momento de servir para tomar gosto.",
-          "Sirva com fatias de pão italiano."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/petisco-de-azeitonas-queijo-tomate-azeite-e-ervas",
-          "title": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-06T12:58:55+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/36fe0061758aef710ecaa60fc46f29d9.jpg",
-          "alt": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas"
-        },
-        "id": "petisco-de-azeitonas-queijo-tomate-azeite-e-erva-b71e5b91"
-      },
-      {
-        "nome": "Pavê de Limão na Travessa",
-        "curso": "sobremesa",
-        "tempo": "80 min",
-        "porque": "Sobremesa refrescante, fácil de preparar e não requer forno. O tempo de preparo ativo é rápido, com o restante sendo tempo de geladeira para firmar.",
-        "tags": [
-          "sobremesa",
-          "facil",
-          "gelado",
-          "sem_forno"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "Creme:",
-          "2 latas de Leite Condensado MOÇA®",
-          "Suco de 3 a 4 limões (limão-tahiti ou limão-siciliano)",
-          "1 caixinha de NESTLÉ® Creme de Leite (200 g)",
-          "Montagem:",
-          "1 pacote de Biscoito TOSTINES® Maisena"
-        ],
-        "preparo": [
-          "Em um liquidificador, bata o Leite Condensado MOÇA®, o suco de limão e o NESTLÉ® Creme de Leite até obter um creme homogêneo e encorpado.",
-          "Em uma travessa, faça uma camada de Biscoito TOSTINES® Maisena.",
-          "Cubra os biscoitos com uma camada do creme de limão.",
-          "Repita as camadas de biscoito e creme, finalizando com uma camada de creme.",
-          "Leve à geladeira por pelo menos 4 horas para firmar e gelar bem.",
-          "Se desejar, decore com raspas de limão antes de servir."
+          "Tempere os bifes de alcatra com sal e pimenta-do-reino dos dois lados.",
+          "Aqueça o azeite em uma frigideira em fogo médio-alto. Grelhe os bifes por 3 a 4 minutos de cada lado, ou até o ponto desejado.",
+          "Retire os bifes da frigideira e reserve em um prato, cobrindo para manter aquecido.",
+          "Na mesma frigideira, em fogo baixo, adicione a mostarda e o mel. Mexa bem para incorporar os sabores e raspar o fundo da panela.",
+          "Se o molho estiver muito espesso, adicione a água e misture. Cozinhe por mais 1 minuto.",
+          "Regue os bifes com o molho de mostarda e mel e sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/pave-de-limao-na-travessa",
-          "checked_at": "2026-08-06T12:58:56+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bife-de-alcatra-com-molho-de-mostarda-e-mel",
+          "checked_at": "2026-08-07T11:46:45+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/28992229/pexels-photo-28992229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Bolinhos fritos crocantes servidos com limão fresco e tomate fatiado sobre uma cama de alface.",
-          "bank_id": "28992229",
+          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
+          "bank_id": "33673991",
           "credit": "pedro furtado",
-          "query": "Pavê de Limão na Travessa"
+          "query": "Bife de Alcatra com Molho de Mostarda e Mel"
         },
-        "id": "pave-de-limao-na-travessa-2ce0ea7a"
+        "id": "bife-de-alcatra-com-molho-de-mostarda-e-mel-25644c41"
+      },
+      {
+        "nome": "Macarrão com Carne Moída e Abobrinha",
+        "curso": "principal",
+        "tempo": "40 minutos",
+        "porque": "Uma refeição completa e equilibrada, combinando proteína, carboidrato e vegetais. É prática, rápida de preparar e rende uma boa porção que pode servir para o almoço do dia seguinte.",
+        "tags": [
+          "carne_vermelha",
+          "refogado",
+          "equilibrado",
+          "rende_sobra"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "250g de macarrão (espaguete, parafuso ou penne)",
+          "300g de carne moída (patinho ou acém)",
+          "1 abobrinha média",
+          "1 cebola média picada",
+          "2 dentes de alho picados",
+          "1 lata de tomate pelado picado (ou 1 xícara de molho de tomate)",
+          "½ xícara (chá) de água ou caldo de carne",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino a gosto",
+          "Salsinha picada a gosto para finalizar"
+        ],
+        "preparo": [
+          "Cozinhe o macarrão em água fervente com sal, conforme as instruções da embalagem, até ficar al dente. Escorra e reserve.",
+          "Enquanto o macarrão cozinha, lave e corte a abobrinha em cubos pequenos ou em tiras finas (espaguete de abobrinha).",
+          "Em uma panela grande, aqueça o azeite em fogo médio. Refogue a cebola picada até ficar transparente. Adicione o alho e refogue por mais 1 minuto.",
+          "Acrescente a carne moída e tempere com sal e pimenta-do-reino. Refogue, desfazendo os grumos, até a carne perder a cor rosada e dourar levemente.",
+          "Adicione o tomate pelado (ou molho de tomate) e a água (ou caldo de carne). Misture bem e deixe cozinhar em fogo baixo por cerca de 10-15 minutos.",
+          "Junte a abobrinha à panela e cozinhe por mais 5 a 7 minutos, ou até ficar macia, mas ainda firme.",
+          "Misture o macarrão cozido ao molho de carne moída e abobrinha. Finalize com salsinha picada e sirva."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Macarrao-com-carne-moida-e-abobrinha",
+          "checked_at": "2026-08-07T11:46:46+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36627079/pexels-photo-36627079.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Imagem em close-up de uma travessa quente contendo macarrão e carne moída, decorada com ervas.",
+          "bank_id": "36627079",
+          "credit": "Valeria Boltneva",
+          "query": "Macarrão com Carne Moída e Abobrinha"
+        },
+        "id": "macarrao-com-carne-moida-e-abobrinha-f120dd88"
+      },
+      {
+        "nome": "Pão de Alho na Air Fryer da Rita Lobo",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada prática e rápida, perfeita para abrir o apetite. Utiliza a air fryer, conforme a preferência do casal, e é feita com ingredientes frescos, evitando ultraprocessados.",
+        "tags": [
+          "air_fryer",
+          "rapido",
+          "vegetariano",
+          "aperitivo"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 colher (sopa) de manteiga",
+          "2 dentes de alho",
+          "2 colheres (sopa) de salsinha picada",
+          "Raspas de ½ limão-siciliano",
+          "Sal e pimenta-do-reino moída a gosto",
+          "2 colheres (sopa) de queijo parmesão ralado",
+          "1 pão ciabatta (ou outro de sua preferência)"
+        ],
+        "preparo": [
+          "Descasque e pique fino os dentes de alho. Lave, seque e pique a salsinha.",
+          "Em uma frigideira pequena, derreta 1 colher (sopa) de manteiga em fogo baixo e doure o alho por cerca de 5 minutos, sem deixar queimar.",
+          "Transfira o alho dourado para uma tigela, junte o restante da manteiga, a salsinha, as raspas de limão, sal e pimenta. Misture bem.",
+          "Acrescente o queijo parmesão e misture. Essa manteiga temperada pode ser guardada na geladeira ou congelador.",
+          "Corte o pão em fatias, sem ir até o final, para que a manteiga fique retida. Espalhe a manteiga temperada entre as fatias e por cima.",
+          "Preaqueça a Air Fryer a 200 ºC e asse o pão por 8 minutos, ou até dourar e ficar crocante."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/pao-de-alho-na-air-fryer-da-rita-lobo",
+          "title": "Pão de alho na Air Fryer da Rita Lobo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-07T11:46:47+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4746-blog-pao-de-alho-na-af-9.webp",
+          "alt": "Pão de Alho na Air Fryer da Rita Lobo"
+        },
+        "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2"
+      },
+      {
+        "nome": "Creme de Paçoca",
+        "curso": "sobremesa",
+        "tempo": "30 minutos",
+        "porque": "Uma sobremesa fácil, rápida e deliciosa, perfeita para finalizar o jantar. Rende várias porções, ideal para sobrar para o dia seguinte.",
+        "tags": [
+          "doce",
+          "rapido",
+          "facil",
+          "rende_sobra"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 lata de leite condensado (395 g)",
+          "¾ xícara (chá) de leite (180 ml)",
+          "2 colheres (sopa) de amido de milho (50 g)",
+          "1 colher (café) de essência de baunilha (2,5 ml)",
+          "1 lata de creme de leite (300 g) sem soro",
+          "5 paçocas (100 g)",
+          "1 paçoca esfarelada para decorar (20 g)"
+        ],
+        "preparo": [
+          "Em uma panela de fundo grosso, dilua o amido de milho no leite.",
+          "Adicione o leite condensado e a essência de baunilha. Leve ao fogo médio, mexendo sempre, até engrossar e aparecer o fundo da panela.",
+          "Retire do fogo e deixe amornar.",
+          "Transfira o creme para uma batedeira e bata por 1 minuto.",
+          "Com a batedeira ainda ligada, adicione o creme de leite sem soro e as 5 paçocas esfareladas. Bata até obter um creme homogêneo.",
+          "Distribua o creme em taças ou potes individuais e leve para gelar por pelo menos 2 horas.",
+          "Na hora de servir, decore com a paçoca restante esfarelada."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receita/creme-de-pacoca-anamaria-braga/",
+          "checked_at": "2026-08-07T11:46:48+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/29296213/pexels-photo-29296213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma fatia de bolo em camadas com molho de creme elegantemente apresentada em um prato decorativo.",
+          "bank_id": "29296213",
+          "credit": "Nadin Sh",
+          "query": "Creme de Paçoca"
+        },
+        "id": "creme-de-pacoca-069c3395"
       }
     ]
   },

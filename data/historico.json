@@ -1126,5 +1126,53 @@
     ],
     "data": "06/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-de-alcatra-com-molho-de-mostarda-e-mel-25644c41",
+    "titulo": "Bife de Alcatra com Molho de Mostarda e Mel",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "rapido",
+      "jantar_a_dois"
+    ],
+    "data": "07/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "macarrao-com-carne-moida-e-abobrinha-f120dd88",
+    "titulo": "Macarrão com Carne Moída e Abobrinha",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "equilibrado",
+      "rende_sobra"
+    ],
+    "data": "07/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2",
+    "titulo": "Pão de Alho na Air Fryer da Rita Lobo",
+    "tags": [
+      "air_fryer",
+      "rapido",
+      "vegetariano",
+      "aperitivo"
+    ],
+    "data": "07/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "creme-de-pacoca-069c3395",
+    "titulo": "Creme de Paçoca",
+    "tags": [
+      "doce",
+      "rapido",
+      "facil",
+      "rende_sobra"
+    ],
+    "data": "07/08/2026",
+    "fonte_status": "unverified"
   }
 ]
