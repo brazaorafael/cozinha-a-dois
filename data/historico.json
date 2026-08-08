@@ -1174,5 +1174,53 @@
     ],
     "data": "07/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "iscas-de-carne-com-brocolis-e-gergelim-57903158",
+    "titulo": "Iscas de Carne com Brócolis e Gergelim",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "equilibrado",
+      "refogado"
+    ],
+    "data": "08/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "escondidinho-de-carne-seca-c75af1e5",
+    "titulo": "Escondidinho de Carne Seca",
+    "tags": [
+      "carne_vermelha",
+      "confort_food",
+      "forno",
+      "classico"
+    ],
+    "data": "08/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "muffins-de-tomate-e-mozarela-f3210ac4",
+    "titulo": "Muffins de Tomate e Mozarela",
+    "tags": [
+      "vegetariano",
+      "assado",
+      "rapido",
+      "facil"
+    ],
+    "data": "08/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "doce-de-amendoim-dfef1cd9",
+    "titulo": "Doce de Amendoim",
+    "tags": [
+      "doce",
+      "rapido",
+      "facil",
+      "sem_fritura"
+    ],
+    "data": "08/08/2026",
+    "fonte_status": "unverified"
   }
 ]

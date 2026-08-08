@@ -1,193 +1,202 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-07T08:45:30-03:00",
+  "gerado_em": "2026-08-08T08:28:59-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "07/08/2026",
-    "dia_semana": "sexta",
+    "data": "08/08/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Bife de Alcatra com Molho de Mostarda e Mel",
+        "nome": "Iscas de Carne com Brócolis e Gergelim",
         "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Uma excelente opção de carne vermelha, grelhada e pronta em pouco tempo, ideal para um jantar a dois. O molho de mostarda e mel adiciona um toque agridoce delicioso.",
+        "tempo": "30 minutos",
+        "porque": "Uma opção de carne vermelha rápida e equilibrada, com vegetais e um toque oriental. Prepara em cerca de 30 minutos e rende para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
           "rapido",
-          "jantar_a_dois"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bifes de alcatra (cerca de 150g cada)",
-          "Sal e pimenta-do-reino moída a gosto",
-          "1 colher (sopa) de azeite",
-          "2 colheres (sopa) de mostarda Dijon",
-          "1 colher (sopa) de mel",
-          "1 colher (sopa) de água (opcional, para diluir o molho)"
-        ],
-        "preparo": [
-          "Tempere os bifes de alcatra com sal e pimenta-do-reino dos dois lados.",
-          "Aqueça o azeite em uma frigideira em fogo médio-alto. Grelhe os bifes por 3 a 4 minutos de cada lado, ou até o ponto desejado.",
-          "Retire os bifes da frigideira e reserve em um prato, cobrindo para manter aquecido.",
-          "Na mesma frigideira, em fogo baixo, adicione a mostarda e o mel. Mexa bem para incorporar os sabores e raspar o fundo da panela.",
-          "Se o molho estiver muito espesso, adicione a água e misture. Cozinhe por mais 1 minuto.",
-          "Regue os bifes com o molho de mostarda e mel e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bife-de-alcatra-com-molho-de-mostarda-e-mel",
-          "checked_at": "2026-08-07T11:46:45+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
-          "bank_id": "33673991",
-          "credit": "pedro furtado",
-          "query": "Bife de Alcatra com Molho de Mostarda e Mel"
-        },
-        "id": "bife-de-alcatra-com-molho-de-mostarda-e-mel-25644c41"
-      },
-      {
-        "nome": "Macarrão com Carne Moída e Abobrinha",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma refeição completa e equilibrada, combinando proteína, carboidrato e vegetais. É prática, rápida de preparar e rende uma boa porção que pode servir para o almoço do dia seguinte.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
           "equilibrado",
-          "rende_sobra"
+          "refogado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "250g de macarrão (espaguete, parafuso ou penne)",
-          "300g de carne moída (patinho ou acém)",
-          "1 abobrinha média",
-          "1 cebola média picada",
-          "2 dentes de alho picados",
-          "1 lata de tomate pelado picado (ou 1 xícara de molho de tomate)",
-          "½ xícara (chá) de água ou caldo de carne",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino a gosto",
-          "Salsinha picada a gosto para finalizar"
+          "1 colher (sopa) de azeite",
+          "300 g de carne bovina (alcatra ou filé mignon) em tiras",
+          "1 brócolis ninja pequeno (cerca de 200 g)",
+          "1/4 xícara (chá) de shoyu",
+          "1 colher (sopa) de vinagre de arroz (ou de maçã)",
+          "1 colher (chá) de açúcar",
+          "1 colher (sopa) de gergelim torrado"
         ],
         "preparo": [
-          "Cozinhe o macarrão em água fervente com sal, conforme as instruções da embalagem, até ficar al dente. Escorra e reserve.",
-          "Enquanto o macarrão cozinha, lave e corte a abobrinha em cubos pequenos ou em tiras finas (espaguete de abobrinha).",
-          "Em uma panela grande, aqueça o azeite em fogo médio. Refogue a cebola picada até ficar transparente. Adicione o alho e refogue por mais 1 minuto.",
-          "Acrescente a carne moída e tempere com sal e pimenta-do-reino. Refogue, desfazendo os grumos, até a carne perder a cor rosada e dourar levemente.",
-          "Adicione o tomate pelado (ou molho de tomate) e a água (ou caldo de carne). Misture bem e deixe cozinhar em fogo baixo por cerca de 10-15 minutos.",
-          "Junte a abobrinha à panela e cozinhe por mais 5 a 7 minutos, ou até ficar macia, mas ainda firme.",
-          "Misture o macarrão cozido ao molho de carne moída e abobrinha. Finalize com salsinha picada e sirva."
+          "Lave o brócolis, separe os floretes e corte o talo em rodelas finas. Cozinhe no vapor ou em água fervente por 3 minutos até ficar al dente. Escorra e reserve.",
+          "Numa tigela pequena, misture o shoyu, o vinagre e o açúcar. Reserve.",
+          "Leve uma frigideira grande ao fogo médio. Quando aquecer, regue com o azeite e adicione as tiras de carne. Tempere com sal e pimenta-do-reino moída na hora.",
+          "Aumente o fogo e doure a carne por cerca de 3 minutos, mexendo de vez em quando.",
+          "Junte o brócolis cozido à frigideira e refogue por 1 minuto.",
+          "Regue com o molho reservado e misture bem. Cozinhe por mais 1 minuto para o molho encorpar.",
+          "Desligue o fogo, polvilhe com o gergelim torrado e sirva a seguir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Macarrao-com-carne-moida-e-abobrinha",
-          "checked_at": "2026-08-07T11:46:46+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/iscas-de-carne-com-brocolis-e-gergelim",
+          "checked_at": "2026-08-08T11:30:12+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36627079/pexels-photo-36627079.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Imagem em close-up de uma travessa quente contendo macarrão e carne moída, decorada com ervas.",
-          "bank_id": "36627079",
-          "credit": "Valeria Boltneva",
-          "query": "Macarrão com Carne Moída e Abobrinha"
+          "url": "https://images.pexels.com/photos/31867670/pexels-photo-31867670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa fritada de carne e brócolis com cores vibrantes e textura apetitosa.",
+          "bank_id": "31867670",
+          "credit": "Ivan Georgiev",
+          "query": "Iscas de Carne com Brócolis e Gergelim"
         },
-        "id": "macarrao-com-carne-moida-e-abobrinha-f120dd88"
+        "id": "iscas-de-carne-com-brocolis-e-gergelim-57903158"
       },
       {
-        "nome": "Pão de Alho na Air Fryer da Rita Lobo",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada prática e rápida, perfeita para abrir o apetite. Utiliza a air fryer, conforme a preferência do casal, e é feita com ingredientes frescos, evitando ultraprocessados.",
+        "nome": "Escondidinho de Carne Seca",
+        "curso": "principal",
+        "tempo": "45 minutos",
+        "porque": "Um clássico brasileiro reconfortante com carne vermelha, fácil de preparar no forno. É uma refeição completa que rende bem para sobras.",
         "tags": [
-          "air_fryer",
-          "rapido",
+          "carne_vermelha",
+          "confort_food",
+          "forno",
+          "classico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 kg de mandioca cozida e espremida",
+          "1 colher (sopa) de manteiga",
+          "meia xícara (chá) de Leite Líquido NINHO® Forti+ Integral",
+          "Sal a gosto",
+          "400 g de carne seca dessalgada, cozida e desfiada",
+          "1 cebola média picada",
+          "2 dentes de alho amassados",
+          "1 colher (sopa) de azeite",
+          "1 tomate médio picado",
+          "meia xícara (chá) de cheiro-verde picado",
+          "1 copo de Requeijão Cremoso NESTLÉ®",
+          "meia xícara (chá) de queijo parmesão ralado"
+        ],
+        "preparo": [
+          "Em uma panela, misture a mandioca espremida com a manteiga, o Leite NINHO e o sal. Leve ao fogo baixo, mexendo sempre, até obter um purê cremoso. Reserve.",
+          "Em outra panela, aqueça o azeite e refogue a cebola e o alho até dourarem.",
+          "Adicione a carne seca desfiada e o tomate picado. Refogue por cerca de 5 minutos, mexendo ocasionalmente.",
+          "Desligue o fogo, misture o cheiro-verde e reserve.",
+          "Em um refratário médio, espalhe metade do purê de mandioca. Cubra com a carne seca refogada e, por cima, distribua o Requeijão Cremoso.",
+          "Finalize com o restante do purê de mandioca e polvilhe o queijo parmesão ralado.",
+          "Leve ao forno médio (180°C), preaquecido, por cerca de 20 minutos ou até dourar."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/escondidinho-de-carne-seca",
+          "checked_at": "2026-08-08T11:30:14+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/28992220/pexels-photo-28992220.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de antipasto com queijos, carnes, azeitonas e vegetais para um perfeito aperitivo.",
+          "bank_id": "28992220",
+          "credit": "pedro furtado",
+          "query": "Escondidinho de Carne Seca"
+        },
+        "id": "escondidinho-de-carne-seca-c75af1e5"
+      },
+      {
+        "nome": "Muffins de Tomate e Mozarela",
+        "curso": "entrada",
+        "tempo": "40 minutos",
+        "porque": "Uma entrada prática e saborosa, com vegetais e queijo, perfeita para abrir o apetite sem pesar. É fácil de preparar e assada no forno.",
+        "tags": [
           "vegetariano",
-          "aperitivo"
+          "assado",
+          "rapido",
+          "facil"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 colher (sopa) de manteiga",
-          "2 dentes de alho",
-          "2 colheres (sopa) de salsinha picada",
-          "Raspas de ½ limão-siciliano",
-          "Sal e pimenta-do-reino moída a gosto",
-          "2 colheres (sopa) de queijo parmesão ralado",
-          "1 pão ciabatta (ou outro de sua preferência)"
+          "2 ovos",
+          "1 iogurte natural (125g)",
+          "1/2 xícara (chá) de leite (cerca de 120ml)",
+          "1/4 xícara (chá) de azeite (cerca de 60ml)",
+          "1 e 1/2 xícara (chá) de farinha de trigo (cerca de 180g)",
+          "1 colher (sopa) de fermento em pó",
+          "1 xícara (chá) de tomates cereja, cortados ao meio",
+          "1 xícara (chá) de queijo muçarela em cubos pequenos (ou bolinhas de muçarela)",
+          "Sal a gosto",
+          "Orégano a gosto",
+          "Pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Descasque e pique fino os dentes de alho. Lave, seque e pique a salsinha.",
-          "Em uma frigideira pequena, derreta 1 colher (sopa) de manteiga em fogo baixo e doure o alho por cerca de 5 minutos, sem deixar queimar.",
-          "Transfira o alho dourado para uma tigela, junte o restante da manteiga, a salsinha, as raspas de limão, sal e pimenta. Misture bem.",
-          "Acrescente o queijo parmesão e misture. Essa manteiga temperada pode ser guardada na geladeira ou congelador.",
-          "Corte o pão em fatias, sem ir até o final, para que a manteiga fique retida. Espalhe a manteiga temperada entre as fatias e por cima.",
-          "Preaqueça a Air Fryer a 200 ºC e asse o pão por 8 minutos, ou até dourar e ficar crocante."
+          "Preaqueça o forno a 180°C. Prepare forminhas de muffin (com papel ou untadas).",
+          "Em uma tigela, misture os ovos, o iogurte, o leite, o azeite, o sal, o orégano e a pimenta.",
+          "Adicione a farinha de trigo e o fermento em pó, misturando delicadamente até incorporar.",
+          "Incorpore os tomates cereja cortados e o queijo muçarela à massa.",
+          "Distribua a massa nas forminhas de muffin, preenchendo cerca de 2/3 de cada uma.",
+          "Leve ao forno preaquecido por cerca de 25 minutos, ou até dourarem e passarem no teste do palito.",
+          "Retire do forno e sirva morno ou em temperatura ambiente."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pao-de-alho-na-air-fryer-da-rita-lobo",
-          "title": "Pão de alho na Air Fryer da Rita Lobo - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-07T11:46:47+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-08-08T11:30:14+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4746-blog-pao-de-alho-na-af-9.webp",
-          "alt": "Pão de Alho na Air Fryer da Rita Lobo"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/17741884/pexels-photo-17741884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosos muffins caseiros de queijo com tomate e ervas, exibidos com cubos de queijo e tomates-cereja.",
+          "bank_id": "17741884",
+          "credit": "Fabiano Pimentel",
+          "query": "Muffins de Tomate e Mozarela"
         },
-        "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2"
+        "id": "muffins-de-tomate-e-mozarela-f3210ac4"
       },
       {
-        "nome": "Creme de Paçoca",
+        "nome": "Doce de Amendoim",
         "curso": "sobremesa",
-        "tempo": "30 minutos",
-        "porque": "Uma sobremesa fácil, rápida e deliciosa, perfeita para finalizar o jantar. Rende várias porções, ideal para sobrar para o dia seguinte.",
+        "tempo": "15 minutos",
+        "porque": "Uma sobremesa clássica brasileira, incrivelmente rápida e fácil de fazer, perfeita para satisfazer a vontade de um doce sem complicação.",
         "tags": [
           "doce",
           "rapido",
           "facil",
-          "rende_sobra"
+          "sem_fritura"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 lata de leite condensado (395 g)",
-          "¾ xícara (chá) de leite (180 ml)",
-          "2 colheres (sopa) de amido de milho (50 g)",
-          "1 colher (café) de essência de baunilha (2,5 ml)",
-          "1 lata de creme de leite (300 g) sem soro",
-          "5 paçocas (100 g)",
-          "1 paçoca esfarelada para decorar (20 g)"
+          "1 xícara (chá) de açúcar (160g)",
+          "1 colher (sopa) de manteiga",
+          "1 pitada de sal",
+          "1 lata de Leite Condensado MOÇA® (395g)",
+          "2 colheres (sopa) de Chocolate em Pó NESTLÉ® DOIS FRADES® (ou cacau em pó)",
+          "1 colher (chá) de essência de baunilha",
+          "1 xícara (chá) de amendoim torrado e triturado (150g)"
         ],
         "preparo": [
-          "Em uma panela de fundo grosso, dilua o amido de milho no leite.",
-          "Adicione o leite condensado e a essência de baunilha. Leve ao fogo médio, mexendo sempre, até engrossar e aparecer o fundo da panela.",
-          "Retire do fogo e deixe amornar.",
-          "Transfira o creme para uma batedeira e bata por 1 minuto.",
-          "Com a batedeira ainda ligada, adicione o creme de leite sem soro e as 5 paçocas esfareladas. Bata até obter um creme homogêneo.",
-          "Distribua o creme em taças ou potes individuais e leve para gelar por pelo menos 2 horas.",
-          "Na hora de servir, decore com a paçoca restante esfarelada."
+          "Em uma panela de fundo grosso, junte o açúcar, a manteiga e a pitada de sal. Leve ao fogo médio, mexendo até o açúcar derreter levemente.",
+          "Adicione o Leite Condensado MOÇA, o Chocolate em Pó NESTLÉ DOIS FRADES e a essência de baunilha. Misture bem.",
+          "Cozinhe em fogo médio, mexendo sempre, até a mistura começar a desgrudar do fundo da panela (ponto de brigadeiro mole).",
+          "Desligue o fogo e incorpore o amendoim triturado. Misture rapidamente.",
+          "Despeje o doce em um prato untado com manteiga e espalhe.",
+          "Deixe esfriar completamente antes de cortar em pedaços."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/creme-de-pacoca-anamaria-braga/",
-          "checked_at": "2026-08-07T11:46:48+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/doce-de-amendoim",
+          "checked_at": "2026-08-08T11:30:15+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/29296213/pexels-photo-29296213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma fatia de bolo em camadas com molho de creme elegantemente apresentada em um prato decorativo.",
-          "bank_id": "29296213",
-          "credit": "Nadin Sh",
-          "query": "Creme de Paçoca"
+          "url": "https://images.pexels.com/photos/5865648/pexels-photo-5865648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Detalhe de doce de gergelim e amendoim em uma bandeja de madeira, com decoração rústica.",
+          "bank_id": "5865648",
+          "credit": "Rachel Claire",
+          "query": "Doce de Amendoim"
         },
-        "id": "creme-de-pacoca-069c3395"
+        "id": "doce-de-amendoim-dfef1cd9"
       }
     ]
   },
