@@ -1,6 +1,6 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-09T08:29:26-03:00",
+  "gerado_em": "2026-08-09T20:00:35-03:00",
   "diario": {
     "tipo": "diario",
     "data": "09/08/2026",
@@ -205,185 +205,190 @@
   },
   "semanal": {
     "tipo": "semanal",
-    "periodo": "03/08 a 09/08/2026",
+    "periodo": "10/08 a 16/08/2026",
     "dias": [
       {
         "dia": "Segunda",
         "pratos": [
           {
-            "nome": "Iscas de carne com cebola roxa e pimentão",
+            "nome": "Carne Moída com Cenoura e Ervilha",
             "curso": "principal",
-            "tempo": "30 minutos",
-            "porque": "Carne vermelha, refogado rápido e equilibrado com vegetais. Ótimo para um jantar prático e saboroso, e rende uma boa porção para o almoço de uma pessoa no dia seguinte.",
+            "tempo": "40 minutos",
+            "porque": "Uma opção clássica de carne vermelha, rica em proteína e vegetais, fácil de preparar e ideal para sobrar para o almoço. Não está na lista de pratos a evitar.",
             "tags": [
-              "carne",
-              "rapido",
+              "carne_vermelha",
               "refogado",
-              "vegetais"
+              "facil",
+              "equilibrado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "500g de alcatra ou filé mignon em iscas",
-              "2 cebolas roxas médias em fatias",
-              "1 pimentão vermelho em tiras",
-              "1 pimentão amarelo em tiras",
-              "2 dentes de alho picados",
-              "2 colheres (sopa) de azeite",
-              "Sal e pimenta-do-reino a gosto"
+              "500 g de carne moída",
+              "1 cebola média picada",
+              "2 dentes de alho amassados",
+              "1 cenoura média picada em cubos pequenos",
+              "1 xícara (chá) de ervilha fresca ou congelada",
+              "1 lata de tomate pelado picado (ou 2 tomates maduros picados)",
+              "1/2 xícara (chá) de água ou caldo de carne",
+              "Sal e pimenta-do-reino a gosto",
+              "Cheiro-verde picado a gosto",
+              "Azeite para refogar"
             ],
             "preparo": [
-              "Tempere as iscas de carne com sal e pimenta-do-reino.",
-              "Aqueça o azeite em uma frigideira grande em fogo alto e doure a carne em porções. Reserve.",
-              "Na mesma frigideira, refogue a cebola roxa até murchar.",
-              "Acrescente os pimentões e o alho picado, refogando por mais 5 minutos.",
-              "Retorne a carne para a frigideira, misture bem e cozinhe por mais 2 minutos.",
-              "Sirva imediatamente."
+              "Em uma panela, aqueça o azeite e refogue a cebola e o alho até dourarem.",
+              "Adicione a carne moída e refogue, mexendo sempre, até que esteja bem soltinha e dourada.",
+              "Acrescente a cenoura, o tomate picado, o sal e a pimenta-do-reino. Misture bem.",
+              "Despeje a água ou caldo de carne, tampe a panela e cozinhe em fogo médio por cerca de 15 minutos, ou até a cenoura ficar macia.",
+              "Junte as ervilhas e o cheiro-verde, misture e cozinhe por mais 5 minutos.",
+              "Sirva quente, acompanhada de arroz branco e salada."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Iscas-de-carne-com-cebola-roxa-e-pimentao",
-              "checked_at": "2026-07-30T02:05:17+00:00"
+              "suggested_url": "https://www.tudogostoso.com.br/receita/18163-carne-moida-com-cenoura-e-ervilha.html",
+              "checked_at": "2026-08-09T23:03:11+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/27582684/pexels-photo-27582684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Uma vibrante salada de carne com cebolas roxas em um prato ornamentado preto e branco.",
-              "bank_id": "27582684",
-              "credit": "Collab Media",
-              "query": "Iscas de carne com cebola roxa e pimentão"
+              "url": "https://images.pexels.com/photos/7340942/pexels-photo-7340942.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up de um prato saboroso com carne moída e ervilhas, ideal para temas culinários.",
+              "bank_id": "7340942",
+              "credit": "Pure Punjabi",
+              "query": "Carne Moída com Cenoura e Ervilha"
             },
-            "id": "iscas-de-carne-com-cebola-roxa-e-pimentao-ccdea7f2"
+            "id": "carne-moida-com-cenoura-e-ervilha-f3372cd7"
           },
           {
-            "nome": "Risoto de abobrinha com queijo",
+            "nome": "Bife à Milanesa Assado",
             "curso": "principal",
             "tempo": "40 minutos",
-            "porque": "Uma opção vegetariana saborosa e reconfortante, que pode ser feita rapidamente. É um prato equilibrado com carboidrato e vegetais.",
+            "porque": "Uma versão mais saudável do clássico bife à milanesa, preparada no forno para evitar fritura, mantendo a crocância e o sabor. Não está na lista de pratos a evitar.",
             "tags": [
-              "vegetariano",
-              "risoto",
-              "queijo",
-              "confort_food"
+              "carne_vermelha",
+              "assado",
+              "saudavel",
+              "facil"
             ],
-            "rende_sobra": false,
+            "rende_sobra": true,
             "ingredientes": [
-              "1 xícara (chá) de arroz arbóreo",
-              "1 abobrinha média ralada",
-              "½ cebola picada",
-              "1 dente de alho picado",
-              "½ xícara (chá) de vinho branco seco",
-              "4 xícaras (chá) de caldo de legumes caseiro (ou água)",
-              "2 colheres (sopa) de manteiga",
-              "½ xícara (chá) de queijo parmesão ralado",
-              "Azeite a gosto",
-              "Sal e pimenta-do-reino a gosto"
+              "4 bifes de patinho ou alcatra (cerca de 150g cada)",
+              "1 xícara (chá) de farinha de rosca",
+              "1/2 xícara (chá) de queijo parmesão ralado",
+              "1 ovo grande batido",
+              "2 colheres (sopa) de leite",
+              "Sal e pimenta-do-reino a gosto",
+              "Azeite para untar"
             ],
             "preparo": [
-              "Em uma panela, refogue a cebola e o alho no azeite até ficarem transparentes.",
-              "Adicione o arroz arbóreo e refogue por 1 minuto. Regue com o vinho branco e deixe evaporar.",
-              "Acrescente a abobrinha ralada e comece a adicionar o caldo de legumes quente, uma concha por vez, mexendo sempre até o líquido ser absorvido.",
-              "Continue adicionando o caldo e mexendo por cerca de 20 minutos, até o arroz ficar al dente.",
-              "Desligue o fogo, adicione a manteiga e o queijo parmesão. Misture vigorosamente até ficar cremoso.",
-              "Acerte o sal e a pimenta-do-reino. Sirva imediatamente."
+              "Preaqueça o forno a 200°C e unte uma assadeira grande com azeite.",
+              "Tempere os bifes com sal e pimenta-do-reino a gosto.",
+              "Em um prato fundo, misture a farinha de rosca com o queijo parmesão ralado.",
+              "Em outro prato fundo, bata o ovo com o leite.",
+              "Passe cada bife primeiro na mistura de ovo e leite, escorrendo o excesso, e depois na farinha de rosca com parmesão, cobrindo bem todos os lados.",
+              "Disponha os bifes na assadeira untada e leve ao forno por cerca de 20 minutos, virando na metade do tempo, até dourarem e ficarem crocantes.",
+              "Sirva imediatamente com o acompanhamento de sua preferência."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Risoto-de-abobrinha-com-queijo",
-              "checked_at": "2026-07-30T02:05:18+00:00"
+              "suggested_url": "https://www.receitasnestle.com.br/receitas/bife-a-milanesa-assado",
+              "checked_at": "2026-08-09T23:03:12+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/36430163/pexels-photo-36430163.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Risoto cremoso servido com fatias frescas de abobrinha em uma mesa elegantemente posta.",
-              "bank_id": "36430163",
-              "credit": "Willians Huerta",
-              "query": "Risoto de abobrinha com queijo"
+              "url": "https://images.pexels.com/photos/5192415/pexels-photo-5192415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up de um suculento bife grelhado com tomates-cereja, batatas e milho em uma tábua de madeira.",
+              "bank_id": "5192415",
+              "credit": "Maor Attias",
+              "query": "Bife à Milanesa Assado"
             },
-            "id": "risoto-de-abobrinha-com-queijo-ce4cdca5"
+            "id": "bife-a-milanesa-assado-e059d625"
           },
           {
-            "nome": "Salada de tomate com cebola-roxa",
+            "nome": "Salada de tomate com azeite crocante",
             "curso": "entrada",
             "tempo": "15 minutos",
-            "porque": "Uma entrada fresca e rápida, perfeita para abrir o apetite com sabores simples e vibrantes. Rica em vegetais e fácil de preparar.",
+            "porque": "Uma entrada leve e saborosa, com um toque crocante que surpreende. É rápida de fazer e adiciona frescor à refeição.",
             "tags": [
               "salada",
-              "fresca",
               "vegetariano",
-              "rapido"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "4 tomates maduros",
-              "1 cebola-roxa",
-              "1 colher (sopa) de folhas de manjericão",
-              "2 colheres (sopa) de azeite",
-              "Sal e pimenta-do-reino moída na hora a gosto"
-            ],
-            "preparo": [
-              "Lave os tomates e a cebola-roxa. Corte os tomates em gomos e a cebola em meias-luas finas.",
-              "Em uma tigela, junte os tomates e a cebola.",
-              "Regue com o azeite, tempere com sal e pimenta-do-reino a gosto.",
-              "Adicione as folhas de manjericão e misture delicadamente.",
-              "Sirva imediatamente."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/salada-de-tomate-com-cebola-roxa",
-              "title": "Salada de tomate com cebola-roxa - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:19+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-9239-salada-de-tomate-com-cebola-roxa.webp",
-              "alt": "Salada de tomate com cebola-roxa"
-            },
-            "id": "salada-de-tomate-com-cebola-roxa-94819d2c"
-          },
-          {
-            "nome": "Peras assadas no micro-ondas",
-            "curso": "sobremesa",
-            "tempo": "15 minutos",
-            "porque": "Uma sobremesa leve e aromática, pronta em poucos minutos no micro-ondas. Ideal para um doce rápido e saudável.",
-            "tags": [
-              "fruta",
-              "micro_ondas",
               "rapido",
               "leve"
             ],
             "rende_sobra": false,
             "ingredientes": [
-              "2 peras maduras",
-              "2 colheres (sopa) de suco de laranja",
-              "1 colher (chá) de canela em pó",
-              "1 colher (sopa) de uvas-passas (opcional)"
+              "3 tomates maduros",
+              "½ xícara (chá) de azeite",
+              "3 colheres (sopa) de castanha-de-caju torrada sem sal",
+              "2 colheres (sopa) de semente de girassol",
+              "3 dentes de alho",
+              "1 colher (chá) de semente de coentro",
+              "½ colher (chá) de pimenta calabresa",
+              "3 ramos de alecrim",
+              "Sal a gosto"
             ],
             "preparo": [
-              "Lave as peras, corte ao meio e retire as sementes.",
-              "Disponha as metades de pera em um refratário, com a parte cortada para cima.",
-              "Regue com o suco de laranja, polvilhe a canela e adicione as uvas-passas.",
-              "Cubra o refratário com plástico filme e leve ao micro-ondas em potência alta por 5 a 7 minutos, ou até as peras ficarem macias.",
-              "Sirva quente ou morna."
+              "Lave e seque os tomates. Corte-os em rodelas finas e arrume em um prato de servir.",
+              "Descasque e fatie finamente os dentes de alho. Pique grosseiramente as castanhas e debulhe as folhas de alecrim.",
+              "Em uma frigideira pequena, coloque o azeite, a castanha-de-caju, as sementes de girassol e de coentro, a pimenta calabresa, o alecrim e o sal.",
+              "Leve ao fogo médio e cozinhe, mexendo de vez em quando, por cerca de 5 minutos, até as castanhas dourarem e o azeite ficar aromático.",
+              "Desligue o fogo e regue as rodelas de tomate com o azeite crocante ainda quente.",
+              "Sirva a salada imediatamente."
             ],
             "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Peras-assadas-no-micro-ondas",
-              "checked_at": "2026-07-30T02:05:19+00:00"
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
+              "title": "Salada de tomate com azeite crocante - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:13+00:00"
             },
             "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/220722/pexels-photo-220722.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Close-up de peras fatiadas em um prato branco com talheres, destacando opções saudáveis de sobremesa.",
-              "bank_id": "220722",
-              "credit": "Pixabay",
-              "query": "Peras assadas no micro-ondas"
+              "kind": "source",
+              "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
+              "alt": "Salada de tomate com azeite crocante"
             },
-            "id": "peras-assadas-no-micro-ondas-cf892371"
+            "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
+          },
+          {
+            "nome": "Pudim rápido de tapioca",
+            "curso": "sobremesa",
+            "tempo": "20 minutos",
+            "porque": "Uma sobremesa fácil e rápida, com sabor suave que combina com diversos acompanhamentos. Perfeita para um doce descomplicado.",
+            "tags": [
+              "doce",
+              "rapido",
+              "facil",
+              "brasileiro"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "1 xícara (chá) de leite",
+              "2 colheres (sopa) de tapioca granulada",
+              "1 colher (sopa) de açúcar",
+              "Doce de abóbora, geleia ou frutas frescas para acompanhar (opcional)"
+            ],
+            "preparo": [
+              "Em uma panela pequena, misture o leite, a tapioca granulada e o açúcar.",
+              "Leve ao fogo médio, mexendo sempre, até a mistura engrossar e a tapioca cozinhar (cerca de 10 minutos).",
+              "Desligue o fogo e transfira o pudim para duas taças ou potinhos individuais.",
+              "Deixe esfriar em temperatura ambiente e depois leve à geladeira por pelo menos 30 minutos para firmar.",
+              "Sirva gelado, acompanhado de doce de abóbora, geleia ou frutas frescas, se desejar."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+              "title": "Pudim rápido de tapioca - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:14+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
+              "alt": "Pudim rápido de tapioca"
+            },
+            "id": "pudim-rapido-de-tapioca-484a6aab"
           }
         ]
       },
@@ -391,796 +396,81 @@
         "dia": "Terça",
         "pratos": [
           {
-            "nome": "Frango assado com batata e alecrim",
+            "nome": "Frango Xadrez",
             "curso": "principal",
             "tempo": "45 minutos",
-            "porque": "Frango assado no forno, prático e com carboidrato e proteína juntos. Ideal para fazer em maior quantidade e ter sobras para o almoço de uma pessoa.",
+            "porque": "Prato de frango saboroso e rápido, com um bom equilíbrio de proteína e vegetais, preparado por refogado. Uma alternativa variada para a semana.",
             "tags": [
               "frango",
-              "forno",
-              "batata",
-              "rende_muito"
+              "refogado",
+              "oriental",
+              "rapido"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "4 coxas e sobrecoxas de frango",
-              "500g de batatas pequenas",
-              "2 ramos de alecrim fresco",
-              "3 dentes de alho amassados",
-              "2 colheres (sopa) de azeite",
+              "500 g de peito de frango cortado em cubos",
+              "1 cebola grande picada em cubos grandes",
+              "1 pimentão verde picado em cubos grandes",
+              "1 pimentão vermelho picado em cubos grandes",
+              "1/2 xícara (chá) de amendoim torrado sem pele",
+              "2 colheres (sopa) de óleo",
+              "2 colheres (sopa) de molho shoyu",
+              "1 colher (sopa) de amido de milho",
+              "1/2 xícara (chá) de água",
               "Sal e pimenta-do-reino a gosto"
             ],
             "preparo": [
-              "Preaqueça o forno a 200 ºC. Lave e seque as coxas e sobrecoxas de frango.",
-              "Em uma tigela grande, tempere o frango com sal, pimenta-do-reino, alho amassado e folhas de alecrim.",
-              "Lave as batatas e corte-as ao meio (se forem grandes). Adicione-as à tigela com o frango e regue com azeite. Misture bem.",
-              "Espalhe o frango e as batatas em uma assadeira, garantindo que não fiquem muito amontoados.",
-              "Leve ao forno por cerca de 35-40 minutos, virando na metade do tempo, até o frango dourar e as batatas ficarem macias e assadas.",
-              "Sirva quente."
+              "Tempere o frango com sal e pimenta-do-reino.",
+              "Em uma panela wok ou frigideira grande, aqueça o óleo e doure o frango em porções. Reserve.",
+              "Na mesma panela, refogue a cebola e os pimentões até ficarem macios, mas ainda crocantes.",
+              "Retorne o frango à panela. Em um recipiente separado, dissolva o amido de milho na água e adicione o molho shoyu.",
+              "Despeje essa mistura sobre o frango e os vegetais, mexendo até o molho engrossar.",
+              "Adicione o amendoim torrado, misture bem e cozinhe por mais 2 minutos.",
+              "Sirva imediatamente, acompanhado de arroz branco."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Frango-assado-com-batata-e-alecrim",
-              "checked_at": "2026-07-30T02:05:20+00:00"
+              "suggested_url": "https://www.tudogostoso.com.br/receita/187-frango-xadrez.html",
+              "checked_at": "2026-08-09T23:03:14+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/30578207/pexels-photo-30578207.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Deliciosa coxa de frango assada com batatas crocantes guarnecidas com ervas frescas em um prato floral.",
-              "bank_id": "30578207",
-              "credit": "Rinat Askarov",
-              "query": "Frango assado com batata e alecrim"
+              "url": "https://images.pexels.com/photos/6941026/pexels-photo-6941026.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Um prato de dar água na boca com asas de frango crocantes acompanhadas de pimentas vermelhas frescas.",
+              "bank_id": "6941026",
+              "credit": "Alena Shekhovtcova",
+              "query": "Frango Xadrez"
             },
-            "id": "frango-assado-com-batata-e-alecrim-17cf2ce5"
+            "id": "frango-xadrez-a303d55f"
           },
           {
-            "nome": "Bife acebolado",
-            "curso": "principal",
-            "tempo": "20 minutos",
-            "porque": "Um clássico da culinária brasileira, rápido de fazer na frigideira e com a carne vermelha preferida do casal. A cebola caramelizada adiciona um sabor especial.",
-            "tags": [
-              "carne",
-              "rapido",
-              "refogado",
-              "cebola"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "2 bifes de contrafilé (ou alcatra, coxão mole)",
-              "1 cebola grande em rodelas finas",
-              "1 colher (sopa) de azeite",
-              "1 colher (chá) de manteiga",
-              "2 colheres (sopa) de água",
-              "1 colher (chá) de vinagre de vinho branco",
-              "Sal e pimenta-do-reino a gosto"
-            ],
-            "preparo": [
-              "Tempere os bifes com sal e pimenta-do-reino. Retire da geladeira 10 minutos antes de cozinhar.",
-              "Aqueça o azeite em uma frigideira grande em fogo alto. Doure os bifes por 2 minutos de cada lado. Retire e reserve.",
-              "Na mesma frigideira, adicione a manteiga e refogue a cebola em fogo médio até dourar e ficar macia.",
-              "Em uma tigela pequena, misture a água com o vinagre.",
-              "Despeje a mistura de água e vinagre na frigideira com a cebola, raspando o fundo para soltar os sabores.",
-              "Retorne os bifes à frigideira, misture com a cebola e o molho, e cozinhe por mais 1 minuto para aquecer.",
-              "Sirva imediatamente."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/bife-acebolado",
-              "title": "Bife acebolado - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:21+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-7957-blog-ayu8198.webp",
-              "alt": "Bife acebolado"
-            },
-            "id": "bife-acebolado-959638fa"
-          },
-          {
-            "nome": "Bruschetta de tomate",
-            "curso": "entrada",
-            "tempo": "20 minutos",
-            "porque": "Um clássico italiano simples e delicioso, perfeito como entrada rápida. O pão tostado com tomate fresco e alho é irresistível.",
-            "tags": [
-              "italiana",
-              "pao",
-              "vegetariano",
-              "rapido"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "1 baguete pequena",
-              "2 tomates grandes maduros",
-              "1 dente de alho",
-              "2 colheres (sopa) de azeite",
-              "2 ramos de manjericão",
-              "Sal e pimenta-do-reino moída na hora a gosto"
-            ],
-            "preparo": [
-              "Preaqueça o forno a 180 ºC. Corte a baguete em fatias de 1,5 cm de espessura.",
-              "Lave e pique os tomates em cubos pequenos. Descasque e pique fino o dente de alho.",
-              "Em uma tigela, misture o tomate picado, o alho, o azeite, sal e pimenta-do-reino. Rasgue as folhas de manjericão e adicione.",
-              "Disponha as fatias de pão em uma assadeira e leve ao forno por 5 minutos para tostar levemente.",
-              "Retire o pão do forno, distribua a mistura de tomate sobre cada fatia e sirva imediatamente."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
-              "title": "Bruschetta de tomate - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:22+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
-              "alt": "Bruschetta de tomate"
-            },
-            "id": "bruschetta-de-tomate-008b1157"
-          },
-          {
-            "nome": "Maçã assada com crocante de aveia",
-            "curso": "sobremesa",
-            "tempo": "35 minutos",
-            "porque": "Uma sobremesa saudável e reconfortante, com a doçura da maçã e a textura crocante da aveia. Preparada no forno, é uma opção equilibrada.",
-            "tags": [
-              "fruta",
-              "forno",
-              "saudavel",
-              "rapido"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "2 maçãs médias",
-              "2 colheres (sopa) de aveia em flocos",
-              "1 colher (sopa) de açúcar mascavo",
-              "½ colher (chá) de canela em pó",
-              "1 colher (sopa) de manteiga gelada em cubos"
-            ],
-            "preparo": [
-              "Preaqueça o forno a 200 ºC. Lave as maçãs, retire o miolo com um descaroçador e corte em rodelas grossas.",
-              "Disponha as rodelas de maçã em um refratário pequeno.",
-              "Em uma tigela, misture a aveia, o açúcar mascavo e a canela.",
-              "Adicione os cubos de manteiga à mistura de aveia e, com a ponta dos dedos, misture até formar uma farofa.",
-              "Espalhe a farofa sobre as maçãs no refratário.",
-              "Leve ao forno por cerca de 20-25 minutos, ou até as maçãs ficarem macias e a cobertura dourada e crocante.",
-              "Sirva quente."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/maca-assada-com-crocante-de-aveia",
-              "title": "Maçã assada com crocante de aveia - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:22+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-2298-maca-assada-com-crocante-de-aveia.webp",
-              "alt": "Maçã assada com crocante de aveia"
-            },
-            "id": "maca-assada-com-crocante-de-aveia-ea04cb0e"
-          }
-        ]
-      },
-      {
-        "dia": "Quarta",
-        "pratos": [
-          {
-            "nome": "Picadinho de carne com legumes",
-            "curso": "principal",
-            "tempo": "40 minutos",
-            "porque": "Carne vermelha em um refogado completo com vegetais, bom para sobrar para o almoço de uma pessoa. Uma versão clássica e reconfortante.",
-            "tags": [
-              "carne",
-              "refogado",
-              "legumes",
-              "classico"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "500g de carne bovina (patinho, alcatra) em cubos pequenos",
-              "2 batatas médias em cubos",
-              "2 cenouras médias em cubos",
-              "1 xícara (chá) de vagem picada",
-              "1 cebola picada",
-              "2 dentes de alho picados",
-              "1 lata de tomate pelado picado",
-              "1 xícara (chá) de caldo de carne (ou água)",
-              "2 colheres (sopa) de azeite",
-              "Salsinha picada a gosto",
-              "Sal e pimenta-do-reino a gosto"
-            ],
-            "preparo": [
-              "Tempere a carne com sal e pimenta-do-reino. Em uma panela de pressão, aqueça o azeite e doure a carne em porções. Reserve.",
-              "Na mesma panela, refogue a cebola e o alho até ficarem transparentes.",
-              "Adicione as batatas, cenouras e vagem. Refogue por alguns minutos.",
-              "Acrescente o tomate pelado e o caldo de carne. Volte a carne para a panela.",
-              "Tampe a panela de pressão e cozinhe por 10-15 minutos após pegar pressão. Desligue e espere a pressão sair naturalmente.",
-              "Abra a panela, verifique o cozimento dos legumes e da carne. Se necessário, cozinhe mais um pouco sem pressão para apurar o molho.",
-              "Finalize com salsinha picada e sirva."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Picadinho-de-carne-com-legumes",
-              "checked_at": "2026-07-30T02:05:22+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
-              "bank_id": "38330332",
-              "credit": "DΛVΞ GΛRCIΛ",
-              "query": "Picadinho de carne com legumes"
-            },
-            "id": "picadinho-de-carne-com-legumes-60ed6959"
-          },
-          {
-            "nome": "Lombo suíno com molho de laranja",
-            "curso": "principal",
-            "tempo": "40 minutos",
-            "porque": "Carne de porco com sabor agridoce, pode ser grelhado ou assado, oferecendo uma variação de sabor. É uma refeição rápida e elegante.",
-            "tags": [
-              "carne_de_porco",
-              "agridoce",
-              "grelhado",
-              "rapido"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "400g de lombo suíno em bifes",
-              "Suco de 2 laranjas",
-              "Raspas de 1 laranja",
-              "1 colher (sopa) de mel (opcional)",
-              "1 dente de alho picado",
-              "1 colher (sopa) de azeite",
-              "Sal e pimenta-do-reino a gosto"
-            ],
-            "preparo": [
-              "Tempere os bifes de lombo com sal, pimenta-do-reino e alho picado.",
-              "Em uma tigela, misture o suco de laranja, as raspas de laranja e o mel (se usar).",
-              "Aqueça o azeite em uma frigideira ou grelha em fogo médio-alto. Doure os bifes de lombo por 3-4 minutos de cada lado, até estarem cozidos.",
-              "Retire os bifes da frigideira e reserve aquecidos.",
-              "Na mesma frigideira, adicione a mistura de suco de laranja e cozinhe em fogo médio, raspando o fundo, até o molho reduzir e engrossar levemente.",
-              "Sirva os bifes de lombo regados com o molho de laranja."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Lombo-suino-com-molho-de-laranja",
-              "checked_at": "2026-07-30T02:05:23+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/11001292/pexels-photo-11001292.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Delicioso lombo de porco com lentilhas, espinafre e molho cremoso de limão, perfeito para um jantar gourmet.",
-              "bank_id": "11001292",
-              "credit": "Sylwester Ficek",
-              "query": "Lombo suíno com molho de laranja"
-            },
-            "id": "lombo-suino-com-molho-de-laranja-eb9ee90d"
-          },
-          {
-            "nome": "Salada grega",
-            "curso": "entrada",
-            "tempo": "20 minutos",
-            "porque": "Uma salada colorida e cheia de sabor, com ingredientes frescos e queijo feta. É uma opção leve e nutritiva para começar a refeição.",
-            "tags": [
-              "salada",
-              "mediterranea",
-              "queijo",
-              "vegetariano"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "3 tomates maduros",
-              "1 pepino comum",
-              "1 cebola-roxa pequena",
-              "100 g de queijo feta em peça",
-              "⅓ de xícara (chá) de azeitona preta grega",
-              "Azeite a gosto",
-              "Pimenta-do-reino moída na hora a gosto"
-            ],
-            "preparo": [
-              "Lave os tomates e o pepino. Corte os tomates em gomos e o pepino em rodelas.",
-              "Descasque e corte a cebola-roxa em meias-luas finas. Se desejar, deixe-a de molho em água gelada por 10 minutos para suavizar o sabor.",
-              "Em uma saladeira, junte os tomates, o pepino, a cebola e as azeitonas.",
-              "Corte o queijo feta em cubos e adicione à salada.",
-              "Regue com bastante azeite e tempere com pimenta-do-reino a gosto. Sirva imediatamente."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/salada-grega",
-              "title": "Salada grega - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:24+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-3109-salada-grega.webp",
-              "alt": "Salada grega"
-            },
-            "id": "salada-grega-b2ca4a64"
-          },
-          {
-            "nome": "Frutas douradas com mel",
-            "curso": "sobremesa",
-            "tempo": "20 minutos",
-            "porque": "Uma sobremesa simples e elegante, que realça o sabor natural das frutas com um toque de mel. Rápida de preparar na frigideira.",
-            "tags": [
-              "fruta",
-              "frigideira",
-              "rapido",
-              "doce"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "2 maçãs pequenas (ou peras)",
-              "1 colher (sopa) de manteiga",
-              "1 colher (sopa) de mel",
-              "Suco de ½ laranja (opcional)"
-            ],
-            "preparo": [
-              "Lave as frutas, corte ao meio e retire as sementes. Se desejar, corte em gomos.",
-              "Em uma frigideira, derreta a manteiga em fogo médio.",
-              "Adicione as frutas à frigideira e doure por cerca de 3-4 minutos de cada lado, até ficarem macias e levemente caramelizadas.",
-              "Regue as frutas com o mel e o suco de laranja (se usar), e cozinhe por mais 1 minuto, mexendo delicadamente.",
-              "Sirva quente, pura ou acompanhada de iogurte ou sorvete."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/frutas-douradas-com-mel",
-              "title": "Frutas douradas com mel - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:24+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-8082-frutas-douradas-com-mel.webp",
-              "alt": "Frutas douradas com mel"
-            },
-            "id": "frutas-douradas-com-mel-d2fe1640"
-          }
-        ]
-      },
-      {
-        "dia": "Quinta",
-        "pratos": [
-          {
-            "nome": "Salmão assado com crosta de castanha-do-pará",
+            "nome": "Bife com Molho de Limão e Grão-de-Bico",
             "curso": "principal",
             "tempo": "30 minutos",
-            "porque": "Opção de peixe para a semana, assado no forno, rápido e saudável, com proteína e gorduras boas. Uma refeição leve e saborosa.",
+            "porque": "Uma opção de carne vermelha rápida e saborosa, com um molho fresco e nutritivo de limão e grão-de-bico, ideal para uma refeição prática.",
             "tags": [
-              "peixe",
-              "forno",
-              "saudavel",
-              "rapido"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "2 filés de salmão (cerca de 180g cada)",
-              "½ xícara (chá) de castanha-do-pará picada grosseiramente",
-              "1 colher (sopa) de suco de limão",
-              "1 colher (sopa) de azeite",
-              "2 colheres (sopa) de salsinha picada",
-              "Sal e pimenta-do-reino a gosto"
-            ],
-            "preparo": [
-              "Preaqueça o forno a 200 ºC. Forre uma assadeira com papel-manteiga.",
-              "Tempere os filés de salmão com sal, pimenta-do-reino e suco de limão.",
-              "Em uma tigela, misture a castanha-do-pará picada com a salsinha e 1 colher (sopa) de azeite.",
-              "Pressione a mistura de castanhas sobre a parte de cima de cada filé de salmão.",
-              "Disponha os filés na assadeira preparada.",
-              "Leve ao forno por cerca de 15-20 minutos, ou até o salmão estar cozido e a crosta dourada. Sirva imediatamente."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Salmao-assado-com-crosta-de-castanha-do-para",
-              "checked_at": "2026-07-30T02:05:25+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/15895834/pexels-photo-15895834.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Salmão saboroso com crosta de gergelim servido com uma saborosa mistura de arroz em um prato rústico.",
-              "bank_id": "15895834",
-              "credit": "Victor Miyata",
-              "query": "Salmão assado com crosta de castanha-do-pará"
-            },
-            "id": "salmao-assado-com-crosta-de-castanha-do-para-77cd5dfc"
-          },
-          {
-            "nome": "Carne moída com refogado de pimentão",
-            "curso": "principal",
-            "tempo": "30 minutos",
-            "porque": "Uma receita prática e saborosa de carne moída, enriquecida com pimentão e cebola. Perfeita para o dia a dia e rende sobras para o almoço de uma pessoa.",
-            "tags": [
-              "carne_moida",
-              "refogado",
-              "vegetais",
-              "rapido"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "500 g de patinho moído",
-              "1 pimentão vermelho em cubos",
-              "1 cebola em cubos pequenos",
-              "2 dentes de alho picados",
-              "½ xícara (chá) de água quente",
-              "3 colheres (sopa) de azeite",
-              "Cebolinha fatiada a gosto para servir",
-              "Sal e pimenta-do-reino moída na hora a gosto"
-            ],
-            "preparo": [
-              "Retire a carne moída da geladeira. Pique a cebola, o alho e o pimentão.",
-              "Em uma panela média, aqueça 2 colheres (sopa) de azeite e refogue a cebola com uma pitada de sal até dourar.",
-              "Adicione o pimentão e refogue por 2 minutos. Acrescente o alho e misture.",
-              "Afaste o refogado para as laterais da panela, adicione mais 1 colher (sopa) de azeite no centro e coloque a carne moída. Tempere com sal e pimenta.",
-              "Cozinhe a carne moída por cerca de 10 minutos, mexendo para soltar os pedaços e dourar por igual.",
-              "Regue com a água quente, raspando o fundo da panela para dissolver os queimadinhos. Cozinhe até o líquido reduzir.",
-              "Finalize com cebolinha fatiada e sirva."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-refogado-de-pimentao",
-              "checked_at": "2026-07-30T02:05:25+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
-              "bank_id": "34714654",
-              "credit": "UNDO KIM",
-              "query": "Carne moída com refogado de pimentão"
-            },
-            "id": "carne-moida-com-refogado-de-pimentao-283735d9"
-          },
-          {
-            "nome": "Tapenade com limão-siciliano e tomilho",
-            "curso": "entrada",
-            "tempo": "15 minutos",
-            "porque": "Um patê saboroso e versátil, ideal para servir com pães ou torradas. É supercuringa e pode ser preparado rapidamente.",
-            "tags": [
-              "pate",
-              "azeitona",
+              "carne_vermelha",
+              "grelhado",
               "rapido",
-              "vegetariano"
+              "leve"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "1 xícara (chá) de azeitonas pretas sem caroço",
-              "1 colher (sopa) de alcaparras",
-              "1 dente de alho",
-              "Raspas de ½ limão-siciliano",
-              "1 colher (sopa) de folhas de tomilho fresco",
-              "4 colheres (sopa) de azeite",
-              "Pimenta-do-reino a gosto"
-            ],
-            "preparo": [
-              "Lave as azeitonas e as alcaparras em água corrente e escorra bem.",
-              "Em um processador de alimentos (ou pilão), coloque as azeitonas, alcaparras, alho, raspas de limão e tomilho.",
-              "Pulse (ou amasse) até obter uma pasta rústica.",
-              "Transfira para uma tigela, regue com o azeite e misture bem.",
-              "Tempere com pimenta-do-reino a gosto. Não adicione sal, pois as azeitonas e alcaparras já são salgadas.",
-              "Sirva com torradas ou pão. Pode ser armazenado na geladeira."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/tapenade-com-limao-siciliano-e-tomilho",
-              "title": "Tapenade com limão-siciliano e tomilho - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:26+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-9944-tapenade-com-limao-siciliano-e-tomilho.webp",
-              "alt": "Tapenade com limão-siciliano e tomilho"
-            },
-            "id": "tapenade-com-limao-siciliano-e-tomilho-af1206bc"
-          },
-          {
-            "nome": "Cocada de forno",
-            "curso": "sobremesa",
-            "tempo": "40 minutos",
-            "porque": "Uma cocada cremosa por dentro e crocante por fora, feita no forno. É prática e deliciosa, e rende várias porções que podem ser guardadas.",
-            "tags": [
-              "coco",
-              "forno",
-              "brasileira",
-              "doce"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "4 xícaras (chá) de coco fresco ralado (cerca de 500 g)",
-              "6 ovos",
-              "3 xícaras (chá) de açúcar",
-              "2 colheres (sopa) de manteiga derretida",
-              "Raspas de 2 laranjas baía (opcional)"
-            ],
-            "preparo": [
-              "Preaqueça o forno a 180 ºC. Unte um refratário raso com manteiga.",
-              "Em uma tigela grande, bata os ovos com a manteiga derretida e o açúcar até formar um creme.",
-              "Adicione as raspas de laranja (se usar) e o coco ralado. Misture bem com uma espátula para incorporar.",
-              "Transfira a massa para o refratário untado, espalhando uniformemente.",
-              "Leve ao forno por cerca de 40 minutos, ou até a superfície ficar bem dourada e a cocada firme nas bordas e cremosa no centro.",
-              "Retire do forno e deixe esfriar em temperatura ambiente antes de servir. Também pode ser servida gelada."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Cocada-de-forno",
-              "checked_at": "2026-07-30T02:05:27+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/22873803/pexels-photo-22873803.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Uma fatia de bolo de coco cremoso decorada com grãos de café em um prato rústico.",
-              "bank_id": "22873803",
-              "credit": "Matheus Bertelli",
-              "query": "Cocada de forno"
-            },
-            "id": "cocada-de-forno-6926be9d"
-          }
-        ]
-      },
-      {
-        "dia": "Sexta",
-        "pratos": [
-          {
-            "nome": "Bife grelhado com vinagrete",
-            "curso": "principal",
-            "tempo": "20 minutos",
-            "porque": "Carne vermelha grelhada no ponto certo, acompanhada de um vinagrete fresco. É uma refeição rápida e saborosa, perfeita para um jantar a dois.",
-            "tags": [
-              "carne",
-              "grelhado",
-              "vinagrete",
-              "rapido"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "2 bifes de contrafilé (ou alcatra)",
-              "1 tomate médio em cubos pequenos",
-              "½ cebola roxa em cubos pequenos",
-              "¼ de xícara (chá) de salsinha picada",
-              "2 colheres (sopa) de vinagre de vinho tinto",
-              "3 colheres (sopa) de azeite",
-              "Sal e pimenta-do-reino a gosto"
-            ],
-            "preparo": [
-              "Para o vinagrete: em uma tigela, misture o tomate, cebola roxa, salsinha, vinagre, azeite, sal e pimenta-do-reino. Reserve.",
-              "Tempere os bifes com sal e pimenta-do-reino. Retire da geladeira 10 minutos antes de cozinhar.",
-              "Aqueça uma frigideira ou grelha em fogo alto. Regue com um fio de azeite.",
-              "Grelhe os bifes por 2-3 minutos de cada lado para o ponto malpassado, ou mais para o ponto desejado.",
-              "Retire os bifes da grelha e deixe descansar por 2 minutos antes de fatiar (opcional).",
-              "Sirva os bifes acompanhados do vinagrete."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/bife-grelhado-com-vinagrete",
-              "title": "Bife grelhado com vinagrete - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:27+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-6334-bife-grelhado-com-vinagrete.webp",
-              "alt": "Bife grelhado com vinagrete"
-            },
-            "id": "bife-grelhado-com-vinagrete-f66a1291"
-          },
-          {
-            "nome": "Filé de frango grelhado com sal temperado",
-            "curso": "principal",
-            "tempo": "30 minutos",
-            "porque": "Frango grelhado suculento e cheio de sabor, graças a uma salmoura simples. É uma opção leve e rápida, ideal para um jantar equilibrado.",
-            "tags": [
-              "frango",
-              "grelhado",
-              "saudavel",
-              "rapido"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "1 filé de peito de frango (cerca de 180g)",
-              "1 colher (sopa) de tempero para aves caseiro (ou sal, alho em pó, páprica)",
-              "1 colher (chá) de açúcar",
+              "2 bifes de alcatra ou contrafilé (cerca de 180g cada)",
+              "1 xícara (chá) de grão-de-bico cozido",
+              "Suco de 1 limão-siciliano",
+              "2 colheres (sopa) de azeite extra virgem",
+              "1/4 xícara (chá) de salsinha picada",
               "1 dente de alho amassado",
-              "1 folha de louro",
-              "½ colher (sopa) de azeite",
-              "Água para a salmoura"
-            ],
-            "preparo": [
-              "Prepare a salmoura: em uma tigela, misture 1 xícara de água, o tempero para aves, açúcar, alho amassado e folha de louro. Mergulhe o filé de frango e deixe marinar por 15-20 minutos.",
-              "Retire o frango da salmoura, lave rapidamente em água corrente e seque bem com papel-toalha.",
-              "Aqueça uma frigideira antiaderente ou grelha em fogo médio. Regue com o azeite.",
-              "Grelhe o filé de frango por 4-5 minutos de cada lado, ou até dourar e estar cozido por completo.",
-              "Sirva imediatamente, acompanhado de uma salada ou legumes."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/file-de-frango-grelhado-com-sal-temperado",
-              "title": "Filé de frango grelhado com sal temperado - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:27+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-2655-file-de-frango-grelhado-com-sal-temperado.webp",
-              "alt": "Filé de frango grelhado com sal temperado"
-            },
-            "id": "file-de-frango-grelhado-com-sal-temperado-b89746aa"
-          },
-          {
-            "nome": "Salada de pimentão marinado com hortelã",
-            "curso": "entrada",
-            "tempo": "45 minutos",
-            "porque": "Pimentões assados que ficam adocicados e suculentos, com um toque fresco de hortelã. Uma entrada charmosa e que pode ser feita com antecedência.",
-            "tags": [
-              "salada",
-              "vegetariano",
-              "forno",
-              "fresca"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "2 pimentões vermelhos",
-              "4 ramos de hortelã",
-              "1 colher (sopa) de vinagre balsâmico",
-              "1 colher (sopa) de azeite",
               "Sal e pimenta-do-reino moída na hora a gosto"
             ],
             "preparo": [
-              "Preaqueça o forno a 220 ºC. Lave e seque os pimentões. Espalhe-os inteiros em uma assadeira.",
-              "Leve ao forno por cerca de 30 minutos, virando na metade do tempo, até a pele ficar tostada e os pimentões macios.",
-              "Retire os pimentões do forno e coloque-os em uma tigela, cubra com plástico filme e deixe amornar por 10 minutos para facilitar a remoção da pele.",
-              "Descasque os pimentões, retire as sementes e corte em tiras. Pique as folhas de hortelã.",
-              "Em uma tigela, misture as tiras de pimentão com o vinagre balsâmico, o azeite, sal, pimenta-do-reino e a hortelã picada.",
-              "Sirva em temperatura ambiente ou gelada. A salada pode ser armazenada na geladeira por até 3 dias."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/salada-de-pimentao-marinado-com-hortela",
-              "title": "Salada de pimentão marinado com hortelã - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:28+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-9516-salada-de-pimentao-marinado-com-hortela.webp",
-              "alt": "Salada de pimentão marinado com hortelã"
-            },
-            "id": "salada-de-pimentao-marinado-com-hortela-1043d971"
-          },
-          {
-            "nome": "Musse de chocolate branco",
-            "curso": "sobremesa",
-            "tempo": "30 minutos",
-            "porque": "Uma musse cremosa e indulgente de chocolate branco, perfeita para quem ama um doce. É rápida de preparar e pode ser feita com antecedência.",
-            "tags": [
-              "chocolate",
-              "cremosa",
-              "rapida",
-              "doce"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "200 g de chocolate branco",
-              "3 ovos",
-              "½ xícara (chá) de açúcar",
-              "1 lata de creme de leite sem o soro"
-            ],
-            "preparo": [
-              "Pique o chocolate branco e derreta em banho-maria ou no micro-ondas (em potência média, mexendo a cada 30 segundos). Deixe amornar.",
-              "Separe as claras das gemas. Em uma tigela, bata as gemas com o açúcar até obter um creme claro e fofo.",
-              "Adicione o chocolate branco derretido ao creme de gemas e misture bem.",
-              "Incorpore o creme de leite sem soro à mistura de chocolate.",
-              "Em outra tigela, bata as claras em neve firme. Incorpore delicadamente as claras em neve à musse, em duas adições.",
-              "Transfira a musse para taças individuais ou uma tigela grande e leve à geladeira por pelo menos 4 horas antes de servir."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/musse-de-chocolate-branco",
-              "title": "Musse de chocolate branco - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:28+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-8559-panelinha-04-02-2015-6809.webp",
-              "alt": "Musse de chocolate branco"
-            },
-            "id": "musse-de-chocolate-branco-0ea12b4b"
-          }
-        ]
-      },
-      {
-        "dia": "Sábado",
-        "pratos": [
-          {
-            "nome": "Costelinha de porco na Air Fryer da Rita Lobo",
-            "curso": "principal",
-            "tempo": "45 minutos",
-            "porque": "Costelinha de porco tostadinha e suculenta, feita na Air Fryer. É uma opção prática e deliciosa, que rende sobras para o almoço de uma pessoa.",
-            "tags": [
-              "carne_de_porco",
-              "airfryer",
-              "pratico",
-              "assado"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "1 kg de costela de porco em ripas",
-              "2 colheres (sopa) de azeite",
-              "2 colheres (chá) de sal",
-              "Pimenta-do-reino moída na hora a gosto"
-            ],
-            "preparo": [
-              "Corte a costelinha em ripas. Em uma tigela, tempere com sal, pimenta-do-reino e azeite. Misture bem.",
-              "Deixe marinar em temperatura ambiente por 30 minutos para perder o gelo.",
-              "Preaqueça a Air Fryer a 200 ºC por 5 minutos.",
-              "Disponha as ripas de costelinha no cesto da Air Fryer, sem amontoar.",
-              "Asse por 30 minutos, virando na metade do tempo, até ficarem douradas e cozidas.",
-              "Sirva quente, acompanhada de molho barbecue ou limão."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Costelinha-de-porco-na-Air-Fryer-da-Rita-Lobo-3-2-litros",
-              "checked_at": "2026-07-30T02:05:29+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/28992209/pexels-photo-28992209.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Um delicioso prato da culinária brasileira com costeleta de porco, arroz, feijão e salada fresca.",
-              "bank_id": "28992209",
-              "credit": "pedro furtado",
-              "query": "Costelinha de porco na Air Fryer da Rita Lobo"
-            },
-            "id": "costelinha-de-porco-na-air-fryer-da-rita-lobo-08fe8836"
-          },
-          {
-            "nome": "Bife com molho de limão e grão-de-bico",
-            "curso": "principal",
-            "tempo": "25 minutos",
-            "porque": "Um bife saboroso e um acompanhamento completo, tudo feito na mesma frigideira. É uma refeição prática e equilibrada, com proteína e grão-de-bico.",
-            "tags": [
-              "carne",
-              "rapido",
-              "uma_panela",
-              "grao_de_bico"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "2 bifes de alcatra (ou contrafilé)",
-              "1 lata de grão-de-bico cozido e escorrido",
-              "Suco de 1 limão",
-              "Raspas de ½ limão",
-              "2 colheres (sopa) de azeite",
-              "1 dente de alho picado",
-              "Folhas de agrião para servir",
-              "Sal e pimenta-do-reino a gosto"
-            ],
-            "preparo": [
-              "Tempere os bifes com sal e pimenta-do-reino.",
-              "Aqueça o azeite em uma frigideira grande em fogo alto. Doure os bifes por 2-3 minutos de cada lado. Retire e reserve.",
-              "Na mesma frigideira, adicione o alho picado e refogue por 30 segundos.",
-              "Acrescente o grão-de-bico, o suco e as raspas de limão. Misture e cozinhe por 2 minutos para aquecer.",
-              "Retorne os bifes à frigideira, misture com o grão-de-bico e cozinhe por mais 1 minuto.",
-              "Sirva os bifes com o molho de grão-de-bico e folhas de agrião."
+              "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
+              "Aqueça uma frigideira ou grelha em fogo alto. Adicione um fio de azeite e grelhe os bifes por 3 a 4 minutos de cada lado, para um ponto malpassado a ao ponto.",
+              "Enquanto os bifes grelham, prepare o molho: em uma tigela, misture o grão-de-bico cozido, o suco de limão, o azeite, a salsinha picada, o alho amassado, sal e pimenta-do-reino.",
+              "Retire os bifes da grelha e deixe-os descansar por alguns minutos antes de fatiar.",
+              "Fatie os bifes em tiras e sirva com o molho de limão e grão-de-bico por cima."
             ],
             "fonte": {
               "status": "verified",
@@ -1188,100 +478,861 @@
               "title": "Bife com molho de limão e grão-de-bico - Panelinha",
               "domain": "panelinha.com.br",
               "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:30+00:00"
+              "checked_at": "2026-08-09T23:03:15+00:00"
             },
             "imagem": {
               "kind": "source",
               "url": "https://i.panelinha.com.br/i1/bk-7174-img-9932.webp",
-              "alt": "Bife com molho de limão e grão-de-bico"
+              "alt": "Bife com Molho de Limão e Grão-de-Bico"
             },
             "id": "bife-com-molho-de-limao-e-grao-de-bico-43f65ca8"
           },
           {
-            "nome": "Queijo brie aperitivo na Air Fryer da Rita Lobo",
+            "nome": "Sopa de brócolis com batata e limão-siciliano",
             "curso": "entrada",
-            "tempo": "15 minutos",
-            "porque": "Um aperitivo elegante e rápido, perfeito para um jantar especial. O queijo brie fica cremoso e delicioso na air fryer.",
+            "tempo": "30 minutos",
+            "porque": "Uma sopa cremosa e aromática, perfeita para aquecer e servir como entrada leve e nutritiva. O limão-siciliano adiciona um toque especial.",
             "tags": [
-              "queijo",
-              "airfryer",
-              "aperitivo",
-              "rapido"
+              "sopa",
+              "vegetariano",
+              "leve",
+              "confort_food"
             ],
-            "rende_sobra": false,
+            "rende_sobra": true,
             "ingredientes": [
-              "1 peça de queijo francês petit brie (125 g)",
-              "¼ de colher (chá) de azeite",
-              "1 colher (chá) de mel",
-              "¼ de colher (chá) de pimenta calabresa seca",
-              "5 ramos de tomilho-limão"
+              "1 brócolis ninja (cerca de 500 g)",
+              "3 batatas (cerca de 500 g)",
+              "1 cebola",
+              "2 dentes de alho",
+              "Tiras da casca de 1 limão-siciliano",
+              "4 ramos de tomilho",
+              "¼ de xícara (chá) de vinho branco seco (opcional)",
+              "1 folha de louro",
+              "1 litro de caldo de legumes caseiro ou água",
+              "Azeite a gosto",
+              "Sal e pimenta-do-reino moída na hora a gosto",
+              "Folhas de endro e salsinha picadas para servir (opcional)"
             ],
             "preparo": [
-              "Preaqueça a Air Fryer a 160 ºC por 5 minutos.",
-              "Coloque o queijo brie em uma tigela pequena ou pratinho que possa ir à Air Fryer.",
-              "Polvilhe a pimenta calabresa, as folhas de tomilho debulhadas e regue com o azeite e o mel.",
-              "Leve à Air Fryer e asse por 10 minutos, ou até o queijo estar macio e derretido por dentro.",
-              "Sirva imediatamente com torradas ou pão."
+              "Lave o brócolis e separe os floretes. Descasque e pique as batatas em cubos. Descasque e pique a cebola e o alho.",
+              "Em uma panela média, aqueça um fio de azeite e refogue a cebola e o alho até ficarem macios.",
+              "Adicione as batatas, os floretes de brócolis, as tiras de casca de limão, o tomilho e a folha de louro. Refogue por 5 minutos.",
+              "Regue com o vinho branco (se usar) e deixe evaporar. Junte o caldo de legumes ou água, tempere com sal e pimenta.",
+              "Cozinhe em fogo médio por cerca de 15 minutos, ou até os legumes ficarem bem macios.",
+              "Retire as tiras de limão, o tomilho e a folha de louro. Bata a sopa no liquidificador até ficar lisa e cremosa.",
+              "Volte a sopa para a panela, aqueça novamente e ajuste o tempero. Sirva com folhas de endro e salsinha picadas, se desejar."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/sopa-de-brocolis-com-batata-e-limao-siciliano",
+              "title": "Sopa de brócolis com batata e limão-siciliano - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:16+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://i.panelinha.com.br/i1/bk-3168-blog-sopa-de-brocolis-e-batata-1.webp",
+              "alt": "Sopa de brócolis com batata e limão-siciliano"
+            },
+            "id": "sopa-de-brocolis-com-batata-e-limao-siciliano-838fdb32"
+          },
+          {
+            "nome": "Ambrosia rápida de leite em pó",
+            "curso": "sobremesa",
+            "tempo": "30 minutos",
+            "porque": "Uma versão prática e deliciosa da clássica ambrosia, feita com leite em pó para agilizar o preparo. Ideal para um doce caseiro.",
+            "tags": [
+              "doce",
+              "rapido",
+              "caseiro",
+              "brasileiro"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1½ xícara (chá) de leite em pó",
+              "1 ovo",
+              "3 colheres (sopa) de água",
+              "1 pitada de sal",
+              "½ xícara (chá) de açúcar",
+              "1 xícara (chá) de água (para a calda)",
+              "1 canela em rama",
+              "3 cravos-da-índia",
+              "½ colher (sopa) de vinagre de vinho branco"
+            ],
+            "preparo": [
+              "Em uma panela pequena, junte 1 xícara de água com o açúcar e misture. Adicione a canela e os cravos. Leve ao fogo médio até ferver.",
+              "Enquanto a calda aquece, no liquidificador, bata o ovo, as 3 colheres de sopa de água, o leite em pó e a pitada de sal por 1 minuto, até obter uma mistura lisa e grossa.",
+              "Assim que a calda ferver, retire a panela do fogo e adicione a mistura do liquidificador e o vinagre.",
+              "Volte a panela para o fogo baixo e mexa com uma espátula por cerca de 5 minutos, desmanchando os grumos maiores, até o doce ficar com uma aparência granulosa.",
+              "Transfira a ambrosia para uma compoteira ou pote com tampa e deixe esfriar.",
+              "Sirva fria. Conserve na geladeira."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/ambrosia-rapida-de-leite-em-po",
+              "title": "Ambrosia rápida de leite em pó - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:16+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://i.panelinha.com.br/i1/bk-2781-ambrosia-rapida-de-leite-em-po.webp",
+              "alt": "Ambrosia rápida de leite em pó"
+            },
+            "id": "ambrosia-rapida-de-leite-em-po-dc1cc872"
+          }
+        ]
+      },
+      {
+        "dia": "Quarta",
+        "pratos": [
+          {
+            "nome": "Filé Mignon Suíno Assado com Batatas",
+            "curso": "principal",
+            "tempo": "45 minutos",
+            "porque": "Prato completo e prático de carne suína, assado no forno com batatas e temperos, oferecendo proteína e carboidratos de forma equilibrada. Não está na lista de pratos a evitar.",
+            "tags": [
+              "carne_suina",
+              "assado",
+              "completo",
+              "facil"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 peça de filé mignon suíno (cerca de 800g)",
+              "500 g de batatas pequenas (ou médias cortadas ao meio)",
+              "1 cebola grande cortada em gomos",
+              "4 dentes de alho amassados",
+              "2 ramos de alecrim fresco",
+              "1/2 xícara (chá) de vinho branco seco (opcional)",
+              "2 colheres (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 200°C. Lave e seque o filé mignon suíno e as batatas.",
+              "Em uma tigela grande, tempere o filé mignon suíno com sal, pimenta-do-reino, alho amassado e alecrim. Esfregue bem os temperos na carne.",
+              "Adicione as batatas e a cebola cortada em gomos à tigela com a carne. Regue com o azeite e o vinho branco (se usar), misturando bem para envolver todos os ingredientes.",
+              "Transfira tudo para uma assadeira grande, espalhando os ingredientes em uma única camada.",
+              "Leve ao forno preaquecido por cerca de 30-40 minutos, virando a carne e as batatas na metade do tempo, até que a carne esteja cozida e as batatas macias e douradas.",
+              "Retire do forno e deixe a carne descansar por alguns minutos antes de fatiar e servir."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
-              "checked_at": "2026-07-30T02:05:30+00:00"
+              "suggested_url": "https://www.tudogostoso.com.br/receita/18442-file-mignon-suino-assado-com-batatas.html",
+              "checked_at": "2026-08-09T23:03:17+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
-              "bank_id": "31994015",
-              "credit": "Mimi",
-              "query": "Queijo brie aperitivo na Air Fryer da Rita Lobo"
+              "url": "https://images.pexels.com/photos/792027/pexels-photo-792027.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Delicioso filé mignon de porco decorado com alecrim, servido com batatas assadas e salada fresca.",
+              "bank_id": "792027",
+              "credit": "Roger Cziwerny",
+              "query": "Filé Mignon Suíno Assado com Batatas"
             },
-            "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6"
+            "id": "file-mignon-suino-assado-com-batatas-582338e3"
           },
           {
-            "nome": "Arroz-doce cremoso",
-            "curso": "sobremesa",
-            "tempo": "45 minutos",
-            "porque": "Um arroz-doce clássico e super cremoso, sem leite condensado, que permite controlar o açúcar. Ideal para um doce reconfortante.",
+            "nome": "Carne Moída com Cenoura e Ervilha",
+            "curso": "principal",
+            "tempo": "40 minutos",
+            "porque": "Uma opção clássica de carne vermelha, rica em proteína e vegetais, fácil de preparar e ideal para sobrar para o almoço. Não está na lista de pratos a evitar.",
             "tags": [
-              "arroz",
-              "doce",
-              "cremoso",
-              "tradicional"
+              "carne_vermelha",
+              "refogado",
+              "facil",
+              "equilibrado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "¾ de xícara (chá) de arroz para sushi (ou cateto)",
-              "1 litro de leite",
-              "1 xícara (chá) de água",
-              "¾ de xícara (chá) de açúcar",
-              "1 canela em rama",
-              "2 tiras finas da casca de limão",
-              "Canela em pó a gosto para servir"
+              "500 g de carne moída",
+              "1 cebola média picada",
+              "2 dentes de alho amassados",
+              "1 cenoura média picada em cubos pequenos",
+              "1 xícara (chá) de ervilha fresca ou congelada",
+              "1 lata de tomate pelado picado (ou 2 tomates maduros picados)",
+              "1/2 xícara (chá) de água ou caldo de carne",
+              "Sal e pimenta-do-reino a gosto",
+              "Cheiro-verde picado a gosto",
+              "Azeite para refogar"
             ],
             "preparo": [
-              "Em uma panela média de borda alta, junte o leite, a água, o açúcar e o arroz. Misture bem.",
-              "Adicione a canela em rama e as tiras de casca de limão.",
-              "Leve ao fogo médio e cozinhe, mexendo ocasionalmente, por cerca de 30-35 minutos, até o arroz ficar macio e o caldo cremoso.",
-              "Retire a canela e as cascas de limão. Deixe esfriar em temperatura ambiente por 10 minutos.",
-              "Transfira para uma tigela e leve à geladeira por no mínimo 2 horas para firmar e ficar bem cremoso.",
-              "Sirva frio, polvilhado com canela em pó."
+              "Em uma panela, aqueça o azeite e refogue a cebola e o alho até dourarem.",
+              "Adicione a carne moída e refogue, mexendo sempre, até que esteja bem soltinha e dourada.",
+              "Acrescente a cenoura, o tomate picado, o sal e a pimenta-do-reino. Misture bem.",
+              "Despeje a água ou caldo de carne, tampe a panela e cozinhe em fogo médio por cerca de 15 minutos, ou até a cenoura ficar macia.",
+              "Junte as ervilhas e o cheiro-verde, misture e cozinhe por mais 5 minutos.",
+              "Sirva quente, acompanhada de arroz branco e salada."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.tudogostoso.com.br/receita/18163-carne-moida-com-cenoura-e-ervilha.html",
+              "checked_at": "2026-08-09T23:03:18+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/34429590/pexels-photo-34429590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Delicioso ensopado de carne moída com batatas e ervilhas, decorado com ervas frescas em uma tigela branca.",
+              "bank_id": "34429590",
+              "credit": "Laura oliveira",
+              "query": "Carne Moída com Cenoura e Ervilha"
+            },
+            "id": "carne-moida-com-cenoura-e-ervilha-f3372cd7"
+          },
+          {
+            "nome": "Pão de queijo de liquidificador",
+            "curso": "entrada",
+            "tempo": "30 minutos",
+            "porque": "Uma entrada prática e rápida de preparar, perfeita para acompanhar a refeição ou como um lanche saboroso. A versão de liquidificador facilita muito.",
+            "tags": [
+              "pao_de_queijo",
+              "rapido",
+              "facil",
+              "brasileiro"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "1 xícara (chá) de leite",
+              "½ xícara (chá) de óleo",
+              "3 ovos",
+              "2 xícaras (chá) de polvilho doce",
+              "1 xícara (chá) de queijo parmesão ralado",
+              "Sal a gosto"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 180°C. Unte forminhas de cupcake ou empada com um pouco de óleo.",
+              "No liquidificador, bata o leite, o óleo e os ovos até misturar bem.",
+              "Adicione o polvilho doce e o queijo parmesão ralado. Bata novamente até obter uma massa homogênea.",
+              "Tempere com sal a gosto, misturando rapidamente.",
+              "Despeje a massa nas forminhas untadas, preenchendo até ¾ da capacidade.",
+              "Leve ao forno preaquecido por cerca de 20-25 minutos, ou até os pães de queijo dourarem e crescerem.",
+              "Retire do forno e sirva ainda quentes."
             ],
             "fonte": {
               "status": "verified",
-              "url": "https://panelinha.com.br/receita/arroz-doce-cremoso",
-              "title": "Arroz-doce cremoso - Panelinha",
+              "url": "https://panelinha.com.br/receita/pao-de-queijo-de-liquidificador",
+              "title": "Pão de queijo de liquidificador - Panelinha",
               "domain": "panelinha.com.br",
               "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:30+00:00"
+              "checked_at": "2026-08-09T23:03:18+00:00"
             },
             "imagem": {
               "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-3629-arroz-doce-cremoso.webp",
-              "alt": "Arroz-doce cremoso"
+              "url": "https://i.panelinha.com.br/i1/bk-9262-blog-ayu0306.webp",
+              "alt": "Pão de queijo de liquidificador"
             },
-            "id": "arroz-doce-cremoso-668ad5cf"
+            "id": "pao-de-queijo-de-liquidificador-a77ed60d"
+          },
+          {
+            "nome": "Bolo de caneca de maçã e amendoim (de micro-ondas)",
+            "curso": "sobremesa",
+            "tempo": "10 minutos",
+            "porque": "Um bolo de caneca diferente e delicioso, pronto em minutos no micro-ondas. Ideal para uma sobremesa individual e rápida.",
+            "tags": [
+              "bolo",
+              "micro_ondas",
+              "rapido",
+              "individual"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "1 maçã pequena",
+              "2 colheres (sopa) de farinha de trigo",
+              "2 colheres (sopa) de açúcar mascavo",
+              "1 colher (sopa) de pasta de amendoim",
+              "1 colher (sopa) de leite",
+              "1 colher (chá) de fermento em pó",
+              "Uma pitada de canela em pó"
+            ],
+            "preparo": [
+              "Lave, seque e rale a maçã (sem casca e sem sementes) diretamente em uma caneca grande que possa ir ao micro-ondas.",
+              "Adicione a farinha de trigo, o açúcar mascavo, a pasta de amendoim, o leite, o fermento em pó e a canela na caneca.",
+              "Misture bem com um garfo até que todos os ingredientes estejam incorporados e a massa homogênea.",
+              "Leve a caneca ao micro-ondas em potência alta por 1 minuto e 30 segundos a 2 minutos, ou até o bolo crescer e firmar.",
+              "Retire com cuidado (a caneca estará quente) e sirva imediatamente."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/bolo-de-caneca-de-maca-e-amendoim-de-micro-ondas",
+              "checked_at": "2026-08-09T23:03:19+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/5448354/pexels-photo-5448354.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Elegante caneca de chá com maçãs e flores secas em um ambiente escuro, perfeita para uma cena de café da manhã aconchegante.",
+              "bank_id": "5448354",
+              "credit": "Asya Vlasova",
+              "query": "Bolo de caneca de maçã e amendoim (de micro-ondas)"
+            },
+            "id": "bolo-de-caneca-de-maca-e-amendoim-de-micro-ondas-941dc95e"
+          }
+        ]
+      },
+      {
+        "dia": "Quinta",
+        "pratos": [
+          {
+            "nome": "Tilápia Assada com Legumes",
+            "curso": "principal",
+            "tempo": "35 minutos",
+            "porque": "A opção de peixe da semana, leve e saudável, assada no forno com uma variedade de legumes, garantindo uma refeição completa e nutritiva.",
+            "tags": [
+              "peixe",
+              "assado",
+              "saudavel",
+              "leve"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "4 filés de tilápia",
+              "2 batatas médias cortadas em rodelas",
+              "2 cenouras médias cortadas em rodelas",
+              "1 abobrinha média cortada em rodelas",
+              "1 cebola média cortada em rodelas",
+              "2 tomates médios cortados em rodelas",
+              "Suco de 1 limão",
+              "3 colheres (sopa) de azeite",
+              "Sal, pimenta-do-reino e orégano a gosto",
+              "Salsinha picada para finalizar"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 200°C. Unte uma assadeira grande com azeite.",
+              "Em uma tigela, tempere os filés de tilápia com sal, pimenta-do-reino e suco de limão. Reserve.",
+              "Na assadeira, distribua as batatas, cenouras, abobrinha, cebola e tomate. Regue com azeite, tempere com sal, pimenta-do-reino e orégano. Misture bem.",
+              "Disponha os filés de tilápia sobre os legumes na assadeira.",
+              "Leve ao forno preaquecido por cerca de 25-30 minutos, ou até o peixe estar cozido e os legumes macios e levemente dourados.",
+              "Retire do forno, salpique salsinha picada e sirva imediatamente."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.tudogostoso.com.br/receita/144933-tilapia-assada-com-legumes.html",
+              "checked_at": "2026-08-09T23:03:21+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/20089298/pexels-photo-20089298.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up de uma refeição caseira com peixe frito, legumes e arroz, dispostos em uma mesa decorada.",
+              "bank_id": "20089298",
+              "credit": "Nothing Ahead",
+              "query": "Tilápia Assada com Legumes"
+            },
+            "id": "tilapia-assada-com-legumes-16a4c7d1"
+          },
+          {
+            "nome": "Frango Xadrez",
+            "curso": "principal",
+            "tempo": "45 minutos",
+            "porque": "Prato de frango saboroso e rápido, com um bom equilíbrio de proteína e vegetais, preparado por refogado. Uma alternativa variada para a semana.",
+            "tags": [
+              "frango",
+              "refogado",
+              "oriental",
+              "rapido"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "500 g de peito de frango cortado em cubos",
+              "1 cebola grande picada em cubos grandes",
+              "1 pimentão verde picado em cubos grandes",
+              "1 pimentão vermelho picado em cubos grandes",
+              "1/2 xícara (chá) de amendoim torrado sem pele",
+              "2 colheres (sopa) de óleo",
+              "2 colheres (sopa) de molho shoyu",
+              "1 colher (sopa) de amido de milho",
+              "1/2 xícara (chá) de água",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Tempere o frango com sal e pimenta-do-reino.",
+              "Em uma panela wok ou frigideira grande, aqueça o óleo e doure o frango em porções. Reserve.",
+              "Na mesma panela, refogue a cebola e os pimentões até ficarem macios, mas ainda crocantes.",
+              "Retorne o frango à panela. Em um recipiente separado, dissolva o amido de milho na água e adicione o molho shoyu.",
+              "Despeje essa mistura sobre o frango e os vegetais, mexendo até o molho engrossar.",
+              "Adicione o amendoim torrado, misture bem e cozinhe por mais 2 minutos.",
+              "Sirva imediatamente, acompanhado de arroz branco."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.tudogostoso.com.br/receita/187-frango-xadrez.html",
+              "checked_at": "2026-08-09T23:03:21+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/10692545/pexels-photo-10692545.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up de frango agridoce com pimentões e abacaxi em um prato de cerâmica.",
+              "bank_id": "10692545",
+              "credit": "Yang Hao",
+              "query": "Frango Xadrez"
+            },
+            "id": "frango-xadrez-a303d55f"
+          },
+          {
+            "nome": "Geleia de Pimenta",
+            "curso": "entrada",
+            "tempo": "20 minutos",
+            "porque": "Uma geleia agridoce e picante, perfeita para acompanhar queijos, torradas ou carnes. Fácil de fazer e com um sabor marcante.",
+            "tags": [
+              "acompanhamento",
+              "agridoce",
+              "facil",
+              "picante"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "4 pimentas dedo-de-moça picadas e sem sementes",
+              "1 maçã ralada (sem casca e sem semente)",
+              "Suco de 1 limão",
+              "1 dente de alho",
+              "1 xícara (chá) de açúcar",
+              "1 canela em pau",
+              "½ xícara (chá) de água",
+              "1 pitada de sal"
+            ],
+            "preparo": [
+              "Em uma panela, coloque todos os ingredientes (pimentas, maçã, suco de limão, alho, açúcar, canela, água e sal).",
+              "Misture bem e leve ao fogo médio.",
+              "Ao atingir fervura, abaixe o fogo e cozinhe por cerca de 10 minutos, mexendo ocasionalmente, até a geleia engrossar e as pimentas ficarem macias.",
+              "Retire o dente de alho e a canela em pau.",
+              "Transfira a geleia para um pote de vidro esterilizado.",
+              "Deixe esfriar completamente antes de tampar e guardar na geladeira. Sirva com torradas, queijos ou carnes."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://www.receitasnestle.com.br/receitas/geleia-de-pimenta",
+              "title": "Geleia de Pimenta",
+              "domain": "receitasnestle.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:22+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://www.receitasnestle.com.br/receitas/['/sites/default/files/srh_recipes/be14ce993cb51c3e2d3779837b2a1055.jpg', '/sites/default/files/srh_recipes/45cb77c49d95a81fc23afe34fd858fcd.jpeg', '/sites/default/files/srh_recipes/a8cebb01c758ba2c3d9b485bcb586677.jpeg']",
+              "alt": "Geleia de Pimenta"
+            },
+            "id": "geleia-de-pimenta-bf239ce2"
+          },
+          {
+            "nome": "Doce de Leite com Amendoim",
+            "curso": "sobremesa",
+            "tempo": "40 minutos",
+            "porque": "Uma sobremesa cremosa e reconfortante, combinando o sabor clássico do doce de leite com a crocância do amendoim. Fácil de preparar.",
+            "tags": [
+              "doce",
+              "cremoso",
+              "facil",
+              "brasileiro"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 lata de Leite MOÇA® (leite condensado)",
+              "1 xícara (chá) de amendoim torrado e moído",
+              "1 colher (sopa) de manteiga",
+              "1 pitada de sal"
+            ],
+            "preparo": [
+              "Em uma panela de fundo grosso, coloque o leite condensado, o amendoim moído, a manteiga e a pitada de sal.",
+              "Leve ao fogo baixo, mexendo sempre, até a mistura desgrudar do fundo da panela (ponto de brigadeiro mole).",
+              "Retire do fogo e transfira para um prato untado com manteiga.",
+              "Deixe esfriar completamente em temperatura ambiente.",
+              "Sirva em colheradas ou enrole pequenas porções e passe no amendoim picado, se desejar."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://www.receitasnestle.com.br/receitas/doce-de-leite-com-amendoim",
+              "title": "Doce de Leite com Amendoim",
+              "domain": "receitasnestle.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:24+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/20202044cbc899a95f412d0713d95346.jpg",
+              "alt": "Doce de Leite com Amendoim"
+            },
+            "id": "doce-de-leite-com-amendoim-9be6f4e6"
+          }
+        ]
+      },
+      {
+        "dia": "Sexta",
+        "pratos": [
+          {
+            "nome": "Bife à Milanesa Assado",
+            "curso": "principal",
+            "tempo": "40 minutos",
+            "porque": "Uma versão mais saudável do clássico bife à milanesa, preparada no forno para evitar fritura, mantendo a crocância e o sabor. Não está na lista de pratos a evitar.",
+            "tags": [
+              "carne_vermelha",
+              "assado",
+              "saudavel",
+              "facil"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "4 bifes de patinho ou alcatra (cerca de 150g cada)",
+              "1 xícara (chá) de farinha de rosca",
+              "1/2 xícara (chá) de queijo parmesão ralado",
+              "1 ovo grande batido",
+              "2 colheres (sopa) de leite",
+              "Sal e pimenta-do-reino a gosto",
+              "Azeite para untar"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 200°C e unte uma assadeira grande com azeite.",
+              "Tempere os bifes com sal e pimenta-do-reino a gosto.",
+              "Em um prato fundo, misture a farinha de rosca com o queijo parmesão ralado.",
+              "Em outro prato fundo, bata o ovo com o leite.",
+              "Passe cada bife primeiro na mistura de ovo e leite, escorrendo o excesso, e depois na farinha de rosca com parmesão, cobrindo bem todos os lados.",
+              "Disponha os bifes na assadeira untada e leve ao forno por cerca de 20 minutos, virando na metade do tempo, até dourarem e ficarem crocantes.",
+              "Sirva imediatamente com o acompanhamento de sua preferência."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.receitasnestle.com.br/receitas/bife-a-milanesa-assado",
+              "checked_at": "2026-08-09T23:03:24+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/37414039/pexels-photo-37414039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Bife grelhado suculento, guarnecido com rodelas de cebola roxa, realçando os sabores deliciosos.",
+              "bank_id": "37414039",
+              "credit": "Sergej  *****",
+              "query": "Bife à Milanesa Assado"
+            },
+            "id": "bife-a-milanesa-assado-e059d625"
+          },
+          {
+            "nome": "Filé Mignon Suíno Assado com Batatas",
+            "curso": "principal",
+            "tempo": "45 minutos",
+            "porque": "Prato completo e prático de carne suína, assado no forno com batatas e temperos, oferecendo proteína e carboidratos de forma equilibrada. Não está na lista de pratos a evitar.",
+            "tags": [
+              "carne_suina",
+              "assado",
+              "completo",
+              "facil"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 peça de filé mignon suíno (cerca de 800g)",
+              "500 g de batatas pequenas (ou médias cortadas ao meio)",
+              "1 cebola grande cortada em gomos",
+              "4 dentes de alho amassados",
+              "2 ramos de alecrim fresco",
+              "1/2 xícara (chá) de vinho branco seco (opcional)",
+              "2 colheres (sopa) de azeite",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 200°C. Lave e seque o filé mignon suíno e as batatas.",
+              "Em uma tigela grande, tempere o filé mignon suíno com sal, pimenta-do-reino, alho amassado e alecrim. Esfregue bem os temperos na carne.",
+              "Adicione as batatas e a cebola cortada em gomos à tigela com a carne. Regue com o azeite e o vinho branco (se usar), misturando bem para envolver todos os ingredientes.",
+              "Transfira tudo para uma assadeira grande, espalhando os ingredientes em uma única camada.",
+              "Leve ao forno preaquecido por cerca de 30-40 minutos, virando a carne e as batatas na metade do tempo, até que a carne esteja cozida e as batatas macias e douradas.",
+              "Retire do forno e deixe a carne descansar por alguns minutos antes de fatiar e servir."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.tudogostoso.com.br/receita/18442-file-mignon-suino-assado-com-batatas.html",
+              "checked_at": "2026-08-09T23:03:25+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/27643018/pexels-photo-27643018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Suculento bife grelhado servido com batatas fritas crocantes e pimentões verdes assados.",
+              "bank_id": "27643018",
+              "credit": "Nano Erdozain",
+              "query": "Filé Mignon Suíno Assado com Batatas"
+            },
+            "id": "file-mignon-suino-assado-com-batatas-582338e3"
+          },
+          {
+            "nome": "Escabeche de sardinha prático",
+            "curso": "entrada",
+            "tempo": "25 minutos",
+            "porque": "Uma entrada saborosa e prática, utilizando sardinha em lata como atalho. Ideal para servir com pão ou como acompanhamento leve.",
+            "tags": [
+              "peixe",
+              "entrada",
+              "rapido",
+              "mediterraneo"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "2 latas de sardinha em óleo (escorrida)",
+              "1 cebola roxa pequena fatiada finamente",
+              "1 pimentão vermelho pequeno fatiado finamente",
+              "1/4 xícara (chá) de vinagre de vinho branco",
+              "2 colheres (sopa) de azeite extra virgem",
+              "1 colher (sopa) de salsinha picada",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Em uma tigela, desfaça as sardinhas em pedaços menores com um garfo.",
+              "Adicione a cebola roxa fatiada e o pimentão vermelho fatiado às sardinhas.",
+              "Em um recipiente pequeno, misture o vinagre de vinho branco, o azeite, a salsinha picada, sal e pimenta-do-reino a gosto.",
+              "Despeje o molho sobre a mistura de sardinha e vegetais, misturando delicadamente.",
+              "Cubra a tigela e leve à geladeira por pelo menos 15 minutos para que os sabores se incorporem.",
+              "Sirva o escabeche de sardinha frio, acompanhado de torradas ou pão fresco."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/escabeche-de-sardinha-pratico",
+              "title": "Escabeche de sardinha prático - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:25+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://i.panelinha.com.br/i1/bk-7630-blog-ayu6663.webp",
+              "alt": "Escabeche de sardinha prático"
+            },
+            "id": "escabeche-de-sardinha-pratico-1fbd79ab"
+          },
+          {
+            "nome": "Brownie rústico com cardamomo",
+            "curso": "sobremesa",
+            "tempo": "50 minutos",
+            "porque": "Um brownie com um toque especial de cardamomo e castanha-do-Brasil, que oferece uma textura rústica e um sabor surpreendente. Perfeito para os amantes de chocolate.",
+            "tags": [
+              "chocolate",
+              "doce",
+              "assado",
+              "sofisticado"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "150 g de chocolate meio amargo",
+              "200 g de manteiga gelada cortada em cubos",
+              "2 xícaras (chá) de farinha de trigo",
+              "3 colheres (chá) de fermento em pó",
+              "1 xícara (chá) de castanha-do-Brasil picada grosso",
+              "3 ovos",
+              "1½ xícara (chá) de açúcar mascavo",
+              "4 bagas de cardamomo",
+              "Manteiga e farinha de trigo para untar e polvilhar"
+            ],
+            "preparo": [
+              "Preaqueça o forno a 180°C. Unte uma assadeira retangular (20 cm x 30 cm) com manteiga e polvilhe com farinha.",
+              "Peneire a farinha e o fermento em pó. Junte a castanha picada e misture bem.",
+              "Em banho-maria, derreta o chocolate picado com a manteiga e as sementes de cardamomo moídas (retiradas das bagas). Mexa até ficar liso.",
+              "Em outra tigela, bata os ovos com o açúcar mascavo até ficar um creme claro e fofo.",
+              "Incorpore a mistura de chocolate e manteiga aos ovos batidos. Adicione a mistura de farinha e castanhas, mexendo delicadamente até incorporar.",
+              "Despeje a massa na assadeira preparada e leve ao forno por cerca de 25-30 minutos, ou até que as bordas estejam firmes e o centro ainda ligeiramente úmido.",
+              "Retire do forno, deixe esfriar na assadeira antes de cortar em quadrados e servir."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/brownie-rustico-com-cardamomo",
+              "title": "Brownie rústico com cardamomo - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:26+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://i.panelinha.com.br/i1/bk-4148-brownie-do-na-mata.webp",
+              "alt": "Brownie rústico com cardamomo"
+            },
+            "id": "brownie-rustico-com-cardamomo-b93588c5"
+          }
+        ]
+      },
+      {
+        "dia": "Sábado",
+        "pratos": [
+          {
+            "nome": "Bife com Molho de Limão e Grão-de-Bico",
+            "curso": "principal",
+            "tempo": "30 minutos",
+            "porque": "Uma opção de carne vermelha rápida e saborosa, com um molho fresco e nutritivo de limão e grão-de-bico, ideal para uma refeição prática.",
+            "tags": [
+              "carne_vermelha",
+              "grelhado",
+              "rapido",
+              "leve"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "2 bifes de alcatra ou contrafilé (cerca de 180g cada)",
+              "1 xícara (chá) de grão-de-bico cozido",
+              "Suco de 1 limão-siciliano",
+              "2 colheres (sopa) de azeite extra virgem",
+              "1/4 xícara (chá) de salsinha picada",
+              "1 dente de alho amassado",
+              "Sal e pimenta-do-reino moída na hora a gosto"
+            ],
+            "preparo": [
+              "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
+              "Aqueça uma frigideira ou grelha em fogo alto. Adicione um fio de azeite e grelhe os bifes por 3 a 4 minutos de cada lado, para um ponto malpassado a ao ponto.",
+              "Enquanto os bifes grelham, prepare o molho: em uma tigela, misture o grão-de-bico cozido, o suco de limão, o azeite, a salsinha picada, o alho amassado, sal e pimenta-do-reino.",
+              "Retire os bifes da grelha e deixe-os descansar por alguns minutos antes de fatiar.",
+              "Fatie os bifes em tiras e sirva com o molho de limão e grão-de-bico por cima."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/bife-com-molho-de-limao-e-grao-de-bico",
+              "title": "Bife com molho de limão e grão-de-bico - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:26+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://i.panelinha.com.br/i1/bk-7174-img-9932.webp",
+              "alt": "Bife com Molho de Limão e Grão-de-Bico"
+            },
+            "id": "bife-com-molho-de-limao-e-grao-de-bico-43f65ca8"
+          },
+          {
+            "nome": "Carne Moída com Cenoura e Ervilha",
+            "curso": "principal",
+            "tempo": "40 minutos",
+            "porque": "Uma opção clássica de carne vermelha, rica em proteína e vegetais, fácil de preparar e ideal para sobrar para o almoço. Não está na lista de pratos a evitar.",
+            "tags": [
+              "carne_vermelha",
+              "refogado",
+              "facil",
+              "equilibrado"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "500 g de carne moída",
+              "1 cebola média picada",
+              "2 dentes de alho amassados",
+              "1 cenoura média picada em cubos pequenos",
+              "1 xícara (chá) de ervilha fresca ou congelada",
+              "1 lata de tomate pelado picado (ou 2 tomates maduros picados)",
+              "1/2 xícara (chá) de água ou caldo de carne",
+              "Sal e pimenta-do-reino a gosto",
+              "Cheiro-verde picado a gosto",
+              "Azeite para refogar"
+            ],
+            "preparo": [
+              "Em uma panela, aqueça o azeite e refogue a cebola e o alho até dourarem.",
+              "Adicione a carne moída e refogue, mexendo sempre, até que esteja bem soltinha e dourada.",
+              "Acrescente a cenoura, o tomate picado, o sal e a pimenta-do-reino. Misture bem.",
+              "Despeje a água ou caldo de carne, tampe a panela e cozinhe em fogo médio por cerca de 15 minutos, ou até a cenoura ficar macia.",
+              "Junte as ervilhas e o cheiro-verde, misture e cozinhe por mais 5 minutos.",
+              "Sirva quente, acompanhada de arroz branco e salada."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.tudogostoso.com.br/receita/18163-carne-moida-com-cenoura-e-ervilha.html",
+              "checked_at": "2026-08-09T23:03:26+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/36242485/pexels-photo-36242485.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Delicioso prato gourmet com carne de porco estufada, cenouras, ervilhas e purê de batatas, elegantemente apresentado.",
+              "bank_id": "36242485",
+              "credit": "DΛVΞ GΛRCIΛ",
+              "query": "Carne Moída com Cenoura e Ervilha"
+            },
+            "id": "carne-moida-com-cenoura-e-ervilha-f3372cd7"
+          },
+          {
+            "nome": "Salada com rosbife e molho de castanha-da-caju",
+            "curso": "entrada",
+            "tempo": "30 minutos",
+            "porque": "Uma entrada sofisticada e nutritiva, com rosbife e um molho cremoso de castanha-de-caju. Ideal para um jantar especial.",
+            "tags": [
+              "salada",
+              "carne_vermelha",
+              "especial",
+              "leve"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "12 fatias finas de rosbife (caseiro ou comprado pronto)",
+              "½ maço de alface mimosa",
+              "½ maço de agrião",
+              "Lascas de queijo parmesão a gosto para servir",
+              "Para o molho:",
+              "1 xícara (chá) de castanha-de-caju torrada sem sal (cerca de 130 g)",
+              "500 ml de água (para cozinhar a castanha)",
+              "1 dente de alho pequeno",
+              "½ colher (chá) de sal",
+              "1 colher (sopa) de azeite",
+              "¾ de xícara (chá) de água filtrada (para bater o molho)"
+            ],
+            "preparo": [
+              "Para o molho: Em uma panela pequena, cubra as castanhas com 500 ml de água e cozinhe em fogo alto até ferver. Abaixe o fogo e cozinhe por 20 minutos, até ficarem macias.",
+              "Escorra a água e transfira as castanhas cozidas ainda quentes para o liquidificador. Adicione o dente de alho, o sal, o azeite e ½ xícara de água filtrada.",
+              "Bata por cerca de 2 minutos, adicionando o restante da água filtrada aos poucos, até formar um creme liso. Reserve.",
+              "Lave e seque as folhas de alface e agrião. Arrume as folhas em um prato de servir.",
+              "Distribua as fatias de rosbife sobre as folhas.",
+              "Regue a salada com o molho de castanha-de-caju e finalize com lascas de queijo parmesão.",
+              "Sirva imediatamente."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/salada-com-rosbife-e-molho-de-castanha-da-caju",
+              "title": "Salada com rosbife e molho de castanha-da-caju - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:27+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://i.panelinha.com.br/i1/bk-8629-blog-salada-com-rosbife-e-molho-de-castanha-de-caju-2.webp",
+              "alt": "Salada com rosbife e molho de castanha-da-caju"
+            },
+            "id": "salada-com-rosbife-e-molho-de-castanha-da-caju-3cff8eb0"
+          },
+          {
+            "nome": "Banana dourada com merengue",
+            "curso": "sobremesa",
+            "tempo": "25 minutos",
+            "porque": "Uma sobremesa elegante e deliciosa, com bananas grelhadas e um merengue suíço aveludado. Um clássico com um toque de glamour.",
+            "tags": [
+              "fruta",
+              "doce",
+              "grelhado",
+              "elegante"
+            ],
+            "rende_sobra": false,
+            "ingredientes": [
+              "4 bananas-nanicas maduras",
+              "4 colheres (chá) de açúcar",
+              "Manteiga para untar a frigideira",
+              "Raspas de 1 limão-siciliano (opcional)",
+              "Para o merengue:",
+              "3 ovos (apenas as claras)",
+              "1 xícara (chá) de açúcar"
+            ],
+            "preparo": [
+              "Para o merengue: Em uma tigela de vidro ou inox, misture as claras e o açúcar. Leve ao banho-maria, mexendo sempre, por cerca de 4 minutos, até ficar liso e sem grãozinhos de açúcar.",
+              "Transfira para a batedeira e bata em velocidade alta por cerca de 10 minutos, ou até esfriar e formar um merengue firme.",
+              "Para as bananas: Descasque as bananas e corte-as ao meio no sentido do comprimento.",
+              "Aqueça uma frigideira antiaderente com um pouco de manteiga. Polvilhe as bananas com açúcar e grelhe-as por cerca de 2 minutos de cada lado, até dourarem.",
+              "Arrume as bananas douradas em pratos individuais. Cubra com o merengue suíço, usando uma colher ou saco de confeitar.",
+              "Se desejar, use um maçarico culinário para dourar levemente o merengue. Finalize com raspas de limão-siciliano, se usar, e sirva."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://panelinha.com.br/receita/banana-dourada-com-merengue",
+              "title": "Banana dourada com merengue - Panelinha",
+              "domain": "panelinha.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-08-09T23:03:27+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://i.panelinha.com.br/i1/bk-8025-blog-ayu9511.webp",
+              "alt": "Banana dourada com merengue"
+            },
+            "id": "banana-dourada-com-merengue-e41c17c7"
           }
         ]
       },
@@ -1289,181 +1340,195 @@
         "dia": "Domingo",
         "pratos": [
           {
-            "nome": "Omelete de forno com legumes",
+            "nome": "Bife à Milanesa Assado",
             "curso": "principal",
-            "tempo": "35 minutos",
-            "porque": "Opção leve e vegetariana, rica em proteína (ovos) e vegetais. Rápido e fácil de preparar no forno, ideal para um jantar mais leve.",
+            "tempo": "40 minutos",
+            "porque": "Uma versão mais saudável do clássico bife à milanesa, preparada no forno para evitar fritura, mantendo a crocância e o sabor. Não está na lista de pratos a evitar.",
             "tags": [
-              "vegetariano",
-              "forno",
-              "ovos",
-              "leve"
+              "carne_vermelha",
+              "assado",
+              "saudavel",
+              "facil"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "6 ovos grandes",
-              "½ xícara (chá) de leite",
-              "½ xícara (chá) de queijo muçarela ralado",
-              "1 cenoura pequena ralada",
-              "½ abobrinha pequena ralada",
-              "½ tomate picado sem sementes",
-              "¼ de cebola picada",
-              "1 colher (sopa) de azeite",
-              "Salsinha picada a gosto",
-              "Sal e pimenta-do-reino a gosto"
+              "4 bifes de patinho ou alcatra (cerca de 150g cada)",
+              "1 xícara (chá) de farinha de rosca",
+              "1/2 xícara (chá) de queijo parmesão ralado",
+              "1 ovo grande batido",
+              "2 colheres (sopa) de leite",
+              "Sal e pimenta-do-reino a gosto",
+              "Azeite para untar"
             ],
             "preparo": [
-              "Preaqueça o forno a 180 ºC. Unte um refratário médio com azeite.",
-              "Em uma frigideira, aqueça o azeite e refogue a cebola, a cenoura, a abobrinha e o tomate por cerca de 5 minutos. Tempere com sal e pimenta.",
-              "Em uma tigela grande, bata os ovos com o leite, sal e pimenta-do-reino.",
-              "Adicione os legumes refogados e metade do queijo muçarela à mistura de ovos. Misture bem.",
-              "Despeje a mistura no refratário untado e polvilhe o restante do queijo por cima.",
-              "Leve ao forno por cerca de 20-25 minutos, ou até a omelete firmar e dourar.",
-              "Retire do forno, polvilhe salsinha picada e sirva quente."
+              "Preaqueça o forno a 200°C e unte uma assadeira grande com azeite.",
+              "Tempere os bifes com sal e pimenta-do-reino a gosto.",
+              "Em um prato fundo, misture a farinha de rosca com o queijo parmesão ralado.",
+              "Em outro prato fundo, bata o ovo com o leite.",
+              "Passe cada bife primeiro na mistura de ovo e leite, escorrendo o excesso, e depois na farinha de rosca com parmesão, cobrindo bem todos os lados.",
+              "Disponha os bifes na assadeira untada e leve ao forno por cerca de 20 minutos, virando na metade do tempo, até dourarem e ficarem crocantes.",
+              "Sirva imediatamente com o acompanhamento de sua preferência."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://receitas.globo.com/ana-maria-braga/receitas/omelete-de-forno-com-legumes-01772658.ghtml",
-              "checked_at": "2026-07-30T02:05:31+00:00"
+              "suggested_url": "https://www.receitasnestle.com.br/receitas/bife-a-milanesa-assado",
+              "checked_at": "2026-08-09T23:03:27+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/37287418/pexels-photo-37287418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Uma omelete de legumes saborosa, guarnecida com ervilhas e servida com molho de tomate e ovos frescos.",
-              "bank_id": "37287418",
-              "credit": "The Findin Pixels",
-              "query": "Omelete de forno com legumes"
+              "url": "https://images.pexels.com/photos/27643022/pexels-photo-27643022.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Bife grelhado servido com batatas fritas e pimentões verdes em um prato preto.",
+              "bank_id": "27643022",
+              "credit": "Nano Erdozain",
+              "query": "Bife à Milanesa Assado"
             },
-            "id": "omelete-de-forno-com-legumes-c958751d"
+            "id": "bife-a-milanesa-assado-e059d625"
           },
           {
-            "nome": "Bisteca com vagem e tomate na Air Fryer da Rita Lobo",
+            "nome": "Filé Mignon Suíno Assado com Batatas",
             "curso": "principal",
-            "tempo": "30 minutos",
-            "porque": "Uma refeição completa e prática, com bisteca de porco macia e suculenta, acompanhada de vegetais, tudo feito na Air Fryer. Ideal para um jantar rápido.",
+            "tempo": "45 minutos",
+            "porque": "Prato completo e prático de carne suína, assado no forno com batatas e temperos, oferecendo proteína e carboidratos de forma equilibrada. Não está na lista de pratos a evitar.",
             "tags": [
-              "carne_de_porco",
-              "airfryer",
-              "vegetais",
-              "rapido"
+              "carne_suina",
+              "assado",
+              "completo",
+              "facil"
             ],
-            "rende_sobra": false,
+            "rende_sobra": true,
             "ingredientes": [
-              "1 bisteca de porco (cerca de 190 g)",
-              "1 xícara (chá) de vagem picada",
-              "1 tomate médio em cubos",
-              "1 dente de alho picado",
-              "1 colher (sopa) de azeite",
+              "1 peça de filé mignon suíno (cerca de 800g)",
+              "500 g de batatas pequenas (ou médias cortadas ao meio)",
+              "1 cebola grande cortada em gomos",
+              "4 dentes de alho amassados",
+              "2 ramos de alecrim fresco",
+              "1/2 xícara (chá) de vinho branco seco (opcional)",
+              "2 colheres (sopa) de azeite",
               "Sal e pimenta-do-reino a gosto"
             ],
             "preparo": [
-              "Preaqueça a Air Fryer a 180 ºC por 5 minutos.",
-              "Tempere a bisteca com sal, pimenta-do-reino e metade do alho picado.",
-              "Em uma tigela, misture a vagem e o tomate com o restante do alho, azeite, sal e pimenta-do-reino.",
-              "Coloque a bisteca no cesto da Air Fryer e asse por 10 minutos.",
-              "Abra o cesto, vire a bisteca e adicione os vegetais ao lado. Asse por mais 10-15 minutos, ou até a bisteca estar cozida e os vegetais macios.",
-              "Sirva a bisteca com os vegetais assados."
+              "Preaqueça o forno a 200°C. Lave e seque o filé mignon suíno e as batatas.",
+              "Em uma tigela grande, tempere o filé mignon suíno com sal, pimenta-do-reino, alho amassado e alecrim. Esfregue bem os temperos na carne.",
+              "Adicione as batatas e a cebola cortada em gomos à tigela com a carne. Regue com o azeite e o vinho branco (se usar), misturando bem para envolver todos os ingredientes.",
+              "Transfira tudo para uma assadeira grande, espalhando os ingredientes em uma única camada.",
+              "Leve ao forno preaquecido por cerca de 30-40 minutos, virando a carne e as batatas na metade do tempo, até que a carne esteja cozida e as batatas macias e douradas.",
+              "Retire do forno e deixe a carne descansar por alguns minutos antes de fatiar e servir."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Bisteca-com-vagem-e-tomate-na-Air-Fryer-da-Rita-Lobo",
-              "checked_at": "2026-07-30T02:05:32+00:00"
+              "suggested_url": "https://www.tudogostoso.com.br/receita/18442-file-mignon-suino-assado-com-batatas.html",
+              "checked_at": "2026-08-09T23:03:27+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/4013725/pexels-photo-4013725.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Delicioso prato gourmet de frutos do mar servido com vagem, tomates-cereja e guarnição de limão.",
-              "bank_id": "4013725",
-              "credit": "Loong Ken",
-              "query": "Bisteca com vagem e tomate na Air Fryer da Rita Lobo"
+              "url": "https://images.pexels.com/photos/1352269/pexels-photo-1352269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Saboreie o gosto de carne bovina macia com batatas crocantes e molho cremoso de cogumelos.",
+              "bank_id": "1352269",
+              "credit": "Lukas Blazek",
+              "query": "Filé Mignon Suíno Assado com Batatas"
             },
-            "id": "bisteca-com-vagem-e-tomate-na-air-fryer-da-rita--4d7dbff8"
+            "id": "file-mignon-suino-assado-com-batatas-582338e3"
           },
           {
-            "nome": "Bolinho de mandioca com queijo na Air Fryer da Rita Lobo",
+            "nome": "Quiche de Alho-Poró",
             "curso": "entrada",
-            "tempo": "30 minutos",
-            "porque": "Bolinhos crocantes por fora e macios por dentro, feitos na Air Fryer. Uma opção de petisco saborosa e prática, que pode ser preparada com antecedência.",
+            "tempo": "60 minutos",
+            "porque": "Uma quiche clássica e saborosa, com recheio cremoso de alho-poró. É uma entrada versátil que pode ser servida quente ou fria.",
             "tags": [
-              "airfryer",
-              "queijo",
-              "mandioca",
-              "petisco"
+              "torta_salgada",
+              "vegetariano",
+              "assado",
+              "classico"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "500 g de mandioca descascada",
+              "Para a massa:",
+              "1 e ½ xícara (chá) de farinha de trigo",
+              "100 g de manteiga gelada em cubos",
+              "1 ovo",
+              "1 pitada de sal",
+              "2 a 3 colheres (sopa) de água gelada",
+              "Para o recheio:",
+              "2 talos de alho-poró fatiados",
+              "1 cebola pequena picada",
+              "2 colheres (sopa) de azeite",
+              "1 pote de Iogurte NESTLÉ® Natural Integral (170g)",
+              "3 ovos",
               "1 xícara (chá) de queijo parmesão ralado",
-              "2 colheres (chá) de sal",
-              "Pimenta-do-reino moída na hora a gosto",
-              "Óleo (ou azeite) para pincelar"
+              "Sal, pimenta-do-reino e noz-moscada a gosto"
             ],
             "preparo": [
-              "Cozinhe a mandioca na panela de pressão com água e 1 colher (chá) de sal por 15 minutos após pegar pressão. Escorra e amasse bem, retirando as fibras.",
-              "Em uma tigela, misture a mandioca amassada com o queijo parmesão, 1 colher (chá) de sal e pimenta-do-reino a gosto.",
-              "Transfira a massa para uma assadeira forrada com plástico filme, nivele e leve à geladeira por pelo menos 3 horas (ou até 3 dias).",
-              "Preaqueça a Air Fryer a 200 ºC por 5 minutos. Corte a massa em cubos.",
-              "Pincele ou borrife os cubos com um pouco de óleo ou azeite.",
-              "Disponha os bolinhos no cesto da Air Fryer e asse por 15 minutos, virando na metade do tempo, até ficarem dourados e crocantes.",
-              "Sirva quente."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/Bolinho-de-mandioca-com-queijo-na-Air-Fryer-da-Rita-Lobo",
-              "checked_at": "2026-07-30T02:05:33+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/28992199/pexels-photo-28992199.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Um prato de dar água na boca da culinária brasileira com queijo, arroz, salada e mandioca frita.",
-              "bank_id": "28992199",
-              "credit": "pedro furtado",
-              "query": "Bolinho de mandioca com queijo na Air Fryer da Rita Lobo"
-            },
-            "id": "bolinho-de-mandioca-com-queijo-na-air-fryer-da-r-6f16b5af"
-          },
-          {
-            "nome": "Musse de chocolate com água",
-            "curso": "sobremesa",
-            "tempo": "15 minutos",
-            "porque": "Uma musse de chocolate surpreendentemente leve e rápida, feita apenas com chocolate e água. Perfeita para uma sobremesa indulgente e sem laticínios.",
-            "tags": [
-              "chocolate",
-              "rapida",
-              "leve",
-              "sem_lactose"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "150 g de chocolate amargo picado (60% cacau ou mais)",
-              "½ xícara (chá) de água",
-              "Cubos de gelo"
-            ],
-            "preparo": [
-              "Pique o chocolate amargo. Encha uma tigela grande com cubos de gelo e reserve.",
-              "Em uma panela pequena, aqueça a água até começar a ferver (aparecer bolhinhas no fundo). Desligue o fogo.",
-              "Adicione o chocolate picado à água quente e mexa bem com uma espátula até derreter completamente e a mistura ficar homogênea.",
-              "Transfira a tigela do chocolate para a tigela com gelo. Com um batedor de arame, bata vigorosamente por cerca de 4 minutos, ou até o chocolate começar a endurecer e adquirir a textura de musse.",
-              "Retire a tigela do gelo rapidamente para evitar que a musse endureça demais.",
-              "Distribua a musse em copinhos ou taças individuais. Leve à geladeira por pelo menos 1 hora antes de servir."
+              "Para a massa: Em uma tigela, misture a farinha e o sal. Adicione a manteiga e misture com as pontas dos dedos até formar uma farofa.",
+              "Junte o ovo e a água gelada, amassando rapidamente até formar uma massa homogênea. Embrulhe em plástico filme e leve à geladeira por 30 minutos.",
+              "Para o recheio: Em uma frigideira, aqueça o azeite e refogue a cebola e o alho-poró até ficarem macios. Reserve.",
+              "Em uma tigela, bata o iogurte com os ovos, o queijo parmesão, sal, pimenta-do-reino e noz-moscada. Adicione o refogado de alho-poró e misture.",
+              "Abra a massa com um rolo e forre uma forma de quiche (22 cm de diâmetro) com fundo removível. Fure o fundo com um garfo.",
+              "Despeje o recheio sobre a massa e leve ao forno preaquecido a 180°C por cerca de 35-40 minutos, ou até dourar e o recheio firmar.",
+              "Retire do forno, espere amornar e sirva."
             ],
             "fonte": {
               "status": "verified",
-              "url": "https://panelinha.com.br/receita/musse-de-chocolate-com-agua",
-              "title": "Musse de chocolate com água - Panelinha",
-              "domain": "panelinha.com.br",
+              "url": "https://www.receitasnestle.com.br/receitas/quiche-de-alho-poro",
+              "title": "Quiche de Alho-poró",
+              "domain": "receitasnestle.com.br",
               "confidence": 1.0,
-              "checked_at": "2026-07-30T02:05:33+00:00"
+              "checked_at": "2026-08-09T23:03:28+00:00"
             },
             "imagem": {
               "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-9008-musse-de-chocolate-com-agua.webp",
-              "alt": "Musse de chocolate com água"
+              "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d6a6f84f954f7f2751faba4d2a7005cb.jpg",
+              "alt": "Quiche de Alho-Poró"
             },
-            "id": "musse-de-chocolate-com-agua-4c818a31"
+            "id": "quiche-de-alho-poro-f8d2c890"
+          },
+          {
+            "nome": "Sobremesa gelada de chocolate",
+            "curso": "sobremesa",
+            "tempo": "30 minutos",
+            "porque": "Uma sobremesa refrescante e indulgente de chocolate, perfeita para finalizar a refeição. Fácil de fazer e com duas camadas deliciosas.",
+            "tags": [
+              "chocolate",
+              "gelada",
+              "facil",
+              "cremosa"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1/2 lata de leite condensado",
+              "1 caixa de creme de leite",
+              "200 g de doce de leite",
+              "200 ml de leite",
+              "1/2 xícara (chá) de chocolate em pó",
+              "12 g de gelatina sem sabor hidratada e dissolvida",
+              "300 g de chocolate meio amargo",
+              "1 caixa de creme de leite (para a ganache)"
+            ],
+            "preparo": [
+              "Para a primeira camada: No liquidificador, bata o leite condensado, o creme de leite, o doce de leite, o leite, o chocolate em pó e a gelatina hidratada e dissolvida.",
+              "Despeje essa mistura em uma forma untada com um pouco de óleo e leve à geladeira por cerca de 2 horas, ou até firmar.",
+              "Para a segunda camada (ganache): Derreta o chocolate meio amargo em banho-maria ou no micro-ondas.",
+              "Adicione a caixa de creme de leite ao chocolate derretido e misture bem até obter uma ganache lisa e brilhante.",
+              "Retire a forma da geladeira e despeje a ganache sobre a primeira camada já firme.",
+              "Volte à geladeira por mais 30 minutos, ou até a ganache firmar.",
+              "Sirva gelada, decorada a gosto."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.tudogostoso.com.br/receita/168213-sobremesa-gelada-de-chocolate.html",
+              "checked_at": "2026-08-09T23:03:30+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/31242122/pexels-photo-31242122.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Um café gelado refrescante acompanhado de uma sobremesa de chocolate em uma mesa branca em um ambiente moderno.",
+              "bank_id": "31242122",
+              "credit": "Omair Tabikh",
+              "query": "Sobremesa gelada de chocolate"
+            },
+            "id": "sobremesa-gelada-de-chocolate-32428695"
           }
         ]
       }

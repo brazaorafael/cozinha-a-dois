@@ -1270,5 +1270,197 @@
     ],
     "data": "09/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-cenoura-e-ervilha-f3372cd7",
+    "titulo": "Carne Moída com Cenoura e Ervilha",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "facil",
+      "equilibrado"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-milanesa-assado-e059d625",
+    "titulo": "Bife à Milanesa Assado",
+    "tags": [
+      "carne_vermelha",
+      "assado",
+      "saudavel",
+      "facil"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-tomate-com-azeite-crocante-96631d0c",
+    "titulo": "Salada de tomate com azeite crocante",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "rapido",
+      "leve"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "frango-xadrez-a303d55f",
+    "titulo": "Frango Xadrez",
+    "tags": [
+      "frango",
+      "refogado",
+      "oriental",
+      "rapido"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "sopa-de-brocolis-com-batata-e-limao-siciliano-838fdb32",
+    "titulo": "Sopa de brócolis com batata e limão-siciliano",
+    "tags": [
+      "sopa",
+      "vegetariano",
+      "leve",
+      "confort_food"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "file-mignon-suino-assado-com-batatas-582338e3",
+    "titulo": "Filé Mignon Suíno Assado com Batatas",
+    "tags": [
+      "carne_suina",
+      "assado",
+      "completo",
+      "facil"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pao-de-queijo-de-liquidificador-a77ed60d",
+    "titulo": "Pão de queijo de liquidificador",
+    "tags": [
+      "pao_de_queijo",
+      "rapido",
+      "facil",
+      "brasileiro"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "tilapia-assada-com-legumes-16a4c7d1",
+    "titulo": "Tilápia Assada com Legumes",
+    "tags": [
+      "peixe",
+      "assado",
+      "saudavel",
+      "leve"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "geleia-de-pimenta-bf239ce2",
+    "titulo": "Geleia de Pimenta",
+    "tags": [
+      "acompanhamento",
+      "agridoce",
+      "facil",
+      "picante"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "doce-de-leite-com-amendoim-9be6f4e6",
+    "titulo": "Doce de Leite com Amendoim",
+    "tags": [
+      "doce",
+      "cremoso",
+      "facil",
+      "brasileiro"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "escabeche-de-sardinha-pratico-1fbd79ab",
+    "titulo": "Escabeche de sardinha prático",
+    "tags": [
+      "peixe",
+      "entrada",
+      "rapido",
+      "mediterraneo"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "brownie-rustico-com-cardamomo-b93588c5",
+    "titulo": "Brownie rústico com cardamomo",
+    "tags": [
+      "chocolate",
+      "doce",
+      "assado",
+      "sofisticado"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-com-rosbife-e-molho-de-castanha-da-caju-3cff8eb0",
+    "titulo": "Salada com rosbife e molho de castanha-da-caju",
+    "tags": [
+      "salada",
+      "carne_vermelha",
+      "especial",
+      "leve"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "banana-dourada-com-merengue-e41c17c7",
+    "titulo": "Banana dourada com merengue",
+    "tags": [
+      "fruta",
+      "doce",
+      "grelhado",
+      "elegante"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "quiche-de-alho-poro-f8d2c890",
+    "titulo": "Quiche de Alho-Poró",
+    "tags": [
+      "torta_salgada",
+      "vegetariano",
+      "assado",
+      "classico"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "sobremesa-gelada-de-chocolate-32428695",
+    "titulo": "Sobremesa gelada de chocolate",
+    "tags": [
+      "chocolate",
+      "gelada",
+      "facil",
+      "cremosa"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
   }
 ]
