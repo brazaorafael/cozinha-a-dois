@@ -1222,5 +1222,53 @@
     ],
     "data": "08/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "espetinhos-de-carne-com-legumes-no-forno-bc608a63",
+    "titulo": "Espetinhos de Carne com Legumes no Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "equilibrado",
+      "pratico"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-ao-molho-madeira-rapido-567303d1",
+    "titulo": "Bife ao Molho Madeira Rápido",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "classico",
+      "rapido"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "caponata-de-berinjela-9f232a47",
+    "titulo": "Caponata de Berinjela",
+    "tags": [
+      "vegetariano",
+      "entrada",
+      "refogado",
+      "mediterraneo"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "manjar-de-coco-7f91a8cb",
+    "titulo": "Manjar de Coco",
+    "tags": [
+      "sobremesa",
+      "doce",
+      "classico",
+      "facil"
+    ],
+    "data": "09/08/2026",
+    "fonte_status": "unverified"
   }
 ]
