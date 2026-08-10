@@ -1,205 +1,185 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-09T20:00:35-03:00",
+  "gerado_em": "2026-08-10T08:47:11-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "09/08/2026",
-    "dia_semana": "domingo",
+    "data": "10/08/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Espetinhos de Carne com Legumes no Forno",
+        "nome": "Carne Moída com Refogado de Pimentão",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Carne vermelha em cubos intercalada com legumes coloridos, assada no forno. É uma refeição divertida, equilibrada e com pouca sujeira, ideal para um jantar prático e com sobras para o almoço.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
-          "equilibrado",
-          "pratico"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "800g de alcatra em cubos (ou outra carne macia para espeto)",
-          "1 pimentão vermelho em cubos grandes",
-          "1 pimentão amarelo em cubos grandes",
-          "1 cebola roxa em pétalas ou cubos grandes",
-          "1 abobrinha em rodelas grossas ou cubos grandes",
-          "Tomate cereja a gosto",
-          "Azeite a gosto",
-          "Sal e pimenta-do-reino a gosto",
-          "Espetos de madeira (demolhados em água)"
-        ],
-        "preparo": [
-          "Corte a carne e os legumes em cubos ou pedaços grandes, de tamanho similar.",
-          "Em um recipiente, tempere a carne e os legumes com azeite, sal e pimenta-do-reino.",
-          "Monte os espetinhos intercalando a carne e os legumes.",
-          "Disponha os espetinhos em uma assadeira untada.",
-          "Leve ao forno pré-aquecido a 200°C por cerca de 20-30 minutos, virando na metade do tempo, até a carne e os legumes estarem cozidos e levemente dourados."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/162816-espetinhos-de-carne-com-legumes-no-forno.html",
-          "checked_at": "2026-08-09T11:30:39+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/9510363/pexels-photo-9510363.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosos espetinhos de carne de cordeiro grelhados acompanhados de brócolis frescos, perfeitos para uma refeição saborosa.",
-          "bank_id": "9510363",
-          "credit": "Karl Solano",
-          "query": "Espetinhos de Carne com Legumes no Forno"
-        },
-        "id": "espetinhos-de-carne-com-legumes-no-forno-bc608a63"
-      },
-      {
-        "nome": "Bife ao Molho Madeira Rápido",
-        "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Carne vermelha com um molho clássico e saboroso, ideal para um jantar mais sofisticado, mas com preparo rápido. Pode ser servido com arroz branco e brócolis cozidos, e rende sobras.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "classico",
-          "rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "6 bifes de filé mignon (ou alcatra)",
-          "4 colheres (sopa) de manteiga",
-          "1 cebola média picadinha",
-          "1 vidro pequeno de champignon fatiado em lâminas finas",
-          "2 tabletes de caldo de carne",
-          "1 xícara de vinho tinto seco",
-          "1 colher (sopa) de amido de milho",
-          "1/4 xícara de água (para diluir o amido)",
-          "Sal e pimenta-do-reino a gosto"
-        ],
-        "preparo": [
-          "Tempere os bifes com sal e pimenta. Frite os bifes em 2 colheres de manteiga até dourarem e reserve.",
-          "Na mesma frigideira, refogue a cebola, o champignon e os tabletes de caldo de carne na manteiga restante.",
-          "Adicione o vinho tinto e deixe ferver por cerca de 10 minutos para reduzir.",
-          "Dilua o amido de milho na água e adicione ao molho, mexendo até engrossar.",
-          "Retorne os bifes ao molho, deixe por 5 minutos para aquecer e apague o fogo. Sirva em seguida."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/2311-bife-ao-molho-madeira.html",
-          "checked_at": "2026-08-09T11:30:40+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/31843915/pexels-photo-31843915.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Bife grelhado com molho de cogumelos e salada fresca em uma mesa rústica de madeira. Uma delícia culinária perfeita.",
-          "bank_id": "31843915",
-          "credit": "Allan González",
-          "query": "Bife ao Molho Madeira Rápido"
-        },
-        "id": "bife-ao-molho-madeira-rapido-567303d1"
-      },
-      {
-        "nome": "Caponata de Berinjela",
-        "curso": "entrada",
         "tempo": "30-40 minutos",
-        "porque": "Uma entrada leve e saborosa, rica em vegetais, que pode ser preparada com antecedência e servida fria ou morna. É fácil de fazer e combina com o perfil do casal.",
+        "porque": "Receita fácil e prática, pronta em cerca de 30-40 minutos. Utiliza carne vermelha (patinho moído) e é equilibrada com vegetais (pimentão e cebola). Rende bem para duas pessoas com potencial de sobras para o almoço. Preparo refogado.",
         "tags": [
-          "vegetariano",
-          "entrada",
+          "carne_vermelha",
           "refogado",
-          "mediterraneo"
+          "prato_unico",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "700 g de berinjela cortada em cubos",
-          "4 talos de salsão fatiados finos",
-          "1 cebola grande picada",
-          "4 colheres (sopa) de azeite",
-          "1 colher (sopa) de açúcar",
-          "5 colheres (sopa) de vinagre de vinho tinto",
-          "1 lata de tomate pelado picado grosseiramente",
-          "2 colheres (sopa) de extrato de tomate",
-          "1 filé de anchova picado (opcional)",
-          "125 g de azeitona verde sem caroço picada",
-          "2 colheres (sopa) de uva-passa preta",
-          "1½ colher (sopa) de alcaparra",
-          "2 colheres (sopa) de salsinha picada",
-          "25 g de pinoli (opcional)",
+          "500 g de patinho moído",
+          "1 cebola média",
+          "2 dentes de alho",
+          "1 pimentão vermelho",
+          "1 tomate maduro",
+          "1/2 xícara (chá) de água ou caldo de carne",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Salsinha picada a gosto para finalizar"
+        ],
+        "preparo": [
+          "Pique a cebola e o alho. Corte o pimentão e o tomate em cubos pequenos.",
+          "Em uma panela grande, aqueça o azeite em fogo médio. Adicione a carne moída e refogue, mexendo e desfazendo os grumos, até dourar.",
+          "Acrescente a cebola e o alho picados e refogue por mais 3 minutos, até a cebola ficar transparente.",
+          "Junte o pimentão e o tomate picados, tempere com sal e pimenta-do-reino. Refogue por cerca de 5 minutos, até os vegetais ficarem macios.",
+          "Adicione a água ou caldo de carne, misture e deixe cozinhar em fogo baixo por uns 10 minutos, para apurar o sabor.",
+          "Finalize com salsinha picada e sirva quente, acompanhado de arroz branco."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-refogado-de-pimentao",
+          "checked_at": "2026-08-10T11:48:18+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
+          "bank_id": "34714654",
+          "credit": "UNDO KIM",
+          "query": "Carne Moída com Refogado de Pimentão"
+        },
+        "id": "carne-moida-com-refogado-de-pimentao-283735d9"
+      },
+      {
+        "nome": "Escalopinho de Lombo com Bacon e Sálvia",
+        "curso": "principal",
+        "tempo": "20 minutos",
+        "porque": "Uma opção de carne de porco rápida e saborosa, pronta em poucos minutos. O bacon e a sálvia conferem um aroma e sabor marcantes. O preparo na frigideira é prático e sem fritura excessiva, ideal para um jantar a dois.",
+        "tags": [
+          "carne_de_porco",
+          "grelhado",
+          "rapido",
+          "saboroso"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "4 escalopes de lombo de porco (cerca de 150g cada)",
+          "4 fatias de bacon",
+          "8 folhas de sálvia fresca",
+          "1 colher (sopa) de azeite",
           "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Prepare os legumes: pique a cebola, fatie o salsão e corte a berinjela em cubos de 1 cm.",
-          "Em uma panela grande, aqueça o azeite e refogue a cebola e o salsão até ficarem macios.",
-          "Adicione a berinjela e cozinhe, mexendo ocasionalmente, até ficar macia e dourada.",
-          "Acrescente o tomate pelado picado, o extrato de tomate, o açúcar, o vinagre, a anchova (se usar), as azeitonas, uvas-passas e alcaparras. Misture bem.",
-          "Cozinhe em fogo baixo por cerca de 15-20 minutos, ou até que os sabores se incorporem e o molho engrosse.",
-          "Finalize com a salsinha picada e os pinolis (se usar). Acerte o sal e a pimenta. Sirva quente ou fria."
+          "Tempere os escalopes de lombo com sal e pimenta-do-reino dos dois lados.",
+          "Enrole uma fatia de bacon em cada escalope e prenda com um palito, se necessário. Coloque 2 folhas de sálvia em cada um.",
+          "Aqueça o azeite em uma frigideira grande em fogo médio-alto.",
+          "Doure os escalopes por cerca de 3-4 minutos de cada lado, até o bacon ficar crocante e a carne cozida.",
+          "Retire os palitos e sirva imediatamente, acompanhado de um purê ou salada."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Caponata-de-berinjela",
-          "checked_at": "2026-08-09T11:30:41+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Escalopinho-de-lombo-com-bacon-e-salvia",
+          "checked_at": "2026-08-10T11:48:19+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/11601079/pexels-photo-11601079.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de berinjelas queimadas sendo grelhadas, mostrando a culinária rústica ao ar livre.",
-          "bank_id": "11601079",
-          "credit": "Czapp Árpád",
-          "query": "Caponata de Berinjela"
+          "url": "https://images.pexels.com/photos/11001292/pexels-photo-11001292.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso lombo de porco com lentilhas, espinafre e molho cremoso de limão, perfeito para um jantar gourmet.",
+          "bank_id": "11001292",
+          "credit": "Sylwester Ficek",
+          "query": "Escalopinho de Lombo com Bacon e Sálvia"
         },
-        "id": "caponata-de-berinjela-9f232a47"
+        "id": "escalopinho-de-lombo-com-bacon-e-salvia-80e18429"
       },
       {
-        "nome": "Manjar de Coco",
-        "curso": "sobremesa",
-        "tempo": "20 minutos de preparo + 4 horas de gelad",
-        "porque": "Uma sobremesa clássica, cremosa e fácil de fazer, que agrada a maioria e pode ser preparada com antecedência.",
+        "nome": "Crudités de Legumes com Queijo de Iogurte",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, fresca e muito prática, pronta em poucos minutos. É rica em vegetais e o molho de queijo de iogurte adiciona proteína e sabor, sem fritura. Ideal para começar o jantar de forma saudável.",
         "tags": [
-          "sobremesa",
-          "doce",
-          "classico",
-          "facil"
+          "vegetariano",
+          "facil",
+          "rapido",
+          "saudavel"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 cenoura média",
+          "1 pepino japonês",
+          "1 talo de salsão",
+          "1/2 xícara (chá) de iogurte natural integral",
+          "1 colher (sopa) de azeite",
+          "1 colher (sopa) de suco de limão",
+          "Folhas de hortelã fresca a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto"
+        ],
+        "preparo": [
+          "Lave e descasque a cenoura. Lave o pepino e o salsão. Corte todos os legumes em palitos finos e reserve.",
+          "Para o molho, coloque o iogurte em uma tigela pequena.",
+          "Adicione o azeite, o suco de limão e as folhas de hortelã picadas ao iogurte.",
+          "Tempere com sal e pimenta-do-reino a gosto e misture bem.",
+          "Sirva os palitos de legumes com o molho de queijo de iogurte."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/crudites-de-legumes",
+          "title": "Crudités de legumes - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 0.58,
+          "checked_at": "2026-08-10T11:48:20+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4062-crudites-com-molho-de-iogurte.webp",
+          "alt": "Crudités de Legumes com Queijo de Iogurte"
+        },
+        "id": "crudites-de-legumes-com-queijo-de-iogurte-5cee42db"
+      },
+      {
+        "nome": "Mousse de Chocolate Clássica",
+        "curso": "sobremesa",
+        "tempo": "5 minutos (+ tempo de geladeira)",
+        "porque": "Uma sobremesa clássica, fácil e extremamente rápida de preparar (apenas 5 minutos de preparo ativo). Perfeita para finalizar o jantar com um toque doce e sofisticado, sem exigir muito tempo na cozinha. Requer tempo de geladeira para firmar.",
+        "tags": [
+          "chocolate",
+          "rapido",
+          "facil",
+          "gelada"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "**Manjar:**",
-          "1 lata ou caixinha de Leite MOÇA® (395g)",
-          "2 e meia medidas (da lata) de Leite Líquido NINHO® Forti+ Integral",
-          "1 vidro de leite de coco (200ml)",
-          "Meia xícara (chá) de amido de milho",
-          "**Calda de Ameixa:**",
-          "1 xícara (chá) de açúcar",
-          "200 g de ameixa preta seca",
-          "1 pedaço de pau de canela",
-          "2 cravos-da-índia",
-          "2 xícaras (chá) de água"
+          "1 lata de Leite MOÇA® (395g)",
+          "1 lata de NESTLÉ® Creme de Leite (200g)",
+          "1 xícara (chá) de chocolate em pó NESTLÉ® DOIS FRADES®",
+          "1 colher (sopa) de manteiga sem sal"
         ],
         "preparo": [
-          "**Para o Manjar:** Em uma panela, misture o Leite MOÇA, o Leite NINHO, o leite de coco e o amido de milho.",
-          "Leve ao fogo médio, mexendo sempre, até obter um creme grosso.",
-          "Retire do fogo, despeje em uma forma com furo central (19 cm de diâmetro) previamente molhada.",
-          "Leve à geladeira por cerca de 4 horas para firmar.",
-          "**Para a Calda:** Em outra panela, coloque o açúcar, as ameixas, a canela, os cravos e a água.",
-          "Leve ao fogo e cozinhe por cerca de 10 minutos após levantar fervura, ou até a calda encorpar.",
-          "Desenforme o manjar e sirva com a calda de ameixa fria."
+          "Em uma panela, misture o Leite MOÇA, o chocolate em pó e a manteiga.",
+          "Leve ao fogo baixo, mexendo sempre, até a manteiga derreter e a mistura ficar homogênea e levemente aquecida.",
+          "Retire do fogo e adicione o NESTLÉ Creme de Leite, misturando bem até incorporar.",
+          "Despeje a mousse em taças individuais ou em um refratário.",
+          "Leve à geladeira por pelo menos 2 horas para firmar.",
+          "Sirva gelada, decorada a gosto (raspas de chocolate ou frutas)."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/manjar-de-coco",
-          "checked_at": "2026-08-09T11:30:42+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-chocolate-classica",
+          "checked_at": "2026-08-10T11:48:21+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/4946719/pexels-photo-4946719.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Satisfaça seu apetite com uma tigela de frutas tropicais frescas coberta com fatias de coco, um deleite gourmet.",
-          "bank_id": "4946719",
-          "credit": "Maria Orlova",
-          "query": "Manjar de Coco"
+          "url": "https://images.pexels.com/photos/19525903/pexels-photo-19525903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso mousse de chocolate coberto com frutas vermelhas e uma bola de sorvete de framboesa.",
+          "bank_id": "19525903",
+          "credit": "Sylwester Ficek",
+          "query": "Mousse de Chocolate Clássica"
         },
-        "id": "manjar-de-coco-7f91a8cb"
+        "id": "mousse-de-chocolate-classica-6002e4e1"
       }
     ]
   },

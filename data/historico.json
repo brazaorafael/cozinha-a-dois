@@ -1462,5 +1462,41 @@
     ],
     "data": "09/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "escalopinho-de-lombo-com-bacon-e-salvia-80e18429",
+    "titulo": "Escalopinho de Lombo com Bacon e Sálvia",
+    "tags": [
+      "carne_de_porco",
+      "grelhado",
+      "rapido",
+      "saboroso"
+    ],
+    "data": "10/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "crudites-de-legumes-com-queijo-de-iogurte-5cee42db",
+    "titulo": "Crudités de Legumes com Queijo de Iogurte",
+    "tags": [
+      "vegetariano",
+      "facil",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "10/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "mousse-de-chocolate-classica-6002e4e1",
+    "titulo": "Mousse de Chocolate Clássica",
+    "tags": [
+      "chocolate",
+      "rapido",
+      "facil",
+      "gelada"
+    ],
+    "data": "10/08/2026",
+    "fonte_status": "unverified"
   }
 ]
