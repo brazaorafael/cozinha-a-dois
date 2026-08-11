@@ -1498,5 +1498,29 @@
     ],
     "data": "10/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-de-forno-d1e3ceb4",
+    "titulo": "Carne Moída de Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "pratico",
+      "equilibrado"
+    ],
+    "data": "11/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "morango-recheado-com-leite-moca-3aa410cd",
+    "titulo": "Morango Recheado com Leite MOÇA®",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "rapido",
+      "refrescante"
+    ],
+    "data": "11/08/2026",
+    "fonte_status": "unverified"
   }
 ]

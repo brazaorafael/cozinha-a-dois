@@ -1,185 +1,181 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-10T08:47:11-03:00",
+  "gerado_em": "2026-08-11T08:43:12-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "10/08/2026",
-    "dia_semana": "segunda",
+    "data": "11/08/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Carne Moída com Refogado de Pimentão",
+        "nome": "Bife Acebolado",
         "curso": "principal",
-        "tempo": "30-40 minutos",
-        "porque": "Receita fácil e prática, pronta em cerca de 30-40 minutos. Utiliza carne vermelha (patinho moído) e é equilibrada com vegetais (pimentão e cebola). Rende bem para duas pessoas com potencial de sobras para o almoço. Preparo refogado.",
+        "tempo": "20-30 minutos",
+        "porque": "Clássico da culinária brasileira, rápido e prático, com proteína (carne vermelha) e cebola. Pode ser acompanhado de arroz e salada para uma refeição equilibrada. Preparado na frigideira.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "prato_unico",
-          "sobra"
+          "rapido",
+          "facil",
+          "refogado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de patinho moído",
-          "1 cebola média",
-          "2 dentes de alho",
-          "1 pimentão vermelho",
-          "1 tomate maduro",
-          "1/2 xícara (chá) de água ou caldo de carne",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Salsinha picada a gosto para finalizar"
+          "4 bifes de contrafilé ou alcatra (cerca de 150g cada)",
+          "2 cebolas médias",
+          "2 colheres (sopa) de azeite ou manteiga",
+          "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Pique a cebola e o alho. Corte o pimentão e o tomate em cubos pequenos.",
-          "Em uma panela grande, aqueça o azeite em fogo médio. Adicione a carne moída e refogue, mexendo e desfazendo os grumos, até dourar.",
-          "Acrescente a cebola e o alho picados e refogue por mais 3 minutos, até a cebola ficar transparente.",
-          "Junte o pimentão e o tomate picados, tempere com sal e pimenta-do-reino. Refogue por cerca de 5 minutos, até os vegetais ficarem macios.",
-          "Adicione a água ou caldo de carne, misture e deixe cozinhar em fogo baixo por uns 10 minutos, para apurar o sabor.",
-          "Finalize com salsinha picada e sirva quente, acompanhado de arroz branco."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-refogado-de-pimentao",
-          "checked_at": "2026-08-10T11:48:18+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
-          "bank_id": "34714654",
-          "credit": "UNDO KIM",
-          "query": "Carne Moída com Refogado de Pimentão"
-        },
-        "id": "carne-moida-com-refogado-de-pimentao-283735d9"
-      },
-      {
-        "nome": "Escalopinho de Lombo com Bacon e Sálvia",
-        "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Uma opção de carne de porco rápida e saborosa, pronta em poucos minutos. O bacon e a sálvia conferem um aroma e sabor marcantes. O preparo na frigideira é prático e sem fritura excessiva, ideal para um jantar a dois.",
-        "tags": [
-          "carne_de_porco",
-          "grelhado",
-          "rapido",
-          "saboroso"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "4 escalopes de lombo de porco (cerca de 150g cada)",
-          "4 fatias de bacon",
-          "8 folhas de sálvia fresca",
-          "1 colher (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Tempere os escalopes de lombo com sal e pimenta-do-reino dos dois lados.",
-          "Enrole uma fatia de bacon em cada escalope e prenda com um palito, se necessário. Coloque 2 folhas de sálvia em cada um.",
-          "Aqueça o azeite em uma frigideira grande em fogo médio-alto.",
-          "Doure os escalopes por cerca de 3-4 minutos de cada lado, até o bacon ficar crocante e a carne cozida.",
-          "Retire os palitos e sirva imediatamente, acompanhado de um purê ou salada."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Escalopinho-de-lombo-com-bacon-e-salvia",
-          "checked_at": "2026-08-10T11:48:19+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/11001292/pexels-photo-11001292.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso lombo de porco com lentilhas, espinafre e molho cremoso de limão, perfeito para um jantar gourmet.",
-          "bank_id": "11001292",
-          "credit": "Sylwester Ficek",
-          "query": "Escalopinho de Lombo com Bacon e Sálvia"
-        },
-        "id": "escalopinho-de-lombo-com-bacon-e-salvia-80e18429"
-      },
-      {
-        "nome": "Crudités de Legumes com Queijo de Iogurte",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, fresca e muito prática, pronta em poucos minutos. É rica em vegetais e o molho de queijo de iogurte adiciona proteína e sabor, sem fritura. Ideal para começar o jantar de forma saudável.",
-        "tags": [
-          "vegetariano",
-          "facil",
-          "rapido",
-          "saudavel"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 cenoura média",
-          "1 pepino japonês",
-          "1 talo de salsão",
-          "1/2 xícara (chá) de iogurte natural integral",
-          "1 colher (sopa) de azeite",
-          "1 colher (sopa) de suco de limão",
-          "Folhas de hortelã fresca a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Lave e descasque a cenoura. Lave o pepino e o salsão. Corte todos os legumes em palitos finos e reserve.",
-          "Para o molho, coloque o iogurte em uma tigela pequena.",
-          "Adicione o azeite, o suco de limão e as folhas de hortelã picadas ao iogurte.",
-          "Tempere com sal e pimenta-do-reino a gosto e misture bem.",
-          "Sirva os palitos de legumes com o molho de queijo de iogurte."
+          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
+          "Corte as cebolas em rodelas finas.",
+          "Em uma frigideira grande, aqueça o azeite ou a manteiga em fogo médio-alto.",
+          "Grelhe os bifes por 2 a 3 minutos de cada lado para malpassado, ou mais para o ponto desejado. Retire e reserve.",
+          "Na mesma frigideira, adicione as rodelas de cebola e refogue até ficarem macias e douradas.",
+          "Sirva os bifes com as cebolas refogadas por cima."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/crudites-de-legumes",
-          "title": "Crudités de legumes - Panelinha",
+          "url": "https://panelinha.com.br/receita/bife-acebolado",
+          "title": "Bife acebolado - Panelinha",
           "domain": "panelinha.com.br",
-          "confidence": 0.58,
-          "checked_at": "2026-08-10T11:48:20+00:00"
+          "confidence": 1.0,
+          "checked_at": "2026-08-11T11:44:25+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4062-crudites-com-molho-de-iogurte.webp",
-          "alt": "Crudités de Legumes com Queijo de Iogurte"
+          "url": "https://i.panelinha.com.br/i1/bk-7957-blog-ayu8198.webp",
+          "alt": "Bife Acebolado"
         },
-        "id": "crudites-de-legumes-com-queijo-de-iogurte-5cee42db"
+        "id": "bife-acebolado-959638fa"
       },
       {
-        "nome": "Mousse de Chocolate Clássica",
-        "curso": "sobremesa",
-        "tempo": "5 minutos (+ tempo de geladeira)",
-        "porque": "Uma sobremesa clássica, fácil e extremamente rápida de preparar (apenas 5 minutos de preparo ativo). Perfeita para finalizar o jantar com um toque doce e sofisticado, sem exigir muito tempo na cozinha. Requer tempo de geladeira para firmar.",
+        "nome": "Carne Moída de Forno",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Receita fácil e rápida, ideal para aproveitar sobras ou preparar um jantar prático. Rica em proteína (carne moída) e com vegetais (milho, tomate) e laticínios (requeijão, queijo). Cozida no forno.",
         "tags": [
-          "chocolate",
-          "rapido",
-          "facil",
-          "gelada"
+          "carne_vermelha",
+          "forno",
+          "pratico",
+          "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 lata de Leite MOÇA® (395g)",
-          "1 lata de NESTLÉ® Creme de Leite (200g)",
-          "1 xícara (chá) de chocolate em pó NESTLÉ® DOIS FRADES®",
-          "1 colher (sopa) de manteiga sem sal"
+          "500g de carne moída",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "1 lata de tomate pelado picado (ou 2 tomates frescos picados)",
+          "1 lata de milho verde escorrido",
+          "1/2 xícara (chá) de requeijão cremoso",
+          "100g de queijo muçarela ralado",
+          "Sal, pimenta-do-reino e cheiro-verde a gosto",
+          "Azeite para refogar"
         ],
         "preparo": [
-          "Em uma panela, misture o Leite MOÇA, o chocolate em pó e a manteiga.",
-          "Leve ao fogo baixo, mexendo sempre, até a manteiga derreter e a mistura ficar homogênea e levemente aquecida.",
-          "Retire do fogo e adicione o NESTLÉ Creme de Leite, misturando bem até incorporar.",
-          "Despeje a mousse em taças individuais ou em um refratário.",
-          "Leve à geladeira por pelo menos 2 horas para firmar.",
-          "Sirva gelada, decorada a gosto (raspas de chocolate ou frutas)."
+          "Em uma panela, aqueça um fio de azeite e refogue a cebola e o alho até dourarem.",
+          "Adicione a carne moída e refogue, desfazendo os grumos, até que esteja cozida.",
+          "Acrescente o tomate picado, o milho, sal, pimenta-do-reino e cheiro-verde. Cozinhe por alguns minutos.",
+          "Transfira a carne para um refratário.",
+          "Espalhe o requeijão por cima da carne e cubra com a muçarela ralada.",
+          "Leve ao forno preaquecido a 180°C por cerca de 15-20 minutos, ou até o queijo gratinar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-chocolate-classica",
-          "checked_at": "2026-08-10T11:48:21+00:00"
+          "suggested_url": "https://www.guiadacozinha.com.br/receitas/carne-moida-de-forno-receita-de-prato-principal-em-so-20-minutos/",
+          "checked_at": "2026-08-11T11:44:27+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/19525903/pexels-photo-19525903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso mousse de chocolate coberto com frutas vermelhas e uma bola de sorvete de framboesa.",
-          "bank_id": "19525903",
-          "credit": "Sylwester Ficek",
-          "query": "Mousse de Chocolate Clássica"
+          "url": "https://images.pexels.com/photos/37290075/pexels-photo-37290075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Chef preparando pães árabes tradicionais com carne moída em um forno de pedra.",
+          "bank_id": "37290075",
+          "credit": "Yasin Onuş",
+          "query": "Carne Moída de Forno"
         },
-        "id": "mousse-de-chocolate-classica-6002e4e1"
+        "id": "carne-moida-de-forno-d1e3ceb4"
+      },
+      {
+        "nome": "Bruschetta de Tomate",
+        "curso": "entrada",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada clássica italiana, leve, saborosa e muito rápida de preparar. Utiliza ingredientes frescos e é perfeita para abrir o apetite sem pesar.",
+        "tags": [
+          "entrada",
+          "vegetariano",
+          "rapido",
+          "facil"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 baguete pequena",
+          "2 tomates grandes e maduros",
+          "1 dente de alho",
+          "2 colheres (sopa) de azeite extra virgem",
+          "2 ramos de manjericão fresco",
+          "Sal e pimenta-do-reino moída na hora a gosto"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 180 ºC. Corte a baguete em fatias de 1 cm de espessura.",
+          "Disponha as fatias em uma assadeira e leve ao forno por cerca de 5 minutos para dourarem levemente.",
+          "Enquanto isso, lave e pique os tomates em cubos pequenos. Pique o alho finamente.",
+          "Em uma tigela, misture o tomate picado, o alho, as folhas de manjericão rasgadas, o azeite, sal e pimenta.",
+          "Esfregue um dente de alho (opcional) nas fatias de pão torradas para um sabor extra.",
+          "Distribua a mistura de tomate sobre as fatias de pão e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
+          "title": "Bruschetta de tomate - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-11T11:44:28+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
+          "alt": "Bruschetta de Tomate"
+        },
+        "id": "bruschetta-de-tomate-008b1157"
+      },
+      {
+        "nome": "Morango Recheado com Leite MOÇA®",
+        "curso": "sobremesa",
+        "tempo": "15 minutos (+ tempo de congelador)",
+        "porque": "Uma sobremesa prática, refrescante e deliciosa, ideal para dias quentes. O contraste da acidez do morango com a cremosidade do Leite MOÇA® é irresistível.",
+        "tags": [
+          "sobremesa",
+          "frutas",
+          "rapido",
+          "refrescante"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 caixa de morangos frescos (cerca de 250g)",
+          "1/2 lata ou caixinha de Leite MOÇA® (cerca de 197g)"
+        ],
+        "preparo": [
+          "Lave bem os morangos e seque-os.",
+          "Com uma faca pequena, corte a base do morango e retire um pouco do miolo, formando um pequeno 'copinho'.",
+          "Com cuidado, recheie cada morango com o Leite MOÇA® utilizando uma colher pequena ou um saco de confeitar.",
+          "Disponha os morangos recheados em um prato ou travessa.",
+          "Leve ao congelador por pelo menos 30 minutos, ou até ficarem bem gelados e firmes.",
+          "Sirva gelado."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/morango-recheado-com-leite-moca",
+          "checked_at": "2026-08-11T11:44:29+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/32300842/pexels-photo-32300842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Croissant de dar água na boca, recheado com creme e morangos, servido em um ambiente aconchegante de café.",
+          "bank_id": "32300842",
+          "credit": "Samet Burak Dağlıoğlu",
+          "query": "Morango Recheado com Leite MOÇA®"
+        },
+        "id": "morango-recheado-com-leite-moca-3aa410cd"
       }
     ]
   },
