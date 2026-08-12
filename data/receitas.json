@@ -1,36 +1,40 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-11T08:43:12-03:00",
+  "gerado_em": "2026-08-12T08:45:42-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "11/08/2026",
-    "dia_semana": "terça",
+    "data": "12/08/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
         "nome": "Bife Acebolado",
         "curso": "principal",
-        "tempo": "20-30 minutos",
-        "porque": "Clássico da culinária brasileira, rápido e prático, com proteína (carne vermelha) e cebola. Pode ser acompanhado de arroz e salada para uma refeição equilibrada. Preparado na frigideira.",
+        "tempo": "20 minutos",
+        "porque": "Um clássico da culinária brasileira, este bife é rápido e fácil de preparar na frigideira, garantindo uma carne macia e suculenta com cebolas douradas. Ideal para um jantar prático e pode render sobras para o almoço.",
         "tags": [
           "carne_vermelha",
           "rapido",
-          "facil",
-          "refogado"
+          "refogado",
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "4 bifes de contrafilé ou alcatra (cerca de 150g cada)",
-          "2 cebolas médias",
-          "2 colheres (sopa) de azeite ou manteiga",
-          "Sal e pimenta-do-reino a gosto"
+          "2 bifes de contrafilé (alcatra ou coxão mole)",
+          "1 cebola",
+          "2 colheres (sopa) de água",
+          "2 colheres (chá) de vinagre de vinho branco",
+          "1 colher (chá) de manteiga",
+          "Azeite a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
-          "Corte as cebolas em rodelas finas.",
-          "Em uma frigideira grande, aqueça o azeite ou a manteiga em fogo médio-alto.",
-          "Grelhe os bifes por 2 a 3 minutos de cada lado para malpassado, ou mais para o ponto desejado. Retire e reserve.",
-          "Na mesma frigideira, adicione as rodelas de cebola e refogue até ficarem macias e douradas.",
-          "Sirva os bifes com as cebolas refogadas por cima."
+          "Retire os bifes da geladeira 10 minutos antes de cozinhar. Em uma tigela pequena, misture a água com o vinagre.",
+          "Descasque e corte a cebola em meias-luas de 0,5 cm.",
+          "Leve uma frigideira grande ao fogo médio para aquecer. Enquanto isso, tempere os bifes com sal e pimenta.",
+          "Quando a frigideira estiver bem quente, regue com 1 colher (chá) de azeite, coloque os bifes e grelhe por cerca de 2 minutos de cada lado, até dourar. Transfira para um prato e reserve.",
+          "Na mesma frigideira, adicione a manteiga e a cebola. Refogue por cerca de 5 minutos, até murchar e dourar.",
+          "Regue a cebola com a mistura de água e vinagre, raspando o fundo da frigideira para soltar os sabores. Cozinhe por mais 1 minuto.",
+          "Sirva os bifes com a cebola por cima."
         ],
         "fonte": {
           "status": "verified",
@@ -38,7 +42,7 @@
           "title": "Bife acebolado - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-11T11:44:25+00:00"
+          "checked_at": "2026-08-12T11:47:27+00:00"
         },
         "imagem": {
           "kind": "source",
@@ -48,79 +52,75 @@
         "id": "bife-acebolado-959638fa"
       },
       {
-        "nome": "Carne Moída de Forno",
+        "nome": "Picanha Assada com Sal Grosso",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Receita fácil e rápida, ideal para aproveitar sobras ou preparar um jantar prático. Rica em proteína (carne moída) e com vegetais (milho, tomate) e laticínios (requeijão, queijo). Cozida no forno.",
+        "tempo": "60 minutos",
+        "porque": "Uma receita de picanha que fica pronta rapidamente no forno, resultando em uma carne úmida e saborosa, sem sujar a churrasqueira. É ideal para um jantar especial e rende bem para sobras.",
         "tags": [
           "carne_vermelha",
           "forno",
-          "pratico",
-          "equilibrado"
+          "especial",
+          "com_sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de carne moída",
-          "1 cebola picada",
-          "2 dentes de alho amassados",
-          "1 lata de tomate pelado picado (ou 2 tomates frescos picados)",
-          "1 lata de milho verde escorrido",
-          "1/2 xícara (chá) de requeijão cremoso",
-          "100g de queijo muçarela ralado",
-          "Sal, pimenta-do-reino e cheiro-verde a gosto",
-          "Azeite para refogar"
+          "1,2 kg de picanha em peça",
+          "4 claras de ovo",
+          "1 kg de sal grosso",
+          "½ xícara (chá) de farinha de trigo",
+          "Ramos de tomilho fresco a gosto"
         ],
         "preparo": [
-          "Em uma panela, aqueça um fio de azeite e refogue a cebola e o alho até dourarem.",
-          "Adicione a carne moída e refogue, desfazendo os grumos, até que esteja cozida.",
-          "Acrescente o tomate picado, o milho, sal, pimenta-do-reino e cheiro-verde. Cozinhe por alguns minutos.",
-          "Transfira a carne para um refratário.",
-          "Espalhe o requeijão por cima da carne e cubra com a muçarela ralada.",
-          "Leve ao forno preaquecido a 180°C por cerca de 15-20 minutos, ou até o queijo gratinar."
+          "Preaqueça o forno a 220 ºC (temperatura alta).",
+          "Em uma tigela, misture o sal grosso, as claras de ovo e a farinha de trigo até obter uma pasta com textura de areia molhada.",
+          "Em uma assadeira grande, espalhe 1/3 da mistura de sal grosso, formando uma camada fina do tamanho da picanha. Disponha os ramos de tomilho sobre o sal.",
+          "Seque a peça de picanha com um pano limpo e coloque-a sobre a camada de sal, com a gordura para cima.",
+          "Cubra toda a picanha com o restante da mistura de sal grosso, pressionando bem para formar uma capa firme.",
+          "Leve ao forno e diminua a temperatura para 200 °C (temperatura média). Asse por 45 minutos para carne ao ponto, ou ajuste conforme preferência.",
+          "Retire do forno e quebre a crosta de sal para servir. Deixe a carne descansar por 10 minutos antes de fatiar para maior suculência."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.guiadacozinha.com.br/receitas/carne-moida-de-forno-receita-de-prato-principal-em-so-20-minutos/",
-          "checked_at": "2026-08-11T11:44:27+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/picanha-assada-com-sal-grosso",
+          "title": "Picanha assada com sal grosso - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-12T11:47:27+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/37290075/pexels-photo-37290075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Chef preparando pães árabes tradicionais com carne moída em um forno de pedra.",
-          "bank_id": "37290075",
-          "credit": "Yasin Onuş",
-          "query": "Carne Moída de Forno"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-3589-picanha-assada-com-sal-grosso.webp",
+          "alt": "Picanha Assada com Sal Grosso"
         },
-        "id": "carne-moida-de-forno-d1e3ceb4"
+        "id": "picanha-assada-com-sal-grosso-9a4c1b1f"
       },
       {
         "nome": "Bruschetta de Tomate",
         "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada clássica italiana, leve, saborosa e muito rápida de preparar. Utiliza ingredientes frescos e é perfeita para abrir o apetite sem pesar.",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada clássica italiana, fácil e rápida de preparar, com ingredientes frescos e acessíveis. Perfeita para abrir o apetite sem pesar.",
         "tags": [
-          "entrada",
           "vegetariano",
           "rapido",
-          "facil"
+          "facil",
+          "italiano"
         ],
         "rende_sobra": false,
         "ingredientes": [
           "1 baguete pequena",
-          "2 tomates grandes e maduros",
+          "2 tomates grandes maduros",
           "1 dente de alho",
-          "2 colheres (sopa) de azeite extra virgem",
-          "2 ramos de manjericão fresco",
+          "2 colheres (sopa) de azeite",
+          "2 ramos de manjericão",
           "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 180 ºC. Corte a baguete em fatias de 1 cm de espessura.",
-          "Disponha as fatias em uma assadeira e leve ao forno por cerca de 5 minutos para dourarem levemente.",
-          "Enquanto isso, lave e pique os tomates em cubos pequenos. Pique o alho finamente.",
-          "Em uma tigela, misture o tomate picado, o alho, as folhas de manjericão rasgadas, o azeite, sal e pimenta.",
-          "Esfregue um dente de alho (opcional) nas fatias de pão torradas para um sabor extra.",
-          "Distribua a mistura de tomate sobre as fatias de pão e sirva imediatamente."
+          "Preaqueça o forno a 180 ºC (temperatura média). Corte a baguete em fatias de 1 cm e disponha-as em uma assadeira.",
+          "Leve as fatias ao forno por cerca de 10 minutos, até ficarem crocantes e levemente douradas.",
+          "Lave, seque e corte os tomates ao meio, descarte as sementes e pique cada metade em cubos de 0,5 cm.",
+          "Transfira os tomates picados para uma tigela, adicione as folhas de manjericão, regue com 2 colheres (sopa) de azeite, tempere com sal e pimenta e misture delicadamente.",
+          "Descasque o dente de alho. Para montar, esfregue o alho sobre cada torrada e coloque uma porção do tomate temperado.",
+          "Regue com um fio de azeite e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
@@ -128,7 +128,7 @@
           "title": "Bruschetta de tomate - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-11T11:44:28+00:00"
+          "checked_at": "2026-08-12T11:47:28+00:00"
         },
         "imagem": {
           "kind": "source",
@@ -138,44 +138,44 @@
         "id": "bruschetta-de-tomate-008b1157"
       },
       {
-        "nome": "Morango Recheado com Leite MOÇA®",
+        "nome": "Pudim Rápido de Tapioca",
         "curso": "sobremesa",
-        "tempo": "15 minutos (+ tempo de congelador)",
-        "porque": "Uma sobremesa prática, refrescante e deliciosa, ideal para dias quentes. O contraste da acidez do morango com a cremosidade do Leite MOÇA® é irresistível.",
+        "tempo": "25 minutos",
+        "porque": "Uma sobremesa incrivelmente fácil e rápida de fazer, com sabor suave que combina bem com diversos acompanhamentos. Perfeita para finalizar o jantar de forma leve.",
         "tags": [
-          "sobremesa",
-          "frutas",
+          "doce",
           "rapido",
-          "refrescante"
+          "facil",
+          "vegetariano"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 caixa de morangos frescos (cerca de 250g)",
-          "1/2 lata ou caixinha de Leite MOÇA® (cerca de 197g)"
+          "1 xícara (chá) de leite",
+          "2 colheres (sopa) de tapioca granulada",
+          "1 colher (sopa) de açúcar"
         ],
         "preparo": [
-          "Lave bem os morangos e seque-os.",
-          "Com uma faca pequena, corte a base do morango e retire um pouco do miolo, formando um pequeno 'copinho'.",
-          "Com cuidado, recheie cada morango com o Leite MOÇA® utilizando uma colher pequena ou um saco de confeitar.",
-          "Disponha os morangos recheados em um prato ou travessa.",
-          "Leve ao congelador por pelo menos 30 minutos, ou até ficarem bem gelados e firmes.",
-          "Sirva gelado."
+          "Em uma panela, coloque o leite e o açúcar. Leve ao fogo médio.",
+          "Assim que as primeiras bolhas começarem a subir, diminua o fogo e adicione a tapioca.",
+          "Mexa por cerca de 2 minutos, até que o creme engrosse e a tapioca fique transparente.",
+          "Transfira o creme ainda quente para 2 potinhos individuais.",
+          "Leve à geladeira para firmar por aproximadamente 20 minutos.",
+          "Sirva gelado, acompanhado de doce de abóbora, goiabada ou frutas frescas, se desejar."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/morango-recheado-com-leite-moca",
-          "checked_at": "2026-08-11T11:44:29+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+          "title": "Pudim rápido de tapioca - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-12T11:47:28+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/32300842/pexels-photo-32300842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Croissant de dar água na boca, recheado com creme e morangos, servido em um ambiente aconchegante de café.",
-          "bank_id": "32300842",
-          "credit": "Samet Burak Dağlıoğlu",
-          "query": "Morango Recheado com Leite MOÇA®"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
+          "alt": "Pudim Rápido de Tapioca"
         },
-        "id": "morango-recheado-com-leite-moca-3aa410cd"
+        "id": "pudim-rapido-de-tapioca-484a6aab"
       }
     ]
   },
