@@ -1522,5 +1522,29 @@
     ],
     "data": "11/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "almondegas-assadas-com-molho-de-tomate-2e895464",
+    "titulo": "Almôndegas Assadas com Molho de Tomate",
+    "tags": [
+      "carne_bovina",
+      "forno",
+      "molho",
+      "pratico"
+    ],
+    "data": "13/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-limao-a025f972",
+    "titulo": "Mousse de Limão",
+    "tags": [
+      "sobremesa",
+      "citrico",
+      "rapido",
+      "gelado"
+    ],
+    "data": "13/08/2026",
+    "fonte_status": "verified"
   }
 ]
