@@ -1546,5 +1546,29 @@
     ],
     "data": "13/08/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "estrogonofe-de-carne-b437bab9",
+    "titulo": "Estrogonofe de Carne",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "jantar"
+    ],
+    "data": "14/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "figado-acebolado-09047097",
+    "titulo": "Fígado Acebolado",
+    "tags": [
+      "carne_vermelha",
+      "saute",
+      "rapido",
+      "economico"
+    ],
+    "data": "14/08/2026",
+    "fonte_status": "verified"
   }
 ]

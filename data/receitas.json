@@ -1,102 +1,109 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-13T08:46:49-03:00",
+  "gerado_em": "2026-08-14T08:43:14-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "13/08/2026",
-    "dia_semana": "quinta",
+    "data": "14/08/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Bife Acebolado",
+        "nome": "Estrogonofe de Carne",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Carne vermelha preferida do casal, receita fácil e prática, pronta rapidamente na frigideira, ideal para um jantar saboroso e com potencial de sobras.",
+        "tempo": "40 minutos",
+        "porque": "Clássico da culinária brasileira, este prato é rápido e fácil de preparar, ideal para um jantar prático e com potencial para sobras. Prioriza proteína (carne bovina) e pode ser acompanhado de arroz e batata palha para um equilíbrio de carboidratos e vegetais.",
         "tags": [
-          "carne_bovina",
-          "rapido",
+          "carne_vermelha",
           "refogado",
-          "prato_principal"
+          "rapido",
+          "jantar"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 bifes de contrafilé (alcatra ou coxão mole)",
-          "1 cebola",
-          "2 colheres (sopa) de azeite",
+          "1,5 kg de miolo de alcatra em bifes",
+          "500 g de cogumelo-de-paris",
+          "2 cebolas",
+          "3 dentes de alho",
+          "3 xícaras (chá) de creme de leite fresco (cerca de 750 ml)",
+          "3 colheres (sopa) de extrato de tomate",
+          "3 colheres (sopa) de ketchup caseiro",
+          "3 colheres (sopa) de molho inglês",
+          "3 colheres (sopa) de conhaque",
+          "4 colheres (sopa) de azeite",
           "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino dos dois lados. Retire os bifes da geladeira 10 minutos antes de grelhar.",
-          "Descasque e corte a cebola em meias-luas de 0,5 cm.",
-          "Leve uma frigideira grande ao fogo médio para aquecer. Regue com 1 colher (chá) de azeite, coloque os bifes e deixe grelhar por cerca de 2 minutos de cada lado, ou até dourar e desgrudar da frigideira.",
-          "Retire os bifes e reserve. Na mesma frigideira, adicione as cebolas e refogue em fogo baixo, mexendo ocasionalmente, até ficarem macias e levemente douradas.",
-          "Retorne os bifes à frigideira com as cebolas e misture bem para que peguem o sabor. Sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/bife-acebolado",
-          "title": "Bife acebolado - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-13T11:48:09+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7957-blog-ayu8198.webp",
-          "alt": "Bife Acebolado"
-        },
-        "id": "bife-acebolado-959638fa"
-      },
-      {
-        "nome": "Almôndegas Assadas com Molho de Tomate",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Opção de carne vermelha moída assada no forno, o que reduz a fritura. É um prato completo e rende bem para o almoço do dia seguinte.",
-        "tags": [
-          "carne_bovina",
-          "forno",
-          "molho",
-          "pratico"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500g de carne moída (patinho ou acém)",
-          "1 ovo",
-          "1/2 xícara (chá) de farinha de rosca (ou 2 colheres de sopa de farinha de trigo)",
-          "1/4 xícara (chá) de cheiro-verde picado (ou salsa picada)",
-          "1 dente de alho amassado (ou 2 colheres de café de alho triturado)",
-          "Sal e pimenta-do-reino a gosto",
-          "1 lata de molho de tomate pronto (340g) (ou 1 sachê e meio de molho de tomate)",
-          "1/2 xícara (chá) de água (ou 1 copo de água fervida)"
-        ],
-        "preparo": [
-          "Em um recipiente, misture a carne moída, o ovo, a farinha de rosca, o cheiro-verde, o alho, sal e pimenta até incorporar bem.",
-          "Modele pequenas almôndegas com as mãos e distribua-as em uma assadeira untada com azeite.",
-          "Leve ao forno médio-alto (200°C), preaquecido, por cerca de 15 a 30 minutos ou até dourarem levemente.",
-          "Enquanto isso, em uma panela, aqueça o molho de tomate com a água.",
-          "Retire as almôndegas do forno, adicione-as ao molho quente e cozinhe em fogo baixo, com panela tampada, por mais 10 a 15 minutos, para que cozinhem por completo e absorvam o sabor do molho.",
-          "Sirva imediatamente."
+          "Corte a carne em tiras e reserve em temperatura ambiente. Pique a cebola e o alho, e fatie os cogumelos.",
+          "Em uma panela média em fogo médio, doure a carne em levas com azeite, transferindo para uma tigela.",
+          "Na mesma panela, refogue a cebola e o alho até dourar.",
+          "Adicione o extrato de tomate, ketchup, molho inglês e conhaque, mexendo bem.",
+          "Retorne a carne à panela, junte os cogumelos e o creme de leite fresco. Tempere com sal e pimenta.",
+          "Cozinhe em fogo baixo até aquecer bem e o molho encorpar levemente, sem ferver. Sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/almondegas-assadas-com-molho-de-tomate",
-          "checked_at": "2026-08-13T11:48:10+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Estrogonofe-de-carne",
+          "checked_at": "2026-08-14T11:45:00+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34314421/pexels-photo-34314421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosas almôndegas decoradas com salsa em um molho de tomate vibrante, perfeitas para qualquer refeição.",
-          "bank_id": "34314421",
-          "credit": "ERIVELTO Martins",
-          "query": "Almôndegas Assadas com Molho de Tomate"
+          "url": "https://images.pexels.com/photos/29935503/pexels-photo-29935503.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um delicioso prato de estrogonofe de carne com arroz e vegetais servido à mesa.",
+          "bank_id": "29935503",
+          "credit": "khezez  | خزاز",
+          "query": "Estrogonofe de Carne"
         },
-        "id": "almondegas-assadas-com-molho-de-tomate-2e895464"
+        "id": "estrogonofe-de-carne-b437bab9"
       },
       {
-        "nome": "Bruschetta de Tomate",
+        "nome": "Fígado Acebolado",
+        "curso": "principal",
+        "tempo": "25 minutos",
+        "porque": "Uma opção de carne vermelha diferente, muito rápida de preparar e econômica. É uma refeição de alta proteína, ideal para variar o cardápio.",
+        "tags": [
+          "carne_vermelha",
+          "saute",
+          "rapido",
+          "economico"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "500 g de fígado bovino",
+          "1 cebola",
+          "Caldo de ½ limão",
+          "1 colher (sopa) de água",
+          "3 colheres (sopa) de azeite",
+          "2 colheres (chá) de sal",
+          "3 ramos de salsinha"
+        ],
+        "preparo": [
+          "Pique a salsinha e corte a cebola em meias-luas finas. Lave e seque o fígado, removendo veias e nervos, e corte em tiras de 1 cm x 6 cm.",
+          "Em uma frigideira em fogo médio, refogue a cebola com 1 colher de azeite por cerca de 10 minutos até dourar. Transfira para uma tigela.",
+          "Na mesma frigideira, adicione 1 colher de azeite e doure metade do fígado por cerca de 5 minutos, mexendo ocasionalmente. Transfira para a tigela com a cebola.",
+          "Repita o processo com o restante do fígado e a última colher de azeite.",
+          "Retorne todo o fígado e cebola à frigideira. Tempere com sal, regue com água e caldo de limão, raspando o fundo para formar um molho.",
+          "Desligue o fogo, misture a salsinha picada e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/figado-acebolado",
+          "title": "Fígado acebolado - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-14T11:45:01+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-3714-carnes-0696-corte-receita.webp",
+          "alt": "Fígado Acebolado"
+        },
+        "id": "figado-acebolado-09047097"
+      },
+      {
+        "nome": "Bruschetta de tomate",
         "curso": "entrada",
-        "tempo": "30 minutos",
-        "porque": "Entrada leve, fresca e rápida de preparar, perfeita para abrir o apetite sem pesar. Utiliza ingredientes simples e acessíveis.",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada clássica italiana, fácil e rápida de preparar, utilizando ingredientes frescos e acessíveis. É perfeita para abrir o apetite sem pesar.",
         "tags": [
           "entrada",
           "vegetariano",
@@ -105,19 +112,20 @@
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pão italiano (ou baguete)",
-          "3 tomates maduros",
-          "2 dentes de alho",
-          "Folhas de manjericão fresco a gosto",
-          "Azeite extra virgem",
+          "1 baguete pequena",
+          "2 tomates grandes maduros",
+          "1 dente de alho",
+          "2 colheres (sopa) de azeite",
+          "2 ramos de manjericão",
           "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 180°C. Corte o pão em fatias de cerca de 1,5 cm de espessura.",
-          "Esfregue um dente de alho descascado em cada fatia de pão. Regue com um fio de azeite e leve ao forno por cerca de 10 minutos, ou até dourarem levemente.",
-          "Enquanto o pão assa, pique os tomates em cubos pequenos. Pique o outro dente de alho bem fino.",
-          "Em uma tigela, misture os tomates picados, o alho picado, as folhas de manjericão rasgadas, um bom fio de azeite, sal e pimenta-do-reino.",
-          "Retire o pão do forno e distribua a mistura de tomate sobre cada fatia. Sirva imediatamente."
+          "Preaqueça o forno a 180 ºC. Corte a baguete em fatias de 1 cm e disponha em uma assadeira.",
+          "Asse por cerca de 10 minutos, até ficarem crocantes e levemente douradas.",
+          "Enquanto o pão assa, lave, seque e corte os tomates ao meio, descarte as sementes e pique em cubos pequenos.",
+          "Em uma tigela, misture os tomates picados com as folhas de manjericão e 2 colheres de azeite. Tempere com sal e pimenta.",
+          "Descasque o dente de alho. Para montar, esfregue o alho sobre cada torrada e coloque uma porção do tomate temperado.",
+          "Regue com um fio de azeite e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
@@ -125,54 +133,53 @@
           "title": "Bruschetta de tomate - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-13T11:48:11+00:00"
+          "checked_at": "2026-08-14T11:45:02+00:00"
         },
         "imagem": {
           "kind": "source",
           "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
-          "alt": "Bruschetta de Tomate"
+          "alt": "Bruschetta de tomate"
         },
         "id": "bruschetta-de-tomate-008b1157"
       },
       {
-        "nome": "Mousse de Limão",
+        "nome": "Pudim rápido de tapioca",
         "curso": "sobremesa",
-        "tempo": "15 minutos de preparo",
-        "porque": "Sobremesa refrescante e fácil de fazer, com um tempo de preparo ativo muito curto. Ideal para finalizar o jantar de forma leve e saborosa.",
+        "tempo": "25 minutos",
+        "porque": "Uma sobremesa leve e rápida de preparar, ideal para um casal. A tapioca granulada oferece uma textura interessante e pode ser acompanhada de frutas ou geleia.",
         "tags": [
           "sobremesa",
-          "citrico",
           "rapido",
-          "gelado"
+          "vegetariano",
+          "leve"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 lata de Leite MOÇA® (leite condensado)",
-          "1 lata de NESTLÉ® Creme de Leite (ou 1 caixinha)",
-          "1/2 xícara (chá) de suco de limão (aproximadamente 3 limões)",
-          "Raspas de limão para decorar (opcional)"
+          "1 xícara (chá) de leite",
+          "2 colheres (sopa) de tapioca granulada",
+          "1 colher (sopa) de açúcar"
         ],
         "preparo": [
-          "No liquidificador, bata o Leite MOÇA® e o NESTLÉ® Creme de Leite até obter uma mistura homogênea.",
-          "Com o liquidificador ainda ligado, adicione o suco de limão em fio, batendo até a mousse encorpar e ficar cremosa.",
-          "Despeje a mousse em taças individuais ou em um refratário.",
-          "Leve à geladeira por no mínimo 3 horas para firmar.",
-          "Decore com raspas de limão antes de servir, se desejar."
+          "Em uma panela, combine o leite e o açúcar e leve ao fogo médio até as primeiras bolhas aparecerem.",
+          "Diminua o fogo e adicione a tapioca, mexendo por cerca de 2 minutos até engrossar e a tapioca ficar transparente.",
+          "Transfira o creme ainda quente para dois potinhos individuais.",
+          "Leve à geladeira para firmar por aproximadamente 20 minutos.",
+          "Sirva com acompanhamentos como doce de abóbora, goiabada ou frutas frescas."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/mousse-de-limao",
-          "title": "Receita de Mousse de Limão Prática e Saborosa| Receitas Nestlé",
-          "domain": "receitasnestle.com.br",
+          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+          "title": "Pudim rápido de tapioca - Panelinha",
+          "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-13T11:48:11+00:00"
+          "checked_at": "2026-08-14T11:45:03+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1fe3e3dcd62ebfeec21b30a6229e8c91.jpg",
-          "alt": "Mousse de Limão"
+          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
+          "alt": "Pudim rápido de tapioca"
         },
-        "id": "mousse-de-limao-a025f972"
+        "id": "pudim-rapido-de-tapioca-484a6aab"
       }
     ]
   },
