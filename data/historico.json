@@ -1570,5 +1570,53 @@
     ],
     "data": "14/08/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "bife-acebolado-com-pure-de-batata-assada-8c2a32aa",
+    "titulo": "Bife Acebolado com Purê de Batata Assada",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "grelha",
+      "forno"
+    ],
+    "data": "15/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-grelhado-ao-molho-de-queijo-d711848a",
+    "titulo": "Bife Grelhado ao Molho de Queijo",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "grelha",
+      "cremoso"
+    ],
+    "data": "15/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "canape-de-requeijao-e-abacate-f7550fcd",
+    "titulo": "Canapé de Requeijão e Abacate",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "frio",
+      "sem_fritura"
+    ],
+    "data": "15/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "sobremesa-de-ninho-cremoso-a7eb9c88",
+    "titulo": "Sobremesa de Ninho Cremoso",
+    "tags": [
+      "doce",
+      "rapido",
+      "sem_forno",
+      "cremoso"
+    ],
+    "data": "15/08/2026",
+    "fonte_status": "unverified"
   }
 ]

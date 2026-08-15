@@ -1,185 +1,195 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-14T08:43:14-03:00",
+  "gerado_em": "2026-08-15T08:20:04-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "14/08/2026",
-    "dia_semana": "sexta",
+    "data": "15/08/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Estrogonofe de Carne",
+        "nome": "Bife Acebolado com Purê de Batata Assada",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Clássico da culinária brasileira, este prato é rápido e fácil de preparar, ideal para um jantar prático e com potencial para sobras. Prioriza proteína (carne bovina) e pode ser acompanhado de arroz e batata palha para um equilíbrio de carboidratos e vegetais.",
+        "tempo": "45 minutos",
+        "porque": "Carne vermelha preferida, fácil e prático, com acompanhamento equilibrado de purê de batatas assadas. O bife é grelhado e o purê assado, evitando frituras. Rende sobra para o almoço de uma pessoa.",
         "tags": [
           "carne_vermelha",
-          "refogado",
           "rapido",
-          "jantar"
+          "grelha",
+          "forno"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1,5 kg de miolo de alcatra em bifes",
-          "500 g de cogumelo-de-paris",
-          "2 cebolas",
-          "3 dentes de alho",
-          "3 xícaras (chá) de creme de leite fresco (cerca de 750 ml)",
-          "3 colheres (sopa) de extrato de tomate",
-          "3 colheres (sopa) de ketchup caseiro",
-          "3 colheres (sopa) de molho inglês",
-          "3 colheres (sopa) de conhaque",
-          "4 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "500 g de filé-mignon",
+          "1/2 xícara (chá) de cebola roxa",
+          "1 colher (sopa) de molho inglês",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta a gosto",
+          "2 colheres (sopa) de vinho tinto",
+          "500 g de batata inglesa com casca",
+          "3 colheres (sopa) de azeite (para o purê)",
+          "1 xícara (chá) de creme de leite fresco",
+          "3 colheres de manteiga"
         ],
         "preparo": [
-          "Corte a carne em tiras e reserve em temperatura ambiente. Pique a cebola e o alho, e fatie os cogumelos.",
-          "Em uma panela média em fogo médio, doure a carne em levas com azeite, transferindo para uma tigela.",
-          "Na mesma panela, refogue a cebola e o alho até dourar.",
-          "Adicione o extrato de tomate, ketchup, molho inglês e conhaque, mexendo bem.",
-          "Retorne a carne à panela, junte os cogumelos e o creme de leite fresco. Tempere com sal e pimenta.",
-          "Cozinhe em fogo baixo até aquecer bem e o molho encorpar levemente, sem ferver. Sirva imediatamente."
+          "Aqueça o azeite em uma frigideira e grelhe o filé dos dois lados.",
+          "Adicione a cebola, o molho inglês e o vinho, deixando a cebola caramelizar. Desligue o fogo e reserve.",
+          "Para o purê, cozinhe as batatas com casca. Após cozidas, dê um murro nas batatas e tempere com sal e azeite.",
+          "Leve as batatas ao forno para assar.",
+          "Após assadas, triture as batatas no processador com a manteiga e o creme de leite.",
+          "Leve o purê ao fogo até atingir a consistência desejada. Sirva o bife acebolado com o purê de batata assada."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Estrogonofe-de-carne",
-          "checked_at": "2026-08-14T11:45:00+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-08-15T11:21:25+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/29935503/pexels-photo-29935503.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um delicioso prato de estrogonofe de carne com arroz e vegetais servido à mesa.",
-          "bank_id": "29935503",
-          "credit": "khezez  | خزاز",
-          "query": "Estrogonofe de Carne"
+          "url": "https://images.pexels.com/photos/15352332/pexels-photo-15352332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso bife de carne bovina servido com purê de batatas cremoso e aspargos grelhados.",
+          "bank_id": "15352332",
+          "credit": "Eduardo Krajan",
+          "query": "Bife Acebolado com Purê de Batata Assada"
         },
-        "id": "estrogonofe-de-carne-b437bab9"
+        "id": "bife-acebolado-com-pure-de-batata-assada-8c2a32aa"
       },
       {
-        "nome": "Fígado Acebolado",
+        "nome": "Bife Grelhado ao Molho de Queijo",
         "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Uma opção de carne vermelha diferente, muito rápida de preparar e econômica. É uma refeição de alta proteína, ideal para variar o cardápio.",
+        "tempo": "30 minutos",
+        "porque": "Carne vermelha preferida, fácil e rápido de preparar, com um molho cremoso de queijo que adiciona sabor sem complicação. Preparado na frigideira, evitando fritura excessiva. Rende sobra para o almoço de uma pessoa.",
         "tags": [
           "carne_vermelha",
-          "saute",
           "rapido",
-          "economico"
+          "grelha",
+          "cremoso"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "500 g de fígado bovino",
-          "1 cebola",
-          "Caldo de ½ limão",
-          "1 colher (sopa) de água",
-          "3 colheres (sopa) de azeite",
-          "2 colheres (chá) de sal",
-          "3 ramos de salsinha"
-        ],
-        "preparo": [
-          "Pique a salsinha e corte a cebola em meias-luas finas. Lave e seque o fígado, removendo veias e nervos, e corte em tiras de 1 cm x 6 cm.",
-          "Em uma frigideira em fogo médio, refogue a cebola com 1 colher de azeite por cerca de 10 minutos até dourar. Transfira para uma tigela.",
-          "Na mesma frigideira, adicione 1 colher de azeite e doure metade do fígado por cerca de 5 minutos, mexendo ocasionalmente. Transfira para a tigela com a cebola.",
-          "Repita o processo com o restante do fígado e a última colher de azeite.",
-          "Retorne todo o fígado e cebola à frigideira. Tempere com sal, regue com água e caldo de limão, raspando o fundo para formar um molho.",
-          "Desligue o fogo, misture a salsinha picada e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/figado-acebolado",
-          "title": "Fígado acebolado - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-14T11:45:01+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-3714-carnes-0696-corte-receita.webp",
-          "alt": "Fígado Acebolado"
-        },
-        "id": "figado-acebolado-09047097"
-      },
-      {
-        "nome": "Bruschetta de tomate",
-        "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada clássica italiana, fácil e rápida de preparar, utilizando ingredientes frescos e acessíveis. É perfeita para abrir o apetite sem pesar.",
-        "tags": [
-          "entrada",
-          "vegetariano",
-          "rapido",
-          "forno"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 baguete pequena",
-          "2 tomates grandes maduros",
-          "1 dente de alho",
-          "2 colheres (sopa) de azeite",
-          "2 ramos de manjericão",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Preaqueça o forno a 180 ºC. Corte a baguete em fatias de 1 cm e disponha em uma assadeira.",
-          "Asse por cerca de 10 minutos, até ficarem crocantes e levemente douradas.",
-          "Enquanto o pão assa, lave, seque e corte os tomates ao meio, descarte as sementes e pique em cubos pequenos.",
-          "Em uma tigela, misture os tomates picados com as folhas de manjericão e 2 colheres de azeite. Tempere com sal e pimenta.",
-          "Descasque o dente de alho. Para montar, esfregue o alho sobre cada torrada e coloque uma porção do tomate temperado.",
-          "Regue com um fio de azeite e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
-          "title": "Bruschetta de tomate - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-14T11:45:02+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
-          "alt": "Bruschetta de tomate"
-        },
-        "id": "bruschetta-de-tomate-008b1157"
-      },
-      {
-        "nome": "Pudim rápido de tapioca",
-        "curso": "sobremesa",
-        "tempo": "25 minutos",
-        "porque": "Uma sobremesa leve e rápida de preparar, ideal para um casal. A tapioca granulada oferece uma textura interessante e pode ser acompanhada de frutas ou geleia.",
-        "tags": [
-          "sobremesa",
-          "rapido",
-          "vegetariano",
-          "leve"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
+          "4 bifes (alcatra, contrafilé ou filé mignon)",
+          "Sal e pimenta-do-reino a gosto",
+          "1 colher (sopa) de azeite",
+          "Para o molho:",
+          "1 colher (sopa) de manteiga",
+          "1/2 cebola picada",
+          "1 colher (sopa) de farinha de trigo",
           "1 xícara (chá) de leite",
-          "2 colheres (sopa) de tapioca granulada",
-          "1 colher (sopa) de açúcar"
+          "2 colheres (sopa) de requeijão",
+          "1 colher (chá) de mostarda",
+          "50 g de queijo muçarela ralado",
+          "50 g de queijo parmesão ralado",
+          "Noz-moscada a gosto"
         ],
         "preparo": [
-          "Em uma panela, combine o leite e o açúcar e leve ao fogo médio até as primeiras bolhas aparecerem.",
-          "Diminua o fogo e adicione a tapioca, mexendo por cerca de 2 minutos até engrossar e a tapioca ficar transparente.",
-          "Transfira o creme ainda quente para dois potinhos individuais.",
-          "Leve à geladeira para firmar por aproximadamente 20 minutos.",
-          "Sirva com acompanhamentos como doce de abóbora, goiabada ou frutas frescas."
+          "Tempere os bifes com sal e pimenta-do-reino. Aqueça o azeite em uma frigideira e grelhe os bifes ao seu gosto. Reserve.",
+          "Para o molho, derreta a manteiga em uma panela e refogue a cebola por 2 minutos.",
+          "Polvilhe a farinha de trigo e frite por 1 minuto, mexendo sempre.",
+          "Despeje o leite aos poucos, mexendo até engrossar.",
+          "Acrescente o requeijão, a mostarda, os queijos e a noz-moscada. Mexa até os queijos derreterem e o molho ficar cremoso.",
+          "Sirva os bifes regados com o molho de queijo."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
-          "title": "Pudim rápido de tapioca - Panelinha",
-          "domain": "panelinha.com.br",
+          "url": "https://guiadacozinha.com.br/receitas/bife-grelhado-ao-molho-de-queijo/",
+          "title": "Bife grelhado ao molho de queijo",
+          "domain": "guiadacozinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-14T11:45:03+00:00"
+          "checked_at": "2026-08-15T11:21:28+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
-          "alt": "Pudim rápido de tapioca"
+          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/bife-grelhado-ao-molho-de-queijo-48840.jpg",
+          "alt": "Bife Grelhado ao Molho de Queijo"
         },
-        "id": "pudim-rapido-de-tapioca-484a6aab"
+        "id": "bife-grelhado-ao-molho-de-queijo-d711848a"
+      },
+      {
+        "nome": "Canapé de Requeijão e Abacate",
+        "curso": "entrada",
+        "tempo": "25 minutos",
+        "porque": "Entrada leve, prática e rápida, sem fritura, com ingredientes acessíveis e sabor refrescante.",
+        "tags": [
+          "vegetariano",
+          "rapido",
+          "frio",
+          "sem_fritura"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 copo de NESTLÉ Requeijão Tradicional Cremoso (200g)",
+          "Meio abacate maduro",
+          "2 colheres (sopa) de suco de limão",
+          "1 colher (chá) de sal",
+          "2 colheres (sopa) de salsa picada",
+          "50 torradinhas para canapés",
+          "2 xícaras (chá) de tomates-cereja cortados ao meio"
+        ],
+        "preparo": [
+          "Em um liquidificador, bata o Requeijão NESTLÉ, o abacate, o suco de limão, o sal e a salsa até obter um creme homogêneo.",
+          "Coloque uma porção do creme sobre cada torradinha.",
+          "Decore com um tomate-cereja cortado ao meio e um raminho de salsa.",
+          "Sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/canape-de-requeijao-e-abacate",
+          "title": "Canapé de Requeijão e Abacate",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-15T11:21:30+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d9ccb01c185cdbbd135a256be2bc3462.jpg",
+          "alt": "Canapé de Requeijão e Abacate"
+        },
+        "id": "canape-de-requeijao-e-abacate-f7550fcd"
+      },
+      {
+        "nome": "Sobremesa de Ninho Cremoso",
+        "curso": "sobremesa",
+        "tempo": "15 minutos (preparo ativo)",
+        "porque": "Sobremesa fácil, prática e rápida, sem necessidade de forno e com poucos ingredientes. Ideal para um casal jovem e pode render para o almoço de uma pessoa.",
+        "tags": [
+          "doce",
+          "rapido",
+          "sem_forno",
+          "cremoso"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "300 ml de chantilly (bem gelado, batido em ponto firme)",
+          "200g de leite em pó",
+          "100g de manteiga ou margarina em temperatura ambiente",
+          "200g de creme de leite gelado",
+          "1 lata de leite condensado gelado",
+          "200g de bolacha maisena",
+          "Leite em pó para polvilhar"
+        ],
+        "preparo": [
+          "Em uma tigela, bata a manteiga com o leite condensado até obter um creme bem cremoso.",
+          "Acrescente o creme de leite gelado e o leite em pó, misturando bem até formar um creme liso.",
+          "Incorpore delicadamente o chantilly batido, misturando até ficar aerado e uniforme.",
+          "Em um refratário, intercale camadas de bolacha maisena quebrada e creme de Ninho.",
+          "Finalize com uma camada de creme e leve à geladeira por pelo menos 2 horas para firmar.",
+          "Antes de servir, polvilhe leite em pó por cima."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-08-15T11:21:30+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5640039/pexels-photo-5640039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma deliciosa panna cotta coberta com frutas frescas e molhos vibrantes, perfeita para amantes de sobremesa.",
+          "bank_id": "5640039",
+          "credit": "Shameel mukkath",
+          "query": "Sobremesa de Ninho Cremoso"
+        },
+        "id": "sobremesa-de-ninho-cremoso-a7eb9c88"
       }
     ]
   },
