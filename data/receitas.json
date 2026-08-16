@@ -1,195 +1,184 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-15T08:20:04-03:00",
+  "gerado_em": "2026-08-16T08:20:25-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "15/08/2026",
-    "dia_semana": "sábado",
+    "data": "16/08/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Bife Acebolado com Purê de Batata Assada",
-        "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Carne vermelha preferida, fácil e prático, com acompanhamento equilibrado de purê de batatas assadas. O bife é grelhado e o purê assado, evitando frituras. Rende sobra para o almoço de uma pessoa.",
-        "tags": [
-          "carne_vermelha",
-          "rapido",
-          "grelha",
-          "forno"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500 g de filé-mignon",
-          "1/2 xícara (chá) de cebola roxa",
-          "1 colher (sopa) de molho inglês",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta a gosto",
-          "2 colheres (sopa) de vinho tinto",
-          "500 g de batata inglesa com casca",
-          "3 colheres (sopa) de azeite (para o purê)",
-          "1 xícara (chá) de creme de leite fresco",
-          "3 colheres de manteiga"
-        ],
-        "preparo": [
-          "Aqueça o azeite em uma frigideira e grelhe o filé dos dois lados.",
-          "Adicione a cebola, o molho inglês e o vinho, deixando a cebola caramelizar. Desligue o fogo e reserve.",
-          "Para o purê, cozinhe as batatas com casca. Após cozidas, dê um murro nas batatas e tempere com sal e azeite.",
-          "Leve as batatas ao forno para assar.",
-          "Após assadas, triture as batatas no processador com a manteiga e o creme de leite.",
-          "Leve o purê ao fogo até atingir a consistência desejada. Sirva o bife acebolado com o purê de batata assada."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-15T11:21:25+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/15352332/pexels-photo-15352332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife de carne bovina servido com purê de batatas cremoso e aspargos grelhados.",
-          "bank_id": "15352332",
-          "credit": "Eduardo Krajan",
-          "query": "Bife Acebolado com Purê de Batata Assada"
-        },
-        "id": "bife-acebolado-com-pure-de-batata-assada-8c2a32aa"
-      },
-      {
-        "nome": "Bife Grelhado ao Molho de Queijo",
+        "nome": "Bife Acebolado",
         "curso": "principal",
         "tempo": "30 minutos",
-        "porque": "Carne vermelha preferida, fácil e rápido de preparar, com um molho cremoso de queijo que adiciona sabor sem complicação. Preparado na frigideira, evitando fritura excessiva. Rende sobra para o almoço de uma pessoa.",
+        "porque": "Um clássico da culinária brasileira, esta receita da Panelinha garante um bife macio e saboroso, perfeito para acompanhar arroz e uma salada. É rápido de fazer na frigideira e ideal para ter sobras para o almoço.",
         "tags": [
           "carne_vermelha",
           "rapido",
-          "grelha",
-          "cremoso"
+          "refogado",
+          "classico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "4 bifes (alcatra, contrafilé ou filé mignon)",
-          "Sal e pimenta-do-reino a gosto",
-          "1 colher (sopa) de azeite",
-          "Para o molho:",
-          "1 colher (sopa) de manteiga",
-          "1/2 cebola picada",
-          "1 colher (sopa) de farinha de trigo",
-          "1 xícara (chá) de leite",
-          "2 colheres (sopa) de requeijão",
-          "1 colher (chá) de mostarda",
-          "50 g de queijo muçarela ralado",
-          "50 g de queijo parmesão ralado",
-          "Noz-moscada a gosto"
+          "4 bifes de contrafilé (ou alcatra)",
+          "2 cebolas grandes",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino. Aqueça o azeite em uma frigideira e grelhe os bifes ao seu gosto. Reserve.",
-          "Para o molho, derreta a manteiga em uma panela e refogue a cebola por 2 minutos.",
-          "Polvilhe a farinha de trigo e frite por 1 minuto, mexendo sempre.",
-          "Despeje o leite aos poucos, mexendo até engrossar.",
-          "Acrescente o requeijão, a mostarda, os queijos e a noz-moscada. Mexa até os queijos derreterem e o molho ficar cremoso.",
-          "Sirva os bifes regados com o molho de queijo."
+          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
+          "Corte as cebolas em rodelas finas e separe os anéis.",
+          "Aqueça o azeite em uma frigideira grande em fogo alto.",
+          "Doure os bifes por cerca de 2 minutos de cada lado, em levas se necessário, e reserve.",
+          "Na mesma frigideira, adicione as cebolas e refogue até ficarem macias e douradas.",
+          "Retorne os bifes à frigideira com as cebolas, misture e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://guiadacozinha.com.br/receitas/bife-grelhado-ao-molho-de-queijo/",
-          "title": "Bife grelhado ao molho de queijo",
-          "domain": "guiadacozinha.com.br",
+          "url": "https://panelinha.com.br/receita/bife-acebolado",
+          "title": "Bife acebolado - Panelinha",
+          "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-15T11:21:28+00:00"
+          "checked_at": "2026-08-16T11:22:13+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/bife-grelhado-ao-molho-de-queijo-48840.jpg",
-          "alt": "Bife Grelhado ao Molho de Queijo"
+          "url": "https://i.panelinha.com.br/i1/bk-7957-blog-ayu8198.webp",
+          "alt": "Bife Acebolado"
         },
-        "id": "bife-grelhado-ao-molho-de-queijo-d711848a"
+        "id": "bife-acebolado-959638fa"
       },
       {
-        "nome": "Canapé de Requeijão e Abacate",
-        "curso": "entrada",
-        "tempo": "25 minutos",
-        "porque": "Entrada leve, prática e rápida, sem fritura, com ingredientes acessíveis e sabor refrescante.",
+        "nome": "Salpicão Quente de Carne-Seca",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Uma opção diferente e saborosa com carne-seca, preparada em 30 minutos e finalizada no forno para gratinar. Contém vegetais como cenoura e salsão, oferecendo um bom equilíbrio e é ótimo para ter sobras.",
         "tags": [
+          "carne_vermelha",
+          "forno",
+          "pratico",
+          "gratinado"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "2 xícaras (chá) de carne-seca dessalgada, cozida e desfiada",
+          "1 cenoura ralada",
+          "1 cebola roxa pequena fatiada",
+          "2 colheres (sopa) de salsa picada",
+          "1/2 xícara (chá) de salsão em cubos",
+          "1/2 xícara (chá) de maionese",
+          "1/3 de xícara (chá) de queijo mussarela ralado",
+          "4 colheres (sopa) de queijo parmesão ralado"
+        ],
+        "preparo": [
+          "Em uma vasilha, misture a carne-seca desfiada, a cenoura ralada, a cebola roxa fatiada, a salsa picada, o salsão em cubos e a maionese.",
+          "Divida a mistura em 4 cumbucas individuais ou em um refratário médio.",
+          "Polvilhe com o queijo mussarela e o queijo parmesão ralados por cima.",
+          "Leve ao forno alto, preaquecido, por cerca de 10 minutos, ou até gratinar e borbulhar.",
+          "Retire do forno e sirva quente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://guiadacozinha.com.br/receitas/salpicao-quente-de-carne-seca/",
+          "title": "Salpicão quente de carne-seca",
+          "domain": "guiadacozinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-16T11:22:15+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://guiadacozinha.com.br/wp-content/uploads/2020/02/Salpicão-quente-de-carne-seca.jpg",
+          "alt": "Salpicão Quente de Carne-Seca"
+        },
+        "id": "salpicao-quente-de-carne-seca-fcc5466e"
+      },
+      {
+        "nome": "Salada Rápida de Alface, Cenoura, Beterraba e Mozarela",
+        "curso": "entrada",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada leve e refrescante, pronta em poucos minutos. Combina a crocância das folhas com a doçura da cenoura e beterraba, e a suavidade da mozarela, com um molho cremoso. Receita cedida pela Nestlé.",
+        "tags": [
+          "salada",
           "vegetariano",
           "rapido",
-          "frio",
-          "sem_fritura"
+          "leve"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 copo de NESTLÉ Requeijão Tradicional Cremoso (200g)",
-          "Meio abacate maduro",
-          "2 colheres (sopa) de suco de limão",
-          "1 colher (chá) de sal",
-          "2 colheres (sopa) de salsa picada",
-          "50 torradinhas para canapés",
-          "2 xícaras (chá) de tomates-cereja cortados ao meio"
+          "Meio pé de alface frisée",
+          "Meio pé de alface americana",
+          "1 cenoura ralada",
+          "1 beterraba ralada",
+          "100 g de mozarela em nós pequenos",
+          "1 Creme de Leite de Caixinha (200g)",
+          "2 colheres (sopa) de suco de tangerina concentrado",
+          "1 stick de tempero para salada (ou sal e pimenta a gosto)"
         ],
         "preparo": [
-          "Em um liquidificador, bata o Requeijão NESTLÉ, o abacate, o suco de limão, o sal e a salsa até obter um creme homogêneo.",
-          "Coloque uma porção do creme sobre cada torradinha.",
-          "Decore com um tomate-cereja cortado ao meio e um raminho de salsa.",
-          "Sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/canape-de-requeijao-e-abacate",
-          "title": "Canapé de Requeijão e Abacate",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-15T11:21:30+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d9ccb01c185cdbbd135a256be2bc3462.jpg",
-          "alt": "Canapé de Requeijão e Abacate"
-        },
-        "id": "canape-de-requeijao-e-abacate-f7550fcd"
-      },
-      {
-        "nome": "Sobremesa de Ninho Cremoso",
-        "curso": "sobremesa",
-        "tempo": "15 minutos (preparo ativo)",
-        "porque": "Sobremesa fácil, prática e rápida, sem necessidade de forno e com poucos ingredientes. Ideal para um casal jovem e pode render para o almoço de uma pessoa.",
-        "tags": [
-          "doce",
-          "rapido",
-          "sem_forno",
-          "cremoso"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "300 ml de chantilly (bem gelado, batido em ponto firme)",
-          "200g de leite em pó",
-          "100g de manteiga ou margarina em temperatura ambiente",
-          "200g de creme de leite gelado",
-          "1 lata de leite condensado gelado",
-          "200g de bolacha maisena",
-          "Leite em pó para polvilhar"
-        ],
-        "preparo": [
-          "Em uma tigela, bata a manteiga com o leite condensado até obter um creme bem cremoso.",
-          "Acrescente o creme de leite gelado e o leite em pó, misturando bem até formar um creme liso.",
-          "Incorpore delicadamente o chantilly batido, misturando até ficar aerado e uniforme.",
-          "Em um refratário, intercale camadas de bolacha maisena quebrada e creme de Ninho.",
-          "Finalize com uma camada de creme e leve à geladeira por pelo menos 2 horas para firmar.",
-          "Antes de servir, polvilhe leite em pó por cima."
+          "Lave bem as folhas de alface frisée e americana, rasgue-as e disponha em uma saladeira.",
+          "Distribua a cenoura ralada, a beterraba ralada e os nós de mozarela sobre as folhas.",
+          "Em um recipiente separado, misture o creme de leite, o suco de tangerina e o stick de tempero (ou sal e pimenta) até obter um molho homogêneo.",
+          "Regue a salada com o molho cremoso no momento de servir.",
+          "Sirva imediatamente para garantir a frescura dos ingredientes."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
           "suggested_url": "",
-          "checked_at": "2026-08-15T11:21:30+00:00"
+          "checked_at": "2026-08-16T11:22:15+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5640039/pexels-photo-5640039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma deliciosa panna cotta coberta com frutas frescas e molhos vibrantes, perfeita para amantes de sobremesa.",
-          "bank_id": "5640039",
-          "credit": "Shameel mukkath",
-          "query": "Sobremesa de Ninho Cremoso"
+          "url": "https://images.pexels.com/photos/31789442/pexels-photo-31789442.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma vibrante salada de vegetais com cenouras, pepinos e alface em uma tigela de vidro.",
+          "bank_id": "31789442",
+          "credit": "Nuri's Faith",
+          "query": "Salada Rápida de Alface, Cenoura, Beterraba e Mozarela"
         },
-        "id": "sobremesa-de-ninho-cremoso-a7eb9c88"
+        "id": "salada-rapida-de-alface-cenoura-beterraba-e-moza-beb7a283"
+      },
+      {
+        "nome": "Pera Assada com Calda de Vinho",
+        "curso": "sobremesa",
+        "tempo": "30 minutos",
+        "porque": "Uma sobremesa elegante e simples, perfeita para um jantar a dois. As peras assadas ficam macias e aromáticas com a calda de vinho e canela, sendo uma opção leve e sem fritura. Rende 6 porções, ideal para aproveitar as sobras.",
+        "tags": [
+          "fruta",
+          "assado",
+          "doce",
+          "facil"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "3 peras firmes",
+          "Manteiga para untar",
+          "2 colheres (sopa) de açúcar",
+          "1 colher (chá) de canela em pó",
+          "1 xícara (chá) de vinho tinto seco",
+          "Folhas de hortelã para decorar (opcional)"
+        ],
+        "preparo": [
+          "Corte as peras ao meio no sentido do comprimento e retire as sementes.",
+          "Unte uma fôrma com manteiga e disponha as metades das peras.",
+          "Polvilhe as peras com o açúcar e a canela em pó.",
+          "Regue as peras com o vinho tinto seco.",
+          "Cubra a fôrma com papel-alumínio e leve ao forno médio (180°C), preaquecido, por 20 minutos.",
+          "Retire o papel-alumínio e asse por mais 5-10 minutos, ou até as peras ficarem macias.",
+          "Transfira as peras para pratos de sobremesa, regue com a calda que se formou na fôrma e decore com hortelã, se desejar."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://guiadacozinha.com.br/receitas/pera-assada-com-calda-de-vinho/",
+          "title": "Pera assada com calda de vinho",
+          "domain": "guiadacozinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-16T11:22:22+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/pera-assada-calda-vinho-768x619.jpg",
+          "alt": "Pera Assada com Calda de Vinho"
+        },
+        "id": "pera-assada-com-calda-de-vinho-1383ed41"
       }
     ]
   },

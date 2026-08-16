@@ -1618,5 +1618,41 @@
     ],
     "data": "15/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "salpicao-quente-de-carne-seca-fcc5466e",
+    "titulo": "Salpicão Quente de Carne-Seca",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "pratico",
+      "gratinado"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-rapida-de-alface-cenoura-beterraba-e-moza-beb7a283",
+    "titulo": "Salada Rápida de Alface, Cenoura, Beterraba e Mozarela",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "rapido",
+      "leve"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pera-assada-com-calda-de-vinho-1383ed41",
+    "titulo": "Pera Assada com Calda de Vinho",
+    "tags": [
+      "fruta",
+      "assado",
+      "doce",
+      "facil"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "verified"
   }
 ]
