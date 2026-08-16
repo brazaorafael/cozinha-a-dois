@@ -1654,5 +1654,269 @@
     ],
     "data": "16/08/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "carne-com-pimentoes-e-cebola-e0e40936",
+    "titulo": "Carne com pimentões e cebola",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "vegetais"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "espetinho-caprese-0a991509",
+    "titulo": "Espetinho Caprese",
+    "tags": [
+      "entrada_fria",
+      "queijo",
+      "tomate",
+      "rapido"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "espetinhos-de-frutas-60e4f414",
+    "titulo": "Espetinhos de Frutas",
+    "tags": [
+      "sobremesa",
+      "fruta",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-refogada-com-legumes-404d0e17",
+    "titulo": "Carne moída refogada com legumes",
+    "tags": [
+      "carne_moida",
+      "refogado",
+      "vegetais",
+      "rapido"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "aperitivo-de-tomate-com-queijo-7b5fd023",
+    "titulo": "Aperitivo de tomate com queijo",
+    "tags": [
+      "entrada_fria",
+      "queijo",
+      "tomate",
+      "rapido"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "musse-de-manga-598ac0a8",
+    "titulo": "Musse de Manga",
+    "tags": [
+      "sobremesa_gelada",
+      "fruta",
+      "rapido",
+      "leve"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-folhas-verdes-com-molho-de-mostarda-e--7304f831",
+    "titulo": "Salada de folhas verdes com molho de mostarda e mel",
+    "tags": [
+      "salada",
+      "molho_caseiro",
+      "rapido",
+      "vegetais"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "brigadeiro-de-panela-f804619e",
+    "titulo": "Brigadeiro de Panela",
+    "tags": [
+      "doce_caseiro",
+      "chocolate",
+      "rapido",
+      "classico"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "rosbife-com-legumes-salteados-7baa08ad",
+    "titulo": "Rosbife com legumes salteados",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "vegetais",
+      "elegante"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "peixe-assado-com-batata-e-tomate-be64d6d4",
+    "titulo": "Peixe assado com batata e tomate",
+    "tags": [
+      "peixe",
+      "forno",
+      "vegetais",
+      "leve"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-legumes-grelhados-5caf0fb6",
+    "titulo": "Salada de legumes grelhados",
+    "tags": [
+      "salada",
+      "grelhado",
+      "vegetais",
+      "leve"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "raspadinha-de-abacaxi-congelado-7f92b7cb",
+    "titulo": "Raspadinha de abacaxi congelado",
+    "tags": [
+      "sobremesa_gelada",
+      "fruta",
+      "rapido",
+      "refrescante"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bolo-de-carne-com-pure-de-batata-65b332a7",
+    "titulo": "Bolo de carne com purê de batata",
+    "tags": [
+      "carne_moida",
+      "forno",
+      "rende_sobra",
+      "conforto"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-quiabo-2a0c73af",
+    "titulo": "Carne moída com quiabo",
+    "tags": [
+      "carne_moida",
+      "refogado",
+      "vegetais",
+      "rapido"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bruschetta-de-tomate-e-manjericao-6989fa62",
+    "titulo": "Bruschetta de tomate e manjericão",
+    "tags": [
+      "entrada",
+      "pao",
+      "tomate",
+      "italiana"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-de-frango-grelhado-com-legumes-9498f38b",
+    "titulo": "Filé de Frango Grelhado com Legumes",
+    "tags": [
+      "frango",
+      "grelhado",
+      "vegetais",
+      "saudavel"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-simples-e-deliciosa-para-comer-todos-os-d-28de33d5",
+    "titulo": "SALADA SIMPLES E DELICIOSA Para Comer Todos os Dias",
+    "tags": [
+      "salada",
+      "rapido",
+      "proteina",
+      "fresco"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "crumble-de-abacaxi-6489ab33",
+    "titulo": "Crumble de Abacaxi",
+    "tags": [
+      "sobremesa_quente",
+      "fruta",
+      "forno",
+      "crocante"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-pure-de-abobora-d40378ac",
+    "titulo": "Carne moída com purê de abóbora",
+    "tags": [
+      "carne_moida",
+      "refogado",
+      "vegetais",
+      "saudavel"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-de-lombo-com-salada-de-grao-de-bico-e-molho-94c41a21",
+    "titulo": "Bife de Lombo com Salada de Grão de Bico e Molho de Limão",
+    "tags": [
+      "carne_suina",
+      "grelhado",
+      "salada",
+      "rapido"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-grao-de-bico-0b90ed0d",
+    "titulo": "Salada de grão de bico",
+    "tags": [
+      "salada",
+      "grao_de_bico",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "sobremesa-de-forno-de-apenas-quatro-ingredientes-98f68039",
+    "titulo": "Sobremesa de forno de apenas quatro ingredientes",
+    "tags": [
+      "sobremesa",
+      "forno",
+      "rapido",
+      "facil"
+    ],
+    "data": "16/08/2026",
+    "fonte_status": "unverified"
   }
 ]
