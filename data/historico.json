@@ -1918,5 +1918,41 @@
     ],
     "data": "16/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "picadinho-de-carne-com-legumes-031e4977",
+    "titulo": "Picadinho de Carne com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "prato_unico",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "17/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "mini-sanduiches-quentes-de-queijo-coalho-tomate--1b589721",
+    "titulo": "Mini Sanduíches Quentes de Queijo Coalho, Tomate Assado e Maionese de Ervas",
+    "tags": [
+      "petisco",
+      "queijo",
+      "forno",
+      "rapido"
+    ],
+    "data": "17/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "sobremesa-rapida-de-maca-20e26cfb",
+    "titulo": "Sobremesa rápida de maçã",
+    "tags": [
+      "frutas",
+      "forno",
+      "doce",
+      "rapido"
+    ],
+    "data": "17/08/2026",
+    "fonte_status": "unverified"
   }
 ]

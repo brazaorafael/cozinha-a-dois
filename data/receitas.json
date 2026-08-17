@@ -1,184 +1,191 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-16T19:48:43-03:00",
+  "gerado_em": "2026-08-17T08:26:18-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "16/08/2026",
-    "dia_semana": "domingo",
+    "data": "17/08/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Bife Acebolado",
+        "nome": "Picadinho de Carne com Legumes",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Um clássico da culinária brasileira, esta receita da Panelinha garante um bife macio e saboroso, perfeito para acompanhar arroz e uma salada. É rápido de fazer na frigideira e ideal para ter sobras para o almoço.",
+        "tempo": "45 minutos",
+        "porque": "Carne vermelha é a preferida do casal, e este picadinho é rápido, equilibrado com diversos legumes e rende uma boa porção para sobrar para o almoço de uma pessoa.",
         "tags": [
           "carne_vermelha",
+          "prato_unico",
           "rapido",
-          "refogado",
-          "classico"
+          "saudavel"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "4 bifes de contrafilé (ou alcatra)",
-          "2 cebolas grandes",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino a gosto"
+          "1 colher (sopa) de óleo",
+          "1 dente de alho amassado",
+          "1 cebola picada",
+          "500 g de coxão mole em cubos",
+          "1 xícara (chá) de cenoura em cubos médios",
+          "2 tabletes de MAGGI® Equilibrium Caldo Carne",
+          "2 xícaras (chá) de água quente",
+          "1 xícara (chá) de abobrinha em cubos médios",
+          "1 xícara (chá) de vagem picada",
+          "2 colheres (sopa) de salsa picada"
         ],
         "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
-          "Corte as cebolas em rodelas finas e separe os anéis.",
-          "Aqueça o azeite em uma frigideira grande em fogo alto.",
-          "Doure os bifes por cerca de 2 minutos de cada lado, em levas se necessário, e reserve.",
-          "Na mesma frigideira, adicione as cebolas e refogue até ficarem macias e douradas.",
-          "Retorne os bifes à frigideira com as cebolas, misture e sirva imediatamente."
+          "Em uma panela de pressão, aqueça o óleo, adicione o alho e a cebola e doure bem.",
+          "Acrescente a carne, aos poucos, em fogo alto para selar e não soltar muito suco.",
+          "Adicione a cenoura, os tabletes de caldo de carne e a água quente.",
+          "Tampe a panela e cozinhe por cerca de 10 minutos após o início da pressão.",
+          "Retire a pressão, abra a panela cuidadosamente e adicione a abobrinha e a vagem. Cozinhe até os legumes ficarem macios.",
+          "Finalize com a salsa picada e sirva."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/bife-acebolado",
-          "title": "Bife acebolado - Panelinha",
-          "domain": "panelinha.com.br",
+          "url": "https://www.receitasnestle.com.br/receitas/picadinho-de-carne-com-legumes",
+          "title": "Picadinho de Carne com Legumes",
+          "domain": "receitasnestle.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-16T11:22:13+00:00"
+          "checked_at": "2026-08-17T11:27:39+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7957-blog-ayu8198.webp",
-          "alt": "Bife Acebolado"
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/55ddf45d375730f17997a8981888e42b.jpg",
+          "alt": "Picadinho de Carne com Legumes"
         },
-        "id": "bife-acebolado-959638fa"
+        "id": "picadinho-de-carne-com-legumes-031e4977"
       },
       {
-        "nome": "Salpicão Quente de Carne-Seca",
+        "nome": "Bife Grelhado com Vinagrete",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma opção diferente e saborosa com carne-seca, preparada em 30 minutos e finalizada no forno para gratinar. Contém vegetais como cenoura e salsão, oferecendo um bom equilíbrio e é ótimo para ter sobras.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
-          "pratico",
-          "gratinado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "2 xícaras (chá) de carne-seca dessalgada, cozida e desfiada",
-          "1 cenoura ralada",
-          "1 cebola roxa pequena fatiada",
-          "2 colheres (sopa) de salsa picada",
-          "1/2 xícara (chá) de salsão em cubos",
-          "1/2 xícara (chá) de maionese",
-          "1/3 de xícara (chá) de queijo mussarela ralado",
-          "4 colheres (sopa) de queijo parmesão ralado"
-        ],
-        "preparo": [
-          "Em uma vasilha, misture a carne-seca desfiada, a cenoura ralada, a cebola roxa fatiada, a salsa picada, o salsão em cubos e a maionese.",
-          "Divida a mistura em 4 cumbucas individuais ou em um refratário médio.",
-          "Polvilhe com o queijo mussarela e o queijo parmesão ralados por cima.",
-          "Leve ao forno alto, preaquecido, por cerca de 10 minutos, ou até gratinar e borbulhar.",
-          "Retire do forno e sirva quente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://guiadacozinha.com.br/receitas/salpicao-quente-de-carne-seca/",
-          "title": "Salpicão quente de carne-seca",
-          "domain": "guiadacozinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-16T11:22:15+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://guiadacozinha.com.br/wp-content/uploads/2020/02/Salpicão-quente-de-carne-seca.jpg",
-          "alt": "Salpicão Quente de Carne-Seca"
-        },
-        "id": "salpicao-quente-de-carne-seca-fcc5466e"
-      },
-      {
-        "nome": "Salada Rápida de Alface, Cenoura, Beterraba e Mozarela",
-        "curso": "entrada",
         "tempo": "20 minutos",
-        "porque": "Uma entrada leve e refrescante, pronta em poucos minutos. Combina a crocância das folhas com a doçura da cenoura e beterraba, e a suavidade da mozarela, com um molho cremoso. Receita cedida pela Nestlé.",
+        "porque": "Uma opção de carne vermelha extremamente rápida e fácil de preparar na grelha, acompanhada de um vinagrete fresco que adiciona equilíbrio e sabor.",
         "tags": [
-          "salada",
-          "vegetariano",
+          "carne_vermelha",
+          "grelhado",
           "rapido",
-          "leve"
+          "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "Meio pé de alface frisée",
-          "Meio pé de alface americana",
-          "1 cenoura ralada",
-          "1 beterraba ralada",
-          "100 g de mozarela em nós pequenos",
-          "1 Creme de Leite de Caixinha (200g)",
-          "2 colheres (sopa) de suco de tangerina concentrado",
-          "1 stick de tempero para salada (ou sal e pimenta a gosto)"
+          "2 tomates em cubos pequenos",
+          "½ cebola-roxa picada fino",
+          "3 colheres (sopa) de azeite",
+          "1 colher (sopa) de vinagre",
+          "Salsinha picada a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "2 bifes de contrafilé",
+          "1 colher (chá) de azeite",
+          "Tempero para carnes caseiro a gosto"
         ],
         "preparo": [
-          "Lave bem as folhas de alface frisée e americana, rasgue-as e disponha em uma saladeira.",
-          "Distribua a cenoura ralada, a beterraba ralada e os nós de mozarela sobre as folhas.",
-          "Em um recipiente separado, misture o creme de leite, o suco de tangerina e o stick de tempero (ou sal e pimenta) até obter um molho homogêneo.",
-          "Regue a salada com o molho cremoso no momento de servir.",
-          "Sirva imediatamente para garantir a frescura dos ingredientes."
+          "Para o vinagrete: Numa tigela, misture os tomates, a cebola-roxa, o azeite, o vinagre e a salsinha. Tempere com sal e pimenta-do-reino a gosto e reserve.",
+          "Retire os bifes da geladeira e deixe em temperatura ambiente por alguns minutos.",
+          "Tempere os bifes com o tempero para carnes caseiro (ou sal e pimenta-do-reino).",
+          "Aqueça uma frigideira grande em fogo alto com o azeite.",
+          "Coloque os bifes e doure por cerca de 2 minutos de cada lado, ou até o ponto desejado.",
+          "Sirva os bifes grelhados imediatamente, acompanhados do vinagrete."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/bife-grelhado-com-vinagrete",
+          "title": "Bife grelhado com vinagrete - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-17T11:27:40+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-6334-bife-grelhado-com-vinagrete.webp",
+          "alt": "Bife Grelhado com Vinagrete"
+        },
+        "id": "bife-grelhado-com-vinagrete-f66a1291"
+      },
+      {
+        "nome": "Mini Sanduíches Quentes de Queijo Coalho, Tomate Assado e Maionese de Ervas",
+        "curso": "entrada",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada prática e saborosa, preparada no forno ou airfryer, com ingredientes acessíveis e tempo de preparo rápido. Ideal para abrir o apetite sem pesar.",
+        "tags": [
+          "petisco",
+          "queijo",
+          "forno",
+          "rapido"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1/2 xícara (chá) de maionese",
+          "1 colher (sopa) de cheiro-verde picado",
+          "1 colher (sopa) de azeite",
+          "1 pitada de sal",
+          "1 pacote de pão de forma sem casca (mini)",
+          "10 fatias de Queijo Coalho TIROLEZ",
+          "1 tomate médio em rodelas",
+          "Folhas de rúcula a gosto"
+        ],
+        "preparo": [
+          "Em um recipiente, misture a maionese, o cheiro-verde, 1 colher de sopa de azeite e 1 pitada de sal para fazer a maionese verde. Reserve na geladeira.",
+          "Em uma assadeira, tempere as rodelas de tomate com azeite e uma pitada de sal. Leve ao forno médio-alto (200ºC) por cerca de 15 minutos, ou na Air Fryer por 8 minutos. Retire e reserve.",
+          "Grelhe as fatias de Queijo Coalho em uma frigideira em fogo alto até dourarem dos dois lados. Reserve.",
+          "Abra os pães, passe a maionese verde nas duas partes e monte o sanduíche com o queijo coalho grelhado, os tomates assados e a rúcula.",
+          "Se desejar, leve os sanduíches montados rapidamente ao forno ou Air Fryer por 2-3 minutos para aquecer e servir crocante."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-16T11:22:15+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/mini-sanduiches-quentes-de-queijo-coalho-tirolez-tomate-assado-e-maionese-de-ervas",
+          "checked_at": "2026-08-17T11:27:40+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/31789442/pexels-photo-31789442.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma vibrante salada de vegetais com cenouras, pepinos e alface em uma tigela de vidro.",
-          "bank_id": "31789442",
-          "credit": "Nuri's Faith",
-          "query": "Salada Rápida de Alface, Cenoura, Beterraba e Mozarela"
+          "url": "https://images.pexels.com/photos/6467/food-vegetables-meal-breakfast.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de sanduíches vegetarianos com queijo, alface e tomate em um prato decorativo.",
+          "bank_id": "6467",
+          "credit": "Karolina Grabowska www.kaboompics.com",
+          "query": "Mini Sanduíches Quentes de Queijo Coalho, Tomate Assado e Maionese de Ervas"
         },
-        "id": "salada-rapida-de-alface-cenoura-beterraba-e-moza-beb7a283"
+        "id": "mini-sanduiches-quentes-de-queijo-coalho-tomate--1b589721"
       },
       {
-        "nome": "Pera Assada com Calda de Vinho",
+        "nome": "Sobremesa rápida de maçã",
         "curso": "sobremesa",
-        "tempo": "30 minutos",
-        "porque": "Uma sobremesa elegante e simples, perfeita para um jantar a dois. As peras assadas ficam macias e aromáticas com a calda de vinho e canela, sendo uma opção leve e sem fritura. Rende 6 porções, ideal para aproveitar as sobras.",
+        "tempo": "40 minutos",
+        "porque": "Uma sobremesa leve e prática, feita com frutas e assada no forno, ideal para finalizar o jantar sem excessos e dentro do tempo desejado.",
         "tags": [
-          "fruta",
-          "assado",
+          "frutas",
+          "forno",
           "doce",
-          "facil"
+          "rapido"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "3 peras firmes",
-          "Manteiga para untar",
-          "2 colheres (sopa) de açúcar",
-          "1 colher (chá) de canela em pó",
-          "1 xícara (chá) de vinho tinto seco",
-          "Folhas de hortelã para decorar (opcional)"
+          "4 maçãs",
+          "1 lata de leite condensado",
+          "2 gemas",
+          "2 claras"
         ],
         "preparo": [
-          "Corte as peras ao meio no sentido do comprimento e retire as sementes.",
-          "Unte uma fôrma com manteiga e disponha as metades das peras.",
-          "Polvilhe as peras com o açúcar e a canela em pó.",
-          "Regue as peras com o vinho tinto seco.",
-          "Cubra a fôrma com papel-alumínio e leve ao forno médio (180°C), preaquecido, por 20 minutos.",
-          "Retire o papel-alumínio e asse por mais 5-10 minutos, ou até as peras ficarem macias.",
-          "Transfira as peras para pratos de sobremesa, regue com a calda que se formou na fôrma e decore com hortelã, se desejar."
+          "Descasque as maçãs, corte em fatias finas e regue com algumas gotas de limão para não escurecer. Reserve.",
+          "Em uma tigela separada, misture o leite condensado e as gemas. Reserve as claras.",
+          "Em um pirex retangular ou quadrado, faça camadas alternadas da mistura de leite condensado com gemas e das fatias de maçã.",
+          "Leve ao forno preaquecido a 180 ºC, deixando até que a mistura de leite condensado fique com consistência de doce de leite, sem queimar.",
+          "Enquanto isso, bata as claras em neve bem firmes.",
+          "Retire o pirex do forno, cubra com as claras em neve, formando biquinhos com um garfo.",
+          "Leve novamente ao forno alto por 5 minutos, desligue e deixe por mais 20 minutos com o forno apagado. Sirva quente ou fria."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://guiadacozinha.com.br/receitas/pera-assada-com-calda-de-vinho/",
-          "title": "Pera assada com calda de vinho",
-          "domain": "guiadacozinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-16T11:22:22+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receitas/sobremesa-rapida-de-maca/",
+          "checked_at": "2026-08-17T11:27:42+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/pera-assada-calda-vinho-768x619.jpg",
-          "alt": "Pera Assada com Calda de Vinho"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/8444554/pexels-photo-8444554.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de uma fatia de pizza de sobremesa de maçã com açúcar e canela em um prato branco.",
+          "bank_id": "8444554",
+          "credit": "Guto Macedo",
+          "query": "Sobremesa rápida de maçã"
         },
-        "id": "pera-assada-com-calda-de-vinho-1383ed41"
+        "id": "sobremesa-rapida-de-maca-20e26cfb"
       }
     ]
   },
