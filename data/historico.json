@@ -1954,5 +1954,53 @@
     ],
     "data": "17/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "escondidinho-de-carne-moida-com-mandioquinha-cre-6d4ef7f0",
+    "titulo": "Escondidinho de Carne Moída com Mandioquinha Cremoso",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "confort_food",
+      "completo"
+    ],
+    "data": "19/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-seca-acebolada-683e2bdd",
+    "titulo": "Carne-seca Acebolada",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "salgado",
+      "rapida"
+    ],
+    "data": "19/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "torradinhas-com-peito-de-peru-melao-e-rucula-61691a5c",
+    "titulo": "Torradinhas com Peito de Peru, Melão e Rúcula",
+    "tags": [
+      "rapida",
+      "leve",
+      "fria",
+      "saudavel"
+    ],
+    "data": "19/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "mousse-de-morango-ba0dfe41",
+    "titulo": "Mousse de Morango",
+    "tags": [
+      "doce",
+      "frutada",
+      "gelada",
+      "rapida"
+    ],
+    "data": "19/08/2026",
+    "fonte_status": "verified"
   }
 ]

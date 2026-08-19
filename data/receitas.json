@@ -1,191 +1,197 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-17T08:26:18-03:00",
+  "gerado_em": "2026-08-19T08:25:15-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "17/08/2026",
-    "dia_semana": "segunda",
+    "data": "19/08/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Picadinho de Carne com Legumes",
+        "nome": "Escondidinho de Carne Moída com Mandioquinha Cremoso",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Carne vermelha é a preferida do casal, e este picadinho é rápido, equilibrado com diversos legumes e rende uma boa porção para sobrar para o almoço de uma pessoa.",
+        "porque": "Um prato principal reconfortante e completo, com carne vermelha e um purê cremoso de mandioquinha, que oferece um carboidrato diferente. É fácil de fazer, assado no forno e rende porções extras para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "prato_unico",
-          "rapido",
-          "saudavel"
+          "forno",
+          "confort_food",
+          "completo"
         ],
         "rende_sobra": true,
         "ingredientes": [
+          "Recheio:",
           "1 colher (sopa) de óleo",
-          "1 dente de alho amassado",
           "1 cebola picada",
-          "500 g de coxão mole em cubos",
-          "1 xícara (chá) de cenoura em cubos médios",
-          "2 tabletes de MAGGI® Equilibrium Caldo Carne",
-          "2 xícaras (chá) de água quente",
-          "1 xícara (chá) de abobrinha em cubos médios",
-          "1 xícara (chá) de vagem picada",
-          "2 colheres (sopa) de salsa picada"
+          "1 dente de alho amassado",
+          "500 g de carne moída",
+          "2 tomates, sem sementes, picados",
+          "1 cenoura ralada",
+          "1 colher (chá) de sal",
+          "1 pitada de pimenta-do-reino",
+          "1 colher (sopa) de salsa picada",
+          "½ caixinha de NESTLÉ® Creme de Leite Zero Lactose",
+          "Purê de Mandioquinha:",
+          "600 g de mandioquinha cozida e amassada",
+          "½ caixinha de NESTLÉ® Creme de Leite Zero Lactose",
+          "1 colher (chá) de sal",
+          "1 pitada de noz-moscada",
+          "1 colher (sopa) de salsa picada"
         ],
         "preparo": [
-          "Em uma panela de pressão, aqueça o óleo, adicione o alho e a cebola e doure bem.",
-          "Acrescente a carne, aos poucos, em fogo alto para selar e não soltar muito suco.",
-          "Adicione a cenoura, os tabletes de caldo de carne e a água quente.",
-          "Tampe a panela e cozinhe por cerca de 10 minutos após o início da pressão.",
-          "Retire a pressão, abra a panela cuidadosamente e adicione a abobrinha e a vagem. Cozinhe até os legumes ficarem macios.",
-          "Finalize com a salsa picada e sirva."
+          "Para o recheio, aqueça o óleo em uma panela e refogue a cebola e o alho. Adicione a carne moída e cozinhe até dourar.",
+          "Acrescente os tomates, a cenoura, o sal, a pimenta-do-reino e a salsa. Cozinhe por alguns minutos e finalize com o Creme de Leite. Reserve.",
+          "Para o purê, misture a mandioquinha cozida e amassada com o Creme de Leite, o sal, a noz-moscada e a salsa.",
+          "Em um refratário, espalhe o recheio de carne moída no fundo.",
+          "Cubra o recheio com o purê de mandioquinha cremoso.",
+          "Leve ao forno médio (180°C), preaquecido, por cerca de 15 minutos ou até dourar.",
+          "Sirva quente."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/picadinho-de-carne-com-legumes",
-          "title": "Picadinho de Carne com Legumes",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-17T11:27:39+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/escondidinho-de-carne-moida-com-mandioquinha-cremoso",
+          "checked_at": "2026-08-19T11:26:44+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/55ddf45d375730f17997a8981888e42b.jpg",
-          "alt": "Picadinho de Carne com Legumes"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/33673972/pexels-photo-33673972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso filé de carne com redução de vinho tinto e risoto cremoso em um prato branco.",
+          "bank_id": "33673972",
+          "credit": "pedro furtado",
+          "query": "Escondidinho de Carne Moída com Mandioquinha Cremoso"
         },
-        "id": "picadinho-de-carne-com-legumes-031e4977"
+        "id": "escondidinho-de-carne-moida-com-mandioquinha-cre-6d4ef7f0"
       },
       {
-        "nome": "Bife Grelhado com Vinagrete",
+        "nome": "Carne-seca Acebolada",
         "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Uma opção de carne vermelha extremamente rápida e fácil de preparar na grelha, acompanhada de um vinagrete fresco que adiciona equilíbrio e sabor.",
+        "tempo": "45 minutos",
+        "porque": "Um prato saboroso e prático com carne vermelha, refogado e pronto em pouco tempo. É versátil e pode ser acompanhado de arroz e salada para uma refeição balanceada, com potencial para sobras.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
-          "rapido",
-          "fresco"
+          "refogado",
+          "salgado",
+          "rapida"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "2 tomates em cubos pequenos",
-          "½ cebola-roxa picada fino",
-          "3 colheres (sopa) de azeite",
-          "1 colher (sopa) de vinagre",
-          "Salsinha picada a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "2 bifes de contrafilé",
-          "1 colher (chá) de azeite",
-          "Tempero para carnes caseiro a gosto"
+          "½ colher (sopa) de óleo",
+          "1 cebola grande em pétalas",
+          "1 pimentão vermelho picado",
+          "400 g de carne-seca dessalgada, cozida e desfiada",
+          "2 tomates sem sementes, picados",
+          "1 sachê de MAGGI® MEU SEGREDO® Tomates e Ervas",
+          "1 xícara (chá) de água quente",
+          "2 colheres (sopa) de coentro picado"
         ],
         "preparo": [
-          "Para o vinagrete: Numa tigela, misture os tomates, a cebola-roxa, o azeite, o vinagre e a salsinha. Tempere com sal e pimenta-do-reino a gosto e reserve.",
-          "Retire os bifes da geladeira e deixe em temperatura ambiente por alguns minutos.",
-          "Tempere os bifes com o tempero para carnes caseiro (ou sal e pimenta-do-reino).",
-          "Aqueça uma frigideira grande em fogo alto com o azeite.",
-          "Coloque os bifes e doure por cerca de 2 minutos de cada lado, ou até o ponto desejado.",
-          "Sirva os bifes grelhados imediatamente, acompanhados do vinagrete."
+          "Em uma panela, aqueça o óleo e refogue a cebola e o pimentão por 5 minutos.",
+          "Acrescente a carne-seca dessalgada, cozida e desfiada.",
+          "Adicione os tomates picados, o sachê de MAGGI® MEU SEGREDO® Tomates e Ervas e a água quente.",
+          "Deixe cozinhar por cerca de 10 minutos ou até que os vegetais estejam macios.",
+          "Polvilhe o coentro picado e sirva em seguida."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/bife-grelhado-com-vinagrete",
-          "title": "Bife grelhado com vinagrete - Panelinha",
-          "domain": "panelinha.com.br",
+          "url": "https://www.receitasnestle.com.br/receitas/carne-seca-acebolada",
+          "title": "Carne-seca Acebolada",
+          "domain": "receitasnestle.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-17T11:27:40+00:00"
+          "checked_at": "2026-08-19T11:26:44+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6334-bife-grelhado-com-vinagrete.webp",
-          "alt": "Bife Grelhado com Vinagrete"
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/f9e17e1f1381514e243fdef38c553384.jpg",
+          "alt": "Carne-seca Acebolada"
         },
-        "id": "bife-grelhado-com-vinagrete-f66a1291"
+        "id": "carne-seca-acebolada-683e2bdd"
       },
       {
-        "nome": "Mini Sanduíches Quentes de Queijo Coalho, Tomate Assado e Maionese de Ervas",
+        "nome": "Torradinhas com Peito de Peru, Melão e Rúcula",
         "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada prática e saborosa, preparada no forno ou airfryer, com ingredientes acessíveis e tempo de preparo rápido. Ideal para abrir o apetite sem pesar.",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, refrescante e rápida de preparar, ideal para abrir o apetite sem pesar. Combina proteína magra com frutas e vegetais, sendo uma opção equilibrada e prática para o casal.",
         "tags": [
-          "petisco",
-          "queijo",
-          "forno",
-          "rapido"
+          "rapida",
+          "leve",
+          "fria",
+          "saudavel"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1/2 xícara (chá) de maionese",
-          "1 colher (sopa) de cheiro-verde picado",
-          "1 colher (sopa) de azeite",
-          "1 pitada de sal",
-          "1 pacote de pão de forma sem casca (mini)",
-          "10 fatias de Queijo Coalho TIROLEZ",
-          "1 tomate médio em rodelas",
-          "Folhas de rúcula a gosto"
+          "1 dente de alho inteiro",
+          "3 fatias de pão de milho cortadas ao meio ou 6 fatias pequenas",
+          "1 fio de azeite",
+          "3 colheres (sopa) de Requeijão NESTLÉ®",
+          "raspas da casca de 1 limão",
+          "3 fatias de peito de peru cortadas ao meio",
+          "½ xícara (chá) de melão orange picado ou em bolinhas cortadas ao meio",
+          "folhas de rúcula baby"
         ],
         "preparo": [
-          "Em um recipiente, misture a maionese, o cheiro-verde, 1 colher de sopa de azeite e 1 pitada de sal para fazer a maionese verde. Reserve na geladeira.",
-          "Em uma assadeira, tempere as rodelas de tomate com azeite e uma pitada de sal. Leve ao forno médio-alto (200ºC) por cerca de 15 minutos, ou na Air Fryer por 8 minutos. Retire e reserve.",
-          "Grelhe as fatias de Queijo Coalho em uma frigideira em fogo alto até dourarem dos dois lados. Reserve.",
-          "Abra os pães, passe a maionese verde nas duas partes e monte o sanduíche com o queijo coalho grelhado, os tomates assados e a rúcula.",
-          "Se desejar, leve os sanduíches montados rapidamente ao forno ou Air Fryer por 2-3 minutos para aquecer e servir crocante."
+          "Passe o alho em um dos lados das fatias de pão.",
+          "Em uma frigideira, grelhe as fatias de pão com o azeite até que ambos os lados estejam dourados.",
+          "Em um recipiente, misture o Requeijão NESTLÉ® e as raspas de limão.",
+          "Espalhe a mistura de requeijão sobre as torradinhas.",
+          "Disponha as fatias de peito de peru, o melão picado e as folhas de rúcula sobre o requeijão.",
+          "Sirva imediatamente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/mini-sanduiches-quentes-de-queijo-coalho-tirolez-tomate-assado-e-maionese-de-ervas",
-          "checked_at": "2026-08-17T11:27:40+00:00"
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/torradinhas-com-peito-de-peru-melao-e-rucula",
+          "title": "Torradinhas com Peito de Peru, Melão e Rúcula",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-19T11:26:44+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/6467/food-vegetables-meal-breakfast.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de sanduíches vegetarianos com queijo, alface e tomate em um prato decorativo.",
-          "bank_id": "6467",
-          "credit": "Karolina Grabowska www.kaboompics.com",
-          "query": "Mini Sanduíches Quentes de Queijo Coalho, Tomate Assado e Maionese de Ervas"
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a392634e8e1c4e183228436621d1bbc8.jpg",
+          "alt": "Torradinhas com Peito de Peru, Melão e Rúcula"
         },
-        "id": "mini-sanduiches-quentes-de-queijo-coalho-tomate--1b589721"
+        "id": "torradinhas-com-peito-de-peru-melao-e-rucula-61691a5c"
       },
       {
-        "nome": "Sobremesa rápida de maçã",
+        "nome": "Mousse de Morango",
         "curso": "sobremesa",
-        "tempo": "40 minutos",
-        "porque": "Uma sobremesa leve e prática, feita com frutas e assada no forno, ideal para finalizar o jantar sem excessos e dentro do tempo desejado.",
+        "tempo": "30 minutos (mais 1 hora de geladeira)",
+        "porque": "Uma sobremesa leve, frutada e fácil de preparar, perfeita para finalizar o jantar. Fica pronta rapidamente e é ideal para o casal, podendo render porções para outros dias.",
         "tags": [
-          "frutas",
-          "forno",
           "doce",
-          "rapido"
+          "frutada",
+          "gelada",
+          "rapida"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "4 maçãs",
+          "2 caixas de morangos frescos",
           "1 lata de leite condensado",
-          "2 gemas",
-          "2 claras"
+          "1 lata de creme de leite",
+          "1 caixinha de gelatina de morango"
         ],
         "preparo": [
-          "Descasque as maçãs, corte em fatias finas e regue com algumas gotas de limão para não escurecer. Reserve.",
-          "Em uma tigela separada, misture o leite condensado e as gemas. Reserve as claras.",
-          "Em um pirex retangular ou quadrado, faça camadas alternadas da mistura de leite condensado com gemas e das fatias de maçã.",
-          "Leve ao forno preaquecido a 180 ºC, deixando até que a mistura de leite condensado fique com consistência de doce de leite, sem queimar.",
-          "Enquanto isso, bata as claras em neve bem firmes.",
-          "Retire o pirex do forno, cubra com as claras em neve, formando biquinhos com um garfo.",
-          "Leve novamente ao forno alto por 5 minutos, desligue e deixe por mais 20 minutos com o forno apagado. Sirva quente ou fria."
+          "Bata 2 caixas de morangos no liquidificador até obter um purê.",
+          "Acrescente o leite condensado aos poucos e continue batendo.",
+          "Prepare a gelatina de morango conforme as instruções da embalagem.",
+          "Adicione a gelatina preparada e o creme de leite à mistura do liquidificador. Bata por 2 minutos.",
+          "Despeje o creme em uma travessa de vidro e leve à geladeira por pelo menos 1 hora para firmar.",
+          "Ao retirar da geladeira, decore a mousse com morangos frescos.",
+          "Mantenha na geladeira até o momento de servir."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receitas/sobremesa-rapida-de-maca/",
-          "checked_at": "2026-08-17T11:27:42+00:00"
+          "status": "verified",
+          "url": "https://www.tudogostoso.com.br/receita/13291-mousse-de-morango-da-carmelita.html",
+          "title": "Mousse de morango da Carmelita",
+          "domain": "tudogostoso.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-19T11:26:45+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/8444554/pexels-photo-8444554.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de uma fatia de pizza de sobremesa de maçã com açúcar e canela em um prato branco.",
-          "bank_id": "8444554",
-          "credit": "Guto Macedo",
-          "query": "Sobremesa rápida de maçã"
+          "kind": "source",
+          "url": "https://static.itdg.com.br/images/1200-675/548ce06d25f7a472aaf57c2f63f9eb3e/331332-original.jpg",
+          "alt": "Mousse de Morango"
         },
-        "id": "sobremesa-rapida-de-maca-20e26cfb"
+        "id": "mousse-de-morango-ba0dfe41"
       }
     ]
   },
