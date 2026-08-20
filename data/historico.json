@@ -2002,5 +2002,53 @@
     ],
     "data": "19/08/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "bife-a-role-com-cenoura-e-bacon-23017066",
+    "titulo": "Bife à Rolê com Cenoura e Bacon",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "refogado",
+      "equilibrado"
+    ],
+    "data": "20/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "picadinho-de-carne-com-pure-de-mandioquinha-867f25db",
+    "titulo": "Picadinho de Carne com Purê de Mandioquinha",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "confort_food",
+      "equilibrado"
+    ],
+    "data": "20/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pasta-de-alho-assado-cc56e816",
+    "titulo": "Pasta de Alho Assado",
+    "tags": [
+      "vegetariano",
+      "forno",
+      "aperitivo",
+      "facil"
+    ],
+    "data": "20/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "maca-assada-com-especiarias-no-micro-ondas-b49c50bd",
+    "titulo": "Maçã Assada com Especiarias no Micro-ondas",
+    "tags": [
+      "frutas",
+      "micro_ondas",
+      "rapido",
+      "leve"
+    ],
+    "data": "20/08/2026",
+    "fonte_status": "unverified"
   }
 ]

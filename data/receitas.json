@@ -1,197 +1,194 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-19T08:25:15-03:00",
+  "gerado_em": "2026-08-20T08:26:52-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "19/08/2026",
-    "dia_semana": "quarta",
+    "data": "20/08/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Escondidinho de Carne Moída com Mandioquinha Cremoso",
+        "nome": "Bife à Rolê com Cenoura e Bacon",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Um prato principal reconfortante e completo, com carne vermelha e um purê cremoso de mandioquinha, que oferece um carboidrato diferente. É fácil de fazer, assado no forno e rende porções extras para o almoço do dia seguinte.",
+        "tempo": "40 minutos",
+        "porque": "Receita de carne vermelha (lagarto) prática, com vegetais e bacon, pronta em cerca de 40 minutos. Ideal para um jantar saboroso e com potencial de sobras para o almoço de uma pessoa.",
         "tags": [
           "carne_vermelha",
           "forno",
-          "confort_food",
-          "completo"
+          "refogado",
+          "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "Recheio:",
-          "1 colher (sopa) de óleo",
-          "1 cebola picada",
-          "1 dente de alho amassado",
-          "500 g de carne moída",
-          "2 tomates, sem sementes, picados",
-          "1 cenoura ralada",
-          "1 colher (chá) de sal",
-          "1 pitada de pimenta-do-reino",
-          "1 colher (sopa) de salsa picada",
-          "½ caixinha de NESTLÉ® Creme de Leite Zero Lactose",
-          "Purê de Mandioquinha:",
-          "600 g de mandioquinha cozida e amassada",
-          "½ caixinha de NESTLÉ® Creme de Leite Zero Lactose",
-          "1 colher (chá) de sal",
-          "1 pitada de noz-moscada",
-          "1 colher (sopa) de salsa picada"
+          "1 kg de lagarto em bifes finos",
+          "1 colher (sopa) de MAGGI® Fondor",
+          "1 colher (sopa) de azeite",
+          "1 cebola média picada",
+          "2 dentes de alho amassados",
+          "1 xícara (chá) de bacon picado",
+          "2 cenouras médias cortadas em palitos",
+          "1 xícara (chá) de molho de tomate",
+          "1 xícara (chá) de água",
+          "Salsinha picada a gosto"
         ],
         "preparo": [
-          "Para o recheio, aqueça o óleo em uma panela e refogue a cebola e o alho. Adicione a carne moída e cozinhe até dourar.",
-          "Acrescente os tomates, a cenoura, o sal, a pimenta-do-reino e a salsa. Cozinhe por alguns minutos e finalize com o Creme de Leite. Reserve.",
-          "Para o purê, misture a mandioquinha cozida e amassada com o Creme de Leite, o sal, a noz-moscada e a salsa.",
-          "Em um refratário, espalhe o recheio de carne moída no fundo.",
-          "Cubra o recheio com o purê de mandioquinha cremoso.",
-          "Leve ao forno médio (180°C), preaquecido, por cerca de 15 minutos ou até dourar.",
-          "Sirva quente."
+          "Tempere os bifes de lagarto com MAGGI® Fondor.",
+          "Em cada bife, coloque um palito de cenoura e um pedaço de bacon, enrole e prenda com um palito.",
+          "Em uma panela de pressão, aqueça o azeite e doure a cebola e o alho. Adicione o bacon e frite até ficar crocante.",
+          "Acrescente os bifes à rolê e doure-os por todos os lados.",
+          "Adicione o molho de tomate e a água. Tampe a panela e cozinhe por 20 minutos após o início da pressão.",
+          "Retire a pressão, verifique o cozimento da carne e, se necessário, cozinhe por mais alguns minutos sem a tampa para apurar o molho. Finalize com salsinha picada."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/escondidinho-de-carne-moida-com-mandioquinha-cremoso",
-          "checked_at": "2026-08-19T11:26:44+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/bife-a-role-com-cenoura-e-bacon",
+          "checked_at": "2026-08-20T11:28:11+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673972/pexels-photo-33673972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso filé de carne com redução de vinho tinto e risoto cremoso em um prato branco.",
-          "bank_id": "33673972",
-          "credit": "pedro furtado",
-          "query": "Escondidinho de Carne Moída com Mandioquinha Cremoso"
+          "url": "https://images.pexels.com/photos/4005235/pexels-photo-4005235.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso buffet com batatas envoltas em bacon e rosbife, perfeito para qualquer refeição.",
+          "bank_id": "4005235",
+          "credit": "Vidal Balielo Jr.",
+          "query": "Bife à Rolê com Cenoura e Bacon"
         },
-        "id": "escondidinho-de-carne-moida-com-mandioquinha-cre-6d4ef7f0"
+        "id": "bife-a-role-com-cenoura-e-bacon-23017066"
       },
       {
-        "nome": "Carne-seca Acebolada",
+        "nome": "Picadinho de Carne com Purê de Mandioquinha",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Um prato saboroso e prático com carne vermelha, refogado e pronto em pouco tempo. É versátil e pode ser acompanhado de arroz e salada para uma refeição balanceada, com potencial para sobras.",
+        "porque": "Um picadinho de carne macio e saboroso, acompanhado de um purê cremoso de mandioquinha. Confort food que agrada a todos e é relativamente rápido, com potencial de sobras.",
         "tags": [
           "carne_vermelha",
           "refogado",
-          "salgado",
-          "rapida"
+          "confort_food",
+          "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "½ colher (sopa) de óleo",
-          "1 cebola grande em pétalas",
-          "1 pimentão vermelho picado",
-          "400 g de carne-seca dessalgada, cozida e desfiada",
-          "2 tomates sem sementes, picados",
-          "1 sachê de MAGGI® MEU SEGREDO® Tomates e Ervas",
-          "1 xícara (chá) de água quente",
-          "2 colheres (sopa) de coentro picado"
+          "500 g de carne bovina (patinho ou alcatra) em cubos pequenos",
+          "1 cebola média picada",
+          "2 dentes de alho amassados",
+          "1 tomate picado",
+          "1/2 xícara (chá) de molho de tomate",
+          "1/2 xícara (chá) de água ou caldo de carne",
+          "Sal e pimenta-do-reino a gosto",
+          "Salsinha picada a gosto",
+          "Para o purê:",
+          "500 g de mandioquinha (batata baroa)",
+          "1/2 xícara (chá) de leite",
+          "1 colher (sopa) de manteiga",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Em uma panela, aqueça o óleo e refogue a cebola e o pimentão por 5 minutos.",
-          "Acrescente a carne-seca dessalgada, cozida e desfiada.",
-          "Adicione os tomates picados, o sachê de MAGGI® MEU SEGREDO® Tomates e Ervas e a água quente.",
-          "Deixe cozinhar por cerca de 10 minutos ou até que os vegetais estejam macios.",
-          "Polvilhe o coentro picado e sirva em seguida."
+          "Tempere a carne com sal e pimenta. Em uma panela, aqueça um pouco de óleo e doure a carne em porções. Reserve.",
+          "Na mesma panela, refogue a cebola e o alho até ficarem macios. Adicione o tomate e refogue por mais alguns minutos.",
+          "Retorne a carne à panela, adicione o molho de tomate e a água (ou caldo). Cozinhe em fogo baixo por cerca de 20-25 minutos, ou até a carne ficar macia e o molho encorpado.",
+          "Enquanto a carne cozinha, prepare o purê: cozinhe a mandioquinha em água com sal até ficar macia. Escorra e amasse bem.",
+          "Leve a mandioquinha amassada ao fogo com o leite e a manteiga, mexendo até obter um purê cremoso. Acerte o sal.",
+          "Sirva o picadinho de carne com o purê de mandioquinha, finalizando com salsinha picada."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.tudogostoso.com.br/receita/18884-picadinho-de-carne-com-pure-de-mandioquinha.html",
+          "checked_at": "2026-08-20T11:28:13+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
+          "bank_id": "38330332",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Picadinho de Carne com Purê de Mandioquinha"
+        },
+        "id": "picadinho-de-carne-com-pure-de-mandioquinha-867f25db"
+      },
+      {
+        "nome": "Pasta de Alho Assado",
+        "curso": "entrada",
+        "tempo": "45 minutos",
+        "porque": "Uma entrada saborosa e fácil de preparar, que realça o sabor adocicado do alho assado. Ideal para servir com pães ou torradas, sem fritura.",
+        "tags": [
+          "vegetariano",
+          "forno",
+          "aperitivo",
+          "facil"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "4 cabeças de alho",
+          "1 colher (sopa) de azeite",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 200 ºC (temperatura média).",
+          "Corte a parte superior das cabeças de alho, expondo os dentes, mas mantendo a casca.",
+          "Transfira para um pedaço grande de papel-alumínio, regue com azeite e tempere com sal e pimenta-do-reino.",
+          "Feche bem o papel-alumínio formando uma trouxinha e coloque em uma assadeira. Leve ao forno por 40 minutos.",
+          "Retire do forno, abra o papel-alumínio com cuidado e deixe o alho amornar.",
+          "Esprema os dentes de alho para retirar a polpa e amasse bem com um garfo até formar uma pastinha.",
+          "Sirva a pasta de alho assado com torradas ou pães."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/carne-seca-acebolada",
-          "title": "Carne-seca Acebolada",
-          "domain": "receitasnestle.com.br",
+          "url": "https://panelinha.com.br/receita/pasta-de-alho-assado",
+          "title": "Pasta de alho assado - Panelinha",
+          "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-19T11:26:44+00:00"
+          "checked_at": "2026-08-20T11:28:14+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/f9e17e1f1381514e243fdef38c553384.jpg",
-          "alt": "Carne-seca Acebolada"
+          "url": "https://i.panelinha.com.br/i1/bk-4038-pasta-de-alho-assado.webp",
+          "alt": "Pasta de Alho Assado"
         },
-        "id": "carne-seca-acebolada-683e2bdd"
+        "id": "pasta-de-alho-assado-cc56e816"
       },
       {
-        "nome": "Torradinhas com Peito de Peru, Melão e Rúcula",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, refrescante e rápida de preparar, ideal para abrir o apetite sem pesar. Combina proteína magra com frutas e vegetais, sendo uma opção equilibrada e prática para o casal.",
+        "nome": "Maçã Assada com Especiarias no Micro-ondas",
+        "curso": "sobremesa",
+        "tempo": "10 minutos",
+        "porque": "Uma sobremesa leve, rápida e saudável, perfeita para um casal jovem. Utiliza o micro-ondas, sendo prática e sem fritura.",
         "tags": [
-          "rapida",
-          "leve",
-          "fria",
-          "saudavel"
+          "frutas",
+          "micro_ondas",
+          "rapido",
+          "leve"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 dente de alho inteiro",
-          "3 fatias de pão de milho cortadas ao meio ou 6 fatias pequenas",
-          "1 fio de azeite",
-          "3 colheres (sopa) de Requeijão NESTLÉ®",
-          "raspas da casca de 1 limão",
-          "3 fatias de peito de peru cortadas ao meio",
-          "½ xícara (chá) de melão orange picado ou em bolinhas cortadas ao meio",
-          "folhas de rúcula baby"
+          "2 maçãs (tipo Fuji ou Gala)",
+          "2 colheres (sopa) de mel",
+          "2 pitadas de canela em pó",
+          "2 pitadas de gengibre em pó",
+          "Noz-moscada ralada na hora a gosto (para 2 maçãs)",
+          "2 potes de iogurte natural sem açúcar (170g cada, opcional para servir)"
         ],
         "preparo": [
-          "Passe o alho em um dos lados das fatias de pão.",
-          "Em uma frigideira, grelhe as fatias de pão com o azeite até que ambos os lados estejam dourados.",
-          "Em um recipiente, misture o Requeijão NESTLÉ® e as raspas de limão.",
-          "Espalhe a mistura de requeijão sobre as torradinhas.",
-          "Disponha as fatias de peito de peru, o melão picado e as folhas de rúcula sobre o requeijão.",
-          "Sirva imediatamente."
+          "Lave bem as maçãs. Mantenha a casca e corte cada maçã ao meio, no sentido do comprimento. Corte cada metade em 4 pedaços e descarte o miolo com as sementes.",
+          "Em uma tigela de vidro, junte a maçã, o mel, a canela, o gengibre e a noz-moscada. Misture delicadamente.",
+          "Cubra a tigela com filme plástico e faça um pequeno furo no centro para o vapor sair.",
+          "Leve ao micro-ondas em potência alta por 5 minutos. A maçã vai cozinhar e formar uma calda.",
+          "Com cuidado, retire o filme e sirva a maçã (com a calda) quente, acompanhada de iogurte natural gelado, se desejar."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/torradinhas-com-peito-de-peru-melao-e-rucula",
-          "title": "Torradinhas com Peito de Peru, Melão e Rúcula",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-19T11:26:44+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/maca-assada-com-especiarias-no-micro-ondas",
+          "checked_at": "2026-08-20T11:28:15+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a392634e8e1c4e183228436621d1bbc8.jpg",
-          "alt": "Torradinhas com Peito de Peru, Melão e Rúcula"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5662080/pexels-photo-5662080.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um bolo de maçã caseiro cercado por folhas de outono e especiarias, vista de cima.",
+          "bank_id": "5662080",
+          "credit": "KATRIN  BOLOVTSOVA",
+          "query": "Maçã Assada com Especiarias no Micro-ondas"
         },
-        "id": "torradinhas-com-peito-de-peru-melao-e-rucula-61691a5c"
-      },
-      {
-        "nome": "Mousse de Morango",
-        "curso": "sobremesa",
-        "tempo": "30 minutos (mais 1 hora de geladeira)",
-        "porque": "Uma sobremesa leve, frutada e fácil de preparar, perfeita para finalizar o jantar. Fica pronta rapidamente e é ideal para o casal, podendo render porções para outros dias.",
-        "tags": [
-          "doce",
-          "frutada",
-          "gelada",
-          "rapida"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "2 caixas de morangos frescos",
-          "1 lata de leite condensado",
-          "1 lata de creme de leite",
-          "1 caixinha de gelatina de morango"
-        ],
-        "preparo": [
-          "Bata 2 caixas de morangos no liquidificador até obter um purê.",
-          "Acrescente o leite condensado aos poucos e continue batendo.",
-          "Prepare a gelatina de morango conforme as instruções da embalagem.",
-          "Adicione a gelatina preparada e o creme de leite à mistura do liquidificador. Bata por 2 minutos.",
-          "Despeje o creme em uma travessa de vidro e leve à geladeira por pelo menos 1 hora para firmar.",
-          "Ao retirar da geladeira, decore a mousse com morangos frescos.",
-          "Mantenha na geladeira até o momento de servir."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.tudogostoso.com.br/receita/13291-mousse-de-morango-da-carmelita.html",
-          "title": "Mousse de morango da Carmelita",
-          "domain": "tudogostoso.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-19T11:26:45+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://static.itdg.com.br/images/1200-675/548ce06d25f7a472aaf57c2f63f9eb3e/331332-original.jpg",
-          "alt": "Mousse de Morango"
-        },
-        "id": "mousse-de-morango-ba0dfe41"
+        "id": "maca-assada-com-especiarias-no-micro-ondas-b49c50bd"
       }
     ]
   },
