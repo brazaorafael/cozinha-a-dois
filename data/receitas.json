@@ -1,194 +1,188 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-20T08:26:52-03:00",
+  "gerado_em": "2026-08-22T08:20:32-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "20/08/2026",
-    "dia_semana": "quinta",
+    "data": "22/08/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Bife à Rolê com Cenoura e Bacon",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Receita de carne vermelha (lagarto) prática, com vegetais e bacon, pronta em cerca de 40 minutos. Ideal para um jantar saboroso e com potencial de sobras para o almoço de uma pessoa.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
-          "refogado",
-          "equilibrado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 kg de lagarto em bifes finos",
-          "1 colher (sopa) de MAGGI® Fondor",
-          "1 colher (sopa) de azeite",
-          "1 cebola média picada",
-          "2 dentes de alho amassados",
-          "1 xícara (chá) de bacon picado",
-          "2 cenouras médias cortadas em palitos",
-          "1 xícara (chá) de molho de tomate",
-          "1 xícara (chá) de água",
-          "Salsinha picada a gosto"
-        ],
-        "preparo": [
-          "Tempere os bifes de lagarto com MAGGI® Fondor.",
-          "Em cada bife, coloque um palito de cenoura e um pedaço de bacon, enrole e prenda com um palito.",
-          "Em uma panela de pressão, aqueça o azeite e doure a cebola e o alho. Adicione o bacon e frite até ficar crocante.",
-          "Acrescente os bifes à rolê e doure-os por todos os lados.",
-          "Adicione o molho de tomate e a água. Tampe a panela e cozinhe por 20 minutos após o início da pressão.",
-          "Retire a pressão, verifique o cozimento da carne e, se necessário, cozinhe por mais alguns minutos sem a tampa para apurar o molho. Finalize com salsinha picada."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/bife-a-role-com-cenoura-e-bacon",
-          "checked_at": "2026-08-20T11:28:11+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/4005235/pexels-photo-4005235.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso buffet com batatas envoltas em bacon e rosbife, perfeito para qualquer refeição.",
-          "bank_id": "4005235",
-          "credit": "Vidal Balielo Jr.",
-          "query": "Bife à Rolê com Cenoura e Bacon"
-        },
-        "id": "bife-a-role-com-cenoura-e-bacon-23017066"
-      },
-      {
-        "nome": "Picadinho de Carne com Purê de Mandioquinha",
+        "nome": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Um picadinho de carne macio e saboroso, acompanhado de um purê cremoso de mandioquinha. Confort food que agrada a todos e é relativamente rápido, com potencial de sobras.",
+        "porque": "Prato principal com carne vermelha, preparado na air fryer para ser rápido e saudável. Oferece um excelente equilíbrio entre proteína e vegetais, e rende uma porção extra para o almoço de uma pessoa.",
         "tags": [
-          "carne_vermelha",
-          "refogado",
-          "confort_food",
-          "equilibrado"
+          "carnevermelha",
+          "airfryer",
+          "saudavel",
+          "equilibrio"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de carne bovina (patinho ou alcatra) em cubos pequenos",
-          "1 cebola média picada",
-          "2 dentes de alho amassados",
-          "1 tomate picado",
-          "1/2 xícara (chá) de molho de tomate",
-          "1/2 xícara (chá) de água ou caldo de carne",
-          "Sal e pimenta-do-reino a gosto",
-          "Salsinha picada a gosto",
-          "Para o purê:",
-          "500 g de mandioquinha (batata baroa)",
+          "1 peça de rosbife (cerca de 500g)",
+          "1 colher (sopa) de azeite",
+          "1 colher (chá) de páprica doce",
+          "1/2 colher (chá) de cominho em pó",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "500g de abóbora cabotiá sem casca e sementes",
           "1/2 xícara (chá) de leite",
           "1 colher (sopa) de manteiga",
-          "Sal a gosto"
+          "Sal e noz-moscada ralada na hora a gosto",
+          "200g de vagem holandesa"
         ],
         "preparo": [
-          "Tempere a carne com sal e pimenta. Em uma panela, aqueça um pouco de óleo e doure a carne em porções. Reserve.",
-          "Na mesma panela, refogue a cebola e o alho até ficarem macios. Adicione o tomate e refogue por mais alguns minutos.",
-          "Retorne a carne à panela, adicione o molho de tomate e a água (ou caldo). Cozinhe em fogo baixo por cerca de 20-25 minutos, ou até a carne ficar macia e o molho encorpado.",
-          "Enquanto a carne cozinha, prepare o purê: cozinhe a mandioquinha em água com sal até ficar macia. Escorra e amasse bem.",
-          "Leve a mandioquinha amassada ao fogo com o leite e a manteiga, mexendo até obter um purê cremoso. Acerte o sal.",
-          "Sirva o picadinho de carne com o purê de mandioquinha, finalizando com salsinha picada."
+          "Tempere o rosbife com azeite, páprica, cominho, sal e pimenta-do-reino.",
+          "Leve o rosbife à air fryer pré-aquecida a 200°C por 15-20 minutos, virando na metade do tempo para dourar por igual.",
+          "Enquanto isso, cozinhe a abóbora em água fervente até ficar macia. Escorra e amasse bem.",
+          "Misture a abóbora amassada com leite, manteiga, sal e noz-moscada, formando o purê cremoso.",
+          "Tempere a vagem com azeite, sal e pimenta. Leve à air fryer por 8-10 minutos, até chamuscar levemente.",
+          "Fatie o rosbife e sirva com o purê de abóbora e a vagem chamuscada."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/18884-picadinho-de-carne-com-pure-de-mandioquinha.html",
-          "checked_at": "2026-08-20T11:28:13+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-chamuscada",
+          "title": "Rosbife na Air Fryer com purê de abóbora e vagem chamuscada - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-22T11:22:00+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
-          "bank_id": "38330332",
-          "credit": "DΛVΞ GΛRCIΛ",
-          "query": "Picadinho de Carne com Purê de Mandioquinha"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-6356-blog-rosbife-vagem-chamuscada-pure-de-abobora.webp",
+          "alt": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada"
         },
-        "id": "picadinho-de-carne-com-pure-de-mandioquinha-867f25db"
+        "id": "rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-b1d61ed5"
       },
       {
-        "nome": "Pasta de Alho Assado",
-        "curso": "entrada",
-        "tempo": "45 minutos",
-        "porque": "Uma entrada saborosa e fácil de preparar, que realça o sabor adocicado do alho assado. Ideal para servir com pães ou torradas, sem fritura.",
+        "nome": "Fraldinha na Manteiga de Alho Assada com Batatas",
+        "curso": "principal",
+        "tempo": "30 a 40 minutos",
+        "porque": "Uma opção saborosa de carne vermelha assada no forno, com batatas, que fica pronta rapidamente. É prática e ideal para um jantar a dois, com potencial para sobrar para o almoço.",
         "tags": [
-          "vegetariano",
+          "carnevermelha",
           "forno",
-          "aperitivo",
+          "pratocompleto",
           "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "4 cabeças de alho",
+          "1 peça de fraldinha (cerca de 800g a 1kg)",
+          "500g de batatas pequenas (bolinha ou calabresa)",
+          "4 dentes de alho picados",
+          "2 colheres (sopa) de manteiga sem sal",
           "1 colher (sopa) de azeite",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto"
+          "1 colher (chá) de páprica defumada",
+          "Ramos de alecrim fresco a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 200 ºC (temperatura média).",
-          "Corte a parte superior das cabeças de alho, expondo os dentes, mas mantendo a casca.",
-          "Transfira para um pedaço grande de papel-alumínio, regue com azeite e tempere com sal e pimenta-do-reino.",
-          "Feche bem o papel-alumínio formando uma trouxinha e coloque em uma assadeira. Leve ao forno por 40 minutos.",
-          "Retire do forno, abra o papel-alumínio com cuidado e deixe o alho amornar.",
-          "Esprema os dentes de alho para retirar a polpa e amasse bem com um garfo até formar uma pastinha.",
-          "Sirva a pasta de alho assado com torradas ou pães."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pasta-de-alho-assado",
-          "title": "Pasta de alho assado - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-20T11:28:14+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4038-pasta-de-alho-assado.webp",
-          "alt": "Pasta de Alho Assado"
-        },
-        "id": "pasta-de-alho-assado-cc56e816"
-      },
-      {
-        "nome": "Maçã Assada com Especiarias no Micro-ondas",
-        "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Uma sobremesa leve, rápida e saudável, perfeita para um casal jovem. Utiliza o micro-ondas, sendo prática e sem fritura.",
-        "tags": [
-          "frutas",
-          "micro_ondas",
-          "rapido",
-          "leve"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 maçãs (tipo Fuji ou Gala)",
-          "2 colheres (sopa) de mel",
-          "2 pitadas de canela em pó",
-          "2 pitadas de gengibre em pó",
-          "Noz-moscada ralada na hora a gosto (para 2 maçãs)",
-          "2 potes de iogurte natural sem açúcar (170g cada, opcional para servir)"
-        ],
-        "preparo": [
-          "Lave bem as maçãs. Mantenha a casca e corte cada maçã ao meio, no sentido do comprimento. Corte cada metade em 4 pedaços e descarte o miolo com as sementes.",
-          "Em uma tigela de vidro, junte a maçã, o mel, a canela, o gengibre e a noz-moscada. Misture delicadamente.",
-          "Cubra a tigela com filme plástico e faça um pequeno furo no centro para o vapor sair.",
-          "Leve ao micro-ondas em potência alta por 5 minutos. A maçã vai cozinhar e formar uma calda.",
-          "Com cuidado, retire o filme e sirva a maçã (com a calda) quente, acompanhada de iogurte natural gelado, se desejar."
+          "Pré-aqueça o forno a 200°C. Lave e corte as batatas ao meio, se necessário.",
+          "Em uma tigela, misture a manteiga amolecida com o alho picado, azeite, páprica, sal e pimenta-do-reino.",
+          "Espalhe metade da manteiga temperada sobre a peça de fraldinha, massageando bem.",
+          "Em uma assadeira, coloque as batatas e o restante da manteiga temperada, misturando para envolver. Adicione os ramos de alecrim.",
+          "Disponha a fraldinha sobre as batatas na assadeira.",
+          "Leve ao forno por 30 a 40 minutos, ou até a carne atingir o ponto desejado e as batatas estarem macias e douradas. Deixe a carne descansar por alguns minutos antes de fatiar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/maca-assada-com-especiarias-no-micro-ondas",
-          "checked_at": "2026-08-20T11:28:15+00:00"
+          "suggested_url": "https://receitas.globo.com/receitas/fraldinha-na-manteiga-de-alho-assada-com-batatas-700010070.ghtml",
+          "checked_at": "2026-08-22T11:22:01+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5662080/pexels-photo-5662080.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um bolo de maçã caseiro cercado por folhas de outono e especiarias, vista de cima.",
-          "bank_id": "5662080",
-          "credit": "KATRIN  BOLOVTSOVA",
-          "query": "Maçã Assada com Especiarias no Micro-ondas"
+          "url": "https://images.pexels.com/photos/7491903/pexels-photo-7491903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso bife grelhado e batatas assadas decorados com ervas em uma grade de metal.",
+          "bank_id": "7491903",
+          "credit": "minchephoto photography",
+          "query": "Fraldinha na Manteiga de Alho Assada com Batatas"
         },
-        "id": "maca-assada-com-especiarias-no-micro-ondas-b49c50bd"
+        "id": "fraldinha-na-manteiga-de-alho-assada-com-batatas-da574cf2"
+      },
+      {
+        "nome": "Queijo Brie Aperitivo na Air Fryer",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada rápida e sofisticada, perfeita para abrir o apetite do casal. Utiliza a air fryer, o que a torna prática e com pouca gordura, e não está na lista de pratos recentes.",
+        "tags": [
+          "airfryer",
+          "queijo",
+          "aperitivo",
+          "rapido"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 peça de queijo brie (cerca de 150-200g)",
+          "1 colher (sopa) de mel",
+          "1 colher (sopa) de nozes picadas (ou outra castanha)",
+          "Ramos de tomilho fresco a gosto (opcional)",
+          "Torradinhas ou pão italiano para servir"
+        ],
+        "preparo": [
+          "Pré-aqueça a air fryer a 180°C por 5 minutos.",
+          "Coloque a peça de queijo brie em um recipiente que possa ir à air fryer (pode ser uma forma pequena de alumínio ou papel manteiga).",
+          "Leve o queijo à air fryer por 8 a 10 minutos, ou até que esteja macio e começando a derreter por dentro.",
+          "Retire o queijo da air fryer, regue com o mel, salpique as nozes picadas e decore com tomilho, se desejar.",
+          "Sirva imediatamente com torradinhas ou fatias de pão."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/queijo-brie-aperitivo-na-air-fryer-da-rita-lobo",
+          "checked_at": "2026-08-22T11:22:02+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
+          "bank_id": "31994015",
+          "credit": "Mimi",
+          "query": "Queijo Brie Aperitivo na Air Fryer"
+        },
+        "id": "queijo-brie-aperitivo-na-air-fryer-f463641b"
+      },
+      {
+        "nome": "Bolinho de Aveia com Doce de Leite na Airfryer",
+        "curso": "sobremesa",
+        "tempo": "15 minutos",
+        "porque": "Uma sobremesa individual, rápida e prática, feita na air fryer. É uma opção diferente e deliciosa, que não está na lista de pratos recentes a serem evitados.",
+        "tags": [
+          "airfryer",
+          "doce",
+          "rapido",
+          "aveia"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 ovo",
+          "2 colheres (sopa) de Leite NINHO® Forti+ Integral em pó",
+          "2 colheres (sopa) de NESTLÉ® Aveia Flocos Finos",
+          "2 colheres (sopa) de doce de leite (para a massa)",
+          "1 colher (chá) de fermento em pó",
+          "Doce de leite para rechear (a gosto)"
+        ],
+        "preparo": [
+          "Em um recipiente, misture o ovo, o Leite NINHO®, a NESTLÉ® Aveia, as 2 colheres de doce de leite (da massa) e o fermento em pó até obter uma massa homogênea.",
+          "Distribua a massa em forminhas individuais que possam ir à air fryer (de silicone ou papel).",
+          "Faça um pequeno buraco no centro de cada bolinho e coloque uma porção de doce de leite para rechear.",
+          "Leve as forminhas à air fryer pré-aquecida a 180°C por cerca de 10 a 15 minutos, ou até dourar e firmar.",
+          "Retire da air fryer e sirva morno."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/bolinho-de-aveia-com-doce-de-leite-na-airfryer",
+          "checked_at": "2026-08-22T11:22:03+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/34472660/pexels-photo-34472660.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma configuração aconchegante com café, pão de queijo e doce de leite em São Paulo.",
+          "bank_id": "34472660",
+          "credit": "Cibele Bergamim",
+          "query": "Bolinho de Aveia com Doce de Leite na Airfryer"
+        },
+        "id": "bolinho-de-aveia-com-doce-de-leite-na-airfryer-eece5fe9"
       }
     ]
   },

@@ -2050,5 +2050,53 @@
     ],
     "data": "20/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-b1d61ed5",
+    "titulo": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada",
+    "tags": [
+      "carnevermelha",
+      "airfryer",
+      "saudavel",
+      "equilibrio"
+    ],
+    "data": "22/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "fraldinha-na-manteiga-de-alho-assada-com-batatas-da574cf2",
+    "titulo": "Fraldinha na Manteiga de Alho Assada com Batatas",
+    "tags": [
+      "carnevermelha",
+      "forno",
+      "pratocompleto",
+      "facil"
+    ],
+    "data": "22/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "queijo-brie-aperitivo-na-air-fryer-f463641b",
+    "titulo": "Queijo Brie Aperitivo na Air Fryer",
+    "tags": [
+      "airfryer",
+      "queijo",
+      "aperitivo",
+      "rapido"
+    ],
+    "data": "22/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bolinho-de-aveia-com-doce-de-leite-na-airfryer-eece5fe9",
+    "titulo": "Bolinho de Aveia com Doce de Leite na Airfryer",
+    "tags": [
+      "airfryer",
+      "doce",
+      "rapido",
+      "aveia"
+    ],
+    "data": "22/08/2026",
+    "fonte_status": "unverified"
   }
 ]
