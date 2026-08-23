@@ -1,188 +1,188 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-22T08:20:32-03:00",
+  "gerado_em": "2026-08-23T08:20:41-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "22/08/2026",
-    "dia_semana": "sábado",
+    "data": "23/08/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada",
+        "nome": "Carne de panela com batata e cenoura na pressão",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Prato principal com carne vermelha, preparado na air fryer para ser rápido e saudável. Oferece um excelente equilíbrio entre proteína e vegetais, e rende uma porção extra para o almoço de uma pessoa.",
+        "tempo": "Cerca de 50 minutos",
+        "porque": "Uma receita de carne vermelha reconfortante e completa, que utiliza a panela de pressão para um cozimento rápido. Já inclui batata e cenoura, garantindo uma refeição equilibrada e com potencial para sobras.",
         "tags": [
-          "carnevermelha",
-          "airfryer",
-          "saudavel",
-          "equilibrio"
+          "carne_vermelha",
+          "panela_de_pressao",
+          "refeicao_completa",
+          "prato_unico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de rosbife (cerca de 500g)",
-          "1 colher (sopa) de azeite",
-          "1 colher (chá) de páprica doce",
-          "1/2 colher (chá) de cominho em pó",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "500g de abóbora cabotiá sem casca e sementes",
-          "1/2 xícara (chá) de leite",
-          "1 colher (sopa) de manteiga",
-          "Sal e noz-moscada ralada na hora a gosto",
-          "200g de vagem holandesa"
+          "1 kg de acém",
+          "400 g de batata-bolinha (cerca de 15 unidades)",
+          "2 cenouras",
+          "½ cebola",
+          "2 dentes de alho",
+          "1 colher (sopa) de extrato de tomate",
+          "2 colheres (sopa) de farinha de trigo",
+          "3 colheres (sopa) de vinagre de vinho tinto",
+          "1 xícara (chá) de água fervente",
+          "azeite Andorinha a gosto",
+          "2 folhas de louro",
+          "1 colher (chá) de cominho em pó",
+          "½ colher (chá) de colorau",
+          "¼ de colher (chá) de canela em pó",
+          "sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Tempere o rosbife com azeite, páprica, cominho, sal e pimenta-do-reino.",
-          "Leve o rosbife à air fryer pré-aquecida a 200°C por 15-20 minutos, virando na metade do tempo para dourar por igual.",
-          "Enquanto isso, cozinhe a abóbora em água fervente até ficar macia. Escorra e amasse bem.",
-          "Misture a abóbora amassada com leite, manteiga, sal e noz-moscada, formando o purê cremoso.",
-          "Tempere a vagem com azeite, sal e pimenta. Leve à air fryer por 8-10 minutos, até chamuscar levemente.",
-          "Fatie o rosbife e sirva com o purê de abóbora e a vagem chamuscada."
+          "Corte o acém em cubos de 3 cm e tempere com cominho, colorau, canela, sal e pimenta-do-reino.",
+          "Pique finamente a cebola e o alho. Lave e corte as batatas ao meio, e as cenouras em rodelas diagonais de 1 cm.",
+          "Aqueça a panela de pressão com azeite, refogue a cebola e o alho até perfumar. Adicione o extrato de tomate e a farinha, mexendo bem.",
+          "Acrescente a carne temperada, o vinagre, a água fervente e as folhas de louro. Misture e feche a panela.",
+          "Cozinhe em fogo médio por 30 minutos após o início da pressão. Desligue o fogo e espere a pressão sair naturalmente.",
+          "Abra a panela, adicione as batatas e cenouras. Cozinhe por mais 5 minutos na pressão ou até os legumes ficarem macios.",
+          "Verifique o tempero e sirva quente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
+          "checked_at": "2026-08-23T11:22:11+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
+          "bank_id": "6545671",
+          "credit": "Thiago Rebouças",
+          "query": "Carne de panela com batata e cenoura na pressão"
+        },
+        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+      },
+      {
+        "nome": "Bife ao molho acebolado com tomate",
+        "curso": "principal",
+        "tempo": "25 minutos",
+        "porque": "Um clássico da culinária brasileira, esta receita de carne vermelha é rápida e prática, preparada na frigideira. O molho de tomate e cebola adiciona um sabor delicioso, sendo ideal para ser acompanhado de purê ou salada.",
+        "tags": [
+          "carne_vermelha",
+          "rapido",
+          "frigideira",
+          "classico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "4 bifes de contrafilé ou alcatra (150 g cada um)",
+          "Sal e pimenta-do-reino a gosto",
+          "Manteiga ou margarina a gosto",
+          "1 cebola cortada em rodelas",
+          "1 xícara (chá) de tomate picado",
+          "½ xícara (chá) de vinho branco seco"
+        ],
+        "preparo": [
+          "Tempere os bifes com sal e pimenta-do-reino a gosto.",
+          "Em uma frigideira, aqueça manteiga ou margarina e frite os bifes até dourarem. Retire e reserve.",
+          "Na mesma frigideira, adicione mais manteiga ou margarina e refogue a cebola em rodelas até murchar.",
+          "Acrescente o tomate picado e o vinho branco seco. Tampe a frigideira e deixe ferver por 5 minutos.",
+          "Tempere o molho com uma pitada de sal e pimenta-do-reino.",
+          "Despeje o molho sobre os bifes reservados e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-chamuscada",
-          "title": "Rosbife na Air Fryer com purê de abóbora e vagem chamuscada - Panelinha",
-          "domain": "panelinha.com.br",
+          "url": "https://receitas.globo.com/ana-maria-braga/salgados/bife-ao-molho-acebolado-com-tomate.ghtml",
+          "title": "Bife ao molho acebolado com tomate | Receitas",
+          "domain": "receitas.globo.com",
           "confidence": 1.0,
-          "checked_at": "2026-08-22T11:22:00+00:00"
+          "checked_at": "2026-08-23T11:22:14+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6356-blog-rosbife-vagem-chamuscada-pure-de-abobora.webp",
-          "alt": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada"
+          "url": "https://s2-receitas.glbimg.com/KyUIaRJid96iCeRR7-mOfU8m3co=/1366x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2025/7/a/jwmNsPTP2mFc47s4L0tg/bife-ao-molho-acebolado-com-tomate.jpg",
+          "alt": "Bife ao molho acebolado com tomate"
         },
-        "id": "rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-b1d61ed5"
+        "id": "bife-ao-molho-acebolado-com-tomate-56c933cd"
       },
       {
-        "nome": "Fraldinha na Manteiga de Alho Assada com Batatas",
-        "curso": "principal",
-        "tempo": "30 a 40 minutos",
-        "porque": "Uma opção saborosa de carne vermelha assada no forno, com batatas, que fica pronta rapidamente. É prática e ideal para um jantar a dois, com potencial para sobrar para o almoço.",
+        "nome": "Patê de Alho Assado",
+        "curso": "entrada",
+        "tempo": "Cerca de 50 minutos",
+        "porque": "Uma entrada saborosa e fácil de preparar, onde o alho assado adquire um sabor adocicado e suave, ideal para acompanhar torradas ou pães. É uma opção prática e diferente para começar a refeição.",
         "tags": [
-          "carnevermelha",
-          "forno",
-          "pratocompleto",
-          "facil"
+          "entrada",
+          "vegetariano",
+          "facil",
+          "forno"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de fraldinha (cerca de 800g a 1kg)",
-          "500g de batatas pequenas (bolinha ou calabresa)",
-          "4 dentes de alho picados",
-          "2 colheres (sopa) de manteiga sem sal",
+          "4 cabeças de alho",
           "1 colher (sopa) de azeite",
-          "1 colher (chá) de páprica defumada",
-          "Ramos de alecrim fresco a gosto",
           "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Pré-aqueça o forno a 200°C. Lave e corte as batatas ao meio, se necessário.",
-          "Em uma tigela, misture a manteiga amolecida com o alho picado, azeite, páprica, sal e pimenta-do-reino.",
-          "Espalhe metade da manteiga temperada sobre a peça de fraldinha, massageando bem.",
-          "Em uma assadeira, coloque as batatas e o restante da manteiga temperada, misturando para envolver. Adicione os ramos de alecrim.",
-          "Disponha a fraldinha sobre as batatas na assadeira.",
-          "Leve ao forno por 30 a 40 minutos, ou até a carne atingir o ponto desejado e as batatas estarem macias e douradas. Deixe a carne descansar por alguns minutos antes de fatiar."
+          "Preaqueça o forno a 200 ºC. Corte a parte superior das cabeças de alho, sem descascá-las.",
+          "Coloque as cabeças de alho em um pedaço grande de papel-alumínio, regue com azeite e tempere com sal e pimenta.",
+          "Feche bem o papel-alumínio formando uma trouxinha e coloque em uma assadeira.",
+          "Leve ao forno por 40 minutos, ou até o alho ficar macio e adocicado.",
+          "Retire do forno, abra o papel-alumínio com cuidado e deixe o alho amornar.",
+          "Esprema os dentes de alho para retirar a polpa e amasse com um garfo até formar uma pasta.",
+          "Transfira para uma tigela, regue com um fio de azeite e sirva com torradas ou pães."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/fraldinha-na-manteiga-de-alho-assada-com-batatas-700010070.ghtml",
-          "checked_at": "2026-08-22T11:22:01+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/pasta-de-alho-assado",
+          "title": "Pasta de alho assado - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 0.72,
+          "checked_at": "2026-08-23T11:22:14+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/7491903/pexels-photo-7491903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife grelhado e batatas assadas decorados com ervas em uma grade de metal.",
-          "bank_id": "7491903",
-          "credit": "minchephoto photography",
-          "query": "Fraldinha na Manteiga de Alho Assada com Batatas"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4038-pasta-de-alho-assado.webp",
+          "alt": "Patê de Alho Assado"
         },
-        "id": "fraldinha-na-manteiga-de-alho-assada-com-batatas-da574cf2"
+        "id": "pate-de-alho-assado-2d3ab471"
       },
       {
-        "nome": "Queijo Brie Aperitivo na Air Fryer",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada rápida e sofisticada, perfeita para abrir o apetite do casal. Utiliza a air fryer, o que a torna prática e com pouca gordura, e não está na lista de pratos recentes.",
-        "tags": [
-          "airfryer",
-          "queijo",
-          "aperitivo",
-          "rapido"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 peça de queijo brie (cerca de 150-200g)",
-          "1 colher (sopa) de mel",
-          "1 colher (sopa) de nozes picadas (ou outra castanha)",
-          "Ramos de tomilho fresco a gosto (opcional)",
-          "Torradinhas ou pão italiano para servir"
-        ],
-        "preparo": [
-          "Pré-aqueça a air fryer a 180°C por 5 minutos.",
-          "Coloque a peça de queijo brie em um recipiente que possa ir à air fryer (pode ser uma forma pequena de alumínio ou papel manteiga).",
-          "Leve o queijo à air fryer por 8 a 10 minutos, ou até que esteja macio e começando a derreter por dentro.",
-          "Retire o queijo da air fryer, regue com o mel, salpique as nozes picadas e decore com tomilho, se desejar.",
-          "Sirva imediatamente com torradinhas ou fatias de pão."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/queijo-brie-aperitivo-na-air-fryer-da-rita-lobo",
-          "checked_at": "2026-08-22T11:22:02+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
-          "bank_id": "31994015",
-          "credit": "Mimi",
-          "query": "Queijo Brie Aperitivo na Air Fryer"
-        },
-        "id": "queijo-brie-aperitivo-na-air-fryer-f463641b"
-      },
-      {
-        "nome": "Bolinho de Aveia com Doce de Leite na Airfryer",
+        "nome": "Pudim Rápido de Tapioca",
         "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Uma sobremesa individual, rápida e prática, feita na air fryer. É uma opção diferente e deliciosa, que não está na lista de pratos recentes a serem evitados.",
+        "tempo": "Cerca de 25 minutos (mais tempo de gelad",
+        "porque": "Uma sobremesa leve e rápida de fazer, com poucos ingredientes e sabor suave, perfeita para finalizar a refeição. Pode ser acompanhada de frutas frescas, geleia ou doce de abóbora.",
         "tags": [
-          "airfryer",
-          "doce",
+          "sobremesa",
           "rapido",
-          "aveia"
+          "vegetariano",
+          "doce"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 ovo",
-          "2 colheres (sopa) de Leite NINHO® Forti+ Integral em pó",
-          "2 colheres (sopa) de NESTLÉ® Aveia Flocos Finos",
-          "2 colheres (sopa) de doce de leite (para a massa)",
-          "1 colher (chá) de fermento em pó",
-          "Doce de leite para rechear (a gosto)"
+          "1 xícara (chá) de leite",
+          "2 colheres (sopa) de tapioca granulada",
+          "1 colher (sopa) de açúcar"
         ],
         "preparo": [
-          "Em um recipiente, misture o ovo, o Leite NINHO®, a NESTLÉ® Aveia, as 2 colheres de doce de leite (da massa) e o fermento em pó até obter uma massa homogênea.",
-          "Distribua a massa em forminhas individuais que possam ir à air fryer (de silicone ou papel).",
-          "Faça um pequeno buraco no centro de cada bolinho e coloque uma porção de doce de leite para rechear.",
-          "Leve as forminhas à air fryer pré-aquecida a 180°C por cerca de 10 a 15 minutos, ou até dourar e firmar.",
-          "Retire da air fryer e sirva morno."
+          "Em uma panela, misture o leite e o açúcar. Leve ao fogo médio até começarem a surgir as primeiras bolhas.",
+          "Diminua o fogo e adicione a tapioca granulada. Mexa continuamente por cerca de 2 minutos.",
+          "Continue mexendo até a mistura engrossar e a tapioca ficar transparente.",
+          "Transfira o creme ainda quente para dois potinhos individuais.",
+          "Leve à geladeira por aproximadamente 20 minutos para firmar.",
+          "Sirva o pudim frio, acompanhado de doce de abóbora, goiabada ou frutas frescas."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/bolinho-de-aveia-com-doce-de-leite-na-airfryer",
-          "checked_at": "2026-08-22T11:22:03+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+          "title": "Pudim rápido de tapioca - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-23T11:22:15+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/34472660/pexels-photo-34472660.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma configuração aconchegante com café, pão de queijo e doce de leite em São Paulo.",
-          "bank_id": "34472660",
-          "credit": "Cibele Bergamim",
-          "query": "Bolinho de Aveia com Doce de Leite na Airfryer"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
+          "alt": "Pudim Rápido de Tapioca"
         },
-        "id": "bolinho-de-aveia-com-doce-de-leite-na-airfryer-eece5fe9"
+        "id": "pudim-rapido-de-tapioca-484a6aab"
       }
     ]
   },

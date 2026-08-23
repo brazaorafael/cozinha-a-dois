@@ -2098,5 +2098,29 @@
     ],
     "data": "22/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-ao-molho-acebolado-com-tomate-56c933cd",
+    "titulo": "Bife ao molho acebolado com tomate",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "frigideira",
+      "classico"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "pate-de-alho-assado-2d3ab471",
+    "titulo": "Patê de Alho Assado",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "facil",
+      "forno"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "verified"
   }
 ]
