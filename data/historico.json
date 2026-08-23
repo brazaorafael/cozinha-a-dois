@@ -2122,5 +2122,149 @@
     ],
     "data": "23/08/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "papilote-de-frango-01f1dc21",
+    "titulo": "Papilote de frango",
+    "tags": [
+      "frango",
+      "forno",
+      "leve",
+      "vegetais"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "espetinho-de-queijo-fresco-tomate-cereja-e-nozes-d7e902cf",
+    "titulo": "Espetinho de Queijo Fresco, Tomate-Cereja e Nozes",
+    "tags": [
+      "entrada",
+      "frio",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "abobrinha-recheada-com-carne-moida-0a110a81",
+    "titulo": "Abobrinha Recheada com Carne Moída",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "vegetais",
+      "pratico"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-de-frango-com-molho-de-mel-na-air-fryer-da--72f43cfb",
+    "titulo": "Filé de frango com molho de mel na Air Fryer da Rita Lobo",
+    "tags": [
+      "frango",
+      "airfryer",
+      "agridoce",
+      "rapido"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-com-molho-de-mostarda-e-batata-saute-41edab99",
+    "titulo": "Filé com Molho de Mostarda e Batata Sauté",
+    "tags": [
+      "carne_vermelha",
+      "grelha",
+      "refogado",
+      "molho"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "cocadinha-francesa-1cac0d55",
+    "titulo": "Cocadinha francesa",
+    "tags": [
+      "sobremesa",
+      "coco",
+      "forno",
+      "facil"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "carne-moida-com-canela-e8465aee",
+    "titulo": "Carne moída com canela",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "especiarias",
+      "pratico"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "maria-mole-tradicional-receita-facil-em-quadrado-f0cce339",
+    "titulo": "Maria Mole Tradicional: receita fácil em quadrados com coco",
+    "tags": [
+      "sobremesa",
+      "doce",
+      "coco",
+      "facil"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "tagine-rapida-de-legumes-ca1f3db2",
+    "titulo": "Tagine rápida de legumes",
+    "tags": [
+      "vegetariano",
+      "refogado",
+      "especiarias",
+      "saudavel"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carpaccio-enroladinho-ao-creme-de-mostarda-dijon-9ea75038",
+    "titulo": "Carpaccio Enroladinho ao Creme de Mostarda Dijon e Alcaparras",
+    "tags": [
+      "entrada",
+      "frio",
+      "elegante",
+      "rapido"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cuscuz-gelado-de-tapioca-e-coco-4cec5bf6",
+    "titulo": "Cuscuz gelado de tapioca e coco",
+    "tags": [
+      "sobremesa",
+      "frio",
+      "nordestino",
+      "sem_gluten"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "fraldinha-assada-na-air-fryer-da-rita-lobo-910d5222",
+    "titulo": "Fraldinha assada na Air Fryer da Rita Lobo",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "rapido",
+      "grelha"
+    ],
+    "data": "23/08/2026",
+    "fonte_status": "unverified"
   }
 ]
