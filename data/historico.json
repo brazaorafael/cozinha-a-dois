@@ -2266,5 +2266,53 @@
     ],
     "data": "23/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "picanha-na-airfryer-13c8f3f8",
+    "titulo": "Picanha na Airfryer",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "rapido",
+      "principal"
+    ],
+    "data": "25/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-rapida-486731ce",
+    "titulo": "Carne de Panela Rápida",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "rapido",
+      "principal"
+    ],
+    "data": "25/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "snack-de-abobrinha-low-carb-na-air-fryer-febdb209",
+    "titulo": "Snack de Abobrinha Low Carb na Air Fryer",
+    "tags": [
+      "entrada",
+      "vegetais",
+      "airfryer",
+      "saudavel"
+    ],
+    "data": "25/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "parfait-de-iogurte-com-frutas-vermelhas-d86b00b9",
+    "titulo": "Parfait de Iogurte com Frutas Vermelhas",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "rapido",
+      "leve"
+    ],
+    "data": "25/08/2026",
+    "fonte_status": "unverified"
   }
 ]

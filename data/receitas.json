@@ -1,188 +1,185 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-23T19:49:53-03:00",
+  "gerado_em": "2026-08-25T08:27:49-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "23/08/2026",
-    "dia_semana": "domingo",
+    "data": "25/08/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Carne de panela com batata e cenoura na pressão",
+        "nome": "Picanha na Airfryer",
         "curso": "principal",
-        "tempo": "Cerca de 50 minutos",
-        "porque": "Uma receita de carne vermelha reconfortante e completa, que utiliza a panela de pressão para um cozimento rápido. Já inclui batata e cenoura, garantindo uma refeição equilibrada e com potencial para sobras.",
+        "tempo": "Cerca de 40 minutos",
+        "porque": "Carne vermelha preferida, preparo rápido e prático na airfryer, sem fritura, ideal para um jantar a dois com sabor de churrasco.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "refeicao_completa",
-          "prato_unico"
+          "airfryer",
+          "rapido",
+          "principal"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 kg de acém",
-          "400 g de batata-bolinha (cerca de 15 unidades)",
-          "2 cenouras",
-          "½ cebola",
-          "2 dentes de alho",
-          "1 colher (sopa) de extrato de tomate",
-          "2 colheres (sopa) de farinha de trigo",
-          "3 colheres (sopa) de vinagre de vinho tinto",
-          "1 xícara (chá) de água fervente",
-          "azeite Andorinha a gosto",
-          "2 folhas de louro",
-          "1 colher (chá) de cominho em pó",
-          "½ colher (chá) de colorau",
-          "¼ de colher (chá) de canela em pó",
-          "sal e pimenta-do-reino moída na hora a gosto"
+          "1 peça de picanha (cerca de 1 kg)",
+          "Sal grosso a gosto",
+          "Pimenta-do-reino a gosto",
+          "Azeite a gosto (para untar)"
         ],
         "preparo": [
-          "Corte o acém em cubos de 3 cm e tempere com cominho, colorau, canela, sal e pimenta-do-reino.",
-          "Pique finamente a cebola e o alho. Lave e corte as batatas ao meio, e as cenouras em rodelas diagonais de 1 cm.",
-          "Aqueça a panela de pressão com azeite, refogue a cebola e o alho até perfumar. Adicione o extrato de tomate e a farinha, mexendo bem.",
-          "Acrescente a carne temperada, o vinagre, a água fervente e as folhas de louro. Misture e feche a panela.",
-          "Cozinhe em fogo médio por 30 minutos após o início da pressão. Desligue o fogo e espere a pressão sair naturalmente.",
-          "Abra a panela, adicione as batatas e cenouras. Cozinhe por mais 5 minutos na pressão ou até os legumes ficarem macios.",
-          "Verifique o tempero e sirva quente."
+          "Faça cortes superficiais na capa de gordura da picanha, formando um quadriculado.",
+          "Tempere a picanha com sal grosso e pimenta-do-reino.",
+          "Pré-aqueça a airfryer a 200°C por 5-10 minutos.",
+          "Coloque a picanha na cesta da airfryer com a gordura para cima e asse por 15-20 minutos.",
+          "Vire a picanha e asse por mais 15-20 minutos, ou até atingir o ponto desejado.",
+          "Retire da airfryer, deixe descansar por alguns minutos antes de fatiar e servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
-          "checked_at": "2026-08-23T11:22:11+00:00"
+          "suggested_url": "https://www.tudogostoso.com.br/receita/201211-picanha-na-airfryer.html",
+          "checked_at": "2026-08-25T11:30:18+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
-          "bank_id": "6545671",
-          "credit": "Thiago Rebouças",
-          "query": "Carne de panela com batata e cenoura na pressão"
+          "url": "https://images.pexels.com/photos/20896463/pexels-photo-20896463.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Suculenta picanha grelhada servida com vinho e salada em um aconchegante restaurante de São Paulo para uma deliciosa experiência gastronômica.",
+          "bank_id": "20896463",
+          "credit": "Daniel Januario",
+          "query": "Picanha na Airfryer"
         },
-        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+        "id": "picanha-na-airfryer-13c8f3f8"
       },
       {
-        "nome": "Bife ao molho acebolado com tomate",
+        "nome": "Carne de Panela Rápida",
         "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Um clássico da culinária brasileira, esta receita de carne vermelha é rápida e prática, preparada na frigideira. O molho de tomate e cebola adiciona um sabor delicioso, sendo ideal para ser acompanhado de purê ou salada.",
+        "tempo": "Cerca de 40 minutos",
+        "porque": "Carne vermelha saborosa e macia, com preparo prático em panela de pressão, ideal para um jantar rápido e com sobras para o almoço.",
         "tags": [
           "carne_vermelha",
+          "panela_de_pressao",
           "rapido",
-          "frigideira",
-          "classico"
+          "principal"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "4 bifes de contrafilé ou alcatra (150 g cada um)",
+          "500 g de carne bovina para ensopado (paleta, acém ou músculo) em cubos",
+          "1 cebola média picada",
+          "2 dentes de alho picados",
+          "1 cenoura média em rodelas",
+          "1 xícara (chá) de molho de tomate",
+          "1/2 xícara (chá) de vinho tinto seco (opcional)",
+          "1 xícara (chá) de caldo de carne (ou água)",
+          "2 colheres (sopa) de azeite",
           "Sal e pimenta-do-reino a gosto",
-          "Manteiga ou margarina a gosto",
-          "1 cebola cortada em rodelas",
-          "1 xícara (chá) de tomate picado",
-          "½ xícara (chá) de vinho branco seco"
+          "Cheiro-verde picado a gosto"
         ],
         "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino a gosto.",
-          "Em uma frigideira, aqueça manteiga ou margarina e frite os bifes até dourarem. Retire e reserve.",
-          "Na mesma frigideira, adicione mais manteiga ou margarina e refogue a cebola em rodelas até murchar.",
-          "Acrescente o tomate picado e o vinho branco seco. Tampe a frigideira e deixe ferver por 5 minutos.",
-          "Tempere o molho com uma pitada de sal e pimenta-do-reino.",
-          "Despeje o molho sobre os bifes reservados e sirva imediatamente."
+          "Tempere a carne com sal e pimenta-do-reino.",
+          "Em uma panela de pressão, aqueça o azeite e doure a carne em etapas. Retire e reserve.",
+          "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
+          "Adicione a cenoura, o molho de tomate, o vinho (se usar) e o caldo de carne. Volte a carne para a panela.",
+          "Feche a panela de pressão e cozinhe por 25 minutos após pegar pressão.",
+          "Desligue o fogo, espere a pressão sair naturalmente, abra a panela e finalize com cheiro-verde."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://receitas.globo.com/ana-maria-braga/salgados/bife-ao-molho-acebolado-com-tomate.ghtml",
-          "title": "Bife ao molho acebolado com tomate | Receitas",
-          "domain": "receitas.globo.com",
-          "confidence": 1.0,
-          "checked_at": "2026-08-23T11:22:14+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-rapida",
+          "checked_at": "2026-08-25T11:30:19+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://s2-receitas.glbimg.com/KyUIaRJid96iCeRR7-mOfU8m3co=/1366x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2025/7/a/jwmNsPTP2mFc47s4L0tg/bife-ao-molho-acebolado-com-tomate.jpg",
-          "alt": "Bife ao molho acebolado com tomate"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/2181151/pexels-photo-2181151.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Refogado colorido de carne bovina e legumes variados em uma panela, destacando ingredientes frescos.",
+          "bank_id": "2181151",
+          "credit": "Kleine Beyers",
+          "query": "Carne de Panela Rápida"
         },
-        "id": "bife-ao-molho-acebolado-com-tomate-56c933cd"
+        "id": "carne-de-panela-rapida-486731ce"
       },
       {
-        "nome": "Patê de Alho Assado",
+        "nome": "Snack de Abobrinha Low Carb na Air Fryer",
         "curso": "entrada",
-        "tempo": "Cerca de 50 minutos",
-        "porque": "Uma entrada saborosa e fácil de preparar, onde o alho assado adquire um sabor adocicado e suave, ideal para acompanhar torradas ou pães. É uma opção prática e diferente para começar a refeição.",
+        "tempo": "Cerca de 30 minutos",
+        "porque": "Entrada leve, prática e saudável, preparada na airfryer, adicionando vegetais ao cardápio de forma saborosa e crocante.",
         "tags": [
           "entrada",
-          "vegetariano",
-          "facil",
-          "forno"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "4 cabeças de alho",
-          "1 colher (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Preaqueça o forno a 200 ºC. Corte a parte superior das cabeças de alho, sem descascá-las.",
-          "Coloque as cabeças de alho em um pedaço grande de papel-alumínio, regue com azeite e tempere com sal e pimenta.",
-          "Feche bem o papel-alumínio formando uma trouxinha e coloque em uma assadeira.",
-          "Leve ao forno por 40 minutos, ou até o alho ficar macio e adocicado.",
-          "Retire do forno, abra o papel-alumínio com cuidado e deixe o alho amornar.",
-          "Esprema os dentes de alho para retirar a polpa e amasse com um garfo até formar uma pasta.",
-          "Transfira para uma tigela, regue com um fio de azeite e sirva com torradas ou pães."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pasta-de-alho-assado",
-          "title": "Pasta de alho assado - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 0.72,
-          "checked_at": "2026-08-23T11:22:14+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4038-pasta-de-alho-assado.webp",
-          "alt": "Patê de Alho Assado"
-        },
-        "id": "pate-de-alho-assado-2d3ab471"
-      },
-      {
-        "nome": "Pudim Rápido de Tapioca",
-        "curso": "sobremesa",
-        "tempo": "Cerca de 25 minutos (mais tempo de gelad",
-        "porque": "Uma sobremesa leve e rápida de fazer, com poucos ingredientes e sabor suave, perfeita para finalizar a refeição. Pode ser acompanhada de frutas frescas, geleia ou doce de abóbora.",
-        "tags": [
-          "sobremesa",
-          "rapido",
-          "vegetariano",
-          "doce"
+          "vegetais",
+          "airfryer",
+          "saudavel"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 xícara (chá) de leite",
-          "2 colheres (sopa) de tapioca granulada",
-          "1 colher (sopa) de açúcar"
+          "2 abobrinhas médias cortadas em rodelas ou palitos",
+          "7 colheres (sopa) de queijo parmesão ralado",
+          "1 pitada de pimenta-do-reino",
+          "Meio stick de MAGGI® Meu Segredo Cheiro-Verde (ou tempero similar)",
+          "Azeite a gosto",
+          "1 pitada de sal (opcional)"
         ],
         "preparo": [
-          "Em uma panela, misture o leite e o açúcar. Leve ao fogo médio até começarem a surgir as primeiras bolhas.",
-          "Diminua o fogo e adicione a tapioca granulada. Mexa continuamente por cerca de 2 minutos.",
-          "Continue mexendo até a mistura engrossar e a tapioca ficar transparente.",
-          "Transfira o creme ainda quente para dois potinhos individuais.",
-          "Leve à geladeira por aproximadamente 20 minutos para firmar.",
-          "Sirva o pudim frio, acompanhado de doce de abóbora, goiabada ou frutas frescas."
+          "Em um recipiente, misture as abobrinhas com o queijo parmesão, pimenta-do-reino, tempero cheiro-verde e azeite.",
+          "Pré-aqueça a Air Fryer a 180°C.",
+          "Distribua as abobrinhas na cesta da Air Fryer em uma única camada.",
+          "Asse por cerca de 25 a 35 minutos, virando na metade do tempo, até dourarem e ficarem crocantes.",
+          "Retire e sirva em seguida."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
-          "title": "Pudim rápido de tapioca - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-23T11:22:15+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/snack-de-abobrinha-low-carb-na-air-fryer",
+          "checked_at": "2026-08-25T11:30:21+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
-          "alt": "Pudim Rápido de Tapioca"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/364657/pexels-photo-364657.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosas wraps de abobrinha recheadas com frango grelhado, apresentadas com um acompanhamento de alecrim fresco.",
+          "bank_id": "364657",
+          "credit": "Daniela Elena Tentis",
+          "query": "Snack de Abobrinha Low Carb na Air Fryer"
         },
-        "id": "pudim-rapido-de-tapioca-484a6aab"
+        "id": "snack-de-abobrinha-low-carb-na-air-fryer-febdb209"
+      },
+      {
+        "nome": "Parfait de Iogurte com Frutas Vermelhas",
+        "curso": "sobremesa",
+        "tempo": "Cerca de 20 minutos",
+        "porque": "Sobremesa leve, refrescante e rápida de montar, com frutas, ideal para finalizar o jantar de forma saudável e deliciosa.",
+        "tags": [
+          "sobremesa",
+          "frutas",
+          "rapido",
+          "leve"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 pote de Iogurte NESTLÉ Natural Integral (170g)",
+          "1/2 xícara (chá) de frutas vermelhas frescas ou congeladas (morango, mirtilo, framboesa)",
+          "2 colheres (sopa) de granola",
+          "1 colher (sopa) de mel ou adoçante a gosto",
+          "Folhas de hortelã para decorar (opcional)"
+        ],
+        "preparo": [
+          "Em um copo ou taça, faça uma camada de iogurte.",
+          "Adicione uma camada de frutas vermelhas.",
+          "Acrescente uma camada de granola.",
+          "Repita as camadas até preencher o copo, finalizando com frutas e um fio de mel.",
+          "Decore com hortelã, se desejar, e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/parfait-de-iogurte-com-frutas-vermelhas",
+          "checked_at": "2026-08-25T11:30:22+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36361397/pexels-photo-36361397.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Vista superior de um parfait de iogurte com frutas vermelhas frescas sobre um fundo neutro.",
+          "bank_id": "36361397",
+          "credit": "Çiğdem Bilgin",
+          "query": "Parfait de Iogurte com Frutas Vermelhas"
+        },
+        "id": "parfait-de-iogurte-com-frutas-vermelhas-d86b00b9"
       }
     ]
   },
