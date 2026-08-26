@@ -1,185 +1,190 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-25T08:27:49-03:00",
+  "gerado_em": "2026-08-26T08:30:34-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "25/08/2026",
-    "dia_semana": "terça",
+    "data": "26/08/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Picanha na Airfryer",
+        "nome": "Bife Acebolado",
         "curso": "principal",
-        "tempo": "Cerca de 40 minutos",
-        "porque": "Carne vermelha preferida, preparo rápido e prático na airfryer, sem fritura, ideal para um jantar a dois com sabor de churrasco.",
+        "tempo": "25 minutos",
+        "porque": "Um clássico da culinária brasileira, rápido e fácil de preparar na frigideira. A receita da Panelinha garante que o bife fique macio e a cebola dourada, sendo uma excelente opção de carne vermelha para o dia a dia.",
         "tags": [
           "carne_vermelha",
-          "airfryer",
           "rapido",
-          "principal"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 peça de picanha (cerca de 1 kg)",
-          "Sal grosso a gosto",
-          "Pimenta-do-reino a gosto",
-          "Azeite a gosto (para untar)"
-        ],
-        "preparo": [
-          "Faça cortes superficiais na capa de gordura da picanha, formando um quadriculado.",
-          "Tempere a picanha com sal grosso e pimenta-do-reino.",
-          "Pré-aqueça a airfryer a 200°C por 5-10 minutos.",
-          "Coloque a picanha na cesta da airfryer com a gordura para cima e asse por 15-20 minutos.",
-          "Vire a picanha e asse por mais 15-20 minutos, ou até atingir o ponto desejado.",
-          "Retire da airfryer, deixe descansar por alguns minutos antes de fatiar e servir."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/201211-picanha-na-airfryer.html",
-          "checked_at": "2026-08-25T11:30:18+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/20896463/pexels-photo-20896463.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Suculenta picanha grelhada servida com vinho e salada em um aconchegante restaurante de São Paulo para uma deliciosa experiência gastronômica.",
-          "bank_id": "20896463",
-          "credit": "Daniel Januario",
-          "query": "Picanha na Airfryer"
-        },
-        "id": "picanha-na-airfryer-13c8f3f8"
-      },
-      {
-        "nome": "Carne de Panela Rápida",
-        "curso": "principal",
-        "tempo": "Cerca de 40 minutos",
-        "porque": "Carne vermelha saborosa e macia, com preparo prático em panela de pressão, ideal para um jantar rápido e com sobras para o almoço.",
-        "tags": [
-          "carne_vermelha",
-          "panela_de_pressao",
-          "rapido",
-          "principal"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500 g de carne bovina para ensopado (paleta, acém ou músculo) em cubos",
-          "1 cebola média picada",
-          "2 dentes de alho picados",
-          "1 cenoura média em rodelas",
-          "1 xícara (chá) de molho de tomate",
-          "1/2 xícara (chá) de vinho tinto seco (opcional)",
-          "1 xícara (chá) de caldo de carne (ou água)",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino a gosto",
-          "Cheiro-verde picado a gosto"
-        ],
-        "preparo": [
-          "Tempere a carne com sal e pimenta-do-reino.",
-          "Em uma panela de pressão, aqueça o azeite e doure a carne em etapas. Retire e reserve.",
-          "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
-          "Adicione a cenoura, o molho de tomate, o vinho (se usar) e o caldo de carne. Volte a carne para a panela.",
-          "Feche a panela de pressão e cozinhe por 25 minutos após pegar pressão.",
-          "Desligue o fogo, espere a pressão sair naturalmente, abra a panela e finalize com cheiro-verde."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-rapida",
-          "checked_at": "2026-08-25T11:30:19+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/2181151/pexels-photo-2181151.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Refogado colorido de carne bovina e legumes variados em uma panela, destacando ingredientes frescos.",
-          "bank_id": "2181151",
-          "credit": "Kleine Beyers",
-          "query": "Carne de Panela Rápida"
-        },
-        "id": "carne-de-panela-rapida-486731ce"
-      },
-      {
-        "nome": "Snack de Abobrinha Low Carb na Air Fryer",
-        "curso": "entrada",
-        "tempo": "Cerca de 30 minutos",
-        "porque": "Entrada leve, prática e saudável, preparada na airfryer, adicionando vegetais ao cardápio de forma saborosa e crocante.",
-        "tags": [
-          "entrada",
-          "vegetais",
-          "airfryer",
-          "saudavel"
+          "refogado",
+          "dia_a_dia"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 abobrinhas médias cortadas em rodelas ou palitos",
-          "7 colheres (sopa) de queijo parmesão ralado",
-          "1 pitada de pimenta-do-reino",
-          "Meio stick de MAGGI® Meu Segredo Cheiro-Verde (ou tempero similar)",
+          "2 bifes de contrafilé (alcatra ou coxão mole)",
+          "1 cebola",
+          "2 colheres (sopa) de água",
+          "2 colheres (chá) de vinagre de vinho branco",
+          "1 colher (chá) de manteiga",
           "Azeite a gosto",
-          "1 pitada de sal (opcional)"
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Em um recipiente, misture as abobrinhas com o queijo parmesão, pimenta-do-reino, tempero cheiro-verde e azeite.",
-          "Pré-aqueça a Air Fryer a 180°C.",
-          "Distribua as abobrinhas na cesta da Air Fryer em uma única camada.",
-          "Asse por cerca de 25 a 35 minutos, virando na metade do tempo, até dourarem e ficarem crocantes.",
-          "Retire e sirva em seguida."
+          "Descasque e corte a cebola em meias-luas de 0,5 cm.",
+          "Aqueça uma frigideira grande em fogo médio, regue com azeite e grelhe os bifes por cerca de 2 minutos de cada lado, até dourar. Retire e reserve.",
+          "Na mesma frigideira, adicione a manteiga e refogue a cebola até dourar.",
+          "Misture a água com o vinagre e adicione à frigideira, raspando o fundo para soltar os sabores.",
+          "Volte os bifes à frigideira, tempere com sal e pimenta, e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/bife-acebolado",
+          "title": "Bife acebolado - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-26T11:32:28+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7957-blog-ayu8198.webp",
+          "alt": "Bife Acebolado"
+        },
+        "id": "bife-acebolado-959638fa"
+      },
+      {
+        "nome": "Carne Moída com Refogado de Pimentão",
+        "curso": "principal",
+        "tempo": "40 minutos",
+        "porque": "Uma opção de carne vermelha refogada, com o sabor do pimentão e cebola. É uma receita prática e versátil para o dia a dia, com bom equilíbrio de proteína e vegetais. Pode render para o almoço do dia seguinte.",
+        "tags": [
+          "carne_vermelha",
+          "refogado",
+          "equilibrado",
+          "rende_sobra"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500 g de patinho moído",
+          "1 pimentão vermelho",
+          "1 cebola",
+          "2 dentes de alho",
+          "½ xícara (chá) de água quente",
+          "3 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Cebolinha fatiada a gosto para servir"
+        ],
+        "preparo": [
+          "Pique o pimentão em cubos médios, a cebola em cubos pequenos e o alho fino.",
+          "Em uma panela média com 2 colheres de azeite, refogue a cebola com uma pitada de sal por 10 minutos até dourar. Adicione o pimentão e refogue por mais 2 minutos. Junte o alho.",
+          "Aumente o fogo, afaste o refogado e adicione a carne moída com 1 colher de azeite. Tempere com sal e pimenta e cozinhe por 10 minutos, mexendo para dourar por igual.",
+          "Regue com a água quente aos poucos, raspando o fundo da panela para soltar os queimadinhos.",
+          "Desligue o fogo, misture a cebolinha fatiada e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/snack-de-abobrinha-low-carb-na-air-fryer",
-          "checked_at": "2026-08-25T11:30:21+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/carne-moida-com-refogado-de-pimentao",
+          "checked_at": "2026-08-26T11:32:28+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/364657/pexels-photo-364657.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosas wraps de abobrinha recheadas com frango grelhado, apresentadas com um acompanhamento de alecrim fresco.",
-          "bank_id": "364657",
-          "credit": "Daniela Elena Tentis",
-          "query": "Snack de Abobrinha Low Carb na Air Fryer"
+          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
+          "bank_id": "34714654",
+          "credit": "UNDO KIM",
+          "query": "Carne Moída com Refogado de Pimentão"
         },
-        "id": "snack-de-abobrinha-low-carb-na-air-fryer-febdb209"
+        "id": "carne-moida-com-refogado-de-pimentao-283735d9"
       },
       {
-        "nome": "Parfait de Iogurte com Frutas Vermelhas",
-        "curso": "sobremesa",
-        "tempo": "Cerca de 20 minutos",
-        "porque": "Sobremesa leve, refrescante e rápida de montar, com frutas, ideal para finalizar o jantar de forma saudável e deliciosa.",
+        "nome": "Muffins de Tomate e Mozarela",
+        "curso": "entrada",
+        "tempo": "40 minutos",
+        "porque": "Uma entrada saborosa e prática, assada no forno, com vegetais e queijo. Ideal para abrir o apetite sem pesar.",
         "tags": [
-          "sobremesa",
-          "frutas",
-          "rapido",
-          "leve"
+          "vegetariano",
+          "forno",
+          "entrada_rapida",
+          "queijo"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pote de Iogurte NESTLÉ Natural Integral (170g)",
-          "1/2 xícara (chá) de frutas vermelhas frescas ou congeladas (morango, mirtilo, framboesa)",
-          "2 colheres (sopa) de granola",
-          "1 colher (sopa) de mel ou adoçante a gosto",
-          "Folhas de hortelã para decorar (opcional)"
+          "150g de farinha",
+          "5g de fermento em pó (1/2 pacote)",
+          "3 ovos",
+          "100ml de azeite",
+          "15g de queijo parmesão ralado (2 colheres de sopa)",
+          "40g de queijo mozarela ralado",
+          "Sal a gosto",
+          "Pimenta a gosto",
+          "70g de pasta de tomate (3 colheres de sopa)",
+          "1/2 colher (chá) de orégãos",
+          "1/2 colher (chá) de pimentão doce (páprica)",
+          "1/2 colher (chá) de alho em pó",
+          "8 mini bolas de mozarela (opcional)",
+          "Tomates cherry (para decorar, opcional)"
         ],
         "preparo": [
-          "Em um copo ou taça, faça uma camada de iogurte.",
-          "Adicione uma camada de frutas vermelhas.",
-          "Acrescente uma camada de granola.",
-          "Repita as camadas até preencher o copo, finalizando com frutas e um fio de mel.",
-          "Decore com hortelã, se desejar, e sirva imediatamente."
+          "Pré-aqueça o forno a 180°C. Corte os tomates cherry e a mozarela em metades, se for usar.",
+          "Numa tigela, misture os ovos, o azeite, sal, orégãos e pimenta.",
+          "Adicione a farinha, o fermento e a pasta de tomate, misturando bem até incorporar.",
+          "Incorpore o queijo parmesão e a mozarela ralada à massa.",
+          "Distribua a massa em formas de muffin, adicionando uma mini bola de mozarela no centro de cada um, se desejar.",
+          "Leve ao forno por 15 a 20 minutos, ou até dourarem e estarem cozidos."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/parfait-de-iogurte-com-frutas-vermelhas",
-          "checked_at": "2026-08-25T11:30:22+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-08-26T11:32:29+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36361397/pexels-photo-36361397.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Vista superior de um parfait de iogurte com frutas vermelhas frescas sobre um fundo neutro.",
-          "bank_id": "36361397",
-          "credit": "Çiğdem Bilgin",
-          "query": "Parfait de Iogurte com Frutas Vermelhas"
+          "url": "https://images.pexels.com/photos/17741884/pexels-photo-17741884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosos muffins caseiros de queijo com tomate e ervas, exibidos com cubos de queijo e tomates-cereja.",
+          "bank_id": "17741884",
+          "credit": "Fabiano Pimentel",
+          "query": "Muffins de Tomate e Mozarela"
         },
-        "id": "parfait-de-iogurte-com-frutas-vermelhas-d86b00b9"
+        "id": "muffins-de-tomate-e-mozarela-f3210ac4"
+      },
+      {
+        "nome": "Pera Cozida no Micro-ondas com Mel e Canela",
+        "curso": "sobremesa",
+        "tempo": "5 minutos",
+        "porque": "Uma sobremesa leve, rápida e fácil de preparar no micro-ondas, com poucos ingredientes e um sabor reconfortante.",
+        "tags": [
+          "fruta",
+          "rapido",
+          "micro_ondas",
+          "sobremesa_leve"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 pera",
+          "½ colher (sopa) de mel",
+          "1 pitada de canela em pó"
+        ],
+        "preparo": [
+          "Lave e seque a pera. Corte-a ao meio no sentido do comprimento, descarte o miolo e o cabo, e fatie cada metade em fatias finas (0,5 cm).",
+          "Numa tigela de vidro média, coloque as fatias de pera, o mel e a canela.",
+          "Cubra a tigela com um prato e leve ao micro-ondas em potência alta por 3 minutos.",
+          "Com cuidado, retire a tigela, misture delicadamente e volte ao micro-ondas por mais 2 minutos, até a pera ficar macia e formar uma caldinha.",
+          "Sirva a pera morna ou fria com a caldinha."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/pera-cozida-no-micro-ondas-com-mel-e-canela",
+          "checked_at": "2026-08-26T11:32:30+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/13848848/pexels-photo-13848848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Vista superior de uma pera cozida com molho de caramelo em uma mesa rústica.",
+          "bank_id": "13848848",
+          "credit": "Johanka Hubikova",
+          "query": "Pera Cozida no Micro-ondas com Mel e Canela"
+        },
+        "id": "pera-cozida-no-micro-ondas-com-mel-e-canela-b41514e9"
       }
     ]
   },
