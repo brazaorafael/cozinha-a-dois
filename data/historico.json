@@ -2326,5 +2326,29 @@
     ],
     "data": "26/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-parmegiana-na-air-fryer-60b7b38f",
+    "titulo": "Bife à Parmegiana na Air Fryer",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "prato_classico",
+      "rapido"
+    ],
+    "data": "27/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "almondega-com-molho-de-limao-e-pure-de-alho-poro-bf1cc6ee",
+    "titulo": "Almôndega com Molho de Limão e Purê de Alho-Poró",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "equilibrado",
+      "saboroso"
+    ],
+    "data": "27/08/2026",
+    "fonte_status": "unverified"
   }
 ]

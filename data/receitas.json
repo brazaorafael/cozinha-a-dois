@@ -1,190 +1,203 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-26T08:30:34-03:00",
+  "gerado_em": "2026-08-27T17:54:59-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "26/08/2026",
-    "dia_semana": "quarta",
+    "data": "27/08/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Bife Acebolado",
-        "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Um clássico da culinária brasileira, rápido e fácil de preparar na frigideira. A receita da Panelinha garante que o bife fique macio e a cebola dourada, sendo uma excelente opção de carne vermelha para o dia a dia.",
-        "tags": [
-          "carne_vermelha",
-          "rapido",
-          "refogado",
-          "dia_a_dia"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bifes de contrafilé (alcatra ou coxão mole)",
-          "1 cebola",
-          "2 colheres (sopa) de água",
-          "2 colheres (chá) de vinagre de vinho branco",
-          "1 colher (chá) de manteiga",
-          "Azeite a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Descasque e corte a cebola em meias-luas de 0,5 cm.",
-          "Aqueça uma frigideira grande em fogo médio, regue com azeite e grelhe os bifes por cerca de 2 minutos de cada lado, até dourar. Retire e reserve.",
-          "Na mesma frigideira, adicione a manteiga e refogue a cebola até dourar.",
-          "Misture a água com o vinagre e adicione à frigideira, raspando o fundo para soltar os sabores.",
-          "Volte os bifes à frigideira, tempere com sal e pimenta, e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/bife-acebolado",
-          "title": "Bife acebolado - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-26T11:32:28+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7957-blog-ayu8198.webp",
-          "alt": "Bife Acebolado"
-        },
-        "id": "bife-acebolado-959638fa"
-      },
-      {
-        "nome": "Carne Moída com Refogado de Pimentão",
+        "nome": "Bife à Parmegiana na Air Fryer",
         "curso": "principal",
         "tempo": "40 minutos",
-        "porque": "Uma opção de carne vermelha refogada, com o sabor do pimentão e cebola. É uma receita prática e versátil para o dia a dia, com bom equilíbrio de proteína e vegetais. Pode render para o almoço do dia seguinte.",
+        "porque": "Um clássico da culinária brasileira, adaptado para a airfryer ou forno para evitar fritura, tornando-o mais prático e leve. Ótima opção para um jantar saboroso, prioriza carne vermelha e é fácil de fazer.",
+        "tags": [
+          "carne_vermelha",
+          "airfryer",
+          "prato_classico",
+          "rapido"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "2 bifes de contrafilé (cerca de 150 g cada)",
+          "1 ovo",
+          "1 xícara (chá) de farinha de rosca",
+          "½ xícara (chá) de queijo muçarela ralado",
+          "½ xícara (chá) de molho de tomate",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Azeite para untar"
+        ],
+        "preparo": [
+          "Tempere os bifes com sal e pimenta dos dois lados.",
+          "Em um prato fundo, bata o ovo. Em outro prato, coloque a farinha de rosca.",
+          "Passe cada bife no ovo batido e depois na farinha de rosca, cobrindo bem.",
+          "Preaqueça a Air Fryer a 200 °C. Coloque os bifes na cesta e asse por 8 minutos, virando na metade do tempo, até dourar.",
+          "Retire os bifes, cubra com molho de tomate e queijo muçarela.",
+          "Volte os bifes à Air Fryer e gratine por 5 minutos a 200 °C, até o queijo derreter e dourar.",
+          "Sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Bife-a-parmegiana-na-Air-Fryer-Oven-da-Rita-Lobo",
+          "checked_at": "2026-08-27T20:56:41+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/31064273/pexels-photo-31064273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Saboroso frango à parmegiana com macarrão e ingredientes frescos em uma mesa rústica.",
+          "bank_id": "31064273",
+          "credit": "Mahmoud Salem",
+          "query": "Bife à Parmegiana na Air Fryer"
+        },
+        "id": "bife-a-parmegiana-na-air-fryer-60b7b38f"
+      },
+      {
+        "nome": "Almôndega com Molho de Limão e Purê de Alho-Poró",
+        "curso": "principal",
+        "tempo": "45 minutos",
+        "porque": "Uma versão inovadora e refrescante das almôndegas, com um molho diferente e um acompanhamento de purê de alho-poró que adiciona vegetais e sabor. Prioriza carne vermelha e oferece equilíbrio.",
         "tags": [
           "carne_vermelha",
           "refogado",
           "equilibrado",
-          "rende_sobra"
+          "saboroso"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de patinho moído",
-          "1 pimentão vermelho",
-          "1 cebola",
-          "2 dentes de alho",
-          "½ xícara (chá) de água quente",
-          "3 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Cebolinha fatiada a gosto para servir"
-        ],
-        "preparo": [
-          "Pique o pimentão em cubos médios, a cebola em cubos pequenos e o alho fino.",
-          "Em uma panela média com 2 colheres de azeite, refogue a cebola com uma pitada de sal por 10 minutos até dourar. Adicione o pimentão e refogue por mais 2 minutos. Junte o alho.",
-          "Aumente o fogo, afaste o refogado e adicione a carne moída com 1 colher de azeite. Tempere com sal e pimenta e cozinhe por 10 minutos, mexendo para dourar por igual.",
-          "Regue com a água quente aos poucos, raspando o fundo da panela para soltar os queimadinhos.",
-          "Desligue o fogo, misture a cebolinha fatiada e sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/carne-moida-com-refogado-de-pimentao",
-          "checked_at": "2026-08-26T11:32:28+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
-          "bank_id": "34714654",
-          "credit": "UNDO KIM",
-          "query": "Carne Moída com Refogado de Pimentão"
-        },
-        "id": "carne-moida-com-refogado-de-pimentao-283735d9"
-      },
-      {
-        "nome": "Muffins de Tomate e Mozarela",
-        "curso": "entrada",
-        "tempo": "40 minutos",
-        "porque": "Uma entrada saborosa e prática, assada no forno, com vegetais e queijo. Ideal para abrir o apetite sem pesar.",
-        "tags": [
-          "vegetariano",
-          "forno",
-          "entrada_rapida",
-          "queijo"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "150g de farinha",
-          "5g de fermento em pó (1/2 pacote)",
-          "3 ovos",
-          "100ml de azeite",
-          "15g de queijo parmesão ralado (2 colheres de sopa)",
-          "40g de queijo mozarela ralado",
+          "200 g de patinho moído",
+          "½ cebola",
+          "2 colheres (sopa) de farinha de rosca",
+          "Raspas de ½ limão",
+          "4 ramos de hortelã",
+          "2 ramos de salsinha fresca",
+          "½ colher (chá) de cominho",
+          "½ colher (chá) de sal",
+          "Azeite a gosto",
+          "4 batatas",
+          "1 talo de alho-poró",
+          "1 xícara (chá) de leite",
+          "2 colheres (sopa) de manteiga",
+          "Noz-moscada ralada na hora a gosto",
           "Sal a gosto",
-          "Pimenta a gosto",
-          "70g de pasta de tomate (3 colheres de sopa)",
-          "1/2 colher (chá) de orégãos",
-          "1/2 colher (chá) de pimentão doce (páprica)",
-          "1/2 colher (chá) de alho em pó",
-          "8 mini bolas de mozarela (opcional)",
-          "Tomates cherry (para decorar, opcional)"
+          "½ cebola picada (para o molho)",
+          "1 dente de alho picado (para o molho)",
+          "½ colher (sopa) de azeite (para o molho)",
+          "½ xícara (chá) de água (para o molho)",
+          "Suco de ½ limão (para o molho)",
+          "1 colher (sopa) de manteiga (para o molho)",
+          "Sal e pimenta-do-reino a gosto (para o molho)",
+          "Ervilhas (opcional, para o molho)"
         ],
         "preparo": [
-          "Pré-aqueça o forno a 180°C. Corte os tomates cherry e a mozarela em metades, se for usar.",
-          "Numa tigela, misture os ovos, o azeite, sal, orégãos e pimenta.",
-          "Adicione a farinha, o fermento e a pasta de tomate, misturando bem até incorporar.",
-          "Incorpore o queijo parmesão e a mozarela ralada à massa.",
-          "Distribua a massa em formas de muffin, adicionando uma mini bola de mozarela no centro de cada um, se desejar.",
-          "Leve ao forno por 15 a 20 minutos, ou até dourarem e estarem cozidos."
+          "Pique a cebola, hortelã e salsinha finamente. Em uma tigela, misture a carne moída, cebola picada, farinha de rosca, raspas de limão, hortelã, salsinha, cominho e sal. Modele bolinhas.",
+          "Em uma frigideira, aqueça um fio de azeite e doure as almôndegas por todos os lados. Retire e reserve.",
+          "Descasque e cozinhe as batatas até ficarem macias. Fatie o alho-poró. Em uma panela, refogue o alho-poró na manteiga. Amasse as batatas, junte o leite, a manteiga com alho-poró, noz-moscada e sal. Misture até obter um purê cremoso.",
+          "Na mesma frigideira das almôndegas, refogue a cebola e o alho picados no azeite. Adicione a água e o suco de limão, raspando o fundo da panela. Tempere com sal e pimenta.",
+          "Volte as almôndegas para a frigideira com o molho e cozinhe por mais 5 minutos. Adicione a manteiga e mexa até o molho engrossar. Se desejar, adicione ervilhas.",
+          "Sirva as almôndegas com o molho de limão e o purê de alho-poró."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-08-26T11:32:29+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Almondega-com-molho-de-limao-e-pure-de-alho-poro",
+          "checked_at": "2026-08-27T20:56:42+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/17741884/pexels-photo-17741884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosos muffins caseiros de queijo com tomate e ervas, exibidos com cubos de queijo e tomates-cereja.",
-          "bank_id": "17741884",
-          "credit": "Fabiano Pimentel",
-          "query": "Muffins de Tomate e Mozarela"
+          "url": "https://images.pexels.com/photos/25315519/pexels-photo-25315519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosas almôndegas sobre purê de batatas com molho de creme e ervas.",
+          "bank_id": "25315519",
+          "credit": "Nadin Sh",
+          "query": "Almôndega com Molho de Limão e Purê de Alho-Poró"
         },
-        "id": "muffins-de-tomate-e-mozarela-f3210ac4"
+        "id": "almondega-com-molho-de-limao-e-pure-de-alho-poro-bf1cc6ee"
       },
       {
-        "nome": "Pera Cozida no Micro-ondas com Mel e Canela",
-        "curso": "sobremesa",
-        "tempo": "5 minutos",
-        "porque": "Uma sobremesa leve, rápida e fácil de preparar no micro-ondas, com poucos ingredientes e um sabor reconfortante.",
+        "nome": "Pão de Alho na Air Fryer da Rita Lobo",
+        "curso": "entrada",
+        "tempo": "8 minutos",
+        "porque": "Uma entrada clássica e saborosa, preparada de forma rápida e prática na air fryer, evitando fritura e garantindo uma casquinha crocante.",
         "tags": [
-          "fruta",
+          "entrada",
+          "airfryer",
           "rapido",
-          "micro_ondas",
-          "sobremesa_leve"
+          "pratico"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pera",
-          "½ colher (sopa) de mel",
-          "1 pitada de canela em pó"
+          "1 baguete (ou pão francês)",
+          "4 dentes de alho",
+          "4 colheres (sopa) de manteiga sem sal em temperatura ambiente",
+          "2 colheres (sopa) de salsinha fresca picada",
+          "Raspas de ½ limão (opcional)",
+          "2 colheres (sopa) de queijo parmesão ralado (opcional)",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Lave e seque a pera. Corte-a ao meio no sentido do comprimento, descarte o miolo e o cabo, e fatie cada metade em fatias finas (0,5 cm).",
-          "Numa tigela de vidro média, coloque as fatias de pera, o mel e a canela.",
-          "Cubra a tigela com um prato e leve ao micro-ondas em potência alta por 3 minutos.",
-          "Com cuidado, retire a tigela, misture delicadamente e volte ao micro-ondas por mais 2 minutos, até a pera ficar macia e formar uma caldinha.",
-          "Sirva a pera morna ou fria com a caldinha."
+          "Descasque e pique fino os dentes de alho. Lave, seque e pique fino a salsinha.",
+          "Em uma tigela, misture a manteiga em temperatura ambiente com o alho picado, a salsinha, as raspas de limão (se usar), o parmesão (se usar) e uma pitada de sal.",
+          "Corte a baguete em fatias, sem ir até o final, formando uma sanfona.",
+          "Espalhe a pasta de alho entre as fatias do pão.",
+          "Preaqueça a Air Fryer a 200 °C.",
+          "Coloque o pão na cesta da Air Fryer e asse por 8 minutos, ou até dourar e ficar crocante.",
+          "Sirva quente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/pera-cozida-no-micro-ondas-com-mel-e-canela",
-          "checked_at": "2026-08-26T11:32:30+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/pao-de-alho-na-air-fryer-da-rita-lobo",
+          "title": "Pão de alho na Air Fryer da Rita Lobo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-27T20:56:43+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/13848848/pexels-photo-13848848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Vista superior de uma pera cozida com molho de caramelo em uma mesa rústica.",
-          "bank_id": "13848848",
-          "credit": "Johanka Hubikova",
-          "query": "Pera Cozida no Micro-ondas com Mel e Canela"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4746-blog-pao-de-alho-na-af-9.webp",
+          "alt": "Pão de Alho na Air Fryer da Rita Lobo"
         },
-        "id": "pera-cozida-no-micro-ondas-com-mel-e-canela-b41514e9"
+        "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2"
+      },
+      {
+        "nome": "Pudim rápido de tapioca",
+        "curso": "sobremesa",
+        "tempo": "30 minutos",
+        "porque": "Uma sobremesa leve e versátil, com preparo muito rápido e ingredientes simples, ideal para finalizar a refeição sem complicação.",
+        "tags": [
+          "sobremesa",
+          "rapido",
+          "leve",
+          "facil"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 xícara (chá) de leite",
+          "2 colheres (sopa) de tapioca granulada",
+          "1 colher (sopa) de açúcar",
+          "Acompanhamento a gosto (doce de abóbora, geleia, frutas frescas)"
+        ],
+        "preparo": [
+          "Em uma panela, coloque o leite e o açúcar. Leve ao fogo médio.",
+          "Assim que começarem a subir as primeiras bolhas, diminua o fogo e junte a tapioca granulada.",
+          "Mexa por cerca de 2 minutos, até a tapioca engrossar e ficar transparente.",
+          "Transfira o creme ainda quente para 2 potinhos individuais.",
+          "Leve para firmar na geladeira por cerca de 20 minutos.",
+          "Sirva gelado, acompanhado de doce de abóbora, geleia ou frutas frescas."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+          "title": "Pudim rápido de tapioca - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-08-27T20:56:43+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
+          "alt": "Pudim rápido de tapioca"
+        },
+        "id": "pudim-rapido-de-tapioca-484a6aab"
       }
     ]
   },
