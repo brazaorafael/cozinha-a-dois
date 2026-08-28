@@ -1,203 +1,186 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-27T17:54:59-03:00",
+  "gerado_em": "2026-08-28T18:19:41-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "27/08/2026",
-    "dia_semana": "quinta",
+    "data": "28/08/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Bife à Parmegiana na Air Fryer",
+        "nome": "Carne de Panela com Mandioca e Tomate",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Um clássico da culinária brasileira, adaptado para a airfryer ou forno para evitar fritura, tornando-o mais prático e leve. Ótima opção para um jantar saboroso, prioriza carne vermelha e é fácil de fazer.",
+        "tempo": "30 minutos (panela de pressão)",
+        "porque": "Uma receita de carne vermelha saborosa e reconfortante, preparada na panela de pressão para agilizar o processo. A mandioca e o tomate garantem um prato equilibrado e com potencial para sobras, ideal para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "airfryer",
-          "prato_classico",
-          "rapido"
+          "panela_de_pressao",
+          "legumes",
+          "prato_unico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 bifes de contrafilé (cerca de 150 g cada)",
-          "1 ovo",
-          "1 xícara (chá) de farinha de rosca",
-          "½ xícara (chá) de queijo muçarela ralado",
-          "½ xícara (chá) de molho de tomate",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Azeite para untar"
+          "500g de acém em cubos",
+          "1 cebola picada",
+          "3 dentes de alho amassados",
+          "2 tomates picados",
+          "500g de mandioca em pedaços",
+          "1 folha de louro",
+          "Sal e pimenta-do-reino a gosto",
+          "Cheiro-verde picado a gosto",
+          "Óleo para refogar"
         ],
         "preparo": [
-          "Tempere os bifes com sal e pimenta dos dois lados.",
-          "Em um prato fundo, bata o ovo. Em outro prato, coloque a farinha de rosca.",
-          "Passe cada bife no ovo batido e depois na farinha de rosca, cobrindo bem.",
-          "Preaqueça a Air Fryer a 200 °C. Coloque os bifes na cesta e asse por 8 minutos, virando na metade do tempo, até dourar.",
-          "Retire os bifes, cubra com molho de tomate e queijo muçarela.",
-          "Volte os bifes à Air Fryer e gratine por 5 minutos a 200 °C, até o queijo derreter e dourar.",
-          "Sirva imediatamente."
+          "Em uma panela de pressão, aqueça o óleo e doure a carne em cubos.",
+          "Adicione a cebola e o alho, refogando até ficarem macios.",
+          "Acrescente os tomates, a folha de louro, sal e pimenta. Cozinhe por alguns minutos.",
+          "Junte a mandioca e cubra com água. Tampe a panela e cozinhe por 20 minutos após pegar pressão.",
+          "Desligue o fogo, espere a pressão sair e verifique o cozimento da mandioca e da carne.",
+          "Se necessário, cozinhe por mais alguns minutos sem pressão para engrossar o caldo.",
+          "Finalize com cheiro-verde picado antes de servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bife-a-parmegiana-na-Air-Fryer-Oven-da-Rita-Lobo",
-          "checked_at": "2026-08-27T20:56:41+00:00"
+          "suggested_url": "https://guiadacozinha.com.br/receita/carne-de-panela-com-mandioca-e-tomate-para-um-almoco-rapido/",
+          "checked_at": "2026-08-28T21:21:01+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/31064273/pexels-photo-31064273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Saboroso frango à parmegiana com macarrão e ingredientes frescos em uma mesa rústica.",
-          "bank_id": "31064273",
-          "credit": "Mahmoud Salem",
-          "query": "Bife à Parmegiana na Air Fryer"
+          "url": "https://images.pexels.com/photos/4768954/pexels-photo-4768954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato colorido de legumes assados e carne em uma panela de cerâmica azul, ideal para jantares em família.",
+          "bank_id": "4768954",
+          "credit": "Denys Gromov",
+          "query": "Carne de Panela com Mandioca e Tomate"
         },
-        "id": "bife-a-parmegiana-na-air-fryer-60b7b38f"
+        "id": "carne-de-panela-com-mandioca-e-tomate-52b8b0e0"
       },
       {
-        "nome": "Almôndega com Molho de Limão e Purê de Alho-Poró",
+        "nome": "Bife Grelhado com Vinagrete",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Uma versão inovadora e refrescante das almôndegas, com um molho diferente e um acompanhamento de purê de alho-poró que adiciona vegetais e sabor. Prioriza carne vermelha e oferece equilíbrio.",
+        "tempo": "20 minutos",
+        "porque": "Uma opção de carne vermelha rápida e prática, perfeita para um jantar leve. O vinagrete fresco adiciona um toque de acidez e vegetais, equilibrando o prato e realçando o sabor do bife grelhado.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "equilibrado",
-          "saboroso"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "200 g de patinho moído",
-          "½ cebola",
-          "2 colheres (sopa) de farinha de rosca",
-          "Raspas de ½ limão",
-          "4 ramos de hortelã",
-          "2 ramos de salsinha fresca",
-          "½ colher (chá) de cominho",
-          "½ colher (chá) de sal",
-          "Azeite a gosto",
-          "4 batatas",
-          "1 talo de alho-poró",
-          "1 xícara (chá) de leite",
-          "2 colheres (sopa) de manteiga",
-          "Noz-moscada ralada na hora a gosto",
-          "Sal a gosto",
-          "½ cebola picada (para o molho)",
-          "1 dente de alho picado (para o molho)",
-          "½ colher (sopa) de azeite (para o molho)",
-          "½ xícara (chá) de água (para o molho)",
-          "Suco de ½ limão (para o molho)",
-          "1 colher (sopa) de manteiga (para o molho)",
-          "Sal e pimenta-do-reino a gosto (para o molho)",
-          "Ervilhas (opcional, para o molho)"
-        ],
-        "preparo": [
-          "Pique a cebola, hortelã e salsinha finamente. Em uma tigela, misture a carne moída, cebola picada, farinha de rosca, raspas de limão, hortelã, salsinha, cominho e sal. Modele bolinhas.",
-          "Em uma frigideira, aqueça um fio de azeite e doure as almôndegas por todos os lados. Retire e reserve.",
-          "Descasque e cozinhe as batatas até ficarem macias. Fatie o alho-poró. Em uma panela, refogue o alho-poró na manteiga. Amasse as batatas, junte o leite, a manteiga com alho-poró, noz-moscada e sal. Misture até obter um purê cremoso.",
-          "Na mesma frigideira das almôndegas, refogue a cebola e o alho picados no azeite. Adicione a água e o suco de limão, raspando o fundo da panela. Tempere com sal e pimenta.",
-          "Volte as almôndegas para a frigideira com o molho e cozinhe por mais 5 minutos. Adicione a manteiga e mexa até o molho engrossar. Se desejar, adicione ervilhas.",
-          "Sirva as almôndegas com o molho de limão e o purê de alho-poró."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Almondega-com-molho-de-limao-e-pure-de-alho-poro",
-          "checked_at": "2026-08-27T20:56:42+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/25315519/pexels-photo-25315519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosas almôndegas sobre purê de batatas com molho de creme e ervas.",
-          "bank_id": "25315519",
-          "credit": "Nadin Sh",
-          "query": "Almôndega com Molho de Limão e Purê de Alho-Poró"
-        },
-        "id": "almondega-com-molho-de-limao-e-pure-de-alho-poro-bf1cc6ee"
-      },
-      {
-        "nome": "Pão de Alho na Air Fryer da Rita Lobo",
-        "curso": "entrada",
-        "tempo": "8 minutos",
-        "porque": "Uma entrada clássica e saborosa, preparada de forma rápida e prática na air fryer, evitando fritura e garantindo uma casquinha crocante.",
-        "tags": [
-          "entrada",
-          "airfryer",
+          "grelhado",
           "rapido",
-          "pratico"
+          "equilibrado"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 baguete (ou pão francês)",
-          "4 dentes de alho",
-          "4 colheres (sopa) de manteiga sem sal em temperatura ambiente",
-          "2 colheres (sopa) de salsinha fresca picada",
-          "Raspas de ½ limão (opcional)",
-          "2 colheres (sopa) de queijo parmesão ralado (opcional)",
-          "Sal a gosto"
+          "2 bifes de contrafilé",
+          "1 colher (chá) de azeite",
+          "Tempero para carnes caseiro a gosto",
+          "Para o vinagrete:",
+          "2 tomates em cubos pequenos",
+          "½ cebola-roxa picada fino",
+          "3 colheres (sopa) de azeite",
+          "1 colher (sopa) de vinagre",
+          "Salsinha picada a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Descasque e pique fino os dentes de alho. Lave, seque e pique fino a salsinha.",
-          "Em uma tigela, misture a manteiga em temperatura ambiente com o alho picado, a salsinha, as raspas de limão (se usar), o parmesão (se usar) e uma pitada de sal.",
-          "Corte a baguete em fatias, sem ir até o final, formando uma sanfona.",
-          "Espalhe a pasta de alho entre as fatias do pão.",
-          "Preaqueça a Air Fryer a 200 °C.",
-          "Coloque o pão na cesta da Air Fryer e asse por 8 minutos, ou até dourar e ficar crocante.",
-          "Sirva quente."
+          "Prepare o vinagrete: Numa tigela, misture os tomates, cebola-roxa, azeite, vinagre, salsinha, sal e pimenta-do-reino. Reserve.",
+          "Retire os bifes da geladeira e tempere com o tempero caseiro a gosto.",
+          "Leve uma frigideira grande ao fogo alto e regue com o azeite.",
+          "Quando a frigideira aquecer, coloque os bifes e deixe dourar por cerca de 2 minutos de cada lado.",
+          "Sirva os bifes imediatamente acompanhados do vinagrete."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/pao-de-alho-na-air-fryer-da-rita-lobo",
-          "title": "Pão de alho na Air Fryer da Rita Lobo - Panelinha",
+          "url": "https://panelinha.com.br/receita/bife-grelhado-com-vinagrete",
+          "title": "Bife grelhado com vinagrete - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-27T20:56:43+00:00"
+          "checked_at": "2026-08-28T21:21:02+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4746-blog-pao-de-alho-na-af-9.webp",
-          "alt": "Pão de Alho na Air Fryer da Rita Lobo"
+          "url": "https://i.panelinha.com.br/i1/bk-6334-bife-grelhado-com-vinagrete.webp",
+          "alt": "Bife Grelhado com Vinagrete"
         },
-        "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2"
+        "id": "bife-grelhado-com-vinagrete-f66a1291"
       },
       {
-        "nome": "Pudim rápido de tapioca",
+        "nome": "Queijo Coalho com Mel",
+        "curso": "entrada",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada rápida e fácil de preparar, combinando o salgado do queijo coalho com o adocicado do mel, ideal para um casal jovem. Pode ser feito na frigideira ou grelha.",
+        "tags": [
+          "entrada",
+          "queijo",
+          "agridoce",
+          "rapido"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "6 espetinhos de queijo coalho",
+          "1/2 xícara (chá) de mel"
+        ],
+        "preparo": [
+          "Aqueça uma frigideira ou grelha em fogo médio.",
+          "Coloque os espetinhos de queijo coalho e doure por cerca de 5 minutos de cada lado.",
+          "Pincele o mel sobre o queijo coalho enquanto doura.",
+          "Retire e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://guiadacozinha.com.br/receita/queijo-coalho-com-mel-faca-essa-delicia-em-so-20-minutos/",
+          "checked_at": "2026-08-28T21:21:03+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/16241223/pexels-photo-16241223.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um close de uma bandeja de madeira com queijos variados, azeitonas, nozes e mel.",
+          "bank_id": "16241223",
+          "credit": "Oleskandra Biliak",
+          "query": "Queijo Coalho com Mel"
+        },
+        "id": "queijo-coalho-com-mel-574657b9"
+      },
+      {
+        "nome": "Bolo de Caneca (de Micro-ondas)",
         "curso": "sobremesa",
-        "tempo": "30 minutos",
-        "porque": "Uma sobremesa leve e versátil, com preparo muito rápido e ingredientes simples, ideal para finalizar a refeição sem complicação.",
+        "tempo": "5 minutos",
+        "porque": "Uma sobremesa individual, rápida e prática, perfeita para matar a vontade de doce sem complicação, pronta em poucos minutos no micro-ondas.",
         "tags": [
           "sobremesa",
           "rapido",
-          "leve",
-          "facil"
+          "micro_ondas",
+          "individual"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 xícara (chá) de leite",
-          "2 colheres (sopa) de tapioca granulada",
-          "1 colher (sopa) de açúcar",
-          "Acompanhamento a gosto (doce de abóbora, geleia, frutas frescas)"
+          "4 colheres (sopa) de farinha de trigo",
+          "4 colheres (sopa) de açúcar",
+          "2 colheres (sopa) de chocolate em pó (ou achocolatado)",
+          "1 ovo",
+          "3 colheres (sopa) de leite",
+          "3 colheres (sopa) de óleo",
+          "1/2 colher (chá) de fermento em pó"
         ],
         "preparo": [
-          "Em uma panela, coloque o leite e o açúcar. Leve ao fogo médio.",
-          "Assim que começarem a subir as primeiras bolhas, diminua o fogo e junte a tapioca granulada.",
-          "Mexa por cerca de 2 minutos, até a tapioca engrossar e ficar transparente.",
-          "Transfira o creme ainda quente para 2 potinhos individuais.",
-          "Leve para firmar na geladeira por cerca de 20 minutos.",
-          "Sirva gelado, acompanhado de doce de abóbora, geleia ou frutas frescas."
+          "Em uma caneca grande (com capacidade mínima de 300 ml), misture a farinha de trigo, o açúcar e o chocolate em pó.",
+          "Adicione o ovo, o leite e o óleo à mistura, mexendo bem até obter uma massa homogênea.",
+          "Por último, incorpore o fermento em pó delicadamente.",
+          "Leve a caneca ao micro-ondas em potência alta por cerca de 3 minutos. O tempo pode variar conforme a potência do aparelho.",
+          "Deixe amornar por alguns minutos antes de consumir."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
-          "title": "Pudim rápido de tapioca - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-27T20:56:43+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/bolo-de-caneca-de-micro-ondas",
+          "checked_at": "2026-08-28T21:21:04+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
-          "alt": "Pudim rápido de tapioca"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/10849887/pexels-photo-10849887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa fatia de bolo de chocolate servida com café em uma mesa de madeira rústica, perfeita para amantes de sobremesas.",
+          "bank_id": "10849887",
+          "credit": "Lais  Queiroz",
+          "query": "Bolo de Caneca (de Micro-ondas)"
         },
-        "id": "pudim-rapido-de-tapioca-484a6aab"
+        "id": "bolo-de-caneca-de-micro-ondas-dedd18e3"
       }
     ]
   },

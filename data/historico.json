@@ -2350,5 +2350,41 @@
     ],
     "data": "27/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-com-mandioca-e-tomate-52b8b0e0",
+    "titulo": "Carne de Panela com Mandioca e Tomate",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "legumes",
+      "prato_unico"
+    ],
+    "data": "28/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "queijo-coalho-com-mel-574657b9",
+    "titulo": "Queijo Coalho com Mel",
+    "tags": [
+      "entrada",
+      "queijo",
+      "agridoce",
+      "rapido"
+    ],
+    "data": "28/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bolo-de-caneca-de-micro-ondas-dedd18e3",
+    "titulo": "Bolo de Caneca (de Micro-ondas)",
+    "tags": [
+      "sobremesa",
+      "rapido",
+      "micro_ondas",
+      "individual"
+    ],
+    "data": "28/08/2026",
+    "fonte_status": "unverified"
   }
 ]
