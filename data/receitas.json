@@ -1,186 +1,185 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-28T18:19:41-03:00",
+  "gerado_em": "2026-08-29T12:30:48-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "28/08/2026",
-    "dia_semana": "sexta",
+    "data": "29/08/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Carne de Panela com Mandioca e Tomate",
+        "nome": "Iscas de Carne com Molho Cremoso de Mostarda",
         "curso": "principal",
-        "tempo": "30 minutos (panela de pressão)",
-        "porque": "Uma receita de carne vermelha saborosa e reconfortante, preparada na panela de pressão para agilizar o processo. A mandioca e o tomate garantem um prato equilibrado e com potencial para sobras, ideal para o almoço do dia seguinte.",
+        "tempo": "30 minutos",
+        "porque": "Receita prática e rápida (refogada), com carne vermelha e um molho saboroso. Pode ser acompanhada de arroz e uma salada verde para um jantar equilibrado para dois, com potencial de sobras. Prioriza proteína e vegetais.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "legumes",
-          "prato_unico"
+          "refogado",
+          "rapido",
+          "proteina"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de acém em cubos",
-          "1 cebola picada",
-          "3 dentes de alho amassados",
-          "2 tomates picados",
-          "500g de mandioca em pedaços",
-          "1 folha de louro",
-          "Sal e pimenta-do-reino a gosto",
-          "Cheiro-verde picado a gosto",
-          "Óleo para refogar"
+          "600 g de alcatra em iscas",
+          "1 cebola média picada",
+          "2 dentes de alho picados",
+          "1 colher (sopa) de azeite",
+          "1 xícara (chá) de creme de leite fresco",
+          "2 colheres (sopa) de mostarda de Dijon",
+          "sal e pimenta-do-reino moída na hora a gosto",
+          "salsinha picada a gosto para finalizar"
         ],
         "preparo": [
-          "Em uma panela de pressão, aqueça o óleo e doure a carne em cubos.",
-          "Adicione a cebola e o alho, refogando até ficarem macios.",
-          "Acrescente os tomates, a folha de louro, sal e pimenta. Cozinhe por alguns minutos.",
-          "Junte a mandioca e cubra com água. Tampe a panela e cozinhe por 20 minutos após pegar pressão.",
-          "Desligue o fogo, espere a pressão sair e verifique o cozimento da mandioca e da carne.",
-          "Se necessário, cozinhe por mais alguns minutos sem pressão para engrossar o caldo.",
-          "Finalize com cheiro-verde picado antes de servir."
+          "Tempere as iscas de carne com sal e pimenta-do-reino a gosto.",
+          "Em uma frigideira grande, aqueça o azeite em fogo alto. Doure as iscas de carne em etapas para não juntar água. Retire e reserve.",
+          "Na mesma frigideira, refogue a cebola picada até murchar, adicione o alho e refogue por mais 1 minuto.",
+          "Volte a carne para a frigideira, adicione o creme de leite fresco e a mostarda de Dijon. Misture bem.",
+          "Cozinhe por alguns minutos, mexendo sempre, até o molho encorpar levemente.",
+          "Finalize com salsinha picada e sirva em seguida."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://guiadacozinha.com.br/receita/carne-de-panela-com-mandioca-e-tomate-para-um-almoco-rapido/",
-          "checked_at": "2026-08-28T21:21:01+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Iscas-de-carne-com-molho-cremoso-de-mostarda",
+          "checked_at": "2026-08-29T15:32:07+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/4768954/pexels-photo-4768954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato colorido de legumes assados e carne em uma panela de cerâmica azul, ideal para jantares em família.",
-          "bank_id": "4768954",
-          "credit": "Denys Gromov",
-          "query": "Carne de Panela com Mandioca e Tomate"
+          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
+          "bank_id": "33673991",
+          "credit": "pedro furtado",
+          "query": "Iscas de Carne com Molho Cremoso de Mostarda"
         },
-        "id": "carne-de-panela-com-mandioca-e-tomate-52b8b0e0"
+        "id": "iscas-de-carne-com-molho-cremoso-de-mostarda-50d61eec"
       },
       {
-        "nome": "Bife Grelhado com Vinagrete",
+        "nome": "Cubos de Carne Acebolados com Batata Doce na Airfryer",
         "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Uma opção de carne vermelha rápida e prática, perfeita para um jantar leve. O vinagrete fresco adiciona um toque de acidez e vegetais, equilibrando o prato e realçando o sabor do bife grelhado.",
+        "tempo": "30 minutos",
+        "porque": "Receita que utiliza a airfryer, priorizando pouca fritura e praticidade. Combina carne vermelha (cubos) com batata doce e cebola, oferecendo um prato equilibrado em proteína e carboidrato, além de ser rápido de fazer.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
+          "airfryer",
+          "saudavel",
+          "rapido"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500 g de carne bovina em cubos (alcatra, patinho ou contrafilé)",
+          "2 batatas doces médias em cubos",
+          "1 cebola média em pétalas",
+          "2 colheres (sopa) de azeite",
+          "1 colher (chá) de páprica doce",
+          "sal e pimenta-do-reino a gosto"
+        ],
+        "preparo": [
+          "Pré-aqueça a airfryer a 200°C por 5 minutos.",
+          "Em uma tigela, tempere a batata doce com 1 colher de azeite, sal, pimenta e metade da páprica. Misture bem.",
+          "Coloque a batata doce na cesta da airfryer e asse por 15 minutos, mexendo na metade do tempo para dourar por igual.",
+          "Enquanto isso, tempere a carne com o azeite restante, sal, pimenta e a páprica restante. Adicione as pétalas de cebola e misture.",
+          "Após os 15 minutos da batata, adicione a carne e a cebola à cesta da airfryer e misture com cuidado.",
+          "Asse por mais 10-15 minutos, ou até a carne dourar e a batata ficar macia, mexendo ocasionalmente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://receitas.globo.com/receitas/cubos-de-carne-acebolados-com-batata-doce-na-airfryer-0000.ghtml",
+          "checked_at": "2026-08-29T15:32:08+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/20226309/pexels-photo-20226309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma mistura saborosa de carne grelhada, batata-doce, pimentões verdes e salsa fresca em um prato.",
+          "bank_id": "20226309",
+          "credit": "Doğu Tuncer",
+          "query": "Cubos de Carne Acebolados com Batata Doce na Airfryer"
+        },
+        "id": "cubos-de-carne-acebolados-com-batata-doce-na-air-0906e60f"
+      },
+      {
+        "nome": "Patê de Atum com Iogurte",
+        "curso": "entrada",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada leve, proteica e rápida de preparar, ideal para abrir o apetite. Utiliza ingredientes simples e acessíveis.",
+        "tags": [
+          "entrada",
           "rapido",
-          "equilibrado"
+          "leve",
+          "proteina"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 bifes de contrafilé",
-          "1 colher (chá) de azeite",
-          "Tempero para carnes caseiro a gosto",
-          "Para o vinagrete:",
-          "2 tomates em cubos pequenos",
-          "½ cebola-roxa picada fino",
-          "3 colheres (sopa) de azeite",
-          "1 colher (sopa) de vinagre",
-          "Salsinha picada a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "1 lata de atum sólido em água (escorrido)",
+          "1 pote de iogurte natural (170g)",
+          "½ cebola roxa pequena picada finamente",
+          "2 colheres (sopa) de azeite",
+          "suco de ½ limão",
+          "sal e pimenta-do-reino moída na hora a gosto",
+          "salsinha picada a gosto"
         ],
         "preparo": [
-          "Prepare o vinagrete: Numa tigela, misture os tomates, cebola-roxa, azeite, vinagre, salsinha, sal e pimenta-do-reino. Reserve.",
-          "Retire os bifes da geladeira e tempere com o tempero caseiro a gosto.",
-          "Leve uma frigideira grande ao fogo alto e regue com o azeite.",
-          "Quando a frigideira aquecer, coloque os bifes e deixe dourar por cerca de 2 minutos de cada lado.",
-          "Sirva os bifes imediatamente acompanhados do vinagrete."
+          "Em uma tigela, desfaça o atum com um garfo.",
+          "Adicione o iogurte natural, a cebola roxa picada, o azeite e o suco de limão.",
+          "Tempere com sal e pimenta-do-reino a gosto.",
+          "Misture bem todos os ingredientes até obter uma pasta homogênea.",
+          "Finalize com salsinha picada e sirva imediatamente com torradas ou pães."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/bife-grelhado-com-vinagrete",
-          "title": "Bife grelhado com vinagrete - Panelinha",
+          "url": "https://panelinha.com.br/receita/pate-de-atum-com-iogurte",
+          "title": "Patê de atum com iogurte - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-28T21:21:02+00:00"
+          "checked_at": "2026-08-29T15:32:09+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6334-bife-grelhado-com-vinagrete.webp",
-          "alt": "Bife Grelhado com Vinagrete"
+          "url": "https://i.panelinha.com.br/i1/bk-9449-blog-pate-de-atum-com-iogurte.webp",
+          "alt": "Patê de Atum com Iogurte"
         },
-        "id": "bife-grelhado-com-vinagrete-f66a1291"
+        "id": "pate-de-atum-com-iogurte-ca024684"
       },
       {
-        "nome": "Queijo Coalho com Mel",
-        "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada rápida e fácil de preparar, combinando o salgado do queijo coalho com o adocicado do mel, ideal para um casal jovem. Pode ser feito na frigideira ou grelha.",
-        "tags": [
-          "entrada",
-          "queijo",
-          "agridoce",
-          "rapido"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "6 espetinhos de queijo coalho",
-          "1/2 xícara (chá) de mel"
-        ],
-        "preparo": [
-          "Aqueça uma frigideira ou grelha em fogo médio.",
-          "Coloque os espetinhos de queijo coalho e doure por cerca de 5 minutos de cada lado.",
-          "Pincele o mel sobre o queijo coalho enquanto doura.",
-          "Retire e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://guiadacozinha.com.br/receita/queijo-coalho-com-mel-faca-essa-delicia-em-so-20-minutos/",
-          "checked_at": "2026-08-28T21:21:03+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/16241223/pexels-photo-16241223.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um close de uma bandeja de madeira com queijos variados, azeitonas, nozes e mel.",
-          "bank_id": "16241223",
-          "credit": "Oleskandra Biliak",
-          "query": "Queijo Coalho com Mel"
-        },
-        "id": "queijo-coalho-com-mel-574657b9"
-      },
-      {
-        "nome": "Bolo de Caneca (de Micro-ondas)",
+        "nome": "Mousse de Maracujá com Suco",
         "curso": "sobremesa",
-        "tempo": "5 minutos",
-        "porque": "Uma sobremesa individual, rápida e prática, perfeita para matar a vontade de doce sem complicação, pronta em poucos minutos no micro-ondas.",
+        "tempo": "40 minutos",
+        "porque": "Uma sobremesa leve, refrescante e muito rápida de preparar, ideal para finalizar o jantar. O sabor cítrico do maracujá é sempre um sucesso.",
         "tags": [
           "sobremesa",
           "rapido",
-          "micro_ondas",
-          "individual"
+          "citrico",
+          "refrescante"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "4 colheres (sopa) de farinha de trigo",
-          "4 colheres (sopa) de açúcar",
-          "2 colheres (sopa) de chocolate em pó (ou achocolatado)",
-          "1 ovo",
-          "3 colheres (sopa) de leite",
-          "3 colheres (sopa) de óleo",
-          "1/2 colher (chá) de fermento em pó"
+          "1 lata de Leite MOÇA® (leite condensado)",
+          "1 lata de NESTLÉ® Creme de Leite",
+          "1 xícara (chá) de suco de maracujá concentrado",
+          "Para a calda (opcional): polpa de 1 maracujá, 2 colheres (sopa) de açúcar"
         ],
         "preparo": [
-          "Em uma caneca grande (com capacidade mínima de 300 ml), misture a farinha de trigo, o açúcar e o chocolate em pó.",
-          "Adicione o ovo, o leite e o óleo à mistura, mexendo bem até obter uma massa homogênea.",
-          "Por último, incorpore o fermento em pó delicadamente.",
-          "Leve a caneca ao micro-ondas em potência alta por cerca de 3 minutos. O tempo pode variar conforme a potência do aparelho.",
-          "Deixe amornar por alguns minutos antes de consumir."
+          "No liquidificador, bata o Leite MOÇA®, o NESTLÉ® Creme de Leite e o suco de maracujá concentrado até obter um creme homogêneo.",
+          "Despeje a mousse em um refratário médio ou em taças individuais.",
+          "Leve à geladeira por cerca de 30 minutos, ou até que a mousse esteja firme.",
+          "Para a calda (opcional): em uma panela pequena, misture a polpa do maracujá com o açúcar.",
+          "Leve ao fogo baixo por cerca de 5 minutos, mexendo ocasionalmente, até a calda encorpar levemente. Deixe esfriar.",
+          "Sirva a mousse gelada, com a calda de maracujá por cima, se desejar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/bolo-de-caneca-de-micro-ondas",
-          "checked_at": "2026-08-28T21:21:04+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-maracuja-com-suco",
+          "checked_at": "2026-08-29T15:32:10+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/10849887/pexels-photo-10849887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa fatia de bolo de chocolate servida com café em uma mesa de madeira rústica, perfeita para amantes de sobremesas.",
-          "bank_id": "10849887",
-          "credit": "Lais  Queiroz",
-          "query": "Bolo de Caneca (de Micro-ondas)"
+          "url": "https://images.pexels.com/photos/7195236/pexels-photo-7195236.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um delicioso maracujá cortado ao meio em um prato com bolinhas contra um fundo vermelho.",
+          "bank_id": "7195236",
+          "credit": "SHVETS production",
+          "query": "Mousse de Maracujá com Suco"
         },
-        "id": "bolo-de-caneca-de-micro-ondas-dedd18e3"
+        "id": "mousse-de-maracuja-com-suco-66c4a8f1"
       }
     ]
   },

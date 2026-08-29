@@ -2386,5 +2386,53 @@
     ],
     "data": "28/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "iscas-de-carne-com-molho-cremoso-de-mostarda-50d61eec",
+    "titulo": "Iscas de Carne com Molho Cremoso de Mostarda",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "proteina"
+    ],
+    "data": "29/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cubos-de-carne-acebolados-com-batata-doce-na-air-0906e60f",
+    "titulo": "Cubos de Carne Acebolados com Batata Doce na Airfryer",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "29/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pate-de-atum-com-iogurte-ca024684",
+    "titulo": "Patê de Atum com Iogurte",
+    "tags": [
+      "entrada",
+      "rapido",
+      "leve",
+      "proteina"
+    ],
+    "data": "29/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "mousse-de-maracuja-com-suco-66c4a8f1",
+    "titulo": "Mousse de Maracujá com Suco",
+    "tags": [
+      "sobremesa",
+      "rapido",
+      "citrico",
+      "refrescante"
+    ],
+    "data": "29/08/2026",
+    "fonte_status": "unverified"
   }
 ]
