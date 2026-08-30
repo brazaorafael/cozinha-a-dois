@@ -1,185 +1,198 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-29T12:30:48-03:00",
+  "gerado_em": "2026-08-30T12:10:58-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "29/08/2026",
-    "dia_semana": "sábado",
+    "data": "30/08/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Iscas de Carne com Molho Cremoso de Mostarda",
+        "nome": "Bife Grelhado com Batatas Rústicas e Molho Chimichurri",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Receita prática e rápida (refogada), com carne vermelha e um molho saboroso. Pode ser acompanhada de arroz e uma salada verde para um jantar equilibrado para dois, com potencial de sobras. Prioriza proteína e vegetais.",
+        "tempo": "35 minutos",
+        "porque": "Uma opção clássica de carne vermelha, rápida de preparar na grelha ou frigideira. As batatas rústicas, feitas no forno ou airfryer, e o molho chimichurri fresco complementam o prato, tornando-o equilibrado e saboroso. Rende bem para o jantar do casal e uma sobra para o almoço.",
         "tags": [
           "carne_vermelha",
-          "refogado",
+          "grelhado",
+          "forno",
+          "vegetais",
           "rapido",
-          "proteina"
+          "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "600 g de alcatra em iscas",
-          "1 cebola média picada",
-          "2 dentes de alho picados",
+          "2 bifes de contrafilé ou alcatra (cerca de 200g cada)",
+          "Sal e pimenta-do-reino a gosto",
           "1 colher (sopa) de azeite",
-          "1 xícara (chá) de creme de leite fresco",
-          "2 colheres (sopa) de mostarda de Dijon",
-          "sal e pimenta-do-reino moída na hora a gosto",
-          "salsinha picada a gosto para finalizar"
+          "2 batatas médias (tipo asterix ou inglesa)",
+          "1 colher (sopa) de azeite para as batatas",
+          "Sal, pimenta-do-reino e páprica defumada a gosto para as batatas",
+          "1/2 xícara (chá) de salsinha picada",
+          "2 dentes de alho picados",
+          "1/4 xícara (chá) de azeite extra virgem",
+          "2 colheres (sopa) de vinagre de vinho tinto",
+          "1 colher (chá) de orégano seco",
+          "1/2 colher (chá) de pimenta calabresa (opcional)",
+          "Sal a gosto para o chimichurri"
         ],
         "preparo": [
-          "Tempere as iscas de carne com sal e pimenta-do-reino a gosto.",
-          "Em uma frigideira grande, aqueça o azeite em fogo alto. Doure as iscas de carne em etapas para não juntar água. Retire e reserve.",
-          "Na mesma frigideira, refogue a cebola picada até murchar, adicione o alho e refogue por mais 1 minuto.",
-          "Volte a carne para a frigideira, adicione o creme de leite fresco e a mostarda de Dijon. Misture bem.",
-          "Cozinhe por alguns minutos, mexendo sempre, até o molho encorpar levemente.",
-          "Finalize com salsinha picada e sirva em seguida."
+          "Lave e corte as batatas em gomos, sem descascar. Tempere com azeite, sal, pimenta e páprica. Leve ao forno pré-aquecido a 200°C ou airfryer por 20-25 minutos, virando na metade do tempo, até ficarem douradas e macias.",
+          "Enquanto as batatas assam, prepare o chimichurri: em uma tigela, misture a salsinha, alho, orégano, pimenta calabresa (se usar), azeite, vinagre e sal. Reserve.",
+          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
+          "Aqueça uma frigideira ou grelha em fogo alto com um fio de azeite. Grelhe os bifes por 3-4 minutos de cada lado para um ponto malpassado, ou até o ponto desejado.",
+          "Retire os bifes da frigideira e deixe-os descansar por alguns minutos antes de fatiar (se desejar).",
+          "Sirva os bifes acompanhados das batatas rústicas e regue com o molho chimichurri."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Iscas-de-carne-com-molho-cremoso-de-mostarda",
-          "checked_at": "2026-08-29T15:32:07+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bife-grelhado",
+          "checked_at": "2026-08-30T15:13:05+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
-          "bank_id": "33673991",
-          "credit": "pedro furtado",
-          "query": "Iscas de Carne com Molho Cremoso de Mostarda"
+          "url": "https://images.pexels.com/photos/11089568/pexels-photo-11089568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Bife grelhado chiando com chimichurri, servido com batatas assadas e tomates frescos em uma tábua de ardósia.",
+          "bank_id": "11089568",
+          "credit": "Анатолий Андреев",
+          "query": "Bife Grelhado com Batatas Rústicas e Molho Chimichurri"
         },
-        "id": "iscas-de-carne-com-molho-cremoso-de-mostarda-50d61eec"
+        "id": "bife-grelhado-com-batatas-rusticas-e-molho-chimi-63b5614c"
       },
       {
-        "nome": "Cubos de Carne Acebolados com Batata Doce na Airfryer",
+        "nome": "Espetinhos de Carne com Legumes",
         "curso": "principal",
         "tempo": "30 minutos",
-        "porque": "Receita que utiliza a airfryer, priorizando pouca fritura e praticidade. Combina carne vermelha (cubos) com batata doce e cebola, oferecendo um prato equilibrado em proteína e carboidrato, além de ser rápido de fazer.",
+        "porque": "Uma refeição completa e colorida, perfeita para um jantar prático. A carne vermelha em cubos, intercalada com vegetais frescos, é assada no forno ou grelhada, garantindo um prato equilibrado, saboroso e com fácil montagem. Ideal para sobras.",
         "tags": [
           "carne_vermelha",
-          "airfryer",
-          "saudavel",
-          "rapido"
+          "vegetais",
+          "grelhado",
+          "forno",
+          "rapido",
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de carne bovina em cubos (alcatra, patinho ou contrafilé)",
-          "2 batatas doces médias em cubos",
-          "1 cebola média em pétalas",
-          "2 colheres (sopa) de azeite",
-          "1 colher (chá) de páprica doce",
-          "sal e pimenta-do-reino a gosto"
+          "300 g de carne bovina (alcatra ou patinho) em cubos de 3 cm",
+          "1 cebola média em pedaços",
+          "1 pimentão verde em pedaços",
+          "1 pimentão vermelho em pedaços",
+          "1 abobrinha pequena em rodelas grossas",
+          "12 tomates-cereja",
+          "1 colher (sopa) de azeite",
+          "Sal e pimenta-do-reino a gosto",
+          "Espetinhos de madeira ou metal"
         ],
         "preparo": [
-          "Pré-aqueça a airfryer a 200°C por 5 minutos.",
-          "Em uma tigela, tempere a batata doce com 1 colher de azeite, sal, pimenta e metade da páprica. Misture bem.",
-          "Coloque a batata doce na cesta da airfryer e asse por 15 minutos, mexendo na metade do tempo para dourar por igual.",
-          "Enquanto isso, tempere a carne com o azeite restante, sal, pimenta e a páprica restante. Adicione as pétalas de cebola e misture.",
-          "Após os 15 minutos da batata, adicione a carne e a cebola à cesta da airfryer e misture com cuidado.",
-          "Asse por mais 10-15 minutos, ou até a carne dourar e a batata ficar macia, mexendo ocasionalmente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/cubos-de-carne-acebolados-com-batata-doce-na-airfryer-0000.ghtml",
-          "checked_at": "2026-08-29T15:32:08+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/20226309/pexels-photo-20226309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma mistura saborosa de carne grelhada, batata-doce, pimentões verdes e salsa fresca em um prato.",
-          "bank_id": "20226309",
-          "credit": "Doğu Tuncer",
-          "query": "Cubos de Carne Acebolados com Batata Doce na Airfryer"
-        },
-        "id": "cubos-de-carne-acebolados-com-batata-doce-na-air-0906e60f"
-      },
-      {
-        "nome": "Patê de Atum com Iogurte",
-        "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada leve, proteica e rápida de preparar, ideal para abrir o apetite. Utiliza ingredientes simples e acessíveis.",
-        "tags": [
-          "entrada",
-          "rapido",
-          "leve",
-          "proteina"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 lata de atum sólido em água (escorrido)",
-          "1 pote de iogurte natural (170g)",
-          "½ cebola roxa pequena picada finamente",
-          "2 colheres (sopa) de azeite",
-          "suco de ½ limão",
-          "sal e pimenta-do-reino moída na hora a gosto",
-          "salsinha picada a gosto"
-        ],
-        "preparo": [
-          "Em uma tigela, desfaça o atum com um garfo.",
-          "Adicione o iogurte natural, a cebola roxa picada, o azeite e o suco de limão.",
-          "Tempere com sal e pimenta-do-reino a gosto.",
-          "Misture bem todos os ingredientes até obter uma pasta homogênea.",
-          "Finalize com salsinha picada e sirva imediatamente com torradas ou pães."
+          "Em uma tigela, tempere os cubos de carne com sal, pimenta-do-reino e azeite. Misture bem.",
+          "Monte os espetinhos alternando os cubos de carne com os pedaços de cebola, pimentões, abobrinha e tomates-cereja.",
+          "Pré-aqueça o forno a 200°C ou uma grelha.",
+          "Disponha os espetinhos em uma assadeira ou diretamente na grelha.",
+          "Asse no forno por cerca de 20-25 minutos, virando na metade do tempo, ou grelhe por 15-20 minutos, virando ocasionalmente, até a carne estar cozida e os vegetais macios.",
+          "Sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/pate-de-atum-com-iogurte",
-          "title": "Patê de atum com iogurte - Panelinha",
-          "domain": "panelinha.com.br",
+          "url": "https://www.receitasnestle.com.br/receitas/espetinhos-de-carne-com-legumes",
+          "title": "Espetinhos de Carne com Legumes",
+          "domain": "receitasnestle.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-08-29T15:32:09+00:00"
+          "checked_at": "2026-08-30T15:13:08+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9449-blog-pate-de-atum-com-iogurte.webp",
-          "alt": "Patê de Atum com Iogurte"
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/676134d3e346193b8979bbd9073de7ee.jpg",
+          "alt": "Espetinhos de Carne com Legumes"
         },
-        "id": "pate-de-atum-com-iogurte-ca024684"
+        "id": "espetinhos-de-carne-com-legumes-b93d9a0e"
       },
       {
-        "nome": "Mousse de Maracujá com Suco",
-        "curso": "sobremesa",
-        "tempo": "40 minutos",
-        "porque": "Uma sobremesa leve, refrescante e muito rápida de preparar, ideal para finalizar o jantar. O sabor cítrico do maracujá é sempre um sucesso.",
+        "nome": "Salada de Pepino com Iogurte",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve e refrescante, perfeita para abrir o apetite. É extremamente rápida e fácil de preparar, com ingredientes simples e acessíveis, proporcionando um contraste agradável com os pratos principais mais robustos.",
         "tags": [
-          "sobremesa",
+          "vegetais",
+          "leve",
           "rapido",
-          "citrico",
+          "facil",
           "refrescante"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 lata de Leite MOÇA® (leite condensado)",
-          "1 lata de NESTLÉ® Creme de Leite",
-          "1 xícara (chá) de suco de maracujá concentrado",
-          "Para a calda (opcional): polpa de 1 maracujá, 2 colheres (sopa) de açúcar"
+          "2 pepinos japoneses médios",
+          "1 pote (170g) de iogurte natural integral",
+          "1 dente de alho pequeno amassado",
+          "Folhas de hortelã fresca picadas a gosto (cerca de 1 colher de sopa)",
+          "Suco de 1/2 limão",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "No liquidificador, bata o Leite MOÇA®, o NESTLÉ® Creme de Leite e o suco de maracujá concentrado até obter um creme homogêneo.",
-          "Despeje a mousse em um refratário médio ou em taças individuais.",
-          "Leve à geladeira por cerca de 30 minutos, ou até que a mousse esteja firme.",
-          "Para a calda (opcional): em uma panela pequena, misture a polpa do maracujá com o açúcar.",
-          "Leve ao fogo baixo por cerca de 5 minutos, mexendo ocasionalmente, até a calda encorpar levemente. Deixe esfriar.",
-          "Sirva a mousse gelada, com a calda de maracujá por cima, se desejar."
+          "Lave bem os pepinos e corte-os em rodelas finas (com casca, se preferir).",
+          "Em uma tigela, misture o iogurte natural, o alho amassado, a hortelã picada e o suco de limão.",
+          "Tempere o molho com sal e pimenta-do-reino a gosto.",
+          "Adicione as rodelas de pepino ao molho e misture delicadamente.",
+          "Sirva a salada imediatamente, decorada com algumas folhas de hortelã."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-maracuja-com-suco",
-          "checked_at": "2026-08-29T15:32:10+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-pepino-com-iogurte",
+          "checked_at": "2026-08-30T15:13:09+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/7195236/pexels-photo-7195236.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um delicioso maracujá cortado ao meio em um prato com bolinhas contra um fundo vermelho.",
-          "bank_id": "7195236",
-          "credit": "SHVETS production",
-          "query": "Mousse de Maracujá com Suco"
+          "url": "https://images.pexels.com/photos/34298925/pexels-photo-34298925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa salada mista com rabanetes, pepinos e folhas verdes. Perfeita para uma alimentação saudável.",
+          "bank_id": "34298925",
+          "credit": "Jonathan Borba",
+          "query": "Salada de Pepino com Iogurte"
         },
-        "id": "mousse-de-maracuja-com-suco-66c4a8f1"
+        "id": "salada-de-pepino-com-iogurte-a64129a5"
+      },
+      {
+        "nome": "Creme de Papaia com Cassis",
+        "curso": "sobremesa",
+        "tempo": "10 minutos",
+        "porque": "Uma sobremesa elegante e incrivelmente rápida de fazer, ideal para finalizar um jantar especial. A combinação da cremosidade do mamão com o toque ácido e frutado do licor de cassis é deliciosa e leve.",
+        "tags": [
+          "frutas",
+          "sobremesa",
+          "rapido",
+          "facil",
+          "leve"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 mamão papaia maduro",
+          "1/2 xícara (chá) de sorvete de creme",
+          "1 colher (sopa) de licor de cassis (ou groselha para versão sem álcool)"
+        ],
+        "preparo": [
+          "Corte o mamão papaia ao meio, retire as sementes e a casca.",
+          "Corte a polpa do mamão em pedaços e coloque no liquidificador.",
+          "Adicione o sorvete de creme ao liquidificador.",
+          "Bata bem até obter um creme homogêneo e liso.",
+          "Despeje o creme em duas taças individuais.",
+          "Regue cada porção com o licor de cassis (ou groselha).",
+          "Sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Creme-de-papaia-com-cassis",
+          "checked_at": "2026-08-30T15:13:10+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/37206682/pexels-photo-37206682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Sobremesa tradicional turca de abóbora com creme, servida em um prato branco.",
+          "bank_id": "37206682",
+          "credit": "Mavi Yıldız Restoran Cumalıkızık Bursa",
+          "query": "Creme de Papaia com Cassis"
+        },
+        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
       }
     ]
   },

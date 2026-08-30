@@ -2434,5 +2434,46 @@
     ],
     "data": "29/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-grelhado-com-batatas-rusticas-e-molho-chimi-63b5614c",
+    "titulo": "Bife Grelhado com Batatas Rústicas e Molho Chimichurri",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "forno",
+      "vegetais",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "espetinhos-de-carne-com-legumes-b93d9a0e",
+    "titulo": "Espetinhos de Carne com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "vegetais",
+      "grelhado",
+      "forno",
+      "rapido",
+      "facil"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-de-pepino-com-iogurte-a64129a5",
+    "titulo": "Salada de Pepino com Iogurte",
+    "tags": [
+      "vegetais",
+      "leve",
+      "rapido",
+      "facil",
+      "refrescante"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
   }
 ]
