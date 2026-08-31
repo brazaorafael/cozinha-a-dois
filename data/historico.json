@@ -2475,5 +2475,221 @@
     ],
     "data": "30/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-com-molho-de-cerveja-preta-67dc6ef7",
+    "titulo": "Bife com Molho de Cerveja Preta",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "panela",
+      "confort_food"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-de-frango-cremoso-com-espinafre-743388e3",
+    "titulo": "Filé de Frango Cremoso com Espinafre",
+    "tags": [
+      "frango",
+      "rapido",
+      "panela",
+      "saudavel"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-cenoura-com-gergelim-b4b064e5",
+    "titulo": "Salada de Cenoura com Gergelim",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "entrada_leve",
+      "saudavel"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-chocolate-rapida-e5c16069",
+    "titulo": "Mousse de Chocolate Rápida",
+    "tags": [
+      "sobremesa_cremosa",
+      "rapido",
+      "facil",
+      "chocolate"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-batata-e-requeijao-c930ef5e",
+    "titulo": "Carne Moída com Batata e Requeijão",
+    "tags": [
+      "carne_vermelha",
+      "facil",
+      "panela",
+      "confort_food"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "lombo-de-porco-na-airfryer-23b58ffd",
+    "titulo": "Lombo de Porco na Airfryer",
+    "tags": [
+      "porco",
+      "rapido",
+      "airfryer",
+      "facil"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "ovos-cozidos-com-maionese-f6cb0ecd",
+    "titulo": "Ovos Cozidos com Maionese",
+    "tags": [
+      "entrada_rapida",
+      "proteina",
+      "facil",
+      "saudavel"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pudim-de-leite-condensado-de-micro-ondas-e5f3e069",
+    "titulo": "Pudim de Leite Condensado de Micro-ondas",
+    "tags": [
+      "sobremesa_cremosa",
+      "rapido",
+      "micro_ondas",
+      "confort_food"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "abobrinha-recheada-com-queijo-e-tomate-524a2c64",
+    "titulo": "Abobrinha Recheada com Queijo e Tomate",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "forno",
+      "saudavel"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-beterraba-e-laranja-38d4a8a6",
+    "titulo": "Salada de Beterraba e Laranja",
+    "tags": [
+      "vegetariano",
+      "entrada_leve",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "gelatina-colorida-com-creme-ea316126",
+    "titulo": "Gelatina Colorida com Creme",
+    "tags": [
+      "sobremesa_cremosa",
+      "facil",
+      "colorido",
+      "gelado"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mini-sanduiches-de-pepino-4dea9abf",
+    "titulo": "Mini Sanduíches de Pepino",
+    "tags": [
+      "entrada_rapida",
+      "vegetariano",
+      "facil",
+      "leve"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-frutas-com-calda-de-laranja-6e5d39ab",
+    "titulo": "Salada de Frutas com Calda de Laranja",
+    "tags": [
+      "sobremesa_leve",
+      "rapido",
+      "frutas",
+      "saudavel"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "tomate-confit-rapido-73e44a26",
+    "titulo": "Tomate Confit Rápido",
+    "tags": [
+      "vegetariano",
+      "forno",
+      "entrada_leve",
+      "saboroso"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-rucula-com-tomate-cereja-f8bd51b7",
+    "titulo": "Salada de Rúcula com Tomate Cereja",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "entrada_leve",
+      "saudavel"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "doce-de-abobora-com-coco-d1a7e2ea",
+    "titulo": "Doce de Abóbora com Coco",
+    "tags": [
+      "sobremesa_tradicional",
+      "facil",
+      "panela",
+      "confort_food"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "palitos-de-cenoura-e-pepino-com-molho-de-iogurte-5c69d29a",
+    "titulo": "Palitos de Cenoura e Pepino com Molho de Iogurte",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "entrada_leve",
+      "saudavel"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "manjar-de-coco-rapido-9afef8b2",
+    "titulo": "Manjar de Coco Rápido",
+    "tags": [
+      "sobremesa_cremosa",
+      "facil",
+      "gelado",
+      "coco"
+    ],
+    "data": "30/08/2026",
+    "fonte_status": "unverified"
   }
 ]
