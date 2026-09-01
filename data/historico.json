@@ -2691,5 +2691,29 @@
     ],
     "data": "30/08/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "almondegas-com-molho-de-tomate-00cc9cdf",
+    "titulo": "Almôndegas com Molho de Tomate",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "molho",
+      "classico"
+    ],
+    "data": "01/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-louca-4ff9a131",
+    "titulo": "Carne Louca",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "refogado",
+      "festa"
+    ],
+    "data": "01/09/2026",
+    "fonte_status": "verified"
   }
 ]

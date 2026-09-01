@@ -1,198 +1,204 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-08-30T21:46:37-03:00",
+  "gerado_em": "2026-09-01T12:24:04-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "30/08/2026",
-    "dia_semana": "domingo",
+    "data": "01/09/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Bife Grelhado com Batatas Rústicas e Molho Chimichurri",
+        "nome": "Almôndegas com Molho de Tomate",
         "curso": "principal",
-        "tempo": "35 minutos",
-        "porque": "Uma opção clássica de carne vermelha, rápida de preparar na grelha ou frigideira. As batatas rústicas, feitas no forno ou airfryer, e o molho chimichurri fresco complementam o prato, tornando-o equilibrado e saboroso. Rende bem para o jantar do casal e uma sobra para o almoço.",
+        "tempo": "45 minutos",
+        "porque": "Um clássico reconfortante e prático, ideal para um jantar a dois. A receita prioriza o cozimento no molho, evitando frituras, e garante uma refeição equilibrada com proteína (carne moída) e molho de tomate caseiro. Pode ser servido com massa ou arroz e rende bem para o almoço de uma pessoa.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
-          "forno",
-          "vegetais",
-          "rapido",
-          "equilibrado"
+          "refogado",
+          "molho",
+          "classico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 bifes de contrafilé ou alcatra (cerca de 200g cada)",
-          "Sal e pimenta-do-reino a gosto",
-          "1 colher (sopa) de azeite",
-          "2 batatas médias (tipo asterix ou inglesa)",
-          "1 colher (sopa) de azeite para as batatas",
-          "Sal, pimenta-do-reino e páprica defumada a gosto para as batatas",
-          "1/2 xícara (chá) de salsinha picada",
-          "2 dentes de alho picados",
-          "1/4 xícara (chá) de azeite extra virgem",
-          "2 colheres (sopa) de vinagre de vinho tinto",
-          "1 colher (chá) de orégano seco",
-          "1/2 colher (chá) de pimenta calabresa (opcional)",
-          "Sal a gosto para o chimichurri"
-        ],
-        "preparo": [
-          "Lave e corte as batatas em gomos, sem descascar. Tempere com azeite, sal, pimenta e páprica. Leve ao forno pré-aquecido a 200°C ou airfryer por 20-25 minutos, virando na metade do tempo, até ficarem douradas e macias.",
-          "Enquanto as batatas assam, prepare o chimichurri: em uma tigela, misture a salsinha, alho, orégano, pimenta calabresa (se usar), azeite, vinagre e sal. Reserve.",
-          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
-          "Aqueça uma frigideira ou grelha em fogo alto com um fio de azeite. Grelhe os bifes por 3-4 minutos de cada lado para um ponto malpassado, ou até o ponto desejado.",
-          "Retire os bifes da frigideira e deixe-os descansar por alguns minutos antes de fatiar (se desejar).",
-          "Sirva os bifes acompanhados das batatas rústicas e regue com o molho chimichurri."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bife-grelhado",
-          "checked_at": "2026-08-30T15:13:05+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/11089568/pexels-photo-11089568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Bife grelhado chiando com chimichurri, servido com batatas assadas e tomates frescos em uma tábua de ardósia.",
-          "bank_id": "11089568",
-          "credit": "Анатолий Андреев",
-          "query": "Bife Grelhado com Batatas Rústicas e Molho Chimichurri"
-        },
-        "id": "bife-grelhado-com-batatas-rusticas-e-molho-chimi-63b5614c"
-      },
-      {
-        "nome": "Espetinhos de Carne com Legumes",
-        "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma refeição completa e colorida, perfeita para um jantar prático. A carne vermelha em cubos, intercalada com vegetais frescos, é assada no forno ou grelhada, garantindo um prato equilibrado, saboroso e com fácil montagem. Ideal para sobras.",
-        "tags": [
-          "carne_vermelha",
-          "vegetais",
-          "grelhado",
-          "forno",
-          "rapido",
-          "facil"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "300 g de carne bovina (alcatra ou patinho) em cubos de 3 cm",
-          "1 cebola média em pedaços",
-          "1 pimentão verde em pedaços",
-          "1 pimentão vermelho em pedaços",
-          "1 abobrinha pequena em rodelas grossas",
-          "12 tomates-cereja",
-          "1 colher (sopa) de azeite",
-          "Sal e pimenta-do-reino a gosto",
-          "Espetinhos de madeira ou metal"
-        ],
-        "preparo": [
-          "Em uma tigela, tempere os cubos de carne com sal, pimenta-do-reino e azeite. Misture bem.",
-          "Monte os espetinhos alternando os cubos de carne com os pedaços de cebola, pimentões, abobrinha e tomates-cereja.",
-          "Pré-aqueça o forno a 200°C ou uma grelha.",
-          "Disponha os espetinhos em uma assadeira ou diretamente na grelha.",
-          "Asse no forno por cerca de 20-25 minutos, virando na metade do tempo, ou grelhe por 15-20 minutos, virando ocasionalmente, até a carne estar cozida e os vegetais macios.",
-          "Sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/espetinhos-de-carne-com-legumes",
-          "title": "Espetinhos de Carne com Legumes",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-08-30T15:13:08+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/676134d3e346193b8979bbd9073de7ee.jpg",
-          "alt": "Espetinhos de Carne com Legumes"
-        },
-        "id": "espetinhos-de-carne-com-legumes-b93d9a0e"
-      },
-      {
-        "nome": "Salada de Pepino com Iogurte",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve e refrescante, perfeita para abrir o apetite. É extremamente rápida e fácil de preparar, com ingredientes simples e acessíveis, proporcionando um contraste agradável com os pratos principais mais robustos.",
-        "tags": [
-          "vegetais",
-          "leve",
-          "rapido",
-          "facil",
-          "refrescante"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 pepinos japoneses médios",
-          "1 pote (170g) de iogurte natural integral",
-          "1 dente de alho pequeno amassado",
-          "Folhas de hortelã fresca picadas a gosto (cerca de 1 colher de sopa)",
-          "Suco de 1/2 limão",
+          "Para o molho:",
+          "1 lata de tomate pelado (400g)",
+          "1 cebola pequena",
+          "2 dentes de alho",
+          "2 colheres (sopa) de azeite",
+          "1/2 xícara (chá) de água",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Folhas de manjericão a gosto",
+          "Para as almôndegas:",
+          "500g de patinho moído",
+          "1/2 cebola pequena",
+          "1 dente de alho",
+          "1 ovo",
+          "2 colheres (sopa) de queijo parmesão ralado",
+          "2 colheres (sopa) de farinha de rosca",
+          "2 colheres (sopa) de salsinha picada",
           "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Lave bem os pepinos e corte-os em rodelas finas (com casca, se preferir).",
-          "Em uma tigela, misture o iogurte natural, o alho amassado, a hortelã picada e o suco de limão.",
-          "Tempere o molho com sal e pimenta-do-reino a gosto.",
-          "Adicione as rodelas de pepino ao molho e misture delicadamente.",
-          "Sirva a salada imediatamente, decorada com algumas folhas de hortelã."
+          "Para o molho: Refogue a cebola e o alho picados no azeite em uma panela. Adicione o tomate pelado amassado, a água, sal e pimenta. Cozinhe em fogo baixo por 20 minutos.",
+          "Para as almôndegas: Em uma tigela, misture a carne moída, cebola e alho ralados, ovo, queijo parmesão, farinha de rosca, salsinha, sal e pimenta.",
+          "Modele a massa de carne em bolinhas do tamanho desejado.",
+          "Adicione as almôndegas cuidadosamente ao molho fervente.",
+          "Cozinhe por cerca de 15 a 20 minutos, virando ocasionalmente, até que estejam cozidas por completo.",
+          "Junte as folhas de manjericão ao molho e sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-pepino-com-iogurte",
-          "checked_at": "2026-08-30T15:13:09+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Molho-de-tomate-com-almondegas",
+          "checked_at": "2026-09-01T15:25:35+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34298925/pexels-photo-34298925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa salada mista com rabanetes, pepinos e folhas verdes. Perfeita para uma alimentação saudável.",
-          "bank_id": "34298925",
-          "credit": "Jonathan Borba",
-          "query": "Salada de Pepino com Iogurte"
+          "url": "https://images.pexels.com/photos/17989471/pexels-photo-17989471.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Prato de almôndegas saborosas em molho de tomate rico, guarnecido com fatias de pepino e tomate.",
+          "bank_id": "17989471",
+          "credit": "Wijs (Wise)",
+          "query": "Almôndegas com Molho de Tomate"
         },
-        "id": "salada-de-pepino-com-iogurte-a64129a5"
+        "id": "almondegas-com-molho-de-tomate-00cc9cdf"
       },
       {
-        "nome": "Creme de Papaia com Cassis",
-        "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Uma sobremesa elegante e incrivelmente rápida de fazer, ideal para finalizar um jantar especial. A combinação da cremosidade do mamão com o toque ácido e frutado do licor de cassis é deliciosa e leve.",
+        "nome": "Carne Louca",
+        "curso": "principal",
+        "tempo": "40 minutos (preparo ativo)",
+        "porque": "Uma receita de carne vermelha saborosa e versátil, ideal para o casal e com potencial de sobras. O preparo na panela de pressão agiliza o cozimento, tornando-a prática. É uma opção diferente e deliciosa, sem fritura excessiva, que pode ser servida com pão ou arroz.",
         "tags": [
-          "frutas",
-          "sobremesa",
-          "rapido",
-          "facil",
-          "leve"
+          "carne_vermelha",
+          "panela_de_pressao",
+          "refogado",
+          "festa"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "1 mamão papaia maduro",
-          "1/2 xícara (chá) de sorvete de creme",
-          "1 colher (sopa) de licor de cassis (ou groselha para versão sem álcool)"
+          "1 kg de miolo de acém ou paleta",
+          "1 cebola grande picada",
+          "3 dentes de alho amassados",
+          "1/2 xícara de azeite",
+          "1 pimentão verde picado",
+          "1 pimentão vermelho picado",
+          "1 lata de molho de tomate",
+          "1/2 xícara de azeitonas verdes picadas",
+          "1/2 xícara de cheiro-verde picado",
+          "Sal e pimenta-do-reino a gosto",
+          "Água (o suficiente para cobrir a carne na panela de pressão)"
         ],
         "preparo": [
-          "Corte o mamão papaia ao meio, retire as sementes e a casca.",
-          "Corte a polpa do mamão em pedaços e coloque no liquidificador.",
-          "Adicione o sorvete de creme ao liquidificador.",
-          "Bata bem até obter um creme homogêneo e liso.",
-          "Despeje o creme em duas taças individuais.",
-          "Regue cada porção com o licor de cassis (ou groselha).",
-          "Sirva imediatamente."
+          "Corte a carne em pedaços grandes e tempere com sal e pimenta-do-reino a gosto.",
+          "Na panela de pressão, aqueça o azeite e doure a carne por todos os lados. Retire a carne e reserve.",
+          "Na mesma panela, refogue a cebola e o alho até dourarem. Adicione os pimentões picados e refogue por mais alguns minutos.",
+          "Retorne a carne à panela, adicione o molho de tomate e água suficiente para cobrir a carne.",
+          "Feche a panela de pressão e cozinhe por 30 a 40 minutos após pegar pressão.",
+          "Desligue o fogo, espere a pressão sair naturalmente, abra a panela e desfie a carne com um garfo.",
+          "Misture as azeitonas e o cheiro-verde picado à carne desfiada e sirva."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.tudogostoso.com.br/receita/71309-carne-louca-de-festa.html",
+          "title": "Carne louca de festa",
+          "domain": "tudogostoso.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-01T15:25:36+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://static.itdg.com.br/images/1200-675/97cda283b3a0720bf9cc9d5a9434ad3e/335748-original.jpg",
+          "alt": "Carne Louca"
+        },
+        "id": "carne-louca-4ff9a131"
+      },
+      {
+        "nome": "Tapenade com Limão-Siciliano e Tomilho",
+        "curso": "entrada",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada prática e rápida, perfeita para abrir o apetite. É uma pastinha saborosa e aromática, feita com azeitonas, nozes e ervas frescas, ideal para servir com pães ou torradas. O preparo é simples e não envolve fritura, alinhando-se às preferências do casal.",
+        "tags": [
+          "vegetariano",
+          "rapido",
+          "frio",
+          "aperitivo"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 xícara (chá) de azeitona verde sem caroço",
+          "1 colher (sopa) de alcaparra",
+          "6 nozes",
+          "1 dente de alho",
+          "4 colheres (sopa) de azeite",
+          "1 colher (sopa) de caldo de limão",
+          "1 colher (chá) de shoyu (molho de soja)",
+          "Folhas de manjericão a gosto"
+        ],
+        "preparo": [
+          "Lave as azeitonas e as alcaparras em uma peneira sob água corrente e deixe escorrer bem.",
+          "Em uma tábua, pique finamente as azeitonas, alcaparras, nozes e o dente de alho até formar uma pasta rústica.",
+          "Transfira a pasta para uma tigela.",
+          "Adicione o azeite, o suco de limão e o molho shoyu, misturando bem.",
+          "Rasgue as folhas de manjericão com as mãos e incorpore à tapenade.",
+          "Sirva imediatamente com pães ou torradas, ou guarde na geladeira."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/tapenade-com-limao-siciliano-e-tomilho",
+          "title": "Tapenade com limão-siciliano e tomilho - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-01T15:25:37+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9944-tapenade-com-limao-siciliano-e-tomilho.webp",
+          "alt": "Tapenade com Limão-Siciliano e Tomilho"
+        },
+        "id": "tapenade-com-limao-siciliano-e-tomilho-af1206bc"
+      },
+      {
+        "nome": "Pavê de Limão na Travessa",
+        "curso": "sobremesa",
+        "tempo": "20 minutos (preparo ativo)",
+        "porque": "Uma sobremesa clássica, refrescante e extremamente fácil de preparar, perfeita para finalizar o jantar. Não vai ao forno e o tempo de preparo ativo é rápido, encaixando-se na preferência do casal. O equilíbrio entre o doce e o azedinho do limão agrada a diversos paladares.",
+        "tags": [
+          "doce",
+          "gelado",
+          "rapido",
+          "citrico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "Para o creme:",
+          "2 latas de Leite Condensado MOÇA®",
+          "Suco de 3 a 4 limões (tahiti ou siciliano)",
+          "1 caixinha de NESTLÉ® Creme de Leite (200 g)",
+          "Para a montagem:",
+          "1 pacote de Biscoito TOSTINES® Maisena"
+        ],
+        "preparo": [
+          "No liquidificador, bata o Leite Condensado, o Creme de Leite e o suco de limão até obter um creme homogêneo e consistente.",
+          "Em uma travessa, faça uma camada de biscoitos Maisena.",
+          "Cubra os biscoitos com uma camada generosa do creme de limão.",
+          "Repita as camadas de biscoito e creme, finalizando com uma camada de creme.",
+          "Se desejar, decore com raspas de limão.",
+          "Leve à geladeira por no mínimo 1 hora para firmar e gelar bem.",
+          "Sirva bem gelado para realçar o sabor cítrico."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Creme-de-papaia-com-cassis",
-          "checked_at": "2026-08-30T15:13:10+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/pave-de-limao-na-travessa",
+          "checked_at": "2026-09-01T15:25:38+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/37206682/pexels-photo-37206682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Sobremesa tradicional turca de abóbora com creme, servida em um prato branco.",
-          "bank_id": "37206682",
-          "credit": "Mavi Yıldız Restoran Cumalıkızık Bursa",
-          "query": "Creme de Papaia com Cassis"
+          "url": "https://images.pexels.com/photos/28992229/pexels-photo-28992229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Bolinhos fritos crocantes servidos com limão fresco e tomate fatiado sobre uma cama de alface.",
+          "bank_id": "28992229",
+          "credit": "pedro furtado",
+          "query": "Pavê de Limão na Travessa"
         },
-        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
+        "id": "pave-de-limao-na-travessa-2ce0ea7a"
       }
     ]
   },
