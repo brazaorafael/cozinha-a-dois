@@ -1,127 +1,121 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-01T12:24:04-03:00",
+  "gerado_em": "2026-09-02T11:59:18-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "01/09/2026",
-    "dia_semana": "terça",
+    "data": "02/09/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Almôndegas com Molho de Tomate",
+        "nome": "Risoto de Queijo e Damasco na Pressão com Medalhão Grelhado",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Um clássico reconfortante e prático, ideal para um jantar a dois. A receita prioriza o cozimento no molho, evitando frituras, e garante uma refeição equilibrada com proteína (carne moída) e molho de tomate caseiro. Pode ser servido com massa ou arroz e rende bem para o almoço de uma pessoa.",
+        "porque": "Este prato combina a preferência por carne vermelha (medalhão) com um risoto cremoso e equilibrado, enriquecido com queijo e damasco. O preparo na panela de pressão garante rapidez e praticidade, e a porção pode render para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "molho",
-          "classico"
+          "panela_de_pressao",
+          "equilibrado",
+          "jantar_rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "Para o molho:",
-          "1 lata de tomate pelado (400g)",
-          "1 cebola pequena",
-          "2 dentes de alho",
-          "2 colheres (sopa) de azeite",
-          "1/2 xícara (chá) de água",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Folhas de manjericão a gosto",
-          "Para as almôndegas:",
-          "500g de patinho moído",
-          "1/2 cebola pequena",
-          "1 dente de alho",
-          "1 ovo",
-          "2 colheres (sopa) de queijo parmesão ralado",
-          "2 colheres (sopa) de farinha de rosca",
-          "2 colheres (sopa) de salsinha picada",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "1 colher (sopa) de azeite",
+          "2 medalhões de filé mignon (cerca de 150 g cada)",
+          "sal e pimenta-do-reino moída na hora a gosto",
+          "1 colher (sopa) de azeite",
+          "1 cebola pequena picada fino",
+          "1 xícara (chá) de arroz arbóreo",
+          "½ xícara (chá) de vinho branco seco",
+          "3 xícaras (chá) de caldo de legumes caseiro (ou água)",
+          "½ xícara (chá) de damasco seco picado",
+          "½ xícara (chá) de queijo meia-cura ralado",
+          "1 colher (sopa) de manteiga",
+          "raspas de 1 limão-siciliano",
+          "folhas de manjericão a gosto para servir"
         ],
         "preparo": [
-          "Para o molho: Refogue a cebola e o alho picados no azeite em uma panela. Adicione o tomate pelado amassado, a água, sal e pimenta. Cozinhe em fogo baixo por 20 minutos.",
-          "Para as almôndegas: Em uma tigela, misture a carne moída, cebola e alho ralados, ovo, queijo parmesão, farinha de rosca, salsinha, sal e pimenta.",
-          "Modele a massa de carne em bolinhas do tamanho desejado.",
-          "Adicione as almôndegas cuidadosamente ao molho fervente.",
-          "Cozinhe por cerca de 15 a 20 minutos, virando ocasionalmente, até que estejam cozidas por completo.",
-          "Junte as folhas de manjericão ao molho e sirva quente."
+          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino. Aqueça 1 colher de azeite em uma frigideira e grelhe os medalhões por 3 minutos de cada lado para ficarem ao ponto. Reserve.",
+          "Na panela de pressão, aqueça 1 colher de azeite e refogue a cebola picada por 2 minutos. Adicione o arroz arbóreo e refogue por 1 minuto.",
+          "Regue com o vinho branco e mexa até evaporar. Junte o caldo de legumes e o damasco picado. Tempere com sal e pimenta.",
+          "Tampe a panela e, quando chiar, abaixe o fogo e conte 3 minutos. Desligue o fogo e espere a pressão sair naturalmente.",
+          "Abra a panela, adicione o queijo ralado, a manteiga e as raspas de limão-siciliano. Misture bem até o risoto ficar cremoso.",
+          "Sirva o risoto imediatamente com os medalhões grelhados e decore com folhas de manjericão."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Molho-de-tomate-com-almondegas",
-          "checked_at": "2026-09-01T15:25:35+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Risoto-de-queijo-e-damasco-na-pressao-com-medalhao-grelhado",
+          "checked_at": "2026-09-02T15:01:14+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/17989471/pexels-photo-17989471.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato de almôndegas saborosas em molho de tomate rico, guarnecido com fatias de pepino e tomate.",
-          "bank_id": "17989471",
-          "credit": "Wijs (Wise)",
-          "query": "Almôndegas com Molho de Tomate"
+          "url": "https://images.pexels.com/photos/15058970/pexels-photo-15058970.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Aprecie este risoto gourmet com frango grelhado, perfeito para uma refeição requintada.",
+          "bank_id": "15058970",
+          "credit": "Shameel mukkath",
+          "query": "Risoto de Queijo e Damasco na Pressão com Medalhão Grelhado"
         },
-        "id": "almondegas-com-molho-de-tomate-00cc9cdf"
+        "id": "risoto-de-queijo-e-damasco-na-pressao-com-medalh-307d13f5"
       },
       {
-        "nome": "Carne Louca",
+        "nome": "Bife Completo na Pressão",
         "curso": "principal",
-        "tempo": "40 minutos (preparo ativo)",
-        "porque": "Uma receita de carne vermelha saborosa e versátil, ideal para o casal e com potencial de sobras. O preparo na panela de pressão agiliza o cozimento, tornando-a prática. É uma opção diferente e deliciosa, sem fritura excessiva, que pode ser servida com pão ou arroz.",
+        "tempo": "40 minutos",
+        "porque": "Uma opção de carne vermelha prática e completa, preparada na panela de pressão em pouco tempo. Inclui batatas, cebola e repolho, garantindo um prato equilibrado e saboroso que pode render para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
           "panela_de_pressao",
-          "refogado",
-          "festa"
+          "refeicao_completa",
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 kg de miolo de acém ou paleta",
-          "1 cebola grande picada",
-          "3 dentes de alho amassados",
-          "1/2 xícara de azeite",
-          "1 pimentão verde picado",
-          "1 pimentão vermelho picado",
-          "1 lata de molho de tomate",
-          "1/2 xícara de azeitonas verdes picadas",
-          "1/2 xícara de cheiro-verde picado",
+          "½ xícara (chá) de óleo",
+          "1 kg de coxão mole cortado em bifes finos e temperados com sal, pimenta e alho amassado",
+          "5 batatas médias sem casca cortadas em rodelas bem grossas",
+          "2 cebolas grandes cortadas em rodelas grossas",
+          "1 repolho pequeno cortado em pedaços grandes",
+          "1 caixinha de molho de tomate",
+          "Meia xícara (chá) de azeitonas verdes picadas grosseiramente",
           "Sal e pimenta-do-reino a gosto",
-          "Água (o suficiente para cobrir a carne na panela de pressão)"
+          "Salsinha picada a gosto"
         ],
         "preparo": [
-          "Corte a carne em pedaços grandes e tempere com sal e pimenta-do-reino a gosto.",
-          "Na panela de pressão, aqueça o azeite e doure a carne por todos os lados. Retire a carne e reserve.",
-          "Na mesma panela, refogue a cebola e o alho até dourarem. Adicione os pimentões picados e refogue por mais alguns minutos.",
-          "Retorne a carne à panela, adicione o molho de tomate e água suficiente para cobrir a carne.",
-          "Feche a panela de pressão e cozinhe por 30 a 40 minutos após pegar pressão.",
-          "Desligue o fogo, espere a pressão sair naturalmente, abra a panela e desfie a carne com um garfo.",
-          "Misture as azeitonas e o cheiro-verde picado à carne desfiada e sirva."
+          "Na panela de pressão, coloque o óleo no fundo.",
+          "Faça camadas com metade dos bifes de coxão mole, metade das batatas, metade da cebola, metade do repolho, metade da polpa de tomate e metade das azeitonas.",
+          "Tempere com sal e pimenta-do-reino a gosto e repita as camadas com os ingredientes restantes.",
+          "Tampe a panela e cozinhe em fogo médio por 15 minutos após pegar pressão.",
+          "Retire a pressão da panela, abra-a e polvilhe salsinha picada a gosto.",
+          "Sirva o bife completo na pressão acompanhado de arroz branco."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.tudogostoso.com.br/receita/71309-carne-louca-de-festa.html",
-          "title": "Carne louca de festa",
-          "domain": "tudogostoso.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-01T15:25:36+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receita/bife-completo-na-pressao-a15286",
+          "checked_at": "2026-09-02T15:01:16+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://static.itdg.com.br/images/1200-675/97cda283b3a0720bf9cc9d5a9434ad3e/335748-original.jpg",
-          "alt": "Carne Louca"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/3660/food-restaurant-dinner-lunch.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso bife servido com batatas e fatias de tomate fresco. Perfeito para o almoço ou jantar.",
+          "bank_id": "3660",
+          "credit": "JÉSHOOTS",
+          "query": "Bife Completo na Pressão"
         },
-        "id": "carne-louca-4ff9a131"
+        "id": "bife-completo-na-pressao-c511d4f4"
       },
       {
-        "nome": "Tapenade com Limão-Siciliano e Tomilho",
+        "nome": "Tapenade de Azeitonas Verdes",
         "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada prática e rápida, perfeita para abrir o apetite. É uma pastinha saborosa e aromática, feita com azeitonas, nozes e ervas frescas, ideal para servir com pães ou torradas. O preparo é simples e não envolve fritura, alinhando-se às preferências do casal.",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada fácil, rápida e saborosa, perfeita para abrir o apetite sem complicação. É preparada sem fritura e com ingredientes acessíveis.",
         "tags": [
           "vegetariano",
           "rapido",
-          "frio",
+          "facil",
           "aperitivo"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
           "1 xícara (chá) de azeitona verde sem caroço",
           "1 colher (sopa) de alcaparra",
@@ -130,65 +124,64 @@
           "4 colheres (sopa) de azeite",
           "1 colher (sopa) de caldo de limão",
           "1 colher (chá) de shoyu (molho de soja)",
-          "Folhas de manjericão a gosto"
+          "folhas de manjericão a gosto"
         ],
         "preparo": [
           "Lave as azeitonas e as alcaparras em uma peneira sob água corrente e deixe escorrer bem.",
-          "Em uma tábua, pique finamente as azeitonas, alcaparras, nozes e o dente de alho até formar uma pasta rústica.",
+          "Em uma tábua, pique finamente as azeitonas, as alcaparras, as nozes e o dente de alho até formar uma pasta rústica.",
           "Transfira a pasta para uma tigela.",
-          "Adicione o azeite, o suco de limão e o molho shoyu, misturando bem.",
+          "Junte o azeite, o suco de limão e o molho de soja, misturando bem.",
           "Rasgue as folhas de manjericão com as mãos e incorpore à tapenade.",
-          "Sirva imediatamente com pães ou torradas, ou guarde na geladeira."
+          "Sirva a seguir com pães ou torradas."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/tapenade-com-limao-siciliano-e-tomilho",
-          "title": "Tapenade com limão-siciliano e tomilho - Panelinha",
+          "url": "https://panelinha.com.br/receita/tapenade-de-azeitonas-verdes",
+          "title": "Tapenade de azeitonas verdes - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-01T15:25:37+00:00"
+          "checked_at": "2026-09-02T15:01:17+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9944-tapenade-com-limao-siciliano-e-tomilho.webp",
-          "alt": "Tapenade com Limão-Siciliano e Tomilho"
+          "url": "https://i.panelinha.com.br/i1/bk-8312-tapenade-de-azeitonas-verdes.webp",
+          "alt": "Tapenade de Azeitonas Verdes"
         },
-        "id": "tapenade-com-limao-siciliano-e-tomilho-af1206bc"
+        "id": "tapenade-de-azeitonas-verdes-cd357939"
       },
       {
         "nome": "Pavê de Limão na Travessa",
         "curso": "sobremesa",
-        "tempo": "20 minutos (preparo ativo)",
-        "porque": "Uma sobremesa clássica, refrescante e extremamente fácil de preparar, perfeita para finalizar o jantar. Não vai ao forno e o tempo de preparo ativo é rápido, encaixando-se na preferência do casal. O equilíbrio entre o doce e o azedinho do limão agrada a diversos paladares.",
+        "tempo": "15 minutos de preparo + 4 horas de gelad",
+        "porque": "Uma sobremesa refrescante, fácil e rápida de preparar, ideal para um jantar a dois. Não requer forno ou fritura, apenas geladeira para firmar.",
         "tags": [
           "doce",
           "gelado",
           "rapido",
-          "citrico"
+          "sem_forno"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "Para o creme:",
-          "2 latas de Leite Condensado MOÇA®",
-          "Suco de 3 a 4 limões (tahiti ou siciliano)",
-          "1 caixinha de NESTLÉ® Creme de Leite (200 g)",
-          "Para a montagem:",
-          "1 pacote de Biscoito TOSTINES® Maisena"
+          "1 Leite Condensado MOÇA® (lata ou caixinha) 395g",
+          "1 NESTLÉ® Creme de Leite (caixinha) 200g",
+          "½ xícara (chá) de suco de limão (cerca de 3 limões)",
+          "1 pacote de Biscoito TOSTINES® Maizena (200g)",
+          "Raspas de limão para decorar (opcional)"
         ],
         "preparo": [
-          "No liquidificador, bata o Leite Condensado, o Creme de Leite e o suco de limão até obter um creme homogêneo e consistente.",
-          "Em uma travessa, faça uma camada de biscoitos Maisena.",
-          "Cubra os biscoitos com uma camada generosa do creme de limão.",
-          "Repita as camadas de biscoito e creme, finalizando com uma camada de creme.",
-          "Se desejar, decore com raspas de limão.",
-          "Leve à geladeira por no mínimo 1 hora para firmar e gelar bem.",
-          "Sirva bem gelado para realçar o sabor cítrico."
+          "Em uma tigela ou liquidificador, coloque o Leite Condensado MOÇA®, o NESTLÉ® Creme de Leite e o suco dos limões.",
+          "Misture bem até obter um creme liso, firme e homogêneo.",
+          "Em uma travessa, espalhe uma camada fina do creme de limão.",
+          "Faça uma camada de Biscoito TOSTINES® Maizena sobre o creme.",
+          "Repita as camadas, intercalando creme e biscoito, até finalizar com uma camada de creme.",
+          "Decore com raspas de limão, se desejar.",
+          "Leve à geladeira por no mínimo 4 horas antes de servir para firmar bem."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
           "suggested_url": "https://www.receitasnestle.com.br/receitas/pave-de-limao-na-travessa",
-          "checked_at": "2026-09-01T15:25:38+00:00"
+          "checked_at": "2026-09-02T15:01:18+00:00"
         },
         "imagem": {
           "kind": "bank",

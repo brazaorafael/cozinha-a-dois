@@ -2715,5 +2715,41 @@
     ],
     "data": "01/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "risoto-de-queijo-e-damasco-na-pressao-com-medalh-307d13f5",
+    "titulo": "Risoto de Queijo e Damasco na Pressão com Medalhão Grelhado",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "equilibrado",
+      "jantar_rapido"
+    ],
+    "data": "02/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-completo-na-pressao-c511d4f4",
+    "titulo": "Bife Completo na Pressão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "refeicao_completa",
+      "facil"
+    ],
+    "data": "02/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "tapenade-de-azeitonas-verdes-cd357939",
+    "titulo": "Tapenade de Azeitonas Verdes",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "facil",
+      "aperitivo"
+    ],
+    "data": "02/09/2026",
+    "fonte_status": "verified"
   }
 ]
