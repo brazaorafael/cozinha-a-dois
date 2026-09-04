@@ -2751,5 +2751,41 @@
     ],
     "data": "02/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "bife-acebolado-do-sergio-reis-0f0ddf12",
+    "titulo": "Bife Acebolado do Sérgio Reis",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "facil"
+    ],
+    "data": "04/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "estrogonofe-de-carne-simples-c5ac322d",
+    "titulo": "Estrogonofe de Carne Simples",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "cremoso",
+      "classico"
+    ],
+    "data": "04/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "brownie-na-air-fryer-da-rita-lobo-600d5487",
+    "titulo": "Brownie na Air Fryer da Rita Lobo",
+    "tags": [
+      "air_fryer",
+      "chocolate",
+      "sobremesa",
+      "rapido"
+    ],
+    "data": "04/09/2026",
+    "fonte_status": "verified"
   }
 ]

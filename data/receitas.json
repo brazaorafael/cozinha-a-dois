@@ -1,197 +1,188 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-02T11:59:18-03:00",
+  "gerado_em": "2026-09-04T11:50:24-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "02/09/2026",
-    "dia_semana": "quarta",
+    "data": "04/09/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Risoto de Queijo e Damasco na Pressão com Medalhão Grelhado",
+        "nome": "Bife Acebolado do Sérgio Reis",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Este prato combina a preferência por carne vermelha (medalhão) com um risoto cremoso e equilibrado, enriquecido com queijo e damasco. O preparo na panela de pressão garante rapidez e praticidade, e a porção pode render para o almoço do dia seguinte.",
+        "tempo": "20 minutos",
+        "porque": "Uma receita clássica de carne vermelha, fácil e rápida de preparar em frigideira, perfeita para um jantar saboroso e prático. Rende para o casal e sobra para uma pessoa.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "equilibrado",
-          "jantar_rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 colher (sopa) de azeite",
-          "2 medalhões de filé mignon (cerca de 150 g cada)",
-          "sal e pimenta-do-reino moída na hora a gosto",
-          "1 colher (sopa) de azeite",
-          "1 cebola pequena picada fino",
-          "1 xícara (chá) de arroz arbóreo",
-          "½ xícara (chá) de vinho branco seco",
-          "3 xícaras (chá) de caldo de legumes caseiro (ou água)",
-          "½ xícara (chá) de damasco seco picado",
-          "½ xícara (chá) de queijo meia-cura ralado",
-          "1 colher (sopa) de manteiga",
-          "raspas de 1 limão-siciliano",
-          "folhas de manjericão a gosto para servir"
-        ],
-        "preparo": [
-          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino. Aqueça 1 colher de azeite em uma frigideira e grelhe os medalhões por 3 minutos de cada lado para ficarem ao ponto. Reserve.",
-          "Na panela de pressão, aqueça 1 colher de azeite e refogue a cebola picada por 2 minutos. Adicione o arroz arbóreo e refogue por 1 minuto.",
-          "Regue com o vinho branco e mexa até evaporar. Junte o caldo de legumes e o damasco picado. Tempere com sal e pimenta.",
-          "Tampe a panela e, quando chiar, abaixe o fogo e conte 3 minutos. Desligue o fogo e espere a pressão sair naturalmente.",
-          "Abra a panela, adicione o queijo ralado, a manteiga e as raspas de limão-siciliano. Misture bem até o risoto ficar cremoso.",
-          "Sirva o risoto imediatamente com os medalhões grelhados e decore com folhas de manjericão."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Risoto-de-queijo-e-damasco-na-pressao-com-medalhao-grelhado",
-          "checked_at": "2026-09-02T15:01:14+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/15058970/pexels-photo-15058970.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Aprecie este risoto gourmet com frango grelhado, perfeito para uma refeição requintada.",
-          "bank_id": "15058970",
-          "credit": "Shameel mukkath",
-          "query": "Risoto de Queijo e Damasco na Pressão com Medalhão Grelhado"
-        },
-        "id": "risoto-de-queijo-e-damasco-na-pressao-com-medalh-307d13f5"
-      },
-      {
-        "nome": "Bife Completo na Pressão",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma opção de carne vermelha prática e completa, preparada na panela de pressão em pouco tempo. Inclui batatas, cebola e repolho, garantindo um prato equilibrado e saboroso que pode render para o almoço do dia seguinte.",
-        "tags": [
-          "carne_vermelha",
-          "panela_de_pressao",
-          "refeicao_completa",
+          "refogado",
+          "rapido",
           "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "½ xícara (chá) de óleo",
-          "1 kg de coxão mole cortado em bifes finos e temperados com sal, pimenta e alho amassado",
-          "5 batatas médias sem casca cortadas em rodelas bem grossas",
-          "2 cebolas grandes cortadas em rodelas grossas",
-          "1 repolho pequeno cortado em pedaços grandes",
-          "1 caixinha de molho de tomate",
-          "Meia xícara (chá) de azeitonas verdes picadas grosseiramente",
-          "Sal e pimenta-do-reino a gosto",
-          "Salsinha picada a gosto"
+          "2 bifes de contrafilé finos",
+          "Alho espremido a gosto",
+          "Sal a gosto",
+          "Rodelas de cebola a gosto",
+          "2 colheres (sopa) de vinagre"
         ],
         "preparo": [
-          "Na panela de pressão, coloque o óleo no fundo.",
-          "Faça camadas com metade dos bifes de coxão mole, metade das batatas, metade da cebola, metade do repolho, metade da polpa de tomate e metade das azeitonas.",
-          "Tempere com sal e pimenta-do-reino a gosto e repita as camadas com os ingredientes restantes.",
-          "Tampe a panela e cozinhe em fogo médio por 15 minutos após pegar pressão.",
-          "Retire a pressão da panela, abra-a e polvilhe salsinha picada a gosto.",
-          "Sirva o bife completo na pressão acompanhado de arroz branco."
+          "Tempere os bifes com alho espremido e sal a gosto.",
+          "Aqueça uma chapa ou frigideira e grelhe os bifes até o ponto desejado. Reserve.",
+          "Na mesma chapa ou frigideira, adicione a cebola em rodelas com o vinagre.",
+          "Mexa a cebola até dourar, adicionando mais vinagre se necessário.",
+          "Tempere a cebola com sal a gosto e sirva sobre os bifes grelhados."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/bife-completo-na-pressao-a15286",
-          "checked_at": "2026-09-02T15:01:16+00:00"
+          "suggested_url": "https://www.anamariabraga.globo.com/receita/bife-acebolado-do-sergio-reis/",
+          "checked_at": "2026-09-04T14:52:10+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/3660/food-restaurant-dinner-lunch.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife servido com batatas e fatias de tomate fresco. Perfeito para o almoço ou jantar.",
-          "bank_id": "3660",
-          "credit": "JÉSHOOTS",
-          "query": "Bife Completo na Pressão"
+          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
+          "bank_id": "33673991",
+          "credit": "pedro furtado",
+          "query": "Bife Acebolado do Sérgio Reis"
         },
-        "id": "bife-completo-na-pressao-c511d4f4"
+        "id": "bife-acebolado-do-sergio-reis-0f0ddf12"
       },
       {
-        "nome": "Tapenade de Azeitonas Verdes",
+        "nome": "Estrogonofe de Carne Simples",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Um prato clássico e reconfortante de carne vermelha, fácil de fazer e pronto em pouco tempo, ideal para um jantar completo e com possibilidade de sobras.",
+        "tags": [
+          "carne_vermelha",
+          "refogado",
+          "cremoso",
+          "classico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "3 colheres (sopa) de azeite",
+          "1 kg de alcatra picada (ou filé mignon em tiras)",
+          "Sal a gosto",
+          "Pimenta-do-reino a gosto",
+          "1 cebola picada",
+          "3 tomates picados (sem pele e sem sementes)",
+          "2 colheres (sopa) de ketchup",
+          "360 g de champignon fatiado",
+          "2 latas de creme de leite (sem soro)"
+        ],
+        "preparo": [
+          "Em uma panela, aqueça o azeite e doure a carne picada. Tempere com sal e pimenta-do-reino.",
+          "Adicione a cebola picada e refogue até ficar transparente.",
+          "Acrescente os tomates picados e o ketchup, misturando bem.",
+          "Junte o champignon fatiado e deixe cozinhar por alguns minutos até o molho encorpar.",
+          "Desligue o fogo e incorpore o creme de leite sem soro, mexendo delicadamente.",
+          "Sirva quente, acompanhado de arroz branco e batata palha."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.tudogostoso.com.br/receita/1887-estrogonofe-de-carne-simples.html",
+          "checked_at": "2026-09-04T14:52:11+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/29935503/pexels-photo-29935503.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um delicioso prato de estrogonofe de carne com arroz e vegetais servido à mesa.",
+          "bank_id": "29935503",
+          "credit": "khezez  | خزاز",
+          "query": "Estrogonofe de Carne Simples"
+        },
+        "id": "estrogonofe-de-carne-simples-c5ac322d"
+      },
+      {
+        "nome": "Pão de alho na Air Fryer da Rita Lobo",
         "curso": "entrada",
         "tempo": "15 minutos",
-        "porque": "Uma entrada fácil, rápida e saborosa, perfeita para abrir o apetite sem complicação. É preparada sem fritura e com ingredientes acessíveis.",
+        "porque": "Uma entrada crocante e saborosa, feita rapidamente na air fryer, perfeita para abrir o apetite sem complicação.",
         "tags": [
-          "vegetariano",
+          "air_fryer",
+          "entrada",
           "rapido",
-          "facil",
-          "aperitivo"
+          "vegetariano"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 xícara (chá) de azeitona verde sem caroço",
-          "1 colher (sopa) de alcaparra",
-          "6 nozes",
-          "1 dente de alho",
-          "4 colheres (sopa) de azeite",
-          "1 colher (sopa) de caldo de limão",
-          "1 colher (chá) de shoyu (molho de soja)",
-          "folhas de manjericão a gosto"
+          "1 pão italiano redondo (ou baguete)",
+          "4 colheres (sopa) de manteiga sem sal",
+          "2 dentes de alho picados",
+          "1 colher (sopa) de salsinha picada",
+          "Raspas de ½ limão siciliano",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto",
+          "2 colheres (sopa) de queijo parmesão ralado"
         ],
         "preparo": [
-          "Lave as azeitonas e as alcaparras em uma peneira sob água corrente e deixe escorrer bem.",
-          "Em uma tábua, pique finamente as azeitonas, as alcaparras, as nozes e o dente de alho até formar uma pasta rústica.",
-          "Transfira a pasta para uma tigela.",
-          "Junte o azeite, o suco de limão e o molho de soja, misturando bem.",
-          "Rasgue as folhas de manjericão com as mãos e incorpore à tapenade.",
-          "Sirva a seguir com pães ou torradas."
+          "Fatie o pão em rodelas, sem ir até o final para que as fatias permaneçam unidas na base.",
+          "Em uma frigideira pequena, derreta 1 colher (sopa) de manteiga em fogo baixo e doure o alho picado.",
+          "Transfira o alho dourado para uma tigela, adicione o restante da manteiga, salsinha, raspas de limão, sal e pimenta. Misture bem.",
+          "Passe a manteiga temperada entre as fatias e por cima do pão. Polvilhe com o queijo parmesão.",
+          "Preaqueça a Air Fryer a 200 ºC e asse o pão por 8 minutos, ou até dourar e ficar crocante."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/tapenade-de-azeitonas-verdes",
-          "title": "Tapenade de azeitonas verdes - Panelinha",
+          "url": "https://panelinha.com.br/receita/pao-de-alho-na-air-fryer-da-rita-lobo",
+          "title": "Pão de alho na Air Fryer da Rita Lobo - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-02T15:01:17+00:00"
+          "checked_at": "2026-09-04T14:52:12+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-8312-tapenade-de-azeitonas-verdes.webp",
-          "alt": "Tapenade de Azeitonas Verdes"
+          "url": "https://i.panelinha.com.br/i1/bk-4746-blog-pao-de-alho-na-af-9.webp",
+          "alt": "Pão de alho na Air Fryer da Rita Lobo"
         },
-        "id": "tapenade-de-azeitonas-verdes-cd357939"
+        "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2"
       },
       {
-        "nome": "Pavê de Limão na Travessa",
+        "nome": "Brownie na Air Fryer da Rita Lobo",
         "curso": "sobremesa",
-        "tempo": "15 minutos de preparo + 4 horas de gelad",
-        "porque": "Uma sobremesa refrescante, fácil e rápida de preparar, ideal para um jantar a dois. Não requer forno ou fritura, apenas geladeira para firmar.",
+        "tempo": "30 minutos",
+        "porque": "Uma sobremesa de chocolate clássica, com casquinha crocante e interior cremoso, feita de forma prática na air fryer. Ideal para um casal e rende para mais porções.",
         "tags": [
-          "doce",
-          "gelado",
-          "rapido",
-          "sem_forno"
+          "air_fryer",
+          "chocolate",
+          "sobremesa",
+          "rapido"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "1 Leite Condensado MOÇA® (lata ou caixinha) 395g",
-          "1 NESTLÉ® Creme de Leite (caixinha) 200g",
-          "½ xícara (chá) de suco de limão (cerca de 3 limões)",
-          "1 pacote de Biscoito TOSTINES® Maizena (200g)",
-          "Raspas de limão para decorar (opcional)"
+          "100 g de chocolate meio amargo picado",
+          "60 g de manteiga sem sal",
+          "1 ovo grande",
+          "2 colheres (sopa) de açúcar refinado",
+          "2 colheres (sopa) de açúcar mascavo",
+          "½ xícara (chá) de farinha de trigo",
+          "1 pitada de sal"
         ],
         "preparo": [
-          "Em uma tigela ou liquidificador, coloque o Leite Condensado MOÇA®, o NESTLÉ® Creme de Leite e o suco dos limões.",
-          "Misture bem até obter um creme liso, firme e homogêneo.",
-          "Em uma travessa, espalhe uma camada fina do creme de limão.",
-          "Faça uma camada de Biscoito TOSTINES® Maizena sobre o creme.",
-          "Repita as camadas, intercalando creme e biscoito, até finalizar com uma camada de creme.",
-          "Decore com raspas de limão, se desejar.",
-          "Leve à geladeira por no mínimo 4 horas antes de servir para firmar bem."
+          "Unte 4 ramequins individuais com manteiga e polvilhe farinha, retirando o excesso.",
+          "Derreta o chocolate com a manteiga em banho-maria ou micro-ondas. Misture até ficar liso.",
+          "Em outra tigela, bata o ovo com os açúcares até dissolver os gruminhos.",
+          "Adicione o chocolate derretido e o sal à mistura de ovos, mexendo bem com uma espátula.",
+          "Incorpore a farinha delicadamente, misturando apenas até homogeneizar.",
+          "Divida a massa entre os ramequins. Preaqueça a Air Fryer a 150 ºC e asse por 15 minutos.",
+          "Deixe descansar por 15 minutos antes de desenformar para firmar as bordas. Sirva quente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/pave-de-limao-na-travessa",
-          "checked_at": "2026-09-02T15:01:18+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/brownie-na-air-fryer-da-rita-lobo",
+          "title": "Brownie na Air Fryer da Rita Lobo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-04T14:52:12+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/28992229/pexels-photo-28992229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Bolinhos fritos crocantes servidos com limão fresco e tomate fatiado sobre uma cama de alface.",
-          "bank_id": "28992229",
-          "credit": "pedro furtado",
-          "query": "Pavê de Limão na Travessa"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-6954-brownie-blog.webp",
+          "alt": "Brownie na Air Fryer da Rita Lobo"
         },
-        "id": "pave-de-limao-na-travessa-2ce0ea7a"
+        "id": "brownie-na-air-fryer-da-rita-lobo-600d5487"
       }
     ]
   },
