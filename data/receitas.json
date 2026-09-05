@@ -1,188 +1,199 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-04T11:50:24-03:00",
+  "gerado_em": "2026-09-05T10:41:11-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "04/09/2026",
-    "dia_semana": "sexta",
+    "data": "05/09/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Bife Acebolado do Sérgio Reis",
+        "nome": "Carne de Panela com Batata e Cenoura",
         "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Uma receita clássica de carne vermelha, fácil e rápida de preparar em frigideira, perfeita para um jantar saboroso e prático. Rende para o casal e sobra para uma pessoa.",
+        "tempo": "40 minutos",
+        "porque": "Receita caseira e reconfortante, com carne vermelha e legumes, fácil de fazer e ideal para um jantar farto, podendo render para o almoço. Prepara-se em panela de pressão para agilizar.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "rapido",
+          "panela_de_pressao",
+          "refeicao_completa",
           "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 bifes de contrafilé finos",
-          "Alho espremido a gosto",
-          "Sal a gosto",
-          "Rodelas de cebola a gosto",
-          "2 colheres (sopa) de vinagre"
+          "1 colher (sopa) de óleo",
+          "500 g de carne bovina (coxão duro) em cubos",
+          "1 cebola média picada",
+          "2 dentes de alho amassados",
+          "1 tablete de Caldo SAZÓN® Carne",
+          "1 xícara (chá) de água fervente",
+          "2 batatas médias em cubos",
+          "2 cenouras médias em rodelas",
+          "Sal e pimenta-do-reino a gosto",
+          "Salsinha picada para finalizar (opcional)"
         ],
         "preparo": [
-          "Tempere os bifes com alho espremido e sal a gosto.",
-          "Aqueça uma chapa ou frigideira e grelhe os bifes até o ponto desejado. Reserve.",
-          "Na mesma chapa ou frigideira, adicione a cebola em rodelas com o vinagre.",
-          "Mexa a cebola até dourar, adicionando mais vinagre se necessário.",
-          "Tempere a cebola com sal a gosto e sirva sobre os bifes grelhados."
+          "Em uma panela de pressão, aqueça o óleo e doure a carne em fogo alto.",
+          "Adicione a cebola e o alho, refogando até ficarem macios.",
+          "Dissolva o tablete de Caldo SAZÓN® na água fervente e adicione à panela.",
+          "Acrescente as batatas e as cenouras, tempere com sal e pimenta.",
+          "Tampe a panela e cozinhe por cerca de 20 minutos após o início da pressão.",
+          "Desligue o fogo, espere a pressão sair e verifique o cozimento da carne e dos legumes. Se necessário, cozinhe por mais alguns minutos sem pressão.",
+          "Sirva quente, finalizado com salsinha picada, se desejar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.anamariabraga.globo.com/receita/bife-acebolado-do-sergio-reis/",
-          "checked_at": "2026-09-04T14:52:10+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/carne-de-panela-com-batata-e-cenoura",
+          "checked_at": "2026-09-05T13:42:48+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
-          "bank_id": "33673991",
-          "credit": "pedro furtado",
-          "query": "Bife Acebolado do Sérgio Reis"
+          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
+          "bank_id": "6545671",
+          "credit": "Thiago Rebouças",
+          "query": "Carne de Panela com Batata e Cenoura"
         },
-        "id": "bife-acebolado-do-sergio-reis-0f0ddf12"
+        "id": "carne-de-panela-com-batata-e-cenoura-6d4bd785"
       },
       {
-        "nome": "Estrogonofe de Carne Simples",
+        "nome": "Carne de panela com calabresa e legumes",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Um prato clássico e reconfortante de carne vermelha, fácil de fazer e pronto em pouco tempo, ideal para um jantar completo e com possibilidade de sobras.",
+        "tempo": "40 minutos",
+        "porque": "Carne vermelha com o sabor defumado da calabresa e a riqueza de diversos legumes, rápida e prática para um jantar nutritivo e com potencial para sobras.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "cremoso",
-          "classico"
+          "panela_de_pressao",
+          "refeicao_completa",
+          "pratico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "3 colheres (sopa) de azeite",
-          "1 kg de alcatra picada (ou filé mignon em tiras)",
-          "Sal a gosto",
-          "Pimenta-do-reino a gosto",
-          "1 cebola picada",
-          "3 tomates picados (sem pele e sem sementes)",
-          "2 colheres (sopa) de ketchup",
-          "360 g de champignon fatiado",
-          "2 latas de creme de leite (sem soro)"
+          "4 colheres (sopa) de óleo",
+          "1kg de acém em cubos",
+          "Sal e pimenta-do-reino a gosto",
+          "2 gomos de linguiça calabresa em rodelas",
+          "1 cebola em tiras",
+          "3 colheres (sopa) de extrato de tomate",
+          "1 cubo de caldo de carne",
+          "2 xícaras (chá) de água",
+          "2 batatas em cubos",
+          "1 cenoura em rodelas",
+          "1 lata de milho escorrido",
+          "1 lata de ervilha escorrida",
+          "1/2 xícara (chá) de cheiro-verde picado"
         ],
         "preparo": [
-          "Em uma panela, aqueça o azeite e doure a carne picada. Tempere com sal e pimenta-do-reino.",
-          "Adicione a cebola picada e refogue até ficar transparente.",
-          "Acrescente os tomates picados e o ketchup, misturando bem.",
-          "Junte o champignon fatiado e deixe cozinhar por alguns minutos até o molho encorpar.",
-          "Desligue o fogo e incorpore o creme de leite sem soro, mexendo delicadamente.",
-          "Sirva quente, acompanhado de arroz branco e batata palha."
+          "Aqueça uma panela de pressão com o óleo e frite a carne temperada com sal e pimenta por 5 minutos.",
+          "Adicione a calabresa e a cebola, e refogue por 2 minutos.",
+          "Acrescente o extrato e o caldo de carne, e refogue por mais 2 minutos.",
+          "Coloque a água, tampe a panela e cozinhe por 20 minutos, em fogo médio, depois de iniciada a pressão.",
+          "Desligue, deixe a pressão sair naturalmente e abra a panela.",
+          "Adicione a batata, a cenoura, o milho e a ervilha, coloque mais água se necessário e cozinhe com a panela aberta até que os legumes e a carne estejam macios.",
+          "Acrescente o cheiro-verde, acerte o sal e desligue o fogo. Transfira para uma travessa e sirva."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/1887-estrogonofe-de-carne-simples.html",
-          "checked_at": "2026-09-04T14:52:11+00:00"
+          "status": "verified",
+          "url": "https://guiadacozinha.com.br/receitas/carne-de-panela-com-calabresa-e-legumes/",
+          "title": "Carne de panela com calabresa e legumes",
+          "domain": "guiadacozinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-05T13:42:52+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/29935503/pexels-photo-29935503.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um delicioso prato de estrogonofe de carne com arroz e vegetais servido à mesa.",
-          "bank_id": "29935503",
-          "credit": "khezez  | خزاز",
-          "query": "Estrogonofe de Carne Simples"
+          "kind": "source",
+          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/carne-panela-calabresa-legumes-768x619.jpg",
+          "alt": "Carne de panela com calabresa e legumes"
         },
-        "id": "estrogonofe-de-carne-simples-c5ac322d"
+        "id": "carne-de-panela-com-calabresa-e-legumes-9bcde8ba"
       },
       {
-        "nome": "Pão de alho na Air Fryer da Rita Lobo",
+        "nome": "Crostini de abobrinha com ricota e hortelã",
         "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada crocante e saborosa, feita rapidamente na air fryer, perfeita para abrir o apetite sem complicação.",
+        "tempo": "25 minutos",
+        "porque": "Uma entrada leve, saborosa e rápida de fazer, com vegetais frescos e queijo, perfeita para abrir o apetite sem pesar.",
         "tags": [
-          "air_fryer",
-          "entrada",
+          "vegetariano",
+          "entrada_leve",
           "rapido",
-          "vegetariano"
+          "forno"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pão italiano redondo (ou baguete)",
-          "4 colheres (sopa) de manteiga sem sal",
-          "2 dentes de alho picados",
-          "1 colher (sopa) de salsinha picada",
-          "Raspas de ½ limão siciliano",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto",
-          "2 colheres (sopa) de queijo parmesão ralado"
+          "1 abobrinha pequena",
+          "1/2 xícara (chá) de ricota fresca",
+          "2 colheres (sopa) de folhas de hortelã picadas",
+          "1 dente de alho pequeno amassado",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "6 fatias de pão italiano ou baguete"
         ],
         "preparo": [
-          "Fatie o pão em rodelas, sem ir até o final para que as fatias permaneçam unidas na base.",
-          "Em uma frigideira pequena, derreta 1 colher (sopa) de manteiga em fogo baixo e doure o alho picado.",
-          "Transfira o alho dourado para uma tigela, adicione o restante da manteiga, salsinha, raspas de limão, sal e pimenta. Misture bem.",
-          "Passe a manteiga temperada entre as fatias e por cima do pão. Polvilhe com o queijo parmesão.",
-          "Preaqueça a Air Fryer a 200 ºC e asse o pão por 8 minutos, ou até dourar e ficar crocante."
+          "Lave e seque a abobrinha. Com um descascador de legumes, faça fatias finas no sentido do comprimento.",
+          "Em uma tigela, misture a ricota, a hortelã picada, o alho amassado, 1 colher de azeite, sal e pimenta.",
+          "Regue as fatias de pão com o azeite restante e leve ao forno pré-aquecido a 180°C por cerca de 5 minutos, ou até ficarem levemente douradas.",
+          "Retire os crostinis do forno, espalhe a mistura de ricota sobre eles.",
+          "Disponha as fatias de abobrinha por cima da ricota.",
+          "Leve novamente ao forno por mais 5 minutos, apenas para aquecer.",
+          "Sirva imediatamente."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pao-de-alho-na-air-fryer-da-rita-lobo",
-          "title": "Pão de alho na Air Fryer da Rita Lobo - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-04T14:52:12+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Crostini-de-abobrinha-com-ricota-e-hortela",
+          "checked_at": "2026-09-05T13:42:52+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4746-blog-pao-de-alho-na-af-9.webp",
-          "alt": "Pão de alho na Air Fryer da Rita Lobo"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36933459/pexels-photo-36933459.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Detalhe de crostini gourmet com presunto, ricota e sementes de gergelim em uma tábua de madeira.",
+          "bank_id": "36933459",
+          "credit": "Jonathan Borba",
+          "query": "Crostini de abobrinha com ricota e hortelã"
         },
-        "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2"
+        "id": "crostini-de-abobrinha-com-ricota-e-hortela-83bc4c78"
       },
       {
-        "nome": "Brownie na Air Fryer da Rita Lobo",
+        "nome": "Pudim de chia com frutas vermelhas",
         "curso": "sobremesa",
-        "tempo": "30 minutos",
-        "porque": "Uma sobremesa de chocolate clássica, com casquinha crocante e interior cremoso, feita de forma prática na air fryer. Ideal para um casal e rende para mais porções.",
+        "tempo": "10 minutos (preparo ativo)",
+        "porque": "Uma sobremesa leve, saudável e refrescante, fácil de preparar com antecedência e perfeita para um casal jovem que busca opções nutritivas.",
         "tags": [
-          "air_fryer",
-          "chocolate",
-          "sobremesa",
-          "rapido"
+          "saudavel",
+          "sem_forno",
+          "frutas",
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "100 g de chocolate meio amargo picado",
-          "60 g de manteiga sem sal",
-          "1 ovo grande",
-          "2 colheres (sopa) de açúcar refinado",
-          "2 colheres (sopa) de açúcar mascavo",
-          "½ xícara (chá) de farinha de trigo",
-          "1 pitada de sal"
+          "1 xícara (chá) de leite (pode ser vegetal)",
+          "3 colheres (sopa) de sementes de chia",
+          "1 colher (sopa) de mel ou adoçante a gosto",
+          "1/2 xícara (chá) de frutas vermelhas frescas ou congeladas (morango, framboesa, mirtilo)",
+          "Folhas de hortelã para decorar (opcional)"
         ],
         "preparo": [
-          "Unte 4 ramequins individuais com manteiga e polvilhe farinha, retirando o excesso.",
-          "Derreta o chocolate com a manteiga em banho-maria ou micro-ondas. Misture até ficar liso.",
-          "Em outra tigela, bata o ovo com os açúcares até dissolver os gruminhos.",
-          "Adicione o chocolate derretido e o sal à mistura de ovos, mexendo bem com uma espátula.",
-          "Incorpore a farinha delicadamente, misturando apenas até homogeneizar.",
-          "Divida a massa entre os ramequins. Preaqueça a Air Fryer a 150 ºC e asse por 15 minutos.",
-          "Deixe descansar por 15 minutos antes de desenformar para firmar as bordas. Sirva quente."
+          "Em um pote com tampa, misture o leite, as sementes de chia e o mel (ou adoçante).",
+          "Mexa bem para que as sementes não grudem no fundo.",
+          "Leve à geladeira por no mínimo 2 horas, ou idealmente de um dia para o outro, para que a chia hidrate e o pudim fique cremoso.",
+          "Antes de servir, mexa novamente o pudim de chia.",
+          "Distribua em taças ou potes individuais.",
+          "Cubra com as frutas vermelhas e decore com folhas de hortelã, se desejar."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/brownie-na-air-fryer-da-rita-lobo",
-          "title": "Brownie na Air Fryer da Rita Lobo - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-04T14:52:12+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Pudim-de-chia-com-frutas-vermelhas",
+          "checked_at": "2026-09-05T13:42:53+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6954-brownie-blog.webp",
-          "alt": "Brownie na Air Fryer da Rita Lobo"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/9022034/pexels-photo-9022034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso pudim de chia coberto com frutas vermelhas frescas e hortelã sobre um guardanapo xadrez.",
+          "bank_id": "9022034",
+          "credit": "Anastasia Belousova",
+          "query": "Pudim de chia com frutas vermelhas"
         },
-        "id": "brownie-na-air-fryer-da-rita-lobo-600d5487"
+        "id": "pudim-de-chia-com-frutas-vermelhas-da6d5926"
       }
     ]
   },

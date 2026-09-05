@@ -2787,5 +2787,53 @@
     ],
     "data": "04/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "carne-de-panela-com-batata-e-cenoura-6d4bd785",
+    "titulo": "Carne de Panela com Batata e Cenoura",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "refeicao_completa",
+      "facil"
+    ],
+    "data": "05/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-com-calabresa-e-legumes-9bcde8ba",
+    "titulo": "Carne de panela com calabresa e legumes",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "refeicao_completa",
+      "pratico"
+    ],
+    "data": "05/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "crostini-de-abobrinha-com-ricota-e-hortela-83bc4c78",
+    "titulo": "Crostini de abobrinha com ricota e hortelã",
+    "tags": [
+      "vegetariano",
+      "entrada_leve",
+      "rapido",
+      "forno"
+    ],
+    "data": "05/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pudim-de-chia-com-frutas-vermelhas-da6d5926",
+    "titulo": "Pudim de chia com frutas vermelhas",
+    "tags": [
+      "saudavel",
+      "sem_forno",
+      "frutas",
+      "facil"
+    ],
+    "data": "05/09/2026",
+    "fonte_status": "unverified"
   }
 ]
