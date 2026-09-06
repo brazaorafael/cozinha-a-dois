@@ -1,199 +1,191 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-05T10:41:11-03:00",
+  "gerado_em": "2026-09-06T10:58:18-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "05/09/2026",
-    "dia_semana": "sábado",
+    "data": "06/09/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Carne de Panela com Batata e Cenoura",
+        "nome": "Carne em Tiras com Legumes",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Receita caseira e reconfortante, com carne vermelha e legumes, fácil de fazer e ideal para um jantar farto, podendo render para o almoço. Prepara-se em panela de pressão para agilizar.",
+        "tempo": "30 minutos",
+        "porque": "Uma receita prática e rápida, com carne vermelha e uma boa variedade de vegetais, ideal para um jantar equilibrado. O preparo em wok ou frigideira grande garante rapidez e sabor, e a porção pode render para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "refeicao_completa",
-          "facil"
+          "refogado",
+          "rapido",
+          "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 colher (sopa) de óleo",
-          "500 g de carne bovina (coxão duro) em cubos",
-          "1 cebola média picada",
-          "2 dentes de alho amassados",
-          "1 tablete de Caldo SAZÓN® Carne",
-          "1 xícara (chá) de água fervente",
-          "2 batatas médias em cubos",
-          "2 cenouras médias em rodelas",
+          "300 g de carne bovina (alcatra, filé mignon ou contrafilé), em tiras finas",
+          "1 colher (sopa) de óleo vegetal",
+          "1 cebola média, fatiada",
+          "1 pimentão vermelho, em tiras",
+          "1 pimentão amarelo, em tiras",
+          "1 cenoura média, em tiras finas",
+          "1 xícara (chá) de brócolis em floretes pequenos",
+          "2 dentes de alho, picados",
+          "1 pedaço pequeno de gengibre (cerca de 2 cm), ralado",
+          "3 colheres (sopa) de molho shoyu",
+          "1 colher (sopa) de amido de milho",
+          "½ xícara (chá) de água",
           "Sal e pimenta-do-reino a gosto",
-          "Salsinha picada para finalizar (opcional)"
+          "Gergelim torrado para finalizar (opcional)"
         ],
         "preparo": [
-          "Em uma panela de pressão, aqueça o óleo e doure a carne em fogo alto.",
-          "Adicione a cebola e o alho, refogando até ficarem macios.",
-          "Dissolva o tablete de Caldo SAZÓN® na água fervente e adicione à panela.",
-          "Acrescente as batatas e as cenouras, tempere com sal e pimenta.",
-          "Tampe a panela e cozinhe por cerca de 20 minutos após o início da pressão.",
-          "Desligue o fogo, espere a pressão sair e verifique o cozimento da carne e dos legumes. Se necessário, cozinhe por mais alguns minutos sem pressão.",
-          "Sirva quente, finalizado com salsinha picada, se desejar."
+          "Tempere as tiras de carne com sal e pimenta-do-reino a gosto.",
+          "Em um copo, dissolva o amido de milho na água e reserve.",
+          "Aqueça o óleo em uma wok ou frigideira grande em fogo alto. Doure a carne em porções e reserve.",
+          "Na mesma panela, adicione a cebola, os pimentões, a cenoura e o brócolis. Refogue por cerca de 5 minutos, até ficarem al dente.",
+          "Acrescente o alho e o gengibre, refogando por mais 1 minuto.",
+          "Retorne a carne à panela, adicione o molho shoyu e a mistura de amido de milho. Cozinhe, mexendo sempre, até o molho engrossar.",
+          "Sirva imediatamente, polvilhado com gergelim torrado, se desejar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/carne-de-panela-com-batata-e-cenoura",
-          "checked_at": "2026-09-05T13:42:48+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/carne-em-tiras-com-legumes",
+          "checked_at": "2026-09-06T13:59:49+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
-          "bank_id": "6545671",
-          "credit": "Thiago Rebouças",
-          "query": "Carne de Panela com Batata e Cenoura"
+          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
+          "bank_id": "38330332",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Carne em Tiras com Legumes"
         },
-        "id": "carne-de-panela-com-batata-e-cenoura-6d4bd785"
+        "id": "carne-em-tiras-com-legumes-8ff9664f"
       },
       {
-        "nome": "Carne de panela com calabresa e legumes",
+        "nome": "Bife à Milanesa na Airfryer",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Carne vermelha com o sabor defumado da calabresa e a riqueza de diversos legumes, rápida e prática para um jantar nutritivo e com potencial para sobras.",
+        "tempo": "30 minutos",
+        "porque": "Uma versão mais saudável e prática do clássico bife à milanesa, feita na airfryer para um jantar rápido e sem fritura por imersão. É uma ótima opção de carne vermelha que agrada a maioria e pode render para o almoço.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "refeicao_completa",
-          "pratico"
+          "airfryer",
+          "facil",
+          "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "4 colheres (sopa) de óleo",
-          "1kg de acém em cubos",
+          "4 bifes de contrafilé (ou alcatra, patinho)",
           "Sal e pimenta-do-reino a gosto",
-          "2 gomos de linguiça calabresa em rodelas",
-          "1 cebola em tiras",
-          "3 colheres (sopa) de extrato de tomate",
-          "1 cubo de caldo de carne",
-          "2 xícaras (chá) de água",
-          "2 batatas em cubos",
-          "1 cenoura em rodelas",
-          "1 lata de milho escorrido",
-          "1 lata de ervilha escorrida",
-          "1/2 xícara (chá) de cheiro-verde picado"
+          "1 xícara (chá) de farinha de trigo",
+          "2 ovos batidos",
+          "1 xícara (chá) de farinha de rosca",
+          "Azeite em spray (ou para pincelar)"
         ],
         "preparo": [
-          "Aqueça uma panela de pressão com o óleo e frite a carne temperada com sal e pimenta por 5 minutos.",
-          "Adicione a calabresa e a cebola, e refogue por 2 minutos.",
-          "Acrescente o extrato e o caldo de carne, e refogue por mais 2 minutos.",
-          "Coloque a água, tampe a panela e cozinhe por 20 minutos, em fogo médio, depois de iniciada a pressão.",
-          "Desligue, deixe a pressão sair naturalmente e abra a panela.",
-          "Adicione a batata, a cenoura, o milho e a ervilha, coloque mais água se necessário e cozinhe com a panela aberta até que os legumes e a carne estejam macios.",
-          "Acrescente o cheiro-verde, acerte o sal e desligue o fogo. Transfira para uma travessa e sirva."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://guiadacozinha.com.br/receitas/carne-de-panela-com-calabresa-e-legumes/",
-          "title": "Carne de panela com calabresa e legumes",
-          "domain": "guiadacozinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-05T13:42:52+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/carne-panela-calabresa-legumes-768x619.jpg",
-          "alt": "Carne de panela com calabresa e legumes"
-        },
-        "id": "carne-de-panela-com-calabresa-e-legumes-9bcde8ba"
-      },
-      {
-        "nome": "Crostini de abobrinha com ricota e hortelã",
-        "curso": "entrada",
-        "tempo": "25 minutos",
-        "porque": "Uma entrada leve, saborosa e rápida de fazer, com vegetais frescos e queijo, perfeita para abrir o apetite sem pesar.",
-        "tags": [
-          "vegetariano",
-          "entrada_leve",
-          "rapido",
-          "forno"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 abobrinha pequena",
-          "1/2 xícara (chá) de ricota fresca",
-          "2 colheres (sopa) de folhas de hortelã picadas",
-          "1 dente de alho pequeno amassado",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "6 fatias de pão italiano ou baguete"
-        ],
-        "preparo": [
-          "Lave e seque a abobrinha. Com um descascador de legumes, faça fatias finas no sentido do comprimento.",
-          "Em uma tigela, misture a ricota, a hortelã picada, o alho amassado, 1 colher de azeite, sal e pimenta.",
-          "Regue as fatias de pão com o azeite restante e leve ao forno pré-aquecido a 180°C por cerca de 5 minutos, ou até ficarem levemente douradas.",
-          "Retire os crostinis do forno, espalhe a mistura de ricota sobre eles.",
-          "Disponha as fatias de abobrinha por cima da ricota.",
-          "Leve novamente ao forno por mais 5 minutos, apenas para aquecer.",
+          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
+          "Prepare três pratos: um com farinha de trigo, outro com os ovos batidos e o terceiro com a farinha de rosca.",
+          "Passe cada bife primeiro na farinha de trigo, depois nos ovos e, por último, na farinha de rosca, cobrindo bem.",
+          "Pré-aqueça a airfryer a 180°C por 5 minutos.",
+          "Pulverize ou pincele os bifes empanados com azeite.",
+          "Coloque os bifes na cesta da airfryer, sem sobrepor, e cozinhe por 10 a 12 minutos, virando na metade do tempo, até dourarem e ficarem crocantes.",
           "Sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Crostini-de-abobrinha-com-ricota-e-hortela",
-          "checked_at": "2026-09-05T13:42:52+00:00"
+          "suggested_url": "https://receitas.globo.com/receitas/bife-a-milanesa-na-airfryer-receita-gshow.ghtml",
+          "checked_at": "2026-09-06T13:59:50+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36933459/pexels-photo-36933459.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Detalhe de crostini gourmet com presunto, ricota e sementes de gergelim em uma tábua de madeira.",
-          "bank_id": "36933459",
-          "credit": "Jonathan Borba",
-          "query": "Crostini de abobrinha com ricota e hortelã"
+          "url": "https://images.pexels.com/photos/7783364/pexels-photo-7783364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso filé a milanesa coberto com queijo e ervas, servido com salada fresca, tomate e fatia de limão.",
+          "bank_id": "7783364",
+          "credit": "Daniel Fernandez",
+          "query": "Bife à Milanesa na Airfryer"
         },
-        "id": "crostini-de-abobrinha-com-ricota-e-hortela-83bc4c78"
+        "id": "bife-a-milanesa-na-airfryer-df0afa3b"
       },
       {
-        "nome": "Pudim de chia com frutas vermelhas",
-        "curso": "sobremesa",
-        "tempo": "10 minutos (preparo ativo)",
-        "porque": "Uma sobremesa leve, saudável e refrescante, fácil de preparar com antecedência e perfeita para um casal jovem que busca opções nutritivas.",
+        "nome": "Guacamole Tradicional",
+        "curso": "entrada",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada fresca, leve e rápida de preparar, perfeita para abrir o apetite. É rica em nutrientes e fácil de fazer com ingredientes acessíveis.",
         "tags": [
-          "saudavel",
-          "sem_forno",
-          "frutas",
-          "facil"
+          "vegetariano",
+          "fresco",
+          "rapido",
+          "entrada"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 xícara (chá) de leite (pode ser vegetal)",
-          "3 colheres (sopa) de sementes de chia",
-          "1 colher (sopa) de mel ou adoçante a gosto",
-          "1/2 xícara (chá) de frutas vermelhas frescas ou congeladas (morango, framboesa, mirtilo)",
-          "Folhas de hortelã para decorar (opcional)"
+          "1 abacate picado",
+          "1 cebola roxa picada",
+          "2 tomates sem sementes picados",
+          "1 stick de MAGGI® MEU SEGREDO® 7 Vegetais (ou sal e temperos a gosto)",
+          "2 colheres (sopa) de azeite",
+          "Suco de 1 limão",
+          "Meia pimenta dedo-de-moça, sem sementes, picada",
+          "2 colheres (sopa) de coentro picado"
         ],
         "preparo": [
-          "Em um pote com tampa, misture o leite, as sementes de chia e o mel (ou adoçante).",
-          "Mexa bem para que as sementes não grudem no fundo.",
-          "Leve à geladeira por no mínimo 2 horas, ou idealmente de um dia para o outro, para que a chia hidrate e o pudim fique cremoso.",
-          "Antes de servir, mexa novamente o pudim de chia.",
-          "Distribua em taças ou potes individuais.",
-          "Cubra com as frutas vermelhas e decore com folhas de hortelã, se desejar."
+          "Em um recipiente, amasse o abacate com um garfo até obter a consistência desejada.",
+          "Adicione a cebola roxa, os tomates picados, a pimenta dedo-de-moça e o coentro.",
+          "Regue com o azeite e o suco de limão.",
+          "Tempere com o stick de MAGGI® MEU SEGREDO® 7 Vegetais (ou sal e pimenta a gosto) e misture bem.",
+          "Sirva imediatamente com tortilhas ou torradas."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Pudim-de-chia-com-frutas-vermelhas",
-          "checked_at": "2026-09-05T13:42:53+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/guacamole-tradicional",
+          "checked_at": "2026-09-06T13:59:53+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/9022034/pexels-photo-9022034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso pudim de chia coberto com frutas vermelhas frescas e hortelã sobre um guardanapo xadrez.",
-          "bank_id": "9022034",
-          "credit": "Anastasia Belousova",
-          "query": "Pudim de chia com frutas vermelhas"
+          "url": "https://images.pexels.com/photos/36498696/pexels-photo-36498696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de três tacos de frango com guacamole, ervas e cebola em um restaurante.",
+          "bank_id": "36498696",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Guacamole Tradicional"
         },
-        "id": "pudim-de-chia-com-frutas-vermelhas-da6d5926"
+        "id": "guacamole-tradicional-e96df9bd"
+      },
+      {
+        "nome": "Brigadeiro de Colher de Micro-ondas",
+        "curso": "sobremesa",
+        "tempo": "15 minutos",
+        "porque": "Uma sobremesa clássica brasileira, extremamente fácil e rápida de fazer no micro-ondas, ideal para um casal jovem que busca praticidade sem abrir mão do sabor.",
+        "tags": [
+          "doce",
+          "micro_ondas",
+          "rapido",
+          "classico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 lata de Leite MOÇA® (395 g)",
+          "1 xícara (chá) de Chocolate NESTLÉ CLASSIC Meio Amargo picado (180 g)",
+          "1 caixinha de Creme de Leite NESTLÉ (200 g)"
+        ],
+        "preparo": [
+          "Em um recipiente refratário de bordas altas, misture o Leite MOÇA e o Chocolate NESTLÉ CLASSIC picado.",
+          "Leve ao micro-ondas na potência alta por 10 a 15 minutos, mexendo a cada 2 minutos para evitar que transborde e queime. O tempo pode variar conforme a potência do seu micro-ondas.",
+          "Retire do micro-ondas, adicione o Creme de Leite NESTLÉ e misture bem até ficar homogêneo.",
+          "Sirva quente ou frio, de colher."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/brigadeiro-de-colher-de-micro-ondas",
+          "title": "Brigadeiro de Colher de Micro-ondas",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-06T13:59:55+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/0a75ab2e17db741764a48dc02abd168e.jpg",
+          "alt": "Brigadeiro de Colher de Micro-ondas"
+        },
+        "id": "brigadeiro-de-colher-de-micro-ondas-873bc920"
       }
     ]
   },

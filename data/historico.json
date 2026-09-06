@@ -2835,5 +2835,53 @@
     ],
     "data": "05/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-em-tiras-com-legumes-8ff9664f",
+    "titulo": "Carne em Tiras com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-milanesa-na-airfryer-df0afa3b",
+    "titulo": "Bife à Milanesa na Airfryer",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "facil",
+      "rapido"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "guacamole-tradicional-e96df9bd",
+    "titulo": "Guacamole Tradicional",
+    "tags": [
+      "vegetariano",
+      "fresco",
+      "rapido",
+      "entrada"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "brigadeiro-de-colher-de-micro-ondas-873bc920",
+    "titulo": "Brigadeiro de Colher de Micro-ondas",
+    "tags": [
+      "doce",
+      "micro_ondas",
+      "rapido",
+      "classico"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "verified"
   }
 ]
