@@ -1,191 +1,182 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-06T21:13:19-03:00",
+  "gerado_em": "2026-09-07T13:17:53-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "06/09/2026",
-    "dia_semana": "domingo",
+    "data": "07/09/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Carne em Tiras com Legumes",
+        "nome": "Bife Acebolado",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma receita prática e rápida, com carne vermelha e uma boa variedade de vegetais, ideal para um jantar equilibrado. O preparo em wok ou frigideira grande garante rapidez e sabor, e a porção pode render para o almoço do dia seguinte.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "rapido",
-          "equilibrado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "300 g de carne bovina (alcatra, filé mignon ou contrafilé), em tiras finas",
-          "1 colher (sopa) de óleo vegetal",
-          "1 cebola média, fatiada",
-          "1 pimentão vermelho, em tiras",
-          "1 pimentão amarelo, em tiras",
-          "1 cenoura média, em tiras finas",
-          "1 xícara (chá) de brócolis em floretes pequenos",
-          "2 dentes de alho, picados",
-          "1 pedaço pequeno de gengibre (cerca de 2 cm), ralado",
-          "3 colheres (sopa) de molho shoyu",
-          "1 colher (sopa) de amido de milho",
-          "½ xícara (chá) de água",
-          "Sal e pimenta-do-reino a gosto",
-          "Gergelim torrado para finalizar (opcional)"
-        ],
-        "preparo": [
-          "Tempere as tiras de carne com sal e pimenta-do-reino a gosto.",
-          "Em um copo, dissolva o amido de milho na água e reserve.",
-          "Aqueça o óleo em uma wok ou frigideira grande em fogo alto. Doure a carne em porções e reserve.",
-          "Na mesma panela, adicione a cebola, os pimentões, a cenoura e o brócolis. Refogue por cerca de 5 minutos, até ficarem al dente.",
-          "Acrescente o alho e o gengibre, refogando por mais 1 minuto.",
-          "Retorne a carne à panela, adicione o molho shoyu e a mistura de amido de milho. Cozinhe, mexendo sempre, até o molho engrossar.",
-          "Sirva imediatamente, polvilhado com gergelim torrado, se desejar."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/carne-em-tiras-com-legumes",
-          "checked_at": "2026-09-06T13:59:49+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
-          "bank_id": "38330332",
-          "credit": "DΛVΞ GΛRCIΛ",
-          "query": "Carne em Tiras com Legumes"
-        },
-        "id": "carne-em-tiras-com-legumes-8ff9664f"
-      },
-      {
-        "nome": "Bife à Milanesa na Airfryer",
-        "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma versão mais saudável e prática do clássico bife à milanesa, feita na airfryer para um jantar rápido e sem fritura por imersão. É uma ótima opção de carne vermelha que agrada a maioria e pode render para o almoço.",
-        "tags": [
-          "carne_vermelha",
-          "airfryer",
-          "facil",
-          "rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "4 bifes de contrafilé (ou alcatra, patinho)",
-          "Sal e pimenta-do-reino a gosto",
-          "1 xícara (chá) de farinha de trigo",
-          "2 ovos batidos",
-          "1 xícara (chá) de farinha de rosca",
-          "Azeite em spray (ou para pincelar)"
-        ],
-        "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
-          "Prepare três pratos: um com farinha de trigo, outro com os ovos batidos e o terceiro com a farinha de rosca.",
-          "Passe cada bife primeiro na farinha de trigo, depois nos ovos e, por último, na farinha de rosca, cobrindo bem.",
-          "Pré-aqueça a airfryer a 180°C por 5 minutos.",
-          "Pulverize ou pincele os bifes empanados com azeite.",
-          "Coloque os bifes na cesta da airfryer, sem sobrepor, e cozinhe por 10 a 12 minutos, virando na metade do tempo, até dourarem e ficarem crocantes.",
-          "Sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/bife-a-milanesa-na-airfryer-receita-gshow.ghtml",
-          "checked_at": "2026-09-06T13:59:50+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/7783364/pexels-photo-7783364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso filé a milanesa coberto com queijo e ervas, servido com salada fresca, tomate e fatia de limão.",
-          "bank_id": "7783364",
-          "credit": "Daniel Fernandez",
-          "query": "Bife à Milanesa na Airfryer"
-        },
-        "id": "bife-a-milanesa-na-airfryer-df0afa3b"
-      },
-      {
-        "nome": "Guacamole Tradicional",
-        "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada fresca, leve e rápida de preparar, perfeita para abrir o apetite. É rica em nutrientes e fácil de fazer com ingredientes acessíveis.",
-        "tags": [
-          "vegetariano",
-          "fresco",
-          "rapido",
-          "entrada"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 abacate picado",
-          "1 cebola roxa picada",
-          "2 tomates sem sementes picados",
-          "1 stick de MAGGI® MEU SEGREDO® 7 Vegetais (ou sal e temperos a gosto)",
-          "2 colheres (sopa) de azeite",
-          "Suco de 1 limão",
-          "Meia pimenta dedo-de-moça, sem sementes, picada",
-          "2 colheres (sopa) de coentro picado"
-        ],
-        "preparo": [
-          "Em um recipiente, amasse o abacate com um garfo até obter a consistência desejada.",
-          "Adicione a cebola roxa, os tomates picados, a pimenta dedo-de-moça e o coentro.",
-          "Regue com o azeite e o suco de limão.",
-          "Tempere com o stick de MAGGI® MEU SEGREDO® 7 Vegetais (ou sal e pimenta a gosto) e misture bem.",
-          "Sirva imediatamente com tortilhas ou torradas."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/guacamole-tradicional",
-          "checked_at": "2026-09-06T13:59:53+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/36498696/pexels-photo-36498696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de três tacos de frango com guacamole, ervas e cebola em um restaurante.",
-          "bank_id": "36498696",
-          "credit": "DΛVΞ GΛRCIΛ",
-          "query": "Guacamole Tradicional"
-        },
-        "id": "guacamole-tradicional-e96df9bd"
-      },
-      {
-        "nome": "Brigadeiro de Colher de Micro-ondas",
-        "curso": "sobremesa",
         "tempo": "15 minutos",
-        "porque": "Uma sobremesa clássica brasileira, extremamente fácil e rápida de fazer no micro-ondas, ideal para um casal jovem que busca praticidade sem abrir mão do sabor.",
+        "porque": "Carne vermelha, preferência do casal, preparada de forma rápida e prática na frigideira. O molho acebolado adiciona sabor e um toque especial, sendo uma refeição equilibrada com acompanhamentos simples.",
         "tags": [
-          "doce",
-          "micro_ondas",
+          "carne_vermelha",
           "rapido",
-          "classico"
+          "refogado",
+          "pratico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 lata de Leite MOÇA® (395 g)",
-          "1 xícara (chá) de Chocolate NESTLÉ CLASSIC Meio Amargo picado (180 g)",
-          "1 caixinha de Creme de Leite NESTLÉ (200 g)"
+          "400 g de bifes de patinho",
+          "1 sachê de MAGGI® MEU SEGREDO® Refoga",
+          "1 pitada de pimenta-do-reino",
+          "½ colher (sopa) de manteiga",
+          "1 cebola grande em fatias",
+          "1 colher (sopa) de vinagre"
         ],
         "preparo": [
-          "Em um recipiente refratário de bordas altas, misture o Leite MOÇA e o Chocolate NESTLÉ CLASSIC picado.",
-          "Leve ao micro-ondas na potência alta por 10 a 15 minutos, mexendo a cada 2 minutos para evitar que transborde e queime. O tempo pode variar conforme a potência do seu micro-ondas.",
-          "Retire do micro-ondas, adicione o Creme de Leite NESTLÉ e misture bem até ficar homogêneo.",
-          "Sirva quente ou frio, de colher."
+          "Tempere os bifes de patinho com o sachê de MAGGI® MEU SEGREDO® Refoga e uma pitada de pimenta-do-reino.",
+          "Em uma frigideira grande, derreta a manteiga em fogo alto.",
+          "Doure os bifes dos dois lados até atingir o ponto desejado.",
+          "Retire os bifes da frigideira e reserve-os aquecidos.",
+          "Na mesma frigideira, adicione a cebola fatiada e o vinagre, refogando até a cebola murchar.",
+          "Despeje a cebola refogada sobre os bifes reservados e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/brigadeiro-de-colher-de-micro-ondas",
-          "title": "Brigadeiro de Colher de Micro-ondas",
+          "url": "https://www.receitasnestle.com.br/receitas/bife-acebolado-maggi",
+          "title": "Bife Acebolado Maggi",
           "domain": "receitasnestle.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-06T13:59:55+00:00"
+          "checked_at": "2026-09-07T16:19:34+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/0a75ab2e17db741764a48dc02abd168e.jpg",
-          "alt": "Brigadeiro de Colher de Micro-ondas"
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a1669d6aefd0cfe24e567b0e9fa1c175.jpg",
+          "alt": "Bife Acebolado"
         },
-        "id": "brigadeiro-de-colher-de-micro-ondas-873bc920"
+        "id": "bife-acebolado-06477941"
+      },
+      {
+        "nome": "Salmão de Micro-ondas ao Limone",
+        "curso": "principal",
+        "tempo": "4 minutos",
+        "porque": "Opção de peixe para a semana, extremamente rápida e saudável, preparada no micro-ondas. O molho limone e os vegetais garantem um prato equilibrado e saboroso.",
+        "tags": [
+          "peixe",
+          "micro_ondas",
+          "rapido",
+          "saudavel"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "5 postas de salmão fresco, sem pele (cerca de 500 g)",
+          "1 pitada de pimenta-do-reino",
+          "1 stick de MAGGI® MEU SEGREDO® 7 Vegetais",
+          "Suco de 2 limões",
+          "1 colher (sopa) de azeite",
+          "1 caixinha de NESTLÉ® Creme de Leite",
+          "2 colheres (sopa) de cebolinha-verde picada",
+          "1 colher (sopa) de coentro picado (opcional)"
+        ],
+        "preparo": [
+          "Em um recipiente refratário, tempere as postas de salmão com pimenta-do-reino, o stick de MAGGI® MEU SEGREDO® 7 Vegetais e o suco de 1 limão.",
+          "Arrume os pedaços de salmão no refratário e regue com o azeite.",
+          "Cubra o recipiente com plástico-filme e leve ao micro-ondas por cerca de 4 minutos em potência média.",
+          "Retire do micro-ondas, adicione o NESTLÉ® Creme de Leite, a cebolinha-verde e o coentro (se usar).",
+          "Misture delicadamente e sirva o salmão imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-09-07T16:19:34+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/14702296/pexels-photo-14702296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Visão superior de um prato gourmet de salmão com molhos coloridos em um prato escuro.",
+          "bank_id": "14702296",
+          "credit": "Evgeniya Davydova",
+          "query": "Salmão de Micro-ondas ao Limone"
+        },
+        "id": "salmao-de-micro-ondas-ao-limone-717ba74a"
+      },
+      {
+        "nome": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
+        "curso": "entrada",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada leve, rápida e fácil de preparar, com ingredientes frescos e acessíveis. Ideal para abrir o apetite sem pesar.",
+        "tags": [
+          "entrada",
+          "rapido",
+          "vegetariano",
+          "fresco"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 xícara (chá) de azeitonas verdes sem caroço",
+          "1 xícara (chá) de queijo minas frescal em cubos",
+          "1 xícara (chá) de tomate cereja cortado ao meio",
+          "3 colheres (sopa) de azeite",
+          "1 colher (chá) de orégano",
+          "1 colher (chá) de manjericão seco",
+          "Sal a gosto"
+        ],
+        "preparo": [
+          "Em um recipiente, combine as azeitonas, o queijo minas frescal em cubos e o tomate cereja cortado ao meio.",
+          "Regue a mistura com o azeite.",
+          "Tempere com orégano, manjericão seco e sal a gosto.",
+          "Misture todos os ingredientes delicadamente para que os sabores se incorporem.",
+          "Sirva o petisco imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/petisco-de-azeitonas-queijo-tomate-azeite-e-ervas",
+          "title": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-07T16:19:34+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/36fe0061758aef710ecaa60fc46f29d9.jpg",
+          "alt": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas"
+        },
+        "id": "petisco-de-azeitonas-queijo-tomate-azeite-e-erva-b71e5b91"
+      },
+      {
+        "nome": "Pudim Rápido de Tapioca",
+        "curso": "sobremesa",
+        "tempo": "20 minutos",
+        "porque": "Uma sobremesa leve e rápida, ideal para finalizar o jantar. É fácil de fazer e pode ser acompanhada com frutas ou doces, oferecendo versatilidade.",
+        "tags": [
+          "sobremesa",
+          "rapido",
+          "leve",
+          "vegetariano"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 xícara (chá) de leite",
+          "2 colheres (sopa) de tapioca granulada",
+          "1 colher (sopa) de açúcar"
+        ],
+        "preparo": [
+          "Em uma panela, combine o leite e o açúcar e leve ao fogo médio.",
+          "Assim que as primeiras bolhas começarem a subir, diminua o fogo.",
+          "Adicione a tapioca granulada e mexa continuamente por cerca de 2 minutos.",
+          "Continue mexendo até que o creme engrosse e a tapioca fique transparente.",
+          "Transfira o creme ainda quente para dois potinhos individuais.",
+          "Leve os potinhos à geladeira por aproximadamente 20 minutos para firmar.",
+          "Sirva o pudim com o acompanhamento de sua preferência, como doce de abóbora, goiabada ou frutas frescas."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+          "title": "Pudim rápido de tapioca - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-07T16:19:35+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
+          "alt": "Pudim Rápido de Tapioca"
+        },
+        "id": "pudim-rapido-de-tapioca-484a6aab"
       }
     ]
   },

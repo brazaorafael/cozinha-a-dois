@@ -3111,5 +3111,29 @@
     ],
     "data": "06/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-acebolado-06477941",
+    "titulo": "Bife Acebolado",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "refogado",
+      "pratico"
+    ],
+    "data": "07/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salmao-de-micro-ondas-ao-limone-717ba74a",
+    "titulo": "Salmão de Micro-ondas ao Limone",
+    "tags": [
+      "peixe",
+      "micro_ondas",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "07/09/2026",
+    "fonte_status": "unverified"
   }
 ]
