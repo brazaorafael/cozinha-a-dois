@@ -2883,5 +2883,233 @@
     ],
     "data": "06/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "bife-de-forno-8cb525a7",
+    "titulo": "Bife de Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "rapido",
+      "pratico"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-grelhado-10be737d",
+    "titulo": "Bife Grelhado",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "rapido",
+      "classico"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "coalhada-seca-8fb4c9c6",
+    "titulo": "Coalhada Seca",
+    "tags": [
+      "entrada",
+      "arabe",
+      "saudavel",
+      "facil"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-refogada-91a79a75",
+    "titulo": "Carne Moída Refogada",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "pratico",
+      "versatil"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-de-frango-cremoso-com-milho-6e78b6a1",
+    "titulo": "Filé de Frango Cremoso com Milho",
+    "tags": [
+      "frango",
+      "cremoso",
+      "refogado",
+      "pratico"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-coco-com-2-ingredientes-c7dd533a",
+    "titulo": "Mousse de Coco com 2 Ingredientes",
+    "tags": [
+      "sobremesa",
+      "coco",
+      "rapida",
+      "facil"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-com-creme-de-cebola-na-air-fryer-308a7dc0",
+    "titulo": "Carne com Creme de Cebola na Air Fryer",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "rapido",
+      "temperado"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "omelete-saudavel-de-legumes-para-o-jantar-9e876b73",
+    "titulo": "Omelete Saudável de Legumes para o Jantar",
+    "tags": [
+      "vegetariano",
+      "ovos",
+      "rapido",
+      "leve"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "ricota-grelhada-com-azeite-e-ervas-6207cc55",
+    "titulo": "Ricota Grelhada com Azeite e Ervas",
+    "tags": [
+      "entrada",
+      "saudavel",
+      "grelhado",
+      "queijo"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "creme-de-limao-com-salada-de-frutas-f766bfd3",
+    "titulo": "Creme de Limão com Salada de Frutas",
+    "tags": [
+      "sobremesa",
+      "fruta",
+      "leve",
+      "refrescante"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "moqueca-rapida-de-peixe-60836ba8",
+    "titulo": "Moqueca Rápida de Peixe",
+    "tags": [
+      "peixe",
+      "ensopado",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bife-ancho-com-batatas-e316d807",
+    "titulo": "Bife Ancho com Batatas",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "batata",
+      "completo"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "antepasto-especial-de-berinjela-no-micro-ondas-b719a41c",
+    "titulo": "Antepasto Especial de Berinjela no Micro-ondas",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "micro_ondas",
+      "pratico"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-cozida-ao-molho-vermelho-ee56f5b4",
+    "titulo": "Carne Cozida ao Molho Vermelho",
+    "tags": [
+      "carne_vermelha",
+      "cozido",
+      "molho",
+      "comfort_food"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bisteca-de-porco-grelhada-com-ervas-7bd8bcf5",
+    "titulo": "Bisteca de Porco Grelhada com Ervas",
+    "tags": [
+      "carne_de_porco",
+      "grelhado",
+      "ervas",
+      "rapido"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-caprese-classica-3d7b2b58",
+    "titulo": "Salada Caprese Clássica",
+    "tags": [
+      "entrada",
+      "salada",
+      "italiana",
+      "fresca"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "torta-de-liquidificador-salgada-e-fofinha-rechei-b7b41bd6",
+    "titulo": "Torta de Liquidificador Salgada e Fofinha (Recheio de Carne Moída)",
+    "tags": [
+      "torta",
+      "carne_vermelha",
+      "liquidificador",
+      "pratico"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-role-simples-a444a5be",
+    "titulo": "Bife à Rolê Simples",
+    "tags": [
+      "carne_vermelha",
+      "cozido",
+      "molho",
+      "tradicional"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pate-de-sardinha-com-torradas-e3f217a6",
+    "titulo": "Patê de Sardinha com Torradas",
+    "tags": [
+      "entrada",
+      "pate",
+      "rapido",
+      "economico"
+    ],
+    "data": "06/09/2026",
+    "fonte_status": "unverified"
   }
 ]
