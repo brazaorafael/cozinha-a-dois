@@ -3135,5 +3135,53 @@
     ],
     "data": "07/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "musculo-com-cerveja-na-pressao-787afe36",
+    "titulo": "Músculo com Cerveja na Pressão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "rapido",
+      "jantar"
+    ],
+    "data": "08/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "picadinho-oriental-com-abobora-e-brocolis-66f72168",
+    "titulo": "Picadinho Oriental com Abóbora e Brócolis",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "oriental",
+      "vegetais"
+    ],
+    "data": "08/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-de-feijao-fradinho-com-quiabo-5da39112",
+    "titulo": "Salada de Feijão-Fradinho com Quiabo",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "legumes",
+      "rapido"
+    ],
+    "data": "08/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "banana-assada-com-canela-9abb72b6",
+    "titulo": "Banana Assada com Canela",
+    "tags": [
+      "frutas",
+      "doce",
+      "rapido",
+      "forno"
+    ],
+    "data": "08/09/2026",
+    "fonte_status": "unverified"
   }
 ]

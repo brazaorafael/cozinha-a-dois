@@ -1,182 +1,191 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-07T13:17:53-03:00",
+  "gerado_em": "2026-09-08T11:55:57-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "07/09/2026",
-    "dia_semana": "segunda",
+    "data": "08/09/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Bife Acebolado",
+        "nome": "Músculo com Cerveja na Pressão",
         "curso": "principal",
-        "tempo": "15 minutos",
-        "porque": "Carne vermelha, preferência do casal, preparada de forma rápida e prática na frigideira. O molho acebolado adiciona sabor e um toque especial, sendo uma refeição equilibrada com acompanhamentos simples.",
+        "tempo": "40 minutos",
+        "porque": "Uma carne vermelha suculenta e macia, feita na panela de pressão para agilizar o preparo. O cozimento na cerveja preta confere um sabor único e profundo, ideal para um jantar nutritivo e com sobras para o almoço.",
         "tags": [
           "carne_vermelha",
+          "panela_de_pressao",
           "rapido",
-          "refogado",
-          "pratico"
+          "jantar"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "400 g de bifes de patinho",
-          "1 sachê de MAGGI® MEU SEGREDO® Refoga",
-          "1 pitada de pimenta-do-reino",
-          "½ colher (sopa) de manteiga",
-          "1 cebola grande em fatias",
-          "1 colher (sopa) de vinagre"
+          "1 kg de músculo bovino em cubos de 4 cm",
+          "2 colheres (sopa) de azeite",
+          "1 cebola média",
+          "3 dentes de alho",
+          "1 lata de cerveja preta (350 ml)",
+          "1 xícara (chá) de água",
+          "1 folha de louro",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Tempere os bifes de patinho com o sachê de MAGGI® MEU SEGREDO® Refoga e uma pitada de pimenta-do-reino.",
-          "Em uma frigideira grande, derreta a manteiga em fogo alto.",
-          "Doure os bifes dos dois lados até atingir o ponto desejado.",
-          "Retire os bifes da frigideira e reserve-os aquecidos.",
-          "Na mesma frigideira, adicione a cebola fatiada e o vinagre, refogando até a cebola murchar.",
-          "Despeje a cebola refogada sobre os bifes reservados e sirva imediatamente."
+          "Em uma panela de pressão, aqueça o azeite em fogo médio.",
+          "Adicione a cebola fatiada e o alho amassado, refogando até perfumar.",
+          "Junte os cubos de músculo, a cerveja preta, a água e a folha de louro. Tempere com sal e pimenta-do-reino.",
+          "Tampe a panela de pressão e, assim que começar a apitar, abaixe o fogo e cozinhe por 30 minutos.",
+          "Desligue o fogo e espere a pressão sair naturalmente antes de abrir a panela.",
+          "Verifique o cozimento da carne; se necessário, cozinhe por mais alguns minutos sem pressão para reduzir o molho."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/bife-acebolado-maggi",
-          "title": "Bife Acebolado Maggi",
-          "domain": "receitasnestle.com.br",
+          "url": "https://panelinha.com.br/receita/musculo-com-cerveja-na-pressao",
+          "title": "Músculo com cerveja na pressão - Panelinha",
+          "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-07T16:19:34+00:00"
+          "checked_at": "2026-09-08T14:57:38+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a1669d6aefd0cfe24e567b0e9fa1c175.jpg",
-          "alt": "Bife Acebolado"
+          "url": "https://i.panelinha.com.br/i1/bk-4122-ayu6419-2.webp",
+          "alt": "Músculo com Cerveja na Pressão"
         },
-        "id": "bife-acebolado-06477941"
+        "id": "musculo-com-cerveja-na-pressao-787afe36"
       },
       {
-        "nome": "Salmão de Micro-ondas ao Limone",
+        "nome": "Picadinho Oriental com Abóbora e Brócolis",
         "curso": "principal",
-        "tempo": "4 minutos",
-        "porque": "Opção de peixe para a semana, extremamente rápida e saudável, preparada no micro-ondas. O molho limone e os vegetais garantem um prato equilibrado e saboroso.",
+        "tempo": "30 minutos",
+        "porque": "Um prato de carne vermelha rápido e equilibrado, com um toque oriental e muitos vegetais. Perfeito para um jantar prático e saboroso, com potencial para sobras.",
         "tags": [
-          "peixe",
-          "micro_ondas",
-          "rapido",
-          "saudavel"
+          "carne_vermelha",
+          "refogado",
+          "oriental",
+          "vegetais"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "5 postas de salmão fresco, sem pele (cerca de 500 g)",
-          "1 pitada de pimenta-do-reino",
-          "1 stick de MAGGI® MEU SEGREDO® 7 Vegetais",
-          "Suco de 2 limões",
-          "1 colher (sopa) de azeite",
-          "1 caixinha de NESTLÉ® Creme de Leite",
-          "2 colheres (sopa) de cebolinha-verde picada",
-          "1 colher (sopa) de coentro picado (opcional)"
+          "400 g de carne bovina (patinho ou alcatra) em cubos pequenos",
+          "1 colher (sopa) de óleo vegetal",
+          "1 cebola pequena picada",
+          "2 dentes de alho picados",
+          "1 pedaço pequeno de gengibre ralado (cerca de 1 colher de chá)",
+          "200 g de abóbora japonesa em cubos pequenos",
+          "1 xícara (chá) de floretes de brócolis",
+          "2 colheres (sopa) de shoyu",
+          "1 colher (sopa) de mel",
+          "1 colher (chá) de amido de milho",
+          "½ xícara (chá) de água",
+          "Cebolinha picada a gosto para finalizar",
+          "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Em um recipiente refratário, tempere as postas de salmão com pimenta-do-reino, o stick de MAGGI® MEU SEGREDO® 7 Vegetais e o suco de 1 limão.",
-          "Arrume os pedaços de salmão no refratário e regue com o azeite.",
-          "Cubra o recipiente com plástico-filme e leve ao micro-ondas por cerca de 4 minutos em potência média.",
-          "Retire do micro-ondas, adicione o NESTLÉ® Creme de Leite, a cebolinha-verde e o coentro (se usar).",
-          "Misture delicadamente e sirva o salmão imediatamente."
+          "Em uma tigela, tempere a carne com sal e pimenta-do-reino.",
+          "Em uma frigideira grande ou wok, aqueça o óleo em fogo alto. Adicione a carne e doure por todos os lados. Retire e reserve.",
+          "Na mesma frigideira, adicione a cebola, o alho e o gengibre, refogando por 2 minutos.",
+          "Acrescente a abóbora e o brócolis, refogue por mais 5 minutos, mexendo ocasionalmente.",
+          "Em um copo, misture o shoyu, o mel, o amido de milho e a água. Despeje sobre os vegetais.",
+          "Retorne a carne à frigideira e cozinhe, mexendo, até o molho engrossar. Finalize com cebolinha picada."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/picadinho-oriental-com-abobora-e-brocolis",
+          "title": "Picadinho oriental com abóbora e brócolis - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-08T14:57:38+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-1799-blog-picadinho-oriental-com-abobora-e-brocolis.webp",
+          "alt": "Picadinho Oriental com Abóbora e Brócolis"
+        },
+        "id": "picadinho-oriental-com-abobora-e-brocolis-66f72168"
+      },
+      {
+        "nome": "Salada de Feijão-Fradinho com Quiabo",
+        "curso": "entrada",
+        "tempo": "45 minutos",
+        "porque": "Uma entrada leve, nutritiva e com um toque brasileiro. O feijão-fradinho oferece proteína e o quiabo frito adiciona uma textura interessante, ideal para começar o jantar de forma equilibrada.",
+        "tags": [
+          "salada",
+          "vegetariano",
+          "legumes",
+          "rapido"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 xícara (chá) de feijão-fradinho",
+          "400 g de quiabo",
+          "⅓ de xícara (chá) de óleo para fritar o quiabo",
+          "1 cebola roxa pequena picada fino",
+          "2 tomates maduros picados em cubos pequenos",
+          "2 colheres (sopa) de vinagre de vinho branco",
+          "¼ de xícara (chá) de azeite",
+          "Folhas de coentro picadas a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto"
+        ],
+        "preparo": [
+          "Cozinhe o feijão-fradinho na panela de pressão com água por 10 minutos após o início da pressão. Escorra e reserve.",
+          "Lave e seque bem os quiabos, corte em fatias de 1 cm. Frite em óleo quente até ficarem crocantes. Escorra em papel toalha.",
+          "Em uma tigela grande, misture o feijão-fradinho cozido, o quiabo frito, a cebola roxa picada e os tomates em cubos.",
+          "Em um recipiente pequeno, prepare o molho: misture o vinagre, o azeite, sal e pimenta-do-reino.",
+          "Regue a salada com o molho e adicione as folhas de coentro picadas. Misture delicadamente e sirva."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/salada-de-feijao-fradinho-com-quiabo",
+          "title": "Salada de feijão-fradinho com quiabo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-08T14:57:39+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-8792-salada-de-feijao-fradinho-com-quiabo.webp",
+          "alt": "Salada de Feijão-Fradinho com Quiabo"
+        },
+        "id": "salada-de-feijao-fradinho-com-quiabo-5da39112"
+      },
+      {
+        "nome": "Banana Assada com Canela",
+        "curso": "sobremesa",
+        "tempo": "20 minutos",
+        "porque": "Uma sobremesa simples, rápida e reconfortante, que realça a doçura natural da banana com o aroma da canela. É uma opção leve e prática para finalizar a refeição.",
+        "tags": [
+          "frutas",
+          "doce",
+          "rapido",
+          "forno"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 bananas maduras (prata ou nanica)",
+          "1 colher (chá) de canela em pó",
+          "1 colher (sopa) de mel ou açúcar (opcional)"
+        ],
+        "preparo": [
+          "Pré-aqueça o forno a 180 °C (temperatura média).",
+          "Descasque as bananas e corte-as ao meio no sentido do comprimento.",
+          "Disponha as metades de banana em uma assadeira pequena.",
+          "Polvilhe a canela em pó sobre as bananas.",
+          "Se desejar, regue com mel ou polvilhe açúcar.",
+          "Leve ao forno pré-aquecido por cerca de 15 minutos, ou até as bananas ficarem macias e levemente caramelizadas."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-09-07T16:19:34+00:00"
+          "suggested_url": "https://anamariabraga.globo.com/receita/banana-assada-com-canela/",
+          "checked_at": "2026-09-08T14:57:40+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/14702296/pexels-photo-14702296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Visão superior de um prato gourmet de salmão com molhos coloridos em um prato escuro.",
-          "bank_id": "14702296",
-          "credit": "Evgeniya Davydova",
-          "query": "Salmão de Micro-ondas ao Limone"
+          "url": "https://images.pexels.com/photos/5645190/pexels-photo-5645190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um ambiente de café da manhã rústico com peras assadas, fatias de banana e mel sobre uma mesa de madeira.",
+          "bank_id": "5645190",
+          "credit": "Polina ⠀",
+          "query": "Banana Assada com Canela"
         },
-        "id": "salmao-de-micro-ondas-ao-limone-717ba74a"
-      },
-      {
-        "nome": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
-        "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada leve, rápida e fácil de preparar, com ingredientes frescos e acessíveis. Ideal para abrir o apetite sem pesar.",
-        "tags": [
-          "entrada",
-          "rapido",
-          "vegetariano",
-          "fresco"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 xícara (chá) de azeitonas verdes sem caroço",
-          "1 xícara (chá) de queijo minas frescal em cubos",
-          "1 xícara (chá) de tomate cereja cortado ao meio",
-          "3 colheres (sopa) de azeite",
-          "1 colher (chá) de orégano",
-          "1 colher (chá) de manjericão seco",
-          "Sal a gosto"
-        ],
-        "preparo": [
-          "Em um recipiente, combine as azeitonas, o queijo minas frescal em cubos e o tomate cereja cortado ao meio.",
-          "Regue a mistura com o azeite.",
-          "Tempere com orégano, manjericão seco e sal a gosto.",
-          "Misture todos os ingredientes delicadamente para que os sabores se incorporem.",
-          "Sirva o petisco imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/petisco-de-azeitonas-queijo-tomate-azeite-e-ervas",
-          "title": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-07T16:19:34+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/36fe0061758aef710ecaa60fc46f29d9.jpg",
-          "alt": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas"
-        },
-        "id": "petisco-de-azeitonas-queijo-tomate-azeite-e-erva-b71e5b91"
-      },
-      {
-        "nome": "Pudim Rápido de Tapioca",
-        "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Uma sobremesa leve e rápida, ideal para finalizar o jantar. É fácil de fazer e pode ser acompanhada com frutas ou doces, oferecendo versatilidade.",
-        "tags": [
-          "sobremesa",
-          "rapido",
-          "leve",
-          "vegetariano"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 xícara (chá) de leite",
-          "2 colheres (sopa) de tapioca granulada",
-          "1 colher (sopa) de açúcar"
-        ],
-        "preparo": [
-          "Em uma panela, combine o leite e o açúcar e leve ao fogo médio.",
-          "Assim que as primeiras bolhas começarem a subir, diminua o fogo.",
-          "Adicione a tapioca granulada e mexa continuamente por cerca de 2 minutos.",
-          "Continue mexendo até que o creme engrosse e a tapioca fique transparente.",
-          "Transfira o creme ainda quente para dois potinhos individuais.",
-          "Leve os potinhos à geladeira por aproximadamente 20 minutos para firmar.",
-          "Sirva o pudim com o acompanhamento de sua preferência, como doce de abóbora, goiabada ou frutas frescas."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
-          "title": "Pudim rápido de tapioca - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-07T16:19:35+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
-          "alt": "Pudim Rápido de Tapioca"
-        },
-        "id": "pudim-rapido-de-tapioca-484a6aab"
+        "id": "banana-assada-com-canela-9abb72b6"
       }
     ]
   },
