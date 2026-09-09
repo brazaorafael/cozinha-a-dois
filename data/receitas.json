@@ -1,191 +1,188 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-08T11:55:57-03:00",
+  "gerado_em": "2026-09-09T12:01:50-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "08/09/2026",
-    "dia_semana": "terça",
+    "data": "09/09/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Músculo com Cerveja na Pressão",
+        "nome": "Rosbife",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma carne vermelha suculenta e macia, feita na panela de pressão para agilizar o preparo. O cozimento na cerveja preta confere um sabor único e profundo, ideal para um jantar nutritivo e com sobras para o almoço.",
+        "tempo": "35-40 minutos",
+        "porque": "Um clássico de carne vermelha, rápido de preparar no forno e ideal para um jantar especial, com ótimas sobras para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "rapido",
-          "jantar"
+          "forno",
+          "jantar_rapido",
+          "proteico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 kg de músculo bovino em cubos de 4 cm",
-          "2 colheres (sopa) de azeite",
-          "1 cebola média",
-          "3 dentes de alho",
-          "1 lata de cerveja preta (350 ml)",
-          "1 xícara (chá) de água",
-          "1 folha de louro",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "1 peça de filé mignon (cerca de 1 kg)",
+          "1 colher (sopa) de mostarda em pó",
+          "1 colher (chá) de páprica defumada",
+          "1 colher (chá) de sal",
+          "½ colher (chá) de pimenta-do-reino moída na hora",
+          "2 colheres (sopa) de azeite"
         ],
         "preparo": [
-          "Em uma panela de pressão, aqueça o azeite em fogo médio.",
-          "Adicione a cebola fatiada e o alho amassado, refogando até perfumar.",
-          "Junte os cubos de músculo, a cerveja preta, a água e a folha de louro. Tempere com sal e pimenta-do-reino.",
-          "Tampe a panela de pressão e, assim que começar a apitar, abaixe o fogo e cozinhe por 30 minutos.",
-          "Desligue o fogo e espere a pressão sair naturalmente antes de abrir a panela.",
-          "Verifique o cozimento da carne; se necessário, cozinhe por mais alguns minutos sem pressão para reduzir o molho."
+          "Preaqueça o forno a 200 ºC.",
+          "Numa tigela pequena, misture a mostarda em pó, a páprica defumada, o sal e a pimenta-do-reino.",
+          "Seque bem a peça de filé mignon com papel toalha e tempere com a mistura de especiarias, massageando a carne.",
+          "Leve uma frigideira grande ao fogo médio. Regue com o azeite e doure a carne por todos os lados, por cerca de 2 minutos de cada lado.",
+          "Transfira a carne para uma assadeira e leve ao forno por 20 a 25 minutos para um rosbife ao ponto.",
+          "Retire do forno, cubra com papel alumínio e deixe descansar por 10 minutos antes de fatiar e servir."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/musculo-com-cerveja-na-pressao",
-          "title": "Músculo com cerveja na pressão - Panelinha",
+          "url": "https://panelinha.com.br/receita/rosbife",
+          "title": "Rosbife - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-08T14:57:38+00:00"
+          "checked_at": "2026-09-09T15:03:15+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4122-ayu6419-2.webp",
-          "alt": "Músculo com Cerveja na Pressão"
+          "url": "https://i.panelinha.com.br/i1/bk-9959-rosbife.webp",
+          "alt": "Rosbife"
         },
-        "id": "musculo-com-cerveja-na-pressao-787afe36"
+        "id": "rosbife-5d3431e6"
       },
       {
-        "nome": "Picadinho Oriental com Abóbora e Brócolis",
+        "nome": "Lombo Assado com Tomates e Ervas",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Um prato de carne vermelha rápido e equilibrado, com um toque oriental e muitos vegetais. Perfeito para um jantar prático e saboroso, com potencial para sobras.",
+        "tempo": "45 minutos",
+        "porque": "Um lombo suculento e aromático, assado no forno com vegetais, que oferece uma refeição equilibrada e prática, com potencial para sobras.",
         "tags": [
-          "carne_vermelha",
-          "refogado",
-          "oriental",
-          "vegetais"
+          "carne_suina",
+          "forno",
+          "vegetais",
+          "jantar_equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "400 g de carne bovina (patinho ou alcatra) em cubos pequenos",
-          "1 colher (sopa) de óleo vegetal",
-          "1 cebola pequena picada",
-          "2 dentes de alho picados",
-          "1 pedaço pequeno de gengibre ralado (cerca de 1 colher de chá)",
-          "200 g de abóbora japonesa em cubos pequenos",
-          "1 xícara (chá) de floretes de brócolis",
-          "2 colheres (sopa) de shoyu",
-          "1 colher (sopa) de mel",
-          "1 colher (chá) de amido de milho",
-          "½ xícara (chá) de água",
-          "Cebolinha picada a gosto para finalizar",
+          "1 peça de lombo de porco (cerca de 800 g)",
+          "200 g de tomate cereja",
+          "2 ramos de alecrim fresco",
+          "4 dentes de alho amassados",
+          "2 colheres (sopa) de azeite",
           "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Em uma tigela, tempere a carne com sal e pimenta-do-reino.",
-          "Em uma frigideira grande ou wok, aqueça o óleo em fogo alto. Adicione a carne e doure por todos os lados. Retire e reserve.",
-          "Na mesma frigideira, adicione a cebola, o alho e o gengibre, refogando por 2 minutos.",
-          "Acrescente a abóbora e o brócolis, refogue por mais 5 minutos, mexendo ocasionalmente.",
-          "Em um copo, misture o shoyu, o mel, o amido de milho e a água. Despeje sobre os vegetais.",
-          "Retorne a carne à frigideira e cozinhe, mexendo, até o molho engrossar. Finalize com cebolinha picada."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/picadinho-oriental-com-abobora-e-brocolis",
-          "title": "Picadinho oriental com abóbora e brócolis - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-08T14:57:38+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-1799-blog-picadinho-oriental-com-abobora-e-brocolis.webp",
-          "alt": "Picadinho Oriental com Abóbora e Brócolis"
-        },
-        "id": "picadinho-oriental-com-abobora-e-brocolis-66f72168"
-      },
-      {
-        "nome": "Salada de Feijão-Fradinho com Quiabo",
-        "curso": "entrada",
-        "tempo": "45 minutos",
-        "porque": "Uma entrada leve, nutritiva e com um toque brasileiro. O feijão-fradinho oferece proteína e o quiabo frito adiciona uma textura interessante, ideal para começar o jantar de forma equilibrada.",
-        "tags": [
-          "salada",
-          "vegetariano",
-          "legumes",
-          "rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 xícara (chá) de feijão-fradinho",
-          "400 g de quiabo",
-          "⅓ de xícara (chá) de óleo para fritar o quiabo",
-          "1 cebola roxa pequena picada fino",
-          "2 tomates maduros picados em cubos pequenos",
-          "2 colheres (sopa) de vinagre de vinho branco",
-          "¼ de xícara (chá) de azeite",
-          "Folhas de coentro picadas a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Cozinhe o feijão-fradinho na panela de pressão com água por 10 minutos após o início da pressão. Escorra e reserve.",
-          "Lave e seque bem os quiabos, corte em fatias de 1 cm. Frite em óleo quente até ficarem crocantes. Escorra em papel toalha.",
-          "Em uma tigela grande, misture o feijão-fradinho cozido, o quiabo frito, a cebola roxa picada e os tomates em cubos.",
-          "Em um recipiente pequeno, prepare o molho: misture o vinagre, o azeite, sal e pimenta-do-reino.",
-          "Regue a salada com o molho e adicione as folhas de coentro picadas. Misture delicadamente e sirva."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-de-feijao-fradinho-com-quiabo",
-          "title": "Salada de feijão-fradinho com quiabo - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-08T14:57:39+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-8792-salada-de-feijao-fradinho-com-quiabo.webp",
-          "alt": "Salada de Feijão-Fradinho com Quiabo"
-        },
-        "id": "salada-de-feijao-fradinho-com-quiabo-5da39112"
-      },
-      {
-        "nome": "Banana Assada com Canela",
-        "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Uma sobremesa simples, rápida e reconfortante, que realça a doçura natural da banana com o aroma da canela. É uma opção leve e prática para finalizar a refeição.",
-        "tags": [
-          "frutas",
-          "doce",
-          "rapido",
-          "forno"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bananas maduras (prata ou nanica)",
-          "1 colher (chá) de canela em pó",
-          "1 colher (sopa) de mel ou açúcar (opcional)"
-        ],
-        "preparo": [
-          "Pré-aqueça o forno a 180 °C (temperatura média).",
-          "Descasque as bananas e corte-as ao meio no sentido do comprimento.",
-          "Disponha as metades de banana em uma assadeira pequena.",
-          "Polvilhe a canela em pó sobre as bananas.",
-          "Se desejar, regue com mel ou polvilhe açúcar.",
-          "Leve ao forno pré-aquecido por cerca de 15 minutos, ou até as bananas ficarem macias e levemente caramelizadas."
+          "Preaqueça o forno a 200 ºC.",
+          "Tempere o lombo com sal, pimenta-do-reino e o alho amassado.",
+          "Em uma assadeira, coloque o lombo, os tomates cereja e os ramos de alecrim. Regue com o azeite.",
+          "Leve ao forno por cerca de 35-40 minutos, virando o lombo na metade do tempo para dourar por igual.",
+          "Para verificar o ponto, espete a carne; o suco deve sair claro.",
+          "Retire do forno, deixe descansar por alguns minutos antes de fatiar e servir com os tomates assados."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/banana-assada-com-canela/",
-          "checked_at": "2026-09-08T14:57:40+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/lombo-assado-com-tomates-e-ervas",
+          "checked_at": "2026-09-09T15:03:15+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5645190/pexels-photo-5645190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um ambiente de café da manhã rústico com peras assadas, fatias de banana e mel sobre uma mesa de madeira.",
-          "bank_id": "5645190",
-          "credit": "Polina ⠀",
-          "query": "Banana Assada com Canela"
+          "url": "https://images.pexels.com/photos/13014037/pexels-photo-13014037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso peixe grelhado servido com tomates assados e ervas em um prato decorativo.",
+          "bank_id": "13014037",
+          "credit": "Kostiantyn Klymovets",
+          "query": "Lombo Assado com Tomates e Ervas"
         },
-        "id": "banana-assada-com-canela-9abb72b6"
+        "id": "lombo-assado-com-tomates-e-ervas-82ee4f9a"
+      },
+      {
+        "nome": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
+        "curso": "entrada",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada rápida, fácil de preparar e refrescante, perfeita para abrir o apetite com sabores mediterrâneos.",
+        "tags": [
+          "entrada_fria",
+          "rapida",
+          "vegetariana",
+          "mediterraneo"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "½ xícara (chá) de azeitonas pretas sem caroço",
+          "½ xícara (chá) de azeitonas verdes sem caroço",
+          "½ xícara (chá) de Queijo Parmesão TIROLEZ em cubos (ou outro queijo de sua preferência)",
+          "½ xícara (chá) de tomates-cereja",
+          "2 dentes de alho em fatias",
+          "½ xícara (chá) de azeite",
+          "2 colheres (sopa) de vinagre balsâmico",
+          "Folhas de manjericão fresco a gosto",
+          "Orégano a gosto"
+        ],
+        "preparo": [
+          "Em um recipiente, combine as azeitonas pretas e verdes.",
+          "Adicione os cubos de queijo parmesão e os tomates-cereja cortados ao meio.",
+          "Acrescente as fatias de alho, o azeite e o vinagre balsâmico.",
+          "Tempere com manjericão fresco e orégano a gosto.",
+          "Misture delicadamente todos os ingredientes para que os sabores se incorporem.",
+          "Sirva imediatamente, acompanhado de torradas ou pães."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/petisco-de-azeitonas-queijo-tomate-azeite-e-ervas",
+          "title": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-09T15:03:18+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/36fe0061758aef710ecaa60fc46f29d9.jpg",
+          "alt": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas"
+        },
+        "id": "petisco-de-azeitonas-queijo-tomate-azeite-e-erva-b71e5b91"
+      },
+      {
+        "nome": "Doce de Amendoim",
+        "curso": "sobremesa",
+        "tempo": "15 minutos",
+        "porque": "Uma sobremesa clássica brasileira, fácil e rápida de fazer, perfeita para satisfazer a vontade de um doce sem complicação.",
+        "tags": [
+          "sobremesa_rapida",
+          "doce",
+          "festa_junina",
+          "facil"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 xícara (chá) de açúcar",
+          "1 colher (sopa) de manteiga",
+          "1 pitada de sal",
+          "1 lata de Leite Condensado MOÇA (395g)",
+          "2 colheres (sopa) de Chocolate em Pó NESTLÉ DOIS FRADES (ou cacau em pó)",
+          "1 colher (chá) de essência de baunilha",
+          "1 xícara (chá) de amendoim torrado e triturado (sem pele e sem sal)"
+        ],
+        "preparo": [
+          "Em uma panela de fundo grosso, adicione o açúcar, a manteiga e a pitada de sal. Leve ao fogo médio.",
+          "Quando o açúcar começar a derreter, junte o Leite Condensado MOÇA, o Chocolate em Pó NESTLÉ e a essência de baunilha.",
+          "Mexa continuamente em fogo médio até a mistura começar a desgrudar do fundo da panela (ponto de brigadeiro mole).",
+          "Desligue o fogo e incorpore o amendoim triturado, misturando bem.",
+          "Despeje o doce em um prato untado com manteiga e espalhe.",
+          "Deixe esfriar completamente antes de cortar em pedaços e servir."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/doce-de-amendoim",
+          "checked_at": "2026-09-09T15:03:19+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5865648/pexels-photo-5865648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Detalhe de doce de gergelim e amendoim em uma bandeja de madeira, com decoração rústica.",
+          "bank_id": "5865648",
+          "credit": "Rachel Claire",
+          "query": "Doce de Amendoim"
+        },
+        "id": "doce-de-amendoim-dfef1cd9"
       }
     ]
   },
