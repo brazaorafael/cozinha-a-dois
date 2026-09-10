@@ -1,188 +1,190 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-09T12:01:50-03:00",
+  "gerado_em": "2026-09-10T11:53:10-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "09/09/2026",
-    "dia_semana": "quarta",
+    "data": "10/09/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Rosbife",
+        "nome": "Rocambole de Carne Recheado",
         "curso": "principal",
-        "tempo": "35-40 minutos",
-        "porque": "Um clássico de carne vermelha, rápido de preparar no forno e ideal para um jantar especial, com ótimas sobras para o almoço do dia seguinte.",
+        "tempo": "55 minutos",
+        "porque": "Uma opção de carne vermelha versátil e saborosa, ideal para um jantar a dois e com potencial para sobras. O preparo no forno é prático e o recheio com vegetais e queijo garante um prato equilibrado.",
         "tags": [
           "carne_vermelha",
           "forno",
-          "jantar_rapido",
-          "proteico"
+          "prato_completo",
+          "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de filé mignon (cerca de 1 kg)",
-          "1 colher (sopa) de mostarda em pó",
-          "1 colher (chá) de páprica defumada",
-          "1 colher (chá) de sal",
-          "½ colher (chá) de pimenta-do-reino moída na hora",
-          "2 colheres (sopa) de azeite"
+          "500g de patinho bovino moído",
+          "1 embalagem de SAZÓN® Tempera & Dá Liga Sabor Tradicional",
+          "1 tomate médio, cortado em rodelas finas",
+          "8 fatias de peito de peru defumado (100g)",
+          "8 fatias de muçarela (150g)",
+          "1 colher (sopa) de manteiga sem sal, derretida"
         ],
         "preparo": [
-          "Preaqueça o forno a 200 ºC.",
-          "Numa tigela pequena, misture a mostarda em pó, a páprica defumada, o sal e a pimenta-do-reino.",
-          "Seque bem a peça de filé mignon com papel toalha e tempere com a mistura de especiarias, massageando a carne.",
-          "Leve uma frigideira grande ao fogo médio. Regue com o azeite e doure a carne por todos os lados, por cerca de 2 minutos de cada lado.",
-          "Transfira a carne para uma assadeira e leve ao forno por 20 a 25 minutos para um rosbife ao ponto.",
-          "Retire do forno, cubra com papel alumínio e deixe descansar por 10 minutos antes de fatiar e servir."
+          "Em uma tigela grande, misture a carne moída com o SAZÓN® Tempera & Dá Liga até incorporar bem.",
+          "Abra a carne entre dois plásticos, formando um retângulo de aproximadamente 25x35 cm.",
+          "Retire o plástico de cima e distribua as rodelas de tomate, o peito de peru e a muçarela sobre a carne.",
+          "Com a ajuda do plástico de baixo, enrole a carne cuidadosamente, formando um rocambole.",
+          "Transfira o rocambole para uma assadeira untada, pincele a manteiga derretida e cubra com papel-alumínio.",
+          "Leve ao forno médio (180°C) preaquecido por 30 minutos. Retire o papel-alumínio e asse por mais 10 minutos para dourar."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/rosbife",
-          "title": "Rosbife - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-09T15:03:15+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-09-10T14:55:16+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9959-rosbife.webp",
-          "alt": "Rosbife"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/25313529/pexels-photo-25313529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso pão recheado com carne, servido com alface fresca, tomates-cereja e suco de laranja.",
+          "bank_id": "25313529",
+          "credit": "Márcio  Carvalho",
+          "query": "Rocambole de Carne Recheado"
         },
-        "id": "rosbife-5d3431e6"
+        "id": "rocambole-de-carne-recheado-e30fd50d"
       },
       {
-        "nome": "Lombo Assado com Tomates e Ervas",
+        "nome": "Medalhão de Filé Mignon Grelhado com Molho de Ervas Picantes",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Um lombo suculento e aromático, assado no forno com vegetais, que oferece uma refeição equilibrada e prática, com potencial para sobras.",
+        "tempo": "30 minutos",
+        "porque": "Uma opção de carne vermelha elegante e rápida, preparada na grelha para um cozimento saudável. O molho de ervas adiciona um toque especial e fresco, ideal para um jantar sofisticado e prático.",
         "tags": [
-          "carne_suina",
-          "forno",
-          "vegetais",
-          "jantar_equilibrado"
+          "carne_vermelha",
+          "grelhado",
+          "jantar_especial",
+          "rapido"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 peça de lombo de porco (cerca de 800 g)",
-          "200 g de tomate cereja",
-          "2 ramos de alecrim fresco",
-          "4 dentes de alho amassados",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino a gosto"
+          "2 medalhões de filé mignon (cerca de 150g cada)",
+          "½ colher (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Para o Molho:",
+          "⅓ de xícara (chá) de azeite",
+          "¼ de xícara (chá) de salsinha picada",
+          "1 colher (sopa) de orégano seco",
+          "1 colher (chá) de pimenta calabresa seca",
+          "1 colher (sopa) de vinagre de vinho tinto",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 200 ºC.",
-          "Tempere o lombo com sal, pimenta-do-reino e o alho amassado.",
-          "Em uma assadeira, coloque o lombo, os tomates cereja e os ramos de alecrim. Regue com o azeite.",
-          "Leve ao forno por cerca de 35-40 minutos, virando o lombo na metade do tempo para dourar por igual.",
-          "Para verificar o ponto, espete a carne; o suco deve sair claro.",
-          "Retire do forno, deixe descansar por alguns minutos antes de fatiar e servir com os tomates assados."
+          "Retire os medalhões da geladeira e tempere com sal e pimenta-do-reino.",
+          "Em uma tigela, misture os ingredientes do molho: azeite, salsinha, orégano, pimenta calabresa, vinagre e sal. Reserve.",
+          "Aqueça uma frigideira em fogo médio com azeite. Grelhe os medalhões por 3 minutos de cada lado para um ponto malpassado.",
+          "Transfira os medalhões para um prato, cubra com papel-alumínio e deixe descansar por alguns minutos.",
+          "Sirva os medalhões com o molho de ervas picantes por cima."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/lombo-assado-com-tomates-e-ervas",
-          "checked_at": "2026-09-09T15:03:15+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Medalhao-de-file-mignon-com-molho-de-ervas",
+          "checked_at": "2026-09-10T14:55:17+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/13014037/pexels-photo-13014037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso peixe grelhado servido com tomates assados e ervas em um prato decorativo.",
-          "bank_id": "13014037",
-          "credit": "Kostiantyn Klymovets",
-          "query": "Lombo Assado com Tomates e Ervas"
+          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
+          "bank_id": "25205263",
+          "credit": "Adriano Bragi",
+          "query": "Medalhão de Filé Mignon Grelhado com Molho de Ervas Picantes"
         },
-        "id": "lombo-assado-com-tomates-e-ervas-82ee4f9a"
+        "id": "medalhao-de-file-mignon-grelhado-com-molho-de-er-34ce9146"
       },
       {
-        "nome": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
+        "nome": "Salada de Folhas Verdes com Molho de Mostarda e Mel",
         "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada rápida, fácil de preparar e refrescante, perfeita para abrir o apetite com sabores mediterrâneos.",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, fresca e rápida, perfeita para abrir o apetite. O molho de mostarda e mel adiciona um toque agridoce que complementa bem as folhas verdes, sem pesar na refeição.",
         "tags": [
-          "entrada_fria",
-          "rapida",
-          "vegetariana",
-          "mediterraneo"
+          "vegetariano",
+          "leve",
+          "fresco",
+          "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "½ xícara (chá) de azeitonas pretas sem caroço",
-          "½ xícara (chá) de azeitonas verdes sem caroço",
-          "½ xícara (chá) de Queijo Parmesão TIROLEZ em cubos (ou outro queijo de sua preferência)",
-          "½ xícara (chá) de tomates-cereja",
-          "2 dentes de alho em fatias",
+          "Folhas de alface-romana a gosto",
+          "Folhas de alface-americana a gosto",
+          "Folhas de rúcula a gosto",
+          "Para o Molho:",
+          "1 colher (sopa) de mostarda de Dijon",
+          "1 colher (sopa) de mel",
+          "3 colheres (sopa) de vinagre de vinho tinto",
           "½ xícara (chá) de azeite",
-          "2 colheres (sopa) de vinagre balsâmico",
-          "Folhas de manjericão fresco a gosto",
-          "Orégano a gosto"
+          "1 pitada de sal",
+          "Pimenta-do-reino em grãos moída na hora a gosto"
         ],
         "preparo": [
-          "Em um recipiente, combine as azeitonas pretas e verdes.",
-          "Adicione os cubos de queijo parmesão e os tomates-cereja cortados ao meio.",
-          "Acrescente as fatias de alho, o azeite e o vinagre balsâmico.",
-          "Tempere com manjericão fresco e orégano a gosto.",
-          "Misture delicadamente todos os ingredientes para que os sabores se incorporem.",
-          "Sirva imediatamente, acompanhado de torradas ou pães."
+          "Lave bem as folhas sob água corrente e seque-as cuidadosamente.",
+          "Em uma tigela pequena, combine a mostarda de Dijon, o mel e o vinagre de vinho tinto.",
+          "Adicione o azeite, o sal e a pimenta-do-reino moída, misturando bem até o molho emulsionar.",
+          "Arrume as folhas verdes em uma saladeira ou pratos individuais.",
+          "Regue a salada com o molho de mostarda e mel pouco antes de servir."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/petisco-de-azeitonas-queijo-tomate-azeite-e-ervas",
-          "title": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-09T15:03:18+00:00"
+          "url": "https://panelinha.com.br/receita/salada-de-folhas-verdes",
+          "title": "Salada de folhas verdes - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 0.58,
+          "checked_at": "2026-09-10T14:55:18+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/36fe0061758aef710ecaa60fc46f29d9.jpg",
-          "alt": "Petisco de Azeitonas, Queijo, Tomate, Azeite e Ervas"
+          "url": "https://i.panelinha.com.br/i1/bk-6278-salada-receita.webp",
+          "alt": "Salada de Folhas Verdes com Molho de Mostarda e Mel"
         },
-        "id": "petisco-de-azeitonas-queijo-tomate-azeite-e-erva-b71e5b91"
+        "id": "salada-de-folhas-verdes-com-molho-de-mostarda-e--ea623eb6"
       },
       {
-        "nome": "Doce de Amendoim",
+        "nome": "Mousse de Limão Cremosa",
         "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Uma sobremesa clássica brasileira, fácil e rápida de fazer, perfeita para satisfazer a vontade de um doce sem complicação.",
+        "tempo": "20 minutos de preparo + 2 horas de gelad",
+        "porque": "Uma sobremesa leve e refrescante, perfeita para finalizar o jantar. É fácil de preparar e o sabor cítrico do limão equilibra a doçura, ideal para um casal jovem.",
         "tags": [
-          "sobremesa_rapida",
           "doce",
-          "festa_junina",
-          "facil"
+          "citrico",
+          "facil",
+          "refrescante"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 xícara (chá) de açúcar",
-          "1 colher (sopa) de manteiga",
-          "1 pitada de sal",
-          "1 lata de Leite Condensado MOÇA (395g)",
-          "2 colheres (sopa) de Chocolate em Pó NESTLÉ DOIS FRADES (ou cacau em pó)",
-          "1 colher (chá) de essência de baunilha",
-          "1 xícara (chá) de amendoim torrado e triturado (sem pele e sem sal)"
+          "1 lata de Leite MOÇA (395g)",
+          "½ xícara (chá) de suco de limão",
+          "Raspas de ½ limão",
+          "2 claras de ovo",
+          "2 colheres (sopa) de açúcar"
         ],
         "preparo": [
-          "Em uma panela de fundo grosso, adicione o açúcar, a manteiga e a pitada de sal. Leve ao fogo médio.",
-          "Quando o açúcar começar a derreter, junte o Leite Condensado MOÇA, o Chocolate em Pó NESTLÉ e a essência de baunilha.",
-          "Mexa continuamente em fogo médio até a mistura começar a desgrudar do fundo da panela (ponto de brigadeiro mole).",
-          "Desligue o fogo e incorpore o amendoim triturado, misturando bem.",
-          "Despeje o doce em um prato untado com manteiga e espalhe.",
-          "Deixe esfriar completamente antes de cortar em pedaços e servir."
+          "Em um recipiente, misture o Leite MOÇA, o suco e metade das raspas de limão até obter um creme consistente.",
+          "Em uma panela, misture as claras e o açúcar. Leve ao fogo baixo, mexendo vigorosamente por cerca de 3 minutos, sem deixar cozinhar.",
+          "Transfira a mistura de claras para uma batedeira e bata por 5 minutos, ou até dobrar de volume e formar um merengue.",
+          "Incorpore delicadamente o merengue ao creme de limão, misturando com uma espátula.",
+          "Distribua a mousse em taças individuais e decore com as raspas de limão restantes.",
+          "Leve à geladeira por cerca de 2 horas para firmar antes de servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/doce-de-amendoim",
-          "checked_at": "2026-09-09T15:03:19+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-limao-pratica-e-saborosa",
+          "checked_at": "2026-09-10T14:55:20+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5865648/pexels-photo-5865648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Detalhe de doce de gergelim e amendoim em uma bandeja de madeira, com decoração rústica.",
-          "bank_id": "5865648",
-          "credit": "Rachel Claire",
-          "query": "Doce de Amendoim"
+          "url": "https://images.pexels.com/photos/1893566/pexels-photo-1893566.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa mousse de limão decorada com framboesas frescas, hortelã e raspas de chocolate em um prato preto.",
+          "bank_id": "1893566",
+          "credit": "Valeria Boltneva",
+          "query": "Mousse de Limão Cremosa"
         },
-        "id": "doce-de-amendoim-dfef1cd9"
+        "id": "mousse-de-limao-cremosa-6dd8a24c"
       }
     ]
   },

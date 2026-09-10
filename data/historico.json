@@ -3183,5 +3183,53 @@
     ],
     "data": "08/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "rocambole-de-carne-recheado-e30fd50d",
+    "titulo": "Rocambole de Carne Recheado",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "prato_completo",
+      "rapido"
+    ],
+    "data": "10/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "medalhao-de-file-mignon-grelhado-com-molho-de-er-34ce9146",
+    "titulo": "Medalhão de Filé Mignon Grelhado com Molho de Ervas Picantes",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "jantar_especial",
+      "rapido"
+    ],
+    "data": "10/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-folhas-verdes-com-molho-de-mostarda-e--ea623eb6",
+    "titulo": "Salada de Folhas Verdes com Molho de Mostarda e Mel",
+    "tags": [
+      "vegetariano",
+      "leve",
+      "fresco",
+      "rapido"
+    ],
+    "data": "10/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "mousse-de-limao-cremosa-6dd8a24c",
+    "titulo": "Mousse de Limão Cremosa",
+    "tags": [
+      "doce",
+      "citrico",
+      "facil",
+      "refrescante"
+    ],
+    "data": "10/09/2026",
+    "fonte_status": "unverified"
   }
 ]
