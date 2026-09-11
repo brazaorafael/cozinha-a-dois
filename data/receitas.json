@@ -1,190 +1,187 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-10T11:53:10-03:00",
+  "gerado_em": "2026-09-11T11:51:36-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "10/09/2026",
-    "dia_semana": "quinta",
+    "data": "11/09/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Rocambole de Carne Recheado",
+        "nome": "Bisteca Grelhada com Ervas",
         "curso": "principal",
-        "tempo": "55 minutos",
-        "porque": "Uma opção de carne vermelha versátil e saborosa, ideal para um jantar a dois e com potencial para sobras. O preparo no forno é prático e o recheio com vegetais e queijo garante um prato equilibrado.",
+        "tempo": "25 minutos",
+        "porque": "Bisteca de porco grelhada, uma opção rápida e saborosa de carne que não está na lista de pratos recentes. O tempero com ervas frescas adiciona um toque especial e é uma alternativa à carne vermelha. Rende sobras para o almoço de uma pessoa.",
         "tags": [
-          "carne_vermelha",
-          "forno",
-          "prato_completo",
-          "rapido"
+          "carne_de_porco",
+          "grelhado",
+          "ervas_frescas",
+          "jantar_rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de patinho bovino moído",
-          "1 embalagem de SAZÓN® Tempera & Dá Liga Sabor Tradicional",
-          "1 tomate médio, cortado em rodelas finas",
-          "8 fatias de peito de peru defumado (100g)",
-          "8 fatias de muçarela (150g)",
-          "1 colher (sopa) de manteiga sem sal, derretida"
-        ],
-        "preparo": [
-          "Em uma tigela grande, misture a carne moída com o SAZÓN® Tempera & Dá Liga até incorporar bem.",
-          "Abra a carne entre dois plásticos, formando um retângulo de aproximadamente 25x35 cm.",
-          "Retire o plástico de cima e distribua as rodelas de tomate, o peito de peru e a muçarela sobre a carne.",
-          "Com a ajuda do plástico de baixo, enrole a carne cuidadosamente, formando um rocambole.",
-          "Transfira o rocambole para uma assadeira untada, pincele a manteiga derretida e cubra com papel-alumínio.",
-          "Leve ao forno médio (180°C) preaquecido por 30 minutos. Retire o papel-alumínio e asse por mais 10 minutos para dourar."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-09-10T14:55:16+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/25313529/pexels-photo-25313529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso pão recheado com carne, servido com alface fresca, tomates-cereja e suco de laranja.",
-          "bank_id": "25313529",
-          "credit": "Márcio  Carvalho",
-          "query": "Rocambole de Carne Recheado"
-        },
-        "id": "rocambole-de-carne-recheado-e30fd50d"
-      },
-      {
-        "nome": "Medalhão de Filé Mignon Grelhado com Molho de Ervas Picantes",
-        "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma opção de carne vermelha elegante e rápida, preparada na grelha para um cozimento saudável. O molho de ervas adiciona um toque especial e fresco, ideal para um jantar sofisticado e prático.",
-        "tags": [
-          "carne_vermelha",
-          "grelhado",
-          "jantar_especial",
-          "rapido"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 medalhões de filé mignon (cerca de 150g cada)",
-          "½ colher (sopa) de azeite",
+          "4 bistecas de porco",
+          "1 colher (sopa) de azeite",
           "Sal e pimenta-do-reino moída na hora a gosto",
-          "Para o Molho:",
-          "⅓ de xícara (chá) de azeite",
-          "¼ de xícara (chá) de salsinha picada",
-          "1 colher (sopa) de orégano seco",
-          "1 colher (chá) de pimenta calabresa seca",
-          "1 colher (sopa) de vinagre de vinho tinto",
-          "Sal a gosto"
+          "Ervas frescas picadas a gosto (alecrim, tomilho, orégano)"
         ],
         "preparo": [
-          "Retire os medalhões da geladeira e tempere com sal e pimenta-do-reino.",
-          "Em uma tigela, misture os ingredientes do molho: azeite, salsinha, orégano, pimenta calabresa, vinagre e sal. Reserve.",
-          "Aqueça uma frigideira em fogo médio com azeite. Grelhe os medalhões por 3 minutos de cada lado para um ponto malpassado.",
-          "Transfira os medalhões para um prato, cubra com papel-alumínio e deixe descansar por alguns minutos.",
-          "Sirva os medalhões com o molho de ervas picantes por cima."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Medalhao-de-file-mignon-com-molho-de-ervas",
-          "checked_at": "2026-09-10T14:55:17+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
-          "bank_id": "25205263",
-          "credit": "Adriano Bragi",
-          "query": "Medalhão de Filé Mignon Grelhado com Molho de Ervas Picantes"
-        },
-        "id": "medalhao-de-file-mignon-grelhado-com-molho-de-er-34ce9146"
-      },
-      {
-        "nome": "Salada de Folhas Verdes com Molho de Mostarda e Mel",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, fresca e rápida, perfeita para abrir o apetite. O molho de mostarda e mel adiciona um toque agridoce que complementa bem as folhas verdes, sem pesar na refeição.",
-        "tags": [
-          "vegetariano",
-          "leve",
-          "fresco",
-          "rapido"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "Folhas de alface-romana a gosto",
-          "Folhas de alface-americana a gosto",
-          "Folhas de rúcula a gosto",
-          "Para o Molho:",
-          "1 colher (sopa) de mostarda de Dijon",
-          "1 colher (sopa) de mel",
-          "3 colheres (sopa) de vinagre de vinho tinto",
-          "½ xícara (chá) de azeite",
-          "1 pitada de sal",
-          "Pimenta-do-reino em grãos moída na hora a gosto"
-        ],
-        "preparo": [
-          "Lave bem as folhas sob água corrente e seque-as cuidadosamente.",
-          "Em uma tigela pequena, combine a mostarda de Dijon, o mel e o vinagre de vinho tinto.",
-          "Adicione o azeite, o sal e a pimenta-do-reino moída, misturando bem até o molho emulsionar.",
-          "Arrume as folhas verdes em uma saladeira ou pratos individuais.",
-          "Regue a salada com o molho de mostarda e mel pouco antes de servir."
+          "Retire as bistecas da geladeira e deixe em temperatura ambiente.",
+          "Tempere as bistecas com sal, pimenta-do-reino e as ervas frescas picadas, esfregando bem.",
+          "Leve uma frigideira grande (ou bistequeira) ao fogo médio. Quando aquecer, regue com ½ colher (sopa) de azeite.",
+          "Coloque 2 bistecas e deixe dourar por cerca de 4 minutos de cada lado.",
+          "Transfira para um prato e repita com as outras bistecas, adicionando mais azeite se necessário.",
+          "Sirva imediatamente, acompanhada de arroz e salada."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-de-folhas-verdes",
-          "title": "Salada de folhas verdes - Panelinha",
+          "url": "https://panelinha.com.br/receita/bisteca-grelhada",
+          "title": "Bisteca grelhada - Panelinha",
           "domain": "panelinha.com.br",
-          "confidence": 0.58,
-          "checked_at": "2026-09-10T14:55:18+00:00"
+          "confidence": 0.72,
+          "checked_at": "2026-09-11T14:53:25+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6278-salada-receita.webp",
-          "alt": "Salada de Folhas Verdes com Molho de Mostarda e Mel"
+          "url": "https://i.panelinha.com.br/i1/bk-5287-bisteca-grelhada.webp",
+          "alt": "Bisteca Grelhada com Ervas"
         },
-        "id": "salada-de-folhas-verdes-com-molho-de-mostarda-e--ea623eb6"
+        "id": "bisteca-grelhada-com-ervas-86e256dd"
       },
       {
-        "nome": "Mousse de Limão Cremosa",
-        "curso": "sobremesa",
-        "tempo": "20 minutos de preparo + 2 horas de gelad",
-        "porque": "Uma sobremesa leve e refrescante, perfeita para finalizar o jantar. É fácil de preparar e o sabor cítrico do limão equilibra a doçura, ideal para um casal jovem.",
+        "nome": "Iscas de Carne com Legumes na Frigideira",
+        "curso": "principal",
+        "tempo": "35 minutos",
+        "porque": "Carne vermelha em tiras com legumes variados, preparada rapidamente na frigideira, garantindo praticidade e equilíbrio nutricional. Rende sobras para o almoço de uma pessoa e não está na lista de pratos recentes.",
         "tags": [
-          "doce",
-          "citrico",
-          "facil",
-          "refrescante"
+          "carne_vermelha",
+          "refogado",
+          "legumes",
+          "jantar_rapido"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500g de coxão duro em tiras",
+          "1 colher (sopa) de MAGGI® Amaciante de Carnes (opcional)",
+          "1 colher (chá) de sal",
+          "1 pitada de pimenta-do-reino",
+          "1 colher (sopa) de manteiga",
+          "½ cebola picada",
+          "1 dente de alho amassado",
+          "½ pimentão amarelo em tiras",
+          "½ pimentão vermelho em tiras",
+          "1 cenoura em tiras",
+          "1 colher (chá) de gengibre fresco ralado",
+          "1 colher (chá) de amido de milho",
+          "½ xícara (chá) de água fria",
+          "Molho de soja a gosto"
+        ],
+        "preparo": [
+          "Tempere a carne com o amaciante (se usar), sal e pimenta-do-reino.",
+          "Em uma frigideira grande, aqueça a manteiga e doure a cebola e o alho.",
+          "Acrescente a carne temperada e refogue até dourar.",
+          "Adicione os pimentões, a cenoura e o gengibre. Refogue por alguns minutos.",
+          "Dilua o amido de milho em ½ xícara (chá) de água fria e adicione à frigideira. Deixe cozinhar por cerca de 10 minutos, mexendo até o molho encorpar.",
+          "Junte o molho de soja a gosto e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/iscas-de-file-oriental-com-amaciante-de-carne-maggi",
+          "title": "Iscas de Filé Oriental com Amaciante de Carne Maggi",
+          "domain": "receitasnestle.com.br",
+          "confidence": 0.58,
+          "checked_at": "2026-09-11T14:53:27+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/89e584e938f8db60bb861b8d21e86927.jpg",
+          "alt": "Iscas de Carne com Legumes na Frigideira"
+        },
+        "id": "iscas-de-carne-com-legumes-na-frigideira-f29ce446"
+      },
+      {
+        "nome": "Salada Picadinha",
+        "curso": "entrada",
+        "tempo": "20 minutos",
+        "porque": "Opção leve e rápida para iniciar a refeição, com ingredientes frescos e preparo simples. É colorida e nutritiva.",
+        "tags": [
+          "salada",
+          "vegetariano",
+          "leve",
+          "entrada_rapida"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 lata de Leite MOÇA (395g)",
-          "½ xícara (chá) de suco de limão",
-          "Raspas de ½ limão",
-          "2 claras de ovo",
-          "2 colheres (sopa) de açúcar"
+          "½ repolho roxo pequeno",
+          "½ repolho branco pequeno",
+          "1 pepino japonês",
+          "1 cenoura média",
+          "2 folhas de alface americana",
+          "2 colheres (sopa) de azeite",
+          "1 colher (sopa) de vinagre de arroz (ou de maçã)",
+          "1 colher (chá) de gergelim torrado",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Em um recipiente, misture o Leite MOÇA, o suco e metade das raspas de limão até obter um creme consistente.",
-          "Em uma panela, misture as claras e o açúcar. Leve ao fogo baixo, mexendo vigorosamente por cerca de 3 minutos, sem deixar cozinhar.",
-          "Transfira a mistura de claras para uma batedeira e bata por 5 minutos, ou até dobrar de volume e formar um merengue.",
-          "Incorpore delicadamente o merengue ao creme de limão, misturando com uma espátula.",
-          "Distribua a mousse em taças individuais e decore com as raspas de limão restantes.",
-          "Leve à geladeira por cerca de 2 horas para firmar antes de servir."
+          "Lave bem todos os vegetais.",
+          "Corte o repolho roxo e o branco em tiras finas. Fatie o pepino em rodelas finas. Rale a cenoura e pique a alface.",
+          "Em uma tigela grande, junte todos os vegetais picados.",
+          "Em um recipiente pequeno, misture o azeite, o vinagre e o sal para fazer o molho.",
+          "Regue a salada com o molho e misture delicadamente.",
+          "Salpique o gergelim torrado por cima e sirva imediatamente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-limao-pratica-e-saborosa",
-          "checked_at": "2026-09-10T14:55:20+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/salada-picadinha",
+          "title": "Salada picadinha - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-11T14:53:28+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/1893566/pexels-photo-1893566.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa mousse de limão decorada com framboesas frescas, hortelã e raspas de chocolate em um prato preto.",
-          "bank_id": "1893566",
-          "credit": "Valeria Boltneva",
-          "query": "Mousse de Limão Cremosa"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9849-blog-3-2.webp",
+          "alt": "Salada Picadinha"
         },
-        "id": "mousse-de-limao-cremosa-6dd8a24c"
+        "id": "salada-picadinha-0b2eb76c"
+      },
+      {
+        "nome": "Creme de Abacate com Limão e Açúcar",
+        "curso": "sobremesa",
+        "tempo": "10 minutos",
+        "porque": "Sobremesa leve e rápida, ideal para finalizar a refeição sem pesar, com ingredientes acessíveis e um toque refrescante de limão. Não está na lista de pratos recentes.",
+        "tags": [
+          "sobremesa_rapida",
+          "frutas",
+          "leve",
+          "facil"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 abacate maduro",
+          "Suco de ½ limão",
+          "2 a 3 colheres (sopa) de açúcar (ou a gosto)"
+        ],
+        "preparo": [
+          "Corte o abacate ao meio, retire o caroço e a polpa com uma colher.",
+          "Coloque a polpa do abacate em um prato fundo ou tigela.",
+          "Adicione o suco de limão e o açúcar.",
+          "Amasse tudo com um garfo até obter um creme homogêneo e cremoso.",
+          "Sirva imediatamente, gelado se preferir."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/abacate-com-limao-e-acucar",
+          "title": "Abacate com limão e açúcar - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 0.79,
+          "checked_at": "2026-09-11T14:53:28+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-2912-abacate-com-limao-e-acucar.webp",
+          "alt": "Creme de Abacate com Limão e Açúcar"
+        },
+        "id": "creme-de-abacate-com-limao-e-acucar-7096a45b"
       }
     ]
   },

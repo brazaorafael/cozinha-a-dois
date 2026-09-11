@@ -3231,5 +3231,41 @@
     ],
     "data": "10/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bisteca-grelhada-com-ervas-86e256dd",
+    "titulo": "Bisteca Grelhada com Ervas",
+    "tags": [
+      "carne_de_porco",
+      "grelhado",
+      "ervas_frescas",
+      "jantar_rapido"
+    ],
+    "data": "11/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "iscas-de-carne-com-legumes-na-frigideira-f29ce446",
+    "titulo": "Iscas de Carne com Legumes na Frigideira",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "legumes",
+      "jantar_rapido"
+    ],
+    "data": "11/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "creme-de-abacate-com-limao-e-acucar-7096a45b",
+    "titulo": "Creme de Abacate com Limão e Açúcar",
+    "tags": [
+      "sobremesa_rapida",
+      "frutas",
+      "leve",
+      "facil"
+    ],
+    "data": "11/09/2026",
+    "fonte_status": "verified"
   }
 ]
