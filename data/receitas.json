@@ -1,187 +1,187 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-11T11:51:36-03:00",
+  "gerado_em": "2026-09-12T10:53:54-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "11/09/2026",
-    "dia_semana": "sexta",
+    "data": "12/09/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Bisteca Grelhada com Ervas",
+        "nome": "Picadinho de Carne com Legumes",
         "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Bisteca de porco grelhada, uma opção rápida e saborosa de carne que não está na lista de pratos recentes. O tempero com ervas frescas adiciona um toque especial e é uma alternativa à carne vermelha. Rende sobras para o almoço de uma pessoa.",
-        "tags": [
-          "carne_de_porco",
-          "grelhado",
-          "ervas_frescas",
-          "jantar_rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "4 bistecas de porco",
-          "1 colher (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Ervas frescas picadas a gosto (alecrim, tomilho, orégano)"
-        ],
-        "preparo": [
-          "Retire as bistecas da geladeira e deixe em temperatura ambiente.",
-          "Tempere as bistecas com sal, pimenta-do-reino e as ervas frescas picadas, esfregando bem.",
-          "Leve uma frigideira grande (ou bistequeira) ao fogo médio. Quando aquecer, regue com ½ colher (sopa) de azeite.",
-          "Coloque 2 bistecas e deixe dourar por cerca de 4 minutos de cada lado.",
-          "Transfira para um prato e repita com as outras bistecas, adicionando mais azeite se necessário.",
-          "Sirva imediatamente, acompanhada de arroz e salada."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/bisteca-grelhada",
-          "title": "Bisteca grelhada - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 0.72,
-          "checked_at": "2026-09-11T14:53:25+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-5287-bisteca-grelhada.webp",
-          "alt": "Bisteca Grelhada com Ervas"
-        },
-        "id": "bisteca-grelhada-com-ervas-86e256dd"
-      },
-      {
-        "nome": "Iscas de Carne com Legumes na Frigideira",
-        "curso": "principal",
-        "tempo": "35 minutos",
-        "porque": "Carne vermelha em tiras com legumes variados, preparada rapidamente na frigideira, garantindo praticidade e equilíbrio nutricional. Rende sobras para o almoço de uma pessoa e não está na lista de pratos recentes.",
+        "tempo": "45 minutos",
+        "porque": "Um clássico reconfortante com carne vermelha e diversos vegetais, ideal para um jantar equilibrado e com potencial de sobras. Preparado na panela, evitando fritura.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "legumes",
-          "jantar_rapido"
+          "panela",
+          "equilibrado",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de coxão duro em tiras",
-          "1 colher (sopa) de MAGGI® Amaciante de Carnes (opcional)",
-          "1 colher (chá) de sal",
-          "1 pitada de pimenta-do-reino",
-          "1 colher (sopa) de manteiga",
-          "½ cebola picada",
-          "1 dente de alho amassado",
-          "½ pimentão amarelo em tiras",
-          "½ pimentão vermelho em tiras",
-          "1 cenoura em tiras",
-          "1 colher (chá) de gengibre fresco ralado",
-          "1 colher (chá) de amido de milho",
-          "½ xícara (chá) de água fria",
-          "Molho de soja a gosto"
-        ],
-        "preparo": [
-          "Tempere a carne com o amaciante (se usar), sal e pimenta-do-reino.",
-          "Em uma frigideira grande, aqueça a manteiga e doure a cebola e o alho.",
-          "Acrescente a carne temperada e refogue até dourar.",
-          "Adicione os pimentões, a cenoura e o gengibre. Refogue por alguns minutos.",
-          "Dilua o amido de milho em ½ xícara (chá) de água fria e adicione à frigideira. Deixe cozinhar por cerca de 10 minutos, mexendo até o molho encorpar.",
-          "Junte o molho de soja a gosto e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/iscas-de-file-oriental-com-amaciante-de-carne-maggi",
-          "title": "Iscas de Filé Oriental com Amaciante de Carne Maggi",
-          "domain": "receitasnestle.com.br",
-          "confidence": 0.58,
-          "checked_at": "2026-09-11T14:53:27+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/89e584e938f8db60bb861b8d21e86927.jpg",
-          "alt": "Iscas de Carne com Legumes na Frigideira"
-        },
-        "id": "iscas-de-carne-com-legumes-na-frigideira-f29ce446"
-      },
-      {
-        "nome": "Salada Picadinha",
-        "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Opção leve e rápida para iniciar a refeição, com ingredientes frescos e preparo simples. É colorida e nutritiva.",
-        "tags": [
-          "salada",
-          "vegetariano",
-          "leve",
-          "entrada_rapida"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "½ repolho roxo pequeno",
-          "½ repolho branco pequeno",
-          "1 pepino japonês",
-          "1 cenoura média",
-          "2 folhas de alface americana",
-          "2 colheres (sopa) de azeite",
-          "1 colher (sopa) de vinagre de arroz (ou de maçã)",
-          "1 colher (chá) de gergelim torrado",
+          "200 g de coxão mole (picada em cubos)",
+          "1 cebola (picada)",
+          "1 dente de alho (amassado)",
+          "1 cenoura (picada em cubos)",
+          "1 chuchu (picado em cubos)",
+          "1 xícara (chá) de vagem (picada em cubos)",
+          "1 xícara (chá) de batata (picada em cubos)",
+          "2 tomates (sem pele e sem sementes, batidos no liquidificador)",
+          "1 colher (sopa) de salsa (picada)",
           "Sal a gosto"
         ],
         "preparo": [
-          "Lave bem todos os vegetais.",
-          "Corte o repolho roxo e o branco em tiras finas. Fatie o pepino em rodelas finas. Rale a cenoura e pique a alface.",
-          "Em uma tigela grande, junte todos os vegetais picados.",
-          "Em um recipiente pequeno, misture o azeite, o vinagre e o sal para fazer o molho.",
-          "Regue a salada com o molho e misture delicadamente.",
-          "Salpique o gergelim torrado por cima e sirva imediatamente."
+          "Em uma panela antiaderente, doure a carne em cubos.",
+          "Adicione a cebola picada e o alho amassado, refogando até murcharem.",
+          "Acrescente a cenoura, o chuchu, a vagem e a batata picados, e mexa por 1 minuto.",
+          "Junte os tomates batidos, o sal a gosto e a salsa picada.",
+          "Cozinhe em fogo médio até a carne ficar macia e os legumes cozidos. Sirva em seguida."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-picadinha",
-          "title": "Salada picadinha - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-11T14:53:28+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-09-12T13:55:33+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9849-blog-3-2.webp",
-          "alt": "Salada Picadinha"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
+          "bank_id": "38330332",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Picadinho de Carne com Legumes"
         },
-        "id": "salada-picadinha-0b2eb76c"
+        "id": "picadinho-de-carne-com-legumes-60ed6959"
       },
       {
-        "nome": "Creme de Abacate com Limão e Açúcar",
-        "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Sobremesa leve e rápida, ideal para finalizar a refeição sem pesar, com ingredientes acessíveis e um toque refrescante de limão. Não está na lista de pratos recentes.",
+        "nome": "Medalhão ao Molho Madeira",
+        "curso": "principal",
+        "tempo": "25 minutos",
+        "porque": "Uma opção sofisticada de carne vermelha, rápida de preparar e com um molho saboroso. Ideal para um jantar especial sem complicação, acompanhado de arroz e brócolis refogado para um prato equilibrado.",
         "tags": [
-          "sobremesa_rapida",
-          "frutas",
-          "leve",
-          "facil"
+          "carne_vermelha",
+          "grelha",
+          "molho",
+          "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 abacate maduro",
-          "Suco de ½ limão",
-          "2 a 3 colheres (sopa) de açúcar (ou a gosto)"
+          "2 medalhões de filé mignon (150 g cada)",
+          "½ colher (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Para o molho:",
+          "½ colher (sopa) de manteiga",
+          "½ colher (sopa) de farinha de trigo",
+          "½ colher (sopa) de extrato de tomate",
+          "¼ de xícara (chá) de vinho tinto",
+          "½ xícara (chá) de água fervente"
         ],
         "preparo": [
-          "Corte o abacate ao meio, retire o caroço e a polpa com uma colher.",
-          "Coloque a polpa do abacate em um prato fundo ou tigela.",
-          "Adicione o suco de limão e o açúcar.",
-          "Amasse tudo com um garfo até obter um creme homogêneo e cremoso.",
-          "Sirva imediatamente, gelado se preferir."
+          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino.",
+          "Aqueça uma frigideira em fogo médio com azeite e doure os medalhões dos dois lados até o ponto desejado.",
+          "Transfira os medalhões para um prato e cubra com papel alumínio para mantê-los aquecidos.",
+          "Na mesma frigideira (sem lavar), adicione a manteiga, a farinha de trigo e misture por 2 minutos para formar uma pastinha.",
+          "Acrescente o extrato de tomate, o vinho tinto e a água fervente, mexendo até o molho encorpar.",
+          "Regue os medalhões com o molho madeira e sirva imediatamente, acompanhado de arroz branco e brócolis refogado."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/abacate-com-limao-e-acucar",
-          "title": "Abacate com limão e açúcar - Panelinha",
+          "url": "https://panelinha.com.br/receita/medalhao-ao-molho-madeira",
+          "title": "Medalhão ao molho madeira - Panelinha",
           "domain": "panelinha.com.br",
-          "confidence": 0.79,
-          "checked_at": "2026-09-11T14:53:28+00:00"
+          "confidence": 1.0,
+          "checked_at": "2026-09-12T13:55:34+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-2912-abacate-com-limao-e-acucar.webp",
-          "alt": "Creme de Abacate com Limão e Açúcar"
+          "url": "https://i.panelinha.com.br/i1/bk-5379-blog-medalhao-ao-molho-madeira-1.webp",
+          "alt": "Medalhão ao Molho Madeira"
         },
-        "id": "creme-de-abacate-com-limao-e-acucar-7096a45b"
+        "id": "medalhao-ao-molho-madeira-85045c99"
+      },
+      {
+        "nome": "Salada de Folhas Verdes",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, refrescante e muito prática, que complementa bem qualquer prato principal e é rápida de preparar. Ideal para começar o jantar de forma saudável.",
+        "tags": [
+          "vegetariano",
+          "entrada",
+          "rapido",
+          "fresco"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "Folhas de alface-romana a gosto",
+          "Folhas de alface-americana a gosto",
+          "Folhas de rúcula a gosto",
+          "Molho para salada de sua preferência"
+        ],
+        "preparo": [
+          "Lave as folhas de alface-romana, alface-americana e rúcula sob água corrente.",
+          "Transfira as folhas lavadas para uma tigela com 1 litro de água e um bactericida de sua escolha, deixando de molho por 15 minutos.",
+          "Retire as folhas da água, sem escorrer, para que as sujeiras fiquem no fundo da tigela.",
+          "Disponha as folhas em uma saladeira ou travessa.",
+          "Acrescente o molho desejado somente na hora de servir."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/salada-de-folhas-verdes",
+          "title": "Salada de folhas verdes - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-12T13:55:34+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-6278-salada-receita.webp",
+          "alt": "Salada de Folhas Verdes"
+        },
+        "id": "salada-de-folhas-verdes-ff7ac8ab"
+      },
+      {
+        "nome": "Pavê de Chocolate com Biscoito",
+        "curso": "sobremesa",
+        "tempo": "40 minutos",
+        "porque": "Uma sobremesa clássica, fácil de fazer, deliciosa e que rende bem, podendo ser aproveitada no dia seguinte. Perfeita para finalizar o jantar com um toque doce.",
+        "tags": [
+          "chocolate",
+          "sobremesa",
+          "facil",
+          "gelado"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "200 g de creme de leite fresco gelado",
+          "2 caixas de pó para preparo de sobremesa instantânea sabor chocolate",
+          "3 xícaras de leite gelado",
+          "2 pacotes de biscoitos (tipo maisena ou champanhe)",
+          "1 xícara de leite (para umedecer os biscoitos)",
+          "2 colheres (sopa) de achocolatado em pó"
+        ],
+        "preparo": [
+          "Prepare o creme de chocolate conforme as instruções da embalagem do pó para sobremesa, utilizando o leite gelado e o creme de leite fresco.",
+          "Em um recipiente separado, misture 1 xícara de leite com o achocolatado em pó para umedecer os biscoitos.",
+          "Em um refratário, faça uma camada do creme de chocolate.",
+          "Umedeça rapidamente os biscoitos na mistura de leite e achocolatado, e disponha uma camada sobre o creme.",
+          "Intercale camadas de creme e biscoito, finalizando com uma camada de creme.",
+          "Leve à geladeira por pelo menos 4 horas antes de servir para firmar."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-09-12T13:55:34+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/30350316/pexels-photo-30350316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Bolo de biscoito de chocolate rico em um prato floral, perfeito para os amantes de sobremesas.",
+          "bank_id": "30350316",
+          "credit": "Anthony Rahayel",
+          "query": "Pavê de Chocolate com Biscoito"
+        },
+        "id": "pave-de-chocolate-com-biscoito-cf264d64"
       }
     ]
   },

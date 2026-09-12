@@ -3267,5 +3267,29 @@
     ],
     "data": "11/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "medalhao-ao-molho-madeira-85045c99",
+    "titulo": "Medalhão ao Molho Madeira",
+    "tags": [
+      "carne_vermelha",
+      "grelha",
+      "molho",
+      "rapido"
+    ],
+    "data": "12/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "pave-de-chocolate-com-biscoito-cf264d64",
+    "titulo": "Pavê de Chocolate com Biscoito",
+    "tags": [
+      "chocolate",
+      "sobremesa",
+      "facil",
+      "gelado"
+    ],
+    "data": "12/09/2026",
+    "fonte_status": "unverified"
   }
 ]
