@@ -1,47 +1,48 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-12T10:53:54-03:00",
+  "gerado_em": "2026-09-13T11:49:05-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "12/09/2026",
-    "dia_semana": "sábado",
+    "data": "13/09/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
         "nome": "Picadinho de Carne com Legumes",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Um clássico reconfortante com carne vermelha e diversos vegetais, ideal para um jantar equilibrado e com potencial de sobras. Preparado na panela, evitando fritura.",
+        "tempo": "40 minutos",
+        "porque": "Prato principal equilibrado e saboroso, com carne vermelha e vegetais, ideal para um jantar rápido e com potencial de sobras para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "panela",
-          "equilibrado",
-          "sobra"
+          "refogado",
+          "prato_completo",
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "200 g de coxão mole (picada em cubos)",
-          "1 cebola (picada)",
-          "1 dente de alho (amassado)",
-          "1 cenoura (picada em cubos)",
-          "1 chuchu (picado em cubos)",
-          "1 xícara (chá) de vagem (picada em cubos)",
-          "1 xícara (chá) de batata (picada em cubos)",
-          "2 tomates (sem pele e sem sementes, batidos no liquidificador)",
-          "1 colher (sopa) de salsa (picada)",
-          "Sal a gosto"
+          "1 kg de patinho em cubos",
+          "30g de amaciante de carnes (opcional)",
+          "60ml de azeite de oliva extra virgem",
+          "10g de tempero Fondor (ou sal e pimenta a gosto)",
+          "600ml de água",
+          "100g de polpa de tomate",
+          "3g de tomilho fresco",
+          "10g de creme de cebola (ou 1/2 cebola picada)",
+          "450g de batata-inglesa em cubos",
+          "300g de cenoura em cubos",
+          "10g de salsa picada"
         ],
         "preparo": [
-          "Em uma panela antiaderente, doure a carne em cubos.",
-          "Adicione a cebola picada e o alho amassado, refogando até murcharem.",
-          "Acrescente a cenoura, o chuchu, a vagem e a batata picados, e mexa por 1 minuto.",
-          "Junte os tomates batidos, o sal a gosto e a salsa picada.",
-          "Cozinhe em fogo médio até a carne ficar macia e os legumes cozidos. Sirva em seguida."
+          "Tempere a carne com amaciante (se usar) e deixe agir por 4 horas, ou tempere com sal e pimenta.",
+          "Em uma panela, doure a carne no azeite.",
+          "Adicione a água, o tempero Fondor (ou sal e pimenta), a polpa de tomate e a cenoura. Cozinhe até a cenoura ficar al dente.",
+          "Junte o creme de cebola (ou cebola picada) e a batata. Cozinhe até os vegetais ficarem macios e o caldo engrossar.",
+          "Finalize com tomilho e salsa picada. Sirva em seguida."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
           "suggested_url": "",
-          "checked_at": "2026-09-12T13:55:33+00:00"
+          "checked_at": "2026-09-13T14:51:02+00:00"
         },
         "imagem": {
           "kind": "bank",
@@ -54,134 +55,142 @@
         "id": "picadinho-de-carne-com-legumes-60ed6959"
       },
       {
-        "nome": "Medalhão ao Molho Madeira",
+        "nome": "Escondidinho de Carne Seca com Purê de Abóbora",
         "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Uma opção sofisticada de carne vermelha, rápida de preparar e com um molho saboroso. Ideal para um jantar especial sem complicação, acompanhado de arroz e brócolis refogado para um prato equilibrado.",
+        "tempo": "40 minutos",
+        "porque": "Uma opção reconfortante de carne vermelha, assada no forno, com purê de abóbora que adiciona um toque adocicado e nutritivo. Perfeito para um jantar completo e com sobras.",
         "tags": [
           "carne_vermelha",
-          "grelha",
-          "molho",
-          "rapido"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 medalhões de filé mignon (150 g cada)",
-          "½ colher (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Para o molho:",
-          "½ colher (sopa) de manteiga",
-          "½ colher (sopa) de farinha de trigo",
-          "½ colher (sopa) de extrato de tomate",
-          "¼ de xícara (chá) de vinho tinto",
-          "½ xícara (chá) de água fervente"
-        ],
-        "preparo": [
-          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino.",
-          "Aqueça uma frigideira em fogo médio com azeite e doure os medalhões dos dois lados até o ponto desejado.",
-          "Transfira os medalhões para um prato e cubra com papel alumínio para mantê-los aquecidos.",
-          "Na mesma frigideira (sem lavar), adicione a manteiga, a farinha de trigo e misture por 2 minutos para formar uma pastinha.",
-          "Acrescente o extrato de tomate, o vinho tinto e a água fervente, mexendo até o molho encorpar.",
-          "Regue os medalhões com o molho madeira e sirva imediatamente, acompanhado de arroz branco e brócolis refogado."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/medalhao-ao-molho-madeira",
-          "title": "Medalhão ao molho madeira - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-12T13:55:34+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-5379-blog-medalhao-ao-molho-madeira-1.webp",
-          "alt": "Medalhão ao Molho Madeira"
-        },
-        "id": "medalhao-ao-molho-madeira-85045c99"
-      },
-      {
-        "nome": "Salada de Folhas Verdes",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, refrescante e muito prática, que complementa bem qualquer prato principal e é rápida de preparar. Ideal para começar o jantar de forma saudável.",
-        "tags": [
-          "vegetariano",
-          "entrada",
-          "rapido",
-          "fresco"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "Folhas de alface-romana a gosto",
-          "Folhas de alface-americana a gosto",
-          "Folhas de rúcula a gosto",
-          "Molho para salada de sua preferência"
-        ],
-        "preparo": [
-          "Lave as folhas de alface-romana, alface-americana e rúcula sob água corrente.",
-          "Transfira as folhas lavadas para uma tigela com 1 litro de água e um bactericida de sua escolha, deixando de molho por 15 minutos.",
-          "Retire as folhas da água, sem escorrer, para que as sujeiras fiquem no fundo da tigela.",
-          "Disponha as folhas em uma saladeira ou travessa.",
-          "Acrescente o molho desejado somente na hora de servir."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-de-folhas-verdes",
-          "title": "Salada de folhas verdes - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-12T13:55:34+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6278-salada-receita.webp",
-          "alt": "Salada de Folhas Verdes"
-        },
-        "id": "salada-de-folhas-verdes-ff7ac8ab"
-      },
-      {
-        "nome": "Pavê de Chocolate com Biscoito",
-        "curso": "sobremesa",
-        "tempo": "40 minutos",
-        "porque": "Uma sobremesa clássica, fácil de fazer, deliciosa e que rende bem, podendo ser aproveitada no dia seguinte. Perfeita para finalizar o jantar com um toque doce.",
-        "tags": [
-          "chocolate",
-          "sobremesa",
-          "facil",
-          "gelado"
+          "forno",
+          "prato_completo",
+          "confort_food"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "200 g de creme de leite fresco gelado",
-          "2 caixas de pó para preparo de sobremesa instantânea sabor chocolate",
-          "3 xícaras de leite gelado",
-          "2 pacotes de biscoitos (tipo maisena ou champanhe)",
-          "1 xícara de leite (para umedecer os biscoitos)",
-          "2 colheres (sopa) de achocolatado em pó"
+          "2 colheres (sopa) de manteiga de garrafa (ou manteiga comum)",
+          "1 cebola média fatiada",
+          "400 g de carne-seca demolhada, cozida e desfiada",
+          "Meio pimentão amarelo pequeno, em cubos",
+          "1 tomate pequeno, em cubos",
+          "1 sachê de Tempero SAZÓN® Toque de Alho (ou alho picado e sal a gosto)",
+          "Meia abóbora japonesa média, cozida e espremida (1 kg)",
+          "Meia colher (chá) de sal",
+          "Meia xícara (chá) de leite (100 ml)",
+          "1 xícara (chá) de muçarela ralada (100 g)"
         ],
         "preparo": [
-          "Prepare o creme de chocolate conforme as instruções da embalagem do pó para sobremesa, utilizando o leite gelado e o creme de leite fresco.",
-          "Em um recipiente separado, misture 1 xícara de leite com o achocolatado em pó para umedecer os biscoitos.",
-          "Em um refratário, faça uma camada do creme de chocolate.",
-          "Umedeça rapidamente os biscoitos na mistura de leite e achocolatado, e disponha uma camada sobre o creme.",
-          "Intercale camadas de creme e biscoito, finalizando com uma camada de creme.",
-          "Leve à geladeira por pelo menos 4 horas antes de servir para firmar."
+          "Em uma panela, refogue a cebola na manteiga. Adicione a carne-seca, pimentão, tomate e tempero SAZÓN®. Refogue por 3 minutos e reserve.",
+          "Em outra panela, aqueça manteiga, junte a abóbora espremida, sal e leite. Cozinhe, mexendo, até obter um purê cremoso.",
+          "Em formas individuais ou um refratário untado, faça uma camada de purê, uma de carne e cubra com o restante do purê.",
+          "Salpique a muçarela ralada e leve ao forno médio (200°C) preaquecido por 15 minutos, ou até gratinar.",
+          "Retire do forno e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
           "suggested_url": "",
-          "checked_at": "2026-09-12T13:55:34+00:00"
+          "checked_at": "2026-09-13T14:51:02+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/30350316/pexels-photo-30350316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Bolo de biscoito de chocolate rico em um prato floral, perfeito para os amantes de sobremesas.",
-          "bank_id": "30350316",
-          "credit": "Anthony Rahayel",
-          "query": "Pavê de Chocolate com Biscoito"
+          "url": "https://images.pexels.com/photos/37794985/pexels-photo-37794985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa carne assada servida sobre purê de batatas cremoso, com microverdes e rabanete como guarnição.",
+          "bank_id": "37794985",
+          "credit": "Jay Moon",
+          "query": "Escondidinho de Carne Seca com Purê de Abóbora"
         },
-        "id": "pave-de-chocolate-com-biscoito-cf264d64"
+        "id": "escondidinho-de-carne-seca-com-pure-de-abobora-8f4d98e6"
+      },
+      {
+        "nome": "Muffins de Tomate e Mozarela",
+        "curso": "entrada",
+        "tempo": "40 minutos",
+        "porque": "Uma entrada leve, prática e saborosa, com vegetais e queijo, ideal para abrir o apetite sem pesar. Prepara-se no forno de forma rápida.",
+        "tags": [
+          "vegetariano",
+          "forno",
+          "entrada_rapida",
+          "leve"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "3 ovos",
+          "1 iogurte natural (125g)",
+          "100 ml de leite",
+          "100 ml de azeite",
+          "Sal, orégãos e pimenta a gosto",
+          "250 g de farinha de trigo",
+          "1 colher (sopa) de fermento em pó",
+          "150 g de tomates cereja, cortados ao meio",
+          "120 g de queijo mozarela em cubos (ou mini bolas)"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 180°C. Unte e enfarinhe forminhas de muffin.",
+          "Em uma tigela, misture os ovos, o iogurte, o leite, o azeite, o sal, os orégãos e a pimenta.",
+          "Adicione a farinha e o fermento, misturando até incorporar.",
+          "Incorpore delicadamente os tomates cereja e a mozarela em cubos à massa.",
+          "Distribua a massa nas forminhas e leve ao forno por 25-30 minutos, ou até dourarem.",
+          "Retire do forno e sirva morno."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-09-13T14:51:02+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/17741884/pexels-photo-17741884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosos muffins caseiros de queijo com tomate e ervas, exibidos com cubos de queijo e tomates-cereja.",
+          "bank_id": "17741884",
+          "credit": "Fabiano Pimentel",
+          "query": "Muffins de Tomate e Mozarela"
+        },
+        "id": "muffins-de-tomate-e-mozarela-f3210ac4"
+      },
+      {
+        "nome": "Doce de Amendoim",
+        "curso": "sobremesa",
+        "tempo": "10 minutos",
+        "porque": "Uma sobremesa rápida e fácil de preparar, com sabor clássico de amendoim, perfeita para finalizar o jantar com um toque doce sem complicação.",
+        "tags": [
+          "doce",
+          "rapido",
+          "sem_forno",
+          "amendoim"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 xícara (chá) de açúcar",
+          "1 colher (sopa) de manteiga",
+          "1 pitada de sal",
+          "1 lata de Leite Condensado MOÇA® (395g)",
+          "2 colheres (sopa) de Chocolate em Pó NESTLÉ® CHOCOLATERIA (ou cacau em pó)",
+          "1 colher (chá) de essência de baunilha",
+          "200 g de amendoim torrado sem sal, triturado"
+        ],
+        "preparo": [
+          "Em uma panela de fundo grosso, junte o açúcar, a manteiga e o sal. Leve ao fogo médio, mexendo até formar um caramelo claro.",
+          "Ainda em fogo médio, adicione o Leite Condensado MOÇA, o Chocolate em Pó e a baunilha. Mexa constantemente por cerca de 10 minutos, até a mistura desgrudar do fundo da panela.",
+          "Desligue o fogo e incorpore o amendoim triturado.",
+          "Despeje a mistura em um prato untado com manteiga e deixe esfriar.",
+          "Corte em pedaços e sirva."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/doce-de-amendoim",
+          "checked_at": "2026-09-13T14:51:05+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5865648/pexels-photo-5865648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Detalhe de doce de gergelim e amendoim em uma bandeja de madeira, com decoração rústica.",
+          "bank_id": "5865648",
+          "credit": "Rachel Claire",
+          "query": "Doce de Amendoim"
+        },
+        "id": "doce-de-amendoim-dfef1cd9"
       }
     ]
   },
