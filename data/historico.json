@@ -3303,5 +3303,41 @@
     ],
     "data": "13/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "salmao-assado-com-legumes-1e8233b1",
+    "titulo": "Salmão Assado com Legumes",
+    "tags": [
+      "peixe",
+      "assado",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "14/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "picadinho-de-file-mignon-c8e4be37",
+    "titulo": "Picadinho de Filé Mignon",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "classico",
+      "equilibrado"
+    ],
+    "data": "14/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "musse-de-damasco-fd20761c",
+    "titulo": "Musse de Damasco",
+    "tags": [
+      "doce",
+      "frutas",
+      "rapida",
+      "leve"
+    ],
+    "data": "14/09/2026",
+    "fonte_status": "verified"
   }
 ]

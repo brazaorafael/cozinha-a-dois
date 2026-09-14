@@ -1,196 +1,195 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-13T11:49:05-03:00",
+  "gerado_em": "2026-09-14T13:48:20-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "13/09/2026",
-    "dia_semana": "domingo",
+    "data": "14/09/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Picadinho de Carne com Legumes",
+        "nome": "Salmão Assado com Legumes",
+        "curso": "principal",
+        "tempo": "35 minutos",
+        "porque": "Esta receita atende à preferência por peixe uma vez por semana, é saudável, equilibrada, assada no forno (método preferencial) e rápida de preparar, com potencial para render uma pequena sobra.",
+        "tags": [
+          "peixe",
+          "assado",
+          "saudavel",
+          "rapido"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 kg de salmão em postas",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto",
+          "Ervas finas a gosto",
+          "Suco de 2 limões",
+          "1 cebola roxa média em pétalas",
+          "1/2 pimentão amarelo em rodelas",
+          "1/2 pimentão vermelho em rodelas",
+          "100 g de ervilha-torta cortada ao meio na diagonal",
+          "2 tomates sem sementes cortados em 4",
+          "Ramos de tomilho fresco",
+          "1 fio de azeite de oliva"
+        ],
+        "preparo": [
+          "Tempere o salmão com sal, pimenta-do-reino, ervas finas e suco de limão, deixando marinar por 10 minutos.",
+          "Pré-aqueça o forno a 200 °C.",
+          "Em uma assadeira untada com azeite, acomode o salmão com a pele para baixo.",
+          "Espalhe a cebola, os pimentões, a ervilha-torta, o tomate e os ramos de tomilho sobre o salmão.",
+          "Regue com azeite, cubra com papel-alumínio e leve ao forno por 20 minutos.",
+          "Retire o papel-alumínio e asse por mais 5 minutos para dourar. Sirva em seguida."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-09-14T16:50:03+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/14537687/pexels-photo-14537687.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um delicioso filé de salmão grelhado com legumes assados servido em um prato branco.",
+          "bank_id": "14537687",
+          "credit": "Cristian Mihaila",
+          "query": "Salmão Assado com Legumes"
+        },
+        "id": "salmao-assado-com-legumes-1e8233b1"
+      },
+      {
+        "nome": "Picadinho de Filé Mignon",
         "curso": "principal",
         "tempo": "40 minutos",
-        "porque": "Prato principal equilibrado e saboroso, com carne vermelha e vegetais, ideal para um jantar rápido e com potencial de sobras para o almoço do dia seguinte.",
+        "porque": "Atende à preferência por carne vermelha, é um prato clássico brasileiro, rápido e fácil de preparar por refogado, com potencial de sobra para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
           "refogado",
-          "prato_completo",
-          "facil"
+          "classico",
+          "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 kg de patinho em cubos",
-          "30g de amaciante de carnes (opcional)",
-          "60ml de azeite de oliva extra virgem",
-          "10g de tempero Fondor (ou sal e pimenta a gosto)",
-          "600ml de água",
-          "100g de polpa de tomate",
-          "3g de tomilho fresco",
-          "10g de creme de cebola (ou 1/2 cebola picada)",
-          "450g de batata-inglesa em cubos",
-          "300g de cenoura em cubos",
-          "10g de salsa picada"
+          "500 g de filé mignon em cubos de 1,5 cm",
+          "2 cebolas",
+          "3 dentes de alho",
+          "70 g de bacon em cubinhos",
+          "2 colheres (sopa) de extrato de tomate",
+          "2 colheres (sopa) de molho inglês",
+          "3 colheres (sopa) de farinha de trigo",
+          "5 colheres (sopa) de azeite",
+          "4 xícaras (chá) de água",
+          "Caldo de ½ limão",
+          "¼ de xícara (chá) de salsinha",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Tempere a carne com amaciante (se usar) e deixe agir por 4 horas, ou tempere com sal e pimenta.",
-          "Em uma panela, doure a carne no azeite.",
-          "Adicione a água, o tempero Fondor (ou sal e pimenta), a polpa de tomate e a cenoura. Cozinhe até a cenoura ficar al dente.",
-          "Junte o creme de cebola (ou cebola picada) e a batata. Cozinhe até os vegetais ficarem macios e o caldo engrossar.",
-          "Finalize com tomilho e salsa picada. Sirva em seguida."
+          "Corte o filé mignon em cubos de 1,5 cm, tempere com sal e pimenta-do-reino e reserve em temperatura ambiente.",
+          "Pique a cebola e o alho. Em uma panela grande com azeite, doure a carne em levas e reserve.",
+          "Na mesma panela, adicione mais azeite e doure o bacon. Em seguida, refogue a cebola até murchar e adicione o alho.",
+          "Junte o extrato de tomate e o molho inglês, mexendo por alguns minutos. Polvilhe a farinha de trigo e misture bem.",
+          "Adicione a água quente aos poucos, mexendo para dissolver a farinha e formar um molho. Volte a carne para a panela.",
+          "Cozinhe por cerca de 6 minutos, ajuste o sal e a pimenta, adicione o caldo de limão e a salsinha picada. Sirva."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-09-13T14:51:02+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/picadinho-de-file-mignon",
+          "title": "Picadinho de filé mignon - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-14T16:50:04+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
-          "bank_id": "38330332",
-          "credit": "DΛVΞ GΛRCIΛ",
-          "query": "Picadinho de Carne com Legumes"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4502-picadinho-receita.webp",
+          "alt": "Picadinho de Filé Mignon"
         },
-        "id": "picadinho-de-carne-com-legumes-60ed6959"
+        "id": "picadinho-de-file-mignon-c8e4be37"
       },
       {
-        "nome": "Escondidinho de Carne Seca com Purê de Abóbora",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma opção reconfortante de carne vermelha, assada no forno, com purê de abóbora que adiciona um toque adocicado e nutritivo. Perfeito para um jantar completo e com sobras.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
-          "prato_completo",
-          "confort_food"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "2 colheres (sopa) de manteiga de garrafa (ou manteiga comum)",
-          "1 cebola média fatiada",
-          "400 g de carne-seca demolhada, cozida e desfiada",
-          "Meio pimentão amarelo pequeno, em cubos",
-          "1 tomate pequeno, em cubos",
-          "1 sachê de Tempero SAZÓN® Toque de Alho (ou alho picado e sal a gosto)",
-          "Meia abóbora japonesa média, cozida e espremida (1 kg)",
-          "Meia colher (chá) de sal",
-          "Meia xícara (chá) de leite (100 ml)",
-          "1 xícara (chá) de muçarela ralada (100 g)"
-        ],
-        "preparo": [
-          "Em uma panela, refogue a cebola na manteiga. Adicione a carne-seca, pimentão, tomate e tempero SAZÓN®. Refogue por 3 minutos e reserve.",
-          "Em outra panela, aqueça manteiga, junte a abóbora espremida, sal e leite. Cozinhe, mexendo, até obter um purê cremoso.",
-          "Em formas individuais ou um refratário untado, faça uma camada de purê, uma de carne e cubra com o restante do purê.",
-          "Salpique a muçarela ralada e leve ao forno médio (200°C) preaquecido por 15 minutos, ou até gratinar.",
-          "Retire do forno e sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-09-13T14:51:02+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/37794985/pexels-photo-37794985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa carne assada servida sobre purê de batatas cremoso, com microverdes e rabanete como guarnição.",
-          "bank_id": "37794985",
-          "credit": "Jay Moon",
-          "query": "Escondidinho de Carne Seca com Purê de Abóbora"
-        },
-        "id": "escondidinho-de-carne-seca-com-pure-de-abobora-8f4d98e6"
-      },
-      {
-        "nome": "Muffins de Tomate e Mozarela",
+        "nome": "Bruschetta de Tomate",
         "curso": "entrada",
-        "tempo": "40 minutos",
-        "porque": "Uma entrada leve, prática e saborosa, com vegetais e queijo, ideal para abrir o apetite sem pesar. Prepara-se no forno de forma rápida.",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada clássica italiana, fácil e rápida de preparar, com ingredientes frescos e acessíveis, perfeita para abrir o apetite do casal.",
         "tags": [
-          "vegetariano",
-          "forno",
-          "entrada_rapida",
+          "italiana",
+          "vegetariana",
+          "rapida",
+          "fresca"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 baguete pequena",
+          "2 tomates grandes maduros",
+          "1 dente de alho",
+          "2 colheres (sopa) de azeite",
+          "2 ramos de manjericão",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto"
+        ],
+        "preparo": [
+          "Corte a baguete em fatias de cerca de 1,5 cm e toste-as levemente no forno ou em uma frigideira.",
+          "Esfregue o dente de alho descascado em cada fatia de pão tostada.",
+          "Pique os tomates maduros em cubos pequenos e rasgue as folhas de manjericão.",
+          "Em uma tigela, misture o tomate picado com o manjericão rasgado, azeite, sal e pimenta-do-reino a gosto.",
+          "Distribua a mistura de tomate temperada sobre as fatias de pão tostadas.",
+          "Sirva as bruschettas imediatamente para que o pão não amoleça."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
+          "title": "Bruschetta de tomate - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-14T16:50:04+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
+          "alt": "Bruschetta de Tomate"
+        },
+        "id": "bruschetta-de-tomate-008b1157"
+      },
+      {
+        "nome": "Musse de Damasco",
+        "curso": "sobremesa",
+        "tempo": "20 minutos de preparo + 1 hora de gelade",
+        "porque": "Uma sobremesa leve e refrescante, rápida de preparar (excluindo o tempo de geladeira), com um sabor diferente e de uma fonte confiável.",
+        "tags": [
+          "doce",
+          "frutas",
+          "rapida",
           "leve"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "3 ovos",
-          "1 iogurte natural (125g)",
-          "100 ml de leite",
-          "100 ml de azeite",
-          "Sal, orégãos e pimenta a gosto",
-          "250 g de farinha de trigo",
-          "1 colher (sopa) de fermento em pó",
-          "150 g de tomates cereja, cortados ao meio",
-          "120 g de queijo mozarela em cubos (ou mini bolas)"
+          "1 pote de iogurte natural sem açúcar (170 g)",
+          "5 colheres (sopa) de geleia de damasco",
+          "1 colher (sopa) de leite em pó",
+          "1 colher (sopa) de mel"
         ],
         "preparo": [
-          "Preaqueça o forno a 180°C. Unte e enfarinhe forminhas de muffin.",
-          "Em uma tigela, misture os ovos, o iogurte, o leite, o azeite, o sal, os orégãos e a pimenta.",
-          "Adicione a farinha e o fermento, misturando até incorporar.",
-          "Incorpore delicadamente os tomates cereja e a mozarela em cubos à massa.",
-          "Distribua a massa nas forminhas e leve ao forno por 25-30 minutos, ou até dourarem.",
-          "Retire do forno e sirva morno."
+          "Em uma tigela, misture bem o iogurte natural com 4 colheres (sopa) da geleia de damasco até obter uma mistura homogênea.",
+          "Adicione o leite em pó e continue misturando com um batedor de arame até dissolver completamente.",
+          "Separe dois potinhos ou taças individuais para montar a sobremesa.",
+          "Comece preenchendo a metade de cada potinho com a musse de iogurte e damasco.",
+          "Regue cada porção com um pouco de mel e complete com o restante da musse.",
+          "Finalize com o mel restante e uma colher (chá) da geleia de damasco em cada potinho. Leve à geladeira por no mínimo 1 hora antes de servir."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-09-13T14:51:02+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/musse-de-damasco",
+          "title": "Musse de damasco - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-14T16:50:05+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/17741884/pexels-photo-17741884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosos muffins caseiros de queijo com tomate e ervas, exibidos com cubos de queijo e tomates-cereja.",
-          "bank_id": "17741884",
-          "credit": "Fabiano Pimentel",
-          "query": "Muffins de Tomate e Mozarela"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9188-musse-de-damasco.webp",
+          "alt": "Musse de Damasco"
         },
-        "id": "muffins-de-tomate-e-mozarela-f3210ac4"
-      },
-      {
-        "nome": "Doce de Amendoim",
-        "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Uma sobremesa rápida e fácil de preparar, com sabor clássico de amendoim, perfeita para finalizar o jantar com um toque doce sem complicação.",
-        "tags": [
-          "doce",
-          "rapido",
-          "sem_forno",
-          "amendoim"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 xícara (chá) de açúcar",
-          "1 colher (sopa) de manteiga",
-          "1 pitada de sal",
-          "1 lata de Leite Condensado MOÇA® (395g)",
-          "2 colheres (sopa) de Chocolate em Pó NESTLÉ® CHOCOLATERIA (ou cacau em pó)",
-          "1 colher (chá) de essência de baunilha",
-          "200 g de amendoim torrado sem sal, triturado"
-        ],
-        "preparo": [
-          "Em uma panela de fundo grosso, junte o açúcar, a manteiga e o sal. Leve ao fogo médio, mexendo até formar um caramelo claro.",
-          "Ainda em fogo médio, adicione o Leite Condensado MOÇA, o Chocolate em Pó e a baunilha. Mexa constantemente por cerca de 10 minutos, até a mistura desgrudar do fundo da panela.",
-          "Desligue o fogo e incorpore o amendoim triturado.",
-          "Despeje a mistura em um prato untado com manteiga e deixe esfriar.",
-          "Corte em pedaços e sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/doce-de-amendoim",
-          "checked_at": "2026-09-13T14:51:05+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/5865648/pexels-photo-5865648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Detalhe de doce de gergelim e amendoim em uma bandeja de madeira, com decoração rústica.",
-          "bank_id": "5865648",
-          "credit": "Rachel Claire",
-          "query": "Doce de Amendoim"
-        },
-        "id": "doce-de-amendoim-dfef1cd9"
+        "id": "musse-de-damasco-fd20761c"
       }
     ]
   },
