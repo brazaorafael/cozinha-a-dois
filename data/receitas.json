@@ -1,195 +1,194 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-14T13:48:20-03:00",
+  "gerado_em": "2026-09-15T12:27:33-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "14/09/2026",
-    "dia_semana": "segunda",
+    "data": "15/09/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Salmão Assado com Legumes",
+        "nome": "Iscas de Carne com Brócolis e Shoyu",
         "curso": "principal",
         "tempo": "35 minutos",
-        "porque": "Esta receita atende à preferência por peixe uma vez por semana, é saudável, equilibrada, assada no forno (método preferencial) e rápida de preparar, com potencial para render uma pequena sobra.",
-        "tags": [
-          "peixe",
-          "assado",
-          "saudavel",
-          "rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 kg de salmão em postas",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto",
-          "Ervas finas a gosto",
-          "Suco de 2 limões",
-          "1 cebola roxa média em pétalas",
-          "1/2 pimentão amarelo em rodelas",
-          "1/2 pimentão vermelho em rodelas",
-          "100 g de ervilha-torta cortada ao meio na diagonal",
-          "2 tomates sem sementes cortados em 4",
-          "Ramos de tomilho fresco",
-          "1 fio de azeite de oliva"
-        ],
-        "preparo": [
-          "Tempere o salmão com sal, pimenta-do-reino, ervas finas e suco de limão, deixando marinar por 10 minutos.",
-          "Pré-aqueça o forno a 200 °C.",
-          "Em uma assadeira untada com azeite, acomode o salmão com a pele para baixo.",
-          "Espalhe a cebola, os pimentões, a ervilha-torta, o tomate e os ramos de tomilho sobre o salmão.",
-          "Regue com azeite, cubra com papel-alumínio e leve ao forno por 20 minutos.",
-          "Retire o papel-alumínio e asse por mais 5 minutos para dourar. Sirva em seguida."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-09-14T16:50:03+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/14537687/pexels-photo-14537687.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um delicioso filé de salmão grelhado com legumes assados servido em um prato branco.",
-          "bank_id": "14537687",
-          "credit": "Cristian Mihaila",
-          "query": "Salmão Assado com Legumes"
-        },
-        "id": "salmao-assado-com-legumes-1e8233b1"
-      },
-      {
-        "nome": "Picadinho de Filé Mignon",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Atende à preferência por carne vermelha, é um prato clássico brasileiro, rápido e fácil de preparar por refogado, com potencial de sobra para o almoço do dia seguinte.",
+        "porque": "Um prato principal de carne vermelha, rápido e equilibrado com vegetais. O molho shoyu confere um sabor oriental diferente, e o preparo é refogado, evitando frituras. Permite sobras para o almoço.",
         "tags": [
           "carne_vermelha",
           "refogado",
-          "classico",
+          "rapido",
           "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de filé mignon em cubos de 1,5 cm",
-          "2 cebolas",
-          "3 dentes de alho",
-          "70 g de bacon em cubinhos",
-          "2 colheres (sopa) de extrato de tomate",
-          "2 colheres (sopa) de molho inglês",
-          "3 colheres (sopa) de farinha de trigo",
-          "5 colheres (sopa) de azeite",
-          "4 xícaras (chá) de água",
-          "Caldo de ½ limão",
-          "¼ de xícara (chá) de salsinha",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto"
+          "400g de alcatra em tiras grossas",
+          "1 maço pequeno de brócolis",
+          "2 cenouras em palitos ou rodelas",
+          "1 cebola picada",
+          "1 dente de alho amassado",
+          "3 colheres (sopa) de molho de soja (shoyu)",
+          "1 colher (sopa) de suco de limão",
+          "2 colheres (chá) de maisena",
+          "1 colher (chá) de cravo-da-índia em pó",
+          "1 colher (chá) de gengibre ralado",
+          "1 colher (sopa) de azeite",
+          "Sal e pimenta-do-reino a gosto",
+          "Cheiro-verde picado a gosto"
         ],
         "preparo": [
-          "Corte o filé mignon em cubos de 1,5 cm, tempere com sal e pimenta-do-reino e reserve em temperatura ambiente.",
-          "Pique a cebola e o alho. Em uma panela grande com azeite, doure a carne em levas e reserve.",
-          "Na mesma panela, adicione mais azeite e doure o bacon. Em seguida, refogue a cebola até murchar e adicione o alho.",
-          "Junte o extrato de tomate e o molho inglês, mexendo por alguns minutos. Polvilhe a farinha de trigo e misture bem.",
-          "Adicione a água quente aos poucos, mexendo para dissolver a farinha e formar um molho. Volte a carne para a panela.",
-          "Cozinhe por cerca de 6 minutos, ajuste o sal e a pimenta, adicione o caldo de limão e a salsinha picada. Sirva."
+          "Em uma tigela, misture o molho de soja, suco de limão, maisena, cravo e gengibre para a marinada. Espalhe sobre a carne e leve à geladeira por 20 minutos.",
+          "Cozinhe o brócolis e a cenoura no vapor por 3 a 5 minutos, até ficarem macios e crocantes. Reserve.",
+          "Aqueça o azeite em uma frigideira em fogo alto e doure a carne. Adicione o alho e refogue por 1 minuto.",
+          "Junte os legumes pré-cozidos (brócolis e cenoura) à carne.",
+          "Acrescente o shoyu e misture bem. Ajuste o sal e pimenta-do-reino a gosto.",
+          "Finalize com cheiro-verde picado e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://receitas.globo.com/receitas/iscas-de-carne-com-brocolis-e-shoyu.ghtml",
+          "checked_at": "2026-09-15T15:28:58+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/31867670/pexels-photo-31867670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa fritada de carne e brócolis com cores vibrantes e textura apetitosa.",
+          "bank_id": "31867670",
+          "credit": "Ivan Georgiev",
+          "query": "Iscas de Carne com Brócolis e Shoyu"
+        },
+        "id": "iscas-de-carne-com-brocolis-e-shoyu-562c60fe"
+      },
+      {
+        "nome": "Almôndega Aperitivo",
+        "curso": "principal",
+        "tempo": "40 minutos",
+        "porque": "Uma opção de carne vermelha saborosa e prática, assada no forno para evitar fritura. A hortelã e o limão na massa trazem um toque fresco, e pode ser acompanhada de um molho de iogurte simples. Permite sobras.",
+        "tags": [
+          "carne_vermelha",
+          "forno",
+          "pratico",
+          "proteico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "200 g de patinho moído",
+          "2 colheres (sopa) de farinha de rosca",
+          "½ cebola",
+          "4 ramos de hortelã",
+          "2 ramos de salsinha fresca",
+          "Raspas de ½ limão",
+          "½ colher (chá) de cominho",
+          "½ colher (chá) de sal",
+          "Azeite a gosto",
+          "Gomos de limão para servir",
+          "Folhas de hortelã e salsinha a gosto para servir",
+          "Para o molho de iogurte (sugestão): 1 pote de iogurte natural, 1 dente de alho ralado, sal e pimenta-do-reino a gosto, folhas de hortelã picadas."
+        ],
+        "preparo": [
+          "Preaqueça o forno a 200 ºC e unte uma assadeira com azeite.",
+          "Pique a cebola em cubos grandes, lave e seque as folhas de salsinha e hortelã, e rale as raspas do limão.",
+          "No processador, junte a carne e a cebola e bata até triturar bem.",
+          "Acrescente a farinha de rosca, salsinha, hortelã, cominho, sal, raspas de limão e 1 colher (sopa) de azeite. Bata novamente até formar uma massa lisa.",
+          "Unte as mãos com azeite e modele a carne em bolinhas do tamanho desejado.",
+          "Transfira as almôndegas para a assadeira e leve ao forno por cerca de 20-25 minutos, ou até dourarem.",
+          "Sirva com gomos de limão, ervas frescas e, se desejar, um molho de iogurte (misture o iogurte, alho ralado, sal, pimenta e hortelã picada)."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/picadinho-de-file-mignon",
-          "title": "Picadinho de filé mignon - Panelinha",
+          "url": "https://panelinha.com.br/receita/almondega-aperitivo",
+          "title": "Almôndega aperitivo - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-14T16:50:04+00:00"
+          "checked_at": "2026-09-15T15:28:59+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4502-picadinho-receita.webp",
-          "alt": "Picadinho de Filé Mignon"
+          "url": "https://i.panelinha.com.br/i1/bk-2895-almondega-aperitivo.webp",
+          "alt": "Almôndega Aperitivo"
         },
-        "id": "picadinho-de-file-mignon-c8e4be37"
+        "id": "almondega-aperitivo-76da5fff"
       },
       {
-        "nome": "Bruschetta de Tomate",
+        "nome": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo",
         "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada clássica italiana, fácil e rápida de preparar, com ingredientes frescos e acessíveis, perfeita para abrir o apetite do casal.",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada rápida e elegante, perfeita para abrir o apetite. Utiliza a airfryer, o que a torna prática e com pouca gordura, e é de uma fonte de máxima confiança.",
         "tags": [
-          "italiana",
-          "vegetariana",
-          "rapida",
-          "fresca"
+          "queijo",
+          "airfryer",
+          "rapido",
+          "vegetariano"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 baguete pequena",
-          "2 tomates grandes maduros",
-          "1 dente de alho",
-          "2 colheres (sopa) de azeite",
-          "2 ramos de manjericão",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto"
+          "1 peça de queijo francês petit brie (125 g)",
+          "¼ de colher (chá) de azeite",
+          "1 colher (chá) de mel",
+          "¼ de colher (chá) de pimenta calabresa seca",
+          "5 ramos de tomilho-limão"
         ],
         "preparo": [
-          "Corte a baguete em fatias de cerca de 1,5 cm e toste-as levemente no forno ou em uma frigideira.",
-          "Esfregue o dente de alho descascado em cada fatia de pão tostada.",
-          "Pique os tomates maduros em cubos pequenos e rasgue as folhas de manjericão.",
-          "Em uma tigela, misture o tomate picado com o manjericão rasgado, azeite, sal e pimenta-do-reino a gosto.",
-          "Distribua a mistura de tomate temperada sobre as fatias de pão tostadas.",
-          "Sirva as bruschettas imediatamente para que o pão não amoleça."
+          "Preaqueça a Air Fryer a 160 ºC por 10 minutos.",
+          "Coloque o queijo brie em uma tigela ou pratinho que possa ir à Air Fryer.",
+          "Polvilhe a pimenta calabresa e o tomilho debulhado sobre o queijo.",
+          "Regue com o azeite e o mel.",
+          "Leve à Air Fryer e asse por 10 minutos, ou até o queijo estar macio e levemente dourado.",
+          "Sirva imediatamente."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
-          "title": "Bruschetta de tomate - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-14T16:50:04+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
+          "checked_at": "2026-09-15T15:28:59+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
-          "alt": "Bruschetta de Tomate"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
+          "bank_id": "31994015",
+          "credit": "Mimi",
+          "query": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo"
         },
-        "id": "bruschetta-de-tomate-008b1157"
+        "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6"
       },
       {
-        "nome": "Musse de Damasco",
+        "nome": "Pudim Rápido de Tapioca",
         "curso": "sobremesa",
-        "tempo": "20 minutos de preparo + 1 hora de gelade",
-        "porque": "Uma sobremesa leve e refrescante, rápida de preparar (excluindo o tempo de geladeira), com um sabor diferente e de uma fonte confiável.",
+        "tempo": "20 minutos",
+        "porque": "Uma sobremesa leve, rápida e versátil, perfeita para um jantar a dois. O sabor suave da tapioca permite diversas combinações de acompanhamentos, e é muito fácil de preparar.",
         "tags": [
           "doce",
-          "frutas",
-          "rapida",
-          "leve"
+          "facil",
+          "refrescante",
+          "sem_gluten"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "1 pote de iogurte natural sem açúcar (170 g)",
-          "5 colheres (sopa) de geleia de damasco",
-          "1 colher (sopa) de leite em pó",
-          "1 colher (sopa) de mel"
+          "1 xícara (chá) de leite",
+          "2 colheres (sopa) de tapioca granulada",
+          "1 colher (sopa) de açúcar"
         ],
         "preparo": [
-          "Em uma tigela, misture bem o iogurte natural com 4 colheres (sopa) da geleia de damasco até obter uma mistura homogênea.",
-          "Adicione o leite em pó e continue misturando com um batedor de arame até dissolver completamente.",
-          "Separe dois potinhos ou taças individuais para montar a sobremesa.",
-          "Comece preenchendo a metade de cada potinho com a musse de iogurte e damasco.",
-          "Regue cada porção com um pouco de mel e complete com o restante da musse.",
-          "Finalize com o mel restante e uma colher (chá) da geleia de damasco em cada potinho. Leve à geladeira por no mínimo 1 hora antes de servir."
+          "Em uma panela, coloque o leite com o açúcar e leve ao fogo médio.",
+          "Assim que as primeiras bolhas começarem a subir, diminua o fogo e adicione a tapioca.",
+          "Mexa por cerca de 2 minutos, até o creme engrossar e a tapioca ficar transparente.",
+          "Transfira o creme ainda quente para 2 potinhos individuais.",
+          "Leve à geladeira para firmar por cerca de 20 minutos.",
+          "Na hora de servir, cubra com doce de abóbora, goiabada, geleia ou frutas frescas a gosto."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/musse-de-damasco",
-          "title": "Musse de damasco - Panelinha",
+          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+          "title": "Pudim rápido de tapioca - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-14T16:50:05+00:00"
+          "checked_at": "2026-09-15T15:29:01+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9188-musse-de-damasco.webp",
-          "alt": "Musse de Damasco"
+          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
+          "alt": "Pudim Rápido de Tapioca"
         },
-        "id": "musse-de-damasco-fd20761c"
+        "id": "pudim-rapido-de-tapioca-484a6aab"
       }
     ]
   },

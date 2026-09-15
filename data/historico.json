@@ -3339,5 +3339,29 @@
     ],
     "data": "14/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "iscas-de-carne-com-brocolis-e-shoyu-562c60fe",
+    "titulo": "Iscas de Carne com Brócolis e Shoyu",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "15/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "almondega-aperitivo-76da5fff",
+    "titulo": "Almôndega Aperitivo",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "pratico",
+      "proteico"
+    ],
+    "data": "15/09/2026",
+    "fonte_status": "verified"
   }
 ]
