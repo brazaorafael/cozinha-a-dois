@@ -3363,5 +3363,29 @@
     ],
     "data": "15/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "carne-com-molho-de-mostarda-e-champignon-42d8b5b9",
+    "titulo": "Carne com Molho de Mostarda e Champignon",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "molho_cremoso",
+      "jantar"
+    ],
+    "data": "16/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "picadinho-de-carne-simples-31fa0d28",
+    "titulo": "Picadinho de Carne Simples",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "classico",
+      "jantar"
+    ],
+    "data": "16/09/2026",
+    "fonte_status": "unverified"
   }
 ]

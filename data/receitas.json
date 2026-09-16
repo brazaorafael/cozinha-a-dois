@@ -1,194 +1,186 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-15T12:27:33-03:00",
+  "gerado_em": "2026-09-16T12:20:22-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "15/09/2026",
-    "dia_semana": "terça",
+    "data": "16/09/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Iscas de Carne com Brócolis e Shoyu",
+        "nome": "Carne com Molho de Mostarda e Champignon",
         "curso": "principal",
-        "tempo": "35 minutos",
-        "porque": "Um prato principal de carne vermelha, rápido e equilibrado com vegetais. O molho shoyu confere um sabor oriental diferente, e o preparo é refogado, evitando frituras. Permite sobras para o almoço.",
+        "tempo": "30 minutos",
+        "porque": "Esta receita de carne vermelha é rápida, saborosa e utiliza métodos de cozimento como fritura rápida e refogado, evitando fritura profunda. O molho cremoso com mostarda e champignon adiciona um toque especial, e rende 4 porções, ideal para o jantar do casal e uma sobra para o almoço.",
         "tags": [
           "carne_vermelha",
-          "refogado",
           "rapido",
-          "equilibrado"
+          "molho_cremoso",
+          "jantar"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "400g de alcatra em tiras grossas",
-          "1 maço pequeno de brócolis",
-          "2 cenouras em palitos ou rodelas",
-          "1 cebola picada",
-          "1 dente de alho amassado",
-          "3 colheres (sopa) de molho de soja (shoyu)",
-          "1 colher (sopa) de suco de limão",
-          "2 colheres (chá) de maisena",
-          "1 colher (chá) de cravo-da-índia em pó",
-          "1 colher (chá) de gengibre ralado",
-          "1 colher (sopa) de azeite",
+          "4 colheres (sopa) de manteiga",
+          "4 bifes de contrafilé (de aproximadamente 200g cada)",
+          "Sal e pimenta-do-reino a gosto",
+          "1 cebola pequena picada",
+          "1 colher (sopa) de mostarda",
+          "1 xícara (chá) de champignon fatiado",
+          "1/2 xícara (chá) de creme de leite"
+        ],
+        "preparo": [
+          "Tempere os bifes de contrafilé com sal e pimenta-do-reino a gosto.",
+          "Em uma frigideira grande, aqueça metade da manteiga em fogo médio-alto e frite os bifes por cerca de 3 minutos de cada lado, até dourarem. Retire e reserve em uma travessa.",
+          "Na mesma frigideira, adicione o restante da manteiga e refogue a cebola picada até ficar transparente.",
+          "Acrescente a mostarda, o champignon fatiado e o creme de leite. Misture bem e deixe o molho levantar fervura.",
+          "Tempere o molho com sal e pimenta-do-reino a gosto.",
+          "Despeje o molho cremoso sobre os bifes reservados e sirva imediatamente, acompanhado de arroz branco e salada verde."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://guiadacozinha.com.br/receitas/carne-com-molho-de-mostarda-e-champignon/",
+          "title": "Carne com molho de mostarda e champignon",
+          "domain": "guiadacozinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-16T15:25:43+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/carne-com-molho-de-mostarda-e-champignon-37350.jpg",
+          "alt": "Carne com Molho de Mostarda e Champignon"
+        },
+        "id": "carne-com-molho-de-mostarda-e-champignon-42d8b5b9"
+      },
+      {
+        "nome": "Picadinho de Carne Simples",
+        "curso": "principal",
+        "tempo": "40 minutos",
+        "porque": "Um clássico da culinária brasileira, este picadinho de carne é prático, rápido e perfeito para um jantar equilibrado. A carne vermelha em cubos pequenos com um molho saboroso é ideal para ser servida com arroz e legumes, e a porção generosa permite uma sobra para o almoço.",
+        "tags": [
+          "carne_vermelha",
+          "refogado",
+          "classico",
+          "jantar"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500g de carne bovina (alcatra, patinho ou coxão mole) em cubos pequenos",
+          "1 cebola média picada",
+          "2 dentes de alho amassados",
+          "2 colheres (sopa) de óleo",
+          "1 lata de tomate pelado picado (ou 2 tomates maduros picados)",
+          "1/2 xícara (chá) de água ou caldo de carne",
           "Sal e pimenta-do-reino a gosto",
           "Cheiro-verde picado a gosto"
         ],
         "preparo": [
-          "Em uma tigela, misture o molho de soja, suco de limão, maisena, cravo e gengibre para a marinada. Espalhe sobre a carne e leve à geladeira por 20 minutos.",
-          "Cozinhe o brócolis e a cenoura no vapor por 3 a 5 minutos, até ficarem macios e crocantes. Reserve.",
-          "Aqueça o azeite em uma frigideira em fogo alto e doure a carne. Adicione o alho e refogue por 1 minuto.",
-          "Junte os legumes pré-cozidos (brócolis e cenoura) à carne.",
-          "Acrescente o shoyu e misture bem. Ajuste o sal e pimenta-do-reino a gosto.",
-          "Finalize com cheiro-verde picado e sirva imediatamente."
+          "Tempere a carne em cubos com sal e pimenta-do-reino a gosto.",
+          "Em uma panela de pressão (sem pressão) ou panela comum, aqueça o óleo em fogo alto e doure a carne por todos os lados. Retire e reserve.",
+          "Na mesma panela, refogue a cebola picada até ficar transparente e adicione o alho amassado, refogando por mais 1 minuto.",
+          "Acrescente o tomate pelado picado (ou tomates frescos) e cozinhe por cerca de 5 minutos, mexendo ocasionalmente.",
+          "Retorne a carne para a panela, adicione a água ou caldo de carne, misture e ajuste o sal e a pimenta.",
+          "Tampe a panela e cozinhe em fogo baixo por aproximadamente 20-25 minutos, ou até a carne ficar macia e o molho encorpado. Se usar panela de pressão, cozinhe por 10-15 minutos após pegar pressão.",
+          "Finalize com cheiro-verde picado e sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/iscas-de-carne-com-brocolis-e-shoyu.ghtml",
-          "checked_at": "2026-09-15T15:28:58+00:00"
+          "suggested_url": "https://www.tudogostoso.com.br/receitas/1004-picadinho-de-carne-simples.html",
+          "checked_at": "2026-09-16T15:25:43+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/31867670/pexels-photo-31867670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa fritada de carne e brócolis com cores vibrantes e textura apetitosa.",
-          "bank_id": "31867670",
-          "credit": "Ivan Georgiev",
-          "query": "Iscas de Carne com Brócolis e Shoyu"
+          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
+          "bank_id": "34837746",
+          "credit": "Caleb Oquendo",
+          "query": "Picadinho de Carne Simples"
         },
-        "id": "iscas-de-carne-com-brocolis-e-shoyu-562c60fe"
+        "id": "picadinho-de-carne-simples-31fa0d28"
       },
       {
-        "nome": "Almôndega Aperitivo",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma opção de carne vermelha saborosa e prática, assada no forno para evitar fritura. A hortelã e o limão na massa trazem um toque fresco, e pode ser acompanhada de um molho de iogurte simples. Permite sobras.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
-          "pratico",
-          "proteico"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "200 g de patinho moído",
-          "2 colheres (sopa) de farinha de rosca",
-          "½ cebola",
-          "4 ramos de hortelã",
-          "2 ramos de salsinha fresca",
-          "Raspas de ½ limão",
-          "½ colher (chá) de cominho",
-          "½ colher (chá) de sal",
-          "Azeite a gosto",
-          "Gomos de limão para servir",
-          "Folhas de hortelã e salsinha a gosto para servir",
-          "Para o molho de iogurte (sugestão): 1 pote de iogurte natural, 1 dente de alho ralado, sal e pimenta-do-reino a gosto, folhas de hortelã picadas."
-        ],
-        "preparo": [
-          "Preaqueça o forno a 200 ºC e unte uma assadeira com azeite.",
-          "Pique a cebola em cubos grandes, lave e seque as folhas de salsinha e hortelã, e rale as raspas do limão.",
-          "No processador, junte a carne e a cebola e bata até triturar bem.",
-          "Acrescente a farinha de rosca, salsinha, hortelã, cominho, sal, raspas de limão e 1 colher (sopa) de azeite. Bata novamente até formar uma massa lisa.",
-          "Unte as mãos com azeite e modele a carne em bolinhas do tamanho desejado.",
-          "Transfira as almôndegas para a assadeira e leve ao forno por cerca de 20-25 minutos, ou até dourarem.",
-          "Sirva com gomos de limão, ervas frescas e, se desejar, um molho de iogurte (misture o iogurte, alho ralado, sal, pimenta e hortelã picada)."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/almondega-aperitivo",
-          "title": "Almôndega aperitivo - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-15T15:28:59+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-2895-almondega-aperitivo.webp",
-          "alt": "Almôndega Aperitivo"
-        },
-        "id": "almondega-aperitivo-76da5fff"
-      },
-      {
-        "nome": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo",
+        "nome": "Salada Rápida de Grão-de-Bico",
         "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada rápida e elegante, perfeita para abrir o apetite. Utiliza a airfryer, o que a torna prática e com pouca gordura, e é de uma fonte de máxima confiança.",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, nutritiva e muito rápida de preparar, perfeita para complementar o jantar. O grão-de-bico oferece proteína vegetal e fibras, e a combinação com limão e manjericão garante um sabor fresco e delicioso.",
         "tags": [
-          "queijo",
-          "airfryer",
+          "salada",
+          "vegetariano",
           "rapido",
-          "vegetariano"
+          "leve"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 peça de queijo francês petit brie (125 g)",
-          "¼ de colher (chá) de azeite",
-          "1 colher (chá) de mel",
-          "¼ de colher (chá) de pimenta calabresa seca",
-          "5 ramos de tomilho-limão"
+          "1½ xícara (chá) de grão-de-bico cozido (ou 1 lata de grão-de-bico)",
+          "2 colheres (sopa) de caldo de limão",
+          "4 colheres (sopa) de azeite extra virgem",
+          "20 folhas de manjericão fresco",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça a Air Fryer a 160 ºC por 10 minutos.",
-          "Coloque o queijo brie em uma tigela ou pratinho que possa ir à Air Fryer.",
-          "Polvilhe a pimenta calabresa e o tomilho debulhado sobre o queijo.",
-          "Regue com o azeite e o mel.",
-          "Leve à Air Fryer e asse por 10 minutos, ou até o queijo estar macio e levemente dourado.",
-          "Sirva imediatamente."
+          "Se usar grão-de-bico em lata, escorra e lave bem em água corrente. Se for cozido em casa, certifique-se de que esteja frio.",
+          "Em uma tigela, coloque o grão-de-bico.",
+          "Adicione o caldo de limão, o azeite, o sal e a pimenta-do-reino.",
+          "Pique grosseiramente as folhas de manjericão e adicione à tigela.",
+          "Misture delicadamente todos os ingredientes e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
+          "title": "Salada rápida de grão-de-bico - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-16T15:25:44+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-3575-salada-grao-de-bico-mexicana.webp",
+          "alt": "Salada Rápida de Grão-de-Bico"
+        },
+        "id": "salada-rapida-de-grao-de-bico-f701bcb3"
+      },
+      {
+        "nome": "Creme de Papaia com Cassis",
+        "curso": "sobremesa",
+        "tempo": "10 minutos (+ tempo de geladeira)",
+        "porque": "Uma sobremesa clássica, refrescante e fácil de fazer, ideal para finalizar o jantar sem pesar. A combinação do mamão com sorvete de creme e o toque do licor de cassis é sofisticada e rápida de preparar.",
+        "tags": [
+          "sobremesa",
+          "fruta",
+          "rapido",
+          "refrescante"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 mamão papaia descascado e cortado",
+          "12 bolas de sorvete sabor creme",
+          "3 colheres (sopa) de licor de cassis",
+          "Para a calda de laranja (opcional):",
+          "1 laranja (suco e raspas)",
+          "1 xícara (chá) de água",
+          "1 xícara (chá) de açúcar"
+        ],
+        "preparo": [
+          "Se for fazer a calda de laranja: Em uma panela, coloque o suco e as raspas da laranja, a água e o açúcar. Leve ao fogo médio por 10 minutos, ou até virar uma calda. Reserve e deixe esfriar.",
+          "No liquidificador, bata o mamão papaia picado com o sorvete de creme até obter um creme liso e homogêneo.",
+          "Em taças individuais, coloque uma porção do creme de papaia.",
+          "Regue com o licor de cassis por cima de cada porção.",
+          "Se tiver preparado a calda de laranja, adicione uma colherada sobre o creme antes do cassis. Sirva gelado."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
-          "checked_at": "2026-09-15T15:28:59+00:00"
+          "suggested_url": "https://receitas.globo.com/receitas/creme-de-papaia-com-cassis-e-calda-de-laranja-000000000000108398.ghtml",
+          "checked_at": "2026-09-16T15:25:45+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
-          "bank_id": "31994015",
-          "credit": "Mimi",
-          "query": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo"
+          "url": "https://images.pexels.com/photos/264727/pexels-photo-264727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma panqueca de dar água na boca coberta com frutas frescas e creme em um prato estiloso, perfeita para um café da manhã doce.",
+          "bank_id": "264727",
+          "credit": "Pixabay",
+          "query": "Creme de Papaia com Cassis"
         },
-        "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6"
-      },
-      {
-        "nome": "Pudim Rápido de Tapioca",
-        "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Uma sobremesa leve, rápida e versátil, perfeita para um jantar a dois. O sabor suave da tapioca permite diversas combinações de acompanhamentos, e é muito fácil de preparar.",
-        "tags": [
-          "doce",
-          "facil",
-          "refrescante",
-          "sem_gluten"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 xícara (chá) de leite",
-          "2 colheres (sopa) de tapioca granulada",
-          "1 colher (sopa) de açúcar"
-        ],
-        "preparo": [
-          "Em uma panela, coloque o leite com o açúcar e leve ao fogo médio.",
-          "Assim que as primeiras bolhas começarem a subir, diminua o fogo e adicione a tapioca.",
-          "Mexa por cerca de 2 minutos, até o creme engrossar e a tapioca ficar transparente.",
-          "Transfira o creme ainda quente para 2 potinhos individuais.",
-          "Leve à geladeira para firmar por cerca de 20 minutos.",
-          "Na hora de servir, cubra com doce de abóbora, goiabada, geleia ou frutas frescas a gosto."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
-          "title": "Pudim rápido de tapioca - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-15T15:29:01+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
-          "alt": "Pudim Rápido de Tapioca"
-        },
-        "id": "pudim-rapido-de-tapioca-484a6aab"
+        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
       }
     ]
   },
