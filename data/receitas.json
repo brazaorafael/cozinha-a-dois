@@ -1,186 +1,185 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-16T12:20:22-03:00",
+  "gerado_em": "2026-09-19T11:11:59-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "16/09/2026",
-    "dia_semana": "quarta",
+    "data": "19/09/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Carne com Molho de Mostarda e Champignon",
+        "nome": "Bolo de Carne Recheado com Queijo",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Esta receita de carne vermelha é rápida, saborosa e utiliza métodos de cozimento como fritura rápida e refogado, evitando fritura profunda. O molho cremoso com mostarda e champignon adiciona um toque especial, e rende 4 porções, ideal para o jantar do casal e uma sobra para o almoço.",
+        "tempo": "45 minutos",
+        "porque": "Uma receita prática e saborosa de carne vermelha, assada no forno, que pode render para o almoço do dia seguinte. É fácil de equilibrar com uma salada ou legumes assados.",
         "tags": [
           "carne_vermelha",
-          "rapido",
-          "molho_cremoso",
+          "forno",
+          "facil",
           "jantar"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "4 colheres (sopa) de manteiga",
-          "4 bifes de contrafilé (de aproximadamente 200g cada)",
-          "Sal e pimenta-do-reino a gosto",
-          "1 cebola pequena picada",
-          "1 colher (sopa) de mostarda",
-          "1 xícara (chá) de champignon fatiado",
-          "1/2 xícara (chá) de creme de leite"
+          "500 g de carne moída",
+          "1 ovo",
+          "½ xícara (chá) de farinha de rosca",
+          "1 cebola pequena",
+          "2 dentes de alho",
+          "1 colher (sopa) de azeite",
+          "100 g de queijo muçarela em fatias",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Salsinha picada a gosto"
         ],
         "preparo": [
-          "Tempere os bifes de contrafilé com sal e pimenta-do-reino a gosto.",
-          "Em uma frigideira grande, aqueça metade da manteiga em fogo médio-alto e frite os bifes por cerca de 3 minutos de cada lado, até dourarem. Retire e reserve em uma travessa.",
-          "Na mesma frigideira, adicione o restante da manteiga e refogue a cebola picada até ficar transparente.",
-          "Acrescente a mostarda, o champignon fatiado e o creme de leite. Misture bem e deixe o molho levantar fervura.",
-          "Tempere o molho com sal e pimenta-do-reino a gosto.",
-          "Despeje o molho cremoso sobre os bifes reservados e sirva imediatamente, acompanhado de arroz branco e salada verde."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://guiadacozinha.com.br/receitas/carne-com-molho-de-mostarda-e-champignon/",
-          "title": "Carne com molho de mostarda e champignon",
-          "domain": "guiadacozinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-16T15:25:43+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/carne-com-molho-de-mostarda-e-champignon-37350.jpg",
-          "alt": "Carne com Molho de Mostarda e Champignon"
-        },
-        "id": "carne-com-molho-de-mostarda-e-champignon-42d8b5b9"
-      },
-      {
-        "nome": "Picadinho de Carne Simples",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Um clássico da culinária brasileira, este picadinho de carne é prático, rápido e perfeito para um jantar equilibrado. A carne vermelha em cubos pequenos com um molho saboroso é ideal para ser servida com arroz e legumes, e a porção generosa permite uma sobra para o almoço.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "classico",
-          "jantar"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500g de carne bovina (alcatra, patinho ou coxão mole) em cubos pequenos",
-          "1 cebola média picada",
-          "2 dentes de alho amassados",
-          "2 colheres (sopa) de óleo",
-          "1 lata de tomate pelado picado (ou 2 tomates maduros picados)",
-          "1/2 xícara (chá) de água ou caldo de carne",
-          "Sal e pimenta-do-reino a gosto",
-          "Cheiro-verde picado a gosto"
-        ],
-        "preparo": [
-          "Tempere a carne em cubos com sal e pimenta-do-reino a gosto.",
-          "Em uma panela de pressão (sem pressão) ou panela comum, aqueça o óleo em fogo alto e doure a carne por todos os lados. Retire e reserve.",
-          "Na mesma panela, refogue a cebola picada até ficar transparente e adicione o alho amassado, refogando por mais 1 minuto.",
-          "Acrescente o tomate pelado picado (ou tomates frescos) e cozinhe por cerca de 5 minutos, mexendo ocasionalmente.",
-          "Retorne a carne para a panela, adicione a água ou caldo de carne, misture e ajuste o sal e a pimenta.",
-          "Tampe a panela e cozinhe em fogo baixo por aproximadamente 20-25 minutos, ou até a carne ficar macia e o molho encorpado. Se usar panela de pressão, cozinhe por 10-15 minutos após pegar pressão.",
-          "Finalize com cheiro-verde picado e sirva quente."
+          "Preaqueça o forno a 180 ºC (temperatura média).",
+          "Descasque e pique fino a cebola e os dentes de alho.",
+          "Numa tigela, misture a carne moída, o ovo, a farinha de rosca, a cebola, o alho, a salsinha, sal e pimenta-do-reino com as mãos até incorporar.",
+          "Numa assadeira antiaderente, espalhe metade da carne moída, formando um retângulo.",
+          "Distribua as fatias de queijo muçarela sobre a carne, deixando uma pequena borda.",
+          "Cubra com o restante da carne moída, modelando para fechar o bolo. Leve ao forno por cerca de 30 minutos, ou até dourar. Sirva em seguida."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receitas/1004-picadinho-de-carne-simples.html",
-          "checked_at": "2026-09-16T15:25:43+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bolo-de-carne-recheado-com-queijo",
+          "checked_at": "2026-09-19T14:13:18+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
-          "bank_id": "34837746",
-          "credit": "Caleb Oquendo",
-          "query": "Picadinho de Carne Simples"
+          "url": "https://images.pexels.com/photos/11094167/pexels-photo-11094167.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de dar água na boca de uma cachapa tradicional venezuelana com recheio de queijo e carne em um prato.",
+          "bank_id": "11094167",
+          "credit": "Hiure Gomes Fernandes",
+          "query": "Bolo de Carne Recheado com Queijo"
         },
-        "id": "picadinho-de-carne-simples-31fa0d28"
+        "id": "bolo-de-carne-recheado-com-queijo-3d474547"
       },
       {
-        "nome": "Salada Rápida de Grão-de-Bico",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, nutritiva e muito rápida de preparar, perfeita para complementar o jantar. O grão-de-bico oferece proteína vegetal e fibras, e a combinação com limão e manjericão garante um sabor fresco e delicioso.",
+        "nome": "Bisteca de Porco Assada com Cebola",
+        "curso": "principal",
+        "tempo": "35 minutos",
+        "porque": "Uma receita simples e saborosa de carne de porco assada no forno com cebolas, perfeita para um jantar rápido e prático. Pode ser acompanhada de uma salada verde.",
         "tags": [
-          "salada",
-          "vegetariano",
+          "carne_de_porco",
+          "forno",
           "rapido",
-          "leve"
+          "jantar"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1½ xícara (chá) de grão-de-bico cozido (ou 1 lata de grão-de-bico)",
-          "2 colheres (sopa) de caldo de limão",
-          "4 colheres (sopa) de azeite extra virgem",
-          "20 folhas de manjericão fresco",
+          "2 bistecas de porco (com cerca de 2 cm de espessura)",
+          "1 cebola grande",
+          "2 dentes de alho",
+          "1 colher (sopa) de azeite",
+          "1 ramo de alecrim fresco",
           "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Se usar grão-de-bico em lata, escorra e lave bem em água corrente. Se for cozido em casa, certifique-se de que esteja frio.",
-          "Em uma tigela, coloque o grão-de-bico.",
-          "Adicione o caldo de limão, o azeite, o sal e a pimenta-do-reino.",
-          "Pique grosseiramente as folhas de manjericão e adicione à tigela.",
-          "Misture delicadamente todos os ingredientes e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
-          "title": "Salada rápida de grão-de-bico - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-16T15:25:44+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-3575-salada-grao-de-bico-mexicana.webp",
-          "alt": "Salada Rápida de Grão-de-Bico"
-        },
-        "id": "salada-rapida-de-grao-de-bico-f701bcb3"
-      },
-      {
-        "nome": "Creme de Papaia com Cassis",
-        "curso": "sobremesa",
-        "tempo": "10 minutos (+ tempo de geladeira)",
-        "porque": "Uma sobremesa clássica, refrescante e fácil de fazer, ideal para finalizar o jantar sem pesar. A combinação do mamão com sorvete de creme e o toque do licor de cassis é sofisticada e rápida de preparar.",
-        "tags": [
-          "sobremesa",
-          "fruta",
-          "rapido",
-          "refrescante"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 mamão papaia descascado e cortado",
-          "12 bolas de sorvete sabor creme",
-          "3 colheres (sopa) de licor de cassis",
-          "Para a calda de laranja (opcional):",
-          "1 laranja (suco e raspas)",
-          "1 xícara (chá) de água",
-          "1 xícara (chá) de açúcar"
-        ],
-        "preparo": [
-          "Se for fazer a calda de laranja: Em uma panela, coloque o suco e as raspas da laranja, a água e o açúcar. Leve ao fogo médio por 10 minutos, ou até virar uma calda. Reserve e deixe esfriar.",
-          "No liquidificador, bata o mamão papaia picado com o sorvete de creme até obter um creme liso e homogêneo.",
-          "Em taças individuais, coloque uma porção do creme de papaia.",
-          "Regue com o licor de cassis por cima de cada porção.",
-          "Se tiver preparado a calda de laranja, adicione uma colherada sobre o creme antes do cassis. Sirva gelado."
+          "Preaqueça o forno a 200 ºC (temperatura média-alta).",
+          "Descasque a cebola e corte em rodelas grossas. Descasque e amasse os dentes de alho.",
+          "Tempere as bistecas com sal, pimenta-do-reino, o alho amassado e as folhas de alecrim.",
+          "Numa assadeira, regue com azeite e distribua as rodelas de cebola no fundo.",
+          "Coloque as bistecas sobre as cebolas.",
+          "Leve ao forno por cerca de 25 minutos, virando na metade do tempo, até dourar e cozinhar por completo. Sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/creme-de-papaia-com-cassis-e-calda-de-laranja-000000000000108398.ghtml",
-          "checked_at": "2026-09-16T15:25:45+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bisteca-de-porco-assada-com-cebola",
+          "checked_at": "2026-09-19T14:13:19+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/264727/pexels-photo-264727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma panqueca de dar água na boca coberta com frutas frescas e creme em um prato estiloso, perfeita para um café da manhã doce.",
-          "bank_id": "264727",
-          "credit": "Pixabay",
-          "query": "Creme de Papaia com Cassis"
+          "url": "https://images.pexels.com/photos/7333172/pexels-photo-7333172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Fatias suculentas de carne de porco assada em uma tábua de madeira com tomates e cebolas roxas, prontas para servir.",
+          "bank_id": "7333172",
+          "credit": "Evgeniy Alekseyev",
+          "query": "Bisteca de Porco Assada com Cebola"
         },
-        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
+        "id": "bisteca-de-porco-assada-com-cebola-6bc4eac3"
+      },
+      {
+        "nome": "Espetinho de Queijo Fresco, Tomate-Cereja e Nozes",
+        "curso": "entrada",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada leve, fresca e muito rápida de preparar, sem necessidade de cozimento. Combina ingredientes acessíveis e é visualmente atraente para um jantar a dois.",
+        "tags": [
+          "entrada_fria",
+          "vegetariano",
+          "rapido",
+          "facil"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "200 g de queijo minas fresco (ou mussarela de búfala bolinha)",
+          "100 g de tomate-cereja",
+          "50 g de nozes picadas",
+          "Folhas de manjericão fresco (opcional)",
+          "Mini-espetos para churrasco"
+        ],
+        "preparo": [
+          "Corte o queijo minas fresco em cubos de aproximadamente 2 cm (se usar mussarela de búfala bolinha, use inteira).",
+          "Lave bem os tomates-cereja e as folhas de manjericão.",
+          "Em cada mini-espeto, intercale um cubo de queijo, um tomate-cereja e uma folha de manjericão.",
+          "Repita a sequência até preencher o espeto.",
+          "Passe os espetinhos nas nozes picadas, cobrindo as partes expostas do queijo.",
+          "Sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/espetinho-de-queijo-fresco-tomate-cereja-e-nozes",
+          "title": "Espetinho de Queijo Fresco, Tomate-Cereja e Nozes",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-19T14:13:21+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d057ccc6f907865aaf58359162a222cd.jpg",
+          "alt": "Espetinho de Queijo Fresco, Tomate-Cereja e Nozes"
+        },
+        "id": "espetinho-de-queijo-fresco-tomate-cereja-e-nozes-188c738a"
+      },
+      {
+        "nome": "Pera Cozida no Micro-ondas com Mel e Canela",
+        "curso": "sobremesa",
+        "tempo": "5 minutos",
+        "porque": "Uma sobremesa individual, leve, saudável e extremamente rápida de fazer no micro-ondas. Perfeita para finalizar o jantar sem complicação.",
+        "tags": [
+          "sobremesa_rapida",
+          "micro_ondas",
+          "fruta",
+          "facil"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 pera",
+          "½ colher (sopa) de mel",
+          "1 pitada de canela em pó"
+        ],
+        "preparo": [
+          "Lave bem a pera e corte-a em fatias ou cubos, retirando o miolo.",
+          "Numa tigela de vidro média, coloque as fatias de pera.",
+          "Regue com o mel e polvilhe com a canela em pó.",
+          "Leve ao micro-ondas em potência alta por 2 minutos.",
+          "Com cuidado, retire do micro-ondas e misture delicadamente para que as fatias cozinhem por igual.",
+          "Leve novamente ao micro-ondas por mais 1 a 2 minutos, ou até a pera ficar macia.",
+          "Sirva morna."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Pera-cozida-no-micro-ondas-com-mel-e-canela",
+          "checked_at": "2026-09-19T14:13:22+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/13848848/pexels-photo-13848848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Vista superior de uma pera cozida com molho de caramelo em uma mesa rústica.",
+          "bank_id": "13848848",
+          "credit": "Johanka Hubikova",
+          "query": "Pera Cozida no Micro-ondas com Mel e Canela"
+        },
+        "id": "pera-cozida-no-micro-ondas-com-mel-e-canela-b41514e9"
       }
     ]
   },

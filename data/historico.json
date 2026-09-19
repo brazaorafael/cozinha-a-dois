@@ -3387,5 +3387,41 @@
     ],
     "data": "16/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bolo-de-carne-recheado-com-queijo-3d474547",
+    "titulo": "Bolo de Carne Recheado com Queijo",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "facil",
+      "jantar"
+    ],
+    "data": "19/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bisteca-de-porco-assada-com-cebola-6bc4eac3",
+    "titulo": "Bisteca de Porco Assada com Cebola",
+    "tags": [
+      "carne_de_porco",
+      "forno",
+      "rapido",
+      "jantar"
+    ],
+    "data": "19/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "espetinho-de-queijo-fresco-tomate-cereja-e-nozes-188c738a",
+    "titulo": "Espetinho de Queijo Fresco, Tomate-Cereja e Nozes",
+    "tags": [
+      "entrada_fria",
+      "vegetariano",
+      "rapido",
+      "facil"
+    ],
+    "data": "19/09/2026",
+    "fonte_status": "verified"
   }
 ]
