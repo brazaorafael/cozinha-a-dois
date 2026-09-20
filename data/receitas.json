@@ -1,185 +1,192 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-19T11:11:59-03:00",
+  "gerado_em": "2026-09-20T11:33:00-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "19/09/2026",
-    "dia_semana": "sábado",
+    "data": "20/09/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Bolo de Carne Recheado com Queijo",
+        "nome": "Ragu de carne moída com macarrão",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Uma receita prática e saborosa de carne vermelha, assada no forno, que pode render para o almoço do dia seguinte. É fácil de equilibrar com uma salada ou legumes assados.",
+        "porque": "Proteína (carne moída), carboidrato (macarrão) e vegetais (tomate, manjericão). Preparo refogado, fácil e prático. Rende sobras para o almoço. Não está na lista de exclusão como prato principal.",
         "tags": [
           "carne_vermelha",
-          "forno",
-          "facil",
-          "jantar"
+          "refogado",
+          "massa",
+          "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de carne moída",
-          "1 ovo",
-          "½ xícara (chá) de farinha de rosca",
-          "1 cebola pequena",
-          "2 dentes de alho",
-          "1 colher (sopa) de azeite",
-          "100 g de queijo muçarela em fatias",
+          "300 g de carne moída",
+          "1 cebola média picada",
+          "2 dentes de alho picados",
+          "1 lata de tomate pelado (400g)",
+          "1/2 xícara (chá) de água",
+          "Folhas de manjericão fresco a gosto",
           "Sal e pimenta-do-reino moída na hora a gosto",
-          "Salsinha picada a gosto"
+          "200 g de macarrão tipo penne ou parafuso",
+          "Azeite a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 180 ºC (temperatura média).",
-          "Descasque e pique fino a cebola e os dentes de alho.",
-          "Numa tigela, misture a carne moída, o ovo, a farinha de rosca, a cebola, o alho, a salsinha, sal e pimenta-do-reino com as mãos até incorporar.",
-          "Numa assadeira antiaderente, espalhe metade da carne moída, formando um retângulo.",
-          "Distribua as fatias de queijo muçarela sobre a carne, deixando uma pequena borda.",
-          "Cubra com o restante da carne moída, modelando para fechar o bolo. Leve ao forno por cerca de 30 minutos, ou até dourar. Sirva em seguida."
+          "Em uma panela média, aqueça um fio de azeite e doure a carne moída, desfazendo os grumos. Retire a carne e reserve.",
+          "Na mesma panela, adicione mais um pouco de azeite, refogue a cebola picada até ficar transparente. Junte o alho e refogue por mais 1 minuto.",
+          "Acrescente o tomate pelado amassado com um garfo, a água e a carne moída reservada. Tempere com sal e pimenta.",
+          "Deixe cozinhar em fogo baixo por cerca de 20 minutos, mexendo ocasionalmente, até o molho encorpar. Adicione as folhas de manjericão nos últimos minutos.",
+          "Enquanto o molho cozinha, prepare o macarrão conforme as instruções da embalagem. Escorra e reserve.",
+          "Sirva o ragu de carne moída sobre o macarrão cozido."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bolo-de-carne-recheado-com-queijo",
-          "checked_at": "2026-09-19T14:13:18+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Ragu-de-carne-moida-com-macarrao",
+          "checked_at": "2026-09-20T14:34:11+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/11094167/pexels-photo-11094167.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de dar água na boca de uma cachapa tradicional venezuelana com recheio de queijo e carne em um prato.",
-          "bank_id": "11094167",
-          "credit": "Hiure Gomes Fernandes",
-          "query": "Bolo de Carne Recheado com Queijo"
+          "url": "https://images.pexels.com/photos/36627079/pexels-photo-36627079.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Imagem em close-up de uma travessa quente contendo macarrão e carne moída, decorada com ervas.",
+          "bank_id": "36627079",
+          "credit": "Valeria Boltneva",
+          "query": "Ragu de carne moída com macarrão"
         },
-        "id": "bolo-de-carne-recheado-com-queijo-3d474547"
+        "id": "ragu-de-carne-moida-com-macarrao-e6885acc"
       },
       {
-        "nome": "Bisteca de Porco Assada com Cebola",
+        "nome": "Filé-mignon com molho de mostarda e mel",
         "curso": "principal",
-        "tempo": "35 minutos",
-        "porque": "Uma receita simples e saborosa de carne de porco assada no forno com cebolas, perfeita para um jantar rápido e prático. Pode ser acompanhada de uma salada verde.",
+        "tempo": "30 minutos",
+        "porque": "Proteína (filé mignon), preparo grelhado rápido e prático. O molho de mostarda e mel oferece um sabor diferente e não está na lista de exclusão. Rende sobras para o almoço.",
         "tags": [
-          "carne_de_porco",
-          "forno",
+          "carne_vermelha",
+          "grelhado",
           "rapido",
-          "jantar"
+          "molho_especial"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "2 medalhões de filé-mignon (cerca de 180g cada)",
+          "1 colher (sopa) de azeite",
+          "1 colher (sopa) de manteiga",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Para o molho:",
+          "1/4 xícara (chá) de mostarda dijon",
+          "1 colher (sopa) de mel",
+          "2 colheres (sopa) de água"
+        ],
+        "preparo": [
+          "Tempere os medalhões de filé-mignon com sal e pimenta-do-reino dos dois lados.",
+          "Em uma frigideira antiaderente, aqueça o azeite e a manteiga em fogo médio-alto.",
+          "Grelhe os medalhões por 3 a 4 minutos de cada lado para um ponto malpassado, ou até o ponto desejado. Retire da frigideira e reserve.",
+          "Na mesma frigideira, adicione a mostarda, o mel e a água. Misture bem, raspando o fundo da panela para soltar os sabores.",
+          "Deixe o molho reduzir por 1 a 2 minutos, até engrossar levemente.",
+          "Sirva os medalhões de filé-mignon com o molho de mostarda e mel por cima. Acompanhe com batatas assadas ou arroz e uma salada verde."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/File-mignon-com-molho-de-mostarda-e-mel",
+          "checked_at": "2026-09-20T14:34:12+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/33673974/pexels-photo-33673974.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso filé mignon com molho de cogumelos e massa cremosa, guarnecido com microverdes.",
+          "bank_id": "33673974",
+          "credit": "pedro furtado",
+          "query": "Filé-mignon com molho de mostarda e mel"
+        },
+        "id": "file-mignon-com-molho-de-mostarda-e-mel-be9950ce"
+      },
+      {
+        "nome": "Bruschetta de tomate",
+        "curso": "entrada",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada leve, fresca e rápida de preparar. Utiliza ingredientes acessíveis e métodos de preparo simples (torrar o pão). Não está na lista de exclusão.",
+        "tags": [
+          "vegetariano",
+          "entrada_rapida",
+          "pao",
+          "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 bistecas de porco (com cerca de 2 cm de espessura)",
-          "1 cebola grande",
-          "2 dentes de alho",
-          "1 colher (sopa) de azeite",
-          "1 ramo de alecrim fresco",
+          "1 pão italiano pequeno ou baguete",
+          "2 tomates maduros",
+          "1 dente de alho",
+          "Folhas de manjericão fresco a gosto",
+          "Azeite extra virgem a gosto",
           "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 200 ºC (temperatura média-alta).",
-          "Descasque a cebola e corte em rodelas grossas. Descasque e amasse os dentes de alho.",
-          "Tempere as bistecas com sal, pimenta-do-reino, o alho amassado e as folhas de alecrim.",
-          "Numa assadeira, regue com azeite e distribua as rodelas de cebola no fundo.",
-          "Coloque as bistecas sobre as cebolas.",
-          "Leve ao forno por cerca de 25 minutos, virando na metade do tempo, até dourar e cozinhar por completo. Sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bisteca-de-porco-assada-com-cebola",
-          "checked_at": "2026-09-19T14:13:19+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/7333172/pexels-photo-7333172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Fatias suculentas de carne de porco assada em uma tábua de madeira com tomates e cebolas roxas, prontas para servir.",
-          "bank_id": "7333172",
-          "credit": "Evgeniy Alekseyev",
-          "query": "Bisteca de Porco Assada com Cebola"
-        },
-        "id": "bisteca-de-porco-assada-com-cebola-6bc4eac3"
-      },
-      {
-        "nome": "Espetinho de Queijo Fresco, Tomate-Cereja e Nozes",
-        "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada leve, fresca e muito rápida de preparar, sem necessidade de cozimento. Combina ingredientes acessíveis e é visualmente atraente para um jantar a dois.",
-        "tags": [
-          "entrada_fria",
-          "vegetariano",
-          "rapido",
-          "facil"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "200 g de queijo minas fresco (ou mussarela de búfala bolinha)",
-          "100 g de tomate-cereja",
-          "50 g de nozes picadas",
-          "Folhas de manjericão fresco (opcional)",
-          "Mini-espetos para churrasco"
-        ],
-        "preparo": [
-          "Corte o queijo minas fresco em cubos de aproximadamente 2 cm (se usar mussarela de búfala bolinha, use inteira).",
-          "Lave bem os tomates-cereja e as folhas de manjericão.",
-          "Em cada mini-espeto, intercale um cubo de queijo, um tomate-cereja e uma folha de manjericão.",
-          "Repita a sequência até preencher o espeto.",
-          "Passe os espetinhos nas nozes picadas, cobrindo as partes expostas do queijo.",
-          "Sirva imediatamente."
+          "Preaqueça o forno a 180°C. Corte o pão em fatias de cerca de 1,5 cm de espessura.",
+          "Disponha as fatias de pão em uma assadeira e leve ao forno por 5 a 7 minutos, ou até ficarem levemente douradas e crocantes.",
+          "Enquanto o pão tosta, pique os tomates em cubos pequenos e coloque em uma tigela. Adicione as folhas de manjericão picadas grosseiramente.",
+          "Tempere o tomate com azeite, sal e pimenta-do-reino a gosto. Misture bem.",
+          "Esfregue o dente de alho descascado nas fatias de pão tostadas.",
+          "Distribua a mistura de tomate sobre as fatias de pão e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/espetinho-de-queijo-fresco-tomate-cereja-e-nozes",
-          "title": "Espetinho de Queijo Fresco, Tomate-Cereja e Nozes",
-          "domain": "receitasnestle.com.br",
+          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
+          "title": "Bruschetta de tomate - Panelinha",
+          "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-19T14:13:21+00:00"
+          "checked_at": "2026-09-20T14:34:13+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d057ccc6f907865aaf58359162a222cd.jpg",
-          "alt": "Espetinho de Queijo Fresco, Tomate-Cereja e Nozes"
+          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
+          "alt": "Bruschetta de tomate"
         },
-        "id": "espetinho-de-queijo-fresco-tomate-cereja-e-nozes-188c738a"
+        "id": "bruschetta-de-tomate-008b1157"
       },
       {
-        "nome": "Pera Cozida no Micro-ondas com Mel e Canela",
+        "nome": "Bolo de caneca de fubá",
         "curso": "sobremesa",
-        "tempo": "5 minutos",
-        "porque": "Uma sobremesa individual, leve, saudável e extremamente rápida de fazer no micro-ondas. Perfeita para finalizar o jantar sem complicação.",
+        "tempo": "10 minutos",
+        "porque": "Uma sobremesa individual, rápida e prática, feita no micro-ondas. Não contém chocolate ou outros ingredientes específicos da lista de exclusão de sobremesas.",
         "tags": [
-          "sobremesa_rapida",
+          "doce",
           "micro_ondas",
-          "fruta",
-          "facil"
+          "rapido",
+          "individual"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pera",
-          "½ colher (sopa) de mel",
-          "1 pitada de canela em pó"
+          "1 ovo pequeno",
+          "3 colheres (sopa) de açúcar",
+          "3 colheres (sopa) de fubá",
+          "2 colheres (sopa) de farinha de trigo",
+          "3 colheres (sopa) de leite",
+          "2 colheres (sopa) de óleo vegetal",
+          "1/2 colher (chá) de fermento em pó",
+          "Pitada de erva-doce (opcional)"
         ],
         "preparo": [
-          "Lave bem a pera e corte-a em fatias ou cubos, retirando o miolo.",
-          "Numa tigela de vidro média, coloque as fatias de pera.",
-          "Regue com o mel e polvilhe com a canela em pó.",
-          "Leve ao micro-ondas em potência alta por 2 minutos.",
-          "Com cuidado, retire do micro-ondas e misture delicadamente para que as fatias cozinhem por igual.",
-          "Leve novamente ao micro-ondas por mais 1 a 2 minutos, ou até a pera ficar macia.",
-          "Sirva morna."
+          "Em uma caneca grande (com capacidade para 300 ml), bata o ovo com um garfo.",
+          "Adicione o açúcar, o fubá e a farinha de trigo. Misture bem até incorporar.",
+          "Acrescente o leite e o óleo, misturando novamente até obter uma massa homogênea.",
+          "Por último, adicione o fermento em pó e a erva-doce (se usar), misturando delicadamente.",
+          "Leve a caneca ao micro-ondas em potência alta por 2 a 3 minutos. O tempo pode variar conforme a potência do seu aparelho.",
+          "O bolo estará pronto quando a superfície estiver firme e o centro cozido. Sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Pera-cozida-no-micro-ondas-com-mel-e-canela",
-          "checked_at": "2026-09-19T14:13:22+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bolo-de-caneca-de-fuba",
+          "checked_at": "2026-09-20T14:34:13+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/13848848/pexels-photo-13848848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Vista superior de uma pera cozida com molho de caramelo em uma mesa rústica.",
-          "bank_id": "13848848",
-          "credit": "Johanka Hubikova",
-          "query": "Pera Cozida no Micro-ondas com Mel e Canela"
+          "url": "https://images.pexels.com/photos/34637996/pexels-photo-34637996.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de um bolo de milho caseiro com uma fatia faltando, em um prato decorativo.",
+          "bank_id": "34637996",
+          "credit": "Alejandro JV",
+          "query": "Bolo de caneca de fubá"
         },
-        "id": "pera-cozida-no-micro-ondas-com-mel-e-canela-b41514e9"
+        "id": "bolo-de-caneca-de-fuba-ee78ac38"
       }
     ]
   },

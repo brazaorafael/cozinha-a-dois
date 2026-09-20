@@ -3423,5 +3423,41 @@
     ],
     "data": "19/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "ragu-de-carne-moida-com-macarrao-e6885acc",
+    "titulo": "Ragu de carne moída com macarrão",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "massa",
+      "rapido"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-mignon-com-molho-de-mostarda-e-mel-be9950ce",
+    "titulo": "Filé-mignon com molho de mostarda e mel",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "rapido",
+      "molho_especial"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bolo-de-caneca-de-fuba-ee78ac38",
+    "titulo": "Bolo de caneca de fubá",
+    "tags": [
+      "doce",
+      "micro_ondas",
+      "rapido",
+      "individual"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
   }
 ]
