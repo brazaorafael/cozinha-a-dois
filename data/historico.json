@@ -3459,5 +3459,245 @@
     ],
     "data": "20/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "espetinho-de-carne-com-legumes-30b1c454",
+    "titulo": "Espetinho de Carne com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-xadrez-10f44e3e",
+    "titulo": "Frango Xadrez",
+    "tags": [
+      "frango",
+      "oriental",
+      "rapido",
+      "refogado"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bruschetta-de-tomate-e-manjericao-2143a4d0",
+    "titulo": "Bruschetta de Tomate e Manjericão",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "rapido",
+      "forno"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "merengue-de-morango-facil-bc33ca62",
+    "titulo": "Merengue de Morango Fácil",
+    "tags": [
+      "doce",
+      "frutas",
+      "frio",
+      "rapido"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "cozido-de-carne-seca-com-abobora-57973530",
+    "titulo": "Cozido de Carne-Seca com Abóbora",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "torta-de-frango-cremosa-de-liquidificador-24aeb21d",
+    "titulo": "Torta de Frango Cremosa de Liquidificador",
+    "tags": [
+      "frango",
+      "forno",
+      "pratico",
+      "rende_muito"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pate-de-frango-cremoso-dee3d495",
+    "titulo": "Patê de Frango Cremoso",
+    "tags": [
+      "frango",
+      "pate",
+      "rapido",
+      "frio"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "torta-rapida-de-maracuja-57d2a78c",
+    "titulo": "Torta Rápida de Maracujá",
+    "tags": [
+      "doce",
+      "frutas",
+      "frio",
+      "rapido"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "ensopado-de-carne-com-abobora-e-couve-2f69dc38",
+    "titulo": "Ensopado de Carne com Abóbora e Couve",
+    "tags": [
+      "carne_vermelha",
+      "ensopado",
+      "panela_de_pressao",
+      "equilibrado"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "sufle-de-legumes-d7619860",
+    "titulo": "Suflê de Legumes",
+    "tags": [
+      "vegetariano",
+      "forno",
+      "rapido",
+      "leve"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "pate-de-alho-d4de0288",
+    "titulo": "Patê de Alho",
+    "tags": [
+      "pate",
+      "alho",
+      "rapido",
+      "frio"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cuscuz-doce-de-tapioca-a9597d13",
+    "titulo": "Cuscuz Doce de Tapioca",
+    "tags": [
+      "doce",
+      "coco",
+      "frio",
+      "rende_muito"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "douradas-assadas-com-batatas-e-alecrim-0fa6a1bd",
+    "titulo": "Douradas Assadas com Batatas e Alecrim",
+    "tags": [
+      "peixe",
+      "forno",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-leve-com-queijo-e-tomate-cereja-a1fd5eb1",
+    "titulo": "Salada Leve com Queijo e Tomate Cereja",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "rapido",
+      "frio"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "sobremesa-gelada-de-biscoito-facil-46423a6b",
+    "titulo": "Sobremesa Gelada de Biscoito Fácil",
+    "tags": [
+      "doce",
+      "frio",
+      "biscoito",
+      "rapido"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pate-de-abacate-6015a9a0",
+    "titulo": "Patê de Abacate",
+    "tags": [
+      "vegetariano",
+      "pate",
+      "rapido",
+      "frio"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "sagu-de-abacaxi-1caa8d76",
+    "titulo": "Sagu de Abacaxi",
+    "tags": [
+      "doce",
+      "frutas",
+      "frio",
+      "sagu"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "brigadeiro-de-travessa-83df3562",
+    "titulo": "Brigadeiro de Travessa",
+    "tags": [
+      "doce",
+      "chocolate",
+      "frio",
+      "rende_muito"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pate-de-presunto-eb0bb210",
+    "titulo": "Patê de Presunto",
+    "tags": [
+      "pate",
+      "frios",
+      "rapido",
+      "frio"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cocada-mole-cremosa-a3bb39ff",
+    "titulo": "Cocada Mole (Cremosa)",
+    "tags": [
+      "doce",
+      "coco",
+      "rapido",
+      "brasileiro"
+    ],
+    "data": "20/09/2026",
+    "fonte_status": "verified"
   }
 ]

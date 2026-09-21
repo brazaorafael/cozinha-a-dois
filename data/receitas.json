@@ -1,6 +1,6 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-20T11:33:00-03:00",
+  "gerado_em": "2026-09-20T21:25:05-03:00",
   "diario": {
     "tipo": "diario",
     "data": "20/09/2026",
@@ -192,176 +192,194 @@
   },
   "semanal": {
     "tipo": "semanal",
-    "periodo": "07/09 a 13/09/2026",
+    "periodo": "21/09 a 27/09/2026",
     "dias": [
       {
         "dia": "Segunda",
         "pratos": [
           {
-            "nome": "Bife de Forno",
+            "nome": "Espetinho de Carne com Legumes",
             "curso": "principal",
             "tempo": "30 minutos",
-            "porque": "Carne vermelha, preparo no forno (saudável), rápido e prático. Ideal para um jantar saboroso e com possibilidade de sobras.",
+            "porque": "Receita prática e saborosa com carne vermelha e vegetais, ideal para grelhar ou assar. A marinada intensifica o sabor, e pode ser feita com antecedência. Rende para o jantar e sobra para o almoço.",
             "tags": [
               "carne_vermelha",
-              "forno",
+              "grelhado",
               "rapido",
-              "pratico"
+              "equilibrado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "4 bifes de carne (alcatra, patinho ou coxão mole)",
-              "1 cebola grande em rodelas",
-              "2 tomates maduros em rodelas",
-              "1 pimentão verde em rodelas",
-              "2 dentes de alho amassados",
-              "2 colheres (sopa) de vinagre",
-              "Sal e pimenta-do-reino a gosto",
-              "Azeite para untar"
+              "500 g de miolo de alcatra em cubos médios (cerca de 3 cm)",
+              "1 xícara (chá) de vinho tinto seco",
+              "1 dente de alho",
+              "½ cebola média",
+              "½ colher (chá) de sal",
+              "¼ de colher (chá) de pimenta-do-reino moída",
+              "2 folhas de louro",
+              "1 ramo de alecrim",
+              "Espetos de bambu",
+              "20 cebolas pérolas (cerca de 250 g)",
+              "½ pimentão vermelho em cubos médios",
+              "100 g de bacon em cubos",
+              "1 colher (chá) de azeite"
             ],
             "preparo": [
-              "Tempere os bifes com alho, sal, pimenta-do-reino e vinagre.",
-              "Unte um refratário com azeite e disponha os bifes.",
-              "Cubra os bifes com as rodelas de cebola, tomate e pimentão.",
-              "Regue com um fio de azeite.",
-              "Leve ao forno pré-aquecido a 180°C por cerca de 20-25 minutos, ou até a carne ficar no ponto desejado e os vegetais macios."
+              "Corte a carne em cubos médios e reserve.",
+              "No liquidificador, bata o vinho, alho, cebola, sal e pimenta-do-reino até homogeneizar.",
+              "Em uma travessa, junte a carne, a marinada, louro e alecrim. Cubra e leve à geladeira por no mínimo 2 horas.",
+              "Deixe os espetos de bambu de molho em água. Descasque as cebolas pérola, corte o pimentão em cubos e o bacon em cubos.",
+              "Retire a carne da marinada e escorra. Monte os espetinhos intercalando carne, cebola pérola, pimentão e bacon.",
+              "Aqueça uma chapa ou grelha, unte com azeite usando um pincel e grelhe os espetinhos por cerca de 4 minutos de cada lado, até dourarem.",
+              "Sirva a seguir."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://anamariabraga.globo.com/receitas/bife-de-forno/",
-              "checked_at": "2026-09-07T00:16:49+00:00"
+              "suggested_url": "https://www.panelinha.com.br/receita/Churrasco-de-ape-espetinho-misto",
+              "checked_at": "2026-09-21T00:28:32+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/31917730/pexels-photo-31917730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Delicioso churrasco tradicional argentino, bifes grelhados com pão, perfeito para uma refeição clássica.",
-              "bank_id": "31917730",
-              "credit": "Raul Corrado",
-              "query": "Bife de Forno"
+              "url": "https://images.pexels.com/photos/9510363/pexels-photo-9510363.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Deliciosos espetinhos de carne de cordeiro grelhados acompanhados de brócolis frescos, perfeitos para uma refeição saborosa.",
+              "bank_id": "9510363",
+              "credit": "Karl Solano",
+              "query": "Espetinho de Carne com Legumes"
             },
-            "id": "bife-de-forno-8cb525a7"
+            "id": "espetinho-de-carne-com-legumes-30b1c454"
           },
           {
-            "nome": "Peito de Frango Grelhado",
+            "nome": "Frango Xadrez",
             "curso": "principal",
-            "tempo": "20 minutos",
-            "porque": "Proteína magra, preparo rápido na grelha, versátil para acompanhar diversos pratos.",
+            "tempo": "30 minutos",
+            "porque": "Receita clássica e saborosa de inspiração oriental, pronta em menos de 30 minutos. Equilibrada com proteína e vegetais, ideal para um jantar prático.",
             "tags": [
               "frango",
-              "grelhado",
+              "oriental",
               "rapido",
-              "saudavel"
+              "refogado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "2 filés de peito de frango",
-              "Sal e pimenta-do-reino a gosto",
-              "1 colher (sopa) de azeite"
+              "500 g de peito de frango em cubos de 2 cm",
+              "1 colher (sopa) de óleo vegetal",
+              "1 cebola média cortada em cubos grandes",
+              "1 pimentão vermelho cortado em cubos grandes",
+              "1 pimentão verde cortado em cubos grandes",
+              "1/2 xícara (chá) de amendoim torrado sem pele",
+              "1/4 xícara (chá) de shoyu",
+              "1/4 xícara (chá) de água",
+              "1 colher (sopa) de amido de milho",
+              "Sal e pimenta-do-reino moída na hora a gosto"
             ],
             "preparo": [
-              "Tempere os filés de frango com sal, pimenta-do-reino e azeite.",
-              "Aqueça uma frigideira ou grelha em fogo médio-alto.",
-              "Grelhe os filés por cerca de 5-7 minutos de cada lado, ou até dourarem e estarem cozidos por completo."
+              "Em uma tigela, tempere o frango com sal e pimenta-do-reino.",
+              "Em uma panela wok ou frigideira grande, aqueça o óleo em fogo alto. Adicione a cebola e os pimentões, refogue por 2 minutos até ficarem macios. Retire e reserve.",
+              "Na mesma panela, adicione o frango e cozinhe por cerca de 5 minutos, mexendo ocasionalmente, até começar a dourar.",
+              "Em um copo, misture o shoyu, a água e o amido de milho até dissolver.",
+              "Retorne os legumes à panela com o frango. Despeje o molho de shoyu e cozinhe, mexendo, até engrossar.",
+              "Adicione o amendoim, misture bem e sirva imediatamente."
             ],
             "fonte": {
               "status": "verified",
-              "url": "https://panelinha.com.br/receita/peito-de-frango-grelhado",
-              "title": "Peito de frango grelhado - Panelinha",
+              "url": "https://panelinha.com.br/receita/frango-xadrez",
+              "title": "Frango xadrez - Panelinha",
               "domain": "panelinha.com.br",
               "confidence": 1.0,
-              "checked_at": "2026-09-07T00:16:50+00:00"
+              "checked_at": "2026-09-21T00:28:33+00:00"
             },
             "imagem": {
               "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-7669-peito-de-frango-grelhado.webp",
-              "alt": "Peito de Frango Grelhado"
+              "url": "https://i.panelinha.com.br/i1/bk-9566-blog-frango-xadrez-2.webp",
+              "alt": "Frango Xadrez"
             },
-            "id": "peito-de-frango-grelhado-5fe2d73a"
+            "id": "frango-xadrez-10f44e3e"
           },
           {
-            "nome": "Bruschetta de Tomate",
+            "nome": "Bruschetta de Tomate e Manjericão",
             "curso": "entrada",
             "tempo": "15 minutos",
-            "porque": "Entrada clássica, fresca, rápida e fácil de preparar.",
+            "porque": "Uma entrada clássica italiana, fácil e rápida de preparar, com ingredientes frescos e saborosos. Perfeita para abrir o apetite.",
             "tags": [
               "entrada",
-              "italiana",
-              "rapida",
-              "fresca"
+              "vegetariano",
+              "rapido",
+              "forno"
             ],
             "rende_sobra": false,
             "ingredientes": [
-              "4 fatias de pão italiano",
-              "2 tomates maduros picados",
-              "1 dente de alho amassado",
-              "Folhas de manjericão fresco",
-              "Azeite extra virgem",
-              "Sal e pimenta-do-reino a gosto"
+              "1 baguete pequena ou pão italiano, fatiado em 1 cm",
+              "4 tomates maduros, sem sementes e picados em cubos pequenos",
+              "Folhas de manjericão fresco a gosto",
+              "2 dentes de alho, descascados",
+              "3 colheres (sopa) de azeite extra virgem",
+              "Sal e pimenta-do-reino moída na hora a gosto"
             ],
             "preparo": [
-              "Torre as fatias de pão em uma frigideira ou forno até ficarem crocantes.",
-              "Em uma tigela, misture os tomates picados, alho, manjericão, azeite, sal e pimenta.",
-              "Esfregue um dente de alho cru nas fatias de pão torradas (opcional).",
-              "Distribua a mistura de tomate sobre as fatias de pão.",
-              "Sirva imediatamente."
+              "Pré-aqueça o forno a 180 °C (temperatura média).",
+              "Corte o pão em fatias de 1 cm e arrume em uma assadeira.",
+              "Leve ao forno por cerca de 5-7 minutos, ou até as fatias ficarem levemente douradas e crocantes.",
+              "Enquanto o pão está quente, esfregue um dente de alho em cada fatia.",
+              "Em uma tigela, misture os tomates picados, as folhas de manjericão, o azeite, sal e pimenta.",
+              "Distribua a mistura de tomate sobre as fatias de pão torradas e sirva imediatamente."
             ],
             "fonte": {
               "status": "verified",
               "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
               "title": "Bruschetta de tomate - Panelinha",
               "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-09-07T00:16:50+00:00"
+              "confidence": 0.72,
+              "checked_at": "2026-09-21T00:28:34+00:00"
             },
             "imagem": {
               "kind": "source",
               "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
-              "alt": "Bruschetta de Tomate"
+              "alt": "Bruschetta de Tomate e Manjericão"
             },
-            "id": "bruschetta-de-tomate-008b1157"
+            "id": "bruschetta-de-tomate-e-manjericao-2143a4d0"
           },
           {
-            "nome": "Pavê de Limão na Travessa",
+            "nome": "Merengue de Morango Fácil",
             "curso": "sobremesa",
-            "tempo": "15 minutos",
-            "porque": "Sobremesa refrescante, fácil e rápida de preparar, sem forno.",
+            "tempo": "14 minutos",
+            "porque": "Uma sobremesa clássica, refrescante e fácil de montar, combinando a doçura do creme com a acidez do morango e a crocância do suspiro.",
             "tags": [
-              "sobremesa",
-              "gelada",
-              "limao",
-              "rapida"
+              "doce",
+              "frutas",
+              "frio",
+              "rapido"
             ],
-            "rende_sobra": true,
+            "rende_sobra": false,
             "ingredientes": [
-              "1 lata de leite condensado",
-              "1 lata de creme de leite",
-              "1/2 xícara (chá) de suco de limão",
-              "1 pacote de biscoito maisena",
-              "Raspas de limão para decorar"
+              "500 g de creme de leite fresco bem gelado",
+              "1 embalagem de Leite Condensado MOÇA® (395 g)",
+              "1 pacote de mini suspiros (cerca de 100g)",
+              "2 embalagens de morangos frescos (cerca de 500g), lavados e picados"
             ],
             "preparo": [
-              "No liquidificador, bata o leite condensado, o creme de leite e o suco de limão até ficar cremoso.",
-              "Em uma travessa, faça camadas alternadas de creme de limão e biscoitos maisena.",
-              "Comece e termine com o creme.",
-              "Leve à geladeira por no mínimo 2 horas.",
-              "Decore com raspas de limão antes de servir."
+              "Em uma batedeira, bata o creme de leite fresco bem gelado até obter ponto de chantilly.",
+              "Adicione o Leite Condensado MOÇA® e bata novamente até incorporar.",
+              "Em taças individuais ou uma travessa grande, comece com uma camada de creme.",
+              "Distribua uma camada de morangos picados sobre o creme.",
+              "Quebre os mini suspiros grosseiramente e espalhe uma camada sobre os morangos.",
+              "Repita as camadas, finalizando com morangos e alguns suspiros inteiros para decorar.",
+              "Leve à geladeira por pelo menos 30 minutos antes de servir."
             ],
             "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.receitasnestle.com.br/receitas/pave-de-limao-na-travessa",
-              "checked_at": "2026-09-07T00:16:51+00:00"
+              "status": "verified",
+              "url": "https://www.receitasnestle.com.br/receitas/merengue-de-morango-com-suspiros",
+              "title": "Merengue de Morango com Suspiros",
+              "domain": "receitasnestle.com.br",
+              "confidence": 1.0,
+              "checked_at": "2026-09-21T00:28:34+00:00"
             },
             "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/28992229/pexels-photo-28992229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Bolinhos fritos crocantes servidos com limão fresco e tomate fatiado sobre uma cama de alface.",
-              "bank_id": "28992229",
-              "credit": "pedro furtado",
-              "query": "Pavê de Limão na Travessa"
+              "kind": "source",
+              "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6b47b219da8a7d446d8d16f13a191921.png",
+              "alt": "Merengue de Morango Fácil"
             },
-            "id": "pave-de-limao-na-travessa-2ce0ea7a"
+            "id": "merengue-de-morango-facil-bc33ca62"
           }
         ]
       },
@@ -369,160 +387,201 @@
         "dia": "Terça",
         "pratos": [
           {
-            "nome": "Costelinha de Porco na Air Fryer da Rita Lobo",
+            "nome": "Cozido de Carne-Seca com Abóbora",
             "curso": "principal",
-            "tempo": "30 minutos",
-            "porque": "Carne de porco, preparo na airfryer (saudável e sem fritura), rápido e prático. Ótima opção para variar o cardápio.",
+            "tempo": "40 minutos",
+            "porque": "Uma opção de carne vermelha diferente, com bom balanço de carboidratos e vegetais, e relativamente rápida (40 min) se a carne seca já estiver desfiada e cozida. Preparado refogado.",
             "tags": [
-              "carne_de_porco",
-              "airfryer",
+              "carne_vermelha",
+              "refogado",
               "rapido",
-              "pratico"
+              "equilibrado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "500g de costelinha de porco em ripas",
+              "500g de carne-seca desfiada e cozida Swift (ou similar)",
+              "1 abóbora cabotiá pequena (cerca de 500g), descascada e cortada em cubos",
+              "1 cebola média picada",
+              "2 dentes de alho picados",
+              "2 colheres (sopa) de azeite",
+              "1 colher (chá) de páprica doce",
               "Sal e pimenta-do-reino a gosto",
-              "1 colher (sopa) de azeite"
+              "Cheiro-verde picado a gosto"
             ],
             "preparo": [
-              "Tempere as costelinhas com sal, pimenta-do-reino e azeite.",
-              "Pré-aqueça a airfryer a 200°C por 5 minutos.",
-              "Disponha as costelinhas na cesta da airfryer, sem sobrepor.",
-              "Cozinhe por 15 minutos, vire as costelinhas e cozinhe por mais 15 minutos, ou até dourarem e ficarem macias."
+              "Cozinhe os cubos de abóbora em água fervente com uma pitada de sal até ficarem macios, mas firmes. Escorra e reserve.",
+              "Em uma panela grande, aqueça o azeite em fogo médio. Refogue a cebola picada até ficar transparente.",
+              "Adicione o alho picado e refogue por mais 1 minuto, até perfumar.",
+              "Acrescente a carne-seca desfiada e cozida, e a páprica. Refogue por 5 minutos, mexendo bem.",
+              "Junte os cubos de abóbora cozidos à carne-seca, misture delicadamente e ajuste o sal e a pimenta.",
+              "Finalize com cheiro-verde picado e sirva quente."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/costelinha-de-porco-na-air-fryer-da-rita-lobo-5-litros",
-              "checked_at": "2026-09-07T00:16:53+00:00"
+              "suggested_url": "",
+              "checked_at": "2026-09-21T00:28:34+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/28992209/pexels-photo-28992209.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Um delicioso prato da culinária brasileira com costeleta de porco, arroz, feijão e salada fresca.",
-              "bank_id": "28992209",
-              "credit": "pedro furtado",
-              "query": "Costelinha de Porco na Air Fryer da Rita Lobo"
+              "url": "https://images.pexels.com/photos/19503833/pexels-photo-19503833.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Aproveite um churrasco de carne com legumes coloridos assados e molho de alecrim, perfeito para um jantar gourmet.",
+              "bank_id": "19503833",
+              "credit": "Valeria Boltneva",
+              "query": "Cozido de Carne-Seca com Abóbora"
             },
-            "id": "costelinha-de-porco-na-air-fryer-da-rita-lobo-08fe8836"
+            "id": "cozido-de-carne-seca-com-abobora-57973530"
           },
           {
-            "nome": "Bife Grelhado",
+            "nome": "Torta de Frango Cremosa de Liquidificador",
             "curso": "principal",
-            "tempo": "40 minutos",
-            "porque": "Carne vermelha clássica, preparo rápido e simples na grelha, ideal para um jantar prático.",
+            "tempo": "50 minutos",
+            "porque": "Receita prática e cremosa de liquidificador, com frango como proteína e que rende muitas porções, ideal para o jantar e sobras para o almoço. Preparada no forno.",
             "tags": [
-              "carne_vermelha",
-              "grelhado",
-              "rapido",
-              "classico"
+              "frango",
+              "forno",
+              "pratico",
+              "rende_muito"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "2 bifes (contrafilé ou alcatra)",
-              "1 dente de alho amassado",
+              "**Para o Recheio:**",
+              "1 peito de frango cozido e desfiado",
+              "1 cebola média picada",
+              "1 tomate picado",
+              "1/2 xícara (chá) de milho verde",
+              "1/2 xícara (chá) de ervilha",
+              "1/2 xícara (chá) de requeijão cremoso",
               "Sal e pimenta-do-reino a gosto",
-              "1 colher (sopa) de azeite"
+              "Cheiro-verde picado a gosto",
+              "**Para a Massa:**",
+              "3 ovos",
+              "1 xícara (chá) de leite",
+              "1/2 xícara (chá) de óleo",
+              "2 xícaras (chá) de farinha de trigo",
+              "1 colher (sopa) de fermento em pó",
+              "Sal a gosto"
             ],
             "preparo": [
-              "Tempere os bifes com alho, sal e pimenta-do-reino.",
-              "Pincele os bifes com azeite.",
-              "Aqueça uma frigideira ou grelha em fogo médio-alto.",
-              "Grelhe os bifes por 3-5 minutos de cada lado, dependendo do ponto desejado."
+              "**Prepare o recheio:** Em uma panela, refogue a cebola e o tomate. Adicione o frango desfiado, milho, ervilha, sal e pimenta. Misture bem e finalize com o requeijão e cheiro-verde. Reserve.",
+              "**Prepare a massa:** No liquidificador, bata os ovos, leite, óleo e sal até homogeneizar.",
+              "Adicione a farinha de trigo aos poucos e bata até incorporar. Por último, acrescente o fermento e pulse rapidamente para misturar.",
+              "Despeje metade da massa em uma forma untada e enfarinhada (28x18 cm).",
+              "Distribua o recheio de frango sobre a massa.",
+              "Cubra com o restante da massa.",
+              "Leve ao forno médio (180°C) preaquecido por cerca de 30-40 minutos, ou até dourar e firmar."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.receitasnestle.com.br/receitas/torta-de-frango-de-liquidificador-facil-e-cremosa",
+              "checked_at": "2026-09-21T00:28:36+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/39070762/pexels-photo-39070762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Deliciosa torta de frango com massa folhada, servida num prato laranja vibrante, perfeita para apresentações culinárias.",
+              "bank_id": "39070762",
+              "credit": "Mayara Caroline  Mombelli",
+              "query": "Torta de Frango Cremosa de Liquidificador"
+            },
+            "id": "torta-de-frango-cremosa-de-liquidificador-24aeb21d"
+          },
+          {
+            "nome": "Patê de Frango Cremoso",
+            "curso": "entrada",
+            "tempo": "15 minutos",
+            "porque": "Uma entrada prática e rápida de preparar, com frango como proteína, ideal para servir com torradas ou pães.",
+            "tags": [
+              "frango",
+              "pate",
+              "rapido",
+              "frio"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 peito de frango cozido e desfiado (cerca de 200g)",
+              "1/2 xícara (chá) de maionese",
+              "2 colheres (sopa) de requeijão cremoso",
+              "1/4 xícara (chá) de azeitonas verdes picadas",
+              "2 colheres (sopa) de cheiro-verde picado",
+              "Sal e pimenta-do-reino a gosto"
+            ],
+            "preparo": [
+              "Em uma vasilha, coloque o frango desfiado e a maionese. Misture bem até formar um creme uniforme.",
+              "Adicione o requeijão cremoso e misture novamente.",
+              "Incorpore as azeitonas picadas e o cheiro-verde.",
+              "Tempere com sal e pimenta-do-reino a gosto, misturando para incorporar os sabores.",
+              "Leve à geladeira por pelo menos 15 minutos antes de servir para firmar o patê.",
+              "Sirva com torradas, pães ou biscoitos salgados."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.receitasnestle.com.br/receitas/pate-de-frango-cremoso-receita-facil-e-rapida",
+              "checked_at": "2026-09-21T00:28:37+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/36936952/pexels-photo-36936952.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Um prato delicioso de peito de frango grelhado com brócolis, cenouras e um molho cremoso à parte.",
+              "bank_id": "36936952",
+              "credit": "Joerg Mangelsen",
+              "query": "Patê de Frango Cremoso"
+            },
+            "id": "pate-de-frango-cremoso-dee3d495"
+          },
+          {
+            "nome": "Torta Rápida de Maracujá",
+            "curso": "sobremesa",
+            "tempo": "30 minutos",
+            "porque": "Uma sobremesa refrescante e fácil de fazer, com o sabor tropical do maracujá. Não requer forno para o recheio e é ideal para dias quentes.",
+            "tags": [
+              "doce",
+              "frutas",
+              "frio",
+              "rapido"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "**Para a Base:**",
+              "2/3 de pacote de biscoitos maisena triturados (cerca de 140 g)",
+              "3 e 1/2 colheres (sopa) de manteiga em temperatura ambiente",
+              "**Para o Recheio:**",
+              "2 e 1/4 de xícara (chá) de suco de maracujá concentrado (450 ml)",
+              "1 caixa de gelatina em pó sabor maracujá",
+              "1 caixinha (200 g) de creme de leite",
+              "1 lata de leite condensado",
+              "**Para a Calda (opcional):**",
+              "1 e 1/2 colher (chá) de amido de milho",
+              "1/4 de xícara (chá) de água (50 ml)",
+              "1/4 de xícara (chá) de suco de maracujá concentrado",
+              "1/4 de xícara (chá) de açúcar",
+              "2 colheres (sopa) de polpa de maracujá com sementes"
+            ],
+            "preparo": [
+              "**Prepare a base:** Misture os biscoitos triturados com a manteiga até formar uma farofa úmida. Forre o fundo de uma forma de fundo removível e leve à geladeira por 15 minutos.",
+              "**Prepare o recheio:** Dissolva a gelatina de maracujá em um pouco de água quente e reserve.",
+              "No liquidificador, bata o suco de maracujá, o creme de leite e o leite condensado.",
+              "Adicione a gelatina dissolvida e bata novamente até homogeneizar.",
+              "Despeje o recheio sobre a base de biscoito na forma e leve à geladeira por pelo menos 2 horas, ou até firmar.",
+              "**Prepare a calda (opcional):** Em uma panela, misture o amido de milho, água, suco de maracujá, açúcar e a polpa com sementes. Leve ao fogo baixo, mexendo sempre, até engrossar. Deixe esfriar.",
+              "Desenforme a torta e cubra com a calda de maracujá antes de servir."
             ],
             "fonte": {
               "status": "verified",
-              "url": "https://www.receitasnestle.com.br/receitas/bife-grelhado",
-              "title": "Bife Grelhado",
-              "domain": "receitasnestle.com.br",
+              "url": "https://receitas.globo.com/ana-maria-braga/doces/torta-rapida-de-maracuja.ghtml",
+              "title": "Torta rápida de maracujá | Receitas",
+              "domain": "receitas.globo.com",
               "confidence": 1.0,
-              "checked_at": "2026-09-07T00:16:53+00:00"
+              "checked_at": "2026-09-21T00:28:40+00:00"
             },
             "imagem": {
               "kind": "source",
-              "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/c0ab96d959e66a431873f5b72635e024.jpg",
-              "alt": "Bife Grelhado"
+              "url": "https://s2-receitas.glbimg.com/y9bz8KaMkbZ7aq2vtBDveaO-d8w=/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/z/M/mxN6DrQvmMTzgMWdrzYg/torta-rapida-de-maracuja.jpg",
+              "alt": "Torta Rápida de Maracujá"
             },
-            "id": "bife-grelhado-10be737d"
-          },
-          {
-            "nome": "Coalhada Seca",
-            "curso": "entrada",
-            "tempo": "10 minutos",
-            "porque": "Entrada leve e saudável, fácil de fazer e versátil para acompanhar pães ou vegetais.",
-            "tags": [
-              "entrada",
-              "arabe",
-              "saudavel",
-              "facil"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "500g de iogurte natural integral",
-              "Sal a gosto",
-              "Azeite extra virgem para regar",
-              "Hortelã fresca picada para decorar (opcional)"
-            ],
-            "preparo": [
-              "Forre uma peneira com um pano de prato limpo e coloque o iogurte.",
-              "Coloque a peneira sobre uma tigela e leve à geladeira por pelo menos 8 horas para dessorar.",
-              "Transfira a coalhada seca para um recipiente, tempere com sal.",
-              "Regue com azeite e decore com hortelã picada antes de servir."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://anamariabraga.globo.com/receitas/coalhada-seca/",
-              "checked_at": "2026-09-07T00:16:54+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/2569760/pexels-photo-2569760.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Close-up de dahi vada indiano tradicional guarnecido com iogurte, ervas e especiarias.",
-              "bank_id": "2569760",
-              "credit": "Kartik Kacha",
-              "query": "Coalhada Seca"
-            },
-            "id": "coalhada-seca-8fb4c9c6"
-          },
-          {
-            "nome": "Morango Recheado com Leite MOÇA®",
-            "curso": "sobremesa",
-            "tempo": "15 minutos",
-            "porque": "Sobremesa muito rápida, leve e com frutas, ideal para um toque doce sem complicação.",
-            "tags": [
-              "sobremesa",
-              "fruta",
-              "rapida",
-              "leve"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "1 caixa de morangos grandes",
-              "1/2 lata de Leite MOÇA® (leite condensado)"
-            ],
-            "preparo": [
-              "Lave bem os morangos e retire as folhas.",
-              "Com uma faca pequena, faça um corte em 'X' na base de cada morango, sem separá-los totalmente.",
-              "Com cuidado, recheie cada morango com uma pequena porção de Leite MOÇA®.",
-              "Sirva imediatamente ou leve à geladeira por alguns minutos."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.receitasnestle.com.br/receitas/morango-recheado-com-leite-moca",
-              "checked_at": "2026-09-07T00:16:56+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/32300842/pexels-photo-32300842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Croissant de dar água na boca, recheado com creme e morangos, servido em um ambiente aconchegante de café.",
-              "bank_id": "32300842",
-              "credit": "Samet Burak Dağlıoğlu",
-              "query": "Morango Recheado com Leite MOÇA®"
-            },
-            "id": "morango-recheado-com-leite-moca-3aa410cd"
+            "id": "torta-rapida-de-maracuja-57d2a78c"
           }
         ]
       },
@@ -530,177 +589,188 @@
         "dia": "Quarta",
         "pratos": [
           {
-            "nome": "Carne Moída Refogada",
+            "nome": "Ensopado de Carne com Abóbora e Couve",
             "curso": "principal",
-            "tempo": "30 minutos",
-            "porque": "Carne vermelha versátil, preparo rápido e fácil, pode ser acompanhada de diversos vegetais.",
+            "tempo": "45 minutos",
+            "porque": "Uma opção de carne vermelha em ensopado, com muitos vegetais e que pode ser feita em panela de pressão para agilizar o tempo de preparo, ideal para um jantar reconfortante e com sobras.",
             "tags": [
               "carne_vermelha",
-              "refogado",
-              "pratico",
-              "versatil"
+              "ensopado",
+              "panela_de_pressao",
+              "equilibrado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "550g de carne bovina moída",
-              "2 colheres (sopa) de azeite de oliva",
-              "1 cebola picadinha",
-              "1 dente de alho espremido",
-              "Sal e pimenta-do-reino a gosto",
-              "1/4 de xícara (chá) de molho de tomate",
-              "1/2 colher (sopa) de amido de milho",
-              "1/4 de xícara (chá) de água"
+              "500 g de carne bovina para ensopado (paleta, acém ou músculo) em cubos",
+              "1 colher (sopa) de azeite",
+              "1 cebola média picada",
+              "2 dentes de alho picados",
+              "1 tomate maduro picado",
+              "1/2 xícara (chá) de extrato de tomate",
+              "1 folha de louro",
+              "1 xícara (chá) de água (ou caldo de carne)",
+              "200 g de abóbora cabotiá descascada e em cubos grandes",
+              "1 maço pequeno de couve, fatiado fino",
+              "Sal e pimenta-do-reino moída na hora a gosto",
+              "Cheiro-verde picado a gosto para finalizar"
             ],
             "preparo": [
-              "Aqueça o azeite e refogue o alho e a cebola até dourarem.",
-              "Acrescente a carne moída e refogue até ficar bem soltinha.",
-              "Tempere com sal e pimenta-do-reino.",
-              "Adicione o molho de tomate.",
-              "Dissolva o amido de milho na água e junte à carne, mexendo até engrossar.",
-              "Cozinhe por mais 5 minutos."
+              "Tempere a carne com sal e pimenta-do-reino.",
+              "Na panela de pressão, aqueça o azeite em fogo médio. Doure a carne em etapas para não juntar água. Retire e reserve.",
+              "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
+              "Adicione o tomate picado, o extrato de tomate e a folha de louro. Refogue por alguns minutos.",
+              "Retorne a carne à panela, adicione a água (ou caldo) e misture bem.",
+              "Tampe a panela de pressão e, após pegar pressão, cozinhe por 20 minutos.",
+              "Desligue o fogo, espere a pressão sair naturalmente. Abra a panela, adicione a abóbora e a couve. Cozinhe sem pressão por mais 10-15 minutos, ou até os legumes ficarem macios. Ajuste o tempero e finalize com cheiro-verde."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://anamariabraga.globo.com/receitas/carne-moida-refogada/",
-              "checked_at": "2026-09-07T00:16:57+00:00"
+              "suggested_url": "https://www.panelinha.com.br/receita/Ensopado-de-carne-com-abobora-e-couve",
+              "checked_at": "2026-09-21T00:28:41+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
-              "bank_id": "34714654",
-              "credit": "UNDO KIM",
-              "query": "Carne Moída Refogada"
+              "url": "https://images.pexels.com/photos/34705701/pexels-photo-34705701.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Uma variedade de ingredientes frescos, incluindo carne bovina, legumes e temperos, prontos para um ensopado caseiro.",
+              "bank_id": "34705701",
+              "credit": "Laura oliveira",
+              "query": "Ensopado de Carne com Abóbora e Couve"
             },
-            "id": "carne-moida-refogada-91a79a75"
+            "id": "ensopado-de-carne-com-abobora-e-couve-2f69dc38"
           },
           {
-            "nome": "Filé de Frango Cremoso com Milho",
+            "nome": "Suflê de Legumes",
             "curso": "principal",
-            "tempo": "35 minutos",
-            "porque": "Frango, cremoso e com vegetais, preparo rápido e saboroso.",
+            "tempo": "20 minutos",
+            "porque": "Opção leve e vegetariana para o jantar, com bom aporte de vegetais e queijo como proteína. É rápido de preparar e feito no forno.",
             "tags": [
-              "frango",
-              "cremoso",
-              "refogado",
-              "pratico"
+              "vegetariano",
+              "forno",
+              "rapido",
+              "leve"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "2 filés de peito de frango",
-              "1 lata de milho verde escorrido",
-              "1/2 cebola picada",
-              "1 dente de alho picado",
-              "1/2 xícara (chá) de creme de leite",
-              "1/4 xícara (chá) de leite",
-              "Sal e pimenta-do-reino a gosto",
-              "Azeite"
+              "2 colheres (sopa) de farinha de trigo",
+              "300 ml de leite",
+              "2 colheres (sopa) de manteiga",
+              "1 pitada de sal",
+              "50 g de queijo ralado (parmesão)",
+              "4 ovos (gemas e claras separadas)",
+              "Legumes a gosto cozidos (brócolis, cenoura, couve-flor, etc.)"
             ],
             "preparo": [
-              "Tempere os filés de frango com sal e pimenta-do-reino.",
-              "Em uma frigideira, aqueça o azeite e doure os filés de frango. Retire e reserve.",
-              "Na mesma frigideira, refogue a cebola e o alho.",
-              "Adicione o milho verde e refogue por 2 minutos.",
-              "Acrescente o creme de leite e o leite, misture bem e deixe aquecer.",
-              "Retorne os filés de frango à frigideira, envolva-os no molho e cozinhe por mais 5 minutos."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.receitasnestle.com.br/receitas/file-de-frango-cremoso-com-milho",
-              "checked_at": "2026-09-07T00:16:58+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/5175602/pexels-photo-5175602.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Delicioso schnitzel de frango com molho cremoso, coberto com queijo, servido com purê de batatas e vegetais frescos.",
-              "bank_id": "5175602",
-              "credit": "Shameel mukkath",
-              "query": "Filé de Frango Cremoso com Milho"
-            },
-            "id": "file-de-frango-cremoso-com-milho-6e78b6a1"
-          },
-          {
-            "nome": "Pão de Alho na Air Fryer da Rita Lobo",
-            "curso": "entrada",
-            "tempo": "15 minutos",
-            "porque": "Entrada prática e saborosa, preparada na airfryer, sem fritura.",
-            "tags": [
-              "entrada",
-              "airfryer",
-              "rapido",
-              "pao"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "1 pão francês ou baguete",
-              "2 dentes de alho amassados",
-              "2 colheres (sopa) de manteiga em temperatura ambiente",
-              "Cheiro-verde picado a gosto"
-            ],
-            "preparo": [
-              "Corte o pão em fatias, sem ir até o final.",
-              "Misture a manteiga, o alho amassado e o cheiro-verde.",
-              "Espalhe a pasta de alho entre as fatias do pão.",
-              "Pré-aqueça a airfryer a 180°C por 3 minutos.",
-              "Coloque o pão na cesta da airfryer e cozinhe por 8-10 minutos, ou até dourar e ficar crocante."
+              "Derreta a manteiga em uma panela, sem deixar esquentar muito.",
+              "Adicione a farinha de trigo e o sal, mexendo sempre.",
+              "Acrescente o leite aos poucos, mexendo sem parar até engrossar e formar um creme. Retire do fogo e deixe esfriar.",
+              "Misture as gemas batidas e o queijo ralado ao creme frio.",
+              "Adicione os legumes cozidos e misture delicadamente.",
+              "Bata as claras em neve e incorpore-as à mistura de legumes e creme, com movimentos suaves.",
+              "Despeje em um refratário untado e enfarinhado e leve ao forno médio preaquecido (180°C) por cerca de 20 minutos, ou até dourar e crescer."
             ],
             "fonte": {
               "status": "verified",
-              "url": "https://panelinha.com.br/receita/pao-de-alho-na-air-fryer-da-rita-lobo",
-              "title": "Pão de alho na Air Fryer da Rita Lobo - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-09-07T00:16:59+00:00"
+              "url": "https://www.tudogostoso.com.br/receita/26848-soufle-de-legumes.html",
+              "title": "Souflé de legumes",
+              "domain": "tudogostoso.com.br",
+              "confidence": 0.42,
+              "checked_at": "2026-09-21T00:28:41+00:00"
             },
             "imagem": {
               "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-4746-blog-pao-de-alho-na-af-9.webp",
-              "alt": "Pão de Alho na Air Fryer da Rita Lobo"
+              "url": "https://static.itdg.com.br/images/1200-675/72355e52acb3b0f71a6ccf72e6e799f1/355596-original.jpg",
+              "alt": "Suflê de Legumes"
             },
-            "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2"
+            "id": "sufle-de-legumes-d7619860"
           },
           {
-            "nome": "Mousse de Coco com 2 Ingredientes",
-            "curso": "sobremesa",
-            "tempo": "20 minutos",
-            "porque": "Sobremesa extremamente fácil e rápida, com poucos ingredientes e sabor tropical.",
+            "nome": "Patê de Alho",
+            "curso": "entrada",
+            "tempo": "5 minutos",
+            "porque": "Um patê cremoso e saboroso, extremamente rápido de fazer, ideal para acompanhar torradas e petiscos.",
             "tags": [
-              "sobremesa",
-              "coco",
-              "rapida",
-              "facil"
+              "pate",
+              "alho",
+              "rapido",
+              "frio"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "200g de marshmallow branco (tipo rolha)",
-              "1 litro de leite de coco",
-              "Coco queimado ralado a gosto (opcional)"
+              "1 cabeça de alho assada (ou 4 dentes de alho crus)",
+              "1/2 xícara (chá) de maionese",
+              "2 colheres (sopa) de azeite",
+              "Suco de 1/2 limão",
+              "Sal e pimenta-do-reino a gosto",
+              "Cheiro-verde picado a gosto (opcional)"
             ],
             "preparo": [
-              "Em um refratário, misture o marshmallow com o leite de coco.",
-              "Leve ao micro-ondas em potência média por 2-3 minutos, mexendo na metade do tempo, até o marshmallow derreter.",
-              "Misture bem até obter um creme homogêneo.",
-              "Despeje em taças individuais ou em um refratário maior.",
-              "Leve à geladeira por no mínimo 2 horas para firmar.",
-              "Decore com coco queimado ralado antes de servir."
+              "Se usar alho assado, esprema os dentes para retirar a polpa. Se usar alho cru, pique bem fino.",
+              "Em uma tigela, misture o alho (assado ou picado), a maionese, o azeite e o suco de limão.",
+              "Tempere com sal e pimenta-do-reino a gosto.",
+              "Adicione o cheiro-verde picado, se desejar, e misture bem.",
+              "Sirva imediatamente com torradas ou pães."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://anamariabraga.globo.com/receitas/mousse-de-coco-com-2-ingredientes/",
-              "checked_at": "2026-09-07T00:17:00+00:00"
+              "suggested_url": "https://www.guiadacozinha.com.br/receitas/10202-pate-de-alho",
+              "checked_at": "2026-09-21T00:28:47+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/11287582/pexels-photo-11287582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Deliciosa mousse de chocolate em camadas em um copo de vidro transparente com raspas de chocolate, ao lado dos ingredientes.",
-              "bank_id": "11287582",
-              "credit": "Harish .P",
-              "query": "Mousse de Coco com 2 Ingredientes"
+              "url": "https://images.pexels.com/photos/8840884/pexels-photo-8840884.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up de um prato gourmet com alho assado e carnes variadas em um prato branco.",
+              "bank_id": "8840884",
+              "credit": "makafood",
+              "query": "Patê de Alho"
             },
-            "id": "mousse-de-coco-com-2-ingredientes-c7dd533a"
+            "id": "pate-de-alho-d4de0288"
+          },
+          {
+            "nome": "Cuscuz Doce de Tapioca",
+            "curso": "sobremesa",
+            "tempo": "40 minutos",
+            "porque": "Uma sobremesa tradicional brasileira, fácil de fazer e que rende bastante, ideal para compartilhar e ter sobras. É refrescante e não precisa de forno.",
+            "tags": [
+              "doce",
+              "coco",
+              "frio",
+              "rende_muito"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "500g de tapioca em grãos",
+              "1 litro de leite",
+              "1 xícara (chá) de açúcar",
+              "1 coco ralado fresco (ou 100g de coco ralado seco)",
+              "1 pitada de sal",
+              "1 xícara de leite condensado para regar (opcional)"
+            ],
+            "preparo": [
+              "Aqueça o leite até levantar fervura.",
+              "Em uma tigela grande, coloque a tapioca em grãos, o açúcar, o coco ralado e a pitada de sal.",
+              "Despeje o leite fervente sobre a mistura de tapioca e mexa bem. Deixe descansar por 5 minutos.",
+              "Nos próximos 30 minutos, vá mexendo a mistura a cada 5 minutos para garantir que a tapioca hidrate por igual.",
+              "Transfira para uma vasilha retangular e deixe esfriar em temperatura ambiente.",
+              "Leve à geladeira por pelo menos 3 horas, ou até firmar bem.",
+              "Corte em pedaços, decore com mais coco ralado e regue com leite condensado, se desejar."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "",
+              "checked_at": "2026-09-21T00:28:48+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/30979448/pexels-photo-30979448.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Deliciosa tapioca de morango e blueberry em uma tábua de corte com colmeia de mel fresca.",
+              "bank_id": "30979448",
+              "credit": "Karen Laårk Boshoff",
+              "query": "Cuscuz Doce de Tapioca"
+            },
+            "id": "cuscuz-doce-de-tapioca-a9597d13"
           }
         ]
       },
@@ -708,171 +778,193 @@
         "dia": "Quinta",
         "pratos": [
           {
-            "nome": "Carne com Creme de Cebola na Air Fryer",
+            "nome": "Douradas Assadas com Batatas e Alecrim",
             "curso": "principal",
-            "tempo": "30 minutos",
-            "porque": "Carne vermelha, preparo na airfryer, rápido e com sabor intenso do creme de cebola.",
+            "tempo": "40 minutos",
+            "porque": "Única opção de peixe da semana, prática e saudável, com carboidratos e vegetais, feita no forno. O preparo é rápido e o resultado é um prato leve e saboroso.",
             "tags": [
-              "carne_vermelha",
-              "airfryer",
-              "rapido",
-              "temperado"
+              "peixe",
+              "forno",
+              "saudavel",
+              "rapido"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "500g de carne bovina em bifes (contrafilé, alcatra)",
-              "1 pacote de creme de cebola em pó",
-              "2 colheres (sopa) de azeite"
+              "2 douradas (cerca de 300-400g cada), limpas",
+              "400 g de batata nova, em rodelas ou cubos",
+              "4 colheres (sopa) de azeite",
+              "1 colher (sopa) de folhas de alecrim picadas",
+              "1 colher (chá) de sal",
+              "2 tomates chucha, em rodelas finas",
+              "2 dentes de alho esborrachados",
+              "Pimenta-do-reino a gosto"
             ],
             "preparo": [
-              "Em uma tigela, misture o creme de cebola em pó com o azeite até formar uma pasta.",
-              "Passe essa pasta em todos os lados dos bifes.",
-              "Pré-aqueça a airfryer a 180°C por 5 minutos.",
-              "Disponha os bifes na cesta da airfryer.",
-              "Cozinhe por 10-15 minutos, virando na metade do tempo, até atingir o ponto desejado."
+              "Pré-aqueça o forno a 200 °C.",
+              "Cozinhe as batatas em água com sal por cerca de 15 minutos, até ficarem tenras. Escorra e reserve.",
+              "Limpe as douradas, seque bem e faça golpes nos lombos.",
+              "Misture o azeite com o alecrim picado e o sal. Barre as douradas por dentro e por fora com essa mistura.",
+              "Em um tabuleiro, coloque as douradas e espalhe as rodelas de tomate por cima.",
+              "Leve ao forno por 20 a 25 minutos, ou até o peixe estar cozido e dourado.",
+              "Na mesma panela das batatas, aqueça o restante da mistura de azeite e alecrim com os dentes de alho esborrachados. Adicione as batatas cozidas e salteie até dourarem. Sirva o peixe com as batatas."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
               "suggested_url": "",
-              "checked_at": "2026-09-07T00:17:01+00:00"
+              "checked_at": "2026-09-21T00:28:48+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/28902895/pexels-photo-28902895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Foto em close de carne grelhada coberta com cebolas, acompanhada de batatas fritas e alface.",
-              "bank_id": "28902895",
-              "credit": "pedro furtado",
-              "query": "Carne com Creme de Cebola na Air Fryer"
+              "url": "https://images.pexels.com/photos/36900942/pexels-photo-36900942.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Fatias de batatas assadas douradas temperadas com ervas e pimenta, cozidas à perfeição crocante.",
+              "bank_id": "36900942",
+              "credit": "Damir K",
+              "query": "Douradas Assadas com Batatas e Alecrim"
             },
-            "id": "carne-com-creme-de-cebola-na-air-fryer-308a7dc0"
+            "id": "douradas-assadas-com-batatas-e-alecrim-0fa6a1bd"
           },
           {
-            "nome": "Omelete Saudável de Legumes para o Jantar",
+            "nome": "Espetinho de Carne com Legumes",
             "curso": "principal",
             "tempo": "30 minutos",
-            "porque": "Opção leve e vegetariana, rica em proteínas e vegetais, pronta em poucos minutos.",
+            "porque": "Receita prática e saborosa com carne vermelha e vegetais, ideal para grelhar ou assar. A marinada intensifica o sabor, e pode ser feita com antecedência. Rende para o jantar e sobra para o almoço.",
             "tags": [
-              "vegetariano",
-              "ovos",
+              "carne_vermelha",
+              "grelhado",
               "rapido",
-              "leve"
+              "equilibrado"
             ],
-            "rende_sobra": false,
+            "rende_sobra": true,
             "ingredientes": [
-              "4 ovos",
-              "1/2 cebola picada",
-              "1/2 pimentão picado",
-              "1/2 cenoura ralada",
-              "1 tomate picado",
-              "2 colheres (sopa) de ervilha",
-              "2 colheres (sopa) de milho",
-              "50g de queijo mussarela ralado",
-              "Sal e pimenta-do-reino a gosto",
-              "Azeite para untar"
+              "500 g de miolo de alcatra em cubos médios (cerca de 3 cm)",
+              "1 xícara (chá) de vinho tinto seco",
+              "1 dente de alho",
+              "½ cebola média",
+              "½ colher (chá) de sal",
+              "¼ de colher (chá) de pimenta-do-reino moída",
+              "2 folhas de louro",
+              "1 ramo de alecrim",
+              "Espetos de bambu",
+              "20 cebolas pérolas (cerca de 250 g)",
+              "½ pimentão vermelho em cubos médios",
+              "100 g de bacon em cubos",
+              "1 colher (chá) de azeite"
             ],
             "preparo": [
-              "Em uma tigela, bata os ovos com sal e pimenta.",
-              "Em uma frigideira antiaderente, refogue a cebola, pimentão, cenoura e tomate.",
-              "Adicione a ervilha e o milho, refogue por mais 2 minutos.",
-              "Despeje os ovos batidos sobre os legumes na frigideira.",
-              "Polvilhe o queijo mussarela por cima.",
-              "Cozinhe em fogo baixo até firmar e o queijo derreter."
+              "Corte a carne em cubos médios e reserve.",
+              "No liquidificador, bata o vinho, alho, cebola, sal e pimenta-do-reino até homogeneizar.",
+              "Em uma travessa, junte a carne, a marinada, louro e alecrim. Cubra e leve à geladeira por no mínimo 2 horas.",
+              "Deixe os espetos de bambu de molho em água. Descasque as cebolas pérola, corte o pimentão em cubos e o bacon em cubos.",
+              "Retire a carne da marinada e escorra. Monte os espetinhos intercalando carne, cebola pérola, pimentão e bacon.",
+              "Aqueça uma chapa ou grelha, unte com azeite usando um pincel e grelhe os espetinhos por cerca de 4 minutos de cada lado, até dourarem.",
+              "Sirva a seguir."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://www.guiadacozinha.com.br/receitas/omelete-saudavel-de-legumes-para-o-jantar/",
-              "checked_at": "2026-09-07T00:17:06+00:00"
+              "suggested_url": "https://www.panelinha.com.br/receita/Churrasco-de-ape-espetinho-misto",
+              "checked_at": "2026-09-21T00:28:49+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/26161037/pexels-photo-26161037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Deliciosa omelete acompanhada por uma salada fresca em um prato branco, perfeita para uma refeição saudável.",
-              "bank_id": "26161037",
-              "credit": "Serdar Göksu",
-              "query": "Omelete Saudável de Legumes para o Jantar"
+              "url": "https://images.pexels.com/photos/38461301/pexels-photo-38461301.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Um close de espetos grelhados variados com carne e legumes servidos em uma tigela.",
+              "bank_id": "38461301",
+              "credit": "Huỳnh Như Mavi",
+              "query": "Espetinho de Carne com Legumes"
             },
-            "id": "omelete-saudavel-de-legumes-para-o-jantar-9e876b73"
+            "id": "espetinho-de-carne-com-legumes-30b1c454"
           },
           {
-            "nome": "Ricota Grelhada com Azeite e Ervas",
+            "nome": "Salada Leve com Queijo e Tomate Cereja",
             "curso": "entrada",
             "tempo": "15 minutos",
-            "porque": "Entrada leve, saudável e rápida, com preparo na grelha.",
+            "porque": "Uma salada fresca, colorida e nutritiva, rápida de preparar, ideal para uma entrada leve e equilibrada.",
             "tags": [
-              "entrada",
-              "saudavel",
-              "grelhado",
-              "queijo"
+              "salada",
+              "vegetariano",
+              "rapido",
+              "frio"
             ],
             "rende_sobra": false,
             "ingredientes": [
-              "200g de ricota fresca em fatias grossas",
-              "2 colheres (sopa) de azeite extra virgem",
-              "Ervas frescas picadas (alecrim, tomilho) a gosto",
-              "Sal e pimenta-do-reino a gosto"
+              "Folhas de meio pé de alface-crespa, rasgadas",
+              "300 g de tomates-cereja, cortados ao meio",
+              "200 g de queijo muçarela em cubos (ou queijo minas frescal)",
+              "1 cenoura pequena, ralada grosso",
+              "**Para o Molho:**",
+              "3 colheres (sopa) de água",
+              "1 colher (sopa) de linhaça triturada",
+              "1 sachê de Tempero SAZÓN® Toque de Limão (ou sal, pimenta e suco de limão)",
+              "1 pitada de sal"
             ],
             "preparo": [
-              "Corte a ricota em fatias de aproximadamente 1,5 cm de espessura.",
-              "Tempere as fatias de ricota com sal, pimenta-do-reino e as ervas picadas.",
-              "Aqueça uma frigideira antiaderente ou grelha com o azeite em fogo médio.",
-              "Grelhe as fatias de ricota por cerca de 4-5 minutos de cada lado, até dourarem.",
-              "Sirva imediatamente."
+              "Em uma saladeira grande, combine as folhas de alface, os tomates-cereja, o queijo em cubos e a cenoura ralada.",
+              "**Prepare o molho:** Em um recipiente pequeno, misture a água, a linhaça triturada, o tempero SAZÓN® (ou sal, pimenta e suco de limão) e o sal. Bata bem até emulsionar.",
+              "Regue a salada com o molho no momento de servir.",
+              "Misture delicadamente e sirva imediatamente."
             ],
             "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/ricota-grelhada",
-              "title": "Ricota grelhada - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 0.58,
-              "checked_at": "2026-09-07T00:17:07+00:00"
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "",
+              "checked_at": "2026-09-21T00:28:50+00:00"
             },
             "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
-              "alt": "Ricota Grelhada com Azeite e Ervas"
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/6163334/pexels-photo-6163334.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Salada refrescante de legumes com tomates-cereja, pimentões e queijo feta em uma tigela de vidro transparente.",
+              "bank_id": "6163334",
+              "credit": "Maksim Goncharenok",
+              "query": "Salada Leve com Queijo e Tomate Cereja"
             },
-            "id": "ricota-grelhada-com-azeite-e-ervas-6207cc55"
+            "id": "salada-leve-com-queijo-e-tomate-cereja-a1fd5eb1"
           },
           {
-            "nome": "Creme de Limão com Salada de Frutas",
+            "nome": "Sobremesa Gelada de Biscoito Fácil",
             "curso": "sobremesa",
-            "tempo": "10 minutos",
-            "porque": "Sobremesa leve, refrescante e equilibrada com a acidez do limão e a doçura das frutas.",
+            "tempo": "20 minutos",
+            "porque": "Uma sobremesa gelada e cremosa, muito fácil de fazer e com ingredientes acessíveis. Perfeita para refrescar e agradar a todos.",
             "tags": [
-              "sobremesa",
-              "fruta",
-              "leve",
-              "refrescante"
+              "doce",
+              "frio",
+              "biscoito",
+              "rapido"
             ],
-            "rende_sobra": false,
+            "rende_sobra": true,
             "ingredientes": [
-              "1 lata de leite condensado",
-              "1 lata de creme de leite",
-              "1/2 xícara (chá) de suco de limão",
-              "1 xícara (chá) de frutas picadas (manga, morango, kiwi, uva)"
+              "1 lata de leite condensado gelado (395 gramas)",
+              "24 biscoitos de leite (tipo maisena)",
+              "Leite para molhar os biscoitos",
+              "1 e 1/2 xícara (chá) de chocolate meio amargo picado",
+              "1 caixinha de creme de leite (200 gramas)",
+              "Paçoquinha esfarelada a gosto (opcional, para decorar)"
             ],
             "preparo": [
-              "No liquidificador, bata o leite condensado, o creme de leite e o suco de limão até obter um creme homogêneo.",
-              "Distribua o creme em taças individuais.",
-              "Cubra com a salada de frutas picadas.",
-              "Sirva gelado."
+              "Em um liquidificador, bata o leite condensado gelado por 4 minutos, até ficar bem cremoso.",
+              "Forre uma forma com plástico filme. Molhe os biscoitos no leite e cubra o fundo da forma.",
+              "Espalhe uma camada uniforme do creme de leite condensado batido sobre os biscoitos.",
+              "Repita as camadas de biscoito molhado e creme, finalizando com uma camada de creme. Leve ao congelador.",
+              "Em banho-maria, derreta o chocolate meio amargo. Adicione o creme de leite e misture bem até formar uma ganache.",
+              "Despeje a ganache sobre a última camada de creme e volte ao congelador por mais 45 minutos.",
+              "Retire do congelador, finalize com paçoquinha esfarelada (se usar) e sirva."
             ],
             "fonte": {
-              "status": "verified",
-              "url": "https://www.receitasnestle.com.br/receitas/creme-de-limao-com-salada-de-frutas",
-              "title": "Creme de Limão com Salada de Frutas",
-              "domain": "receitasnestle.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-09-07T00:17:09+00:00"
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "",
+              "checked_at": "2026-09-21T00:28:50+00:00"
             },
             "imagem": {
-              "kind": "source",
-              "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/0bc06b57f6a13474aae43c53f3b353b8.jpg",
-              "alt": "Creme de Limão com Salada de Frutas"
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/30350316/pexels-photo-30350316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Bolo de biscoito de chocolate rico em um prato floral, perfeito para os amantes de sobremesas.",
+              "bank_id": "30350316",
+              "credit": "Anthony Rahayel",
+              "query": "Sobremesa Gelada de Biscoito Fácil"
             },
-            "id": "creme-de-limao-com-salada-de-frutas-f766bfd3"
+            "id": "sobremesa-gelada-de-biscoito-facil-46423a6b"
           }
         ]
       },
@@ -880,183 +972,183 @@
         "dia": "Sexta",
         "pratos": [
           {
-            "nome": "Moqueca Rápida de Peixe",
+            "nome": "Frango Xadrez",
             "curso": "principal",
             "tempo": "30 minutos",
-            "porque": "Opção de peixe (uma vez na semana), preparo rápido e ensopado, equilibrado com vegetais.",
+            "porque": "Receita clássica e saborosa de inspiração oriental, pronta em menos de 30 minutos. Equilibrada com proteína e vegetais, ideal para um jantar prático.",
             "tags": [
-              "peixe",
-              "ensopado",
+              "frango",
+              "oriental",
               "rapido",
-              "saudavel"
+              "refogado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "500g de peixe branco em postas (cação, tilápia)",
-              "1 cebola picada",
-              "2 dentes de alho amassados",
-              "1 pimentão verde em tiras",
-              "1 pimentão vermelho em tiras",
-              "2 tomates maduros picados",
-              "1 xícara (chá) de leite de coco",
-              "1 colher (sopa) de azeite de dendê (opcional)",
-              "Coentro picado a gosto",
-              "Sal e pimenta-do-reino a gosto"
+              "500 g de peito de frango em cubos de 2 cm",
+              "1 colher (sopa) de óleo vegetal",
+              "1 cebola média cortada em cubos grandes",
+              "1 pimentão vermelho cortado em cubos grandes",
+              "1 pimentão verde cortado em cubos grandes",
+              "1/2 xícara (chá) de amendoim torrado sem pele",
+              "1/4 xícara (chá) de shoyu",
+              "1/4 xícara (chá) de água",
+              "1 colher (sopa) de amido de milho",
+              "Sal e pimenta-do-reino moída na hora a gosto"
             ],
             "preparo": [
-              "Tempere o peixe com sal e pimenta-do-reino.",
-              "Em uma panela, refogue a cebola e o alho no azeite.",
-              "Adicione os pimentões e os tomates, refogue por alguns minutos.",
-              "Acrescente o leite de coco e o azeite de dendê (se usar), deixe ferver.",
-              "Adicione o peixe e cozinhe por cerca de 10-15 minutos, ou até o peixe ficar cozido.",
-              "Finalize com coentro picado."
+              "Em uma tigela, tempere o frango com sal e pimenta-do-reino.",
+              "Em uma panela wok ou frigideira grande, aqueça o óleo em fogo alto. Adicione a cebola e os pimentões, refogue por 2 minutos até ficarem macios. Retire e reserve.",
+              "Na mesma panela, adicione o frango e cozinhe por cerca de 5 minutos, mexendo ocasionalmente, até começar a dourar.",
+              "Em um copo, misture o shoyu, a água e o amido de milho até dissolver.",
+              "Retorne os legumes à panela com o frango. Despeje o molho de shoyu e cozinhe, mexendo, até engrossar.",
+              "Adicione o amendoim, misture bem e sirva imediatamente."
             ],
             "fonte": {
               "status": "verified",
-              "url": "https://panelinha.com.br/receita/moqueca-rapida-de-peixe",
-              "title": "Moqueca rápida de peixe - Panelinha",
+              "url": "https://panelinha.com.br/receita/frango-xadrez",
+              "title": "Frango xadrez - Panelinha",
               "domain": "panelinha.com.br",
               "confidence": 1.0,
-              "checked_at": "2026-09-07T00:17:10+00:00"
+              "checked_at": "2026-09-21T00:28:51+00:00"
             },
             "imagem": {
               "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-8719-formato-blog-0001s-0003-curves-1.webp",
-              "alt": "Moqueca Rápida de Peixe"
+              "url": "https://i.panelinha.com.br/i1/bk-9566-blog-frango-xadrez-2.webp",
+              "alt": "Frango Xadrez"
             },
-            "id": "moqueca-rapida-de-peixe-60836ba8"
+            "id": "frango-xadrez-10f44e3e"
           },
           {
-            "nome": "Bife Ancho com Batatas",
+            "nome": "Cozido de Carne-Seca com Abóbora",
             "curso": "principal",
             "tempo": "40 minutos",
-            "porque": "Carne vermelha saborosa, preparo completo com acompanhamento, tempo adequado.",
+            "porque": "Uma opção de carne vermelha diferente, com bom balanço de carboidratos e vegetais, e relativamente rápida (40 min) se a carne seca já estiver desfiada e cozida. Preparado refogado.",
             "tags": [
               "carne_vermelha",
-              "grelhado",
-              "batata",
-              "completo"
+              "refogado",
+              "rapido",
+              "equilibrado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "2 bifes ancho (cerca de 250g cada)",
-              "4 batatas médias cortadas em cubos",
+              "500g de carne-seca desfiada e cozida Swift (ou similar)",
+              "1 abóbora cabotiá pequena (cerca de 500g), descascada e cortada em cubos",
+              "1 cebola média picada",
               "2 dentes de alho picados",
-              "Alecrim fresco a gosto",
-              "Azeite",
-              "Sal e pimenta-do-reino a gosto"
+              "2 colheres (sopa) de azeite",
+              "1 colher (chá) de páprica doce",
+              "Sal e pimenta-do-reino a gosto",
+              "Cheiro-verde picado a gosto"
             ],
             "preparo": [
-              "Cozinhe as batatas em água fervente com sal até ficarem macias, mas firmes. Escorra.",
-              "Tempere os bifes ancho com sal e pimenta-do-reino.",
-              "Em uma frigideira grande, aqueça um fio de azeite e grelhe os bifes por 4-6 minutos de cada lado, dependendo do ponto. Reserve.",
-              "Na mesma frigideira, adicione mais azeite, o alho picado e o alecrim.",
-              "Acrescente as batatas cozidas e salteie até dourarem.",
-              "Sirva os bifes fatiados com as batatas salteadas."
+              "Cozinhe os cubos de abóbora em água fervente com uma pitada de sal até ficarem macios, mas firmes. Escorra e reserve.",
+              "Em uma panela grande, aqueça o azeite em fogo médio. Refogue a cebola picada até ficar transparente.",
+              "Adicione o alho picado e refogue por mais 1 minuto, até perfumar.",
+              "Acrescente a carne-seca desfiada e cozida, e a páprica. Refogue por 5 minutos, mexendo bem.",
+              "Junte os cubos de abóbora cozidos à carne-seca, misture delicadamente e ajuste o sal e a pimenta.",
+              "Finalize com cheiro-verde picado e sirva quente."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "",
+              "checked_at": "2026-09-21T00:28:51+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
+              "bank_id": "6545671",
+              "credit": "Thiago Rebouças",
+              "query": "Cozido de Carne-Seca com Abóbora"
+            },
+            "id": "cozido-de-carne-seca-com-abobora-57973530"
+          },
+          {
+            "nome": "Patê de Abacate",
+            "curso": "entrada",
+            "tempo": "10 minutos",
+            "porque": "Um patê cremoso e saudável, rápido de preparar, ideal para acompanhar pães e torradas. Uma opção vegetariana e refrescante.",
+            "tags": [
+              "vegetariano",
+              "pate",
+              "rapido",
+              "frio"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "2 abacates maduros (polpa)",
+              "2 limas (sumo)",
+              "3 colheres (sopa) de coentros (folhas)",
+              "100 g de iogurte grego natural",
+              "1 colher (chá) de sal",
+              "1 colher (chá) de tabasco (opcional)"
+            ],
+            "preparo": [
+              "Retire a polpa dos abacates e coloque em um robot de cozinha ou triturador.",
+              "Adicione o sumo das limas, as folhas de coentros, o iogurte grego, o sal e o tabasco (se usar).",
+              "Triture todos os ingredientes até obter uma pasta homogénea e cremosa.",
+              "Prove e ajuste o tempero, se necessário.",
+              "Sirva imediatamente com pão, torradas ou como acompanhamento de saladas."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "",
+              "checked_at": "2026-09-21T00:28:52+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/3957527/pexels-photo-3957527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Deliciosa torrada de abacate com sementes de chia e tomates frescos em um prato cinza.",
+              "bank_id": "3957527",
+              "credit": "energepic.com",
+              "query": "Patê de Abacate"
+            },
+            "id": "pate-de-abacate-6015a9a0"
+          },
+          {
+            "nome": "Sagu de Abacaxi",
+            "curso": "sobremesa",
+            "tempo": "30 minutos",
+            "porque": "Uma sobremesa refrescante e com sabor tropical, fácil de preparar e ideal para ser servida gelada.",
+            "tags": [
+              "doce",
+              "frutas",
+              "frio",
+              "sagu"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1 xícara (chá) de sagu",
+              "1 litro de água (para cozinhar o sagu)",
+              "2 xícara (chá) de abacaxi picado",
+              "2 xícaras (chá) de água (para bater o abacaxi)",
+              "50 g de açúcar",
+              "1 xícara (chá) de abacaxi em cubinhos (para a calda)"
+            ],
+            "preparo": [
+              "Cozinhe o sagu em 1 litro de água por cerca de 20 minutos, ou até as bolinhas ficarem transparentes. Escorra, lave em água corrente e deixe escorrer novamente.",
+              "No liquidificador, bata 2 xícaras de abacaxi picado com 2 xícaras de água até triturar bem (cerca de 2 minutos).",
+              "Coe o suco de abacaxi batido e transfira o líquido para uma panela.",
+              "Junte o açúcar, o abacaxi em cubinhos e o sagu cozido à panela.",
+              "Leve ao fogo médio, mexendo sempre, por cerca de 10 minutos ou até engrossar.",
+              "Sirva quente ou frio. Para servir gelado, leve à geladeira por algumas horas."
             ],
             "fonte": {
               "status": "verified",
-              "url": "https://www.receitasnestle.com.br/receitas/bife-ancho-com-batatas",
-              "title": "Bife Ancho com Batatas",
-              "domain": "receitasnestle.com.br",
+              "url": "https://receitas.globo.com/ana-maria-braga/doces/sagu-de-abacaxi.ghtml",
+              "title": "Sagu de abacaxi | Receitas",
+              "domain": "receitas.globo.com",
               "confidence": 1.0,
-              "checked_at": "2026-09-07T00:17:12+00:00"
+              "checked_at": "2026-09-21T00:28:54+00:00"
             },
             "imagem": {
               "kind": "source",
-              "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/5df453a09ab1423554dc32adde0cec53.png",
-              "alt": "Bife Ancho com Batatas"
+              "url": "https://receitas.globo.com/ana-maria-braga/doces/None",
+              "alt": "Sagu de Abacaxi"
             },
-            "id": "bife-ancho-com-batatas-e316d807"
-          },
-          {
-            "nome": "Antepasto Especial de Berinjela no Micro-ondas",
-            "curso": "entrada",
-            "tempo": "20 minutos",
-            "porque": "Entrada prática, saudável e com preparo rápido no micro-ondas.",
-            "tags": [
-              "entrada",
-              "vegetariano",
-              "micro_ondas",
-              "pratico"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "2 berinjelas médias picadas em cubos",
-              "1 cebola picada",
-              "1 pimentão vermelho picado",
-              "1/2 xícara (chá) de azeite",
-              "2 colheres (sopa) de vinagre",
-              "Sal, pimenta-do-reino e orégano a gosto"
-            ],
-            "preparo": [
-              "Em um refratário grande, misture a berinjela, cebola e pimentão.",
-              "Regue com azeite e vinagre, tempere com sal, pimenta e orégano.",
-              "Cubra o refratário com plástico filme e faça alguns furos.",
-              "Leve ao micro-ondas em potência alta por 10-12 minutos, mexendo na metade do tempo.",
-              "Retire, misture bem e sirva frio ou morno."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://anamariabraga.globo.com/receitas/antepasto-especial-de-berinjela/",
-              "checked_at": "2026-09-07T00:17:13+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/8251579/pexels-photo-8251579.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Close-up de berinjela recheada coberta com molho de tomate e decorada com ervas.",
-              "bank_id": "8251579",
-              "credit": "Julia Filirovska",
-              "query": "Antepasto Especial de Berinjela no Micro-ondas"
-            },
-            "id": "antepasto-especial-de-berinjela-no-micro-ondas-b719a41c"
-          },
-          {
-            "nome": "Sobremesa Gelada de Chocolate",
-            "curso": "sobremesa",
-            "tempo": "30 minutos",
-            "porque": "Sobremesa clássica de chocolate, fácil de fazer e ideal para quem gosta de um doce mais robusto.",
-            "tags": [
-              "sobremesa",
-              "chocolate",
-              "gelada",
-              "facil"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "1 lata de leite condensado",
-              "1 lata de creme de leite",
-              "1 xícara (chá) de chocolate em pó",
-              "1 xícara (chá) de leite",
-              "1 colher (sopa) de amido de milho",
-              "1 pacote de biscoito maisena",
-              "Chocolate granulado para decorar"
-            ],
-            "preparo": [
-              "Em uma panela, misture o leite condensado, chocolate em pó, leite e amido de milho.",
-              "Leve ao fogo baixo, mexendo sempre, até engrossar.",
-              "Retire do fogo e misture o creme de leite.",
-              "Em um refratário, faça camadas alternadas de creme de chocolate e biscoitos umedecidos em leite.",
-              "Comece e termine com o creme.",
-              "Leve à geladeira por no mínimo 3 horas.",
-              "Decore com chocolate granulado antes de servir."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.tudogostoso.com.br/receita/38-sobremesa-gelada-de-chocolate.html",
-              "checked_at": "2026-09-07T00:17:14+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/31242122/pexels-photo-31242122.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Um café gelado refrescante acompanhado de uma sobremesa de chocolate em uma mesa branca em um ambiente moderno.",
-              "bank_id": "31242122",
-              "credit": "Omair Tabikh",
-              "query": "Sobremesa Gelada de Chocolate"
-            },
-            "id": "sobremesa-gelada-de-chocolate-32428695"
+            "id": "sagu-de-abacaxi-1caa8d76"
           }
         ]
       },
@@ -1064,172 +1156,195 @@
         "dia": "Sábado",
         "pratos": [
           {
-            "nome": "Carne Cozida ao Molho Vermelho",
+            "nome": "Ensopado de Carne com Abóbora e Couve",
             "curso": "principal",
             "tempo": "45 minutos",
-            "porque": "Carne vermelha em cubos, cozida em molho, ideal para sobras e um prato reconfortante.",
+            "porque": "Uma opção de carne vermelha em ensopado, com muitos vegetais e que pode ser feita em panela de pressão para agilizar o tempo de preparo, ideal para um jantar reconfortante e com sobras.",
             "tags": [
               "carne_vermelha",
-              "cozido",
-              "molho",
-              "comfort_food"
+              "ensopado",
+              "panela_de_pressao",
+              "equilibrado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "500g de carne bovina em cubos (paleta, acém)",
-              "1 cebola picada",
-              "2 dentes de alho amassados",
-              "1 lata de molho de tomate",
-              "1/2 xícara (chá) de água",
-              "1 folha de louro",
-              "Sal e pimenta-do-reino a gosto",
-              "Azeite"
-            ],
-            "preparo": [
-              "Em uma panela de pressão, aqueça o azeite e doure a carne em cubos.",
-              "Adicione a cebola e o alho, refogue até ficarem macios.",
-              "Acrescente o molho de tomate, a água, a folha de louro, sal e pimenta.",
-              "Feche a panela de pressão e cozinhe por 20 minutos após o início da pressão.",
-              "Desligue o fogo, espere a pressão sair e verifique o cozimento da carne. Se necessário, cozinhe por mais tempo sem pressão para apurar o molho."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "",
-              "checked_at": "2026-09-07T00:17:15+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/6545674/pexels-photo-6545674.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Deliciosa carne bovina cozida servida com macarrão e molho de tomate, mostrando a fotografia culinária em seu melhor.",
-              "bank_id": "6545674",
-              "credit": "Thiago Rebouças",
-              "query": "Carne Cozida ao Molho Vermelho"
-            },
-            "id": "carne-cozida-ao-molho-vermelho-ee56f5b4"
-          },
-          {
-            "nome": "Bisteca de Porco Grelhada com Ervas",
-            "curso": "principal",
-            "tempo": "25 minutos",
-            "porque": "Carne de porco, grelhada, rápida e com sabor de ervas frescas.",
-            "tags": [
-              "carne_de_porco",
-              "grelhado",
-              "ervas",
-              "rapido"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "2 bistecas de porco",
+              "500 g de carne bovina para ensopado (paleta, acém ou músculo) em cubos",
               "1 colher (sopa) de azeite",
-              "1 dente de alho amassado",
-              "Alecrim e tomilho frescos picados a gosto",
-              "Sal e pimenta-do-reino a gosto"
+              "1 cebola média picada",
+              "2 dentes de alho picados",
+              "1 tomate maduro picado",
+              "1/2 xícara (chá) de extrato de tomate",
+              "1 folha de louro",
+              "1 xícara (chá) de água (ou caldo de carne)",
+              "200 g de abóbora cabotiá descascada e em cubos grandes",
+              "1 maço pequeno de couve, fatiado fino",
+              "Sal e pimenta-do-reino moída na hora a gosto",
+              "Cheiro-verde picado a gosto para finalizar"
             ],
             "preparo": [
-              "Tempere as bistecas com sal, pimenta-do-reino, alho, alecrim e tomilho.",
-              "Regue com azeite e deixe marinar por 10 minutos.",
-              "Aqueça uma grelha ou frigideira em fogo médio-alto.",
-              "Grelhe as bistecas por 6-8 minutos de cada lado, ou até estarem cozidas e douradas."
+              "Tempere a carne com sal e pimenta-do-reino.",
+              "Na panela de pressão, aqueça o azeite em fogo médio. Doure a carne em etapas para não juntar água. Retire e reserve.",
+              "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
+              "Adicione o tomate picado, o extrato de tomate e a folha de louro. Refogue por alguns minutos.",
+              "Retorne a carne à panela, adicione a água (ou caldo) e misture bem.",
+              "Tampe a panela de pressão e, após pegar pressão, cozinhe por 20 minutos.",
+              "Desligue o fogo, espere a pressão sair naturalmente. Abra a panela, adicione a abóbora e a couve. Cozinhe sem pressão por mais 10-15 minutos, ou até os legumes ficarem macios. Ajuste o tempero e finalize com cheiro-verde."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
-              "suggested_url": "https://www.panelinha.com.br/receita/bisteca-de-porco-grelhada-com-ervas",
-              "checked_at": "2026-09-07T00:17:16+00:00"
+              "suggested_url": "https://www.panelinha.com.br/receita/Ensopado-de-carne-com-abobora-e-couve",
+              "checked_at": "2026-09-21T00:28:55+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/30268878/pexels-photo-30268878.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Deliciosa variedade de carnes grelhadas guarnecidas com ervas e limão, perfeitas para um banquete.",
-              "bank_id": "30268878",
-              "credit": "Vano Pereira",
-              "query": "Bisteca de Porco Grelhada com Ervas"
+              "url": "https://images.pexels.com/photos/37142080/pexels-photo-37142080.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Delicioso prato indonésio de ensopado de carne com batatas, servido com legumes e biscoitos. Perfeito para uma refeição reconfortante.",
+              "bank_id": "37142080",
+              "credit": "Sokat Rachman",
+              "query": "Ensopado de Carne com Abóbora e Couve"
             },
-            "id": "bisteca-de-porco-grelhada-com-ervas-7bd8bcf5"
+            "id": "ensopado-de-carne-com-abobora-e-couve-2f69dc38"
           },
           {
-            "nome": "Salada Caprese Clássica",
-            "curso": "entrada",
-            "tempo": "10 minutos",
-            "porque": "Entrada fresca, colorida e muito rápida de montar, ideal para abrir o apetite.",
+            "nome": "Torta de Frango Cremosa de Liquidificador",
+            "curso": "principal",
+            "tempo": "50 minutos",
+            "porque": "Receita prática e cremosa de liquidificador, com frango como proteína e que rende muitas porções, ideal para o jantar e sobras para o almoço. Preparada no forno.",
             "tags": [
-              "entrada",
-              "salada",
-              "italiana",
-              "fresca"
-            ],
-            "rende_sobra": false,
-            "ingredientes": [
-              "2 tomates maduros em rodelas",
-              "200g de mussarela de búfala em rodelas",
-              "Folhas de manjericão fresco",
-              "Azeite extra virgem",
-              "Sal e pimenta-do-reino a gosto"
-            ],
-            "preparo": [
-              "Em um prato, intercale as rodelas de tomate e mussarela de búfala.",
-              "Distribua as folhas de manjericão fresco por cima.",
-              "Regue generosamente com azeite extra virgem.",
-              "Tempere com sal e pimenta-do-reino a gosto.",
-              "Sirva imediatamente."
-            ],
-            "fonte": {
-              "status": "verified",
-              "url": "https://panelinha.com.br/receita/salada-caprese-classica",
-              "title": "Salada caprese clássica - Panelinha",
-              "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-09-07T00:17:17+00:00"
-            },
-            "imagem": {
-              "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-2040-receita-esta-caprese.webp",
-              "alt": "Salada Caprese Clássica"
-            },
-            "id": "salada-caprese-classica-3d7b2b58"
-          },
-          {
-            "nome": "Pudim Rápido de Tapioca",
-            "curso": "sobremesa",
-            "tempo": "20 minutos",
-            "porque": "Sobremesa diferente, rápida e com textura interessante, sem forno.",
-            "tags": [
-              "sobremesa",
-              "tapioca",
-              "rapido",
-              "sem_forno"
+              "frango",
+              "forno",
+              "pratico",
+              "rende_muito"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "1 xícara (chá) de tapioca granulada",
-              "2 xícaras (chá) de leite",
-              "1/2 xícara (chá) de açúcar",
-              "1 pitada de sal",
-              "Coco ralado para decorar (opcional)"
+              "**Para o Recheio:**",
+              "1 peito de frango cozido e desfiado",
+              "1 cebola média picada",
+              "1 tomate picado",
+              "1/2 xícara (chá) de milho verde",
+              "1/2 xícara (chá) de ervilha",
+              "1/2 xícara (chá) de requeijão cremoso",
+              "Sal e pimenta-do-reino a gosto",
+              "Cheiro-verde picado a gosto",
+              "**Para a Massa:**",
+              "3 ovos",
+              "1 xícara (chá) de leite",
+              "1/2 xícara (chá) de óleo",
+              "2 xícaras (chá) de farinha de trigo",
+              "1 colher (sopa) de fermento em pó",
+              "Sal a gosto"
             ],
             "preparo": [
-              "Em uma panela, misture a tapioca, o leite, o açúcar e o sal.",
-              "Leve ao fogo médio, mexendo sempre, até engrossar e a tapioca cozinhar (cerca de 10-15 minutos).",
-              "Despeje a mistura em uma forma de pudim ou em taças individuais.",
-              "Deixe esfriar e leve à geladeira por no mínimo 2 horas para firmar.",
-              "Desenforme (se usar forma) e decore com coco ralado, se desejar."
+              "**Prepare o recheio:** Em uma panela, refogue a cebola e o tomate. Adicione o frango desfiado, milho, ervilha, sal e pimenta. Misture bem e finalize com o requeijão e cheiro-verde. Reserve.",
+              "**Prepare a massa:** No liquidificador, bata os ovos, leite, óleo e sal até homogeneizar.",
+              "Adicione a farinha de trigo aos poucos e bata até incorporar. Por último, acrescente o fermento e pulse rapidamente para misturar.",
+              "Despeje metade da massa em uma forma untada e enfarinhada (28x18 cm).",
+              "Distribua o recheio de frango sobre a massa.",
+              "Cubra com o restante da massa.",
+              "Leve ao forno médio (180°C) preaquecido por cerca de 30-40 minutos, ou até dourar e firmar."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.receitasnestle.com.br/receitas/torta-de-frango-de-liquidificador-facil-e-cremosa",
+              "checked_at": "2026-09-21T00:28:55+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/39070760/pexels-photo-39070760.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up de uma torta de frango caseira aberta em um prato laranja, sob luz quente.",
+              "bank_id": "39070760",
+              "credit": "Mayara Caroline  Mombelli",
+              "query": "Torta de Frango Cremosa de Liquidificador"
+            },
+            "id": "torta-de-frango-cremosa-de-liquidificador-24aeb21d"
+          },
+          {
+            "nome": "Salada Rápida de Grão-de-Bico",
+            "curso": "entrada",
+            "tempo": "5 minutos",
+            "porque": "Uma entrada leve, nutritiva e extremamente rápida de preparar, com grão-de-bico como fonte de proteína e fibras.",
+            "tags": [
+              "vegetariano",
+              "salada",
+              "rapido",
+              "frio"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "1½ xícara (chá) de grão-de-bico cozido (ou 1 lata escorrida)",
+              "2 colheres (sopa) de suco de limão",
+              "4 colheres (sopa) de azeite",
+              "20 folhas de manjericão fresco",
+              "Sal e pimenta-do-reino moída na hora a gosto"
+            ],
+            "preparo": [
+              "Escorra o grão-de-bico cozido.",
+              "Em uma tigela média, combine o suco de limão, o azeite, sal e pimenta-do-reino. Misture bem para formar o molho.",
+              "Adicione o grão-de-bico e as folhas de manjericão ao molho.",
+              "Misture delicadamente para que todos os ingredientes fiquem bem envolvidos no molho.",
+              "Divida a salada em dois pratos e sirva imediatamente."
             ],
             "fonte": {
               "status": "verified",
-              "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
-              "title": "Pudim rápido de tapioca - Panelinha",
+              "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
+              "title": "Salada rápida de grão-de-bico - Panelinha",
               "domain": "panelinha.com.br",
               "confidence": 1.0,
-              "checked_at": "2026-09-07T00:17:17+00:00"
+              "checked_at": "2026-09-21T00:28:56+00:00"
             },
             "imagem": {
               "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
-              "alt": "Pudim Rápido de Tapioca"
+              "url": "https://i.panelinha.com.br/i1/bk-3575-salada-grao-de-bico-mexicana.webp",
+              "alt": "Salada Rápida de Grão-de-Bico"
             },
-            "id": "pudim-rapido-de-tapioca-484a6aab"
+            "id": "salada-rapida-de-grao-de-bico-f701bcb3"
+          },
+          {
+            "nome": "Brigadeiro de Travessa",
+            "curso": "sobremesa",
+            "tempo": "60 minutos",
+            "porque": "Uma sobremesa clássica brasileira, cremosa e deliciosa, fácil de preparar e que agrada a todos. Rende muitas porções e é ideal para compartilhar.",
+            "tags": [
+              "doce",
+              "chocolate",
+              "frio",
+              "rende_muito"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "2 latas de leite condensado",
+              "1 xícara (chá) de chocolate em pó",
+              "2 colheres (sopa) de manteiga",
+              "1 lata de creme de leite",
+              "Chocolate granulado para decorar (opcional)"
+            ],
+            "preparo": [
+              "Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga.",
+              "Leve ao fogo médio, mexendo sempre, até a mistura desgrudar do fundo da panela (ponto de brigadeiro mole).",
+              "Retire do fogo e adicione o creme de leite, misturando bem até incorporar.",
+              "Despeje o brigadeiro cremoso em uma travessa.",
+              "Cubra com plástico filme em contato com o creme para não formar película.",
+              "Leve à geladeira por pelo menos 2 horas, ou até firmar bem.",
+              "Decore com chocolate granulado antes de servir."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.guiadacozinha.com.br/receitas/10001-brigadeiro-de-travessa",
+              "checked_at": "2026-09-21T00:29:01+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/37306625/pexels-photo-37306625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Close-up de deliciosos brigadeiros de chocolate decorados com granulado, perfeitos para celebrações e festas.",
+              "bank_id": "37306625",
+              "credit": "Luriko Yamaguchi",
+              "query": "Brigadeiro de Travessa"
+            },
+            "id": "brigadeiro-de-travessa-83df3562"
           }
         ]
       },
@@ -1237,178 +1352,185 @@
         "dia": "Domingo",
         "pratos": [
           {
-            "nome": "Torta de Liquidificador Salgada e Fofinha (Recheio de Carne Moída)",
+            "nome": "Espetinho de Carne com Legumes",
             "curso": "principal",
-            "tempo": "40 minutos",
-            "porque": "Prato completo, fácil de fazer, rende sobras e permite usar carne vermelha.",
+            "tempo": "30 minutos",
+            "porque": "Receita prática e saborosa com carne vermelha e vegetais, ideal para grelhar ou assar. A marinada intensifica o sabor, e pode ser feita com antecedência. Rende para o jantar e sobra para o almoço.",
             "tags": [
-              "torta",
               "carne_vermelha",
-              "liquidificador",
-              "pratico"
+              "grelhado",
+              "rapido",
+              "equilibrado"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "Massa: 3 ovos, 1 xícara (chá) de leite, 1/2 xícara (chá) de óleo, 2 xícaras (chá) de farinha de trigo, 1 colher (sopa) de fermento em pó, sal a gosto.",
-              "Recheio: 300g de carne moída refogada e temperada, 1/2 cebola picada, 1/2 tomate picado, cheiro-verde a gosto, 1/2 xícara (chá) de requeijão cremoso (opcional)."
+              "500 g de miolo de alcatra em cubos médios (cerca de 3 cm)",
+              "1 xícara (chá) de vinho tinto seco",
+              "1 dente de alho",
+              "½ cebola média",
+              "½ colher (chá) de sal",
+              "¼ de colher (chá) de pimenta-do-reino moída",
+              "2 folhas de louro",
+              "1 ramo de alecrim",
+              "Espetos de bambu",
+              "20 cebolas pérolas (cerca de 250 g)",
+              "½ pimentão vermelho em cubos médios",
+              "100 g de bacon em cubos",
+              "1 colher (chá) de azeite"
             ],
             "preparo": [
-              "Recheio: Refogue a cebola e o tomate, adicione a carne moída e cozinhe até ficar soltinha. Tempere e finalize com cheiro-verde. Se usar, misture o requeijão. Reserve.",
-              "Massa: No liquidificador, bata os ovos, leite, óleo e sal.",
-              "Adicione a farinha de trigo aos poucos e bata até incorporar.",
-              "Por último, adicione o fermento e bata rapidamente.",
-              "Despeje metade da massa em uma forma untada e enfarinhada.",
-              "Distribua o recheio de carne moída e cubra com o restante da massa.",
-              "Leve ao forno pré-aquecido a 180°C por cerca de 30 minutos, ou até dourar."
+              "Corte a carne em cubos médios e reserve.",
+              "No liquidificador, bata o vinho, alho, cebola, sal e pimenta-do-reino até homogeneizar.",
+              "Em uma travessa, junte a carne, a marinada, louro e alecrim. Cubra e leve à geladeira por no mínimo 2 horas.",
+              "Deixe os espetos de bambu de molho em água. Descasque as cebolas pérola, corte o pimentão em cubos e o bacon em cubos.",
+              "Retire a carne da marinada e escorra. Monte os espetinhos intercalando carne, cebola pérola, pimentão e bacon.",
+              "Aqueça uma chapa ou grelha, unte com azeite usando um pincel e grelhe os espetinhos por cerca de 4 minutos de cada lado, até dourarem.",
+              "Sirva a seguir."
+            ],
+            "fonte": {
+              "status": "unverified",
+              "url": "",
+              "suggested_url": "https://www.panelinha.com.br/receita/Churrasco-de-ape-espetinho-misto",
+              "checked_at": "2026-09-21T00:29:01+00:00"
+            },
+            "imagem": {
+              "kind": "bank",
+              "url": "https://images.pexels.com/photos/14498742/pexels-photo-14498742.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Suculentos espetinhos de carne grelhada com vegetais frescos, perfeitos para uma refeição saborosa.",
+              "bank_id": "14498742",
+              "credit": "Osman Bölükbaş",
+              "query": "Espetinho de Carne com Legumes"
+            },
+            "id": "espetinho-de-carne-com-legumes-30b1c454"
+          },
+          {
+            "nome": "Suflê de Legumes",
+            "curso": "principal",
+            "tempo": "20 minutos",
+            "porque": "Opção leve e vegetariana para o jantar, com bom aporte de vegetais e queijo como proteína. É rápido de preparar e feito no forno.",
+            "tags": [
+              "vegetariano",
+              "forno",
+              "rapido",
+              "leve"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "2 colheres (sopa) de farinha de trigo",
+              "300 ml de leite",
+              "2 colheres (sopa) de manteiga",
+              "1 pitada de sal",
+              "50 g de queijo ralado (parmesão)",
+              "4 ovos (gemas e claras separadas)",
+              "Legumes a gosto cozidos (brócolis, cenoura, couve-flor, etc.)"
+            ],
+            "preparo": [
+              "Derreta a manteiga em uma panela, sem deixar esquentar muito.",
+              "Adicione a farinha de trigo e o sal, mexendo sempre.",
+              "Acrescente o leite aos poucos, mexendo sem parar até engrossar e formar um creme. Retire do fogo e deixe esfriar.",
+              "Misture as gemas batidas e o queijo ralado ao creme frio.",
+              "Adicione os legumes cozidos e misture delicadamente.",
+              "Bata as claras em neve e incorpore-as à mistura de legumes e creme, com movimentos suaves.",
+              "Despeje em um refratário untado e enfarinhado e leve ao forno médio preaquecido (180°C) por cerca de 20 minutos, ou até dourar e crescer."
+            ],
+            "fonte": {
+              "status": "verified",
+              "url": "https://www.tudogostoso.com.br/receita/26848-soufle-de-legumes.html",
+              "title": "Souflé de legumes",
+              "domain": "tudogostoso.com.br",
+              "confidence": 0.42,
+              "checked_at": "2026-09-21T00:29:02+00:00"
+            },
+            "imagem": {
+              "kind": "source",
+              "url": "https://static.itdg.com.br/images/1200-675/72355e52acb3b0f71a6ccf72e6e799f1/355596-original.jpg",
+              "alt": "Suflê de Legumes"
+            },
+            "id": "sufle-de-legumes-d7619860"
+          },
+          {
+            "nome": "Patê de Presunto",
+            "curso": "entrada",
+            "tempo": "10 minutos",
+            "porque": "Um patê cremoso e saboroso, fácil de fazer e versátil, ideal para acompanhar torradas, pães ou rechear sanduíches.",
+            "tags": [
+              "pate",
+              "frios",
+              "rapido",
+              "frio"
+            ],
+            "rende_sobra": true,
+            "ingredientes": [
+              "200 gramas de presunto, picado",
+              "1/2 xícara (chá) de maionese (100 gramas)",
+              "1/2 xícara (chá) de requeijão cremoso (100 gramas)",
+              "1/2 caixinha de creme de leite (100 gramas)",
+              "1/2 colher (café) de pimenta-do-reino (ou a gosto)",
+              "1/2 colher (café) de sal (ou a gosto)",
+              "Cheiro-verde picado a gosto (opcional)"
+            ],
+            "preparo": [
+              "No liquidificador ou processador, adicione o presunto picado, a maionese, o requeijão cremoso e o creme de leite.",
+              "Bata até obter uma mistura homogênea e cremosa.",
+              "Tempere com sal e pimenta-do-reino a gosto.",
+              "Se desejar, adicione cheiro-verde picado e misture.",
+              "Transfira o patê para um recipiente e leve à geladeira por alguns minutos antes de servir.",
+              "Sirva com torradas, pães ou como recheio de sanduíches."
             ],
             "fonte": {
               "status": "unverified",
               "url": "",
               "suggested_url": "",
-              "checked_at": "2026-09-07T00:17:17+00:00"
+              "checked_at": "2026-09-21T00:29:02+00:00"
             },
             "imagem": {
               "kind": "bank",
-              "url": "https://images.pexels.com/photos/39070766/pexels-photo-39070766.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Detalhe de uma torta salgada em um prato laranja, cortada ao meio para mostrar o recheio.",
-              "bank_id": "39070766",
-              "credit": "Mayara Caroline  Mombelli",
-              "query": "Torta de Liquidificador Salgada e Fofinha (Recheio de Carne Moída)"
+              "url": "https://images.pexels.com/photos/1927381/pexels-photo-1927381.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              "alt": "Sanduíche gourmet de presunto com pistaches e molho em tábua de madeira, perfeito para fotografia de alimentos.",
+              "bank_id": "1927381",
+              "credit": "Nicolas Postiglioni",
+              "query": "Patê de Presunto"
             },
-            "id": "torta-de-liquidificador-salgada-e-fofinha-rechei-b7b41bd6"
+            "id": "pate-de-presunto-eb0bb210"
           },
           {
-            "nome": "Bife à Rolê Simples",
-            "curso": "principal",
-            "tempo": "45 minutos",
-            "porque": "Carne vermelha, preparo em molho, rende sobras.",
-            "tags": [
-              "carne_vermelha",
-              "cozido",
-              "molho",
-              "tradicional"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "4 bifes finos (patinho ou coxão mole)",
-              "1 cenoura cortada em palitos",
-              "1/2 cebola picada",
-              "1 dente de alho amassado",
-              "1 lata de molho de tomate",
-              "1/2 xícara (chá) de água",
-              "Sal e pimenta-do-reino a gosto",
-              "Azeite",
-              "Palitos de dente"
-            ],
-            "preparo": [
-              "Tempere os bifes com sal e pimenta-do-reino.",
-              "Coloque um palito de cenoura em cada bife e enrole, prendendo com um palito de dente.",
-              "Em uma panela, aqueça o azeite e doure os bifes à rolê. Retire e reserve.",
-              "Na mesma panela, refogue a cebola e o alho.",
-              "Adicione o molho de tomate e a água, deixe ferver.",
-              "Retorne os bifes à rolê à panela, tampe e cozinhe em fogo baixo por cerca de 30 minutos, ou até a carne ficar macia."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.receitasnestle.com.br/receitas/bife-a-role-simples",
-              "checked_at": "2026-09-07T00:17:18+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/31843915/pexels-photo-31843915.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Bife grelhado com molho de cogumelos e salada fresca em uma mesa rústica de madeira. Uma delícia culinária perfeita.",
-              "bank_id": "31843915",
-              "credit": "Allan González",
-              "query": "Bife à Rolê Simples"
-            },
-            "id": "bife-a-role-simples-a444a5be"
-          },
-          {
-            "nome": "Patê de Sardinha com Torradas",
-            "curso": "entrada",
-            "tempo": "15 minutos",
-            "porque": "Entrada saborosa, rápida e econômica, com proteína.",
-            "tags": [
-              "entrada",
-              "pate",
-              "rapido",
-              "economico"
-            ],
-            "rende_sobra": true,
-            "ingredientes": [
-              "1 lata de sardinha em óleo (escorrida e amassada)",
-              "1/2 cebola pequena ralada",
-              "2 colheres (sopa) de maionese",
-              "1 colher (sopa) de cheiro-verde picado",
-              "Suco de 1/2 limão",
-              "Sal e pimenta-do-reino a gosto",
-              "Torradas para servir"
-            ],
-            "preparo": [
-              "Em uma tigela, amasse a sardinha com um garfo.",
-              "Adicione a cebola ralada, maionese, cheiro-verde e suco de limão.",
-              "Misture bem até obter uma pasta homogênea.",
-              "Tempere com sal e pimenta-do-reino a gosto.",
-              "Sirva com torradas ou pães."
-            ],
-            "fonte": {
-              "status": "unverified",
-              "url": "",
-              "suggested_url": "https://www.receitasnestle.com.br/receitas/pate-de-sardinha-com-torradas",
-              "checked_at": "2026-09-07T00:17:20+00:00"
-            },
-            "imagem": {
-              "kind": "bank",
-              "url": "https://images.pexels.com/photos/5602717/pexels-photo-5602717.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              "alt": "Tomates, pão e sardinhas dispostos para a preparação de torradas catalãs.",
-              "bank_id": "5602717",
-              "credit": "Leeloo The First",
-              "query": "Patê de Sardinha com Torradas"
-            },
-            "id": "pate-de-sardinha-com-torradas-e3f217a6"
-          },
-          {
-            "nome": "Ambrosia Rápida de Leite em Pó",
+            "nome": "Cocada Mole (Cremosa)",
             "curso": "sobremesa",
-            "tempo": "30 minutos",
-            "porque": "Versão rápida de um doce tradicional, fácil de fazer e com sabor caseiro.",
+            "tempo": "25 minutos",
+            "porque": "Uma cocada cremosa e saborosa, com textura de coco fresco, que não é exageradamente doce. Fácil de fazer e pode ser servida em temperatura ambiente ou gelada.",
             "tags": [
-              "sobremesa",
-              "tradicional",
-              "leite_em_po",
-              "rapida"
+              "doce",
+              "coco",
+              "rapido",
+              "brasileiro"
             ],
             "rende_sobra": true,
             "ingredientes": [
-              "1 xícara (chá) de açúcar",
-              "1/2 xícara (chá) de água",
-              "1 xícara (chá) de leite em pó",
-              "3 ovos",
-              "Canela em pau a gosto (opcional)"
+              "1 lata de leite condensado (395 g)",
+              "200 g de coco ralado fresco (ou seco, hidratado)",
+              "1/2 xícara (chá) de leite",
+              "1 colher (sopa) de manteiga"
             ],
             "preparo": [
-              "Em uma panela, faça uma calda com o açúcar e a água, deixando ferver por 5 minutos.",
-              "Em uma tigela, bata os ovos e adicione o leite em pó, misturando bem.",
-              "Despeje a mistura de ovos e leite em pó na calda quente, sem mexer.",
-              "Adicione a canela em pau (se usar).",
-              "Cozinhe em fogo baixo por cerca de 15-20 minutos, sem mexer, até formar os grumos característicos da ambrosia.",
-              "Deixe esfriar e sirva."
+              "Em uma panela média de borda alta, junte o leite condensado, o coco ralado, o leite e a manteiga.",
+              "Leve ao fogo médio-baixo, mexendo sempre, até a mistura começar a desgrudar do fundo da panela e ficar cremosa (cerca de 15-20 minutos).",
+              "Retire do fogo e transfira para um recipiente.",
+              "Deixe amornar e sirva em temperatura ambiente ou leve à geladeira para servir gelada."
             ],
             "fonte": {
               "status": "verified",
-              "url": "https://panelinha.com.br/receita/ambrosia-rapida-de-leite-em-po",
-              "title": "Ambrosia rápida de leite em pó - Panelinha",
+              "url": "https://panelinha.com.br/receita/cocada-mole",
+              "title": "Cocada mole - Panelinha",
               "domain": "panelinha.com.br",
-              "confidence": 1.0,
-              "checked_at": "2026-09-07T00:17:20+00:00"
+              "confidence": 0.72,
+              "checked_at": "2026-09-21T00:29:03+00:00"
             },
             "imagem": {
               "kind": "source",
-              "url": "https://i.panelinha.com.br/i1/bk-2781-ambrosia-rapida-de-leite-em-po.webp",
-              "alt": "Ambrosia Rápida de Leite em Pó"
+              "url": "https://i.panelinha.com.br/i1/bk-7839-blog-cocada-mole.webp",
+              "alt": "Cocada Mole (Cremosa)"
             },
-            "id": "ambrosia-rapida-de-leite-em-po-dc1cc872"
+            "id": "cocada-mole-cremosa-a3bb39ff"
           }
         ]
       }
