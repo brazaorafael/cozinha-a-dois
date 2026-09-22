@@ -1,192 +1,192 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-20T21:25:05-03:00",
+  "gerado_em": "2026-09-22T12:26:19-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "20/09/2026",
-    "dia_semana": "domingo",
+    "data": "22/09/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Ragu de carne moída com macarrão",
-        "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Proteína (carne moída), carboidrato (macarrão) e vegetais (tomate, manjericão). Preparo refogado, fácil e prático. Rende sobras para o almoço. Não está na lista de exclusão como prato principal.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "massa",
-          "rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "300 g de carne moída",
-          "1 cebola média picada",
-          "2 dentes de alho picados",
-          "1 lata de tomate pelado (400g)",
-          "1/2 xícara (chá) de água",
-          "Folhas de manjericão fresco a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "200 g de macarrão tipo penne ou parafuso",
-          "Azeite a gosto"
-        ],
-        "preparo": [
-          "Em uma panela média, aqueça um fio de azeite e doure a carne moída, desfazendo os grumos. Retire a carne e reserve.",
-          "Na mesma panela, adicione mais um pouco de azeite, refogue a cebola picada até ficar transparente. Junte o alho e refogue por mais 1 minuto.",
-          "Acrescente o tomate pelado amassado com um garfo, a água e a carne moída reservada. Tempere com sal e pimenta.",
-          "Deixe cozinhar em fogo baixo por cerca de 20 minutos, mexendo ocasionalmente, até o molho encorpar. Adicione as folhas de manjericão nos últimos minutos.",
-          "Enquanto o molho cozinha, prepare o macarrão conforme as instruções da embalagem. Escorra e reserve.",
-          "Sirva o ragu de carne moída sobre o macarrão cozido."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Ragu-de-carne-moida-com-macarrao",
-          "checked_at": "2026-09-20T14:34:11+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/36627079/pexels-photo-36627079.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Imagem em close-up de uma travessa quente contendo macarrão e carne moída, decorada com ervas.",
-          "bank_id": "36627079",
-          "credit": "Valeria Boltneva",
-          "query": "Ragu de carne moída com macarrão"
-        },
-        "id": "ragu-de-carne-moida-com-macarrao-e6885acc"
-      },
-      {
-        "nome": "Filé-mignon com molho de mostarda e mel",
+        "nome": "Bife com Molho de Limão e Grão-de-Bico",
         "curso": "principal",
         "tempo": "30 minutos",
-        "porque": "Proteína (filé mignon), preparo grelhado rápido e prático. O molho de mostarda e mel oferece um sabor diferente e não está na lista de exclusão. Rende sobras para o almoço.",
+        "porque": "Carne vermelha, rápido, equilibrado com grão-de-bico e vegetais, e o preparo do bife e acompanhamento é na mesma frigideira, otimizando o tempo.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
           "rapido",
-          "molho_especial"
+          "saudavel",
+          "refogado"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "¾ de xícara (chá) de grão-de-bico (meia lata)",
+          "½ cebola",
+          "1 colher (sopa) de azeite",
+          "1 pitada de açúcar",
+          "½ colher (chá) de páprica doce",
+          "1 pitada de cominho em pó",
+          "Sal a gosto",
+          "1 bife de contrafilé",
+          "1 colher (chá) de azeite",
+          "⅓ de xícara (chá) de água",
+          "Raspas de 1 limão-siciliano",
+          "2 colheres (sopa) de caldo de limão-siciliano",
+          "1 colher (sopa) de manteiga gelada",
+          "Pimenta-do-reino moída na hora a gosto",
+          "1 maço de miniagrião"
+        ],
+        "preparo": [
+          "Passe o grão-de-bico por uma peneira sob água corrente e deixe escorrer bem.",
+          "Descasque e corte a cebola em fatias de 0,5 cm.",
+          "Em uma frigideira grande em fogo médio, refogue a cebola com azeite, sal e açúcar por cerca de 3 minutos até dourar.",
+          "Adicione o grão-de-bico, a páprica e o cominho, misture e cozinhe por 2 minutos. Transfira para uma tigela e reserve a frigideira.",
+          "Tempere o bife com sal. Leve a frigideira em fogo alto com azeite e doure o bife por cerca de 2 minutos de cada lado.",
+          "Retire o bife, adicione água, raspas e caldo de limão à frigideira, mexa e incorpore a manteiga gelada.",
+          "Sirva o bife com o molho, o grão-de-bico refogado e o agrião."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/bife-com-molho-de-limao-e-grao-de-bico",
+          "title": "Bife com molho de limão e grão-de-bico - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-22T15:27:43+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7174-img-9932.webp",
+          "alt": "Bife com Molho de Limão e Grão-de-Bico"
+        },
+        "id": "bife-com-molho-de-limao-e-grao-de-bico-43f65ca8"
+      },
+      {
+        "nome": "Fraldinha assada na Air Fryer da Rita Lobo",
+        "curso": "principal",
+        "tempo": "45 minutos",
+        "porque": "Carne vermelha, preparo na airfryer (método preferencial), rápido e com potencial para sobras, ideal para o almoço do dia seguinte.",
+        "tags": [
+          "carne_vermelha",
+          "airfryer",
+          "rapido",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 medalhões de filé-mignon (cerca de 180g cada)",
+          "1 fraldinha em peça (cerca de 1 kg)",
+          "1 colher (sopa) de sal grosso",
           "1 colher (sopa) de azeite",
-          "1 colher (sopa) de manteiga",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Para o molho:",
-          "1/4 xícara (chá) de mostarda dijon",
-          "1 colher (sopa) de mel",
-          "2 colheres (sopa) de água"
+          "Pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Tempere os medalhões de filé-mignon com sal e pimenta-do-reino dos dois lados.",
-          "Em uma frigideira antiaderente, aqueça o azeite e a manteiga em fogo médio-alto.",
-          "Grelhe os medalhões por 3 a 4 minutos de cada lado para um ponto malpassado, ou até o ponto desejado. Retire da frigideira e reserve.",
-          "Na mesma frigideira, adicione a mostarda, o mel e a água. Misture bem, raspando o fundo da panela para soltar os sabores.",
-          "Deixe o molho reduzir por 1 a 2 minutos, até engrossar levemente.",
-          "Sirva os medalhões de filé-mignon com o molho de mostarda e mel por cima. Acompanhe com batatas assadas ou arroz e uma salada verde."
+          "Retire a fraldinha da geladeira 20 minutos antes do preparo.",
+          "Tempere a fraldinha com azeite, sal grosso e pimenta-do-reino, massageando bem para envolver toda a superfície da carne.",
+          "Dobre a parte mais fina da fraldinha para baixo e coloque na cesta da Air Fryer com a gordura para cima.",
+          "Asse na Air Fryer a 200°C por 15 minutos.",
+          "Vire a fraldinha e asse por mais 5 minutos, ou até dourar por igual.",
+          "Retire da Air Fryer e deixe descansar por 5 minutos antes de cortar contra as fibras e servir."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/File-mignon-com-molho-de-mostarda-e-mel",
-          "checked_at": "2026-09-20T14:34:12+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/fraldinha-assada-na-air-fryer",
+          "title": "Fraldinha assada na Air Fryer da Rita Lobo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-22T15:27:44+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673974/pexels-photo-33673974.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso filé mignon com molho de cogumelos e massa cremosa, guarnecido com microverdes.",
-          "bank_id": "33673974",
-          "credit": "pedro furtado",
-          "query": "Filé-mignon com molho de mostarda e mel"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9485-blog-fraldinha-assada-na-af-4.webp",
+          "alt": "Fraldinha assada na Air Fryer da Rita Lobo"
         },
-        "id": "file-mignon-com-molho-de-mostarda-e-mel-be9950ce"
+        "id": "fraldinha-assada-na-air-fryer-da-rita-lobo-cd3e31a7"
       },
       {
-        "nome": "Bruschetta de tomate",
+        "nome": "Salada de tomate com azeite crocante",
         "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada leve, fresca e rápida de preparar. Utiliza ingredientes acessíveis e métodos de preparo simples (torrar o pão). Não está na lista de exclusão.",
+        "tempo": "15 minutos",
+        "porque": "Entrada leve, fresca, rápida e com um toque crocante, ideal para abrir o apetite sem pesar antes dos pratos principais de carne.",
         "tags": [
           "vegetariano",
-          "entrada_rapida",
-          "pao",
+          "entrada",
+          "rapido",
           "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pão italiano pequeno ou baguete",
-          "2 tomates maduros",
-          "1 dente de alho",
-          "Folhas de manjericão fresco a gosto",
-          "Azeite extra virgem a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "3 tomates maduros",
+          "½ xícara (chá) de azeite",
+          "3 colheres (sopa) de castanha-de-caju torrada sem sal",
+          "2 colheres (sopa) de semente de girassol",
+          "3 dentes de alho",
+          "1 colher (chá) de semente de coentro",
+          "½ colher (chá) de pimenta calabresa",
+          "3 ramos de alecrim",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 180°C. Corte o pão em fatias de cerca de 1,5 cm de espessura.",
-          "Disponha as fatias de pão em uma assadeira e leve ao forno por 5 a 7 minutos, ou até ficarem levemente douradas e crocantes.",
-          "Enquanto o pão tosta, pique os tomates em cubos pequenos e coloque em uma tigela. Adicione as folhas de manjericão picadas grosseiramente.",
-          "Tempere o tomate com azeite, sal e pimenta-do-reino a gosto. Misture bem.",
-          "Esfregue o dente de alho descascado nas fatias de pão tostadas.",
-          "Distribua a mistura de tomate sobre as fatias de pão e sirva imediatamente."
+          "Lave e corte os tomates em rodelas de 0,5 cm. Arrume-os em um prato de servir.",
+          "Descasque e corte os dentes de alho em fatias finas. Debulhe as folhas de alecrim e pique grosseiramente as castanhas.",
+          "Em uma frigideira pequena, coloque o azeite, a castanha-de-caju, as sementes de girassol e de coentro, a pimenta calabresa, o alecrim e o sal.",
+          "Leve a frigideira ao fogo médio e cozinhe, mexendo de vez em quando, por cerca de 5 minutos, até as castanhas dourarem e o azeite ficar aromático.",
+          "Regue os tomates com o azeite crocante e sirva a seguir."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
-          "title": "Bruschetta de tomate - Panelinha",
+          "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
+          "title": "Salada de tomate com azeite crocante - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-20T14:34:13+00:00"
+          "checked_at": "2026-09-22T15:27:44+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
-          "alt": "Bruschetta de tomate"
+          "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
+          "alt": "Salada de tomate com azeite crocante"
         },
-        "id": "bruschetta-de-tomate-008b1157"
+        "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
       },
       {
-        "nome": "Bolo de caneca de fubá",
+        "nome": "Pavê de Limão na Travessa",
         "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Uma sobremesa individual, rápida e prática, feita no micro-ondas. Não contém chocolate ou outros ingredientes específicos da lista de exclusão de sobremesas.",
+        "tempo": "80 minutos",
+        "porque": "Sobremesa clássica, refrescante, fácil de preparar e não requer forno, perfeita para finalizar a refeição de forma leve e prática.",
         "tags": [
           "doce",
-          "micro_ondas",
-          "rapido",
-          "individual"
+          "refrescante",
+          "sem_forno",
+          "rapido"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "1 ovo pequeno",
-          "3 colheres (sopa) de açúcar",
-          "3 colheres (sopa) de fubá",
-          "2 colheres (sopa) de farinha de trigo",
-          "3 colheres (sopa) de leite",
-          "2 colheres (sopa) de óleo vegetal",
-          "1/2 colher (chá) de fermento em pó",
-          "Pitada de erva-doce (opcional)"
+          "2 latas de Leite Condensado MOÇA®",
+          "Suco de 3 a 4 limões (limão-tahiti ou limão-siciliano)",
+          "1 caixinha de NESTLÉ® Creme de Leite (200 g)",
+          "1 pacote de Biscoito TOSTINES® Maisena"
         ],
         "preparo": [
-          "Em uma caneca grande (com capacidade para 300 ml), bata o ovo com um garfo.",
-          "Adicione o açúcar, o fubá e a farinha de trigo. Misture bem até incorporar.",
-          "Acrescente o leite e o óleo, misturando novamente até obter uma massa homogênea.",
-          "Por último, adicione o fermento em pó e a erva-doce (se usar), misturando delicadamente.",
-          "Leve a caneca ao micro-ondas em potência alta por 2 a 3 minutos. O tempo pode variar conforme a potência do seu aparelho.",
-          "O bolo estará pronto quando a superfície estiver firme e o centro cozido. Sirva quente."
+          "Em um recipiente, misture o Leite Condensado com o suco de limão até obter um creme espesso.",
+          "Adicione o NESTLÉ® Creme de Leite e misture delicadamente. Reserve.",
+          "Em uma travessa, faça uma camada de biscoitos.",
+          "Cubra os biscoitos com uma camada do creme de limão.",
+          "Alterne as camadas de biscoito e creme, finalizando com uma camada de creme.",
+          "Leve à geladeira por cerca de 1 hora ou até firmar bem.",
+          "Sirva bem gelado."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bolo-de-caneca-de-fuba",
-          "checked_at": "2026-09-20T14:34:13+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/pave-de-limao-na-travessa",
+          "checked_at": "2026-09-22T15:27:45+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34637996/pexels-photo-34637996.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de um bolo de milho caseiro com uma fatia faltando, em um prato decorativo.",
-          "bank_id": "34637996",
-          "credit": "Alejandro JV",
-          "query": "Bolo de caneca de fubá"
+          "url": "https://images.pexels.com/photos/28992229/pexels-photo-28992229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Bolinhos fritos crocantes servidos com limão fresco e tomate fatiado sobre uma cama de alface.",
+          "bank_id": "28992229",
+          "credit": "pedro furtado",
+          "query": "Pavê de Limão na Travessa"
         },
-        "id": "bolo-de-caneca-de-fuba-ee78ac38"
+        "id": "pave-de-limao-na-travessa-2ce0ea7a"
       }
     ]
   },
