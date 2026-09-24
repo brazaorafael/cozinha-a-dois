@@ -1,48 +1,93 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-22T12:26:19-03:00",
+  "gerado_em": "2026-09-24T12:43:41-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "22/09/2026",
-    "dia_semana": "terça",
+    "data": "24/09/2026",
+    "dia_semana": "quinta",
     "pratos": [
+      {
+        "nome": "Almôndegas Assadas",
+        "curso": "principal",
+        "tempo": "45 minutos",
+        "porque": "Receita prática e equilibrada, com carne vermelha assada (evitando fritura) e molho de tomate que pode acompanhar massa ou arroz. Rende bem e pode sobrar para o almoço do dia seguinte.",
+        "tags": [
+          "carne_vermelha",
+          "assado",
+          "equilibrado",
+          "sem_fritura"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "2 fatias de pão de forma sem casca",
+          "¼ de xícara (chá) de leite",
+          "1 dente de alho",
+          "1 ovo",
+          "300 g de carne moída (patinho ou acém)",
+          "200 g de pernil suíno moído",
+          "1 colher (chá) de sal",
+          "Pimenta-do-reino moída na hora a gosto",
+          "Azeite para untar"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 200 ºC e unte uma assadeira grande com azeite.",
+          "Em uma tigela, misture o miolo do pão com o leite. Descasque e pique o alho fino. Quebre o ovo e junte ao pão umedecido.",
+          "Adicione as carnes moídas, o alho picado, o sal e a pimenta-do-reino. Misture bem com as mãos até formar uma massa homogênea.",
+          "Modele a carne em bolinhas do tamanho desejado e disponha-as na assadeira untada.",
+          "Leve ao forno preaquecido para assar por cerca de 25 a 30 minutos, virando na metade do tempo, até dourarem."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/almondegas-assadas",
+          "title": "Almôndegas assadas - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-24T15:45:28+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4130-almondegas-assadas.webp",
+          "alt": "Almôndegas Assadas"
+        },
+        "id": "almondegas-assadas-a212575e"
+      },
       {
         "nome": "Bife com Molho de Limão e Grão-de-Bico",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Carne vermelha, rápido, equilibrado com grão-de-bico e vegetais, e o preparo do bife e acompanhamento é na mesma frigideira, otimizando o tempo.",
+        "tempo": "15 minutos",
+        "porque": "Bife com um molho cítrico e acompanhamento de grão-de-bico, oferecendo uma refeição proteica e nutritiva, rápida de preparar em uma panela só. Pode ser facilmente adaptado para render sobras.",
         "tags": [
           "carne_vermelha",
+          "grelhado",
           "rapido",
-          "saudavel",
-          "refogado"
+          "equilibrado"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "¾ de xícara (chá) de grão-de-bico (meia lata)",
-          "½ cebola",
-          "1 colher (sopa) de azeite",
-          "1 pitada de açúcar",
-          "½ colher (chá) de páprica doce",
-          "1 pitada de cominho em pó",
-          "Sal a gosto",
-          "1 bife de contrafilé",
+          "1 bife de contrafilé (cerca de 200g)",
           "1 colher (chá) de azeite",
           "⅓ de xícara (chá) de água",
           "Raspas de 1 limão-siciliano",
           "2 colheres (sopa) de caldo de limão-siciliano",
           "1 colher (sopa) de manteiga gelada",
-          "Pimenta-do-reino moída na hora a gosto",
-          "1 maço de miniagrião"
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "1 maço de miniagrião (opcional, para servir)",
+          "Para o grão-de-bico:",
+          "1 lata de grão-de-bico cozido (cerca de 240g)",
+          "½ cebola pequena",
+          "1 colher (chá) de azeite",
+          "½ colher (chá) de páprica doce",
+          "½ colher (chá) de cominho em pó",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Passe o grão-de-bico por uma peneira sob água corrente e deixe escorrer bem.",
-          "Descasque e corte a cebola em fatias de 0,5 cm.",
-          "Em uma frigideira grande em fogo médio, refogue a cebola com azeite, sal e açúcar por cerca de 3 minutos até dourar.",
-          "Adicione o grão-de-bico, a páprica e o cominho, misture e cozinhe por 2 minutos. Transfira para uma tigela e reserve a frigideira.",
-          "Tempere o bife com sal. Leve a frigideira em fogo alto com azeite e doure o bife por cerca de 2 minutos de cada lado.",
-          "Retire o bife, adicione água, raspas e caldo de limão à frigideira, mexa e incorpore a manteiga gelada.",
-          "Sirva o bife com o molho, o grão-de-bico refogado e o agrião."
+          "Passe o grão-de-bico por uma peneira e escorra bem. Pique a cebola em cubos pequenos.",
+          "Tempere o bife com sal e pimenta-do-reino.",
+          "Leve uma frigideira grande ao fogo médio. Adicione 1 colher (chá) de azeite e doure a cebola por cerca de 3 minutos.",
+          "Junte o grão-de-bico, a páprica e o cominho. Cozinhe por 2 minutos, mexendo ocasionalmente. Retire da frigideira e reserve.",
+          "Na mesma frigideira, adicione 1 colher (chá) de azeite e grelhe o bife por 2-3 minutos de cada lado para o ponto malpassado. Retire o bife e cubra com papel alumínio para descansar.",
+          "Na frigideira quente, regue com a água e raspe o fundo para soltar os sabores. Adicione o caldo e as raspas de limão, a manteiga gelada e misture até o molho encorpar.",
+          "Sirva o bife com o molho de limão e o grão-de-bico. Se desejar, adicione miniagrião."
         ],
         "fonte": {
           "status": "verified",
@@ -50,7 +95,7 @@
           "title": "Bife com molho de limão e grão-de-bico - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-22T15:27:43+00:00"
+          "checked_at": "2026-09-24T15:45:29+00:00"
         },
         "imagem": {
           "kind": "source",
@@ -60,133 +105,91 @@
         "id": "bife-com-molho-de-limao-e-grao-de-bico-43f65ca8"
       },
       {
-        "nome": "Fraldinha assada na Air Fryer da Rita Lobo",
-        "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Carne vermelha, preparo na airfryer (método preferencial), rápido e com potencial para sobras, ideal para o almoço do dia seguinte.",
-        "tags": [
-          "carne_vermelha",
-          "airfryer",
-          "rapido",
-          "sobra"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 fraldinha em peça (cerca de 1 kg)",
-          "1 colher (sopa) de sal grosso",
-          "1 colher (sopa) de azeite",
-          "Pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Retire a fraldinha da geladeira 20 minutos antes do preparo.",
-          "Tempere a fraldinha com azeite, sal grosso e pimenta-do-reino, massageando bem para envolver toda a superfície da carne.",
-          "Dobre a parte mais fina da fraldinha para baixo e coloque na cesta da Air Fryer com a gordura para cima.",
-          "Asse na Air Fryer a 200°C por 15 minutos.",
-          "Vire a fraldinha e asse por mais 5 minutos, ou até dourar por igual.",
-          "Retire da Air Fryer e deixe descansar por 5 minutos antes de cortar contra as fibras e servir."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/fraldinha-assada-na-air-fryer",
-          "title": "Fraldinha assada na Air Fryer da Rita Lobo - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-22T15:27:44+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9485-blog-fraldinha-assada-na-af-4.webp",
-          "alt": "Fraldinha assada na Air Fryer da Rita Lobo"
-        },
-        "id": "fraldinha-assada-na-air-fryer-da-rita-lobo-cd3e31a7"
-      },
-      {
-        "nome": "Salada de tomate com azeite crocante",
+        "nome": "Homus a jato",
         "curso": "entrada",
         "tempo": "15 minutos",
-        "porque": "Entrada leve, fresca, rápida e com um toque crocante, ideal para abrir o apetite sem pesar antes dos pratos principais de carne.",
+        "porque": "Uma entrada vegetariana, prática e rápida de preparar, ideal para acompanhar pães ou legumes. É uma opção leve e saudável.",
         "tags": [
           "vegetariano",
           "entrada",
           "rapido",
-          "fresco"
+          "leve"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "3 tomates maduros",
-          "½ xícara (chá) de azeite",
-          "3 colheres (sopa) de castanha-de-caju torrada sem sal",
-          "2 colheres (sopa) de semente de girassol",
-          "3 dentes de alho",
-          "1 colher (chá) de semente de coentro",
-          "½ colher (chá) de pimenta calabresa",
-          "3 ramos de alecrim",
+          "1 lata de grão-de-bico cozido (cerca de 240g)",
+          "3 colheres (sopa) de tahine (pasta de gergelim)",
+          "1 dente de alho descascado",
+          "Caldo de ½ limão",
+          "Água filtrada para dar ponto",
           "Sal a gosto"
         ],
         "preparo": [
-          "Lave e corte os tomates em rodelas de 0,5 cm. Arrume-os em um prato de servir.",
-          "Descasque e corte os dentes de alho em fatias finas. Debulhe as folhas de alecrim e pique grosseiramente as castanhas.",
-          "Em uma frigideira pequena, coloque o azeite, a castanha-de-caju, as sementes de girassol e de coentro, a pimenta calabresa, o alecrim e o sal.",
-          "Leve a frigideira ao fogo médio e cozinhe, mexendo de vez em quando, por cerca de 5 minutos, até as castanhas dourarem e o azeite ficar aromático.",
-          "Regue os tomates com o azeite crocante e sirva a seguir."
+          "Escorra o grão-de-bico da lata e descarte a água.",
+          "No processador ou liquidificador, junte o grão-de-bico, o tahine, o alho, o caldo de limão e o sal.",
+          "Bata bem, adicionando água filtrada aos poucos até atingir a consistência desejada.",
+          "Prove e ajuste o sal e o limão, se necessário.",
+          "Sirva com pão sírio, torradas ou legumes crus."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
-          "title": "Salada de tomate com azeite crocante - Panelinha",
+          "url": "https://panelinha.com.br/receita/homus-a-jato",
+          "title": "Homus a jato - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-22T15:27:44+00:00"
+          "checked_at": "2026-09-24T15:45:29+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
-          "alt": "Salada de tomate com azeite crocante"
+          "url": "https://i.panelinha.com.br/i1/bk-3526-blog-homus-a-jato.webp",
+          "alt": "Homus a jato"
         },
-        "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
+        "id": "homus-a-jato-fda240af"
       },
       {
-        "nome": "Pavê de Limão na Travessa",
+        "nome": "Tacinha com Creme de Coco e Manga",
         "curso": "sobremesa",
-        "tempo": "80 minutos",
-        "porque": "Sobremesa clássica, refrescante, fácil de preparar e não requer forno, perfeita para finalizar a refeição de forma leve e prática.",
+        "tempo": "40 minutos",
+        "porque": "Uma sobremesa leve, refrescante e rápida de preparar, combinando o sabor tropical do coco e da manga. Perfeita para um casal jovem e pode ser porcionada para sobrar.",
         "tags": [
+          "sobremesa",
           "doce",
-          "refrescante",
-          "sem_forno",
+          "leve",
           "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 latas de Leite Condensado MOÇA®",
-          "Suco de 3 a 4 limões (limão-tahiti ou limão-siciliano)",
-          "1 caixinha de NESTLÉ® Creme de Leite (200 g)",
-          "1 pacote de Biscoito TOSTINES® Maisena"
+          "1 lata de Leite MOÇA® (395g)",
+          "1 xícara (chá) de Leite Líquido NINHO® Forti+ Integral",
+          "2 colheres (sopa) de amido de milho",
+          "1 gema",
+          "1 colher (chá) de essência de baunilha",
+          "1 lata de NESTLÉ® Creme de Leite (200g)",
+          "1 manga grande madura, picada",
+          "Raspas de casca de limão para decorar (opcional)"
         ],
         "preparo": [
-          "Em um recipiente, misture o Leite Condensado com o suco de limão até obter um creme espesso.",
-          "Adicione o NESTLÉ® Creme de Leite e misture delicadamente. Reserve.",
-          "Em uma travessa, faça uma camada de biscoitos.",
-          "Cubra os biscoitos com uma camada do creme de limão.",
-          "Alterne as camadas de biscoito e creme, finalizando com uma camada de creme.",
-          "Leve à geladeira por cerca de 1 hora ou até firmar bem.",
-          "Sirva bem gelado."
+          "Em uma panela, misture o Leite MOÇA, o Leite NINHO, o amido de milho e a gema.",
+          "Leve ao fogo baixo, mexendo sempre, até engrossar. Retire do fogo e adicione a essência de baunilha.",
+          "Incorpore o NESTLÉ Creme de Leite e misture bem. Deixe o creme esfriar.",
+          "Distribua metade do creme em tacinhas individuais. Adicione a manga picada e cubra com o restante do creme.",
+          "Leve as tacinhas à geladeira por pelo menos 30 minutos para firmar.",
+          "Decore com raspas de limão, se desejar, e sirva gelado."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/pave-de-limao-na-travessa",
-          "checked_at": "2026-09-22T15:27:45+00:00"
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/tacinha-com-creme-de-coco-e-manga",
+          "title": "Tacinha com Creme de Coco e Manga",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-24T15:45:32+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/28992229/pexels-photo-28992229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Bolinhos fritos crocantes servidos com limão fresco e tomate fatiado sobre uma cama de alface.",
-          "bank_id": "28992229",
-          "credit": "pedro furtado",
-          "query": "Pavê de Limão na Travessa"
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/eadc1befed6a282fb147be7e5d4be2c0.jpg",
+          "alt": "Tacinha com Creme de Coco e Manga"
         },
-        "id": "pave-de-limao-na-travessa-2ce0ea7a"
+        "id": "tacinha-com-creme-de-coco-e-manga-ff7ec713"
       }
     ]
   },
