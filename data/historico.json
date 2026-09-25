@@ -3723,5 +3723,29 @@
     ],
     "data": "24/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "almondega-com-molho-de-tomate-na-air-fryer-0e6aaea2",
+    "titulo": "Almôndega com Molho de Tomate na Air Fryer",
+    "tags": [
+      "carne_moida",
+      "air_fryer",
+      "pratico",
+      "refeicao_completa"
+    ],
+    "data": "25/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bolinho-quente-de-doce-de-leite-na-air-fryer-d483b01b",
+    "titulo": "Bolinho Quente de Doce de Leite na Air Fryer",
+    "tags": [
+      "doce_de_leite",
+      "air_fryer",
+      "rapido",
+      "sobremesa_quente"
+    ],
+    "data": "25/09/2026",
+    "fonte_status": "unverified"
   }
 ]
