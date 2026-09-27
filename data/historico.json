@@ -3747,5 +3747,41 @@
     ],
     "data": "25/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-parmegiana-de-forno-sem-fritura-621945e5",
+    "titulo": "Bife à Parmegiana de Forno (sem fritura)",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "prato_principal",
+      "sem_fritura"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-com-mandioquinha-a509b1c5",
+    "titulo": "Carne de Panela com Mandioquinha",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "refeicao_completa",
+      "rende_sobra"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-maracuja-cremoso-e-pratico-d17c593a",
+    "titulo": "Mousse de Maracujá Cremoso e Prático",
+    "tags": [
+      "doce",
+      "fruta",
+      "rapido",
+      "gelado"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
   }
 ]

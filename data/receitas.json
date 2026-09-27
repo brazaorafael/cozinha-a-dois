@@ -1,197 +1,193 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-25T12:44:39-03:00",
+  "gerado_em": "2026-09-27T12:32:18-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "25/09/2026",
-    "dia_semana": "sexta",
+    "data": "27/09/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Bife com Molho de Limão e Grão-de-Bico",
+        "nome": "Bife à Parmegiana de Forno (sem fritura)",
         "curso": "principal",
-        "tempo": "20-30 minutos",
-        "porque": "Receita de carne vermelha (bife) rápida e prática, com um molho diferente e saboroso, ideal para um jantar a dois. O grão-de-bico adiciona equilíbrio e não utiliza fritura excessiva, sendo uma opção equilibrada e dentro do tempo.",
+        "tempo": "45 minutos",
+        "porque": "Uma versão mais saudável e prática do clássico bife à parmegiana, feita no forno para evitar frituras. É uma refeição saborosa, com carne vermelha e molho, ideal para um jantar a dois.",
         "tags": [
           "carne_vermelha",
-          "rapido",
-          "refogado",
-          "equilibrado"
+          "forno",
+          "prato_principal",
+          "sem_fritura"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 bifes de contrafilé (ou alcatra/coxão mole)",
-          "1 colher (chá) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "1 cebola",
-          "2 dentes de alho",
-          "1 lata de grão-de-bico (240g drenado)",
-          "1/2 xícara (chá) de caldo de legumes (ou água)",
-          "Suco de 1/2 limão",
-          "Folhas de salsinha picadas a gosto"
+          "2 bifes de alcatra ou contrafilé (cerca de 150g cada)",
+          "Sal e pimenta-do-reino a gosto",
+          "1 ovo batido",
+          "½ xícara (chá) de farinha de rosca",
+          "1 colher (sopa) de azeite",
+          "1 xícara (chá) de molho de tomate pronto",
+          "100g de queijo muçarela fatiado",
+          "Manjericão fresco para decorar (opcional)"
         ],
         "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino. Reserve.",
-          "Pique a cebola e o alho finamente. Escorra e lave o grão-de-bico.",
-          "Aqueça o azeite em uma frigideira grande em fogo médio-alto. Doure os bifes por 2-3 minutos de cada lado, até o ponto desejado. Retire e reserve.",
-          "Na mesma frigideira, adicione a cebola e refogue até murchar. Junte o alho e refogue por mais 1 minuto.",
-          "Acrescente o grão-de-bico e o caldo de legumes (ou água). Deixe ferver por alguns minutos para incorporar os sabores.",
-          "Retorne os bifes à frigideira, regue com o suco de limão e polvilhe com salsinha picada. Sirva imediatamente."
+          "Tempere os bifes com sal e pimenta-do-reino a gosto.",
+          "Passe cada bife no ovo batido e, em seguida, na farinha de rosca, cobrindo bem todos os lados.",
+          "Em uma assadeira untada com azeite, disponha os bifes empanados.",
+          "Leve ao forno pré-aquecido a 200°C por cerca de 15-20 minutos, virando na metade do tempo, até dourarem levemente.",
+          "Retire do forno, cubra cada bife com o molho de tomate e, por cima, coloque as fatias de queijo muçarela.",
+          "Retorne ao forno por mais 10-15 minutos, ou até o queijo derreter e gratinar.",
+          "Sirva imediatamente, decorado com manjericão fresco, se desejar."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receitas/bife-a-parmegiana-de-forno/",
+          "checked_at": "2026-09-27T15:39:46+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/28893432/pexels-photo-28893432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Desfrute de um bife de cheeseburger coberto com molho, servido com batatas fritas e uma guarnição de tomate fresco. Perfeito para amantes da gastronomia.",
+          "bank_id": "28893432",
+          "credit": "pedro furtado",
+          "query": "Bife à Parmegiana de Forno (sem fritura)"
+        },
+        "id": "bife-a-parmegiana-de-forno-sem-fritura-621945e5"
+      },
+      {
+        "nome": "Carne de Panela com Mandioquinha",
+        "curso": "principal",
+        "tempo": "60 minutos",
+        "porque": "Um prato reconfortante e completo, com carne vermelha macia e mandioquinha, cozido na panela de pressão para agilizar o preparo. É uma ótima opção para render sobras para o almoço do dia seguinte.",
+        "tags": [
+          "carne_vermelha",
+          "panela_de_pressao",
+          "refeicao_completa",
+          "rende_sobra"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500g de músculo ou acém em cubos",
+          "1 cebola grande picada",
+          "3 dentes de alho amassados",
+          "2 colheres (sopa) de óleo",
+          "1 tablete de caldo de carne (ou caseiro)",
+          "1 xícara (chá) de água quente",
+          "1 colher (sopa) de extrato de tomate",
+          "500g de mandioquinha (batata baroa) em pedaços grandes",
+          "Sal e pimenta-do-reino a gosto",
+          "Cheiro-verde picado para finalizar"
+        ],
+        "preparo": [
+          "Em uma panela de pressão, aqueça o óleo e doure a carne em cubos. Tempere com sal e pimenta-do-reino.",
+          "Adicione a cebola picada e o alho amassado, refogando até ficarem macios e perfumados.",
+          "Dissolva o tablete de caldo de carne na água quente e adicione à panela junto com o extrato de tomate. Misture bem.",
+          "Acrescente a mandioquinha em pedaços. Se necessário, adicione mais um pouco de água quente até cobrir os ingredientes.",
+          "Feche a panela de pressão e, após pegar pressão, cozinhe por cerca de 25-30 minutos.",
+          "Desligue o fogo, espere a pressão sair naturalmente e abra a panela. Verifique o tempero e a maciez da carne e da mandioquinha.",
+          "Finalize com cheiro-verde picado e sirva quente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.guiadacozinha.com.br/receitas/carne-de-panela-com-mandioquinha-pratica-para-o-dia-a-dia/",
+          "checked_at": "2026-09-27T15:39:47+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
+          "bank_id": "34837746",
+          "credit": "Caleb Oquendo",
+          "query": "Carne de Panela com Mandioquinha"
+        },
+        "id": "carne-de-panela-com-mandioquinha-a509b1c5"
+      },
+      {
+        "nome": "Salada Rápida de Grão-de-Bico",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, fresca e muito rápida de preparar, perfeita para abrir o apetite sem pesar. Rica em fibras e com um toque aromático de manjericão.",
+        "tags": [
+          "vegetariano",
+          "leve",
+          "rapido",
+          "fresco"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1½ xícara (chá) de grão-de-bico cozido (ou 1 lata)",
+          "2 colheres (sopa) de caldo de limão",
+          "4 colheres (sopa) de azeite",
+          "20 folhas de manjericão fresco",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto"
+        ],
+        "preparo": [
+          "Escorra o grão-de-bico cozido em uma peneira, se desejar, passe por água corrente para remover o excesso de sal.",
+          "Em uma tigela média, adicione o grão-de-bico escorrido.",
+          "Regue com o caldo de limão e o azeite.",
+          "Acrescente as folhas de manjericão fresco, picadas grosseiramente ou inteiras.",
+          "Tempere com sal e pimenta-do-reino moída na hora a gosto.",
+          "Misture bem todos os ingredientes e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/bife-com-molho-de-limao-e-grao-de-bico",
-          "title": "Bife com molho de limão e grão-de-bico - Panelinha",
+          "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
+          "title": "Salada rápida de grão-de-bico - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-25T15:46:13+00:00"
+          "checked_at": "2026-09-27T15:39:48+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7174-img-9932.webp",
-          "alt": "Bife com Molho de Limão e Grão-de-Bico"
+          "url": "https://i.panelinha.com.br/i1/bk-3575-salada-grao-de-bico-mexicana.webp",
+          "alt": "Salada Rápida de Grão-de-Bico"
         },
-        "id": "bife-com-molho-de-limao-e-grao-de-bico-43f65ca8"
+        "id": "salada-rapida-de-grao-de-bico-f701bcb3"
       },
       {
-        "nome": "Almôndega com Molho de Tomate na Air Fryer",
-        "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Uma opção de carne vermelha (carne moída) prática e saudável, preparada na air fryer, com um molho de tomate rústico. Rende bem para sobras e é diferente das almôndegas aperitivo, atendendo à preferência por pouca fritura.",
-        "tags": [
-          "carne_moida",
-          "air_fryer",
-          "pratico",
-          "refeicao_completa"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "**Para as Almôndegas:**",
-          "500 g de patinho moído",
-          "1 cebola pequena",
-          "2 dentes de alho",
-          "1/4 xícara (chá) de farinha de rosca",
-          "1 ovo",
-          "2 ramos de salsinha",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Azeite a gosto",
-          "**Para o Molho:**",
-          "500 g de tomate-cereja (ou 2 tomates médios)",
-          "2 dentes de alho (inteiros com casca)",
-          "1 cebola pequena",
-          "1/4 xícara (chá) de azeite",
-          "Folhas de manjericão fresco a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "**Para o molho:** Lave os tomates e corte ao meio. Descasque a cebola e pique fino. Separe 2 dentes de alho inteiros com casca.",
-          "Em uma tigela, misture os tomates, a cebola picada, os dentes de alho inteiros, azeite, sal e pimenta. Leve à air fryer a 180°C por 20 minutos.",
-          "**Para as almôndegas:** Pique a cebola e o alho finamente. Pique a salsinha. Em uma tigela, misture a carne moída, cebola, alho, farinha de rosca, ovo, salsinha, sal e pimenta. Modele as almôndegas.",
-          "Após os 20 minutos do molho, retire os dentes de alho inteiros (descarte a casca e amasse a polpa). Adicione as almôndegas ao molho na air fryer.",
-          "Retorne à air fryer e asse a 180°C por mais 20-25 minutos, virando as almôndegas na metade do tempo, até dourarem e cozinharem por completo.",
-          "Retire da air fryer, adicione as folhas de manjericão fresco e sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Almondega-com-molho-de-tomate-na-Air-Fryer-da-Rita-Lobo",
-          "checked_at": "2026-09-25T15:46:13+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/34314421/pexels-photo-34314421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosas almôndegas decoradas com salsa em um molho de tomate vibrante, perfeitas para qualquer refeição.",
-          "bank_id": "34314421",
-          "credit": "ERIVELTO Martins",
-          "query": "Almôndega com Molho de Tomate na Air Fryer"
-        },
-        "id": "almondega-com-molho-de-tomate-na-air-fryer-0e6aaea2"
-      },
-      {
-        "nome": "Queijo Brie Aperitivo na Air Fryer",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada sofisticada e muito rápida de preparar na air fryer, com pouquíssimos ingredientes. Ideal para um jantar a dois e utiliza um método de preparo priorizado.",
-        "tags": [
-          "queijo",
-          "air_fryer",
-          "rapido",
-          "elegante"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 peça de queijo francês petit brie (125 g)",
-          "1/4 colher (chá) de azeite",
-          "1 colher (chá) de mel",
-          "1/4 colher (chá) de pimenta calabresa seca",
-          "5 ramos de tomilho-limão (ou tomilho fresco)"
-        ],
-        "preparo": [
-          "Preaqueça a Air Fryer a 180 ºC por 5 minutos.",
-          "Em um ramequim ou tigela pequena que possa ir à air fryer, coloque o queijo brie.",
-          "Regue o queijo com o azeite, o mel e polvilhe a pimenta calabresa seca.",
-          "Distribua os ramos de tomilho sobre o queijo.",
-          "Leve à air fryer e asse por 8-10 minutos, ou até o queijo estar derretido e borbulhante.",
-          "Sirva imediatamente com torradas ou pão."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
-          "checked_at": "2026-09-25T15:46:14+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
-          "bank_id": "31994015",
-          "credit": "Mimi",
-          "query": "Queijo Brie Aperitivo na Air Fryer"
-        },
-        "id": "queijo-brie-aperitivo-na-air-fryer-f463641b"
-      },
-      {
-        "nome": "Bolinho Quente de Doce de Leite na Air Fryer",
+        "nome": "Mousse de Maracujá Cremoso e Prático",
         "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Uma sobremesa rápida e deliciosa, com o toque especial do doce de leite e a praticidade da air fryer. Perfeito para um jantar a dois e pode render sobras, além de ser uma opção de sobremesa quente e reconfortante.",
+        "tempo": "15 minutos de preparo + tempo de geladei",
+        "porque": "Uma sobremesa tropical, leve e refrescante, perfeita para finalizar o jantar. É fácil de fazer, requer poucos ingredientes e rende porções extras para o almoço do dia seguinte.",
         "tags": [
-          "doce_de_leite",
-          "air_fryer",
+          "doce",
+          "fruta",
           "rapido",
-          "sobremesa_quente"
+          "gelado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 lata de doce de leite (395 g)",
-          "2 ovos",
-          "1/2 xícara (chá) de farinha de trigo",
-          "1 pitada de sal",
-          "Manteiga e farinha de trigo para untar os ramequins"
+          "1 colher (sopa) de gelatina em pó sem sabor (12 g)",
+          "5 colheres (sopa) de água fria (para hidratar a gelatina)",
+          "1 embalagem de Leite Condensado MOÇA® (395 g)",
+          "1 caixinha de NESTLÉ® Creme de Leite (200g)",
+          "1 xícara (chá) de suco de maracujá concentrado (240 ml)",
+          "Polpa de 1 maracujá com sementes (opcional, para decorar)"
         ],
         "preparo": [
-          "Unte 4 ramequins (7 cm de diâmetro x 4 cm de altura) com manteiga e polvilhe com farinha de trigo.",
-          "Em uma tigela, misture o doce de leite e os ovos, um por um, até incorporar bem.",
-          "Peneire a farinha de trigo sobre a mistura e adicione a pitada de sal. Misture delicadamente com uma espátula até a massa ficar homogênea.",
-          "Divida a massa igualmente entre os ramequins, preenchendo até cerca de 1 cm da borda.",
-          "Preaqueça a Air Fryer a 140 ºC por 5 minutos.",
-          "Coloque os ramequins no cesto da Air Fryer e asse por 15 minutos, ou até as bordas firmarem e o centro ainda estar macio.",
-          "Retire com cuidado e espere 5 minutos antes de desenformar e servir. Fica delicioso com sorvete de creme."
+          "Em um recipiente refratário, hidrate a gelatina em pó sem sabor com a água fria e leve ao micro-ondas por 30 segundos para dissolver completamente.",
+          "No liquidificador, adicione o Leite Condensado MOÇA®, o NESTLÉ Creme de Leite e o suco de maracujá concentrado.",
+          "Acrescente a gelatina dissolvida ao liquidificador e bata tudo por cerca de 2 a 3 minutos, até obter uma mistura homogênea e aerada.",
+          "Despeje a mousse em taças individuais ou em um refratário grande.",
+          "Leve à geladeira por, no mínimo, 2 horas, ou até que a mousse esteja firme.",
+          "Antes de servir, decore com a polpa fresca do maracujá, se desejar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bolinho-quente-de-doce-de-leite-na-Air-Fryer-da-Rita-Lobo",
-          "checked_at": "2026-09-25T15:46:15+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-maracuja-cremoso-e-pratico",
+          "checked_at": "2026-09-27T15:39:49+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34472660/pexels-photo-34472660.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma configuração aconchegante com café, pão de queijo e doce de leite em São Paulo.",
-          "bank_id": "34472660",
-          "credit": "Cibele Bergamim",
-          "query": "Bolinho Quente de Doce de Leite na Air Fryer"
+          "url": "https://images.pexels.com/photos/5060425/pexels-photo-5060425.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de gelato de maracujá cremoso com frutas frescas como guarnição em uma mesa colorida.",
+          "bank_id": "5060425",
+          "credit": "ROMAN ODINTSOV",
+          "query": "Mousse de Maracujá Cremoso e Prático"
         },
-        "id": "bolinho-quente-de-doce-de-leite-na-air-fryer-d483b01b"
+        "id": "mousse-de-maracuja-cremoso-e-pratico-d17c593a"
       }
     ]
   },
