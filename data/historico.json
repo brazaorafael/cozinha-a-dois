@@ -3783,5 +3783,269 @@
     ],
     "data": "27/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bisteca-com-banana-grelhada-7ca766b8",
+    "titulo": "Bisteca com Banana Grelhada",
+    "tags": [
+      "carne_de_porco",
+      "grelha",
+      "rapido",
+      "agridoce"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "espetinho-de-legumes-grelhados-0119007a",
+    "titulo": "Espetinho de Legumes Grelhados",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "grelha",
+      "saudavel"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "creme-de-abacate-e-cacau-a8cc902d",
+    "titulo": "Creme de Abacate e Cacau",
+    "tags": [
+      "doce",
+      "rapido",
+      "saudavel",
+      "sem_forno"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "papilote-de-salmao-com-legumes-05e63779",
+    "titulo": "Papilote de Salmão com Legumes",
+    "tags": [
+      "peixe",
+      "forno",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "lagarto-assado-fatiado-com-molho-de-ervas-453c8cba",
+    "titulo": "Lagarto Assado Fatiado com Molho de Ervas",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "com_sobra",
+      "ervas"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-lentilha-com-tomate-cereja-e9cf8438",
+    "titulo": "Salada de Lentilha com Tomate Cereja",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pudim-de-leite-condensado-na-caneca-dd4f6bbe",
+    "titulo": "Pudim de Leite Condensado na Caneca",
+    "tags": [
+      "doce",
+      "rapido",
+      "microondas",
+      "individual"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-de-frango-grelhado-com-molho-de-iogurte-e-h-8bb88226",
+    "titulo": "Filé de Frango Grelhado com Molho de Iogurte e Hortelã",
+    "tags": [
+      "frango",
+      "grelha",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "escondidinho-de-carne-moida-com-pure-de-mandioca-b8db5151",
+    "titulo": "Escondidinho de Carne Moída com Purê de Mandioca",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "com_sobra",
+      "confort_food"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pate-de-azeitona-com-torradas-5402e3a6",
+    "titulo": "Patê de Azeitona com Torradas",
+    "tags": [
+      "entrada",
+      "rapido",
+      "vegetariano",
+      "pratico"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "musse-pratica-de-chocolate-15e3de8d",
+    "titulo": "Musse Prática de Chocolate",
+    "tags": [
+      "doce",
+      "chocolate",
+      "rapido",
+      "sem_forno"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bife-de-tira-grelhado-com-chimichurri-65383868",
+    "titulo": "Bife de Tira Grelhado com Chimichurri",
+    "tags": [
+      "carne_vermelha",
+      "grelha",
+      "rapido",
+      "saboroso"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-assado-com-batatas-rusticas-e-alecrim-d1be484d",
+    "titulo": "Frango Assado com Batatas Rústicas e Alecrim",
+    "tags": [
+      "frango",
+      "forno",
+      "com_sobra",
+      "rapido"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "chips-de-batata-doce-na-airfryer-com-molho-de-io-78ef7863",
+    "titulo": "Chips de Batata Doce na Airfryer com Molho de Iogurte",
+    "tags": [
+      "entrada",
+      "airfryer",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "gelatina-colorida-saudavel-fc4d6091",
+    "titulo": "Gelatina Colorida Saudável",
+    "tags": [
+      "doce",
+      "refrescante",
+      "saudavel",
+      "sem_forno"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "medalhao-de-lombo-de-porco-com-molho-de-mostarda-c7acf56e",
+    "titulo": "Medalhão de Lombo de Porco com Molho de Mostarda e Mel e Aspargos",
+    "tags": [
+      "carne_de_porco",
+      "refogado",
+      "rapido",
+      "especial"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bruschetta-de-cogumelos-dc781d28",
+    "titulo": "Bruschetta de Cogumelos",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "rapido",
+      "pratico"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "crumble-de-maca-com-aveia-25e087bb",
+    "titulo": "Crumble de Maçã com Aveia",
+    "tags": [
+      "doce",
+      "forno",
+      "frutas",
+      "confort_food"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "espetinho-caprese-com-molho-pesto-3807f609",
+    "titulo": "Espetinho Caprese com Molho Pesto",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "rapido",
+      "fresco"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-frutas-com-iogurte-e-granola-9a95b896",
+    "titulo": "Salada de Frutas com Iogurte e Granola",
+    "tags": [
+      "doce",
+      "saudavel",
+      "frutas",
+      "rapido"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bolinho-de-arroz-assado-com-queijo-4bdd3f81",
+    "titulo": "Bolinho de Arroz Assado com Queijo",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "forno",
+      "aproveitamento"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pave-de-limao-com-biscoito-maria-1cb14325",
+    "titulo": "Pavê de Limão com Biscoito Maria",
+    "tags": [
+      "doce",
+      "limao",
+      "sem_forno",
+      "rapido"
+    ],
+    "data": "27/09/2026",
+    "fonte_status": "unverified"
   }
 ]
