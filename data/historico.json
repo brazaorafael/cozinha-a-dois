@@ -4047,5 +4047,53 @@
     ],
     "data": "27/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "strogonoff-de-carne-cremoso-9e82e0ff",
+    "titulo": "Strogonoff de Carne Cremoso",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "jantar_rapido",
+      "cremoso"
+    ],
+    "data": "28/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-com-brocolis-e-molho-de-ostra-a5001f20",
+    "titulo": "Carne com Brócolis e Molho de Ostra",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "culinaria_asiatica",
+      "equilibrado"
+    ],
+    "data": "28/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "legumes-mistos-assados-e340de60",
+    "titulo": "Legumes Mistos Assados",
+    "tags": [
+      "vegetariano",
+      "assado",
+      "entrada_rapida",
+      "saudavel"
+    ],
+    "data": "28/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "brownie-de-micro-ondas-63e549c5",
+    "titulo": "Brownie de Micro-ondas",
+    "tags": [
+      "chocolate",
+      "sobremesa_rapida",
+      "micro_ondas",
+      "facil"
+    ],
+    "data": "28/09/2026",
+    "fonte_status": "verified"
   }
 ]

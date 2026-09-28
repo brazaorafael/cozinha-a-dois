@@ -1,193 +1,197 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-27T22:03:08-03:00",
+  "gerado_em": "2026-09-28T15:30:39-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "27/09/2026",
-    "dia_semana": "domingo",
+    "data": "28/09/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Bife à Parmegiana de Forno (sem fritura)",
+        "nome": "Strogonoff de Carne Cremoso",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Uma versão mais saudável e prática do clássico bife à parmegiana, feita no forno para evitar frituras. É uma refeição saborosa, com carne vermelha e molho, ideal para um jantar a dois.",
+        "tempo": "35 minutos",
+        "porque": "Um clássico reconfortante e rápido de preparar, com carne vermelha em tiras e um molho cremoso. É um prato completo e saboroso, ideal para um jantar prático e com bom potencial para sobras.",
         "tags": [
           "carne_vermelha",
-          "forno",
-          "prato_principal",
-          "sem_fritura"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bifes de alcatra ou contrafilé (cerca de 150g cada)",
-          "Sal e pimenta-do-reino a gosto",
-          "1 ovo batido",
-          "½ xícara (chá) de farinha de rosca",
-          "1 colher (sopa) de azeite",
-          "1 xícara (chá) de molho de tomate pronto",
-          "100g de queijo muçarela fatiado",
-          "Manjericão fresco para decorar (opcional)"
-        ],
-        "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino a gosto.",
-          "Passe cada bife no ovo batido e, em seguida, na farinha de rosca, cobrindo bem todos os lados.",
-          "Em uma assadeira untada com azeite, disponha os bifes empanados.",
-          "Leve ao forno pré-aquecido a 200°C por cerca de 15-20 minutos, virando na metade do tempo, até dourarem levemente.",
-          "Retire do forno, cubra cada bife com o molho de tomate e, por cima, coloque as fatias de queijo muçarela.",
-          "Retorne ao forno por mais 10-15 minutos, ou até o queijo derreter e gratinar.",
-          "Sirva imediatamente, decorado com manjericão fresco, se desejar."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receitas/bife-a-parmegiana-de-forno/",
-          "checked_at": "2026-09-27T15:39:46+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/28893432/pexels-photo-28893432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Desfrute de um bife de cheeseburger coberto com molho, servido com batatas fritas e uma guarnição de tomate fresco. Perfeito para amantes da gastronomia.",
-          "bank_id": "28893432",
-          "credit": "pedro furtado",
-          "query": "Bife à Parmegiana de Forno (sem fritura)"
-        },
-        "id": "bife-a-parmegiana-de-forno-sem-fritura-621945e5"
-      },
-      {
-        "nome": "Carne de Panela com Mandioquinha",
-        "curso": "principal",
-        "tempo": "60 minutos",
-        "porque": "Um prato reconfortante e completo, com carne vermelha macia e mandioquinha, cozido na panela de pressão para agilizar o preparo. É uma ótima opção para render sobras para o almoço do dia seguinte.",
-        "tags": [
-          "carne_vermelha",
-          "panela_de_pressao",
-          "refeicao_completa",
-          "rende_sobra"
+          "refogado",
+          "jantar_rapido",
+          "cremoso"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de músculo ou acém em cubos",
-          "1 cebola grande picada",
-          "3 dentes de alho amassados",
-          "2 colheres (sopa) de óleo",
-          "1 tablete de caldo de carne (ou caseiro)",
-          "1 xícara (chá) de água quente",
-          "1 colher (sopa) de extrato de tomate",
-          "500g de mandioquinha (batata baroa) em pedaços grandes",
-          "Sal e pimenta-do-reino a gosto",
-          "Cheiro-verde picado para finalizar"
+          "1 colher (sopa) de manteiga",
+          "1 cebola pequena picada",
+          "500 g de carne em tiras (filé mignon ou alcatra)",
+          "1 pitada de sal",
+          "1 pitada de pimenta-do-reino",
+          "1/2 xícara (chá) de champignon fatiado",
+          "1/2 xícara (chá) de purê de tomate",
+          "1 colher (sopa) de mostarda",
+          "1 colher (sopa) de ketchup",
+          "1 lata de creme de leite NESTLÉ"
         ],
         "preparo": [
-          "Em uma panela de pressão, aqueça o óleo e doure a carne em cubos. Tempere com sal e pimenta-do-reino.",
-          "Adicione a cebola picada e o alho amassado, refogando até ficarem macios e perfumados.",
-          "Dissolva o tablete de caldo de carne na água quente e adicione à panela junto com o extrato de tomate. Misture bem.",
-          "Acrescente a mandioquinha em pedaços. Se necessário, adicione mais um pouco de água quente até cobrir os ingredientes.",
-          "Feche a panela de pressão e, após pegar pressão, cozinhe por cerca de 25-30 minutos.",
-          "Desligue o fogo, espere a pressão sair naturalmente e abra a panela. Verifique o tempero e a maciez da carne e da mandioquinha.",
-          "Finalize com cheiro-verde picado e sirva quente."
+          "Em uma panela, derreta a manteiga e refogue a cebola até ficar transparente.",
+          "Adicione a carne em tiras, tempere com sal e pimenta, e doure por todos os lados.",
+          "Acrescente o champignon, o purê de tomate, a mostarda e o ketchup. Misture bem e cozinhe por alguns minutos.",
+          "Desligue o fogo e adicione o creme de leite, misturando delicadamente até incorporar.",
+          "Aqueça rapidamente sem deixar ferver. Sirva imediatamente com arroz branco e batata palha."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.guiadacozinha.com.br/receitas/carne-de-panela-com-mandioquinha-pratica-para-o-dia-a-dia/",
-          "checked_at": "2026-09-27T15:39:47+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/strogonoff-de-carne-cremoso",
+          "checked_at": "2026-09-28T18:32:48+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
-          "bank_id": "34837746",
-          "credit": "Caleb Oquendo",
-          "query": "Carne de Panela com Mandioquinha"
+          "url": "https://images.pexels.com/photos/33673972/pexels-photo-33673972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso filé de carne com redução de vinho tinto e risoto cremoso em um prato branco.",
+          "bank_id": "33673972",
+          "credit": "pedro furtado",
+          "query": "Strogonoff de Carne Cremoso"
         },
-        "id": "carne-de-panela-com-mandioquinha-a509b1c5"
+        "id": "strogonoff-de-carne-cremoso-9e82e0ff"
       },
       {
-        "nome": "Salada Rápida de Grão-de-Bico",
+        "nome": "Carne com Brócolis e Molho de Ostra",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Uma opção de carne vermelha inspirada na culinária asiática, rápida de refogar e com um excelente equilíbrio entre proteína e vegetais. O molho de ostra confere um sabor único e delicioso, ideal para um jantar diferente e nutritivo.",
+        "tags": [
+          "carne_vermelha",
+          "refogado",
+          "culinaria_asiatica",
+          "equilibrado"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500 g de carne bovina em tiras (alcatra ou contrafilé)",
+          "1 brócolis médio, separado em floretes",
+          "2 colheres (sopa) de óleo vegetal",
+          "2 dentes de alho picados",
+          "1 pedaço pequeno de gengibre ralado",
+          "3 colheres (sopa) de molho de ostra",
+          "2 colheres (sopa) de shoyu",
+          "1 colher (sopa) de amido de milho dissolvido em 1/4 xícara (chá) de água",
+          "Sal a gosto",
+          "Pimenta-do-reino a gosto"
+        ],
+        "preparo": [
+          "Tempere a carne com sal e pimenta-do-reino. Reserve.",
+          "Em uma panela ou wok, aqueça o óleo e refogue o alho e o gengibre por 1 minuto.",
+          "Adicione a carne e doure rapidamente. Retire a carne da panela e reserve.",
+          "Na mesma panela, adicione os floretes de brócolis e um pouco de água. Cozinhe até ficarem macios, mas ainda crocantes.",
+          "Retorne a carne à panela. Adicione o molho de ostra, o shoyu e a mistura de amido de milho.",
+          "Cozinhe, mexendo sempre, até o molho engrossar. Sirva quente, acompanhado de arroz."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitas.globo.com/receitas/carne-com-brocolis-e-molho-de-ostra-7023164.ghtml",
+          "checked_at": "2026-09-28T18:32:49+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/35474865/pexels-photo-35474865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma refeição chinesa de dar água na boca, incluindo carne, brócolis, arroz e rolinho primavera, servida em um prato decorativo.",
+          "bank_id": "35474865",
+          "credit": "Eddie O.",
+          "query": "Carne com Brócolis e Molho de Ostra"
+        },
+        "id": "carne-com-brocolis-e-molho-de-ostra-a5001f20"
+      },
+      {
+        "nome": "Legumes Mistos Assados",
         "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, fresca e muito rápida de preparar, perfeita para abrir o apetite sem pesar. Rica em fibras e com um toque aromático de manjericão.",
+        "tempo": "30 minutos",
+        "porque": "Uma entrada leve, saudável e colorida, que utiliza o forno para um preparo prático e sem fritura. É versátil, permitindo o uso de diversos legumes disponíveis, e complementa bem as proteínas do prato principal.",
         "tags": [
           "vegetariano",
-          "leve",
-          "rapido",
-          "fresco"
+          "assado",
+          "entrada_rapida",
+          "saudavel"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1½ xícara (chá) de grão-de-bico cozido (ou 1 lata)",
-          "2 colheres (sopa) de caldo de limão",
-          "4 colheres (sopa) de azeite",
-          "20 folhas de manjericão fresco",
+          "1 abobrinha",
+          "1 pimentão vermelho",
+          "1 pimentão amarelo",
+          "½ couve-flor",
+          "1 cebola",
+          "1 cebola-roxa",
+          "3 colheres (sopa) de azeite",
+          "6 galhos de alecrim",
           "Sal a gosto",
           "Pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Escorra o grão-de-bico cozido em uma peneira, se desejar, passe por água corrente para remover o excesso de sal.",
-          "Em uma tigela média, adicione o grão-de-bico escorrido.",
-          "Regue com o caldo de limão e o azeite.",
-          "Acrescente as folhas de manjericão fresco, picadas grosseiramente ou inteiras.",
-          "Tempere com sal e pimenta-do-reino moída na hora a gosto.",
-          "Misture bem todos os ingredientes e sirva imediatamente."
+          "Preaqueça o forno a 220 ºC (temperatura alta).",
+          "Lave e corte a abobrinha em meias-luas, os pimentões em quadrados e as cebolas em gomos.",
+          "Corte a couve-flor em floretes médios e lave bem.",
+          "Em uma assadeira grande, coloque todos os legumes, regue com azeite, tempere com sal, pimenta e alecrim. Misture bem.",
+          "Espalhe os legumes na assadeira sem amontoar e leve ao forno por cerca de 30 minutos.",
+          "Na metade do tempo, vire os legumes com uma espátula para dourarem por igual. Sirva em seguida."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
-          "title": "Salada rápida de grão-de-bico - Panelinha",
+          "url": "https://panelinha.com.br/receita/legumes-mistos-assados",
+          "title": "Legumes mistos assados - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-09-27T15:39:48+00:00"
+          "checked_at": "2026-09-28T18:32:50+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-3575-salada-grao-de-bico-mexicana.webp",
-          "alt": "Salada Rápida de Grão-de-Bico"
+          "url": "https://i.panelinha.com.br/i1/bk-7607-leg-ass-v3-1.webp",
+          "alt": "Legumes Mistos Assados"
         },
-        "id": "salada-rapida-de-grao-de-bico-f701bcb3"
+        "id": "legumes-mistos-assados-e340de60"
       },
       {
-        "nome": "Mousse de Maracujá Cremoso e Prático",
+        "nome": "Brownie de Micro-ondas",
         "curso": "sobremesa",
-        "tempo": "15 minutos de preparo + tempo de geladei",
-        "porque": "Uma sobremesa tropical, leve e refrescante, perfeita para finalizar o jantar. É fácil de fazer, requer poucos ingredientes e rende porções extras para o almoço do dia seguinte.",
+        "tempo": "10 minutos",
+        "porque": "Uma sobremesa rápida e prática, perfeita para finalizar o jantar sem complicação. Satisfaz a vontade de doce com chocolate e fica pronta em poucos minutos no micro-ondas, ideal para um casal jovem.",
         "tags": [
-          "doce",
-          "fruta",
-          "rapido",
-          "gelado"
+          "chocolate",
+          "sobremesa_rapida",
+          "micro_ondas",
+          "facil"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 colher (sopa) de gelatina em pó sem sabor (12 g)",
-          "5 colheres (sopa) de água fria (para hidratar a gelatina)",
-          "1 embalagem de Leite Condensado MOÇA® (395 g)",
-          "1 caixinha de NESTLÉ® Creme de Leite (200g)",
-          "1 xícara (chá) de suco de maracujá concentrado (240 ml)",
-          "Polpa de 1 maracujá com sementes (opcional, para decorar)"
+          "2 colheres (sopa) de manteiga sem sal",
+          "2 colheres (sopa) de chocolate em pó 50% cacau",
+          "2 colheres (sopa) de açúcar",
+          "1 ovo pequeno",
+          "2 colheres (sopa) de farinha de trigo",
+          "1 pitada de fermento em pó",
+          "Gotas de chocolate (opcional)"
         ],
         "preparo": [
-          "Em um recipiente refratário, hidrate a gelatina em pó sem sabor com a água fria e leve ao micro-ondas por 30 segundos para dissolver completamente.",
-          "No liquidificador, adicione o Leite Condensado MOÇA®, o NESTLÉ Creme de Leite e o suco de maracujá concentrado.",
-          "Acrescente a gelatina dissolvida ao liquidificador e bata tudo por cerca de 2 a 3 minutos, até obter uma mistura homogênea e aerada.",
-          "Despeje a mousse em taças individuais ou em um refratário grande.",
-          "Leve à geladeira por, no mínimo, 2 horas, ou até que a mousse esteja firme.",
-          "Antes de servir, decore com a polpa fresca do maracujá, se desejar."
+          "Em uma caneca grande, derreta a manteiga no micro-ondas por 30 segundos.",
+          "Adicione o chocolate em pó e o açúcar à manteiga derretida. Misture bem.",
+          "Acrescente o ovo e bata vigorosamente até obter uma mistura homogênea.",
+          "Incorpore a farinha de trigo e o fermento em pó, misturando até não haver grumos.",
+          "Se desejar, adicione as gotas de chocolate.",
+          "Leve ao micro-ondas em potência alta por 1 minuto e 30 segundos a 2 minutos (o tempo pode variar).",
+          "O brownie deve estar firme nas bordas e levemente úmido no centro. Sirva morno."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-maracuja-cremoso-e-pratico",
-          "checked_at": "2026-09-27T15:39:49+00:00"
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/brownie-de-micro-ondas",
+          "title": "Brownie de Micro-ondas",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-28T18:32:50+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/5060425/pexels-photo-5060425.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de gelato de maracujá cremoso com frutas frescas como guarnição em uma mesa colorida.",
-          "bank_id": "5060425",
-          "credit": "ROMAN ODINTSOV",
-          "query": "Mousse de Maracujá Cremoso e Prático"
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/receitas/['/sites/default/files/srh_recipes/32f8651f042a8e78ed77c77e24067aa3.jpg', '/sites/default/files/srh_recipes/9c91c95bdecd935ea787304be220fea3.jpeg']",
+          "alt": "Brownie de Micro-ondas"
         },
-        "id": "mousse-de-maracuja-cremoso-e-pratico-d17c593a"
+        "id": "brownie-de-micro-ondas-63e549c5"
       }
     ]
   },
