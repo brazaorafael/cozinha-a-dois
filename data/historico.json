@@ -4095,5 +4095,41 @@
     ],
     "data": "28/09/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "bife-de-forno-25181b12",
+    "titulo": "Bife de Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "29/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bife-acebolado-maggi-6b71c5ae",
+    "titulo": "Bife Acebolado Maggi",
+    "tags": [
+      "carne_vermelha",
+      "frigideira",
+      "rapido",
+      "classico"
+    ],
+    "data": "29/09/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "guacamole-simples-da-ana-maria-7fa03ff4",
+    "titulo": "Guacamole Simples da Ana Maria",
+    "tags": [
+      "entrada",
+      "rapido",
+      "vegetariano",
+      "fresco"
+    ],
+    "data": "29/09/2026",
+    "fonte_status": "unverified"
   }
 ]

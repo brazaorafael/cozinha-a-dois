@@ -1,197 +1,184 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-28T15:30:39-03:00",
+  "gerado_em": "2026-09-29T13:48:20-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "28/09/2026",
-    "dia_semana": "segunda",
+    "data": "29/09/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Strogonoff de Carne Cremoso",
-        "curso": "principal",
-        "tempo": "35 minutos",
-        "porque": "Um clássico reconfortante e rápido de preparar, com carne vermelha em tiras e um molho cremoso. É um prato completo e saboroso, ideal para um jantar prático e com bom potencial para sobras.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "jantar_rapido",
-          "cremoso"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 colher (sopa) de manteiga",
-          "1 cebola pequena picada",
-          "500 g de carne em tiras (filé mignon ou alcatra)",
-          "1 pitada de sal",
-          "1 pitada de pimenta-do-reino",
-          "1/2 xícara (chá) de champignon fatiado",
-          "1/2 xícara (chá) de purê de tomate",
-          "1 colher (sopa) de mostarda",
-          "1 colher (sopa) de ketchup",
-          "1 lata de creme de leite NESTLÉ"
-        ],
-        "preparo": [
-          "Em uma panela, derreta a manteiga e refogue a cebola até ficar transparente.",
-          "Adicione a carne em tiras, tempere com sal e pimenta, e doure por todos os lados.",
-          "Acrescente o champignon, o purê de tomate, a mostarda e o ketchup. Misture bem e cozinhe por alguns minutos.",
-          "Desligue o fogo e adicione o creme de leite, misturando delicadamente até incorporar.",
-          "Aqueça rapidamente sem deixar ferver. Sirva imediatamente com arroz branco e batata palha."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/strogonoff-de-carne-cremoso",
-          "checked_at": "2026-09-28T18:32:48+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673972/pexels-photo-33673972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso filé de carne com redução de vinho tinto e risoto cremoso em um prato branco.",
-          "bank_id": "33673972",
-          "credit": "pedro furtado",
-          "query": "Strogonoff de Carne Cremoso"
-        },
-        "id": "strogonoff-de-carne-cremoso-9e82e0ff"
-      },
-      {
-        "nome": "Carne com Brócolis e Molho de Ostra",
+        "nome": "Bife de Forno",
         "curso": "principal",
         "tempo": "30 minutos",
-        "porque": "Uma opção de carne vermelha inspirada na culinária asiática, rápida de refogar e com um excelente equilíbrio entre proteína e vegetais. O molho de ostra confere um sabor único e delicioso, ideal para um jantar diferente e nutritivo.",
+        "porque": "Uma opção de carne vermelha assada no forno, o que a torna mais leve e prática. É rápida de preparar e inclui vegetais, garantindo uma refeição equilibrada. Ideal para um jantar a dois com a possibilidade de sobras para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "culinaria_asiatica",
+          "forno",
+          "rapido",
           "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de carne bovina em tiras (alcatra ou contrafilé)",
-          "1 brócolis médio, separado em floretes",
-          "2 colheres (sopa) de óleo vegetal",
-          "2 dentes de alho picados",
-          "1 pedaço pequeno de gengibre ralado",
-          "3 colheres (sopa) de molho de ostra",
-          "2 colheres (sopa) de shoyu",
-          "1 colher (sopa) de amido de milho dissolvido em 1/4 xícara (chá) de água",
-          "Sal a gosto",
-          "Pimenta-do-reino a gosto"
+          "500 g de bifes de carne bovina",
+          "Sal e pimenta-do-reino a gosto",
+          "2 dentes de alho espremidos",
+          "2 colheres (sopa) de vinagre",
+          "Óleo para untar",
+          "2 cebolas em rodelas",
+          "3 tomates em rodelas",
+          "½ maço de cheiro-verde picado",
+          "2 pimentões em tiras"
         ],
         "preparo": [
-          "Tempere a carne com sal e pimenta-do-reino. Reserve.",
-          "Em uma panela ou wok, aqueça o óleo e refogue o alho e o gengibre por 1 minuto.",
-          "Adicione a carne e doure rapidamente. Retire a carne da panela e reserve.",
-          "Na mesma panela, adicione os floretes de brócolis e um pouco de água. Cozinhe até ficarem macios, mas ainda crocantes.",
-          "Retorne a carne à panela. Adicione o molho de ostra, o shoyu e a mistura de amido de milho.",
-          "Cozinhe, mexendo sempre, até o molho engrossar. Sirva quente, acompanhado de arroz."
+          "Tempere os bifes de carne bovina com sal, pimenta-do-reino, alho espremido e vinagre.",
+          "Unte um refratário com óleo e alterne camadas de bifes temperados, cebola em rodelas, tomate em rodelas, cheiro-verde picado e pimentão em tiras.",
+          "Cubra o refratário com papel-alumínio e leve ao forno médio preaquecido (200 ºC) por 15 minutos.",
+          "Retire o papel-alumínio e mantenha no forno até que os bifes fiquem macios. Sirva em seguida."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://anamariabraga.globo.com/receita/bife-de-forno/",
+          "title": "Bife de forno",
+          "domain": "anamariabraga.globo.com",
+          "confidence": 1.0,
+          "checked_at": "2026-09-29T16:49:47+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://static.clubedaanamariabraga.com.br/wp-content/uploads/2021/01/anamariabraga.png",
+          "alt": "Bife de Forno"
+        },
+        "id": "bife-de-forno-25181b12"
+      },
+      {
+        "nome": "Bife Acebolado Maggi",
+        "curso": "principal",
+        "tempo": "20 minutos",
+        "porque": "Um clássico da culinária brasileira, este bife acebolado é extremamente rápido e fácil de fazer na frigideira, ideal para um jantar prático. A receita da Nestlé garante sabor e suculência, e pode render uma porção extra para o almoço.",
+        "tags": [
+          "carne_vermelha",
+          "frigideira",
+          "rapido",
+          "classico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500 g de bife de contrafilé (ou patinho, coxão mole)",
+          "1 colher (sopa) de MAGGI Gril (ou tempero para carne)",
+          "2 colheres (sopa) de manteiga",
+          "2 cebolas grandes em rodelas",
+          "1 colher (sopa) de vinagre",
+          "4 colheres (sopa) de NESTLÉ Requeijão Tradicional Cremoso (opcional)"
+        ],
+        "preparo": [
+          "Em um recipiente, tempere os bifes com o MAGGI Gril ou tempero de sua preferência.",
+          "Em uma frigideira grande, derreta a manteiga e doure os bifes dos dois lados em fogo alto, fritando aos poucos para não juntar suco. Reserve-os aquecidos.",
+          "Na mesma frigideira, adicione a cebola em rodelas e o vinagre, refogando bem até que as cebolas murchem.",
+          "Se desejar, acrescente o Requeijão NESTLÉ e misture. Despeje esta mistura de cebola sobre os bifes reservados e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/bife-acebolado-maggi",
+          "title": "Bife Acebolado Maggi",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-09-29T16:49:51+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a1669d6aefd0cfe24e567b0e9fa1c175.jpg",
+          "alt": "Bife Acebolado Maggi"
+        },
+        "id": "bife-acebolado-maggi-6b71c5ae"
+      },
+      {
+        "nome": "Guacamole Simples da Ana Maria",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada fresca, saudável e muito rápida de preparar, perfeita para abrir o apetite. É vegetariana e utiliza ingredientes acessíveis, combinando com os pratos principais de carne.",
+        "tags": [
+          "entrada",
+          "rapido",
+          "vegetariano",
+          "fresco"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 abacate maduro picado",
+          "1 cebola roxa picada",
+          "2 tomates sem sementes picados",
+          "Suco de 1 limão",
+          "2 colheres (sopa) de coentro picado",
+          "½ pimenta dedo-de-moça, sem sementes, picada (opcional)",
+          "2 colheres (sopa) de azeite",
+          "1 stick de MAGGI® MEU SEGREDO® 7 Vegetais (opcional)",
+          "Sal a gosto"
+        ],
+        "preparo": [
+          "Em um recipiente, amasse o abacate maduro com um garfo.",
+          "Adicione a cebola roxa picada, os tomates picados, a pimenta dedo-de-moça (se usar) e o coentro picado.",
+          "Regue com o suco de limão e o azeite. Tempere com o stick de MAGGI® MEU SEGREDO® 7 Vegetais (se usar) e sal a gosto.",
+          "Misture bem todos os ingredientes até incorporar.",
+          "Sirva imediatamente com nachos, torradas ou como acompanhamento."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitas.globo.com/receitas/carne-com-brocolis-e-molho-de-ostra-7023164.ghtml",
-          "checked_at": "2026-09-28T18:32:49+00:00"
+          "suggested_url": "https://anamariabraga.globo.com/receita/guacamole-simples-da-ana-maria/",
+          "checked_at": "2026-09-29T16:49:53+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/35474865/pexels-photo-35474865.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma refeição chinesa de dar água na boca, incluindo carne, brócolis, arroz e rolinho primavera, servida em um prato decorativo.",
-          "bank_id": "35474865",
-          "credit": "Eddie O.",
-          "query": "Carne com Brócolis e Molho de Ostra"
+          "url": "https://images.pexels.com/photos/5848732/pexels-photo-5848732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de chips de tortilha combinados com um molho cremoso de guacamole, ideal para temas de cozinha mexicana.",
+          "bank_id": "5848732",
+          "credit": "Polina Tankilevitch",
+          "query": "Guacamole Simples da Ana Maria"
         },
-        "id": "carne-com-brocolis-e-molho-de-ostra-a5001f20"
+        "id": "guacamole-simples-da-ana-maria-7fa03ff4"
       },
       {
-        "nome": "Legumes Mistos Assados",
-        "curso": "entrada",
-        "tempo": "30 minutos",
-        "porque": "Uma entrada leve, saudável e colorida, que utiliza o forno para um preparo prático e sem fritura. É versátil, permitindo o uso de diversos legumes disponíveis, e complementa bem as proteínas do prato principal.",
-        "tags": [
-          "vegetariano",
-          "assado",
-          "entrada_rapida",
-          "saudavel"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 abobrinha",
-          "1 pimentão vermelho",
-          "1 pimentão amarelo",
-          "½ couve-flor",
-          "1 cebola",
-          "1 cebola-roxa",
-          "3 colheres (sopa) de azeite",
-          "6 galhos de alecrim",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Preaqueça o forno a 220 ºC (temperatura alta).",
-          "Lave e corte a abobrinha em meias-luas, os pimentões em quadrados e as cebolas em gomos.",
-          "Corte a couve-flor em floretes médios e lave bem.",
-          "Em uma assadeira grande, coloque todos os legumes, regue com azeite, tempere com sal, pimenta e alecrim. Misture bem.",
-          "Espalhe os legumes na assadeira sem amontoar e leve ao forno por cerca de 30 minutos.",
-          "Na metade do tempo, vire os legumes com uma espátula para dourarem por igual. Sirva em seguida."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/legumes-mistos-assados",
-          "title": "Legumes mistos assados - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-28T18:32:50+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7607-leg-ass-v3-1.webp",
-          "alt": "Legumes Mistos Assados"
-        },
-        "id": "legumes-mistos-assados-e340de60"
-      },
-      {
-        "nome": "Brownie de Micro-ondas",
+        "nome": "Maçã Assada com Especiarias no Micro-ondas",
         "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Uma sobremesa rápida e prática, perfeita para finalizar o jantar sem complicação. Satisfaz a vontade de doce com chocolate e fica pronta em poucos minutos no micro-ondas, ideal para um casal jovem.",
+        "tempo": "5 minutos",
+        "porque": "Uma sobremesa incrivelmente rápida e fácil, pronta em apenas 5 minutos no micro-ondas. É uma opção leve, com frutas e especiarias, perfeita para finalizar a refeição sem complicação e sem fritura.",
         "tags": [
-          "chocolate",
-          "sobremesa_rapida",
-          "micro_ondas",
-          "facil"
+          "sobremesa",
+          "rapido",
+          "fruta",
+          "micro_ondas"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 colheres (sopa) de manteiga sem sal",
-          "2 colheres (sopa) de chocolate em pó 50% cacau",
-          "2 colheres (sopa) de açúcar",
-          "1 ovo pequeno",
-          "2 colheres (sopa) de farinha de trigo",
-          "1 pitada de fermento em pó",
-          "Gotas de chocolate (opcional)"
+          "1 maçã fuji",
+          "1 colher (sopa) de mel",
+          "1 pitada de canela em pó",
+          "1 pitada de gengibre em pó",
+          "Noz-moscada ralada na hora a gosto",
+          "1 pote de iogurte natural sem açúcar (170 g)"
         ],
         "preparo": [
-          "Em uma caneca grande, derreta a manteiga no micro-ondas por 30 segundos.",
-          "Adicione o chocolate em pó e o açúcar à manteiga derretida. Misture bem.",
-          "Acrescente o ovo e bata vigorosamente até obter uma mistura homogênea.",
-          "Incorpore a farinha de trigo e o fermento em pó, misturando até não haver grumos.",
-          "Se desejar, adicione as gotas de chocolate.",
-          "Leve ao micro-ondas em potência alta por 1 minuto e 30 segundos a 2 minutos (o tempo pode variar).",
-          "O brownie deve estar firme nas bordas e levemente úmido no centro. Sirva morno."
+          "Lave bem a maçã, mantenha a casca e corte-a ao meio no sentido do comprimento. Corte cada metade em 4 pedaços e descarte o miolo com as sementes.",
+          "Em uma tigela de vidro, junte a maçã, o mel, a canela, o gengibre e a noz-moscada. Misture delicadamente.",
+          "Cubra a tigela com filme plástico e faça um pequeno furo no centro para o vapor sair.",
+          "Leve ao micro-ondas em potência alta por 5 minutos, até a maçã cozinhar e formar uma calda.",
+          "Com cuidado, retire o filme e sirva a maçã (com a calda) acompanhada de iogurte gelado."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/brownie-de-micro-ondas",
-          "title": "Brownie de Micro-ondas",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-28T18:32:50+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Maca-assada-com-especiarias-no-micro-ondas",
+          "checked_at": "2026-09-29T16:49:54+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/receitas/['/sites/default/files/srh_recipes/32f8651f042a8e78ed77c77e24067aa3.jpg', '/sites/default/files/srh_recipes/9c91c95bdecd935ea787304be220fea3.jpeg']",
-          "alt": "Brownie de Micro-ondas"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5662080/pexels-photo-5662080.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um bolo de maçã caseiro cercado por folhas de outono e especiarias, vista de cima.",
+          "bank_id": "5662080",
+          "credit": "KATRIN  BOLOVTSOVA",
+          "query": "Maçã Assada com Especiarias no Micro-ondas"
         },
-        "id": "brownie-de-micro-ondas-63e549c5"
+        "id": "maca-assada-com-especiarias-no-micro-ondas-b49c50bd"
       }
     ]
   },
