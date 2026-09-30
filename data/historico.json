@@ -4131,5 +4131,29 @@
     ],
     "data": "29/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-ao-molho-com-bacon-5ecd14e0",
+    "titulo": "Bife ao Molho com Bacon",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "frigideira",
+      "facil"
+    ],
+    "data": "30/09/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "lagarto-de-panela-com-cerveja-fe513e7f",
+    "titulo": "Lagarto de Panela com Cerveja",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "cozido",
+      "refeicao_completa"
+    ],
+    "data": "30/09/2026",
+    "fonte_status": "unverified"
   }
 ]

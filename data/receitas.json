@@ -1,184 +1,195 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-29T13:48:20-03:00",
+  "gerado_em": "2026-09-30T13:41:36-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "29/09/2026",
-    "dia_semana": "terça",
+    "data": "30/09/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Bife de Forno",
+        "nome": "Bife ao Molho com Bacon",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma opção de carne vermelha assada no forno, o que a torna mais leve e prática. É rápida de preparar e inclui vegetais, garantindo uma refeição equilibrada. Ideal para um jantar a dois com a possibilidade de sobras para o almoço do dia seguinte.",
+        "tempo": "25 minutos",
+        "porque": "Carne vermelha rápida e saborosa, pronta em 25 minutos na frigideira, com molho cremoso e bacon. Rende para o jantar do casal e sobra para o almoço de uma pessoa, atendendo à prioridade de proteína e praticidade.",
         "tags": [
           "carne_vermelha",
-          "forno",
           "rapido",
-          "equilibrado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500 g de bifes de carne bovina",
-          "Sal e pimenta-do-reino a gosto",
-          "2 dentes de alho espremidos",
-          "2 colheres (sopa) de vinagre",
-          "Óleo para untar",
-          "2 cebolas em rodelas",
-          "3 tomates em rodelas",
-          "½ maço de cheiro-verde picado",
-          "2 pimentões em tiras"
-        ],
-        "preparo": [
-          "Tempere os bifes de carne bovina com sal, pimenta-do-reino, alho espremido e vinagre.",
-          "Unte um refratário com óleo e alterne camadas de bifes temperados, cebola em rodelas, tomate em rodelas, cheiro-verde picado e pimentão em tiras.",
-          "Cubra o refratário com papel-alumínio e leve ao forno médio preaquecido (200 ºC) por 15 minutos.",
-          "Retire o papel-alumínio e mantenha no forno até que os bifes fiquem macios. Sirva em seguida."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://anamariabraga.globo.com/receita/bife-de-forno/",
-          "title": "Bife de forno",
-          "domain": "anamariabraga.globo.com",
-          "confidence": 1.0,
-          "checked_at": "2026-09-29T16:49:47+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://static.clubedaanamariabraga.com.br/wp-content/uploads/2021/01/anamariabraga.png",
-          "alt": "Bife de Forno"
-        },
-        "id": "bife-de-forno-25181b12"
-      },
-      {
-        "nome": "Bife Acebolado Maggi",
-        "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Um clássico da culinária brasileira, este bife acebolado é extremamente rápido e fácil de fazer na frigideira, ideal para um jantar prático. A receita da Nestlé garante sabor e suculência, e pode render uma porção extra para o almoço.",
-        "tags": [
-          "carne_vermelha",
           "frigideira",
-          "rapido",
-          "classico"
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de bife de contrafilé (ou patinho, coxão mole)",
-          "1 colher (sopa) de MAGGI Gril (ou tempero para carne)",
+          "4 bifes de contrafilé",
+          "Sal e pimenta-do-reino a gosto",
+          "4 colheres (sopa) de óleo",
           "2 colheres (sopa) de manteiga",
-          "2 cebolas grandes em rodelas",
-          "1 colher (sopa) de vinagre",
-          "4 colheres (sopa) de NESTLÉ Requeijão Tradicional Cremoso (opcional)"
+          "1/2 cebola picada",
+          "1/2 xícara (chá) de mostarda",
+          "1 caixa de creme de leite (200g)",
+          "Bacon frito em cubos para decorar"
         ],
         "preparo": [
-          "Em um recipiente, tempere os bifes com o MAGGI Gril ou tempero de sua preferência.",
-          "Em uma frigideira grande, derreta a manteiga e doure os bifes dos dois lados em fogo alto, fritando aos poucos para não juntar suco. Reserve-os aquecidos.",
-          "Na mesma frigideira, adicione a cebola em rodelas e o vinagre, refogando bem até que as cebolas murchem.",
-          "Se desejar, acrescente o Requeijão NESTLÉ e misture. Despeje esta mistura de cebola sobre os bifes reservados e sirva imediatamente."
+          "Tempere os bifes de contrafilé com sal e pimenta-do-reino a gosto.",
+          "Aqueça uma frigideira em fogo alto com o óleo e frite os bifes, dois por vez, até dourarem dos dois lados. Reserve-os em uma travessa.",
+          "Na mesma frigideira, em fogo baixo, adicione a manteiga e frite a cebola picada até murchar.",
+          "Acrescente a mostarda e o creme de leite, tempere com sal e cozinhe até ferver.",
+          "Regue os bifes reservados com o molho e polvilhe com bacon frito em cubos para decorar. Sirva imediatamente."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/bife-acebolado-maggi",
-          "title": "Bife Acebolado Maggi",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-09-29T16:49:51+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.guiadacozinha.com.br/receitas/bife-ao-molho-com-bacon-que-fica-pronto-em-25-minutos/",
+          "checked_at": "2026-09-30T16:43:26+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/a1669d6aefd0cfe24e567b0e9fa1c175.jpg",
-          "alt": "Bife Acebolado Maggi"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/31779547/pexels-photo-31779547.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Prato de bife saboroso com molho e espaguete decorado com manjericão.",
+          "bank_id": "31779547",
+          "credit": "Adriano Bragi",
+          "query": "Bife ao Molho com Bacon"
         },
-        "id": "bife-acebolado-maggi-6b71c5ae"
+        "id": "bife-ao-molho-com-bacon-5ecd14e0"
       },
       {
-        "nome": "Guacamole Simples da Ana Maria",
+        "nome": "Lagarto de Panela com Cerveja",
+        "curso": "principal",
+        "tempo": "1 hora",
+        "porque": "Uma opção de carne vermelha que fica macia e saborosa na panela de pressão, com um molho encorpado de cerveja. Ideal para um jantar especial e rende boas sobras, utilizando um método de cozimento prático.",
+        "tags": [
+          "carne_vermelha",
+          "panela_de_pressao",
+          "cozido",
+          "refeicao_completa"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "4 colheres (sopa) de óleo",
+          "1 peça de lagarto inteira limpa (aproximadamente 1,4kg)",
+          "Sal e pimenta-do-reino a gosto",
+          "1 cebola em cubos",
+          "2 dentes de alho picados",
+          "1/2 pimentão amarelo em cubos",
+          "2 colheres (sopa) de extrato de tomate",
+          "1 tomate sem sementes em cubos",
+          "1 folha de louro",
+          "1 e 1/2 xícara (chá) de cerveja clara",
+          "1 cubo de caldo de carne",
+          "1 xícara (chá) de água quente",
+          "5 colheres (sopa) de azeitona verde picada",
+          "1 xícara (chá) de mini cenoura",
+          "1 xícara (chá) de batata pérola sem casca",
+          "1 xícara (chá) de mini cebolas descascadas",
+          "Cheiro-verde picado a gosto"
+        ],
+        "preparo": [
+          "Tempere o lagarto com sal e pimenta-do-reino. Aqueça o óleo em uma panela de pressão grande e doure a carne por todos os lados.",
+          "Adicione a cebola e o alho, refogando por 2 minutos. Acrescente o pimentão e frite por mais 2 minutos.",
+          "Despeje o extrato de tomate, o tomate em cubos, o louro e frite por 1 minuto.",
+          "Adicione a cerveja, o cubo de caldo de carne e a água quente. Tampe a panela e cozinhe por 30 minutos após pegar pressão.",
+          "Retire a pressão com cuidado e abra a panela. Acrescente a azeitona, a mini cenoura, a batata pérola e as mini cebolas.",
+          "Cozinhe por mais 10 minutos com a panela semitampada, ou até os legumes amaciarem e o molho encorpar.",
+          "Retire a carne, fatie, disponha em uma travessa com os legumes, regue com o molho e polvilhe com cheiro-verde picado. Sirva."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.guiadacozinha.com.br/receitas/lagarto-de-panela-com-cerveja/",
+          "checked_at": "2026-09-30T16:43:27+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/4015401/pexels-photo-4015401.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma deliciosa configuração de jantar gourmet com bife cru, cerveja, uvas e ervas.",
+          "bank_id": "4015401",
+          "credit": "Jacob Moseholt",
+          "query": "Lagarto de Panela com Cerveja"
+        },
+        "id": "lagarto-de-panela-com-cerveja-fe513e7f"
+      },
+      {
+        "nome": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo",
         "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada fresca, saudável e muito rápida de preparar, perfeita para abrir o apetite. É vegetariana e utiliza ingredientes acessíveis, combinando com os pratos principais de carne.",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada elegante, rápida e prática, feita na airfryer, perfeita para o casal. Utiliza um método de preparo priorizado e ingredientes acessíveis.",
         "tags": [
           "entrada",
           "rapido",
-          "vegetariano",
-          "fresco"
+          "airfryer",
+          "queijo"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 abacate maduro picado",
-          "1 cebola roxa picada",
-          "2 tomates sem sementes picados",
-          "Suco de 1 limão",
-          "2 colheres (sopa) de coentro picado",
-          "½ pimenta dedo-de-moça, sem sementes, picada (opcional)",
-          "2 colheres (sopa) de azeite",
-          "1 stick de MAGGI® MEU SEGREDO® 7 Vegetais (opcional)",
-          "Sal a gosto"
+          "1 peça de queijo francês petit brie (125 g)",
+          "¼ de colher (chá) de azeite",
+          "1 colher (chá) de mel",
+          "¼ de colher (chá) de pimenta calabresa seca",
+          "5 ramos de tomilho-limão (folhas debulhadas)"
         ],
         "preparo": [
-          "Em um recipiente, amasse o abacate maduro com um garfo.",
-          "Adicione a cebola roxa picada, os tomates picados, a pimenta dedo-de-moça (se usar) e o coentro picado.",
-          "Regue com o suco de limão e o azeite. Tempere com o stick de MAGGI® MEU SEGREDO® 7 Vegetais (se usar) e sal a gosto.",
-          "Misture bem todos os ingredientes até incorporar.",
-          "Sirva imediatamente com nachos, torradas ou como acompanhamento."
+          "Preaqueça a Air Fryer a 160 ºC e programe para assar por 10 minutos.",
+          "Coloque o queijo brie em uma tigela pequena ou pratinho que possa ir à Air Fryer.",
+          "Polvilhe a pimenta calabresa seca e as folhas de tomilho debulhadas sobre o queijo.",
+          "Regue com o azeite e o mel.",
+          "Leve à Air Fryer e asse pelo tempo programado, até o queijo ficar macio e levemente derretido. Sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/guacamole-simples-da-ana-maria/",
-          "checked_at": "2026-09-29T16:49:53+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/queijo-brie-aperitivo-na-air-fryer-da-rita-lobo",
+          "checked_at": "2026-09-30T16:43:28+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5848732/pexels-photo-5848732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de chips de tortilha combinados com um molho cremoso de guacamole, ideal para temas de cozinha mexicana.",
-          "bank_id": "5848732",
-          "credit": "Polina Tankilevitch",
-          "query": "Guacamole Simples da Ana Maria"
+          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
+          "bank_id": "31994015",
+          "credit": "Mimi",
+          "query": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo"
         },
-        "id": "guacamole-simples-da-ana-maria-7fa03ff4"
+        "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6"
       },
       {
-        "nome": "Maçã Assada com Especiarias no Micro-ondas",
+        "nome": "Pera Cozida no Micro-ondas com Mel e Canela",
         "curso": "sobremesa",
         "tempo": "5 minutos",
-        "porque": "Uma sobremesa incrivelmente rápida e fácil, pronta em apenas 5 minutos no micro-ondas. É uma opção leve, com frutas e especiarias, perfeita para finalizar a refeição sem complicação e sem fritura.",
+        "porque": "Uma sobremesa leve, rápida e fácil de preparar no micro-ondas, ideal para finalizar o jantar do casal. Atende à preferência por receitas práticas e rápidas.",
         "tags": [
           "sobremesa",
           "rapido",
-          "fruta",
-          "micro_ondas"
+          "micro_ondas",
+          "fruta"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 maçã fuji",
+          "2 peras",
           "1 colher (sopa) de mel",
-          "1 pitada de canela em pó",
-          "1 pitada de gengibre em pó",
-          "Noz-moscada ralada na hora a gosto",
-          "1 pote de iogurte natural sem açúcar (170 g)"
+          "¼ de colher (chá) de canela em pó"
         ],
         "preparo": [
-          "Lave bem a maçã, mantenha a casca e corte-a ao meio no sentido do comprimento. Corte cada metade em 4 pedaços e descarte o miolo com as sementes.",
-          "Em uma tigela de vidro, junte a maçã, o mel, a canela, o gengibre e a noz-moscada. Misture delicadamente.",
-          "Cubra a tigela com filme plástico e faça um pequeno furo no centro para o vapor sair.",
-          "Leve ao micro-ondas em potência alta por 5 minutos, até a maçã cozinhar e formar uma calda.",
-          "Com cuidado, retire o filme e sirva a maçã (com a calda) acompanhada de iogurte gelado."
+          "Lave e seque as peras. Corte cada uma ao meio no sentido do comprimento e descarte o miolo com as sementes.",
+          "Corte cada metade em fatias finas (cerca de 0,5 cm) no sentido do comprimento.",
+          "Em uma tigela de vidro média, coloque as fatias de pera, o mel e a canela.",
+          "Cubra a tigela com um prato e leve ao micro-ondas para rodar por 3 minutos em potência alta.",
+          "Com cuidado, retire a tigela do micro-ondas e misture delicadamente para que as fatias cozinhem por igual.",
+          "Cubra novamente e volte ao micro-ondas por mais 2 minutos, ou até a pera ficar bem macia e uma caldinha se formar.",
+          "Sirva a pera morna ou fria com a caldinha."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Maca-assada-com-especiarias-no-micro-ondas",
-          "checked_at": "2026-09-29T16:49:54+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/pera-cozida-no-micro-ondas-com-mel-e-canela",
+          "checked_at": "2026-09-30T16:43:29+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5662080/pexels-photo-5662080.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um bolo de maçã caseiro cercado por folhas de outono e especiarias, vista de cima.",
-          "bank_id": "5662080",
-          "credit": "KATRIN  BOLOVTSOVA",
-          "query": "Maçã Assada com Especiarias no Micro-ondas"
+          "url": "https://images.pexels.com/photos/13848848/pexels-photo-13848848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Vista superior de uma pera cozida com molho de caramelo em uma mesa rústica.",
+          "bank_id": "13848848",
+          "credit": "Johanka Hubikova",
+          "query": "Pera Cozida no Micro-ondas com Mel e Canela"
         },
-        "id": "maca-assada-com-especiarias-no-micro-ondas-b49c50bd"
+        "id": "pera-cozida-no-micro-ondas-com-mel-e-canela-b41514e9"
       }
     ]
   },
