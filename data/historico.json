@@ -4155,5 +4155,29 @@
     ],
     "data": "30/09/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-com-batata-na-pressao-da-ana-maria-678b68b6",
+    "titulo": "Carne com Batata na Pressão da Ana Maria",
+    "tags": [
+      "carnevermelha",
+      "paneladepressao",
+      "pratounico",
+      "facil"
+    ],
+    "data": "01/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-de-frutas-simples-694f6ee9",
+    "titulo": "Salada de Frutas Simples",
+    "tags": [
+      "frutas",
+      "leve",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "01/10/2026",
+    "fonte_status": "unverified"
   }
 ]

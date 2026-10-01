@@ -1,195 +1,187 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-09-30T13:41:36-03:00",
+  "gerado_em": "2026-10-01T14:17:03-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "30/09/2026",
-    "dia_semana": "quarta",
+    "data": "01/10/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Bife ao Molho com Bacon",
+        "nome": "Bife Completo na Pressão",
         "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Carne vermelha rápida e saborosa, pronta em 25 minutos na frigideira, com molho cremoso e bacon. Rende para o jantar do casal e sobra para o almoço de uma pessoa, atendendo à prioridade de proteína e praticidade.",
+        "tempo": "40 minutos",
+        "porque": "Carne vermelha (coxão mole) em bifes finos, preparada na panela de pressão para maciez e rapidez. Inclui batatas e vegetais como cebola e repolho, tornando-o um prato completo e equilibrado. Ideal para um jantar prático e com potencial para sobras.",
         "tags": [
-          "carne_vermelha",
-          "rapido",
-          "frigideira",
+          "carnevermelha",
+          "paneladepressao",
+          "pratocompleto",
+          "rapido"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "½ xícara (chá) de óleo",
+          "1 kg de coxão mole cortado em bifes finos e temperados com sal, pimenta e alho amassado",
+          "5 batatas médias sem casca cortadas em rodelas bem grossas",
+          "2 cebolas grandes cortadas em rodelas grossas",
+          "1 repolho pequeno cortado em pedaços grandes",
+          "1 caixinha de molho de tomate",
+          "Meia xícara (chá) de azeitonas verdes picadas grosseiramente",
+          "Sal e pimenta-do-reino a gosto",
+          "Salsinha picada a gosto"
+        ],
+        "preparo": [
+          "Em uma panela de pressão, aqueça o óleo.",
+          "Faça camadas com metade dos bifes, batatas, cebola, repolho, molho de tomate e azeitonas.",
+          "Tempere com sal e pimenta-do-reino a gosto.",
+          "Repita as camadas com os ingredientes restantes.",
+          "Tampe a panela e cozinhe em fogo médio por 15 minutos após pegar pressão.",
+          "Retire a pressão, abra a panela e polvilhe salsinha picada a gosto.",
+          "Sirva acompanhado de arroz branco."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.anamariabraga.globo.com/receita/bife-completo-na-pressao/",
+          "checked_at": "2026-10-01T17:18:39+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/3660/food-restaurant-dinner-lunch.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso bife servido com batatas e fatias de tomate fresco. Perfeito para o almoço ou jantar.",
+          "bank_id": "3660",
+          "credit": "JÉSHOOTS",
+          "query": "Bife Completo na Pressão"
+        },
+        "id": "bife-completo-na-pressao-c511d4f4"
+      },
+      {
+        "nome": "Carne com Batata na Pressão da Ana Maria",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Uma opção de carne vermelha (acém) em cubos, cozida na panela de pressão com batatas, resultando em um prato macio e saboroso em pouco tempo. É uma refeição reconfortante e prática, com bom equilíbrio de proteína e carboidrato.",
+        "tags": [
+          "carnevermelha",
+          "paneladepressao",
+          "pratounico",
           "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "4 bifes de contrafilé",
-          "Sal e pimenta-do-reino a gosto",
           "4 colheres (sopa) de óleo",
-          "2 colheres (sopa) de manteiga",
-          "1/2 cebola picada",
-          "1/2 xícara (chá) de mostarda",
-          "1 caixa de creme de leite (200g)",
-          "Bacon frito em cubos para decorar"
+          "2 cebolas picadas",
+          "4 dentes de alho amassados",
+          "1 colher (sopa) de coentro picado",
+          "1 kg de acém cortado em cubos",
+          "200 ml de molho de tomate",
+          "2 xícaras (chá) de caldo de carne",
+          "6 batatas cortadas em cubos grandes",
+          "Sal e pimenta-do-reino moída a gosto"
         ],
         "preparo": [
-          "Tempere os bifes de contrafilé com sal e pimenta-do-reino a gosto.",
-          "Aqueça uma frigideira em fogo alto com o óleo e frite os bifes, dois por vez, até dourarem dos dois lados. Reserve-os em uma travessa.",
-          "Na mesma frigideira, em fogo baixo, adicione a manteiga e frite a cebola picada até murchar.",
-          "Acrescente a mostarda e o creme de leite, tempere com sal e cozinhe até ferver.",
-          "Regue os bifes reservados com o molho e polvilhe com bacon frito em cubos para decorar. Sirva imediatamente."
+          "Numa panela de pressão, aqueça o óleo e doure a cebola, o alho e o coentro.",
+          "Junte a carne e sele-a por todos os lados.",
+          "Acrescente o molho de tomate, o caldo de carne, o sal e a pimenta-do-reino.",
+          "Tampe a panela e deixe cozinhar por 20 minutos após pegar pressão.",
+          "Retire a pressão, adicione as batatas e cozinhe na pressão por mais 6 minutos.",
+          "Coloque em um refratário e sirva em seguida."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.guiadacozinha.com.br/receitas/bife-ao-molho-com-bacon-que-fica-pronto-em-25-minutos/",
-          "checked_at": "2026-09-30T16:43:26+00:00"
+          "status": "verified",
+          "url": "https://receitas.globo.com/ana-maria-braga/salgados/carne-com-batata-na-pressao-da-ana-maria.ghtml",
+          "title": "Carne com batata na pressão da Ana Maria | Receitas",
+          "domain": "receitas.globo.com",
+          "confidence": 1.0,
+          "checked_at": "2026-10-01T17:18:41+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/31779547/pexels-photo-31779547.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato de bife saboroso com molho e espaguete decorado com manjericão.",
-          "bank_id": "31779547",
-          "credit": "Adriano Bragi",
-          "query": "Bife ao Molho com Bacon"
+          "kind": "source",
+          "url": "https://s2-receitas.glbimg.com/jgLd4s49_dZnO8inYofwq6cB4MY=/1510x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/H/U/BuxzoxTEGcjzd0E3CW5g/carne-com-batata-na-pressao-da-ana-maria.jpg",
+          "alt": "Carne com Batata na Pressão da Ana Maria"
         },
-        "id": "bife-ao-molho-com-bacon-5ecd14e0"
+        "id": "carne-com-batata-na-pressao-da-ana-maria-678b68b6"
       },
       {
-        "nome": "Lagarto de Panela com Cerveja",
-        "curso": "principal",
-        "tempo": "1 hora",
-        "porque": "Uma opção de carne vermelha que fica macia e saborosa na panela de pressão, com um molho encorpado de cerveja. Ideal para um jantar especial e rende boas sobras, utilizando um método de cozimento prático.",
-        "tags": [
-          "carne_vermelha",
-          "panela_de_pressao",
-          "cozido",
-          "refeicao_completa"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "4 colheres (sopa) de óleo",
-          "1 peça de lagarto inteira limpa (aproximadamente 1,4kg)",
-          "Sal e pimenta-do-reino a gosto",
-          "1 cebola em cubos",
-          "2 dentes de alho picados",
-          "1/2 pimentão amarelo em cubos",
-          "2 colheres (sopa) de extrato de tomate",
-          "1 tomate sem sementes em cubos",
-          "1 folha de louro",
-          "1 e 1/2 xícara (chá) de cerveja clara",
-          "1 cubo de caldo de carne",
-          "1 xícara (chá) de água quente",
-          "5 colheres (sopa) de azeitona verde picada",
-          "1 xícara (chá) de mini cenoura",
-          "1 xícara (chá) de batata pérola sem casca",
-          "1 xícara (chá) de mini cebolas descascadas",
-          "Cheiro-verde picado a gosto"
-        ],
-        "preparo": [
-          "Tempere o lagarto com sal e pimenta-do-reino. Aqueça o óleo em uma panela de pressão grande e doure a carne por todos os lados.",
-          "Adicione a cebola e o alho, refogando por 2 minutos. Acrescente o pimentão e frite por mais 2 minutos.",
-          "Despeje o extrato de tomate, o tomate em cubos, o louro e frite por 1 minuto.",
-          "Adicione a cerveja, o cubo de caldo de carne e a água quente. Tampe a panela e cozinhe por 30 minutos após pegar pressão.",
-          "Retire a pressão com cuidado e abra a panela. Acrescente a azeitona, a mini cenoura, a batata pérola e as mini cebolas.",
-          "Cozinhe por mais 10 minutos com a panela semitampada, ou até os legumes amaciarem e o molho encorpar.",
-          "Retire a carne, fatie, disponha em uma travessa com os legumes, regue com o molho e polvilhe com cheiro-verde picado. Sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.guiadacozinha.com.br/receitas/lagarto-de-panela-com-cerveja/",
-          "checked_at": "2026-09-30T16:43:27+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/4015401/pexels-photo-4015401.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma deliciosa configuração de jantar gourmet com bife cru, cerveja, uvas e ervas.",
-          "bank_id": "4015401",
-          "credit": "Jacob Moseholt",
-          "query": "Lagarto de Panela com Cerveja"
-        },
-        "id": "lagarto-de-panela-com-cerveja-fe513e7f"
-      },
-      {
-        "nome": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo",
+        "nome": "Salada Rápida de Grão-de-Bico",
         "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada elegante, rápida e prática, feita na airfryer, perfeita para o casal. Utiliza um método de preparo priorizado e ingredientes acessíveis.",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, nutritiva e muito rápida de preparar, ideal para complementar o jantar. O grão-de-bico oferece proteína e fibras, e o manjericão fresco adiciona um toque aromático.",
         "tags": [
-          "entrada",
+          "salada",
+          "vegetariano",
           "rapido",
-          "airfryer",
-          "queijo"
+          "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 peça de queijo francês petit brie (125 g)",
-          "¼ de colher (chá) de azeite",
-          "1 colher (chá) de mel",
-          "¼ de colher (chá) de pimenta calabresa seca",
-          "5 ramos de tomilho-limão (folhas debulhadas)"
+          "1½ xícara (chá) de grão-de-bico cozido (ou 1 lata)",
+          "2 colheres (sopa) de caldo de limão",
+          "4 colheres (sopa) de azeite",
+          "20 folhas de manjericão fresco",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça a Air Fryer a 160 ºC e programe para assar por 10 minutos.",
-          "Coloque o queijo brie em uma tigela pequena ou pratinho que possa ir à Air Fryer.",
-          "Polvilhe a pimenta calabresa seca e as folhas de tomilho debulhadas sobre o queijo.",
-          "Regue com o azeite e o mel.",
-          "Leve à Air Fryer e asse pelo tempo programado, até o queijo ficar macio e levemente derretido. Sirva imediatamente."
+          "Escorra o grão-de-bico em uma peneira, se desejar, passe por água corrente.",
+          "Em uma tigela, junte o grão-de-bico, o caldo de limão, o azeite e as folhas de manjericão.",
+          "Tempere com sal e pimenta-do-reino moída na hora a gosto.",
+          "Misture bem todos os ingredientes.",
+          "Sirva imediatamente ou leve à geladeira por alguns minutos para resfriar."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/queijo-brie-aperitivo-na-air-fryer-da-rita-lobo",
-          "checked_at": "2026-09-30T16:43:28+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
+          "title": "Salada rápida de grão-de-bico - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-01T17:18:42+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
-          "bank_id": "31994015",
-          "credit": "Mimi",
-          "query": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-3575-salada-grao-de-bico-mexicana.webp",
+          "alt": "Salada Rápida de Grão-de-Bico"
         },
-        "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6"
+        "id": "salada-rapida-de-grao-de-bico-f701bcb3"
       },
       {
-        "nome": "Pera Cozida no Micro-ondas com Mel e Canela",
+        "nome": "Salada de Frutas Simples",
         "curso": "sobremesa",
-        "tempo": "5 minutos",
-        "porque": "Uma sobremesa leve, rápida e fácil de preparar no micro-ondas, ideal para finalizar o jantar do casal. Atende à preferência por receitas práticas e rápidas.",
+        "tempo": "10 minutos",
+        "porque": "Uma sobremesa leve, refrescante e rápida, perfeita para finalizar a refeição sem pesar. Utiliza frutas frescas e acessíveis, proporcionando vitaminas e um toque adocicado natural. Não está na lista de pratos recentes a serem evitados.",
         "tags": [
-          "sobremesa",
+          "frutas",
+          "leve",
           "rapido",
-          "micro_ondas",
-          "fruta"
+          "saudavel"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 peras",
-          "1 colher (sopa) de mel",
-          "¼ de colher (chá) de canela em pó"
+          "1 mamão papaia médio, picado",
+          "2 bananas nanicas, picadas",
+          "1 maçã, picada",
+          "10 morangos, picados",
+          "Suco de 1 laranja"
         ],
         "preparo": [
-          "Lave e seque as peras. Corte cada uma ao meio no sentido do comprimento e descarte o miolo com as sementes.",
-          "Corte cada metade em fatias finas (cerca de 0,5 cm) no sentido do comprimento.",
-          "Em uma tigela de vidro média, coloque as fatias de pera, o mel e a canela.",
-          "Cubra a tigela com um prato e leve ao micro-ondas para rodar por 3 minutos em potência alta.",
-          "Com cuidado, retire a tigela do micro-ondas e misture delicadamente para que as fatias cozinhem por igual.",
-          "Cubra novamente e volte ao micro-ondas por mais 2 minutos, ou até a pera ficar bem macia e uma caldinha se formar.",
-          "Sirva a pera morna ou fria com a caldinha."
+          "Lave e pique todas as frutas em pedaços médios.",
+          "Em uma tigela grande, junte o mamão, as bananas, a maçã e os morangos.",
+          "Regue as frutas com o suco de laranja para evitar que escureçam e para adicionar sabor.",
+          "Misture delicadamente todos os ingredientes.",
+          "Sirva imediatamente ou leve à geladeira por alguns minutos para resfriar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/pera-cozida-no-micro-ondas-com-mel-e-canela",
-          "checked_at": "2026-09-30T16:43:29+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/salada-de-frutas-simples",
+          "checked_at": "2026-10-01T17:18:43+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/13848848/pexels-photo-13848848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Vista superior de uma pera cozida com molho de caramelo em uma mesa rústica.",
-          "bank_id": "13848848",
-          "credit": "Johanka Hubikova",
-          "query": "Pera Cozida no Micro-ondas com Mel e Canela"
+          "url": "https://images.pexels.com/photos/38185153/pexels-photo-38185153.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de uma salada de frutas frescas em uma tigela branca sobre uma mesa de café, em um ambiente bem iluminado e convidativo.",
+          "bank_id": "38185153",
+          "credit": "Eric Joseph",
+          "query": "Salada de Frutas Simples"
         },
-        "id": "pera-cozida-no-micro-ondas-com-mel-e-canela-b41514e9"
+        "id": "salada-de-frutas-simples-694f6ee9"
       }
     ]
   },
