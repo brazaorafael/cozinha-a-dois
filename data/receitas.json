@@ -1,187 +1,188 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-01T14:17:03-03:00",
+  "gerado_em": "2026-10-02T13:31:10-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "01/10/2026",
-    "dia_semana": "quinta",
+    "data": "02/10/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Bife Completo na Pressão",
+        "nome": "Carne Moída com Abobrinha",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Carne vermelha (coxão mole) em bifes finos, preparada na panela de pressão para maciez e rapidez. Inclui batatas e vegetais como cebola e repolho, tornando-o um prato completo e equilibrado. Ideal para um jantar prático e com potencial para sobras.",
+        "tempo": "30-40 minutos",
+        "porque": "Prático, rápido, equilibrado com proteína e vegetal, e rende para o almoço de uma pessoa, atendendo à prioridade de carne vermelha.",
         "tags": [
-          "carnevermelha",
-          "paneladepressao",
-          "pratocompleto",
+          "carne_moida",
+          "refogado",
+          "vegetais",
           "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "½ xícara (chá) de óleo",
-          "1 kg de coxão mole cortado em bifes finos e temperados com sal, pimenta e alho amassado",
-          "5 batatas médias sem casca cortadas em rodelas bem grossas",
-          "2 cebolas grandes cortadas em rodelas grossas",
-          "1 repolho pequeno cortado em pedaços grandes",
-          "1 caixinha de molho de tomate",
-          "Meia xícara (chá) de azeitonas verdes picadas grosseiramente",
-          "Sal e pimenta-do-reino a gosto",
-          "Salsinha picada a gosto"
+          "1 colher (sopa) de azeite",
+          "500 g de carne moída",
+          "1 cebola média picada",
+          "2 dentes de alho picados",
+          "1 abobrinha média em cubos",
+          "1 tomate maduro picado",
+          "½ xícara (chá) de água",
+          "sal e pimenta-do-reino moída na hora a gosto",
+          "cheiro-verde picado a gosto"
         ],
         "preparo": [
-          "Em uma panela de pressão, aqueça o óleo.",
-          "Faça camadas com metade dos bifes, batatas, cebola, repolho, molho de tomate e azeitonas.",
-          "Tempere com sal e pimenta-do-reino a gosto.",
-          "Repita as camadas com os ingredientes restantes.",
-          "Tampe a panela e cozinhe em fogo médio por 15 minutos após pegar pressão.",
-          "Retire a pressão, abra a panela e polvilhe salsinha picada a gosto.",
-          "Sirva acompanhado de arroz branco."
+          "Aqueça o azeite em uma panela em fogo médio. Adicione a carne moída e refogue, mexendo para soltar, até dourar.",
+          "Junte a cebola e o alho, refogando por mais 3 minutos até ficarem macios.",
+          "Acrescente a abobrinha e o tomate picados. Tempere com sal e pimenta-do-reino.",
+          "Adicione a água, misture e tampe a panela. Cozinhe por cerca de 10 minutos, ou até a abobrinha ficar macia e o molho encorpado.",
+          "Finalize com cheiro-verde picado e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.anamariabraga.globo.com/receita/bife-completo-na-pressao/",
-          "checked_at": "2026-10-01T17:18:39+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-abobrinha",
+          "checked_at": "2026-10-02T16:32:35+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/3660/food-restaurant-dinner-lunch.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife servido com batatas e fatias de tomate fresco. Perfeito para o almoço ou jantar.",
-          "bank_id": "3660",
-          "credit": "JÉSHOOTS",
-          "query": "Bife Completo na Pressão"
+          "url": "https://images.pexels.com/photos/18973339/pexels-photo-18973339.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de carne fresca e carne moída em uma vitrine no mercado San Vito, Costa Rica.",
+          "bank_id": "18973339",
+          "credit": "Luis Kuthe",
+          "query": "Carne Moída com Abobrinha"
         },
-        "id": "bife-completo-na-pressao-c511d4f4"
+        "id": "carne-moida-com-abobrinha-e96d4a97"
       },
       {
-        "nome": "Carne com Batata na Pressão da Ana Maria",
+        "nome": "Filé de Merluza Assado com Batatas",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma opção de carne vermelha (acém) em cubos, cozida na panela de pressão com batatas, resultando em um prato macio e saboroso em pouco tempo. É uma refeição reconfortante e prática, com bom equilíbrio de proteína e carboidrato.",
+        "tempo": "45 minutos",
+        "porque": "Única opção de peixe da semana, assado no forno, resultando em uma refeição completa e equilibrada, sem fritura.",
         "tags": [
-          "carnevermelha",
-          "paneladepressao",
-          "pratounico",
-          "facil"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "4 colheres (sopa) de óleo",
-          "2 cebolas picadas",
-          "4 dentes de alho amassados",
-          "1 colher (sopa) de coentro picado",
-          "1 kg de acém cortado em cubos",
-          "200 ml de molho de tomate",
-          "2 xícaras (chá) de caldo de carne",
-          "6 batatas cortadas em cubos grandes",
-          "Sal e pimenta-do-reino moída a gosto"
-        ],
-        "preparo": [
-          "Numa panela de pressão, aqueça o óleo e doure a cebola, o alho e o coentro.",
-          "Junte a carne e sele-a por todos os lados.",
-          "Acrescente o molho de tomate, o caldo de carne, o sal e a pimenta-do-reino.",
-          "Tampe a panela e deixe cozinhar por 20 minutos após pegar pressão.",
-          "Retire a pressão, adicione as batatas e cozinhe na pressão por mais 6 minutos.",
-          "Coloque em um refratário e sirva em seguida."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://receitas.globo.com/ana-maria-braga/salgados/carne-com-batata-na-pressao-da-ana-maria.ghtml",
-          "title": "Carne com batata na pressão da Ana Maria | Receitas",
-          "domain": "receitas.globo.com",
-          "confidence": 1.0,
-          "checked_at": "2026-10-01T17:18:41+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://s2-receitas.glbimg.com/jgLd4s49_dZnO8inYofwq6cB4MY=/1510x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/H/U/BuxzoxTEGcjzd0E3CW5g/carne-com-batata-na-pressao-da-ana-maria.jpg",
-          "alt": "Carne com Batata na Pressão da Ana Maria"
-        },
-        "id": "carne-com-batata-na-pressao-da-ana-maria-678b68b6"
-      },
-      {
-        "nome": "Salada Rápida de Grão-de-Bico",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, nutritiva e muito rápida de preparar, ideal para complementar o jantar. O grão-de-bico oferece proteína e fibras, e o manjericão fresco adiciona um toque aromático.",
-        "tags": [
-          "salada",
-          "vegetariano",
-          "rapido",
-          "fresco"
+          "peixe",
+          "assado",
+          "forno",
+          "batatas"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1½ xícara (chá) de grão-de-bico cozido (ou 1 lata)",
-          "2 colheres (sopa) de caldo de limão",
-          "4 colheres (sopa) de azeite",
-          "20 folhas de manjericão fresco",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "4 filés de merluza",
+          "4 batatas médias",
+          "8 tomates cerejas",
+          "1 cebola média",
+          "2 dentes de alho",
+          "Suco de 1 limão",
+          "2 colheres (sopa) de azeite de oliva",
+          "Sal e pimenta a gosto",
+          "Salsa picada para decorar"
         ],
         "preparo": [
-          "Escorra o grão-de-bico em uma peneira, se desejar, passe por água corrente.",
-          "Em uma tigela, junte o grão-de-bico, o caldo de limão, o azeite e as folhas de manjericão.",
-          "Tempere com sal e pimenta-do-reino moída na hora a gosto.",
-          "Misture bem todos os ingredientes.",
-          "Sirva imediatamente ou leve à geladeira por alguns minutos para resfriar."
+          "Pré-aqueça o forno a 180°C.",
+          "Corte as batatas em rodelas e a cebola em meias-luas. Pique o alho.",
+          "Em uma assadeira, disponha as batatas, a cebola, o alho e os tomates cerejas. Regue com metade do azeite, tempere com sal e pimenta.",
+          "Tempere os filés de merluza com sal, pimenta e suco de limão.",
+          "Coloque os filés sobre os legumes na assadeira. Regue com o restante do azeite.",
+          "Leve ao forno por cerca de 30-40 minutos, ou até o peixe estar cozido e as batatas macias.",
+          "Finalize com salsa picada antes de servir."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.tudogostoso.com.br/receitas/29095-file-de-merluza-assado-com-batatas.html",
+          "checked_at": "2026-10-02T16:32:36+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/7837785/pexels-photo-7837785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um vibrante prato de legumes assados com batatas, brócolis e cenouras.",
+          "bank_id": "7837785",
+          "credit": "Jess  Ho",
+          "query": "Filé de Merluza Assado com Batatas"
+        },
+        "id": "file-de-merluza-assado-com-batatas-9d01ee1c"
+      },
+      {
+        "nome": "Ricota Grelhada",
+        "curso": "entrada",
+        "tempo": "10 minutos",
+        "porque": "Rápida, saudável e com um ar glamuroso, surpreende como entradinha e é super saborosa. Perfeita para um casal jovem.",
+        "tags": [
+          "queijo",
+          "grelhado",
+          "entrada",
+          "rapido"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 ricota fresca (de 400g, aproximadamente)",
+          "4 colheres (sopa) de azeite",
+          "8 folhas de manjericão",
+          "8 folhas de hortelã",
+          "8 folhas de salsa crespa",
+          "sal e pimenta-do-reino moída na hora a gosto",
+          "grãos de pimenta rosa para perfumar"
+        ],
+        "preparo": [
+          "Corte a ricota em fatias de 2 cm de espessura. Lave e seque as ervas frescas.",
+          "Aqueça uma frigideira antiaderente em fogo médio. Adicione 1 colher (sopa) de azeite.",
+          "Grelhe as fatias de ricota por 4 minutos de cada lado, ou até dourarem.",
+          "Transfira a ricota grelhada para um prato.",
+          "Tempere com sal e pimenta-do-reino, salpique as ervas frescas e os grãos de pimenta rosa.",
+          "Regue com um fio de azeite e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-rapida-de-grao-de-bico",
-          "title": "Salada rápida de grão-de-bico - Panelinha",
+          "url": "https://panelinha.com.br/receita/ricota-grelhada",
+          "title": "Ricota grelhada - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-01T17:18:42+00:00"
+          "checked_at": "2026-10-02T16:32:37+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-3575-salada-grao-de-bico-mexicana.webp",
-          "alt": "Salada Rápida de Grão-de-Bico"
+          "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
+          "alt": "Ricota Grelhada"
         },
-        "id": "salada-rapida-de-grao-de-bico-f701bcb3"
+        "id": "ricota-grelhada-bb272a1a"
       },
       {
-        "nome": "Salada de Frutas Simples",
+        "nome": "Creme de Limão com Salada de Frutas",
         "curso": "sobremesa",
         "tempo": "10 minutos",
-        "porque": "Uma sobremesa leve, refrescante e rápida, perfeita para finalizar a refeição sem pesar. Utiliza frutas frescas e acessíveis, proporcionando vitaminas e um toque adocicado natural. Não está na lista de pratos recentes a serem evitados.",
+        "porque": "Leve, refrescante, rápido e fácil de preparar, ideal para dias quentes e para equilibrar o cardápio.",
         "tags": [
+          "sobremesa",
           "frutas",
-          "leve",
-          "rapido",
-          "saudavel"
+          "facil",
+          "refrescante"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 mamão papaia médio, picado",
-          "2 bananas nanicas, picadas",
-          "1 maçã, picada",
-          "10 morangos, picados",
-          "Suco de 1 laranja"
+          "1 lata ou caixinha de Leite MOÇA® (395g)",
+          "½ xícara (chá) de suco de limão",
+          "raspas da casca de 1 limão",
+          "4 xícaras (chá) de frutas variadas picadas (ex: manga, morango, kiwi, uva)"
         ],
         "preparo": [
-          "Lave e pique todas as frutas em pedaços médios.",
-          "Em uma tigela grande, junte o mamão, as bananas, a maçã e os morangos.",
-          "Regue as frutas com o suco de laranja para evitar que escureçam e para adicionar sabor.",
-          "Misture delicadamente todos os ingredientes.",
-          "Sirva imediatamente ou leve à geladeira por alguns minutos para resfriar."
+          "Em um recipiente, misture o Leite MOÇA® com o suco de limão e as raspas da casca de limão.",
+          "Mexa bem até o creme encorpar e ficar homogêneo.",
+          "Em taças individuais ou uma travessa, coloque as frutas variadas picadas.",
+          "Despeje o creme de limão sobre as frutas.",
+          "Sirva gelado."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/salada-de-frutas-simples",
-          "checked_at": "2026-10-01T17:18:43+00:00"
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/creme-de-limao-com-salada-de-frutas",
+          "title": "Creme de Limão com Salada de Frutas",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-02T16:32:37+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/38185153/pexels-photo-38185153.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de uma salada de frutas frescas em uma tigela branca sobre uma mesa de café, em um ambiente bem iluminado e convidativo.",
-          "bank_id": "38185153",
-          "credit": "Eric Joseph",
-          "query": "Salada de Frutas Simples"
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/0bc06b57f6a13474aae43c53f3b353b8.jpg",
+          "alt": "Creme de Limão com Salada de Frutas"
         },
-        "id": "salada-de-frutas-simples-694f6ee9"
+        "id": "creme-de-limao-com-salada-de-frutas-f766bfd3"
       }
     ]
   },

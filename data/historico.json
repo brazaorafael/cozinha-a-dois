@@ -4179,5 +4179,29 @@
     ],
     "data": "01/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-abobrinha-e96d4a97",
+    "titulo": "Carne Moída com Abobrinha",
+    "tags": [
+      "carne_moida",
+      "refogado",
+      "vegetais",
+      "rapido"
+    ],
+    "data": "02/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-de-merluza-assado-com-batatas-9d01ee1c",
+    "titulo": "Filé de Merluza Assado com Batatas",
+    "tags": [
+      "peixe",
+      "assado",
+      "forno",
+      "batatas"
+    ],
+    "data": "02/10/2026",
+    "fonte_status": "unverified"
   }
 ]
