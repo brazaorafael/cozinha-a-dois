@@ -4203,5 +4203,29 @@
     ],
     "data": "02/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-bovina-refogada-com-legumes-a135f90c",
+    "titulo": "Carne Bovina Refogada com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "vegetais",
+      "equilibrado"
+    ],
+    "data": "03/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "creme-de-papaia-congelado-com-licor-de-cassis-b098d534",
+    "titulo": "Creme de Papaia Congelado com Licor de Cassis",
+    "tags": [
+      "sobremesa",
+      "fruta",
+      "rapido",
+      "refrescante"
+    ],
+    "data": "03/10/2026",
+    "fonte_status": "unverified"
   }
 ]

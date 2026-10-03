@@ -1,188 +1,182 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-02T13:31:10-03:00",
+  "gerado_em": "2026-10-03T12:04:14-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "02/10/2026",
-    "dia_semana": "sexta",
+    "data": "03/10/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Carne Moída com Abobrinha",
+        "nome": "Carne de Panela Simples e Saborosa",
         "curso": "principal",
-        "tempo": "30-40 minutos",
-        "porque": "Prático, rápido, equilibrado com proteína e vegetal, e rende para o almoço de uma pessoa, atendendo à prioridade de carne vermelha.",
+        "tempo": "30 minutos",
+        "porque": "Atende à preferência por carne vermelha, é prática e rápida de fazer na panela de pressão. O tempo de cozimento é curto e o prato rende bem, podendo gerar sobras para o almoço do dia seguinte.",
         "tags": [
-          "carne_moida",
-          "refogado",
-          "vegetais",
-          "rapido"
+          "carne_vermelha",
+          "panela_de_pressao",
+          "rapido",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 colher (sopa) de azeite",
-          "500 g de carne moída",
+          "500g de carne bovina em cubos (acém, paleta ou músculo)",
           "1 cebola média picada",
           "2 dentes de alho picados",
-          "1 abobrinha média em cubos",
-          "1 tomate maduro picado",
-          "½ xícara (chá) de água",
-          "sal e pimenta-do-reino moída na hora a gosto",
-          "cheiro-verde picado a gosto"
+          "Sal e pimenta-do-reino a gosto",
+          "1 fio de azeite",
+          "Água quente o suficiente para cobrir"
         ],
         "preparo": [
-          "Aqueça o azeite em uma panela em fogo médio. Adicione a carne moída e refogue, mexendo para soltar, até dourar.",
-          "Junte a cebola e o alho, refogando por mais 3 minutos até ficarem macios.",
-          "Acrescente a abobrinha e o tomate picados. Tempere com sal e pimenta-do-reino.",
-          "Adicione a água, misture e tampe a panela. Cozinhe por cerca de 10 minutos, ou até a abobrinha ficar macia e o molho encorpado.",
-          "Finalize com cheiro-verde picado e sirva."
+          "Tempere os cubos de carne com sal e pimenta-do-reino a gosto.",
+          "Aqueça um fio de azeite na panela de pressão e doure a carne por todos os lados até selar bem. Retire e reserve.",
+          "Na mesma panela, adicione a cebola e o alho picados, refogando até ficarem macios e levemente dourados.",
+          "Retorne a carne à panela, cubra com água quente e feche a panela de pressão.",
+          "Cozinhe por 10 minutos após a panela pegar pressão. Desligue o fogo e espere a pressão sair naturalmente.",
+          "Verifique o cozimento da carne. Se desejar um molho mais encorpado, cozinhe por mais alguns minutos sem pressão."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-abobrinha",
-          "checked_at": "2026-10-02T16:32:35+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-10-03T15:09:49+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/18973339/pexels-photo-18973339.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de carne fresca e carne moída em uma vitrine no mercado San Vito, Costa Rica.",
-          "bank_id": "18973339",
-          "credit": "Luis Kuthe",
-          "query": "Carne Moída com Abobrinha"
+          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
+          "bank_id": "34837746",
+          "credit": "Caleb Oquendo",
+          "query": "Carne de Panela Simples e Saborosa"
         },
-        "id": "carne-moida-com-abobrinha-e96d4a97"
+        "id": "carne-de-panela-simples-e-saborosa-3ceee17b"
       },
       {
-        "nome": "Filé de Merluza Assado com Batatas",
+        "nome": "Carne Bovina Refogada com Legumes",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Única opção de peixe da semana, assado no forno, resultando em uma refeição completa e equilibrada, sem fritura.",
+        "tempo": "40 minutos",
+        "porque": "Uma opção equilibrada com proteína e uma boa variedade de vegetais. O preparo refogado evita frituras e é relativamente rápido, ideal para um jantar nutritivo e com potencial para sobras.",
         "tags": [
-          "peixe",
-          "assado",
-          "forno",
-          "batatas"
+          "carne_vermelha",
+          "refogado",
+          "vegetais",
+          "equilibrado"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "4 filés de merluza",
-          "4 batatas médias",
-          "8 tomates cerejas",
-          "1 cebola média",
-          "2 dentes de alho",
-          "Suco de 1 limão",
-          "2 colheres (sopa) de azeite de oliva",
-          "Sal e pimenta a gosto",
-          "Salsa picada para decorar"
+          "500g de carne bovina em cubos (patinho ou alcatra)",
+          "2 dentes de alho picados",
+          "1 cebola média picada",
+          "1 pimentão verde pequeno em tiras",
+          "1 tomate maduro picado",
+          "1 cenoura média em rodelas",
+          "1 abobrinha pequena em cubos",
+          "Sal e pimenta-do-reino a gosto",
+          "2 colheres (sopa) de azeite",
+          "1/2 xícara (chá) de água ou caldo de carne"
         ],
         "preparo": [
-          "Pré-aqueça o forno a 180°C.",
-          "Corte as batatas em rodelas e a cebola em meias-luas. Pique o alho.",
-          "Em uma assadeira, disponha as batatas, a cebola, o alho e os tomates cerejas. Regue com metade do azeite, tempere com sal e pimenta.",
-          "Tempere os filés de merluza com sal, pimenta e suco de limão.",
-          "Coloque os filés sobre os legumes na assadeira. Regue com o restante do azeite.",
-          "Leve ao forno por cerca de 30-40 minutos, ou até o peixe estar cozido e as batatas macias.",
-          "Finalize com salsa picada antes de servir."
+          "Tempere os cubos de carne com sal e pimenta-do-reino.",
+          "Em uma panela grande, aqueça o azeite e doure a carne por todos os lados. Retire a carne e reserve.",
+          "Na mesma panela, refogue a cebola e o alho até ficarem levemente dourados.",
+          "Adicione o pimentão, o tomate, a cenoura e a abobrinha. Refogue por alguns minutos até os vegetais começarem a amaciar.",
+          "Retorne a carne à panela, adicione a água ou caldo de carne, tampe e cozinhe em fogo baixo por cerca de 20 a 30 minutos, ou até a carne ficar macia e os legumes cozidos.",
+          "Ajuste o sal e a pimenta, se necessário, e sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receitas/29095-file-de-merluza-assado-com-batatas.html",
-          "checked_at": "2026-10-02T16:32:36+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-10-03T15:09:50+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/7837785/pexels-photo-7837785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um vibrante prato de legumes assados com batatas, brócolis e cenouras.",
-          "bank_id": "7837785",
-          "credit": "Jess  Ho",
-          "query": "Filé de Merluza Assado com Batatas"
+          "url": "https://images.pexels.com/photos/36934968/pexels-photo-36934968.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Refogado saboroso de carne bovina com legumes servido em uma frigideira rústica.",
+          "bank_id": "36934968",
+          "credit": "Mohamed  Olwy",
+          "query": "Carne Bovina Refogada com Legumes"
         },
-        "id": "file-de-merluza-assado-com-batatas-9d01ee1c"
+        "id": "carne-bovina-refogada-com-legumes-a135f90c"
       },
       {
-        "nome": "Ricota Grelhada",
+        "nome": "Salada de Pepino com Iogurte e Hortelã",
         "curso": "entrada",
         "tempo": "10 minutos",
-        "porque": "Rápida, saudável e com um ar glamuroso, surpreende como entradinha e é super saborosa. Perfeita para um casal jovem.",
+        "porque": "Uma entrada leve e refrescante, perfeita para abrir o apetite. É extremamente rápida de preparar, utilizando ingredientes simples e acessíveis, e não requer cozimento. Ideal para um jantar a dois.",
         "tags": [
-          "queijo",
-          "grelhado",
-          "entrada",
-          "rapido"
+          "salada",
+          "vegetariano",
+          "rapido",
+          "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 ricota fresca (de 400g, aproximadamente)",
-          "4 colheres (sopa) de azeite",
-          "8 folhas de manjericão",
-          "8 folhas de hortelã",
-          "8 folhas de salsa crespa",
-          "sal e pimenta-do-reino moída na hora a gosto",
-          "grãos de pimenta rosa para perfumar"
+          "2 pepinos japoneses",
+          "1 pote de iogurte natural sem açúcar (170 g)",
+          "1 colher (sopa) de azeite",
+          "20 folhas de hortelã",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Corte a ricota em fatias de 2 cm de espessura. Lave e seque as ervas frescas.",
-          "Aqueça uma frigideira antiaderente em fogo médio. Adicione 1 colher (sopa) de azeite.",
-          "Grelhe as fatias de ricota por 4 minutos de cada lado, ou até dourarem.",
-          "Transfira a ricota grelhada para um prato.",
-          "Tempere com sal e pimenta-do-reino, salpique as ervas frescas e os grãos de pimenta rosa.",
-          "Regue com um fio de azeite e sirva imediatamente."
+          "Lave e seque bem os pepinos e as folhas de hortelã. Corte as pontas dos pepinos.",
+          "Fatie os pepinos em rodelas bem finas, utilizando um fatiador de legumes ou uma faca afiada.",
+          "Em uma tigela média, combine o pepino fatiado, as folhas de hortelã picadas e o iogurte natural.",
+          "Tempere a salada com o azeite e sal a gosto, misturando delicadamente.",
+          "Sirva imediatamente para aproveitar a frescura ou mantenha na geladeira por até 20 minutos antes de servir."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/ricota-grelhada",
-          "title": "Ricota grelhada - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-02T16:32:37+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-10-03T15:09:50+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
-          "alt": "Ricota Grelhada"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36929190/pexels-photo-36929190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma salada vibrante de tomate e pepino com uma folha de hortelã como guarnição, servida em um prato de vidro decorativo.",
+          "bank_id": "36929190",
+          "credit": "Christina & Peter",
+          "query": "Salada de Pepino com Iogurte e Hortelã"
         },
-        "id": "ricota-grelhada-bb272a1a"
+        "id": "salada-de-pepino-com-iogurte-e-hortela-af852756"
       },
       {
-        "nome": "Creme de Limão com Salada de Frutas",
+        "nome": "Creme de Papaia Congelado com Licor de Cassis",
         "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Leve, refrescante, rápido e fácil de preparar, ideal para dias quentes e para equilibrar o cardápio.",
+        "tempo": "5 minutos (preparo)",
+        "porque": "Uma sobremesa clássica, elegante e incrivelmente fácil e rápida de preparar, com apenas dois ingredientes. É refrescante e perfeita para finalizar o jantar sem complicação.",
         "tags": [
           "sobremesa",
-          "frutas",
-          "facil",
+          "fruta",
+          "rapido",
           "refrescante"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 lata ou caixinha de Leite MOÇA® (395g)",
-          "½ xícara (chá) de suco de limão",
-          "raspas da casca de 1 limão",
-          "4 xícaras (chá) de frutas variadas picadas (ex: manga, morango, kiwi, uva)"
+          "1 mamão papaia maduro",
+          "Licor de cassis a gosto"
         ],
         "preparo": [
-          "Em um recipiente, misture o Leite MOÇA® com o suco de limão e as raspas da casca de limão.",
-          "Mexa bem até o creme encorpar e ficar homogêneo.",
-          "Em taças individuais ou uma travessa, coloque as frutas variadas picadas.",
-          "Despeje o creme de limão sobre as frutas.",
-          "Sirva gelado."
+          "Descasque o mamão papaia, descarte as sementes e corte a polpa em pedaços de aproximadamente 2 cm.",
+          "Congele os pedaços de mamão por algumas horas, até ficarem firmes.",
+          "No liquidificador ou processador, bata o mamão congelado até obter um creme homogêneo e liso.",
+          "Sirva o creme de mamão em taças individuais e regue com licor de cassis a gosto antes de servir."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/creme-de-limao-com-salada-de-frutas",
-          "title": "Creme de Limão com Salada de Frutas",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-02T16:32:37+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-10-03T15:09:50+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/0bc06b57f6a13474aae43c53f3b353b8.jpg",
-          "alt": "Creme de Limão com Salada de Frutas"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/29978686/pexels-photo-29978686.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Sobremesa gourmet elegante com sorvete vermelho e cubos de creme artisticamente dispostos em um prato de cerâmica.",
+          "bank_id": "29978686",
+          "credit": "pedro furtado",
+          "query": "Creme de Papaia Congelado com Licor de Cassis"
         },
-        "id": "creme-de-limao-com-salada-de-frutas-f766bfd3"
+        "id": "creme-de-papaia-congelado-com-licor-de-cassis-b098d534"
       }
     ]
   },
