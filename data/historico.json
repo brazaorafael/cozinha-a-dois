@@ -4227,5 +4227,53 @@
     ],
     "data": "03/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-role-com-molho-de-tomate-fresco-638c5fa2",
+    "titulo": "Bife à Rolê com Molho de Tomate Fresco",
+    "tags": [
+      "carnevermelha",
+      "refogado",
+      "pratocompleto",
+      "facil"
+    ],
+    "data": "04/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-assada-rapida-com-batatas-e-cenoura-1b4f73b8",
+    "titulo": "Carne Assada Rápida com Batatas e Cenoura",
+    "tags": [
+      "carnevermelha",
+      "assado",
+      "pratocompleto",
+      "facil"
+    ],
+    "data": "04/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-pepino-com-gergelim-1c0e6c51",
+    "titulo": "Salada de Pepino com Gergelim",
+    "tags": [
+      "salada",
+      "entradaleve",
+      "vegetariano",
+      "rapido"
+    ],
+    "data": "04/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "creme-de-manga-com-coco-5349f042",
+    "titulo": "Creme de Manga com Coco",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "rapido",
+      "facil"
+    ],
+    "data": "04/10/2026",
+    "fonte_status": "unverified"
   }
 ]
