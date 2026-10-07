@@ -1,188 +1,190 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-04T12:41:04-03:00",
+  "gerado_em": "2026-10-07T14:41:12-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "04/10/2026",
-    "dia_semana": "domingo",
+    "data": "07/10/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Bife à Rolê com Molho de Tomate Fresco",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Carne vermelha, prático, completo e com tempo de preparo adequado. É uma receita clássica e rende para o almoço do dia seguinte.",
-        "tags": [
-          "carnevermelha",
-          "refogado",
-          "pratocompleto",
-          "facil"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "4 bifes de coxão duro ou lagarto (cerca de 120 g cada)",
-          "4 fatias de bacon",
-          "1 cenoura pequena",
-          "1 cebola pequena",
-          "2 dentes de alho",
-          "4 tomates maduros",
-          "1/2 xícara (chá) de caldo de carne (ou água)",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Salsinha picada para finalizar (opcional)"
-        ],
-        "preparo": [
-          "Tempere os bifes com sal e pimenta. Recheie cada bife com uma fatia de bacon e um pedaço de cenoura. Enrole e prenda com um palito.",
-          "Em uma panela de pressão, aqueça o azeite e doure os bifes à rolê por todos os lados. Retire e reserve.",
-          "Na mesma panela, refogue a cebola picada e o alho amassado até dourar. Adicione os tomates picados e cozinhe por 5 minutos.",
-          "Volte os bifes à panela, adicione o caldo de carne (ou água), tampe e cozinhe por cerca de 25 minutos após o início da pressão.",
-          "Desligue o fogo, espere a pressão sair naturalmente e retire os palitos. Sirva com salsinha picada, se desejar."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bife-a-role-com-molho-de-tomate-fresco",
-          "checked_at": "2026-10-04T15:42:10+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/36430161/pexels-photo-36430161.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Suculento bife servido com tomates-cereja frescos e um rico molho de tomate.",
-          "bank_id": "36430161",
-          "credit": "Willians Huerta",
-          "query": "Bife à Rolê com Molho de Tomate Fresco"
-        },
-        "id": "bife-a-role-com-molho-de-tomate-fresco-638c5fa2"
-      },
-      {
-        "nome": "Carne Assada Rápida com Batatas e Cenoura",
+        "nome": "Carne de Panela com Legumes",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Carne vermelha assada no forno, uma opção prática e completa com legumes, ideal para um jantar equilibrado e com potencial de sobras.",
+        "porque": "Uma receita clássica de carne vermelha (coxão mole ou duro) com legumes variados, perfeita para um jantar nutritivo e com potencial para sobras. O preparo na panela de pressão garante praticidade e rapidez, ideal para o perfil do casal.",
         "tags": [
-          "carnevermelha",
-          "assado",
-          "pratocompleto",
-          "facil"
+          "carne_vermelha",
+          "panela_de_pressao",
+          "equilibrado",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de carne (patinho, alcatra ou coxão mole) em cubos grandes",
-          "3 batatas médias descascadas e cortadas em cubos",
-          "2 cenouras médias descascadas e cortadas em rodelas grossas",
-          "1 cebola grande picada",
-          "3 dentes de alho amassados",
-          "1/2 xícara (chá) de água",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino a gosto",
-          "Cheiro-verde picado a gosto (opcional)"
+          "2 colheres (sopa) de óleo",
+          "500 g de coxão mole ou duro cortado em cubinhos",
+          "2 sticks de MAGGI® MEU SEGREDO® 7 Vegetais",
+          "1 xícara (chá) de água fervente",
+          "5 tomates maduros, sem pele e sem sementes, picados",
+          "3 batatas em cubinhos"
         ],
         "preparo": [
-          "Tempere a carne com sal, pimenta, alho e metade da cebola picada. Deixe marinar por 15 minutos.",
-          "Em uma assadeira, coloque a carne temperada, as batatas, as cenouras e o restante da cebola.",
-          "Regue com azeite e adicione a água. Cubra a assadeira com papel alumínio.",
-          "Leve ao forno pré-aquecido a 200°C por 30 minutos.",
-          "Retire o papel alumínio e asse por mais 15 minutos ou até a carne e os legumes estarem macios e dourados.",
-          "Finalize com cheiro-verde picado, se desejar, e sirva."
+          "Em uma panela de pressão, aqueça o óleo e doure a carne aos poucos em fogo alto, reservando-a.",
+          "Na mesma panela, adicione os sticks de MAGGI® MEU SEGREDO® e a água fervente, raspando o fundo para soltar os sabores.",
+          "Acrescente os tomates picados e as batatas em cubinhos.",
+          "Retorne a carne à panela, misture bem e tampe. Cozinhe por 25 minutos após o início da pressão.",
+          "Desligue o fogo, espere a pressão sair naturalmente e sirva a carne com os legumes."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/Carne-de-Panela-com-Legumes",
+          "title": "Carne de Panela com Legumes",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-07T17:42:34+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/b39a440fe23132937c467aa96fb90490.jpg",
+          "alt": "Carne de Panela com Legumes"
+        },
+        "id": "carne-de-panela-com-legumes-5bec10c3"
+      },
+      {
+        "nome": "Pê-efe de Bife com Abobrinha Assada",
+        "curso": "principal",
+        "tempo": "40 minutos",
+        "porque": "Este prato principal oferece carne vermelha (bife) com um acompanhamento de abobrinha assada, utilizando métodos de cozimento saudáveis (grelha e forno). É uma refeição completa, prática e saborosa, ideal para o jantar do casal.",
+        "tags": [
+          "carne_vermelha",
+          "grelhado",
+          "forno",
+          "vegetais"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 bifes (contrafilé, alcatra ou coxão mole)",
+          "2 abobrinhas",
+          "1 cebola",
+          "1 ramo de alecrim",
+          "3 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "2 colheres (sopa) de água",
+          "2 colheres (chá) de vinagre de vinho branco",
+          "1 colher (chá) de manteiga"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 200 ºC. Lave e corte as abobrinhas em rodelas grossas e a cebola em gomos.",
+          "Em uma assadeira, misture as abobrinhas e a cebola com 2 colheres de azeite, alecrim, sal e pimenta. Leve ao forno por 30 minutos, virando na metade do tempo.",
+          "Retire os bifes da geladeira 10 minutos antes de grelhar. Tempere com sal e pimenta.",
+          "Aqueça uma frigideira com 1 colher de azeite e grelhe os bifes por 2 a 3 minutos de cada lado, ou até o ponto desejado.",
+          "Na mesma frigideira, adicione a manteiga, a água e o vinagre, raspando o fundo para formar um molho. Sirva os bifes com o molho e as abobrinhas assadas."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/11311-carne-assada-rapida.html",
-          "checked_at": "2026-10-04T15:42:11+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Pe-efe-de-bife-com-abobrinha-assada",
+          "checked_at": "2026-10-07T17:42:34+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
-          "bank_id": "6545671",
-          "credit": "Thiago Rebouças",
-          "query": "Carne Assada Rápida com Batatas e Cenoura"
+          "url": "https://images.pexels.com/photos/17299745/pexels-photo-17299745.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosos legumes grelhados e bife de carne servidos chiando em um prato quente, perfeitos para uma refeição farta.",
+          "bank_id": "17299745",
+          "credit": "Boris Hamer",
+          "query": "Pê-efe de Bife com Abobrinha Assada"
         },
-        "id": "carne-assada-rapida-com-batatas-e-cenoura-1b4f73b8"
+        "id": "pe-efe-de-bife-com-abobrinha-assada-0f0f7c5e"
       },
       {
-        "nome": "Salada de Pepino com Gergelim",
+        "nome": "Salada de Grão-de-bico com Atum",
         "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada leve, refrescante e rápida de preparar, perfeita para equilibrar o jantar.",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada leve, nutritiva e rápida de preparar, ideal para começar a refeição. Rica em proteínas e fibras, combina o grão-de-bico com atum e vegetais frescos, sendo uma opção saudável e prática.",
         "tags": [
           "salada",
-          "entradaleve",
-          "vegetariano",
-          "rapido"
+          "rapida",
+          "proteina",
+          "fresca"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 pepinos japoneses",
-          "1 colher (sopa) de vinagre de arroz (ou vinagre branco)",
-          "1 colher (chá) de açúcar",
-          "1/2 colher (chá) de sal",
-          "1 colher (sopa) de gergelim torrado",
-          "1 colher (sopa) de azeite (opcional)"
+          "1 lata de atum escorrido",
+          "1 lata de grão-de-bico cozido e escorrido",
+          "1 palmito picado",
+          "Azeitonas a gosto",
+          "½ cebola picada",
+          "Azeite a gosto",
+          "Vinagre a gosto",
+          "MAGGI Da Horta a gosto",
+          "Batatas cozidas em cubos (opcional)",
+          "Ovos cozidos picados (opcional)",
+          "Pimentão picado (opcional)",
+          "Salsa picada a gosto"
         ],
         "preparo": [
-          "Lave bem os pepinos e corte-os em rodelas finas (pode usar um mandoline).",
-          "Em uma tigela, misture o vinagre, o açúcar e o sal até dissolver.",
-          "Adicione as rodelas de pepino à tigela e misture bem. Deixe marinar por 10 minutos.",
-          "Escorra o excesso de líquido dos pepinos.",
-          "Adicione o gergelim torrado e o azeite (se usar) e misture delicadamente. Sirva gelada."
+          "Em um recipiente, misture o atum, o grão-de-bico, o palmito, as azeitonas e a cebola.",
+          "Tempere com azeite, vinagre e MAGGI Da Horta a gosto.",
+          "Se desejar, adicione as batatas, os ovos e o pimentão.",
+          "Finalize com salsa picada e misture delicadamente.",
+          "Leve à geladeira para tomar gosto antes de servir."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-pepino-com-gergelim",
-          "checked_at": "2026-10-04T15:42:12+00:00"
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/salada-de-grao-de-bico-com-atum",
+          "title": "Salada de Grão-de-bico com Atum",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-07T17:42:35+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/17391583/pexels-photo-17391583.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Tigela colorida de salada de vegetais frescos com abacate, pepino e brócolis, coberta com sementes de gergelim.",
-          "bank_id": "17391583",
-          "credit": "Nadin Sh",
-          "query": "Salada de Pepino com Gergelim"
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/182bf0e20ac3e9205738f0e6efeecb6d.jpg",
+          "alt": "Salada de Grão-de-bico com Atum"
         },
-        "id": "salada-de-pepino-com-gergelim-1c0e6c51"
+        "id": "salada-de-grao-de-bico-com-atum-43129c72"
       },
       {
-        "nome": "Creme de Manga com Coco",
+        "nome": "Musse de Limão-Siciliano",
         "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Uma sobremesa leve, refrescante e muito rápida de fazer, ideal para finalizar a refeição sem pesar.",
+        "tempo": "20 minutos (mais tempo de geladeira)",
+        "porque": "Uma sobremesa leve, aerada e azedinha na medida certa, perfeita para finalizar o jantar. É fácil de fazer e não repete pratos recentes, além de ser de uma fonte confiável.",
         "tags": [
-          "sobremesa",
-          "frutas",
-          "rapido",
-          "facil"
+          "doce",
+          "refrescante",
+          "facil",
+          "gelada"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 mangas maduras (tipo Palmer ou Tommy)",
-          "1/2 xícara (chá) de leite de coco",
-          "2 colheres (sopa) de açúcar (ou a gosto)",
-          "Raspas de coco fresco para decorar (opcional)"
+          "Suco de 2 limões-sicilianos (cerca de ½ xícara de chá)",
+          "1 lata de leite condensado",
+          "1 lata de creme de leite",
+          "Raspas de limão-siciliano a gosto",
+          "1 envelope de gelatina em pó sem sabor (12g)",
+          "½ xícara (chá) de água morna"
         ],
         "preparo": [
-          "Lave e descasque as mangas. Corte a polpa em pedaços e descarte o caroço.",
-          "No liquidificador, bata a polpa da manga com o leite de coco e o açúcar até obter um creme liso e homogêneo.",
-          "Prove e ajuste o açúcar, se necessário.",
-          "Transfira o creme para taças individuais e leve à geladeira por pelo menos 30 minutos para gelar.",
-          "Decore com raspas de coco fresco antes de servir, se desejar."
+          "No liquidificador, bata o suco de limão, o leite condensado e o creme de leite até obter uma mistura lisa.",
+          "Adicione metade das raspas de limão e pulse para misturar.",
+          "Em uma tigela pequena, dissolva a gelatina sem sabor na água morna, mexendo bem com um batedor de arame.",
+          "Junte a gelatina dissolvida ao creme no liquidificador e pulse algumas vezes para incorporar.",
+          "Transfira a musse para uma travessa ou taças individuais.",
+          "Leve à geladeira por no mínimo 2 horas para gelar e firmar.",
+          "Na hora de servir, decore com as raspas de limão restantes."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Creme-de-manga-com-coco",
-          "checked_at": "2026-10-04T15:42:13+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/musse-de-limao-siciliano",
+          "title": "Musse de limão-siciliano - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-07T17:42:35+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/38869883/pexels-photo-38869883.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma deliciosa pavlova coberta com manga fresca e creme, lindamente apresentada em um prato.",
-          "bank_id": "38869883",
-          "credit": "Paolo Bici",
-          "query": "Creme de Manga com Coco"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9462-musse-de-limao-siciliano.webp",
+          "alt": "Musse de Limão-Siciliano"
         },
-        "id": "creme-de-manga-com-coco-5349f042"
+        "id": "musse-de-limao-siciliano-bf1dd6f6"
       }
     ]
   },

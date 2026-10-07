@@ -4275,5 +4275,53 @@
     ],
     "data": "04/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-com-legumes-5bec10c3",
+    "titulo": "Carne de Panela com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "equilibrado",
+      "sobra"
+    ],
+    "data": "07/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "pe-efe-de-bife-com-abobrinha-assada-0f0f7c5e",
+    "titulo": "Pê-efe de Bife com Abobrinha Assada",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "forno",
+      "vegetais"
+    ],
+    "data": "07/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-grao-de-bico-com-atum-43129c72",
+    "titulo": "Salada de Grão-de-bico com Atum",
+    "tags": [
+      "salada",
+      "rapida",
+      "proteina",
+      "fresca"
+    ],
+    "data": "07/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "musse-de-limao-siciliano-bf1dd6f6",
+    "titulo": "Musse de Limão-Siciliano",
+    "tags": [
+      "doce",
+      "refrescante",
+      "facil",
+      "gelada"
+    ],
+    "data": "07/10/2026",
+    "fonte_status": "verified"
   }
 ]
