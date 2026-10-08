@@ -4323,5 +4323,29 @@
     ],
     "data": "07/10/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "salada-completa-3d20b8fd",
+    "titulo": "Salada Completa",
+    "tags": [
+      "salada",
+      "vegetais",
+      "rapido",
+      "leve"
+    ],
+    "data": "08/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "macas-com-chocolate-1b574606",
+    "titulo": "Maçãs com Chocolate",
+    "tags": [
+      "doce",
+      "fruta",
+      "chocolate",
+      "rapido"
+    ],
+    "data": "08/10/2026",
+    "fonte_status": "verified"
   }
 ]

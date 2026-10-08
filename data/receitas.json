@@ -1,190 +1,194 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-07T14:41:12-03:00",
+  "gerado_em": "2026-10-08T14:45:27-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "07/10/2026",
-    "dia_semana": "quarta",
+    "data": "08/10/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Carne de Panela com Legumes",
+        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Uma receita clássica de carne vermelha (coxão mole ou duro) com legumes variados, perfeita para um jantar nutritivo e com potencial para sobras. O preparo na panela de pressão garante praticidade e rapidez, ideal para o perfil do casal.",
+        "tempo": "35 minutos",
+        "porque": "Receita clássica de carne vermelha, prática e rápida na panela de pressão, com bom equilíbrio de proteína e vegetais. Rende para o jantar do casal e possivelmente sobra para o almoço. Prioriza refogado e panela de pressão.",
         "tags": [
           "carne_vermelha",
           "panela_de_pressao",
-          "equilibrado",
-          "sobra"
+          "refogado",
+          "prato_completo"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 colheres (sopa) de óleo",
-          "500 g de coxão mole ou duro cortado em cubinhos",
-          "2 sticks de MAGGI® MEU SEGREDO® 7 Vegetais",
+          "1 kg de acém em cubos grandes",
+          "400 g de batata bolinha (cerca de 15 unid.), cortadas ao meio",
+          "2 cenouras cortadas em meias-luas de 1 cm na diagonal",
+          "½ cebola picadinha",
+          "2 dentes de alho picadinhos",
+          "1 colher (sopa) de extrato de tomate",
+          "2 colheres (sopa) de farinha de trigo",
+          "3 colheres (sopa) de vinagre de vinho tinto",
           "1 xícara (chá) de água fervente",
-          "5 tomates maduros, sem pele e sem sementes, picados",
-          "3 batatas em cubinhos"
+          "2 colheres (sopa) de azeite",
+          "1 colher (chá) de cominho em pó",
+          "½ colher (chá) de colorau",
+          "¼ colher (chá) de canela em pó",
+          "2 folhas de louro",
+          "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Em uma panela de pressão, aqueça o óleo e doure a carne aos poucos em fogo alto, reservando-a.",
-          "Na mesma panela, adicione os sticks de MAGGI® MEU SEGREDO® e a água fervente, raspando o fundo para soltar os sabores.",
-          "Acrescente os tomates picados e as batatas em cubinhos.",
-          "Retorne a carne à panela, misture bem e tampe. Cozinhe por 25 minutos após o início da pressão.",
-          "Desligue o fogo, espere a pressão sair naturalmente e sirva a carne com os legumes."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/Carne-de-Panela-com-Legumes",
-          "title": "Carne de Panela com Legumes",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-07T17:42:34+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/b39a440fe23132937c467aa96fb90490.jpg",
-          "alt": "Carne de Panela com Legumes"
-        },
-        "id": "carne-de-panela-com-legumes-5bec10c3"
-      },
-      {
-        "nome": "Pê-efe de Bife com Abobrinha Assada",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Este prato principal oferece carne vermelha (bife) com um acompanhamento de abobrinha assada, utilizando métodos de cozimento saudáveis (grelha e forno). É uma refeição completa, prática e saborosa, ideal para o jantar do casal.",
-        "tags": [
-          "carne_vermelha",
-          "grelhado",
-          "forno",
-          "vegetais"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bifes (contrafilé, alcatra ou coxão mole)",
-          "2 abobrinhas",
-          "1 cebola",
-          "1 ramo de alecrim",
-          "3 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "2 colheres (sopa) de água",
-          "2 colheres (chá) de vinagre de vinho branco",
-          "1 colher (chá) de manteiga"
-        ],
-        "preparo": [
-          "Preaqueça o forno a 200 ºC. Lave e corte as abobrinhas em rodelas grossas e a cebola em gomos.",
-          "Em uma assadeira, misture as abobrinhas e a cebola com 2 colheres de azeite, alecrim, sal e pimenta. Leve ao forno por 30 minutos, virando na metade do tempo.",
-          "Retire os bifes da geladeira 10 minutos antes de grelhar. Tempere com sal e pimenta.",
-          "Aqueça uma frigideira com 1 colher de azeite e grelhe os bifes por 2 a 3 minutos de cada lado, ou até o ponto desejado.",
-          "Na mesma frigideira, adicione a manteiga, a água e o vinagre, raspando o fundo para formar um molho. Sirva os bifes com o molho e as abobrinhas assadas."
+          "Tempere os cubos de acém com cominho, colorau, canela, 1 colher (chá) de sal e pimenta a gosto. Reserve.",
+          "Aqueça a panela de pressão em fogo médio com 1 colher (sopa) de azeite. Refogue a cebola com uma pitada de sal por 2 minutos até murchar.",
+          "Junte o alho, o extrato de tomate e as folhas de louro. Refogue por mais 1 minuto.",
+          "Adicione mais 1 colher (sopa) de azeite e a farinha de trigo. Mexa bem por 2 minutos até dourar levemente.",
+          "Regue com o vinagre e a xícara de água fervente. Tempere com mais 1 colher (chá) de sal.",
+          "Coloque a carne temperada e misture bem. Tampe a panela, aumente o fogo e, quando pegar pressão, abaixe e cozinhe por 25 minutos.",
+          "Libere a pressão com cuidado, coloque a batata e a cenoura, se precisar adicione um pouco mais de água, feche a panela e cozinhe após sair a pressão por mais 5 minutos."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Pe-efe-de-bife-com-abobrinha-assada",
-          "checked_at": "2026-10-07T17:42:34+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
+          "checked_at": "2026-10-08T17:47:23+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/17299745/pexels-photo-17299745.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosos legumes grelhados e bife de carne servidos chiando em um prato quente, perfeitos para uma refeição farta.",
-          "bank_id": "17299745",
-          "credit": "Boris Hamer",
-          "query": "Pê-efe de Bife com Abobrinha Assada"
+          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
+          "bank_id": "6545671",
+          "credit": "Thiago Rebouças",
+          "query": "Carne de Panela com Batata e Cenoura na Pressão"
         },
-        "id": "pe-efe-de-bife-com-abobrinha-assada-0f0f7c5e"
+        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
       },
       {
-        "nome": "Salada de Grão-de-bico com Atum",
-        "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada leve, nutritiva e rápida de preparar, ideal para começar a refeição. Rica em proteínas e fibras, combina o grão-de-bico com atum e vegetais frescos, sendo uma opção saudável e prática.",
+        "nome": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada",
+        "curso": "principal",
+        "tempo": "Até 1 hora",
+        "porque": "Opção elegante de carne vermelha preparada na air fryer, garantindo rapidez e pouca gordura. O acompanhamento de purê de abóbora e vagem oferece um prato completo e balanceado.",
         "tags": [
-          "salada",
-          "rapida",
-          "proteina",
-          "fresca"
+          "carne_vermelha",
+          "airfryer",
+          "prato_completo",
+          "saudavel"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 lata de atum escorrido",
-          "1 lata de grão-de-bico cozido e escorrido",
-          "1 palmito picado",
-          "Azeitonas a gosto",
-          "½ cebola picada",
-          "Azeite a gosto",
-          "Vinagre a gosto",
-          "MAGGI Da Horta a gosto",
-          "Batatas cozidas em cubos (opcional)",
-          "Ovos cozidos picados (opcional)",
-          "Pimentão picado (opcional)",
-          "Salsa picada a gosto"
+          "1 peça de rosbife (cerca de 600 g)",
+          "1 colher (chá) de sal",
+          "½ colher (chá) de pimenta-do-reino moída na hora",
+          "1 colher (sopa) de azeite",
+          "800 g de abóbora japonesa sem casca",
+          "3 colheres (sopa) de manteiga",
+          "1 dente de alho",
+          "1 xícara (chá) de água",
+          "Noz-moscada ralada na hora a gosto",
+          "300 g de vagem holandesa"
         ],
         "preparo": [
-          "Em um recipiente, misture o atum, o grão-de-bico, o palmito, as azeitonas e a cebola.",
-          "Tempere com azeite, vinagre e MAGGI Da Horta a gosto.",
-          "Se desejar, adicione as batatas, os ovos e o pimentão.",
-          "Finalize com salsa picada e misture delicadamente.",
-          "Leve à geladeira para tomar gosto antes de servir."
+          "Tempere a peça de rosbife com sal e pimenta-do-reino. Regue com azeite e leve à Air Fryer a 200°C por 15 minutos para selar e cozinhar ao ponto.",
+          "Corte a abóbora em cubos médios. Refogue o alho picado em 1 colher (sopa) de manteiga. Adicione a abóbora, sal e água. Cozinhe tampado por 20 minutos até ficar macia.",
+          "Bata a abóbora cozida com um mixer até virar purê. Incorpore a manteiga restante e tempere com noz-moscada e ajuste o sal.",
+          "Lave e seque as vagens. Chamusque-as em uma frigideira antiaderente bem quente por cerca de 5 minutos, mexendo ocasionalmente. Tempere com sal e pimenta.",
+          "Fatie o rosbife e sirva com o purê de abóbora e a vagem chamuscada."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/salada-de-grao-de-bico-com-atum",
-          "title": "Salada de Grão-de-bico com Atum",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-07T17:42:35+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/182bf0e20ac3e9205738f0e6efeecb6d.jpg",
-          "alt": "Salada de Grão-de-bico com Atum"
-        },
-        "id": "salada-de-grao-de-bico-com-atum-43129c72"
-      },
-      {
-        "nome": "Musse de Limão-Siciliano",
-        "curso": "sobremesa",
-        "tempo": "20 minutos (mais tempo de geladeira)",
-        "porque": "Uma sobremesa leve, aerada e azedinha na medida certa, perfeita para finalizar o jantar. É fácil de fazer e não repete pratos recentes, além de ser de uma fonte confiável.",
-        "tags": [
-          "doce",
-          "refrescante",
-          "facil",
-          "gelada"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "Suco de 2 limões-sicilianos (cerca de ½ xícara de chá)",
-          "1 lata de leite condensado",
-          "1 lata de creme de leite",
-          "Raspas de limão-siciliano a gosto",
-          "1 envelope de gelatina em pó sem sabor (12g)",
-          "½ xícara (chá) de água morna"
-        ],
-        "preparo": [
-          "No liquidificador, bata o suco de limão, o leite condensado e o creme de leite até obter uma mistura lisa.",
-          "Adicione metade das raspas de limão e pulse para misturar.",
-          "Em uma tigela pequena, dissolva a gelatina sem sabor na água morna, mexendo bem com um batedor de arame.",
-          "Junte a gelatina dissolvida ao creme no liquidificador e pulse algumas vezes para incorporar.",
-          "Transfira a musse para uma travessa ou taças individuais.",
-          "Leve à geladeira por no mínimo 2 horas para gelar e firmar.",
-          "Na hora de servir, decore com as raspas de limão restantes."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/musse-de-limao-siciliano",
-          "title": "Musse de limão-siciliano - Panelinha",
+          "url": "https://panelinha.com.br/receita/rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-chamuscada",
+          "title": "Rosbife na Air Fryer com purê de abóbora e vagem chamuscada - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-07T17:42:35+00:00"
+          "checked_at": "2026-10-08T17:47:24+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9462-musse-de-limao-siciliano.webp",
-          "alt": "Musse de Limão-Siciliano"
+          "url": "https://i.panelinha.com.br/i1/bk-6356-blog-rosbife-vagem-chamuscada-pure-de-abobora.webp",
+          "alt": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada"
         },
-        "id": "musse-de-limao-siciliano-bf1dd6f6"
+        "id": "rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-b1d61ed5"
+      },
+      {
+        "nome": "Salada Completa",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, fresca e rápida de preparar, com uma combinação equilibrada de vegetais e proteína, ideal para abrir o apetite do casal.",
+        "tags": [
+          "salada",
+          "vegetais",
+          "rapido",
+          "leve"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 xícara (chá) de alface americana picada",
+          "½ xícara (chá) de cenoura ralada",
+          "½ xícara (chá) de tomate em rodelas",
+          "1 talo de salsão em tiras",
+          "150g de peito de peru defumado em tiras",
+          "1 pote de Iogurte NESTLÉ® Natural Integral",
+          "½ colher (chá) de mostarda",
+          "½ colher (chá) de MAGGI® Fondor"
+        ],
+        "preparo": [
+          "Em uma saladeira, disponha as folhas de alface americana picada.",
+          "Adicione a cenoura ralada, o tomate em rodelas, o salsão em tiras e o peito de peru em tiras.",
+          "Em um recipiente separado, misture o iogurte natural, a mostarda e o MAGGI® Fondor para o molho.",
+          "Regue a salada com o molho e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/salada-completa",
+          "title": "Salada Completa",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-08T17:47:24+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/0031ab638216a6779fda9be503a73eb1.jpg",
+          "alt": "Salada Completa"
+        },
+        "id": "salada-completa-3d20b8fd"
+      },
+      {
+        "nome": "Maçãs com Chocolate",
+        "curso": "sobremesa",
+        "tempo": "30 minutos",
+        "porque": "Uma sobremesa divertida, fácil e rápida de preparar, combinando a acidez da maçã com a doçura do chocolate, perfeita para um toque especial no jantar.",
+        "tags": [
+          "doce",
+          "fruta",
+          "chocolate",
+          "rapido"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 maçãs médias",
+          "150g de Cobertura Chocolate ao Leite GAROTO®",
+          "2 palitos de picolé",
+          "Confeitos coloridos a gosto (opcional)"
+        ],
+        "preparo": [
+          "Lave e seque bem as maçãs. Espete um palito de picolé em cada maçã.",
+          "Pique o chocolate e derreta-o em banho-maria ou no micro-ondas (mexendo a cada 30 segundos) até ficar liso e cremoso.",
+          "Banhe cada maçã no chocolate derretido, cobrindo-a completamente.",
+          "Se desejar, decore com confeitos coloridos antes que o chocolate seque.",
+          "Leve as maçãs à geladeira por cerca de 7 minutos para o chocolate endurecer.",
+          "Sirva gelado."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/macas-com-chocolate",
+          "title": "Maçãs com Chocolate",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-08T17:47:25+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/b65631a1b2b171f3a32bc2a89292a7e4.jpg",
+          "alt": "Maçãs com Chocolate"
+        },
+        "id": "macas-com-chocolate-1b574606"
       }
     ]
   },
