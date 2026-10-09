@@ -1,194 +1,207 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-08T14:45:27-03:00",
+  "gerado_em": "2026-10-09T14:21:25-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "08/10/2026",
-    "dia_semana": "quinta",
+    "data": "09/10/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
+        "nome": "Picadinho de Carne com Farofa de Banana",
         "curso": "principal",
-        "tempo": "35 minutos",
-        "porque": "Receita clássica de carne vermelha, prática e rápida na panela de pressão, com bom equilíbrio de proteína e vegetais. Rende para o jantar do casal e possivelmente sobra para o almoço. Prioriza refogado e panela de pressão.",
+        "tempo": "40 minutos",
+        "porque": "Carne vermelha refogada, prática e rápida, com o toque agridoce da banana-da-terra e farofa, garantindo equilíbrio e sabor. Ideal para um jantar a dois com possível sobra para o almoço de uma pessoa.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
           "refogado",
-          "prato_completo"
+          "prato_unico",
+          "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 kg de acém em cubos grandes",
-          "400 g de batata bolinha (cerca de 15 unid.), cortadas ao meio",
-          "2 cenouras cortadas em meias-luas de 1 cm na diagonal",
-          "½ cebola picadinha",
-          "2 dentes de alho picadinhos",
-          "1 colher (sopa) de extrato de tomate",
-          "2 colheres (sopa) de farinha de trigo",
-          "3 colheres (sopa) de vinagre de vinho tinto",
-          "1 xícara (chá) de água fervente",
-          "2 colheres (sopa) de azeite",
-          "1 colher (chá) de cominho em pó",
-          "½ colher (chá) de colorau",
-          "¼ colher (chá) de canela em pó",
-          "2 folhas de louro",
-          "Sal e pimenta-do-reino a gosto"
+          "1 kg de coxão mole em peça (ou filé mignon, alcatra, patinho) em cubos de 1,5 cm",
+          "2 cebolas picadas finamente",
+          "3 dentes de alho picados finamente",
+          "70 g de bacon em cubinhos (cerca de ½ xícara [chá])",
+          "2 colheres (sopa) de extrato de tomate",
+          "2 colheres (sopa) de molho inglês",
+          "3 colheres (sopa) de farinha de trigo",
+          "5 colheres (sopa) de azeite",
+          "4 xícaras (chá) de água (ou caldo de carne)",
+          "Caldo de ½ limão",
+          "¼ de xícara (chá) de salsinha picada",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "3 bananas-da-terra (ou bananas prata)",
+          "500 g de farinha de mandioca torrada (tipo biju)",
+          "200 g de manteiga",
+          "1 xícara (chá) de castanha-de-caju torrada (opcional)",
+          "1 xícara (chá) de banana-passa picada (opcional)"
         ],
         "preparo": [
-          "Tempere os cubos de acém com cominho, colorau, canela, 1 colher (chá) de sal e pimenta a gosto. Reserve.",
-          "Aqueça a panela de pressão em fogo médio com 1 colher (sopa) de azeite. Refogue a cebola com uma pitada de sal por 2 minutos até murchar.",
-          "Junte o alho, o extrato de tomate e as folhas de louro. Refogue por mais 1 minuto.",
-          "Adicione mais 1 colher (sopa) de azeite e a farinha de trigo. Mexa bem por 2 minutos até dourar levemente.",
-          "Regue com o vinagre e a xícara de água fervente. Tempere com mais 1 colher (chá) de sal.",
-          "Coloque a carne temperada e misture bem. Tampe a panela, aumente o fogo e, quando pegar pressão, abaixe e cozinhe por 25 minutos.",
-          "Libere a pressão com cuidado, coloque a batata e a cenoura, se precisar adicione um pouco mais de água, feche a panela e cozinhe após sair a pressão por mais 5 minutos."
+          "Tempere os cubos de carne com sal e pimenta-do-reino. Pique a cebola e o alho finamente. Aqueça a água (ou caldo) em uma chaleira.",
+          "Em uma panela grande com azeite, doure a carne em etapas para não resfriar a panela. Retire e reserve.",
+          "Na mesma panela, refogue a cebola e o alho. Adicione o bacon, extrato de tomate e molho inglês.",
+          "Polvilhe a farinha sobre a carne reservada, misture e retorne à panela. Adicione a água (ou caldo) quente e o suco de limão. Cozinhe até o molho engrossar. Finalize com salsinha.",
+          "Para a farofa: Corte as bananas em rodelas ou meias-luas. Doure-as na manteiga em uma frigideira.",
+          "Adicione a farinha de mandioca e misture até ficar crocante. Se usar, adicione castanha-de-caju e banana-passa. Sirva o picadinho quente com a farofa de banana."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
-          "checked_at": "2026-10-08T17:47:23+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Picadinho-de-carne-com-farofa-de-banana",
+          "checked_at": "2026-10-09T17:23:17+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
-          "bank_id": "6545671",
-          "credit": "Thiago Rebouças",
-          "query": "Carne de Panela com Batata e Cenoura na Pressão"
+          "url": "https://images.pexels.com/photos/3727208/pexels-photo-3727208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma deliciosa variedade de pratos tradicionais brasileiros com carne bovina, bananas-da-terra e saladas vibrantes.",
+          "bank_id": "3727208",
+          "credit": "Horizon Content",
+          "query": "Picadinho de Carne com Farofa de Banana"
         },
-        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+        "id": "picadinho-de-carne-com-farofa-de-banana-c34a6494"
       },
       {
-        "nome": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada",
+        "nome": "Medalhões de Filé com Molho de Vinho",
         "curso": "principal",
-        "tempo": "Até 1 hora",
-        "porque": "Opção elegante de carne vermelha preparada na air fryer, garantindo rapidez e pouca gordura. O acompanhamento de purê de abóbora e vagem oferece um prato completo e balanceado.",
+        "tempo": "40 minutos",
+        "porque": "Uma opção elegante de carne vermelha, com medalhões de filé preparados rapidamente e um molho de vinho saboroso, ideal para um jantar especial sem complicação.",
         "tags": [
           "carne_vermelha",
-          "airfryer",
-          "prato_completo",
-          "saudavel"
+          "grelhado",
+          "molho",
+          "jantar_especial"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "4 medalhões de filé mignon (aprox. 180g cada)",
+          "Sal e pimenta-do-reino a gosto",
+          "2 colheres (sopa) de azeite de oliva",
+          "1 colher (sopa) de manteiga",
+          "1 cebola roxa pequena picada (ou 2 cebolas médias)",
+          "2 dentes de alho picados",
+          "1 xícara (chá) de vinho tinto seco (ou 750ml de vinho tinto seco)",
+          "½ xícara (chá) de caldo de carne (ou 1 copo de água)",
+          "1 colher (chá) de amido de milho (opcional, dissolvido em um pouco de água)",
+          "Ramos de tomilho fresco (opcional)"
+        ],
+        "preparo": [
+          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino.",
+          "Aqueça o azeite em uma frigideira em fogo médio-alto. Sele os medalhões por 3-4 minutos de cada lado, até o ponto desejado. Retire e reserve, cobrindo com papel alumínio.",
+          "Na mesma frigideira, adicione a manteiga, cebola picada e alho. Refogue por 2-3 minutos até ficarem macios.",
+          "Adicione o vinho tinto, raspando o fundo da panela para soltar os sabores. Deixe reduzir pela metade (cerca de 5 minutos).",
+          "Acrescente o caldo de carne (e o amido de milho dissolvido, se usar) e cozinhe por mais 5 minutos, até o molho engrossar.",
+          "Retorne os medalhões à frigideira com o molho para aquecer. Sirva imediatamente, regando com o molho e decorando com tomilho, se desejar."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://receitas.globo.com/receitas/medalhoes-de-file-com-molho-de-vinho-002.ghtml",
+          "checked_at": "2026-10-09T17:23:19+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/33673985/pexels-photo-33673985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso risoto servido com um suculento filé mignon guarnecido com alecrim e regado com molho de vinho tinto.",
+          "bank_id": "33673985",
+          "credit": "pedro furtado",
+          "query": "Medalhões de Filé com Molho de Vinho"
+        },
+        "id": "medalhoes-de-file-com-molho-de-vinho-b1edfde6"
+      },
+      {
+        "nome": "Antepasto Especial de Berinjela no Micro-ondas",
+        "curso": "entrada",
+        "tempo": "20 minutos de preparo ativo + 24h de gel",
+        "porque": "Uma entrada leve, saborosa e prática, preparada no micro-ondas, ideal para acompanhar pães e torradas. Perfeita para um casal jovem que busca opções saudáveis e fáceis.",
+        "tags": [
+          "vegetariano",
+          "entrada_fria",
+          "micro_ondas",
+          "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de rosbife (cerca de 600 g)",
-          "1 colher (chá) de sal",
-          "½ colher (chá) de pimenta-do-reino moída na hora",
-          "1 colher (sopa) de azeite",
-          "800 g de abóbora japonesa sem casca",
-          "3 colheres (sopa) de manteiga",
-          "1 dente de alho",
-          "1 xícara (chá) de água",
-          "Noz-moscada ralada na hora a gosto",
-          "300 g de vagem holandesa"
+          "750 gramas de berinjela sem casca, cortada em cubos",
+          "1 colher (sopa) de sal (para a berinjela)",
+          "2 colheres (sopa) de azeite de oliva",
+          "1 colher (sopa) de alho picado",
+          "1 xícara (chá) de pimentão amarelo em cubos",
+          "1 xícara (chá) de pimentão vermelho em cubos",
+          "1 xícara (chá) de cebola picada",
+          "1 xícara (chá) de azeitonas verdes sem caroço, picadas",
+          "2 colheres (sopa) de vinagre branco",
+          "2 colheres (sopa) de molho inglês",
+          "½ xícara (chá) de azeite de oliva (para o tempero final)",
+          "2 colheres (chá) de sal (para o tempero final)",
+          "1 colher (sopa) de orégano",
+          "Pimenta calabresa a gosto",
+          "½ xícara (chá) de uva-passa preta (opcional)"
         ],
         "preparo": [
-          "Tempere a peça de rosbife com sal e pimenta-do-reino. Regue com azeite e leve à Air Fryer a 200°C por 15 minutos para selar e cozinhar ao ponto.",
-          "Corte a abóbora em cubos médios. Refogue o alho picado em 1 colher (sopa) de manteiga. Adicione a abóbora, sal e água. Cozinhe tampado por 20 minutos até ficar macia.",
-          "Bata a abóbora cozida com um mixer até virar purê. Incorpore a manteiga restante e tempere com noz-moscada e ajuste o sal.",
-          "Lave e seque as vagens. Chamusque-as em uma frigideira antiaderente bem quente por cerca de 5 minutos, mexendo ocasionalmente. Tempere com sal e pimenta.",
-          "Fatie o rosbife e sirva com o purê de abóbora e a vagem chamuscada."
+          "Em uma tigela, cubra a berinjela cortada em cubos com água e 1 colher de sopa de sal. Deixe de molho por 1 hora. Escorra e esprema bem a berinjela.",
+          "Em um refratário que possa ir ao micro-ondas, coloque 2 colheres de sopa de azeite e o alho picado. Leve ao micro-ondas em potência alta por 3 minutos.",
+          "Adicione os pimentões e a cebola picados ao refratário. Leve novamente ao micro-ondas por 3 minutos em potência alta.",
+          "Junte a berinjela escorrida e as azeitonas picadas. Cubra com filme plástico, faça alguns furos e leve ao micro-ondas por 14 minutos em potência alta, mexendo na metade do tempo.",
+          "Retire o filme plástico com cuidado. Adicione o vinagre branco, molho inglês, o azeite restante, 2 colheres de chá de sal, orégano, pimenta calabresa e as uvas-passas (se usar). Misture bem.",
+          "Leve à geladeira por no mínimo 24 horas para apurar os sabores. Sirva com pães ou torradas."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-chamuscada",
-          "title": "Rosbife na Air Fryer com purê de abóbora e vagem chamuscada - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-08T17:47:24+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receita/antepasto-especial-de-berinjela-no-micro-ondas-da-ana-maria/",
+          "checked_at": "2026-10-09T17:23:21+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6356-blog-rosbife-vagem-chamuscada-pure-de-abobora.webp",
-          "alt": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/8251579/pexels-photo-8251579.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de berinjela recheada coberta com molho de tomate e decorada com ervas.",
+          "bank_id": "8251579",
+          "credit": "Julia Filirovska",
+          "query": "Antepasto Especial de Berinjela no Micro-ondas"
         },
-        "id": "rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-b1d61ed5"
+        "id": "antepasto-especial-de-berinjela-no-micro-ondas-b719a41c"
       },
       {
-        "nome": "Salada Completa",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, fresca e rápida de preparar, com uma combinação equilibrada de vegetais e proteína, ideal para abrir o apetite do casal.",
-        "tags": [
-          "salada",
-          "vegetais",
-          "rapido",
-          "leve"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 xícara (chá) de alface americana picada",
-          "½ xícara (chá) de cenoura ralada",
-          "½ xícara (chá) de tomate em rodelas",
-          "1 talo de salsão em tiras",
-          "150g de peito de peru defumado em tiras",
-          "1 pote de Iogurte NESTLÉ® Natural Integral",
-          "½ colher (chá) de mostarda",
-          "½ colher (chá) de MAGGI® Fondor"
-        ],
-        "preparo": [
-          "Em uma saladeira, disponha as folhas de alface americana picada.",
-          "Adicione a cenoura ralada, o tomate em rodelas, o salsão em tiras e o peito de peru em tiras.",
-          "Em um recipiente separado, misture o iogurte natural, a mostarda e o MAGGI® Fondor para o molho.",
-          "Regue a salada com o molho e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/salada-completa",
-          "title": "Salada Completa",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-08T17:47:24+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/0031ab638216a6779fda9be503a73eb1.jpg",
-          "alt": "Salada Completa"
-        },
-        "id": "salada-completa-3d20b8fd"
-      },
-      {
-        "nome": "Maçãs com Chocolate",
+        "nome": "Mousse de Coco com 2 Ingredientes",
         "curso": "sobremesa",
-        "tempo": "30 minutos",
-        "porque": "Uma sobremesa divertida, fácil e rápida de preparar, combinando a acidez da maçã com a doçura do chocolate, perfeita para um toque especial no jantar.",
+        "tempo": "5 minutos de preparo ativo + 2 horas de ",
+        "porque": "Uma sobremesa extremamente fácil e rápida de preparar, com apenas dois ingredientes, resultando em uma mousse leve e saborosa. Ideal para finalizar o jantar sem complicação.",
         "tags": [
-          "doce",
-          "fruta",
-          "chocolate",
-          "rapido"
+          "sobremesa_rapida",
+          "sem_forno",
+          "coco",
+          "facil"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "2 maçãs médias",
-          "150g de Cobertura Chocolate ao Leite GAROTO®",
-          "2 palitos de picolé",
-          "Confeitos coloridos a gosto (opcional)"
+          "200 gramas de marshmallow branco (tipo rolha)",
+          "1 litro de leite de coco",
+          "Coco queimado ralado a gosto (opcional, para decorar)"
         ],
         "preparo": [
-          "Lave e seque bem as maçãs. Espete um palito de picolé em cada maçã.",
-          "Pique o chocolate e derreta-o em banho-maria ou no micro-ondas (mexendo a cada 30 segundos) até ficar liso e cremoso.",
-          "Banhe cada maçã no chocolate derretido, cobrindo-a completamente.",
-          "Se desejar, decore com confeitos coloridos antes que o chocolate seque.",
-          "Leve as maçãs à geladeira por cerca de 7 minutos para o chocolate endurecer.",
-          "Sirva gelado."
+          "Em uma tigela ou recipiente que possa ir ao micro-ondas, coloque o marshmallow branco e o leite de coco.",
+          "Leve ao micro-ondas por cerca de 2 minutos em potência alta, ou aqueça em uma panela em fogo baixo, mexendo até o marshmallow derreter e a mistura esquentar.",
+          "Transfira a mistura para um liquidificador e bata bem por 2 minutos, até ficar homogêneo.",
+          "Distribua a mousse em taças ou copos individuais.",
+          "Leve ao freezer por no mínimo 2 horas para firmar, ou à geladeira de um dia para o outro.",
+          "Sirva gelado, opcionalmente salpicado com coco queimado ralado."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/macas-com-chocolate",
-          "title": "Maçãs com Chocolate",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-08T17:47:25+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://receitas.globo.com/receitas/mousse-de-coco-com-2-ingredientes-da-ana-maria-braga-100200.ghtml",
+          "checked_at": "2026-10-09T17:23:22+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/b65631a1b2b171f3a32bc2a89292a7e4.jpg",
-          "alt": "Maçãs com Chocolate"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/11287582/pexels-photo-11287582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa mousse de chocolate em camadas em um copo de vidro transparente com raspas de chocolate, ao lado dos ingredientes.",
+          "bank_id": "11287582",
+          "credit": "Harish .P",
+          "query": "Mousse de Coco com 2 Ingredientes"
         },
-        "id": "macas-com-chocolate-1b574606"
+        "id": "mousse-de-coco-com-2-ingredientes-c7dd533a"
       }
     ]
   },

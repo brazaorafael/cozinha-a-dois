@@ -4347,5 +4347,29 @@
     ],
     "data": "08/10/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "picadinho-de-carne-com-farofa-de-banana-c34a6494",
+    "titulo": "Picadinho de Carne com Farofa de Banana",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "prato_unico",
+      "rapido"
+    ],
+    "data": "09/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "medalhoes-de-file-com-molho-de-vinho-b1edfde6",
+    "titulo": "Medalhões de Filé com Molho de Vinho",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "molho",
+      "jantar_especial"
+    ],
+    "data": "09/10/2026",
+    "fonte_status": "unverified"
   }
 ]
