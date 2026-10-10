@@ -1,207 +1,183 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-09T14:21:25-03:00",
+  "gerado_em": "2026-10-10T13:07:13-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "09/10/2026",
-    "dia_semana": "sexta",
+    "data": "10/10/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Picadinho de Carne com Farofa de Banana",
+        "nome": "Salteado de Vaca com Legumes",
+        "curso": "principal",
+        "tempo": "20 minutos",
+        "porque": "Este prato principal é uma excelente opção de carne vermelha, preparada de forma rápida e saudável (salteada). É equilibrado com a adição de legumes e não consta na lista de pratos recentes. Rende 4 porções, ideal para o casal com sobra para o almoço de uma pessoa.",
+        "tags": [
+          "carne_vermelha",
+          "rapido",
+          "saudavel",
+          "refogado"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "250 g de bife de vitela finos",
+          "2 colheres de café de sal",
+          "1 q.b. de alho em pó",
+          "Mini pimentos (a gosto, por exemplo, 1-2 unidades)",
+          "1 talo de alho-francês",
+          "Óleo (para o wok)",
+          "Sementes de sésamo (a gosto, para polvilhar)"
+        ],
+        "preparo": [
+          "Corte os bifes de vitela em pedaços e tempere com metade do sal e o alho em pó.",
+          "Corte os mini pimentos e o alho-francês em pedaços.",
+          "Aqueça o óleo em um wok ou frigideira grande, adicione a carne e cozinhe por cerca de 3 minutos, dourando-a.",
+          "Acrescente os mini pimentos e o alho-francês ao wok e salteie junto com a carne até que os legumes fiquem tenros, mas ainda crocantes.",
+          "No final, polvilhe com sementes de sésamo e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-10-10T16:08:51+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36921224/pexels-photo-36921224.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de um chef servindo dois pratos asiáticos salteados com carne e legumes.",
+          "bank_id": "36921224",
+          "credit": "Th2city Santana",
+          "query": "Salteado de Vaca com Legumes"
+        },
+        "id": "salteado-de-vaca-com-legumes-1a471d9d"
+      },
+      {
+        "nome": "Picadinho de Carne com Legumes",
         "curso": "principal",
         "tempo": "40 minutos",
-        "porque": "Carne vermelha refogada, prática e rápida, com o toque agridoce da banana-da-terra e farofa, garantindo equilíbrio e sabor. Ideal para um jantar a dois com possível sobra para o almoço de uma pessoa.",
+        "porque": "Uma refeição completa e nutritiva, com carne vermelha e diversos vegetais. É prático, rápido de cozinhar e rende bem para sobras, atendendo à preferência do casal e não repetindo pratos recentes de picadinho.",
         "tags": [
           "carne_vermelha",
           "refogado",
-          "prato_unico",
-          "rapido"
+          "completo",
+          "rende_sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 kg de coxão mole em peça (ou filé mignon, alcatra, patinho) em cubos de 1,5 cm",
-          "2 cebolas picadas finamente",
-          "3 dentes de alho picados finamente",
-          "70 g de bacon em cubinhos (cerca de ½ xícara [chá])",
-          "2 colheres (sopa) de extrato de tomate",
-          "2 colheres (sopa) de molho inglês",
-          "3 colheres (sopa) de farinha de trigo",
-          "5 colheres (sopa) de azeite",
-          "4 xícaras (chá) de água (ou caldo de carne)",
-          "Caldo de ½ limão",
-          "¼ de xícara (chá) de salsinha picada",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "3 bananas-da-terra (ou bananas prata)",
-          "500 g de farinha de mandioca torrada (tipo biju)",
-          "200 g de manteiga",
-          "1 xícara (chá) de castanha-de-caju torrada (opcional)",
-          "1 xícara (chá) de banana-passa picada (opcional)"
+          "1 colher (sopa) de óleo",
+          "400 g de miolo de alcatra cortado em cubos pequenos",
+          "1/2 cebola pequena picada",
+          "1 dente de alho picado",
+          "1/2 tomate pequeno picado",
+          "2 xícaras e meia (chá) de água quente",
+          "1/2 pacote de legumes para saltear (ou legumes frescos como cenoura, batata, vagem a gosto)",
+          "1 colher e meia (sopa) de milho verde",
+          "1/2 colher (sopa) de cheiro verde picado"
         ],
         "preparo": [
-          "Tempere os cubos de carne com sal e pimenta-do-reino. Pique a cebola e o alho finamente. Aqueça a água (ou caldo) em uma chaleira.",
-          "Em uma panela grande com azeite, doure a carne em etapas para não resfriar a panela. Retire e reserve.",
-          "Na mesma panela, refogue a cebola e o alho. Adicione o bacon, extrato de tomate e molho inglês.",
-          "Polvilhe a farinha sobre a carne reservada, misture e retorne à panela. Adicione a água (ou caldo) quente e o suco de limão. Cozinhe até o molho engrossar. Finalize com salsinha.",
-          "Para a farofa: Corte as bananas em rodelas ou meias-luas. Doure-as na manteiga em uma frigideira.",
-          "Adicione a farinha de mandioca e misture até ficar crocante. Se usar, adicione castanha-de-caju e banana-passa. Sirva o picadinho quente com a farofa de banana."
+          "Em uma panela média, aqueça o óleo em fogo alto. Adicione a carne em cubos e frite até dourar de todos os lados.",
+          "Acrescente a cebola picada e o alho picado, refogando até a cebola murchar.",
+          "Adicione o tomate picado e deixe cozinhar em fogo baixo por cerca de 2 minutos, até começar a desmanchar.",
+          "Regue com a água quente e deixe cozinhar em fogo médio, com a panela semi tampada, por aproximadamente 30 minutos, ou até a carne ficar macia.",
+          "Acrescente os legumes para saltear (ou os legumes frescos escolhidos) e cozinhe em fogo médio, com a panela semi tampada, por mais 10 minutos, ou até que os vegetais estejam macios.",
+          "Adicione o milho verde e o cheiro-verde picado. Misture bem, retire do fogo e sirva em seguida."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Picadinho-de-carne-com-farofa-de-banana",
-          "checked_at": "2026-10-09T17:23:17+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-10-10T16:08:52+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/3727208/pexels-photo-3727208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma deliciosa variedade de pratos tradicionais brasileiros com carne bovina, bananas-da-terra e saladas vibrantes.",
-          "bank_id": "3727208",
-          "credit": "Horizon Content",
-          "query": "Picadinho de Carne com Farofa de Banana"
+          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
+          "bank_id": "38330332",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Picadinho de Carne com Legumes"
         },
-        "id": "picadinho-de-carne-com-farofa-de-banana-c34a6494"
+        "id": "picadinho-de-carne-com-legumes-60ed6959"
       },
       {
-        "nome": "Medalhões de Filé com Molho de Vinho",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma opção elegante de carne vermelha, com medalhões de filé preparados rapidamente e um molho de vinho saboroso, ideal para um jantar especial sem complicação.",
+        "nome": "Salada Rápida e Fácil",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve e refrescante, perfeita para abrir o apetite. É rápida de preparar, utiliza vegetais frescos e queijo, e a receita é atribuída à Nestlé, uma fonte confiável. Não está na lista de pratos recentes.",
         "tags": [
-          "carne_vermelha",
-          "grelhado",
-          "molho",
-          "jantar_especial"
+          "salada",
+          "vegetariano",
+          "rapido",
+          "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "4 medalhões de filé mignon (aprox. 180g cada)",
-          "Sal e pimenta-do-reino a gosto",
-          "2 colheres (sopa) de azeite de oliva",
-          "1 colher (sopa) de manteiga",
-          "1 cebola roxa pequena picada (ou 2 cebolas médias)",
-          "2 dentes de alho picados",
-          "1 xícara (chá) de vinho tinto seco (ou 750ml de vinho tinto seco)",
-          "½ xícara (chá) de caldo de carne (ou 1 copo de água)",
-          "1 colher (chá) de amido de milho (opcional, dissolvido em um pouco de água)",
-          "Ramos de tomilho fresco (opcional)"
+          "Meio pé de alface frisée",
+          "Meio pé de alface americana",
+          "1 cenoura ralada",
+          "1 beterraba ralada",
+          "100 g de mozarela em nós pequenos",
+          "1 caixinha de creme de leite (para o molho)",
+          "2 colheres (sopa) de suco de tangerina concentrado (para o molho)",
+          "1 stick de tempero (ou sal, pimenta e ervas a gosto para o molho)"
         ],
         "preparo": [
-          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino.",
-          "Aqueça o azeite em uma frigideira em fogo médio-alto. Sele os medalhões por 3-4 minutos de cada lado, até o ponto desejado. Retire e reserve, cobrindo com papel alumínio.",
-          "Na mesma frigideira, adicione a manteiga, cebola picada e alho. Refogue por 2-3 minutos até ficarem macios.",
-          "Adicione o vinho tinto, raspando o fundo da panela para soltar os sabores. Deixe reduzir pela metade (cerca de 5 minutos).",
-          "Acrescente o caldo de carne (e o amido de milho dissolvido, se usar) e cozinhe por mais 5 minutos, até o molho engrossar.",
-          "Retorne os medalhões à frigideira com o molho para aquecer. Sirva imediatamente, regando com o molho e decorando com tomilho, se desejar."
+          "Rasgue as folhas de alface e coloque-as em uma saladeira.",
+          "Distribua a cenoura ralada, a beterraba ralada e a mozarela sobre as folhas de alface.",
+          "Em um recipiente separado, misture o creme de leite, o suco de tangerina concentrado e o stick de tempero (ou temperos a gosto) até obter um molho homogêneo.",
+          "Regue a salada com o molho preparado na hora de servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/medalhoes-de-file-com-molho-de-vinho-002.ghtml",
-          "checked_at": "2026-10-09T17:23:19+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-10-10T16:08:52+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673985/pexels-photo-33673985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso risoto servido com um suculento filé mignon guarnecido com alecrim e regado com molho de vinho tinto.",
-          "bank_id": "33673985",
-          "credit": "pedro furtado",
-          "query": "Medalhões de Filé com Molho de Vinho"
+          "url": "https://images.pexels.com/photos/28841123/pexels-photo-28841123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa salada de frango crocante com legumes frescos e molho cremoso.",
+          "bank_id": "28841123",
+          "credit": "Nano Erdozain",
+          "query": "Salada Rápida e Fácil"
         },
-        "id": "medalhoes-de-file-com-molho-de-vinho-b1edfde6"
+        "id": "salada-rapida-e-facil-d7f18563"
       },
       {
-        "nome": "Antepasto Especial de Berinjela no Micro-ondas",
-        "curso": "entrada",
-        "tempo": "20 minutos de preparo ativo + 24h de gel",
-        "porque": "Uma entrada leve, saborosa e prática, preparada no micro-ondas, ideal para acompanhar pães e torradas. Perfeita para um casal jovem que busca opções saudáveis e fáceis.",
+        "nome": "Raspadinha de Abacaxi Congelado",
+        "curso": "sobremesa",
+        "tempo": "Rápido (excluindo tempo de congelamento)",
+        "porque": "Uma sobremesa leve, refrescante e muito fácil de fazer, ideal para um casal jovem. Utiliza frutas, é rápida no preparo (o tempo maior é de congelamento) e não está na lista de pratos recentes.",
         "tags": [
-          "vegetariano",
-          "entrada_fria",
-          "micro_ondas",
+          "doce",
+          "frutas",
+          "refrescante",
           "rapido"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "750 gramas de berinjela sem casca, cortada em cubos",
-          "1 colher (sopa) de sal (para a berinjela)",
-          "2 colheres (sopa) de azeite de oliva",
-          "1 colher (sopa) de alho picado",
-          "1 xícara (chá) de pimentão amarelo em cubos",
-          "1 xícara (chá) de pimentão vermelho em cubos",
-          "1 xícara (chá) de cebola picada",
-          "1 xícara (chá) de azeitonas verdes sem caroço, picadas",
-          "2 colheres (sopa) de vinagre branco",
-          "2 colheres (sopa) de molho inglês",
-          "½ xícara (chá) de azeite de oliva (para o tempero final)",
-          "2 colheres (chá) de sal (para o tempero final)",
-          "1 colher (sopa) de orégano",
-          "Pimenta calabresa a gosto",
-          "½ xícara (chá) de uva-passa preta (opcional)"
+          "1 fatia de abacaxi de cerca de 7 cm X 3 cm",
+          "Coco ralado seco e tostado a gosto (para servir)",
+          "Iogurte cremoso a gosto (para servir)"
         ],
         "preparo": [
-          "Em uma tigela, cubra a berinjela cortada em cubos com água e 1 colher de sopa de sal. Deixe de molho por 1 hora. Escorra e esprema bem a berinjela.",
-          "Em um refratário que possa ir ao micro-ondas, coloque 2 colheres de sopa de azeite e o alho picado. Leve ao micro-ondas em potência alta por 3 minutos.",
-          "Adicione os pimentões e a cebola picados ao refratário. Leve novamente ao micro-ondas por 3 minutos em potência alta.",
-          "Junte a berinjela escorrida e as azeitonas picadas. Cubra com filme plástico, faça alguns furos e leve ao micro-ondas por 14 minutos em potência alta, mexendo na metade do tempo.",
-          "Retire o filme plástico com cuidado. Adicione o vinagre branco, molho inglês, o azeite restante, 2 colheres de chá de sal, orégano, pimenta calabresa e as uvas-passas (se usar). Misture bem.",
-          "Leve à geladeira por no mínimo 24 horas para apurar os sabores. Sirva com pães ou torradas."
+          "Coloque o pedaço de abacaxi em uma assadeira pequena ou prato e leve ao freezer por pelo menos 3 horas, ou até congelar completamente.",
+          "Na hora de servir, retire o abacaxi do congelador e deixe em temperatura ambiente por 1 minuto para facilitar o manuseio.",
+          "Sobre um prato, passe o pedaço de abacaxi congelado pela parte grossa de um ralador para obter a textura de raspadinha.",
+          "Sirva imediatamente com iogurte cremoso e coco ralado tostado a gosto."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/antepasto-especial-de-berinjela-no-micro-ondas-da-ana-maria/",
-          "checked_at": "2026-10-09T17:23:21+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/raspadinha-de-abacaxi-congelado",
+          "title": "Raspadinha de abacaxi congelado - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-10T16:08:54+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/8251579/pexels-photo-8251579.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de berinjela recheada coberta com molho de tomate e decorada com ervas.",
-          "bank_id": "8251579",
-          "credit": "Julia Filirovska",
-          "query": "Antepasto Especial de Berinjela no Micro-ondas"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7983-blog-ayu0420.webp",
+          "alt": "Raspadinha de Abacaxi Congelado"
         },
-        "id": "antepasto-especial-de-berinjela-no-micro-ondas-b719a41c"
-      },
-      {
-        "nome": "Mousse de Coco com 2 Ingredientes",
-        "curso": "sobremesa",
-        "tempo": "5 minutos de preparo ativo + 2 horas de ",
-        "porque": "Uma sobremesa extremamente fácil e rápida de preparar, com apenas dois ingredientes, resultando em uma mousse leve e saborosa. Ideal para finalizar o jantar sem complicação.",
-        "tags": [
-          "sobremesa_rapida",
-          "sem_forno",
-          "coco",
-          "facil"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "200 gramas de marshmallow branco (tipo rolha)",
-          "1 litro de leite de coco",
-          "Coco queimado ralado a gosto (opcional, para decorar)"
-        ],
-        "preparo": [
-          "Em uma tigela ou recipiente que possa ir ao micro-ondas, coloque o marshmallow branco e o leite de coco.",
-          "Leve ao micro-ondas por cerca de 2 minutos em potência alta, ou aqueça em uma panela em fogo baixo, mexendo até o marshmallow derreter e a mistura esquentar.",
-          "Transfira a mistura para um liquidificador e bata bem por 2 minutos, até ficar homogêneo.",
-          "Distribua a mousse em taças ou copos individuais.",
-          "Leve ao freezer por no mínimo 2 horas para firmar, ou à geladeira de um dia para o outro.",
-          "Sirva gelado, opcionalmente salpicado com coco queimado ralado."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/mousse-de-coco-com-2-ingredientes-da-ana-maria-braga-100200.ghtml",
-          "checked_at": "2026-10-09T17:23:22+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/11287582/pexels-photo-11287582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa mousse de chocolate em camadas em um copo de vidro transparente com raspas de chocolate, ao lado dos ingredientes.",
-          "bank_id": "11287582",
-          "credit": "Harish .P",
-          "query": "Mousse de Coco com 2 Ingredientes"
-        },
-        "id": "mousse-de-coco-com-2-ingredientes-c7dd533a"
+        "id": "raspadinha-de-abacaxi-congelado-7f92b7cb"
       }
     ]
   },

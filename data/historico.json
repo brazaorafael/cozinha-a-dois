@@ -4371,5 +4371,29 @@
     ],
     "data": "09/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "salteado-de-vaca-com-legumes-1a471d9d",
+    "titulo": "Salteado de Vaca com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "saudavel",
+      "refogado"
+    ],
+    "data": "10/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-rapida-e-facil-d7f18563",
+    "titulo": "Salada Rápida e Fácil",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "rapido",
+      "fresco"
+    ],
+    "data": "10/10/2026",
+    "fonte_status": "unverified"
   }
 ]
