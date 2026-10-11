@@ -1,183 +1,189 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-10T13:07:13-03:00",
+  "gerado_em": "2026-10-11T13:34:16-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "10/10/2026",
-    "dia_semana": "sábado",
+    "data": "11/10/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Salteado de Vaca com Legumes",
+        "nome": "Carne de Panela Rápida com Mandioca Cozida",
         "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Este prato principal é uma excelente opção de carne vermelha, preparada de forma rápida e saudável (salteada). É equilibrado com a adição de legumes e não consta na lista de pratos recentes. Rende 4 porções, ideal para o casal com sobra para o almoço de uma pessoa.",
+        "tempo": "30 minutos",
+        "porque": "Receita prática e reconfortante de carne vermelha, ideal para um jantar a dois com potencial de sobras para o almoço. O uso da panela de pressão agiliza o preparo.",
         "tags": [
           "carne_vermelha",
-          "rapido",
-          "saudavel",
-          "refogado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "250 g de bife de vitela finos",
-          "2 colheres de café de sal",
-          "1 q.b. de alho em pó",
-          "Mini pimentos (a gosto, por exemplo, 1-2 unidades)",
-          "1 talo de alho-francês",
-          "Óleo (para o wok)",
-          "Sementes de sésamo (a gosto, para polvilhar)"
-        ],
-        "preparo": [
-          "Corte os bifes de vitela em pedaços e tempere com metade do sal e o alho em pó.",
-          "Corte os mini pimentos e o alho-francês em pedaços.",
-          "Aqueça o óleo em um wok ou frigideira grande, adicione a carne e cozinhe por cerca de 3 minutos, dourando-a.",
-          "Acrescente os mini pimentos e o alho-francês ao wok e salteie junto com a carne até que os legumes fiquem tenros, mas ainda crocantes.",
-          "No final, polvilhe com sementes de sésamo e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-10T16:08:51+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/36921224/pexels-photo-36921224.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de um chef servindo dois pratos asiáticos salteados com carne e legumes.",
-          "bank_id": "36921224",
-          "credit": "Th2city Santana",
-          "query": "Salteado de Vaca com Legumes"
-        },
-        "id": "salteado-de-vaca-com-legumes-1a471d9d"
-      },
-      {
-        "nome": "Picadinho de Carne com Legumes",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma refeição completa e nutritiva, com carne vermelha e diversos vegetais. É prático, rápido de cozinhar e rende bem para sobras, atendendo à preferência do casal e não repetindo pratos recentes de picadinho.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "completo",
+          "panela_de_pressao",
+          "jantar_rapido",
           "rende_sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 colher (sopa) de óleo",
-          "400 g de miolo de alcatra cortado em cubos pequenos",
-          "1/2 cebola pequena picada",
-          "1 dente de alho picado",
-          "1/2 tomate pequeno picado",
-          "2 xícaras e meia (chá) de água quente",
-          "1/2 pacote de legumes para saltear (ou legumes frescos como cenoura, batata, vagem a gosto)",
-          "1 colher e meia (sopa) de milho verde",
-          "1/2 colher (sopa) de cheiro verde picado"
+          "1 fio de óleo",
+          "1 kg de carne bovina em cubos (acém ou músculo)",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "1 tablete de caldo de carne",
+          "3 xícaras (chá) de água fervente",
+          "500 g de mandioca em pedaços",
+          "Sal e pimenta-do-reino a gosto",
+          "Cheiro-verde picado a gosto"
         ],
         "preparo": [
-          "Em uma panela média, aqueça o óleo em fogo alto. Adicione a carne em cubos e frite até dourar de todos os lados.",
-          "Acrescente a cebola picada e o alho picado, refogando até a cebola murchar.",
-          "Adicione o tomate picado e deixe cozinhar em fogo baixo por cerca de 2 minutos, até começar a desmanchar.",
-          "Regue com a água quente e deixe cozinhar em fogo médio, com a panela semi tampada, por aproximadamente 30 minutos, ou até a carne ficar macia.",
-          "Acrescente os legumes para saltear (ou os legumes frescos escolhidos) e cozinhe em fogo médio, com a panela semi tampada, por mais 10 minutos, ou até que os vegetais estejam macios.",
-          "Adicione o milho verde e o cheiro-verde picado. Misture bem, retire do fogo e sirva em seguida."
+          "Em uma panela de pressão, aqueça o óleo e doure a carne em fogo alto.",
+          "Adicione a cebola e o alho, refogando até ficarem macios.",
+          "Dissolva o tablete de caldo de carne na água fervente e adicione à panela junto com a mandioca, sal e pimenta.",
+          "Tampe a panela e, após o início da pressão, cozinhe por cerca de 20 minutos.",
+          "Desligue o fogo, espere a pressão sair naturalmente e verifique o cozimento da carne e da mandioca.",
+          "Se necessário, cozinhe por mais alguns minutos sem pressão para apurar o molho.",
+          "Finalize com cheiro-verde picado e sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-10T16:08:52+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/carne-de-panela-com-mandioca",
+          "checked_at": "2026-10-11T16:36:12+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
-          "bank_id": "38330332",
-          "credit": "DΛVΞ GΛRCIΛ",
-          "query": "Picadinho de Carne com Legumes"
+          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
+          "bank_id": "34837746",
+          "credit": "Caleb Oquendo",
+          "query": "Carne de Panela Rápida com Mandioca Cozida"
         },
-        "id": "picadinho-de-carne-com-legumes-60ed6959"
+        "id": "carne-de-panela-rapida-com-mandioca-cozida-7be3f812"
       },
       {
-        "nome": "Salada Rápida e Fácil",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve e refrescante, perfeita para abrir o apetite. É rápida de preparar, utiliza vegetais frescos e queijo, e a receita é atribuída à Nestlé, uma fonte confiável. Não está na lista de pratos recentes.",
+        "nome": "Abobrinha Recheada com Carne e Queijo",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Prato completo e equilibrado, utilizando carne moída e vegetais. Fácil de fazer no forno e rende bem para duas pessoas com sobras.",
         "tags": [
-          "salada",
-          "vegetariano",
-          "rapido",
-          "fresco"
+          "carne_moida",
+          "forno",
+          "vegetais",
+          "jantar_saudavel"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "Meio pé de alface frisée",
-          "Meio pé de alface americana",
-          "1 cenoura ralada",
-          "1 beterraba ralada",
-          "100 g de mozarela em nós pequenos",
-          "1 caixinha de creme de leite (para o molho)",
-          "2 colheres (sopa) de suco de tangerina concentrado (para o molho)",
-          "1 stick de tempero (ou sal, pimenta e ervas a gosto para o molho)"
+          "2 abobrinhas médias",
+          "1 fio de azeite",
+          "1 cebola pequena picada",
+          "2 dentes de alho amassados",
+          "300 g de carne moída",
+          "1/2 xícara (chá) de molho de tomate",
+          "Sal e pimenta-do-reino a gosto",
+          "1/2 xícara (chá) de queijo mussarela ralado",
+          "Salsinha picada a gosto"
         ],
         "preparo": [
-          "Rasgue as folhas de alface e coloque-as em uma saladeira.",
-          "Distribua a cenoura ralada, a beterraba ralada e a mozarela sobre as folhas de alface.",
-          "Em um recipiente separado, misture o creme de leite, o suco de tangerina concentrado e o stick de tempero (ou temperos a gosto) até obter um molho homogêneo.",
-          "Regue a salada com o molho preparado na hora de servir."
+          "Corte as abobrinhas ao meio no sentido do comprimento e retire as sementes, formando 'barquinhas'. Cozinhe-as em água fervente com sal por cerca de 5 minutos ou até ficarem macias, mas firmes. Escorra e reserve.",
+          "Em uma panela, aqueça o azeite e refogue a cebola e o alho até dourarem.",
+          "Adicione a carne moída e cozinhe, mexendo sempre, até que esteja bem soltinha e dourada. Tempere com sal e pimenta.",
+          "Acrescente o molho de tomate e cozinhe por mais alguns minutos para apurar o sabor.",
+          "Recheie as 'barquinhas' de abobrinha com a carne moída refogada.",
+          "Polvilhe o queijo mussarela ralado sobre cada abobrinha recheada.",
+          "Leve ao forno médio (180°C) preaquecido por cerca de 10 a 15 minutos, ou até o queijo derreter e gratinar. Finalize com salsinha picada."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-10T16:08:52+00:00"
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/abobrinha-recheada-com-carne-e-maggi",
+          "title": "Abobrinha Recheada com Carne e Maggi",
+          "domain": "receitasnestle.com.br",
+          "confidence": 0.79,
+          "checked_at": "2026-10-11T16:36:15+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/28841123/pexels-photo-28841123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa salada de frango crocante com legumes frescos e molho cremoso.",
-          "bank_id": "28841123",
-          "credit": "Nano Erdozain",
-          "query": "Salada Rápida e Fácil"
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/205f57a3fe7dd5e0c998fe312cb22f11.jpg",
+          "alt": "Abobrinha Recheada com Carne e Queijo"
         },
-        "id": "salada-rapida-e-facil-d7f18563"
+        "id": "abobrinha-recheada-com-carne-e-queijo-2a75a7dc"
       },
       {
-        "nome": "Raspadinha de Abacaxi Congelado",
-        "curso": "sobremesa",
-        "tempo": "Rápido (excluindo tempo de congelamento)",
-        "porque": "Uma sobremesa leve, refrescante e muito fácil de fazer, ideal para um casal jovem. Utiliza frutas, é rápida no preparo (o tempo maior é de congelamento) e não está na lista de pratos recentes.",
+        "nome": "Petit Four com Páprica",
+        "curso": "entrada",
+        "tempo": "20 minutos (de forno)",
+        "porque": "Um petisco salgado e crocante, fácil de fazer com massa folhada pronta e assado no forno. É uma opção diferente e saborosa para abrir o jantar, sem fritura.",
         "tags": [
-          "doce",
+          "petisco",
+          "queijo",
+          "forno",
+          "rapido"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "400 g de massa semi folhada congelada",
+          "1 xícara (chá) de queijo parmesão ralado",
+          "1½ colher (chá) de páprica doce",
+          "½ colher (chá) de páprica picante",
+          "1 ovo para pincelar"
+        ],
+        "preparo": [
+          "Retire a massa folhada do congelador 2 horas antes do preparo.",
+          "Preaqueça o forno a 200 °C (temperatura média).",
+          "Com um rolo, abra a massa folhada até ficar com 0,5 cm de espessura. Divida em retângulos de cerca de 9 x 1,5 cm e transfira para assadeiras, deixando espaço entre eles.",
+          "Em uma tigela, misture o queijo ralado com a páprica doce e a páprica picante.",
+          "Quebre o ovo em uma tigela, adicione 1 colher (chá) de água e bata com um garfo para misturar.",
+          "Pincele os retângulos de massa com o ovo batido, polvilhe com a mistura de queijo e leve para assar por cerca de 20 minutos, ou até dourar. Sirva a seguir."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/petit-four-com-paprica",
+          "title": "Petit four com páprica - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-11T16:36:16+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4559-petit-four-com-paprica.webp",
+          "alt": "Petit Four com Páprica"
+        },
+        "id": "petit-four-com-paprica-b321b632"
+      },
+      {
+        "nome": "Maçã Assada na Air Fryer da Rita Lobo",
+        "curso": "sobremesa",
+        "tempo": "20 minutos",
+        "porque": "Uma sobremesa leve, saudável e rápida, perfeita para finalizar a refeição sem culpa. O preparo na airfryer garante praticidade e um resultado delicioso.",
+        "tags": [
           "frutas",
-          "refrescante",
+          "airfryer",
+          "saudavel",
           "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 fatia de abacaxi de cerca de 7 cm X 3 cm",
-          "Coco ralado seco e tostado a gosto (para servir)",
-          "Iogurte cremoso a gosto (para servir)"
+          "2 maçãs médias (Gala ou Fuji)",
+          "1 colher (sopa) de manteiga sem sal",
+          "1 colher (sopa) de açúcar mascavo (ou a gosto)",
+          "1/2 colher (chá) de canela em pó",
+          "Opcional: nozes picadas ou uvas passas"
         ],
         "preparo": [
-          "Coloque o pedaço de abacaxi em uma assadeira pequena ou prato e leve ao freezer por pelo menos 3 horas, ou até congelar completamente.",
-          "Na hora de servir, retire o abacaxi do congelador e deixe em temperatura ambiente por 1 minuto para facilitar o manuseio.",
-          "Sobre um prato, passe o pedaço de abacaxi congelado pela parte grossa de um ralador para obter a textura de raspadinha.",
-          "Sirva imediatamente com iogurte cremoso e coco ralado tostado a gosto."
+          "Lave bem as maçãs e retire o miolo com um descaroçador ou faca pequena, formando um buraco no centro.",
+          "Em uma tigela pequena, misture a manteiga amolecida com o açúcar mascavo e a canela em pó. Se desejar, adicione nozes picadas ou uvas passas.",
+          "Recheie o centro de cada maçã com essa mistura.",
+          "Coloque as maçãs recheadas na cesta da airfryer.",
+          "Asse a 180°C por cerca de 15 a 20 minutos, ou até as maçãs ficarem macias e levemente caramelizadas. O tempo pode variar dependendo do tamanho da maçã e da potência da airfryer.",
+          "Sirva quente, acompanhada de iogurte natural ou uma bola de sorvete, se desejar."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/raspadinha-de-abacaxi-congelado",
-          "title": "Raspadinha de abacaxi congelado - Panelinha",
+          "url": "https://panelinha.com.br/receita/maca-assada-na-air-fryer-da-rita-lobo",
+          "title": "Maçã assada na Air Fryer da Rita Lobo - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-10T16:08:54+00:00"
+          "checked_at": "2026-10-11T16:36:16+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7983-blog-ayu0420.webp",
-          "alt": "Raspadinha de Abacaxi Congelado"
+          "url": "https://i.panelinha.com.br/i1/bk-5932-blog-maca-assada-na-af-8.webp",
+          "alt": "Maçã Assada na Air Fryer da Rita Lobo"
         },
-        "id": "raspadinha-de-abacaxi-congelado-7f92b7cb"
+        "id": "maca-assada-na-air-fryer-da-rita-lobo-58a4c72a"
       }
     ]
   },

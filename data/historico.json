@@ -4395,5 +4395,53 @@
     ],
     "data": "10/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-rapida-com-mandioca-cozida-7be3f812",
+    "titulo": "Carne de Panela Rápida com Mandioca Cozida",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "jantar_rapido",
+      "rende_sobra"
+    ],
+    "data": "11/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "abobrinha-recheada-com-carne-e-queijo-2a75a7dc",
+    "titulo": "Abobrinha Recheada com Carne e Queijo",
+    "tags": [
+      "carne_moida",
+      "forno",
+      "vegetais",
+      "jantar_saudavel"
+    ],
+    "data": "11/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "petit-four-com-paprica-b321b632",
+    "titulo": "Petit Four com Páprica",
+    "tags": [
+      "petisco",
+      "queijo",
+      "forno",
+      "rapido"
+    ],
+    "data": "11/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "maca-assada-na-air-fryer-da-rita-lobo-58a4c72a",
+    "titulo": "Maçã Assada na Air Fryer da Rita Lobo",
+    "tags": [
+      "frutas",
+      "airfryer",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "11/10/2026",
+    "fonte_status": "verified"
   }
 ]
