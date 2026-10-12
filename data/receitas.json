@@ -1,189 +1,190 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-11T13:34:16-03:00",
+  "gerado_em": "2026-10-12T17:08:32-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "11/10/2026",
-    "dia_semana": "domingo",
+    "data": "12/10/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Carne de Panela Rápida com Mandioca Cozida",
+        "nome": "Carne Moída com Quiabo",
         "curso": "principal",
         "tempo": "30 minutos",
-        "porque": "Receita prática e reconfortante de carne vermelha, ideal para um jantar a dois com potencial de sobras para o almoço. O uso da panela de pressão agiliza o preparo.",
+        "porque": "Uma opção de carne vermelha versátil e equilibrada, com vegetais. O preparo é refogado, rápido e a receita da Panelinha ensina a evitar a baba do quiabo, tornando-a ainda mais agradável. Rende para sobras.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "jantar_rapido",
-          "rende_sobra"
+          "refogado",
+          "rapido",
+          "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 fio de óleo",
-          "1 kg de carne bovina em cubos (acém ou músculo)",
-          "1 cebola picada",
-          "2 dentes de alho amassados",
-          "1 tablete de caldo de carne",
-          "3 xícaras (chá) de água fervente",
-          "500 g de mandioca em pedaços",
-          "Sal e pimenta-do-reino a gosto",
-          "Cheiro-verde picado a gosto"
+          "300 g de patinho moído",
+          "200 g de quiabo (cerca de 14 unidades)",
+          "½ cebola",
+          "2 dentes de alho",
+          "1 pimenta dedo-de-moça",
+          "1 colher (sopa) de extrato de tomate",
+          "1 colher (sopa) de farinha de trigo",
+          "1 ½ xícara (chá) de água",
+          "1 colher (chá) de semente de coentro",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Folhas de coentro a gosto para servir"
         ],
         "preparo": [
-          "Em uma panela de pressão, aqueça o óleo e doure a carne em fogo alto.",
-          "Adicione a cebola e o alho, refogando até ficarem macios.",
-          "Dissolva o tablete de caldo de carne na água fervente e adicione à panela junto com a mandioca, sal e pimenta.",
-          "Tampe a panela e, após o início da pressão, cozinhe por cerca de 20 minutos.",
-          "Desligue o fogo, espere a pressão sair naturalmente e verifique o cozimento da carne e da mandioca.",
-          "Se necessário, cozinhe por mais alguns minutos sem pressão para apurar o molho.",
-          "Finalize com cheiro-verde picado e sirva quente."
+          "Retire a carne moída da geladeira para atingir a temperatura ambiente. Lave e seque bem os quiabos, descarte os cabinhos e corte-os em fatias diagonais de 1,5 cm.",
+          "Descasque e pique a cebola em cubos de 1 cm e o alho finamente. Pique a pimenta dedo-de-moça sem sementes. Quebre as sementes de coentro no pilão.",
+          "Aqueça 1 colher (sopa) de azeite em uma frigideira grande em fogo médio. Adicione a carne moída em montinhos e doure bem. Retire a carne e reserve.",
+          "Na mesma frigideira, adicione o azeite restante e refogue a cebola até murchar. Junte o alho, a pimenta e as sementes de coentro, refogando por 1 minuto.",
+          "Acrescente o quiabo e refogue por cerca de 5 minutos. Adicione o extrato de tomate e a farinha de trigo, misturando bem.",
+          "Volte a carne para a panela, adicione a água e tempere com sal e pimenta-do-reino. Deixe cozinhar por 2 minutos para o molho encorpar.",
+          "Finalize com as folhas de coentro picadas e sirva."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/carne-moida-com-quiabo",
+          "title": "Carne moída com quiabo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-12T20:10:22+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-5881-carne-moida-com-quiabo.webp",
+          "alt": "Carne Moída com Quiabo"
+        },
+        "id": "carne-moida-com-quiabo-2a0c73af"
+      },
+      {
+        "nome": "Iscas Cremosas de Carne com Legumes",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Receita prática e rápida, com boa proporção de proteína e vegetais, ideal para o dia a dia e com potencial de sobras. Preparada na frigideira, evitando fritura excessiva.",
+        "tags": [
+          "carne_vermelha",
+          "frigideira",
+          "rapido",
+          "com_legumes"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "300 g de filé mignon cortado em tiras finas",
+          "2 dentes de alho amassados",
+          "1/2 colher (chá) de sal",
+          "2 colheres (sopa) de óleo",
+          "1 abobrinha pequena cortada em tiras finas",
+          "1 cebola média cortada em tiras finas",
+          "1/2 pimentão vermelho pequeno cortado em tiras finas",
+          "1 cenoura média cortada em palitos e cozida",
+          "1/2 xícara (chá) de maionese HELLMANN´S Deleite"
+        ],
+        "preparo": [
+          "Em uma tigela, tempere as tiras de carne com sal e alho amassado. Reserve.",
+          "Aqueça 1 colher (sopa) de óleo em uma frigideira grande em fogo médio. Refogue a abobrinha até murchar.",
+          "Adicione a cebola, o pimentão e a cenoura cozida, refogando até dourar levemente. Reserve os legumes.",
+          "Na mesma frigideira, aqueça o restante do óleo em fogo médio e refogue a carne até perder a cor avermelhada.",
+          "Acrescente a maionese e misture bem com a carne.",
+          "Adicione os legumes refogados à frigideira e misture delicadamente.",
+          "Sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/carne-de-panela-com-mandioca",
-          "checked_at": "2026-10-11T16:36:12+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-10-12T20:10:22+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
-          "bank_id": "34837746",
-          "credit": "Caleb Oquendo",
-          "query": "Carne de Panela Rápida com Mandioca Cozida"
+          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
+          "bank_id": "38330332",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Iscas Cremosas de Carne com Legumes"
         },
-        "id": "carne-de-panela-rapida-com-mandioca-cozida-7be3f812"
+        "id": "iscas-cremosas-de-carne-com-legumes-22f9ad99"
       },
       {
-        "nome": "Abobrinha Recheada com Carne e Queijo",
-        "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Prato completo e equilibrado, utilizando carne moída e vegetais. Fácil de fazer no forno e rende bem para duas pessoas com sobras.",
-        "tags": [
-          "carne_moida",
-          "forno",
-          "vegetais",
-          "jantar_saudavel"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "2 abobrinhas médias",
-          "1 fio de azeite",
-          "1 cebola pequena picada",
-          "2 dentes de alho amassados",
-          "300 g de carne moída",
-          "1/2 xícara (chá) de molho de tomate",
-          "Sal e pimenta-do-reino a gosto",
-          "1/2 xícara (chá) de queijo mussarela ralado",
-          "Salsinha picada a gosto"
-        ],
-        "preparo": [
-          "Corte as abobrinhas ao meio no sentido do comprimento e retire as sementes, formando 'barquinhas'. Cozinhe-as em água fervente com sal por cerca de 5 minutos ou até ficarem macias, mas firmes. Escorra e reserve.",
-          "Em uma panela, aqueça o azeite e refogue a cebola e o alho até dourarem.",
-          "Adicione a carne moída e cozinhe, mexendo sempre, até que esteja bem soltinha e dourada. Tempere com sal e pimenta.",
-          "Acrescente o molho de tomate e cozinhe por mais alguns minutos para apurar o sabor.",
-          "Recheie as 'barquinhas' de abobrinha com a carne moída refogada.",
-          "Polvilhe o queijo mussarela ralado sobre cada abobrinha recheada.",
-          "Leve ao forno médio (180°C) preaquecido por cerca de 10 a 15 minutos, ou até o queijo derreter e gratinar. Finalize com salsinha picada."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/abobrinha-recheada-com-carne-e-maggi",
-          "title": "Abobrinha Recheada com Carne e Maggi",
-          "domain": "receitasnestle.com.br",
-          "confidence": 0.79,
-          "checked_at": "2026-10-11T16:36:15+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/205f57a3fe7dd5e0c998fe312cb22f11.jpg",
-          "alt": "Abobrinha Recheada com Carne e Queijo"
-        },
-        "id": "abobrinha-recheada-com-carne-e-queijo-2a75a7dc"
-      },
-      {
-        "nome": "Petit Four com Páprica",
+        "nome": "Ricota Grelhada",
         "curso": "entrada",
-        "tempo": "20 minutos (de forno)",
-        "porque": "Um petisco salgado e crocante, fácil de fazer com massa folhada pronta e assado no forno. É uma opção diferente e saborosa para abrir o jantar, sem fritura.",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, saudável e muito rápida de preparar, com ingredientes simples e acessíveis. Perfeita para abrir o apetite sem pesar.",
         "tags": [
-          "petisco",
-          "queijo",
-          "forno",
-          "rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "400 g de massa semi folhada congelada",
-          "1 xícara (chá) de queijo parmesão ralado",
-          "1½ colher (chá) de páprica doce",
-          "½ colher (chá) de páprica picante",
-          "1 ovo para pincelar"
-        ],
-        "preparo": [
-          "Retire a massa folhada do congelador 2 horas antes do preparo.",
-          "Preaqueça o forno a 200 °C (temperatura média).",
-          "Com um rolo, abra a massa folhada até ficar com 0,5 cm de espessura. Divida em retângulos de cerca de 9 x 1,5 cm e transfira para assadeiras, deixando espaço entre eles.",
-          "Em uma tigela, misture o queijo ralado com a páprica doce e a páprica picante.",
-          "Quebre o ovo em uma tigela, adicione 1 colher (chá) de água e bata com um garfo para misturar.",
-          "Pincele os retângulos de massa com o ovo batido, polvilhe com a mistura de queijo e leve para assar por cerca de 20 minutos, ou até dourar. Sirva a seguir."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/petit-four-com-paprica",
-          "title": "Petit four com páprica - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-11T16:36:16+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4559-petit-four-com-paprica.webp",
-          "alt": "Petit Four com Páprica"
-        },
-        "id": "petit-four-com-paprica-b321b632"
-      },
-      {
-        "nome": "Maçã Assada na Air Fryer da Rita Lobo",
-        "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Uma sobremesa leve, saudável e rápida, perfeita para finalizar a refeição sem culpa. O preparo na airfryer garante praticidade e um resultado delicioso.",
-        "tags": [
-          "frutas",
-          "airfryer",
-          "saudavel",
-          "rapido"
+          "vegetariano",
+          "rapido",
+          "leve",
+          "frigideira"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 maçãs médias (Gala ou Fuji)",
-          "1 colher (sopa) de manteiga sem sal",
-          "1 colher (sopa) de açúcar mascavo (ou a gosto)",
-          "1/2 colher (chá) de canela em pó",
-          "Opcional: nozes picadas ou uvas passas"
+          "1 ricota fresca (de 400g, aproximadamente)",
+          "4 colheres (sopa) de azeite",
+          "8 folhas de manjericão",
+          "8 folhas de hortelã",
+          "8 folhas de salsa crespa",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Grãos de pimenta rosa para perfumar (opcional)"
         ],
         "preparo": [
-          "Lave bem as maçãs e retire o miolo com um descaroçador ou faca pequena, formando um buraco no centro.",
-          "Em uma tigela pequena, misture a manteiga amolecida com o açúcar mascavo e a canela em pó. Se desejar, adicione nozes picadas ou uvas passas.",
-          "Recheie o centro de cada maçã com essa mistura.",
-          "Coloque as maçãs recheadas na cesta da airfryer.",
-          "Asse a 180°C por cerca de 15 a 20 minutos, ou até as maçãs ficarem macias e levemente caramelizadas. O tempo pode variar dependendo do tamanho da maçã e da potência da airfryer.",
-          "Sirva quente, acompanhada de iogurte natural ou uma bola de sorvete, se desejar."
+          "Corte a ricota fresca em fatias de 2 cm de espessura.",
+          "Lave e seque bem as folhas de manjericão, hortelã e salsa.",
+          "Aqueça uma frigideira antiaderente em fogo médio e adicione 1 colher (sopa) de azeite.",
+          "Coloque as fatias de ricota na frigideira (até duas por vez) e doure por 4 minutos de cada lado.",
+          "Transfira a ricota grelhada para um prato, tempere com sal e pimenta-do-reino.",
+          "Salpique as ervas frescas picadas e os grãos de pimenta rosa (se usar), e regue com um fio de azeite. Sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/maca-assada-na-air-fryer-da-rita-lobo",
-          "title": "Maçã assada na Air Fryer da Rita Lobo - Panelinha",
+          "url": "https://panelinha.com.br/receita/ricota-grelhada",
+          "title": "Ricota grelhada - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-11T16:36:16+00:00"
+          "checked_at": "2026-10-12T20:10:23+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-5932-blog-maca-assada-na-af-8.webp",
-          "alt": "Maçã Assada na Air Fryer da Rita Lobo"
+          "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
+          "alt": "Ricota Grelhada"
         },
-        "id": "maca-assada-na-air-fryer-da-rita-lobo-58a4c72a"
+        "id": "ricota-grelhada-bb272a1a"
+      },
+      {
+        "nome": "Raspadinha de Abacaxi Congelado",
+        "curso": "sobremesa",
+        "tempo": "5 minutos",
+        "porque": "Uma sobremesa refrescante, saudável e extremamente fácil de fazer, ideal para um casal jovem. Utiliza apenas um ingrediente principal e é pronta em poucos minutos (após o congelamento prévio).",
+        "tags": [
+          "frutas",
+          "refrescante",
+          "rapido",
+          "saudavel"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 fatia de abacaxi de cerca de 7 cm x 3 cm (para 1 porção, ajustar para 2 fatias para o casal)",
+          "Coco ralado seco e tostado a gosto para servir (opcional)",
+          "Iogurte cremoso a gosto para servir (opcional)"
+        ],
+        "preparo": [
+          "Corte o abacaxi em fatias de aproximadamente 7 cm x 3 cm.",
+          "Coloque as fatias de abacaxi em uma assadeira pequena ou prato e leve ao freezer por pelo menos 3 horas, ou até congelar completamente.",
+          "Com um ralador, rale o abacaxi congelado diretamente sobre um copo ou tigela.",
+          "Se desejar, sirva com coco ralado seco e tostado e/ou iogurte cremoso."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/raspadinha-de-abacaxi-congelado",
+          "title": "Raspadinha de abacaxi congelado - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-12T20:10:24+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7983-blog-ayu0420.webp",
+          "alt": "Raspadinha de Abacaxi Congelado"
+        },
+        "id": "raspadinha-de-abacaxi-congelado-7f92b7cb"
       }
     ]
   },

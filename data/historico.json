@@ -4443,5 +4443,17 @@
     ],
     "data": "11/10/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "iscas-cremosas-de-carne-com-legumes-22f9ad99",
+    "titulo": "Iscas Cremosas de Carne com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "frigideira",
+      "rapido",
+      "com_legumes"
+    ],
+    "data": "12/10/2026",
+    "fonte_status": "unverified"
   }
 ]
