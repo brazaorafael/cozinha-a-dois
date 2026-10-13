@@ -4455,5 +4455,41 @@
     ],
     "data": "12/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "rosbife-com-batata-e-brocolis-na-air-fryer-com-v-c29b20f8",
+    "titulo": "Rosbife com Batata e Brócolis na Air Fryer com Vapor da Rita Lobo",
+    "tags": [
+      "carne_vermelha",
+      "air_fryer",
+      "refeicao_completa",
+      "pratico"
+    ],
+    "data": "13/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "grao-de-bico-assado-com-especiarias-8eb76069",
+    "titulo": "Grão-de-bico assado com especiarias",
+    "tags": [
+      "vegetariano",
+      "assado",
+      "leve",
+      "petisco"
+    ],
+    "data": "13/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "compota-de-morangos-assados-0c10a4a9",
+    "titulo": "Compota de morangos assados",
+    "tags": [
+      "frutas",
+      "assado",
+      "leve",
+      "rapido"
+    ],
+    "data": "13/10/2026",
+    "fonte_status": "unverified"
   }
 ]
