@@ -1,182 +1,196 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-13T14:58:10-03:00",
+  "gerado_em": "2026-10-14T12:42:57-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "13/10/2026",
-    "dia_semana": "terça",
+    "data": "14/10/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Rosbife com Batata e Brócolis na Air Fryer com Vapor da Rita Lobo",
+        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Uma opção de carne vermelha completa e equilibrada, com proteína, carboidrato e vegetais, tudo preparado na Air Fryer em pouco tempo. A função de vapor garante brócolis macios e o rosbife suculento, ideal para um jantar a dois com sobras.",
+        "porque": "Prato clássico e reconfortante, feito na panela de pressão para agilizar o preparo, com bom equilíbrio de carne e vegetais. Perfeito para um jantar e sobra para o almoço. Prioriza refogado e carne vermelha.",
         "tags": [
           "carne_vermelha",
-          "air_fryer",
-          "refeicao_completa",
-          "pratico"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 peça de rosbife (lagarto ou filé mignon), cerca de 500g",
-          "3 batatas médias",
-          "1 brócolis ninja",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Temperos a gosto (ex: alho em pó, páprica)"
-        ],
-        "preparo": [
-          "Retire a carne da geladeira e mantenha em temperatura ambiente por pelo menos 15 minutos antes do preparo. Lave e corte as batatas em cubos e o brócolis em floretes.",
-          "Tempere a carne com sal, pimenta-do-reino e azeite. Tempere as batatas e o brócolis com azeite, sal e pimenta.",
-          "Coloque a carne na cesta da Air Fryer. Adicione as batatas e o brócolis ao redor da carne.",
-          "Programe a Air Fryer com função vapor (se disponível) ou asse em temperatura alta, virando a carne e misturando os vegetais na metade do tempo.",
-          "Cozinhe até o rosbife atingir o ponto desejado e os vegetais ficarem macios e dourados.",
-          "Deixe o rosbife descansar por alguns minutos antes de fatiar e servir com os vegetais."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://panelinha.com.br/receita/rosbife-com-batata-e-brocolis-na-air-fryer-com-vapor-da-rita-lobo",
-          "checked_at": "2026-10-13T17:59:31+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/1309595/pexels-photo-1309595.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso jantar de frango com brócolis, cenouras e batatas fritas em um prato.",
-          "bank_id": "1309595",
-          "credit": "Lukas Blazek",
-          "query": "Rosbife com Batata e Brócolis na Air Fryer com Vapor da Rita Lobo"
-        },
-        "id": "rosbife-com-batata-e-brocolis-na-air-fryer-com-v-c29b20f8"
-      },
-      {
-        "nome": "Carne Moída com Refogado de Pimentão",
-        "curso": "principal",
-        "tempo": "35 minutos",
-        "porque": "Uma receita de carne vermelha fácil e rápida de fazer, com a adição de vegetais para um prato equilibrado. Garante uma carne douradinha e saborosa, perfeita para o dia a dia e com bom rendimento para sobras.",
-        "tags": [
-          "carne_vermelha",
+          "panela_de_pressao",
           "refogado",
-          "rapido",
-          "equilibrado"
+          "jantar_completo"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de patinho moído",
-          "1 pimentão vermelho",
-          "1 cebola",
-          "2 dentes de alho",
-          "½ xícara (chá) de água quente",
-          "3 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Cebolinha fatiada a gosto para servir"
+          "1 kg de acém em cubos de 4 cm",
+          "2 colheres (sopa) de azeite",
+          "1 cebola média picada",
+          "2 dentes de alho picados",
+          "1 folha de louro",
+          "1 colher (sopa) de extrato de tomate",
+          "1 colher (chá) de cominho em pó",
+          "½ colher (chá) de canela em pó",
+          "1 xícara (chá) de vinho tinto seco",
+          "2 xícaras (chá) de água fervente",
+          "500 g de batata-bolinha",
+          "2 cenouras médias em rodelas grossas",
+          "sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Retire a carne moída da geladeira para atingir temperatura ambiente. Descasque e pique a cebola e o alho. Lave, seque e corte o pimentão em cubos médios.",
-          "Em uma panela grande, aqueça 2 colheres (sopa) de azeite em fogo baixo e refogue a cebola até dourar. Adicione o pimentão, tempere com sal e pimenta, e refogue por mais 2 minutos. Junte o alho e misture.",
-          "Aumente o fogo para médio e afaste o refogado para um lado da panela. Regue com 1 colher (sopa) de azeite e adicione a carne moída. Tempere com sal e pimenta e doure a carne, mexendo para soltar os pedaços.",
-          "Misture a carne com os vegetais. Regue a água quente aos poucos, raspando bem o fundo da panela para dissolver os queimadinhos e umedecer o preparo.",
-          "Cozinhe por alguns minutos até o molho encorpar. Desligue o fogo, misture a cebolinha fatiada e sirva a seguir."
+          "Tempere os cubos de acém com sal e pimenta-do-reino moída na hora.",
+          "Aqueça o azeite na panela de pressão e doure a carne em levas, reservando-a em seguida.",
+          "Na mesma panela, refogue a cebola, o alho e a folha de louro. Adicione o extrato de tomate, o cominho e a canela, mexendo por 1 minuto.",
+          "Retorne a carne para a panela, junte o vinho tinto e a água fervente. Tampe a panela e cozinhe por 30 minutos após o início do chiado.",
+          "Desligue o fogo, espere a pressão sair naturalmente, abra a panela e adicione as batatas-bolinha e as rodelas de cenoura. Cozinhe sem pressão até os legumes ficarem macios.",
+          "Acerte o tempero com sal e pimenta-do-reino a gosto e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://panelinha.com.br/receita/carne-moida-com-refogado-de-pimentao",
-          "checked_at": "2026-10-13T17:59:32+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
+          "checked_at": "2026-10-14T15:44:21+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
-          "bank_id": "34714654",
-          "credit": "UNDO KIM",
-          "query": "Carne Moída com Refogado de Pimentão"
+          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
+          "bank_id": "6545671",
+          "credit": "Thiago Rebouças",
+          "query": "Carne de Panela com Batata e Cenoura na Pressão"
         },
-        "id": "carne-moida-com-refogado-de-pimentao-283735d9"
+        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
       },
       {
-        "nome": "Grão-de-bico assado com especiarias",
-        "curso": "entrada",
+        "nome": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada",
+        "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Uma entrada leve, saudável e saborosa, com temperos exóticos que abrem o apetite sem pesar. É prática e utiliza o forno, um método de preparo preferido.",
+        "porque": "Uma forma moderna e rápida de preparar rosbife na air fryer, acompanhado de purê de abóbora e vagem, garantindo uma refeição completa e saudável, utilizando um método de cocção preferido.",
         "tags": [
-          "vegetariano",
-          "assado",
-          "leve",
-          "petisco"
+          "carne_vermelha",
+          "airfryer",
+          "saudavel",
+          "jantar_rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 latas de grão-de-bico cozido (cerca de 500g escorrido)",
-          "3 colheres (sopa) de azeite",
-          "1 colher (sopa) de cominho em pó",
-          "1 colher (sopa) de páprica doce",
-          "4 dentes de alho com casca (opcional)",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Raspas de 1 limão"
+          "1 peça de lagarto (cerca de 500 g)",
+          "1 colher (chá) de sal grosso",
+          "½ colher (chá) de páprica doce",
+          "pimenta-do-reino moída na hora a gosto",
+          "2 colheres (sopa) de azeite",
+          "500 g de abóbora japonesa em cubos",
+          "200 g de vagem holandesa",
+          "1 dente de alho picado",
+          "1 colher (sopa) de manteiga",
+          "2 colheres (sopa) de leite",
+          "noz-moscada ralada na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 225 °C. Escorra o grão-de-bico e lave em água corrente, deixando escorrer bem.",
-          "Transfira o grão-de-bico para uma assadeira. Regue com azeite e salpique com cominho, páprica, sal e pimenta. Adicione os dentes de alho (se usar).",
-          "Misture bem os temperos ao grão-de-bico usando uma espátula ou chacoalhando a assadeira.",
-          "Leve ao forno para assar por cerca de 40 minutos, ou até ficar crocante.",
-          "Retire do forno, misture as raspas de limão e sirva a seguir."
+          "Tempere o lagarto com sal grosso, páprica doce e pimenta-do-reino. Regue com 1 colher de sopa de azeite.",
+          "Leve o lagarto à Air Fryer preaquecida a 200 ºC por 15 a 20 minutos, virando na metade do tempo para dourar por igual. Retire e reserve.",
+          "Cozinhe a abóbora em cubos em água fervente até ficar macia. Escorra e amasse com um garfo até obter um purê.",
+          "Em uma panela, derreta a manteiga, adicione o alho picado e refogue. Junte a abóbora amassada, o leite, sal, pimenta e noz-moscada. Misture bem.",
+          "Na mesma panela, salteie a vagem holandesa com 1 colher de sopa de azeite até ficar levemente chamuscada. Tempere com sal e pimenta.",
+          "Fatie o rosbife em fatias finas e sirva acompanhado do purê de abóbora e da vagem chamuscada."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/grao-de-bico-assado-com-especiarias",
-          "title": "Grão-de-bico assado com especiarias - Panelinha",
+          "url": "https://panelinha.com.br/receita/rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-chamuscada",
+          "title": "Rosbife na Air Fryer com purê de abóbora e vagem chamuscada - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-13T17:59:33+00:00"
+          "checked_at": "2026-10-14T15:44:21+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7754-grao-de-bico-assado-com-especiarias.webp",
-          "alt": "Grão-de-bico assado com especiarias"
+          "url": "https://i.panelinha.com.br/i1/bk-6356-blog-rosbife-vagem-chamuscada-pure-de-abobora.webp",
+          "alt": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada"
         },
-        "id": "grao-de-bico-assado-com-especiarias-8eb76069"
+        "id": "rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-b1d61ed5"
       },
       {
-        "nome": "Compota de morangos assados",
-        "curso": "sobremesa",
-        "tempo": "25 minutos",
-        "porque": "Uma sobremesa leve, fácil e rápida, que realça o sabor natural da fruta. É perfeita para finalizar a refeição de forma suave e pode ser servida morna ou fria.",
+        "nome": "Salada de Tomate com Azeite Crocante",
+        "curso": "entrada",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada leve, fresca e saborosa, com um toque crocante. É rápida de preparar e utiliza ingredientes acessíveis, perfeita para abrir o apetite. Prioriza refogado e vegetais frescos.",
         "tags": [
-          "frutas",
-          "assado",
-          "leve",
-          "rapido"
+          "salada",
+          "vegetariano",
+          "rapido",
+          "fresco"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "500g de morangos frescos",
-          "3 colheres (sopa) de açúcar",
-          "1 colher (sopa) de caldo de limão"
+          "4 tomates maduros",
+          "1/4 xícara (chá) de azeite",
+          "2 colheres (sopa) de castanha-de-caju picada",
+          "1 colher (sopa) de sementes de girassol",
+          "1 colher (chá) de sementes de coentro",
+          "1/2 colher (chá) de pimenta calabresa",
+          "1 raminho de alecrim fresco",
+          "1 dente de alho fatiado",
+          "sal a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 180 °C. Lave os morangos, descarte os cabinhos e corte os maiores ao meio, no sentido do comprimento.",
-          "Transfira os morangos para uma assadeira média, de preferência antiaderente.",
-          "Adicione o açúcar e o caldo de limão sobre os morangos, misturando delicadamente.",
-          "Leve ao forno para assar por cerca de 20 minutos, ou até que os morangos fiquem macios e formem uma calda brilhante.",
-          "Retire do forno e deixe esfriar um pouco antes de servir. Pode ser servida morna ou fria."
+          "Lave e seque os tomates. Corte-os em rodelas finas e arrume-os em uma travessa.",
+          "Em uma frigideira pequena, aqueça o azeite com a castanha-de-caju, as sementes de girassol e de coentro, a pimenta calabresa, o alecrim e o sal.",
+          "Junte o alho fatiado e mexa por cerca de 1 minuto para perfumar.",
+          "Retire a frigideira do fogo e deixe o azeite crocante esfriar um pouco.",
+          "Regue os tomates com o azeite crocante e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
+          "title": "Salada de tomate com azeite crocante - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-14T15:44:22+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
+          "alt": "Salada de Tomate com Azeite Crocante"
+        },
+        "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
+      },
+      {
+        "nome": "Camadinhas de Ameixa, Suco de Laranja e Nesfit",
+        "curso": "sobremesa",
+        "tempo": "5 minutos",
+        "porque": "Uma sobremesa leve, refrescante e muito rápida de preparar, ideal para um casal jovem que busca opções saudáveis e práticas. Utiliza ingredientes acessíveis e não requer cozimento.",
+        "tags": [
+          "sobremesa",
+          "leve",
+          "frutas",
+          "rapido"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 pote de NESTLÉ GREGO light (90g)",
+          "1/2 xícara (chá) de suco de laranja",
+          "1/2 xícara (chá) de NESTLÉ NESFIT Cereal Matinal (sem adição de açúcares)",
+          "4 ameixas frescas sem caroço, picadas",
+          "2 colheres (sopa) de castanhas-de-caju picadas"
+        ],
+        "preparo": [
+          "Em um recipiente, misture o NESTLÉ GREGO light com o suco de laranja e reserve.",
+          "Em uma taça ou copinho de servir, forre o fundo com metade do NESTLÉ NESFIT Cereal Matinal.",
+          "Cubra com metade da mistura de iogurte e metade das ameixas picadas.",
+          "Repita as camadas com o restante do cereal, iogurte e ameixas.",
+          "Finalize com as castanhas-de-caju picadas e sirva a seguir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://panelinha.com.br/receita/compota-de-morangos-assados",
-          "checked_at": "2026-10-13T17:59:33+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-10-14T15:44:22+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/33460771/pexels-photo-33460771.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Vista aérea de morangos em um pote coberto com açúcar, colocados em um prato branco.",
-          "bank_id": "33460771",
-          "credit": "Phong Thanh",
-          "query": "Compota de morangos assados"
+          "url": "https://images.pexels.com/photos/4982432/pexels-photo-4982432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso hambúrguer com alface fresca, queijo e tomate em um pão crocante, acompanhado de uma caixa de suco e uma laranja.",
+          "bank_id": "4982432",
+          "credit": "Alex Pinheiro",
+          "query": "Camadinhas de Ameixa, Suco de Laranja e Nesfit"
         },
-        "id": "compota-de-morangos-assados-0c10a4a9"
+        "id": "camadinhas-de-ameixa-suco-de-laranja-e-nesfit-002e30c2"
       }
     ]
   },
