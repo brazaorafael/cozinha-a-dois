@@ -4503,5 +4503,41 @@
     ],
     "data": "14/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-pure-de-couve-flor-5b3067ff",
+    "titulo": "Carne Moída com Purê de Couve-Flor",
+    "tags": [
+      "carne_moida",
+      "low_carb",
+      "refogado",
+      "rapido"
+    ],
+    "data": "15/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "iscas-de-carne-com-cebola-242133b1",
+    "titulo": "Iscas de Carne com Cebola",
+    "tags": [
+      "carne_bovina",
+      "refogado",
+      "rapido",
+      "dia_a_dia"
+    ],
+    "data": "15/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "goiaba-brulee-fcb74dab",
+    "titulo": "Goiaba Brûlée",
+    "tags": [
+      "fruta",
+      "rapido",
+      "doce",
+      "sobremesa"
+    ],
+    "data": "15/10/2026",
+    "fonte_status": "verified"
   }
 ]

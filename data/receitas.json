@@ -1,196 +1,183 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-14T12:42:57-03:00",
+  "gerado_em": "2026-10-15T12:30:32-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "14/10/2026",
-    "dia_semana": "quarta",
+    "data": "15/10/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
+        "nome": "Carne Moída com Purê de Couve-Flor",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Prato clássico e reconfortante, feito na panela de pressão para agilizar o preparo, com bom equilíbrio de carne e vegetais. Perfeito para um jantar e sobra para o almoço. Prioriza refogado e carne vermelha.",
+        "tempo": "30 minutos",
+        "porque": "Carne vermelha (moída), refogada, com um purê de couve-flor que oferece uma alternativa mais leve e equilibrada ao purê de batata. É rápida, prática e rende sobras para o almoço de uma pessoa.",
         "tags": [
-          "carne_vermelha",
-          "panela_de_pressao",
+          "carne_moida",
+          "low_carb",
           "refogado",
-          "jantar_completo"
+          "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 kg de acém em cubos de 4 cm",
-          "2 colheres (sopa) de azeite",
+          "1 couve-flor média",
+          "2 colheres (sopa) de manteiga",
+          "½ xícara (chá) de leite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "1 colher (sopa) de azeite",
           "1 cebola média picada",
           "2 dentes de alho picados",
-          "1 folha de louro",
-          "1 colher (sopa) de extrato de tomate",
-          "1 colher (chá) de cominho em pó",
-          "½ colher (chá) de canela em pó",
-          "1 xícara (chá) de vinho tinto seco",
-          "2 xícaras (chá) de água fervente",
-          "500 g de batata-bolinha",
-          "2 cenouras médias em rodelas grossas",
-          "sal e pimenta-do-reino moída na hora a gosto"
+          "500 g de carne moída (patinho ou acém)",
+          "1 lata de tomate pelado picado (ou 2 tomates maduros picados)",
+          "½ xícara (chá) de água (ou caldo de carne)",
+          "Salsinha picada a gosto para finalizar"
         ],
         "preparo": [
-          "Tempere os cubos de acém com sal e pimenta-do-reino moída na hora.",
-          "Aqueça o azeite na panela de pressão e doure a carne em levas, reservando-a em seguida.",
-          "Na mesma panela, refogue a cebola, o alho e a folha de louro. Adicione o extrato de tomate, o cominho e a canela, mexendo por 1 minuto.",
-          "Retorne a carne para a panela, junte o vinho tinto e a água fervente. Tampe a panela e cozinhe por 30 minutos após o início do chiado.",
-          "Desligue o fogo, espere a pressão sair naturalmente, abra a panela e adicione as batatas-bolinha e as rodelas de cenoura. Cozinhe sem pressão até os legumes ficarem macios.",
-          "Acerte o tempero com sal e pimenta-do-reino a gosto e sirva."
+          "Cozinhe a couve-flor em água fervente com sal até ficar macia. Escorra bem.",
+          "Em uma panela, derreta a manteiga, adicione a couve-flor cozida, o leite, sal e pimenta. Amasse até virar purê.",
+          "Em outra panela, aqueça o azeite e refogue a cebola e o alho até dourar.",
+          "Adicione a carne moída e refogue até dourar e secar a água.",
+          "Acrescente o tomate pelado, a água, sal e pimenta. Cozinhe por 10 minutos.",
+          "Monte o prato com a carne moída no fundo e cubra com o purê de couve-flor. Finalize com salsinha."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
-          "checked_at": "2026-10-14T15:44:21+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-pure-de-couve-flor",
+          "checked_at": "2026-10-15T15:32:31+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
-          "bank_id": "6545671",
-          "credit": "Thiago Rebouças",
-          "query": "Carne de Panela com Batata e Cenoura na Pressão"
+          "url": "https://images.pexels.com/photos/10296232/pexels-photo-10296232.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato gourmet de salmão grelhado com aspargos, couve de bruxelas e purê em um prato de cerâmica.",
+          "bank_id": "10296232",
+          "credit": "Shameel mukkath",
+          "query": "Carne Moída com Purê de Couve-Flor"
         },
-        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+        "id": "carne-moida-com-pure-de-couve-flor-5b3067ff"
       },
       {
-        "nome": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada",
+        "nome": "Iscas de Carne com Cebola",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Uma forma moderna e rápida de preparar rosbife na air fryer, acompanhado de purê de abóbora e vagem, garantindo uma refeição completa e saudável, utilizando um método de cocção preferido.",
+        "tempo": "20 minutos",
+        "porque": "Carne vermelha em tiras, refogada, rápida e prática. É uma preparação simples e saborosa que rende sobras para o almoço de uma pessoa.",
         "tags": [
-          "carne_vermelha",
-          "airfryer",
-          "saudavel",
-          "jantar_rapido"
+          "carne_bovina",
+          "refogado",
+          "rapido",
+          "dia_a_dia"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de lagarto (cerca de 500 g)",
-          "1 colher (chá) de sal grosso",
-          "½ colher (chá) de páprica doce",
-          "pimenta-do-reino moída na hora a gosto",
+          "500 g de carne bovina em tiras (alcatra, patinho ou contrafilé)",
+          "2 cebolas médias fatiadas em meias-luas",
           "2 colheres (sopa) de azeite",
-          "500 g de abóbora japonesa em cubos",
-          "200 g de vagem holandesa",
-          "1 dente de alho picado",
-          "1 colher (sopa) de manteiga",
-          "2 colheres (sopa) de leite",
-          "noz-moscada ralada na hora a gosto"
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Salsinha picada a gosto para finalizar"
         ],
         "preparo": [
-          "Tempere o lagarto com sal grosso, páprica doce e pimenta-do-reino. Regue com 1 colher de sopa de azeite.",
-          "Leve o lagarto à Air Fryer preaquecida a 200 ºC por 15 a 20 minutos, virando na metade do tempo para dourar por igual. Retire e reserve.",
-          "Cozinhe a abóbora em cubos em água fervente até ficar macia. Escorra e amasse com um garfo até obter um purê.",
-          "Em uma panela, derreta a manteiga, adicione o alho picado e refogue. Junte a abóbora amassada, o leite, sal, pimenta e noz-moscada. Misture bem.",
-          "Na mesma panela, salteie a vagem holandesa com 1 colher de sopa de azeite até ficar levemente chamuscada. Tempere com sal e pimenta.",
-          "Fatie o rosbife em fatias finas e sirva acompanhado do purê de abóbora e da vagem chamuscada."
+          "Tempere as iscas de carne com sal e pimenta-do-reino.",
+          "Aqueça metade do azeite em uma frigideira grande em fogo alto. Doure a carne em porções para não soltar muita água. Reserve.",
+          "Na mesma frigideira, adicione o azeite restante e refogue a cebola até murchar e dourar levemente.",
+          "Retorne a carne à frigideira com a cebola, misture bem e cozinhe por mais 2 minutos.",
+          "Finalize com salsinha picada e sirva imediatamente."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-chamuscada",
-          "title": "Rosbife na Air Fryer com purê de abóbora e vagem chamuscada - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-14T15:44:21+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Iscas-de-carne-com-cebola",
+          "checked_at": "2026-10-15T15:32:35+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6356-blog-rosbife-vagem-chamuscada-pure-de-abobora.webp",
-          "alt": "Rosbife na Air Fryer com Purê de Abóbora e Vagem Chamuscada"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/30207049/pexels-photo-30207049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne crua guarnecida com cebola e temperos, servida com verduras frescas para uma refeição saborosa.",
+          "bank_id": "30207049",
+          "credit": "FOX ^.ᆽ.^= ∫",
+          "query": "Iscas de Carne com Cebola"
         },
-        "id": "rosbife-na-air-fryer-com-pure-de-abobora-e-vagem-b1d61ed5"
+        "id": "iscas-de-carne-com-cebola-242133b1"
       },
       {
-        "nome": "Salada de Tomate com Azeite Crocante",
+        "nome": "Salada de Pimentão Marinado com Hortelã",
         "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada leve, fresca e saborosa, com um toque crocante. É rápida de preparar e utiliza ingredientes acessíveis, perfeita para abrir o apetite. Prioriza refogado e vegetais frescos.",
+        "tempo": "45 minutos",
+        "porque": "Entrada leve, fresca e saborosa, com vegetais assados e tempero aromático. É uma opção saudável e diferente para começar a refeição.",
         "tags": [
           "salada",
           "vegetariano",
-          "rapido",
-          "fresco"
+          "assado",
+          "leve"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "4 tomates maduros",
-          "1/4 xícara (chá) de azeite",
-          "2 colheres (sopa) de castanha-de-caju picada",
-          "1 colher (sopa) de sementes de girassol",
-          "1 colher (chá) de sementes de coentro",
-          "1/2 colher (chá) de pimenta calabresa",
-          "1 raminho de alecrim fresco",
-          "1 dente de alho fatiado",
-          "sal a gosto"
+          "2 pimentões vermelhos",
+          "4 ramos de hortelã",
+          "1 colher (sopa) de vinagre balsâmico",
+          "1 colher (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Lave e seque os tomates. Corte-os em rodelas finas e arrume-os em uma travessa.",
-          "Em uma frigideira pequena, aqueça o azeite com a castanha-de-caju, as sementes de girassol e de coentro, a pimenta calabresa, o alecrim e o sal.",
-          "Junte o alho fatiado e mexa por cerca de 1 minuto para perfumar.",
-          "Retire a frigideira do fogo e deixe o azeite crocante esfriar um pouco.",
-          "Regue os tomates com o azeite crocante e sirva imediatamente."
+          "Preaqueça o forno a 220 ºC. Lave e seque os pimentões.",
+          "Coloque os pimentões inteiros em uma assadeira e leve ao forno por cerca de 30 minutos, virando na metade do tempo, até a pele ficar tostada.",
+          "Retire os pimentões do forno, coloque-os em uma tigela e cubra com filme plástico por 10 minutos para que a pele solte facilmente.",
+          "Descasque os pimentões, descarte as sementes e corte-os em tiras.",
+          "Em uma tigela, misture as tiras de pimentão com o vinagre, azeite, sal, pimenta e as folhas de hortelã picadas. Sirva morno ou frio."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
-          "title": "Salada de tomate com azeite crocante - Panelinha",
+          "url": "https://panelinha.com.br/receita/salada-de-pimentao-marinado-com-hortela",
+          "title": "Salada de pimentão marinado com hortelã - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-14T15:44:22+00:00"
+          "checked_at": "2026-10-15T15:32:39+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
-          "alt": "Salada de Tomate com Azeite Crocante"
+          "url": "https://i.panelinha.com.br/i1/bk-9516-salada-de-pimentao-marinado-com-hortela.webp",
+          "alt": "Salada de Pimentão Marinado com Hortelã"
         },
-        "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
+        "id": "salada-de-pimentao-marinado-com-hortela-1043d971"
       },
       {
-        "nome": "Camadinhas de Ameixa, Suco de Laranja e Nesfit",
+        "nome": "Goiaba Brûlée",
         "curso": "sobremesa",
-        "tempo": "5 minutos",
-        "porque": "Uma sobremesa leve, refrescante e muito rápida de preparar, ideal para um casal jovem que busca opções saudáveis e práticas. Utiliza ingredientes acessíveis e não requer cozimento.",
+        "tempo": "15 minutos",
+        "porque": "Sobremesa rápida, elegante e com fruta. Oferece uma textura crocante por fora e macia por dentro, com um toque de queijo frescal, sendo uma opção diferente e prática.",
         "tags": [
-          "sobremesa",
-          "leve",
-          "frutas",
-          "rapido"
+          "fruta",
+          "rapido",
+          "doce",
+          "sobremesa"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pote de NESTLÉ GREGO light (90g)",
-          "1/2 xícara (chá) de suco de laranja",
-          "1/2 xícara (chá) de NESTLÉ NESFIT Cereal Matinal (sem adição de açúcares)",
-          "4 ameixas frescas sem caroço, picadas",
-          "2 colheres (sopa) de castanhas-de-caju picadas"
+          "1 goiaba vermelha madura",
+          "2 colheres (chá) de açúcar",
+          "1 colher (chá) de manteiga",
+          "Fatias de queijo minas frescal para servir (opcional)"
         ],
         "preparo": [
-          "Em um recipiente, misture o NESTLÉ GREGO light com o suco de laranja e reserve.",
-          "Em uma taça ou copinho de servir, forre o fundo com metade do NESTLÉ NESFIT Cereal Matinal.",
-          "Cubra com metade da mistura de iogurte e metade das ameixas picadas.",
-          "Repita as camadas com o restante do cereal, iogurte e ameixas.",
-          "Finalize com as castanhas-de-caju picadas e sirva a seguir."
+          "Lave bem a goiaba, descarte as pontas e fatie em rodelas de cerca de 1,5 cm de espessura.",
+          "Polvilhe um dos lados das fatias de goiaba com açúcar.",
+          "Aqueça a manteiga em uma frigideira antiaderente em fogo médio.",
+          "Coloque as fatias de goiaba com o lado açucarado para baixo na frigideira e doure por cerca de 1 minuto, até formar uma casquinha.",
+          "Polvilhe o outro lado com açúcar, vire as fatias e doure por mais 1 minuto.",
+          "Sirva imediatamente, acompanhada de fatias de queijo minas frescal, se desejar."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-14T15:44:22+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/goiaba-brulee",
+          "title": "Goiaba brûlée - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-15T15:32:39+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/4982432/pexels-photo-4982432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso hambúrguer com alface fresca, queijo e tomate em um pão crocante, acompanhado de uma caixa de suco e uma laranja.",
-          "bank_id": "4982432",
-          "credit": "Alex Pinheiro",
-          "query": "Camadinhas de Ameixa, Suco de Laranja e Nesfit"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-1094-goiaba-grelhada.webp",
+          "alt": "Goiaba Brûlée"
         },
-        "id": "camadinhas-de-ameixa-suco-de-laranja-e-nesfit-002e30c2"
+        "id": "goiaba-brulee-fcb74dab"
       }
     ]
   },
