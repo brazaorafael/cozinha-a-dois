@@ -1,183 +1,191 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-15T12:30:32-03:00",
+  "gerado_em": "2026-10-16T12:15:18-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "15/10/2026",
-    "dia_semana": "quinta",
+    "data": "16/10/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Carne Moída com Purê de Couve-Flor",
+        "nome": "Filé Mignon ao Molho de Mostarda",
         "curso": "principal",
         "tempo": "30 minutos",
-        "porque": "Carne vermelha (moída), refogada, com um purê de couve-flor que oferece uma alternativa mais leve e equilibrada ao purê de batata. É rápida, prática e rende sobras para o almoço de uma pessoa.",
+        "porque": "Carne vermelha nobre, preparo rápido e molho cremoso e distinto das receitas proibidas. Ideal para um jantar especial a dois, com potencial para sobras para o almoço de uma pessoa.",
+        "tags": [
+          "carne_vermelha",
+          "rapido",
+          "jantar_romantico",
+          "molho_cremoso"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "2 medalhões de filé mignon (cerca de 200g cada)",
+          "1 colher (sopa) de azeite",
+          "1/2 cebola pequena picada",
+          "1 dente de alho picado",
+          "1/2 xícara (chá) de vinho branco seco",
+          "1/2 xícara (chá) de caldo de carne (caseiro ou de boa qualidade)",
+          "2 colheres (sopa) de mostarda Dijon",
+          "1/4 xícara (chá) de creme de leite fresco",
+          "Sal e pimenta-do-reino a gosto",
+          "Salsinha picada para finalizar (opcional)"
+        ],
+        "preparo": [
+          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino a gosto.",
+          "Em uma frigideira grande, aqueça o azeite em fogo médio-alto e sele os filés por 3-4 minutos de cada lado, até dourarem. Retire e reserve.",
+          "Na mesma frigideira, adicione a cebola picada e refogue por 2 minutos. Junte o alho picado e refogue por mais 1 minuto.",
+          "Despeje o vinho branco e raspe o fundo da frigideira para soltar os sabores. Deixe o álcool evaporar por cerca de 2 minutos.",
+          "Adicione o caldo de carne e a mostarda Dijon. Deixe reduzir um pouco, por aproximadamente 3-5 minutos.",
+          "Incorpore o creme de leite fresco, misture bem e cozinhe por mais 2 minutos, até o molho engrossar levemente.",
+          "Retorne os filés à frigideira com o molho para aquecer. Sirva imediatamente, se desejar, com salsinha picada."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/File-mignon-ao-molho-de-mostarda",
+          "checked_at": "2026-10-16T15:16:41+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
+          "bank_id": "25205263",
+          "credit": "Adriano Bragi",
+          "query": "Filé Mignon ao Molho de Mostarda"
+        },
+        "id": "file-mignon-ao-molho-de-mostarda-561e6478"
+      },
+      {
+        "nome": "Bolo de Carne Recheado",
+        "curso": "principal",
+        "tempo": "60 minutos",
+        "porque": "Carne moída em uma apresentação diferente (bolo de carne), recheado e assado no forno, o que o distingue de outros pratos de carne moída proibidos. Rende bem para 2 pessoas e sobras para o almoço de uma pessoa.",
         "tags": [
           "carne_moida",
-          "low_carb",
-          "refogado",
-          "rapido"
+          "forno",
+          "rende_sobra",
+          "recheado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 couve-flor média",
-          "2 colheres (sopa) de manteiga",
-          "½ xícara (chá) de leite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "1 colher (sopa) de azeite",
-          "1 cebola média picada",
-          "2 dentes de alho picados",
-          "500 g de carne moída (patinho ou acém)",
-          "1 lata de tomate pelado picado (ou 2 tomates maduros picados)",
-          "½ xícara (chá) de água (ou caldo de carne)",
-          "Salsinha picada a gosto para finalizar"
+          "500g de carne moída",
+          "1 ovo",
+          "1/2 xícara (chá) de farinha de rosca",
+          "1/2 cebola picada",
+          "2 dentes de alho amassados",
+          "Sal e pimenta-do-reino a gosto",
+          "100g de queijo mussarela fatiado",
+          "100g de presunto fatiado (opcional)",
+          "Molho de tomate a gosto (para cobrir)",
+          "Salsinha picada a gosto"
         ],
         "preparo": [
-          "Cozinhe a couve-flor em água fervente com sal até ficar macia. Escorra bem.",
-          "Em uma panela, derreta a manteiga, adicione a couve-flor cozida, o leite, sal e pimenta. Amasse até virar purê.",
-          "Em outra panela, aqueça o azeite e refogue a cebola e o alho até dourar.",
-          "Adicione a carne moída e refogue até dourar e secar a água.",
-          "Acrescente o tomate pelado, a água, sal e pimenta. Cozinhe por 10 minutos.",
-          "Monte o prato com a carne moída no fundo e cubra com o purê de couve-flor. Finalize com salsinha."
+          "Em uma tigela, misture a carne moída, o ovo, a farinha de rosca, a cebola, o alho, sal e pimenta-do-reino até incorporar bem os ingredientes.",
+          "Divida a massa de carne em duas partes. Em uma assadeira untada, espalhe uma parte da carne formando um retângulo.",
+          "Distribua as fatias de mussarela e presunto (se optar por usar) sobre a carne, deixando uma pequena borda.",
+          "Cubra com a outra parte da carne, moldando cuidadosamente para fechar o recheio e formar um bolo.",
+          "Cubra o bolo de carne com molho de tomate de sua preferência.",
+          "Leve ao forno pré-aquecido a 180°C por cerca de 40-50 minutos, ou até dourar e cozinhar por completo.",
+          "Retire do forno, polvilhe salsinha picada a gosto e sirva em fatias."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-pure-de-couve-flor",
-          "checked_at": "2026-10-15T15:32:31+00:00"
+          "suggested_url": "https://www.tudogostoso.com.br/receita/2384-bolo-de-carne-recheado.html",
+          "checked_at": "2026-10-16T15:16:44+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/10296232/pexels-photo-10296232.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato gourmet de salmão grelhado com aspargos, couve de bruxelas e purê em um prato de cerâmica.",
-          "bank_id": "10296232",
-          "credit": "Shameel mukkath",
-          "query": "Carne Moída com Purê de Couve-Flor"
+          "url": "https://images.pexels.com/photos/25313529/pexels-photo-25313529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso pão recheado com carne, servido com alface fresca, tomates-cereja e suco de laranja.",
+          "bank_id": "25313529",
+          "credit": "Márcio  Carvalho",
+          "query": "Bolo de Carne Recheado"
         },
-        "id": "carne-moida-com-pure-de-couve-flor-5b3067ff"
+        "id": "bolo-de-carne-recheado-eb903016"
       },
       {
-        "nome": "Iscas de Carne com Cebola",
-        "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Carne vermelha em tiras, refogada, rápida e prática. É uma preparação simples e saborosa que rende sobras para o almoço de uma pessoa.",
-        "tags": [
-          "carne_bovina",
-          "refogado",
-          "rapido",
-          "dia_a_dia"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500 g de carne bovina em tiras (alcatra, patinho ou contrafilé)",
-          "2 cebolas médias fatiadas em meias-luas",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Salsinha picada a gosto para finalizar"
-        ],
-        "preparo": [
-          "Tempere as iscas de carne com sal e pimenta-do-reino.",
-          "Aqueça metade do azeite em uma frigideira grande em fogo alto. Doure a carne em porções para não soltar muita água. Reserve.",
-          "Na mesma frigideira, adicione o azeite restante e refogue a cebola até murchar e dourar levemente.",
-          "Retorne a carne à frigideira com a cebola, misture bem e cozinhe por mais 2 minutos.",
-          "Finalize com salsinha picada e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Iscas-de-carne-com-cebola",
-          "checked_at": "2026-10-15T15:32:35+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/30207049/pexels-photo-30207049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne crua guarnecida com cebola e temperos, servida com verduras frescas para uma refeição saborosa.",
-          "bank_id": "30207049",
-          "credit": "FOX ^.ᆽ.^= ∫",
-          "query": "Iscas de Carne com Cebola"
-        },
-        "id": "iscas-de-carne-com-cebola-242133b1"
-      },
-      {
-        "nome": "Salada de Pimentão Marinado com Hortelã",
+        "nome": "Queijo Brie Aperitivo na Air Fryer",
         "curso": "entrada",
-        "tempo": "45 minutos",
-        "porque": "Entrada leve, fresca e saborosa, com vegetais assados e tempero aromático. É uma opção saudável e diferente para começar a refeição.",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada rápida, elegante e que utiliza a airfryer, conforme a preferência do casal. É fácil de preparar e ideal para um jantar a dois.",
         "tags": [
-          "salada",
-          "vegetariano",
-          "assado",
-          "leve"
+          "queijo",
+          "airfryer",
+          "rapido",
+          "aperitivo"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 pimentões vermelhos",
-          "4 ramos de hortelã",
-          "1 colher (sopa) de vinagre balsâmico",
-          "1 colher (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "1 peça de queijo francês petit brie (125 g)",
+          "¼ de colher (chá) de azeite",
+          "1 colher (chá) de mel",
+          "¼ de colher (chá) de pimenta calabresa seca",
+          "5 ramos de tomilho-limão"
         ],
         "preparo": [
-          "Preaqueça o forno a 220 ºC. Lave e seque os pimentões.",
-          "Coloque os pimentões inteiros em uma assadeira e leve ao forno por cerca de 30 minutos, virando na metade do tempo, até a pele ficar tostada.",
-          "Retire os pimentões do forno, coloque-os em uma tigela e cubra com filme plástico por 10 minutos para que a pele solte facilmente.",
-          "Descasque os pimentões, descarte as sementes e corte-os em tiras.",
-          "Em uma tigela, misture as tiras de pimentão com o vinagre, azeite, sal, pimenta e as folhas de hortelã picadas. Sirva morno ou frio."
+          "Preaqueça a Air Fryer a 160 ºC e programe para assar por 10 minutos.",
+          "Coloque o queijo brie em uma tigela pequena ou pratinho que possa ir à Air Fryer.",
+          "Polvilhe a pimenta calabresa e o tomilho debulhado sobre o queijo.",
+          "Regue com o azeite e o mel.",
+          "Leve à Air Fryer e asse por 10 minutos, ou até o queijo estar macio e aquecido.",
+          "Sirva imediatamente com torradas ou pães."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-de-pimentao-marinado-com-hortela",
-          "title": "Salada de pimentão marinado com hortelã - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-15T15:32:39+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
+          "checked_at": "2026-10-16T15:16:45+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9516-salada-de-pimentao-marinado-com-hortela.webp",
-          "alt": "Salada de Pimentão Marinado com Hortelã"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
+          "bank_id": "31994015",
+          "credit": "Mimi",
+          "query": "Queijo Brie Aperitivo na Air Fryer"
         },
-        "id": "salada-de-pimentao-marinado-com-hortela-1043d971"
+        "id": "queijo-brie-aperitivo-na-air-fryer-f463641b"
       },
       {
-        "nome": "Goiaba Brûlée",
+        "nome": "S'mores Garoto",
         "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Sobremesa rápida, elegante e com fruta. Oferece uma textura crocante por fora e macia por dentro, com um toque de queijo frescal, sendo uma opção diferente e prática.",
+        "tempo": "20 minutos",
+        "porque": "Uma sobremesa divertida, rápida e prática, ideal para um casal jovem. Não exige fritura e é diferente das sobremesas proibidas.",
         "tags": [
-          "fruta",
+          "chocolate",
           "rapido",
           "doce",
-          "sobremesa"
+          "facil"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 goiaba vermelha madura",
-          "2 colheres (chá) de açúcar",
-          "1 colher (chá) de manteiga",
-          "Fatias de queijo minas frescal para servir (opcional)"
+          "1 pacote de biscoito tipo maisena (200g)",
+          "1 tablete de Chocolate GAROTO® Meio Amargo (90g), picado",
+          "1 xícara (chá) de mini marshmallows"
         ],
         "preparo": [
-          "Lave bem a goiaba, descarte as pontas e fatie em rodelas de cerca de 1,5 cm de espessura.",
-          "Polvilhe um dos lados das fatias de goiaba com açúcar.",
-          "Aqueça a manteiga em uma frigideira antiaderente em fogo médio.",
-          "Coloque as fatias de goiaba com o lado açucarado para baixo na frigideira e doure por cerca de 1 minuto, até formar uma casquinha.",
-          "Polvilhe o outro lado com açúcar, vire as fatias e doure por mais 1 minuto.",
-          "Sirva imediatamente, acompanhada de fatias de queijo minas frescal, se desejar."
+          "Em um refratário que possa ir ao forno, faça uma camada com os biscoitos maisena.",
+          "Distribua o chocolate picado sobre os biscoitos.",
+          "Cubra com os mini marshmallows.",
+          "Leve ao forno médio (180°C), preaquecido, por cerca de 10 minutos, ou até os marshmallows dourarem levemente e o chocolate derreter.",
+          "Retire do forno e sirva imediatamente com colheres, como um fondue."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/goiaba-brulee",
-          "title": "Goiaba brûlée - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-15T15:32:39+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/smores-garoto",
+          "checked_at": "2026-10-16T15:16:46+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-1094-goiaba-grelhada.webp",
-          "alt": "Goiaba Brûlée"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/32066903/pexels-photo-32066903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de uma sobremesa clássica de s'mores com chocolate derretido e marshmallows tostados.",
+          "bank_id": "32066903",
+          "credit": "Miro Vrlik",
+          "query": "S'mores Garoto"
         },
-        "id": "goiaba-brulee-fcb74dab"
+        "id": "s-mores-garoto-e621acf8"
       }
     ]
   },

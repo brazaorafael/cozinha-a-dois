@@ -4539,5 +4539,29 @@
     ],
     "data": "15/10/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "file-mignon-ao-molho-de-mostarda-561e6478",
+    "titulo": "Filé Mignon ao Molho de Mostarda",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "jantar_romantico",
+      "molho_cremoso"
+    ],
+    "data": "16/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bolo-de-carne-recheado-eb903016",
+    "titulo": "Bolo de Carne Recheado",
+    "tags": [
+      "carne_moida",
+      "forno",
+      "rende_sobra",
+      "recheado"
+    ],
+    "data": "16/10/2026",
+    "fonte_status": "unverified"
   }
 ]
