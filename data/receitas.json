@@ -1,191 +1,189 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-16T12:15:18-03:00",
+  "gerado_em": "2026-10-17T11:04:41-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "16/10/2026",
-    "dia_semana": "sexta",
+    "data": "17/10/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Filé Mignon ao Molho de Mostarda",
+        "nome": "Bife de Panela com Cebola e Pimentão",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Carne vermelha nobre, preparo rápido e molho cremoso e distinto das receitas proibidas. Ideal para um jantar especial a dois, com potencial para sobras para o almoço de uma pessoa.",
+        "tempo": "40 minutos",
+        "porque": "Um prato principal de carne vermelha (bife) suculento e saboroso, preparado na panela de pressão para agilizar o cozimento. É equilibrado com cebola e pimentão, e rende bem para o almoço do dia seguinte. Não está na lista de pratos a evitar, sendo uma variação do clássico bife de panela.",
         "tags": [
           "carne_vermelha",
-          "rapido",
-          "jantar_romantico",
-          "molho_cremoso"
+          "panela_de_pressao",
+          "equilibrado",
+          "rende_sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 medalhões de filé mignon (cerca de 200g cada)",
-          "1 colher (sopa) de azeite",
-          "1/2 cebola pequena picada",
-          "1 dente de alho picado",
-          "1/2 xícara (chá) de vinho branco seco",
-          "1/2 xícara (chá) de caldo de carne (caseiro ou de boa qualidade)",
-          "2 colheres (sopa) de mostarda Dijon",
-          "1/4 xícara (chá) de creme de leite fresco",
-          "Sal e pimenta-do-reino a gosto",
-          "Salsinha picada para finalizar (opcional)"
-        ],
-        "preparo": [
-          "Tempere os medalhões de filé mignon com sal e pimenta-do-reino a gosto.",
-          "Em uma frigideira grande, aqueça o azeite em fogo médio-alto e sele os filés por 3-4 minutos de cada lado, até dourarem. Retire e reserve.",
-          "Na mesma frigideira, adicione a cebola picada e refogue por 2 minutos. Junte o alho picado e refogue por mais 1 minuto.",
-          "Despeje o vinho branco e raspe o fundo da frigideira para soltar os sabores. Deixe o álcool evaporar por cerca de 2 minutos.",
-          "Adicione o caldo de carne e a mostarda Dijon. Deixe reduzir um pouco, por aproximadamente 3-5 minutos.",
-          "Incorpore o creme de leite fresco, misture bem e cozinhe por mais 2 minutos, até o molho engrossar levemente.",
-          "Retorne os filés à frigideira com o molho para aquecer. Sirva imediatamente, se desejar, com salsinha picada."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/File-mignon-ao-molho-de-mostarda",
-          "checked_at": "2026-10-16T15:16:41+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
-          "bank_id": "25205263",
-          "credit": "Adriano Bragi",
-          "query": "Filé Mignon ao Molho de Mostarda"
-        },
-        "id": "file-mignon-ao-molho-de-mostarda-561e6478"
-      },
-      {
-        "nome": "Bolo de Carne Recheado",
-        "curso": "principal",
-        "tempo": "60 minutos",
-        "porque": "Carne moída em uma apresentação diferente (bolo de carne), recheado e assado no forno, o que o distingue de outros pratos de carne moída proibidos. Rende bem para 2 pessoas e sobras para o almoço de uma pessoa.",
-        "tags": [
-          "carne_moida",
-          "forno",
-          "rende_sobra",
-          "recheado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500g de carne moída",
-          "1 ovo",
-          "1/2 xícara (chá) de farinha de rosca",
-          "1/2 cebola picada",
+          "500g de bife (coxão mole, patinho ou acém) em bifes grossos ou cubos grandes",
+          "1 cebola grande fatiada",
+          "1 pimentão verde fatiado",
           "2 dentes de alho amassados",
+          "1/2 xícara (chá) de molho de tomate",
+          "1/2 xícara (chá) de água",
+          "1 colher (sopa) de azeite",
           "Sal e pimenta-do-reino a gosto",
-          "100g de queijo mussarela fatiado",
-          "100g de presunto fatiado (opcional)",
-          "Molho de tomate a gosto (para cobrir)",
-          "Salsinha picada a gosto"
+          "Cheiro-verde picado a gosto para finalizar"
         ],
         "preparo": [
-          "Em uma tigela, misture a carne moída, o ovo, a farinha de rosca, a cebola, o alho, sal e pimenta-do-reino até incorporar bem os ingredientes.",
-          "Divida a massa de carne em duas partes. Em uma assadeira untada, espalhe uma parte da carne formando um retângulo.",
-          "Distribua as fatias de mussarela e presunto (se optar por usar) sobre a carne, deixando uma pequena borda.",
-          "Cubra com a outra parte da carne, moldando cuidadosamente para fechar o recheio e formar um bolo.",
-          "Cubra o bolo de carne com molho de tomate de sua preferência.",
-          "Leve ao forno pré-aquecido a 180°C por cerca de 40-50 minutos, ou até dourar e cozinhar por completo.",
-          "Retire do forno, polvilhe salsinha picada a gosto e sirva em fatias."
+          "Tempere os bifes com sal, pimenta-do-reino e alho amassado.",
+          "Em uma panela de pressão, aqueça o azeite e doure os bifes dos dois lados em fogo alto. Retire e reserve.",
+          "Na mesma panela, adicione a cebola e o pimentão, refogando até ficarem macios.",
+          "Retorne os bifes à panela, adicione o molho de tomate e a água. Misture bem.",
+          "Feche a panela de pressão e, após pegar pressão, cozinhe por cerca de 20 minutos em fogo médio.",
+          "Desligue o fogo, espere a pressão sair naturalmente, abra a panela e verifique o cozimento. Se necessário, cozinhe por mais alguns minutos sem pressão para reduzir o molho.",
+          "Finalize com cheiro-verde picado e sirva com arroz e uma salada verde."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/2384-bolo-de-carne-recheado.html",
-          "checked_at": "2026-10-16T15:16:44+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/bife-de-panela-com-cebola-e-pimentao",
+          "checked_at": "2026-10-17T14:10:03+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/25313529/pexels-photo-25313529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso pão recheado com carne, servido com alface fresca, tomates-cereja e suco de laranja.",
-          "bank_id": "25313529",
-          "credit": "Márcio  Carvalho",
-          "query": "Bolo de Carne Recheado"
+          "url": "https://images.pexels.com/photos/37548414/pexels-photo-37548414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Bife grelhado saboroso servido com cebolas fatiadas em uma panela, perfeito para uma refeição substanciosa.",
+          "bank_id": "37548414",
+          "credit": "Sergej  *****",
+          "query": "Bife de Panela com Cebola e Pimentão"
         },
-        "id": "bolo-de-carne-recheado-eb903016"
+        "id": "bife-de-panela-com-cebola-e-pimentao-213f0219"
       },
       {
-        "nome": "Queijo Brie Aperitivo na Air Fryer",
+        "nome": "Lombo de Porco Assado com Ervas e Limão",
+        "curso": "principal",
+        "tempo": "45 minutos",
+        "porque": "Uma alternativa saborosa à carne vermelha, o lombo de porco assado no forno é prático e fica pronto em menos de 45 minutos. As ervas e o limão conferem um sabor fresco e aromático, e a receita rende bem para o almoço do dia seguinte. É uma opção diferente e não está na lista de pratos a evitar.",
+        "tags": [
+          "carne_de_porco",
+          "forno",
+          "aromatico",
+          "rende_sobra"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500g de lombo de porco",
+          "Suco de 1 limão",
+          "2 dentes de alho amassados",
+          "1 colher (sopa) de alecrim fresco picado",
+          "1 colher (sopa) de tomilho fresco picado",
+          "2 colheres (sopa) de azeite de oliva",
+          "Sal e pimenta-do-reino a gosto"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 200°C. Em uma tigela, tempere o lombo de porco com o suco de limão, alho, alecrim, tomilho, azeite, sal e pimenta-do-reino. Massageie bem a carne para que o tempero penetre.",
+          "Em uma assadeira, coloque o lombo temperado.",
+          "Leve ao forno preaquecido por cerca de 30-40 minutos, virando na metade do tempo, ou até que esteja dourado e cozido por dentro (o tempo pode variar dependendo da espessura do lombo).",
+          "Para verificar o ponto, espete um garfo: se o líquido sair claro, está pronto. Se preferir, use um termômetro de carne para atingir 63°C.",
+          "Retire do forno, cubra com papel alumínio e deixe descansar por 5 minutos antes de fatiar. Isso ajuda a manter a carne suculenta.",
+          "Fatie o lombo e sirva com os vegetais de sua preferência ou um purê de batatas."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.tudogostoso.com.br/receita/16281-lombo-de-porco-assado-com-ervas-e-limao.html",
+          "checked_at": "2026-10-17T14:10:05+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/34314497/pexels-photo-34314497.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa barriga de porco crocante servida em um prato com fatias de limão fresco, perfeita para uma refeição saborosa.",
+          "bank_id": "34314497",
+          "credit": "ERIVELTO Martins",
+          "query": "Lombo de Porco Assado com Ervas e Limão"
+        },
+        "id": "lombo-de-porco-assado-com-ervas-e-limao-7571fedb"
+      },
+      {
+        "nome": "Bruschetta de Tomate e Manjericão",
         "curso": "entrada",
         "tempo": "15 minutos",
-        "porque": "Uma entrada rápida, elegante e que utiliza a airfryer, conforme a preferência do casal. É fácil de preparar e ideal para um jantar a dois.",
+        "porque": "Uma entrada clássica, leve e fresca, perfeita para abrir o apetite sem pesar. É rápida de fazer e utiliza ingredientes simples e acessíveis. Não está na lista de pratos a evitar.",
         "tags": [
-          "queijo",
-          "airfryer",
+          "entrada",
+          "vegetariano",
           "rapido",
-          "aperitivo"
+          "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 peça de queijo francês petit brie (125 g)",
-          "¼ de colher (chá) de azeite",
-          "1 colher (chá) de mel",
-          "¼ de colher (chá) de pimenta calabresa seca",
-          "5 ramos de tomilho-limão"
+          "1 baguete pequena ou pão italiano",
+          "2 tomates maduros",
+          "1 dente de alho",
+          "Folhas de manjericão fresco a gosto",
+          "Azeite de oliva extra virgem a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça a Air Fryer a 160 ºC e programe para assar por 10 minutos.",
-          "Coloque o queijo brie em uma tigela pequena ou pratinho que possa ir à Air Fryer.",
-          "Polvilhe a pimenta calabresa e o tomilho debulhado sobre o queijo.",
-          "Regue com o azeite e o mel.",
-          "Leve à Air Fryer e asse por 10 minutos, ou até o queijo estar macio e aquecido.",
-          "Sirva imediatamente com torradas ou pães."
+          "Preaqueça o forno a 180°C. Corte o pão em fatias de cerca de 1,5 cm de espessura.",
+          "Disponha as fatias em uma assadeira e leve ao forno por 5-7 minutos, ou até ficarem levemente douradas e crocantes. Reserve.",
+          "Enquanto o pão tosta, lave e pique os tomates em cubos pequenos. Pique o dente de alho bem miúdo e rasgue as folhas de manjericão.",
+          "Em uma tigela, misture o tomate picado, o alho, o manjericão, um fio de azeite, sal e pimenta-do-reino.",
+          "Esfregue um dente de alho cru nas fatias de pão tostadas (opcional, para mais sabor).",
+          "Distribua a mistura de tomate sobre as fatias de pão e sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
-          "checked_at": "2026-10-16T15:16:45+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/bruschetta-de-tomate-e-manjericao",
+          "checked_at": "2026-10-17T14:10:06+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
-          "bank_id": "31994015",
-          "credit": "Mimi",
-          "query": "Queijo Brie Aperitivo na Air Fryer"
+          "url": "https://images.pexels.com/photos/5639421/pexels-photo-5639421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de deliciosa bruschetta coberta com tomates, azeitonas e manjericão em uma tábua de madeira.",
+          "bank_id": "5639421",
+          "credit": "Shameel mukkath",
+          "query": "Bruschetta de Tomate e Manjericão"
         },
-        "id": "queijo-brie-aperitivo-na-air-fryer-f463641b"
+        "id": "bruschetta-de-tomate-e-manjericao-6989fa62"
       },
       {
-        "nome": "S'mores Garoto",
+        "nome": "Maçã Assada com Canela",
         "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Uma sobremesa divertida, rápida e prática, ideal para um casal jovem. Não exige fritura e é diferente das sobremesas proibidas.",
+        "tempo": "25 minutos",
+        "porque": "Uma sobremesa leve, saudável e reconfortante, perfeita para finalizar o jantar. É extremamente fácil de preparar no forno e fica pronta em pouco tempo. Não está na lista de pratos a evitar e é uma opção diferente das sobremesas geladas ou com biscoito.",
         "tags": [
-          "chocolate",
-          "rapido",
-          "doce",
-          "facil"
+          "sobremesa",
+          "fruta",
+          "forno",
+          "saudavel"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pacote de biscoito tipo maisena (200g)",
-          "1 tablete de Chocolate GAROTO® Meio Amargo (90g), picado",
-          "1 xícara (chá) de mini marshmallows"
+          "2 maçãs médias (tipo Fuji ou Gala)",
+          "2 colheres (chá) de canela em pó",
+          "1 colher (sopa) de açúcar mascavo (opcional)",
+          "1 colher (chá) de manteiga (opcional)"
         ],
         "preparo": [
-          "Em um refratário que possa ir ao forno, faça uma camada com os biscoitos maisena.",
-          "Distribua o chocolate picado sobre os biscoitos.",
-          "Cubra com os mini marshmallows.",
-          "Leve ao forno médio (180°C), preaquecido, por cerca de 10 minutos, ou até os marshmallows dourarem levemente e o chocolate derreter.",
-          "Retire do forno e sirva imediatamente com colheres, como um fondue."
+          "Preaqueça o forno a 180°C.",
+          "Lave bem as maçãs. Com uma faca pequena ou descaroçador, retire o miolo e as sementes, formando um buraco no centro de cada maçã.",
+          "Em uma tigela pequena, misture a canela em pó com o açúcar mascavo (se estiver usando).",
+          "Recheie o centro de cada maçã com a mistura de canela e açúcar. Se desejar, coloque um pedacinho de manteiga no centro para umedecer.",
+          "Coloque as maçãs em uma assadeira pequena e leve ao forno por cerca de 20-25 minutos, ou até que estejam macias ao toque.",
+          "Sirva as maçãs assadas quentes, sozinhas ou com uma bola de sorvete de creme (opcional)."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/smores-garoto",
-          "checked_at": "2026-10-16T15:16:46+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/maca-assada-com-canela",
+          "checked_at": "2026-10-17T14:10:08+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/32066903/pexels-photo-32066903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de uma sobremesa clássica de s'mores com chocolate derretido e marshmallows tostados.",
-          "bank_id": "32066903",
-          "credit": "Miro Vrlik",
-          "query": "S'mores Garoto"
+          "url": "https://images.pexels.com/photos/5662079/pexels-photo-5662079.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Vista de cima de uma torta de maçã rústica cercada por maçãs e paus de canela em uma mesa de madeira.",
+          "bank_id": "5662079",
+          "credit": "KATRIN  BOLOVTSOVA",
+          "query": "Maçã Assada com Canela"
         },
-        "id": "s-mores-garoto-e621acf8"
+        "id": "maca-assada-com-canela-fe267046"
       }
     ]
   },

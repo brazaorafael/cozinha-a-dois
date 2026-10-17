@@ -4563,5 +4563,41 @@
     ],
     "data": "16/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-de-panela-com-cebola-e-pimentao-213f0219",
+    "titulo": "Bife de Panela com Cebola e Pimentão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "equilibrado",
+      "rende_sobra"
+    ],
+    "data": "17/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "lombo-de-porco-assado-com-ervas-e-limao-7571fedb",
+    "titulo": "Lombo de Porco Assado com Ervas e Limão",
+    "tags": [
+      "carne_de_porco",
+      "forno",
+      "aromatico",
+      "rende_sobra"
+    ],
+    "data": "17/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "maca-assada-com-canela-fe267046",
+    "titulo": "Maçã Assada com Canela",
+    "tags": [
+      "sobremesa",
+      "fruta",
+      "forno",
+      "saudavel"
+    ],
+    "data": "17/10/2026",
+    "fonte_status": "unverified"
   }
 ]
