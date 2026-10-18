@@ -4599,5 +4599,53 @@
     ],
     "data": "17/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-rapida-temperada-dc9a14ce",
+    "titulo": "Carne Moída Rápida Temperada",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "refogado",
+      "sobras"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "picadinho-de-carne-6e24d997",
+    "titulo": "Picadinho de Carne",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "refogado",
+      "classico"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "entrada-de-tomate-com-queijo-fresco-6bdb26f0",
+    "titulo": "Entrada de Tomate com Queijo Fresco",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "fresco",
+      "leve"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bolo-de-caneca-de-chocolate-ed89a805",
+    "titulo": "Bolo de Caneca de Chocolate",
+    "tags": [
+      "doce",
+      "rapido",
+      "micro_ondas",
+      "chocolate"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
   }
 ]
