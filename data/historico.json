@@ -4959,5 +4959,29 @@
     ],
     "data": "18/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "salpicao-quente-de-carne-seca-857c0183",
+    "titulo": "Salpicão Quente de Carne-Seca",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "gratinado",
+      "prato_unico"
+    ],
+    "data": "19/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "ricota-grelhada-com-ervas-frescas-1b168e75",
+    "titulo": "Ricota Grelhada com Ervas Frescas",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "leve",
+      "grelhado"
+    ],
+    "data": "19/10/2026",
+    "fonte_status": "verified"
   }
 ]

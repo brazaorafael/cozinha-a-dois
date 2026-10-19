@@ -1,189 +1,189 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-18T21:23:05-03:00",
+  "gerado_em": "2026-10-19T14:20:50-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "18/10/2026",
-    "dia_semana": "domingo",
+    "data": "19/10/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Carne Moída Rápida Temperada",
-        "curso": "principal",
-        "tempo": "30-45 minutos",
-        "porque": "Receita de carne vermelha versátil, prática e rápida de preparar, ideal para o dia a dia e para ter sobras para o almoço. Permite variação de acompanhamentos.",
-        "tags": [
-          "carne_vermelha",
-          "rapido",
-          "refogado",
-          "sobras"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "2 colheres (sopa) de azeite de oliva",
-          "2 colheres (sopa) de alho picado",
-          "200 g de cebola picada",
-          "1 kg de carne moída",
-          "1 xícara (chá) de vinho tinto seco",
-          "1 e ¼ de xícara (chá) de extrato de tomate (340 g)",
-          "Tomilho, sálvia e manjericão picados a gosto",
-          "Sal e pimenta-do-reino a gosto",
-          "Água quente (o suficiente para encorpar)"
-        ],
-        "preparo": [
-          "Aqueça o azeite em uma panela e refogue o alho e a cebola por cerca de 3 minutos, até dourarem.",
-          "Adicione a carne moída e refogue, desfazendo os grumos, até que esteja bem soltinha e cozida.",
-          "Despeje o vinho tinto seco e deixe evaporar completamente.",
-          "Junte o extrato de tomate e tempere com tomilho, sálvia, manjericão, sal e pimenta-do-reino a gosto.",
-          "Adicione água quente aos poucos, conforme a consistência desejada para o molho, e cozinhe até encorpar."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://anamariabraga.globo.com/receita/carne-moida-rapida-temperada-2/",
-          "title": "Carne moída rápida temperada",
-          "domain": "anamariabraga.globo.com",
-          "confidence": 1.0,
-          "checked_at": "2026-10-18T14:21:11+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i0.wp.com/anamariabraga.globo.com/wp-content/uploads/2018/08/carne-moida-rapida-temperada-39514.jpg?resize=150%2C150&ssl=1",
-          "alt": "Carne Moída Rápida Temperada"
-        },
-        "id": "carne-moida-rapida-temperada-dc9a14ce"
-      },
-      {
-        "nome": "Picadinho de Carne",
+        "nome": "Carne Moída Refogada com Legumes",
         "curso": "principal",
         "tempo": "30 minutos",
-        "porque": "Prato clássico de carne vermelha, rápido e reconfortante, que pode ser acompanhado de arroz e legumes. Ideal para um jantar prático.",
+        "porque": "Receita fácil e prática, pronta em 30 minutos, com bom equilíbrio entre proteína (carne moída), carboidrato (batata) e vegetais (cenoura, tomate, azeitona). Rende 4 porções, ideal para sobras. Preparo refogado.",
         "tags": [
           "carne_vermelha",
-          "rapido",
           "refogado",
-          "classico"
+          "prato_unico",
+          "rende_sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de cubos para panela Swift (ou carne bovina em cubos pequenos)",
-          "40ml de azeite",
-          "375ml de cerveja preta",
-          "200ml de caldo culinário de carne Swift (ou caldo de carne caseiro)",
-          "200g de abobrinha italiana em rodelas",
-          "100g de batata bolinha cortada ao meio",
-          "100g de pimentão vermelho picado",
-          "50g de cebola picada Swift (ou cebola picada)",
-          "Sálvia a gosto",
-          "Sal e pimenta a gosto"
+          "500 g de carne moída",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "1 batata média em cubos",
+          "1 cenoura média em cubos",
+          "1 tomate picado",
+          "1/2 xícara (chá) de azeitonas verdes fatiadas",
+          "1/2 xícara (chá) de água",
+          "Sal e pimenta-do-reino a gosto",
+          "Cheiro-verde picado a gosto",
+          "Óleo para refogar"
         ],
         "preparo": [
-          "Em uma panela, aqueça o azeite e refogue a cebola e o pimentão.",
-          "Adicione os cubos de carne e doure-os de todos os lados.",
-          "Acrescente a cerveja preta, o caldo culinário de carne e a sálvia.",
-          "Adicione a batata e a abobrinha à panela.",
-          "Deixe cozinhar até que o caldo reduza pela metade e os legumes estejam macios.",
-          "Ajuste o tempero com sal e pimenta a gosto."
+          "Em uma panela grande, aqueça um fio de óleo e doure a carne moída, mexendo para soltar. Tempere com sal e pimenta-do-reino.",
+          "Adicione a cebola e o alho, refogando até ficarem macios.",
+          "Acrescente a batata e a cenoura em cubos, misture bem e refogue por alguns minutos.",
+          "Junte o tomate picado e a água, tampe a panela e cozinhe em fogo baixo até os legumes ficarem macios.",
+          "Adicione as azeitonas e o cheiro-verde, misture e cozinhe por mais 2 minutos.",
+          "Verifique o tempero e sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/picadinho-de-carne-0422.ghtml",
-          "checked_at": "2026-10-18T14:21:11+00:00"
+          "suggested_url": "https://www.guiadacozinha.com.br/receitas/carne-moida-refogada-com-legumes-almoco-pratico/",
+          "checked_at": "2026-10-19T17:22:34+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/38750885/pexels-photo-38750885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso ensopado de carne alemão servido com croquetes crocantes e legumes frescos para uma refeição satisfatória.",
-          "bank_id": "38750885",
-          "credit": "Rufina Rusakova",
-          "query": "Picadinho de Carne"
+          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
+          "bank_id": "34714654",
+          "credit": "UNDO KIM",
+          "query": "Carne Moída Refogada com Legumes"
         },
-        "id": "picadinho-de-carne-6e24d997"
+        "id": "carne-moida-refogada-com-legumes-404d0e17"
       },
       {
-        "nome": "Entrada de Tomate com Queijo Fresco",
+        "nome": "Salpicão Quente de Carne-Seca",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Uma opção diferente e saborosa de carne vermelha (carne-seca), fácil e pronta em 30 minutos. É gratinada no forno, evitando fritura, e inclui vegetais como cenoura e salsão. Ideal para variar o cardápio e aproveitar a carne vermelha preferida.",
+        "tags": [
+          "carne_vermelha",
+          "forno",
+          "gratinado",
+          "prato_unico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "300 g de carne-seca cozida e desfiada",
+          "1 cebola roxa pequena picada",
+          "1 cenoura ralada",
+          "1 talo de salsão picado",
+          "1/2 xícara (chá) de maionese",
+          "1/2 xícara (chá) de requeijão cremoso",
+          "1/2 xícara (chá) de queijo muçarela ralado",
+          "Sal e pimenta-do-reino a gosto",
+          "Batata palha para decorar (opcional)"
+        ],
+        "preparo": [
+          "Pré-aqueça o forno a 180°C.",
+          "Em uma tigela, misture a carne-seca desfiada, a cebola roxa, a cenoura ralada e o salsão picado.",
+          "Adicione a maionese e o requeijão cremoso, misturando bem até incorporar todos os ingredientes.",
+          "Tempere com sal e pimenta-do-reino a gosto.",
+          "Transfira a mistura para um refratário e cubra com o queijo muçarela ralado.",
+          "Leve ao forno pré-aquecido por cerca de 15 a 20 minutos, ou até o queijo gratinar e o salpicão aquecer bem.",
+          "Sirva quente, opcionalmente decorado com batata palha."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.guiadacozinha.com.br/receitas/salpicao-quente-de-carne-seca/",
+          "checked_at": "2026-10-19T17:22:35+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36934956/pexels-photo-36934956.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa carne bovina grelhada com pimentões e tomates em uma frigideira quente sobre uma mesa de madeira.",
+          "bank_id": "36934956",
+          "credit": "Mohamed  Olwy",
+          "query": "Salpicão Quente de Carne-Seca"
+        },
+        "id": "salpicao-quente-de-carne-seca-857c0183"
+      },
+      {
+        "nome": "Ricota Grelhada com Ervas Frescas",
         "curso": "entrada",
-        "tempo": "5 minutos",
-        "porque": "Uma entrada extremamente rápida, fresca e leve, perfeita para abrir o apetite sem pesar. Utiliza ingredientes simples e acessíveis.",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada leve, rápida e saudável, perfeita para abrir o apetite sem pesar. O preparo na frigideira é prático e evita fritura.",
         "tags": [
           "vegetariano",
           "rapido",
-          "fresco",
-          "leve"
+          "leve",
+          "grelhado"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "Tomates (quantidade a gosto, para 2 pessoas)",
-          "Queijo fresco (quantidade a gosto, para 2 pessoas)",
-          "Vinagre balsâmico a gosto",
-          "Sal a gosto",
-          "Folhas de manjericão (opcional, para decorar)"
+          "2 fatias de ricota fresca (cerca de 1,5 cm de espessura)",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Folhas de manjericão, hortelã e salsa crespa picadas a gosto",
+          "Grãos de pimenta-rosa a gosto"
         ],
         "preparo": [
-          "Corte os tomates e o queijo fresco em fatias.",
-          "Disponha uma rodela de queijo fresco sobre cada fatia de tomate em um prato.",
-          "Tempere com sal e algumas gotas de vinagre balsâmico.",
-          "Se desejar, decore com folhas de manjericão.",
-          "Sirva imediatamente."
+          "Aqueça uma frigideira antiaderente em fogo médio.",
+          "Adicione 1 colher (sopa) de azeite e coloque as fatias de ricota, grelhando por cerca de 4 minutos de cada lado, até dourar.",
+          "Transfira a ricota grelhada para um prato.",
+          "Tempere com sal e pimenta-do-reino moída na hora.",
+          "Salpique as ervas frescas picadas e os grãos de pimenta-rosa.",
+          "Regue com um fio de azeite e sirva imediatamente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-18T14:21:12+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/ricota-grelhada",
+          "title": "Ricota grelhada - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 0.58,
+          "checked_at": "2026-10-19T17:22:36+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/29098371/pexels-photo-29098371.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato de queijos gourmet saborosos com tomates-cereja frescos e pães variados. Perfeito para catering e eventos.",
-          "bank_id": "29098371",
-          "credit": "Jonathan Borba",
-          "query": "Entrada de Tomate com Queijo Fresco"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
+          "alt": "Ricota Grelhada com Ervas Frescas"
         },
-        "id": "entrada-de-tomate-com-queijo-fresco-6bdb26f0"
+        "id": "ricota-grelhada-com-ervas-frescas-1b168e75"
       },
       {
-        "nome": "Bolo de Caneca de Chocolate",
+        "nome": "Brigadeiro de Panela",
         "curso": "sobremesa",
-        "tempo": "5-10 minutos",
-        "porque": "Sobremesa individual, rápida e prática, ideal para matar a vontade de doce sem grandes preparos. Perfeito para um casal.",
+        "tempo": "15 minutos",
+        "porque": "Um clássico brasileiro, rápido e fácil de fazer, perfeito para um doce sem complicação. O preparo é em uma única panela e fica pronto em minutos.",
         "tags": [
           "doce",
           "rapido",
-          "micro_ondas",
-          "chocolate"
+          "classico",
+          "sem_forno"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 ovo",
-          "4 colheres (sopa) de leite",
-          "4 colheres (sopa) rasas de farinha de trigo",
-          "2 colheres (sopa) rasas de margarina Doriana Cremosa sem Sal (ou outra margarina/manteiga)",
-          "2 colheres (sopa) de achocolatado em pó",
-          "1 colher (chá) de fermento em pó"
+          "1 lata de leite condensado (395g)",
+          "2 colheres (sopa) de chocolate em pó 50% cacau",
+          "1 colher (sopa) de manteiga sem sal"
         ],
         "preparo": [
-          "Escolha uma caneca grande (cerca de 300 ml) que possa ir ao micro-ondas.",
-          "Coloque a margarina na caneca e leve ao micro-ondas para derreter por cerca de 30 segundos.",
-          "Adicione o ovo, o leite, a farinha de trigo, o achocolatado em pó e o fermento em pó na caneca.",
-          "Misture muito bem com um garfo até que a massa fique homogênea.",
-          "Leve ao micro-ondas por cerca de 2 a 2 minutos e meio na potência normal.",
-          "Sirva diretamente da caneca, quente."
+          "Em uma panela de fundo grosso, coloque o leite condensado, o chocolate em pó e a manteiga.",
+          "Leve ao fogo baixo, mexendo sempre com uma espátula para não grudar no fundo.",
+          "Continue mexendo até a mistura desgrudar do fundo da panela, formando uma bola (cerca de 10-12 minutos).",
+          "Retire do fogo e transfira para um prato untado com manteiga.",
+          "Deixe esfriar um pouco antes de servir. Pode ser servido de colher diretamente da panela ou em potinhos individuais."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-18T14:21:12+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Brigadeiro-de-panela",
+          "checked_at": "2026-10-19T17:22:37+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/4880053/pexels-photo-4880053.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Bolo de chocolate em um prato decorado para as festas e uma caneca vermelha, criando uma atmosfera aconchegante de inverno.",
-          "bank_id": "4880053",
-          "credit": "Yaser Elhadidy",
-          "query": "Bolo de Caneca de Chocolate"
+          "url": "https://images.pexels.com/photos/36090531/pexels-photo-36090531.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Panelas de barro vietnamitas autênticas usadas para cozinhar sobre fogo aberto, mostrando métodos culinários tradicionais.",
+          "bank_id": "36090531",
+          "credit": "Hồng Quang Official",
+          "query": "Brigadeiro de Panela"
         },
-        "id": "bolo-de-caneca-de-chocolate-ed89a805"
+        "id": "brigadeiro-de-panela-f804619e"
       }
     ]
   },
