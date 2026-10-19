@@ -4647,5 +4647,317 @@
     ],
     "data": "18/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-pizzaiolo-com-batatas-rusticas-bfd4b4ca",
+    "titulo": "Bife à Pizzaiolo com Batatas Rústicas",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "forno",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-com-brocolis-e-cenoura-refogado-f2c9a0be",
+    "titulo": "Frango com Brócolis e Cenoura (Refogado)",
+    "tags": [
+      "frango",
+      "refogado",
+      "vegetais",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-grao-de-bico-com-pepino-e-tomate-cerej-0f6823f5",
+    "titulo": "Salada de Grão-de-Bico com Pepino e Tomate Cereja",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "leve",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "creme-de-manga-com-iogurte-d4364f79",
+    "titulo": "Creme de Manga com Iogurte",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "leve",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "goulash-rapido-6e8d1e98",
+    "titulo": "Goulash Rápido",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "ensopado",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "file-mignon-suino-ao-molho-de-mostarda-e-mel-d536e9a8",
+    "titulo": "Filé Mignon Suíno ao Molho de Mostarda e Mel",
+    "tags": [
+      "carne_de_porco",
+      "forno",
+      "agridoce",
+      "jantar"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "maca-assada-com-especiarias-aded3372",
+    "titulo": "Maçã Assada com Especiarias",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "forno",
+      "aconchegante"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-role-do-betinho-62ddfa2f",
+    "titulo": "Bife à Rolê do Betinho",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "recheado",
+      "jantar"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-assado-com-legumes-e-ervas-7edfde61",
+    "titulo": "Frango Assado com Legumes e Ervas",
+    "tags": [
+      "frango",
+      "forno",
+      "legumes",
+      "jantar"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mini-espetinhos-caprese-6c1bf668",
+    "titulo": "Mini Espetinhos Caprese",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "frio",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-frutas-com-calda-de-maracuja-83c79d34",
+    "titulo": "Salada de Frutas com Calda de Maracujá",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "leve",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-seca-com-abobora-cremosa-3c346706",
+    "titulo": "Carne Seca com Abóbora Cremosa",
+    "tags": [
+      "carne_vermelha",
+      "cremoso",
+      "refogado",
+      "jantar"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bisteca-ao-molho-de-laranja-2b61e362",
+    "titulo": "Bisteca ao Molho de Laranja",
+    "tags": [
+      "carne_de_porco",
+      "grelhado",
+      "citrico",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mini-quiches-de-queijo-e-presunto-41c0a5cc",
+    "titulo": "Mini Quiches de Queijo e Presunto",
+    "tags": [
+      "entrada",
+      "queijo",
+      "forno",
+      "pratico"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-chocolate-com-abacate-cc174dbf",
+    "titulo": "Mousse de Chocolate com Abacate",
+    "tags": [
+      "sobremesa",
+      "chocolate",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "peixe-com-legumes-na-air-fryer-oven-da-rita-lobo-e126b45c",
+    "titulo": "Peixe com Legumes na Air Fryer Oven da Rita Lobo",
+    "tags": [
+      "peixe",
+      "air_fryer",
+      "legumes",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-de-alcatra-com-molho-de-vinho-tinto-4e2c4015",
+    "titulo": "Bife de Alcatra com Molho de Vinho Tinto",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "molho",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "homus-de-grao-de-bico-e91d8396",
+    "titulo": "Homus de Grão de Bico",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "vegano",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pudim-de-chia-com-leite-de-coco-e-frutas-vermelh-11cb9b33",
+    "titulo": "Pudim de Chia com Leite de Coco e Frutas Vermelhas",
+    "tags": [
+      "sobremesa",
+      "saudavel",
+      "vegano",
+      "frio"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-milanesa-assado-no-forno-4adeb37f",
+    "titulo": "Bife à Milanesa Assado no Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "crocante",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "estrogonofe-de-frango-light-23247b97",
+    "titulo": "Estrogonofe de Frango Light",
+    "tags": [
+      "frango",
+      "cremoso",
+      "refogado",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-frutas-tropical-com-calda-de-laranja-e1cbf1f5",
+    "titulo": "Salada de Frutas Tropical com Calda de Laranja",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "leve",
+      "rapido"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "almondegas-de-carne-assadas-com-molho-de-tomate-ace089af",
+    "titulo": "Almôndegas de Carne Assadas com Molho de Tomate",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "molho",
+      "jantar"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-ao-creme-de-brocolis-1c844224",
+    "titulo": "Frango ao Creme de Brócolis",
+    "tags": [
+      "frango",
+      "cremoso",
+      "refogado",
+      "jantar"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pao-de-queijo-de-frigideira-1e5c1d0c",
+    "titulo": "Pão de Queijo de Frigideira",
+    "tags": [
+      "entrada",
+      "queijo",
+      "rapido",
+      "frigideira"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "brownie-fit-de-micro-ondas-d7fed2d5",
+    "titulo": "Brownie Fit de Micro-ondas",
+    "tags": [
+      "sobremesa",
+      "chocolate",
+      "rapido",
+      "fit"
+    ],
+    "data": "18/10/2026",
+    "fonte_status": "unverified"
   }
 ]
