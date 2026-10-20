@@ -4983,5 +4983,29 @@
     ],
     "data": "19/10/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "bife-com-molho-de-mostarda-e-mel-216cf9f3",
+    "titulo": "Bife com Molho de Mostarda e Mel",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "rapido",
+      "jantar_a_dois"
+    ],
+    "data": "20/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-batata-e-cenoura-f130e368",
+    "titulo": "Carne Moída com Batata e Cenoura",
+    "tags": [
+      "carne_moida",
+      "refogado",
+      "completo",
+      "dia_a_dia"
+    ],
+    "data": "20/10/2026",
+    "fonte_status": "unverified"
   }
 ]

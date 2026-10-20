@@ -1,189 +1,189 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-19T14:20:50-03:00",
+  "gerado_em": "2026-10-20T12:34:03-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "19/10/2026",
-    "dia_semana": "segunda",
+    "data": "20/10/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Carne Moída Refogada com Legumes",
+        "nome": "Bife com Molho de Mostarda e Mel",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Receita fácil e prática, pronta em 30 minutos, com bom equilíbrio entre proteína (carne moída), carboidrato (batata) e vegetais (cenoura, tomate, azeitona). Rende 4 porções, ideal para sobras. Preparo refogado.",
+        "tempo": "15 minutos",
+        "porque": "Uma opção de carne vermelha rápida e saborosa, com um molho agridoce que a diferencia de outras receitas de bife. Ideal para um jantar a dois e pronta em pouco tempo.",
         "tags": [
           "carne_vermelha",
+          "grelhado",
+          "rapido",
+          "jantar_a_dois"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 bifes de contrafilé (cerca de 150 g cada)",
+          "1 colher (sopa) de azeite",
+          "1 colher (sopa) de mostarda Dijon",
+          "1 colher (sopa) de mel",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto"
+        ],
+        "preparo": [
+          "Tempere os bifes com sal e pimenta-do-reino moída na hora.",
+          "Aqueça o azeite em uma frigideira em fogo médio-alto.",
+          "Doure os bifes por cerca de 2 a 3 minutos de cada lado, ou até atingirem o ponto desejado.",
+          "Em uma tigela pequena, misture a mostarda Dijon e o mel.",
+          "Retire os bifes da frigideira e, se desejar, adicione o molho de mostarda e mel à frigideira para aquecer rapidamente, raspando o fundo para incorporar os sabores.",
+          "Regue os bifes com o molho e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Bife-com-molho-de-mostarda-e-mel",
+          "checked_at": "2026-10-20T15:35:18+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
+          "bank_id": "33673991",
+          "credit": "pedro furtado",
+          "query": "Bife com Molho de Mostarda e Mel"
+        },
+        "id": "bife-com-molho-de-mostarda-e-mel-216cf9f3"
+      },
+      {
+        "nome": "Carne Moída com Batata e Cenoura",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Um prato principal completo e equilibrado, com carne vermelha e vegetais. É fácil de fazer, rende bem para sobrar para o almoço de uma pessoa e é distinto das outras receitas de carne moída na lista de evitados.",
+        "tags": [
+          "carne_moida",
           "refogado",
-          "prato_unico",
-          "rende_sobra"
+          "completo",
+          "dia_a_dia"
         ],
         "rende_sobra": true,
         "ingredientes": [
           "500 g de carne moída",
-          "1 cebola picada",
-          "2 dentes de alho amassados",
-          "1 batata média em cubos",
+          "1 cebola média picada",
+          "2 dentes de alho picados",
           "1 cenoura média em cubos",
-          "1 tomate picado",
-          "1/2 xícara (chá) de azeitonas verdes fatiadas",
+          "2 batatas médias em cubos",
+          "1 lata de tomate pelado picado (ou 2 tomates maduros picados)",
           "1/2 xícara (chá) de água",
-          "Sal e pimenta-do-reino a gosto",
-          "Cheiro-verde picado a gosto",
-          "Óleo para refogar"
+          "2 colheres (sopa) de azeite",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto",
+          "Cheiro-verde picado a gosto"
         ],
         "preparo": [
-          "Em uma panela grande, aqueça um fio de óleo e doure a carne moída, mexendo para soltar. Tempere com sal e pimenta-do-reino.",
-          "Adicione a cebola e o alho, refogando até ficarem macios.",
-          "Acrescente a batata e a cenoura em cubos, misture bem e refogue por alguns minutos.",
-          "Junte o tomate picado e a água, tampe a panela e cozinhe em fogo baixo até os legumes ficarem macios.",
-          "Adicione as azeitonas e o cheiro-verde, misture e cozinhe por mais 2 minutos.",
-          "Verifique o tempero e sirva quente."
+          "Em uma panela grande, aqueça o azeite em fogo médio e refogue a cebola e o alho até dourarem.",
+          "Adicione a carne moída e refogue, mexendo sempre para soltar, até que esteja cozida e dourada. Tempere com sal e pimenta.",
+          "Acrescente o tomate pelado (ou picado), a cenoura e a batata. Misture bem.",
+          "Adicione a água, tampe a panela e cozinhe em fogo baixo por cerca de 15 a 20 minutos, ou até que os legumes estejam macios.",
+          "Verifique o tempero e ajuste se necessário. Se o molho estiver muito líquido, cozinhe sem tampa por mais alguns minutos.",
+          "Finalize com cheiro-verde picado e sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.guiadacozinha.com.br/receitas/carne-moida-refogada-com-legumes-almoco-pratico/",
-          "checked_at": "2026-10-19T17:22:34+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-batata-e-cenoura",
+          "checked_at": "2026-10-20T15:35:19+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
-          "bank_id": "34714654",
-          "credit": "UNDO KIM",
-          "query": "Carne Moída Refogada com Legumes"
+          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
+          "bank_id": "6545671",
+          "credit": "Thiago Rebouças",
+          "query": "Carne Moída com Batata e Cenoura"
         },
-        "id": "carne-moida-refogada-com-legumes-404d0e17"
+        "id": "carne-moida-com-batata-e-cenoura-f130e368"
       },
       {
-        "nome": "Salpicão Quente de Carne-Seca",
-        "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma opção diferente e saborosa de carne vermelha (carne-seca), fácil e pronta em 30 minutos. É gratinada no forno, evitando fritura, e inclui vegetais como cenoura e salsão. Ideal para variar o cardápio e aproveitar a carne vermelha preferida.",
+        "nome": "Bruschetta de Tomate e Manjericão",
+        "curso": "entrada",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada clássica italiana, fresca e rápida de preparar, perfeita para abrir o apetite do casal. É leve e não está na lista de pratos a serem evitados.",
         "tags": [
-          "carne_vermelha",
+          "entrada",
+          "rapido",
+          "vegetariano",
+          "fresco"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 baguete pequena (ou pão italiano)",
+          "2 tomates grandes maduros",
+          "1 dente de alho",
+          "2 colheres (sopa) de azeite extravirgem",
+          "2 ramos de manjericão fresco",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto"
+        ],
+        "preparo": [
+          "Corte o pão em fatias de aproximadamente 1 cm de espessura e disponha-as em uma assadeira.",
+          "Leve ao forno pré-aquecido a 180 ºC por cerca de 10 minutos, ou até que fiquem crocantes e levemente douradas.",
+          "Enquanto o pão tosta, lave e pique os tomates em cubos pequenos, descartando as sementes. Pique as folhas de manjericão.",
+          "Em uma tigela, misture os cubos de tomate, o manjericão picado e regue com 2 colheres de sopa de azeite. Tempere com sal e pimenta a gosto.",
+          "Descasque o dente de alho e, com o pão ainda morno, esfregue-o levemente sobre cada fatia tostada para perfumar.",
+          "Distribua a mistura de tomate e manjericão sobre as fatias de pão e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Bruschetta-de-tomate-e-manjericao",
+          "checked_at": "2026-10-20T15:35:20+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5639421/pexels-photo-5639421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de deliciosa bruschetta coberta com tomates, azeitonas e manjericão em uma tábua de madeira.",
+          "bank_id": "5639421",
+          "credit": "Shameel mukkath",
+          "query": "Bruschetta de Tomate e Manjericão"
+        },
+        "id": "bruschetta-de-tomate-e-manjericao-6989fa62"
+      },
+      {
+        "nome": "Banana Assada com Canela",
+        "curso": "sobremesa",
+        "tempo": "25 minutos",
+        "porque": "Uma sobremesa simples, rápida e saudável, que utiliza o forno e não está na lista de pratos a serem evitados. É leve e perfeita para finalizar a refeição.",
+        "tags": [
+          "sobremesa",
+          "fruta",
           "forno",
-          "gratinado",
-          "prato_unico"
+          "leve"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "300 g de carne-seca cozida e desfiada",
-          "1 cebola roxa pequena picada",
-          "1 cenoura ralada",
-          "1 talo de salsão picado",
-          "1/2 xícara (chá) de maionese",
-          "1/2 xícara (chá) de requeijão cremoso",
-          "1/2 xícara (chá) de queijo muçarela ralado",
-          "Sal e pimenta-do-reino a gosto",
-          "Batata palha para decorar (opcional)"
+          "4 bananas nanicas maduras",
+          "1 colher (sopa) de açúcar mascavo",
+          "1 colher (chá) de canela em pó"
         ],
         "preparo": [
-          "Pré-aqueça o forno a 180°C.",
-          "Em uma tigela, misture a carne-seca desfiada, a cebola roxa, a cenoura ralada e o salsão picado.",
-          "Adicione a maionese e o requeijão cremoso, misturando bem até incorporar todos os ingredientes.",
-          "Tempere com sal e pimenta-do-reino a gosto.",
-          "Transfira a mistura para um refratário e cubra com o queijo muçarela ralado.",
-          "Leve ao forno pré-aquecido por cerca de 15 a 20 minutos, ou até o queijo gratinar e o salpicão aquecer bem.",
-          "Sirva quente, opcionalmente decorado com batata palha."
+          "Preaqueça o forno a 180°C.",
+          "Lave as bananas e corte-as ao meio no sentido do comprimento, sem remover a casca.",
+          "Disponha as metades de banana em uma assadeira, com a polpa virada para cima.",
+          "Polvilhe o açúcar mascavo e a canela em pó sobre as bananas.",
+          "Leve ao forno por cerca de 15 a 20 minutos, ou até que as bananas estejam macias e levemente caramelizadas.",
+          "Sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.guiadacozinha.com.br/receitas/salpicao-quente-de-carne-seca/",
-          "checked_at": "2026-10-19T17:22:35+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/banana-assada-com-canela",
+          "checked_at": "2026-10-20T15:35:22+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36934956/pexels-photo-36934956.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa carne bovina grelhada com pimentões e tomates em uma frigideira quente sobre uma mesa de madeira.",
-          "bank_id": "36934956",
-          "credit": "Mohamed  Olwy",
-          "query": "Salpicão Quente de Carne-Seca"
+          "url": "https://images.pexels.com/photos/5645190/pexels-photo-5645190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um ambiente de café da manhã rústico com peras assadas, fatias de banana e mel sobre uma mesa de madeira.",
+          "bank_id": "5645190",
+          "credit": "Polina ⠀",
+          "query": "Banana Assada com Canela"
         },
-        "id": "salpicao-quente-de-carne-seca-857c0183"
-      },
-      {
-        "nome": "Ricota Grelhada com Ervas Frescas",
-        "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada leve, rápida e saudável, perfeita para abrir o apetite sem pesar. O preparo na frigideira é prático e evita fritura.",
-        "tags": [
-          "vegetariano",
-          "rapido",
-          "leve",
-          "grelhado"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 fatias de ricota fresca (cerca de 1,5 cm de espessura)",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Folhas de manjericão, hortelã e salsa crespa picadas a gosto",
-          "Grãos de pimenta-rosa a gosto"
-        ],
-        "preparo": [
-          "Aqueça uma frigideira antiaderente em fogo médio.",
-          "Adicione 1 colher (sopa) de azeite e coloque as fatias de ricota, grelhando por cerca de 4 minutos de cada lado, até dourar.",
-          "Transfira a ricota grelhada para um prato.",
-          "Tempere com sal e pimenta-do-reino moída na hora.",
-          "Salpique as ervas frescas picadas e os grãos de pimenta-rosa.",
-          "Regue com um fio de azeite e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/ricota-grelhada",
-          "title": "Ricota grelhada - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 0.58,
-          "checked_at": "2026-10-19T17:22:36+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
-          "alt": "Ricota Grelhada com Ervas Frescas"
-        },
-        "id": "ricota-grelhada-com-ervas-frescas-1b168e75"
-      },
-      {
-        "nome": "Brigadeiro de Panela",
-        "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Um clássico brasileiro, rápido e fácil de fazer, perfeito para um doce sem complicação. O preparo é em uma única panela e fica pronto em minutos.",
-        "tags": [
-          "doce",
-          "rapido",
-          "classico",
-          "sem_forno"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 lata de leite condensado (395g)",
-          "2 colheres (sopa) de chocolate em pó 50% cacau",
-          "1 colher (sopa) de manteiga sem sal"
-        ],
-        "preparo": [
-          "Em uma panela de fundo grosso, coloque o leite condensado, o chocolate em pó e a manteiga.",
-          "Leve ao fogo baixo, mexendo sempre com uma espátula para não grudar no fundo.",
-          "Continue mexendo até a mistura desgrudar do fundo da panela, formando uma bola (cerca de 10-12 minutos).",
-          "Retire do fogo e transfira para um prato untado com manteiga.",
-          "Deixe esfriar um pouco antes de servir. Pode ser servido de colher diretamente da panela ou em potinhos individuais."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Brigadeiro-de-panela",
-          "checked_at": "2026-10-19T17:22:37+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/36090531/pexels-photo-36090531.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Panelas de barro vietnamitas autênticas usadas para cozinhar sobre fogo aberto, mostrando métodos culinários tradicionais.",
-          "bank_id": "36090531",
-          "credit": "Hồng Quang Official",
-          "query": "Brigadeiro de Panela"
-        },
-        "id": "brigadeiro-de-panela-f804619e"
+        "id": "banana-assada-com-canela-9abb72b6"
       }
     ]
   },
