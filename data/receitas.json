@@ -1,189 +1,195 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-20T12:34:03-03:00",
+  "gerado_em": "2026-10-21T12:50:50-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "20/10/2026",
-    "dia_semana": "terça",
+    "data": "21/10/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Bife com Molho de Mostarda e Mel",
+        "nome": "Tirinhas de Carne com Legumes e Mandioquinha",
         "curso": "principal",
-        "tempo": "15 minutos",
-        "porque": "Uma opção de carne vermelha rápida e saborosa, com um molho agridoce que a diferencia de outras receitas de bife. Ideal para um jantar a dois e pronta em pouco tempo.",
+        "tempo": "35 minutos",
+        "porque": "Prato principal com carne vermelha, rápido e prático de preparar na frigideira, rico em vegetais e com potencial para sobras para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
-          "rapido",
-          "jantar_a_dois"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bifes de contrafilé (cerca de 150 g cada)",
-          "1 colher (sopa) de azeite",
-          "1 colher (sopa) de mostarda Dijon",
-          "1 colher (sopa) de mel",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino moída na hora.",
-          "Aqueça o azeite em uma frigideira em fogo médio-alto.",
-          "Doure os bifes por cerca de 2 a 3 minutos de cada lado, ou até atingirem o ponto desejado.",
-          "Em uma tigela pequena, misture a mostarda Dijon e o mel.",
-          "Retire os bifes da frigideira e, se desejar, adicione o molho de mostarda e mel à frigideira para aquecer rapidamente, raspando o fundo para incorporar os sabores.",
-          "Regue os bifes com o molho e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bife-com-molho-de-mostarda-e-mel",
-          "checked_at": "2026-10-20T15:35:18+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
-          "bank_id": "33673991",
-          "credit": "pedro furtado",
-          "query": "Bife com Molho de Mostarda e Mel"
-        },
-        "id": "bife-com-molho-de-mostarda-e-mel-216cf9f3"
-      },
-      {
-        "nome": "Carne Moída com Batata e Cenoura",
-        "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Um prato principal completo e equilibrado, com carne vermelha e vegetais. É fácil de fazer, rende bem para sobrar para o almoço de uma pessoa e é distinto das outras receitas de carne moída na lista de evitados.",
-        "tags": [
-          "carne_moida",
           "refogado",
-          "completo",
-          "dia_a_dia"
+          "prato_unico",
+          "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de carne moída",
-          "1 cebola média picada",
-          "2 dentes de alho picados",
-          "1 cenoura média em cubos",
-          "2 batatas médias em cubos",
-          "1 lata de tomate pelado picado (ou 2 tomates maduros picados)",
-          "1/2 xícara (chá) de água",
-          "2 colheres (sopa) de azeite",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto",
-          "Cheiro-verde picado a gosto"
+          "400 g de fraldinha em tiras",
+          "2 sachês de MAGGI® MEU SEGREDO® Refoga",
+          "1 pitada de pimenta-do-reino",
+          "1 colher (sopa) de óleo",
+          "1 cebola pequena em pétalas",
+          "1 xícara (chá) de brócolis aferventado",
+          "1 mandioquinha em rodelas grossas aferventada",
+          "2 colheres (sopa) de salsa picada"
         ],
         "preparo": [
-          "Em uma panela grande, aqueça o azeite em fogo médio e refogue a cebola e o alho até dourarem.",
-          "Adicione a carne moída e refogue, mexendo sempre para soltar, até que esteja cozida e dourada. Tempere com sal e pimenta.",
-          "Acrescente o tomate pelado (ou picado), a cenoura e a batata. Misture bem.",
-          "Adicione a água, tampe a panela e cozinhe em fogo baixo por cerca de 15 a 20 minutos, ou até que os legumes estejam macios.",
-          "Verifique o tempero e ajuste se necessário. Se o molho estiver muito líquido, cozinhe sem tampa por mais alguns minutos.",
-          "Finalize com cheiro-verde picado e sirva quente."
+          "Tempere as tiras de carne com um sachê de MAGGI MEU SEGREDO e pimenta-do-reino.",
+          "Aqueça metade do óleo em uma frigideira grande e doure a carne em fogo alto, sem mexer muito. Retire e reserve.",
+          "Na mesma frigideira, aqueça o restante do óleo e refogue a cebola por cerca de 5 minutos até dourar.",
+          "Adicione o brócolis e a mandioquinha aferventados à frigideira, misturando bem.",
+          "Retorne a carne à frigideira, adicione a salsa picada e misture por mais alguns minutos.",
+          "Sirva imediatamente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-batata-e-cenoura",
-          "checked_at": "2026-10-20T15:35:19+00:00"
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/tirinhas-de-carne-com-legumes",
+          "title": "Tirinhas de Carne com Legumes",
+          "domain": "receitasnestle.com.br",
+          "confidence": 0.79,
+          "checked_at": "2026-10-21T15:52:33+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
-          "bank_id": "6545671",
-          "credit": "Thiago Rebouças",
-          "query": "Carne Moída com Batata e Cenoura"
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/d870b0a2095c9fd094f3714f2f5fec5c.jpg",
+          "alt": "Tirinhas de Carne com Legumes e Mandioquinha"
         },
-        "id": "carne-moida-com-batata-e-cenoura-f130e368"
+        "id": "tirinhas-de-carne-com-legumes-e-mandioquinha-2315ea23"
       },
       {
-        "nome": "Bruschetta de Tomate e Manjericão",
+        "nome": "Bife com Molho de Limão e Grão-de-Bico",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Carne vermelha preferida do casal, preparada de forma prática em uma única frigideira, com um acompanhamento nutritivo de grão-de-bico e um molho saboroso.",
+        "tags": [
+          "carne_vermelha",
+          "prato_unico",
+          "rapido",
+          "equilibrado"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "¾ de xícara (chá) de grão-de-bico cozido (meia lata)",
+          "½ cebola",
+          "1 colher (sopa) de azeite",
+          "1 pitada de açúcar",
+          "½ colher (chá) de páprica doce",
+          "1 pitada de cominho em pó",
+          "sal a gosto",
+          "1 bife de contrafilé (cerca de 200-250g)",
+          "1 colher (chá) de azeite",
+          "⅓ de xícara (chá) de água",
+          "raspas de 1 limão-siciliano",
+          "2 colheres (sopa) de caldo de limão-siciliano",
+          "1 colher (sopa) de manteiga gelada",
+          "pimenta-do-reino moída na hora a gosto",
+          "1 maço de miniagrião"
+        ],
+        "preparo": [
+          "Escorra e lave o grão-de-bico. Descasque e corte a cebola em fatias finas.",
+          "Em uma frigideira grande, refogue a cebola no azeite com sal e açúcar por 3 minutos. Adicione o grão-de-bico, páprica e cominho, cozinhando por mais 2 minutos. Transfira para uma tigela e reserve.",
+          "Tempere o bife com sal. Na mesma frigideira em fogo alto, adicione azeite e doure o bife dos dois lados até o ponto desejado. Retire e reserve.",
+          "Na frigideira, adicione a água, raspas e caldo de limão. Raspe o fundo para soltar os sabores.",
+          "Desligue o fogo, adicione a manteiga gelada e mexa até derreter, formando o molho. Tempere com pimenta.",
+          "Sirva o bife com o molho, o grão-de-bico e folhas de miniagrião."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/bife-com-molho-de-limao-e-grao-de-bico",
+          "title": "Bife com molho de limão e grão-de-bico - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-21T15:52:34+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7174-img-9932.webp",
+          "alt": "Bife com Molho de Limão e Grão-de-Bico"
+        },
+        "id": "bife-com-molho-de-limao-e-grao-de-bico-43f65ca8"
+      },
+      {
+        "nome": "Salada Refrescante de Trigo, Nozes, Uvas-Passas e Ervas Frescas",
         "curso": "entrada",
         "tempo": "20 minutos",
-        "porque": "Uma entrada clássica italiana, fresca e rápida de preparar, perfeita para abrir o apetite do casal. É leve e não está na lista de pratos a serem evitados.",
+        "porque": "Uma entrada leve, fresca e rápida de preparar, com ingredientes acessíveis e um bom equilíbrio de texturas e sabores.",
         "tags": [
-          "entrada",
-          "rapido",
+          "salada",
           "vegetariano",
+          "rapido",
           "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 baguete pequena (ou pão italiano)",
-          "2 tomates grandes maduros",
-          "1 dente de alho",
-          "2 colheres (sopa) de azeite extravirgem",
-          "2 ramos de manjericão fresco",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto"
+          "½ xícara (chá) de trigo para quibe",
+          "½ cebola roxa pequena",
+          "¼ de xícara (chá) de uvas-passas brancas",
+          "¼ de xícara (chá) de nozes picadas grosseiramente",
+          "2 colheres (sopa) de azeite",
+          "raspas de ½ limão",
+          "2 colheres (sopa) de suco de limão",
+          "¼ de xícara (chá) de hortelã fresca picada",
+          "¼ de xícara (chá) de salsinha fresca picada",
+          "sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Corte o pão em fatias de aproximadamente 1 cm de espessura e disponha-as em uma assadeira.",
-          "Leve ao forno pré-aquecido a 180 ºC por cerca de 10 minutos, ou até que fiquem crocantes e levemente douradas.",
-          "Enquanto o pão tosta, lave e pique os tomates em cubos pequenos, descartando as sementes. Pique as folhas de manjericão.",
-          "Em uma tigela, misture os cubos de tomate, o manjericão picado e regue com 2 colheres de sopa de azeite. Tempere com sal e pimenta a gosto.",
-          "Descasque o dente de alho e, com o pão ainda morno, esfregue-o levemente sobre cada fatia tostada para perfumar.",
-          "Distribua a mistura de tomate e manjericão sobre as fatias de pão e sirva imediatamente."
+          "Lave o trigo para quibe e deixe de molho em água fria por 15 minutos. Escorra bem e esprema para retirar o excesso de água.",
+          "Pique a cebola roxa em cubos pequenos. Hidrate as uvas-passas em água morna por 5 minutos e escorra.",
+          "Em uma tigela, misture o trigo, a cebola, as uvas-passas, as nozes, o azeite, as raspas e o suco de limão.",
+          "Tempere com sal e pimenta-do-reino a gosto.",
+          "Adicione a hortelã e a salsinha picadas, misture delicadamente e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bruschetta-de-tomate-e-manjericao",
-          "checked_at": "2026-10-20T15:35:20+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Salada-refrescante-de-trigo-nozes-uvas-passas-e-ervas-frescas",
+          "checked_at": "2026-10-21T15:52:35+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5639421/pexels-photo-5639421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de deliciosa bruschetta coberta com tomates, azeitonas e manjericão em uma tábua de madeira.",
-          "bank_id": "5639421",
-          "credit": "Shameel mukkath",
-          "query": "Bruschetta de Tomate e Manjericão"
+          "url": "https://images.pexels.com/photos/14909114/pexels-photo-14909114.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Salada mista vibrante com ervas frescas, fatias de limão e nozes em um prato branco.",
+          "bank_id": "14909114",
+          "credit": "Ömer Kayan",
+          "query": "Salada Refrescante de Trigo, Nozes, Uvas-Passas e Ervas Frescas"
         },
-        "id": "bruschetta-de-tomate-e-manjericao-6989fa62"
+        "id": "salada-refrescante-de-trigo-nozes-uvas-passas-e--820b0f69"
       },
       {
-        "nome": "Banana Assada com Canela",
+        "nome": "Brigadeiro de Colher da Rita Lobo",
         "curso": "sobremesa",
         "tempo": "25 minutos",
-        "porque": "Uma sobremesa simples, rápida e saudável, que utiliza o forno e não está na lista de pratos a serem evitados. É leve e perfeita para finalizar a refeição.",
+        "porque": "Uma sobremesa clássica brasileira, fácil e rápida de fazer, com a qualidade e o toque especial da Rita Lobo, perfeita para finalizar o jantar.",
         "tags": [
-          "sobremesa",
-          "fruta",
-          "forno",
-          "leve"
+          "doce",
+          "chocolate",
+          "rapido",
+          "classico"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "4 bananas nanicas maduras",
-          "1 colher (sopa) de açúcar mascavo",
-          "1 colher (chá) de canela em pó"
+          "1 lata de leite condensado (395g)",
+          "⅔ de xícara (chá) de leite",
+          "1 colher (sopa) de manteiga",
+          "3 colheres (sopa) de cacau em pó"
         ],
         "preparo": [
-          "Preaqueça o forno a 180°C.",
-          "Lave as bananas e corte-as ao meio no sentido do comprimento, sem remover a casca.",
-          "Disponha as metades de banana em uma assadeira, com a polpa virada para cima.",
-          "Polvilhe o açúcar mascavo e a canela em pó sobre as bananas.",
-          "Leve ao forno por cerca de 15 a 20 minutos, ou até que as bananas estejam macias e levemente caramelizadas.",
-          "Sirva quente."
+          "Em uma panela média, misture o leite e o cacau em pó até dissolver bem.",
+          "Adicione o leite condensado e a manteiga à panela.",
+          "Leve ao fogo baixo, mexendo sempre com uma espátula, por cerca de 15 minutos após ferver.",
+          "Cozinhe até o brigadeiro desgrudar do fundo da panela, atingindo o ponto de colher.",
+          "Transfira para um recipiente e deixe amornar antes de servir em copinhos ou taças."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/banana-assada-com-canela",
-          "checked_at": "2026-10-20T15:35:22+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Brigadeiro-de-colher-da-Rita-Lobo",
+          "checked_at": "2026-10-21T15:52:36+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5645190/pexels-photo-5645190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um ambiente de café da manhã rústico com peras assadas, fatias de banana e mel sobre uma mesa de madeira.",
-          "bank_id": "5645190",
-          "credit": "Polina ⠀",
-          "query": "Banana Assada com Canela"
+          "url": "https://images.pexels.com/photos/10003880/pexels-photo-10003880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma vibrante composição plana apresentando pratos e colheres de cerâmica coloridos com designs abstratos.",
+          "bank_id": "10003880",
+          "credit": "Karen Laårk Boshoff",
+          "query": "Brigadeiro de Colher da Rita Lobo"
         },
-        "id": "banana-assada-com-canela-9abb72b6"
+        "id": "brigadeiro-de-colher-da-rita-lobo-c32e6513"
       }
     ]
   },

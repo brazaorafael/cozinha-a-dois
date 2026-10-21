@@ -5007,5 +5007,29 @@
     ],
     "data": "20/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "tirinhas-de-carne-com-legumes-e-mandioquinha-2315ea23",
+    "titulo": "Tirinhas de Carne com Legumes e Mandioquinha",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "prato_unico",
+      "rapido"
+    ],
+    "data": "21/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "salada-refrescante-de-trigo-nozes-uvas-passas-e--820b0f69",
+    "titulo": "Salada Refrescante de Trigo, Nozes, Uvas-Passas e Ervas Frescas",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "rapido",
+      "fresco"
+    ],
+    "data": "21/10/2026",
+    "fonte_status": "unverified"
   }
 ]
