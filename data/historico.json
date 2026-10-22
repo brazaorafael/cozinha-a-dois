@@ -5031,5 +5031,29 @@
     ],
     "data": "21/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bisteca-ao-forno-99602173",
+    "titulo": "Bisteca ao Forno",
+    "tags": [
+      "carne_de_porco",
+      "forno",
+      "facil",
+      "jantar_rapido"
+    ],
+    "data": "22/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-grao-de-bico-com-cenoura-e-cebola-assa-0fd7fcf4",
+    "titulo": "Salada de Grão-de-Bico com Cenoura e Cebola Assadas",
+    "tags": [
+      "salada",
+      "vegetariano",
+      "assado",
+      "entrada_rapida"
+    ],
+    "data": "22/10/2026",
+    "fonte_status": "verified"
   }
 ]
