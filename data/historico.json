@@ -5055,5 +5055,29 @@
     ],
     "data": "22/10/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "carne-moida-refogada-e643eb40",
+    "titulo": "Carne Moída Refogada",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "pratico",
+      "rende_sobra"
+    ],
+    "data": "23/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "brigadeiro-de-copo-com-morangos-e-balsamico-2167b278",
+    "titulo": "Brigadeiro de Copo com Morangos e Balsâmico",
+    "tags": [
+      "doce",
+      "chocolate",
+      "frutas",
+      "facil"
+    ],
+    "data": "23/10/2026",
+    "fonte_status": "unverified"
   }
 ]
