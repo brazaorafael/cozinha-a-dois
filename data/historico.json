@@ -5079,5 +5079,41 @@
     ],
     "data": "23/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "picadinho-oriental-em-uma-panela-so-43a9b64c",
+    "titulo": "Picadinho oriental em uma panela só",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "uma_panela_so"
+    ],
+    "data": "24/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "almondegas-de-carne-moida-com-grao-de-bico-b9e47f17",
+    "titulo": "Almôndegas de carne moída com grão-de-bico",
+    "tags": [
+      "carne_vermelha",
+      "grao_de_bico",
+      "refogado",
+      "equilibrado"
+    ],
+    "data": "24/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cocadinha-francesa-reaproveitamento-392f4d8e",
+    "titulo": "Cocadinha francesa (reaproveitamento)",
+    "tags": [
+      "coco",
+      "assado",
+      "rapido",
+      "reaproveitamento"
+    ],
+    "data": "24/10/2026",
+    "fonte_status": "unverified"
   }
 ]

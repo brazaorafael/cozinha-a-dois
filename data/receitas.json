@@ -1,185 +1,203 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-23T12:38:55-03:00",
+  "gerado_em": "2026-10-24T11:17:24-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "23/10/2026",
-    "dia_semana": "sexta",
+    "data": "24/10/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Bife Grelhado com Vinagrete",
+        "nome": "Picadinho oriental em uma panela só",
         "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Uma opção de carne vermelha (contrafilé) grelhada, leve e saborosa, pronta em pouco tempo e com a credibilidade da Panelinha. O vinagrete adiciona frescor e equilíbrio, ideal para um jantar rápido e nutritivo.",
-        "tags": [
-          "carne_vermelha",
-          "grelhado",
-          "rapido",
-          "equilibrado"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bifes de contrafilé (cerca de 200 g cada)",
-          "1 tomate maduro",
-          "½ cebola-roxa",
-          "2 colheres (sopa) de azeite",
-          "1 colher (sopa) de vinagre de vinho tinto",
-          "2 ramos de salsinha fresca",
-          "sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Retire os bifes da geladeira 10 minutos antes de grelhar.",
-          "Lave e seque o tomate e a salsinha. Corte o tomate em cubos pequenos e pique a salsinha. Descasque e pique a cebola-roxa em cubos pequenos.",
-          "Numa tigela, misture o tomate, a cebola, a salsinha, o azeite e o vinagre. Tempere com sal e pimenta-do-reino.",
-          "Leve uma frigideira antiaderente ao fogo alto. Quando estiver bem quente, regue com um fio de azeite e coloque os bifes.",
-          "Grelhe por 2 a 3 minutos de cada lado para um ponto malpassado. Tempere com sal e pimenta-do-reino.",
-          "Transfira os bifes para os pratos e cubra com o vinagrete. Sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/bife-grelhado-com-vinagrete",
-          "title": "Bife grelhado com vinagrete - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-23T15:40:38+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6334-bife-grelhado-com-vinagrete.webp",
-          "alt": "Bife Grelhado com Vinagrete"
-        },
-        "id": "bife-grelhado-com-vinagrete-f66a1291"
-      },
-      {
-        "nome": "Carne Moída Refogada",
-        "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Uma receita prática e rápida de carne moída, versátil para acompanhar diversos vegetais e carboidratos. Rende bem e pode ser aproveitada para o almoço do dia seguinte.",
+        "tempo": "Menos de 20 minutos",
+        "porque": "Uma receita versátil e prática de picadinho com um toque oriental, preparada em uma única panela, facilitando o preparo e a limpeza. Contém carne vermelha (contrafilé) e diversos vegetais, garantindo uma refeição equilibrada e saborosa, ideal para um jantar rápido e com potencial para sobras.",
         "tags": [
           "carne_vermelha",
           "refogado",
-          "pratico",
-          "rende_sobra"
+          "rapido",
+          "uma_panela_so"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 colheres (sopa) de manteiga",
-          "1 cebola bem picadinha",
-          "400 g de capa de filé moída",
-          "Salsinha picada a gosto",
-          "Sal a gosto",
-          "Pinoli tostado na manteiga a gosto (opcional)"
+          "500 g de contrafilé em bifes",
+          "1 abobrinha",
+          "1 pimentão vermelho",
+          "200 g de cogumelos-de-paris",
+          "1 pimenta dedo-de-moça",
+          "1 cebola roxa",
+          "3 dentes de alho",
+          "1 pedaço de gengibre (cerca de 2 cm)",
+          "4 talos de cebolinha",
+          "½ xícara (chá) de amendoim torrado, sem pele",
+          "1 colher (sopa) de vinagre de arroz",
+          "½ xícara (chá) de molho de soja (shoyu)",
+          "2 colheres (sopa) de amido de milho",
+          "½ xícara (chá) de água",
+          "2 colheres (sopa) de óleo",
+          "1 colher (sopa) de óleo de gergelim torrado (opcional)"
         ],
         "preparo": [
-          "Em uma panela em fogo médio, derreta a manteiga.",
-          "Adicione a cebola bem picadinha e refogue até dourar.",
-          "Junte a carne moída e frite bem, desfazendo os grumos com uma colher.",
-          "Tempere com sal a gosto e adicione a salsinha picada. Misture bem.",
-          "Se desejar, adicione pinoli tostado na manteiga e sirva."
+          "Corte o contrafilé em tiras finas e deixe em temperatura ambiente.",
+          "Prepare os vegetais: abobrinha em meias-luas, pimentão em quadrados, cogumelos fatiados, pimenta e cebolinha picadas. Descasque e pique a cebola, alho e gengibre.",
+          "Em uma tigela, misture água, shoyu, vinagre de arroz e amido de milho.",
+          "Aqueça o óleo em uma wok ou frigideira grande e doure a carne em fogo alto por 2 minutos. Retire e reserve.",
+          "Na mesma panela, refogue a abobrinha e pimentão por 6 minutos, depois adicione a cebola por mais 2 minutos.",
+          "Acrescente alho e gengibre, volte a carne à panela, adicione a ervilha (se usar) e cozinhe por 2 minutos. Regue com o molho de shoyu e amido, mexendo até engrossar.",
+          "Desligue o fogo, misture o óleo de gergelim (se usar), salpique com amendoim e cebolinha. Sirva com arroz."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://anamariabraga.globo.com/receita/carne-moida-refogada/",
-          "title": "Carne Moída Refogada",
-          "domain": "anamariabraga.globo.com",
-          "confidence": 1.0,
-          "checked_at": "2026-10-23T15:40:40+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i0.wp.com/anamariabraga.globo.com/wp-content/uploads/2016/11/-1880.jpg?resize=150%2C150&ssl=1",
-          "alt": "Carne Moída Refogada"
-        },
-        "id": "carne-moida-refogada-e643eb40"
-      },
-      {
-        "nome": "Bruschetta de Tomate",
-        "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada clássica italiana, fácil de preparar e que utiliza ingredientes frescos. É leve e abre o apetite sem pesar.",
-        "tags": [
-          "vegetariano",
-          "entrada_rapida",
-          "fresco",
-          "italiano"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 baguete pequena",
-          "2 tomates grandes maduros",
-          "1 dente de alho",
-          "2 colheres (sopa) de azeite",
-          "2 ramos de manjericão",
-          "sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Preaqueça o forno a 180 ºC (temperatura média).",
-          "Corte a baguete em fatias de 1 cm de espessura. Leve ao forno por 5 minutos para tostar levemente.",
-          "Lave, seque e corte os tomates ao meio. Descarte as sementes e corte cada metade em cubos de 0,5 cm. Transfira para uma tigela.",
-          "Junte as folhas de manjericão rasgadas e regue com 2 colheres (sopa) de azeite. Tempere com sal e pimenta a gosto e misture delicadamente.",
-          "Descasque o dente de alho. Esfregue o dente de alho nas fatias de pão tostadas.",
-          "Distribua a mistura de tomate sobre as fatias de pão e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
-          "title": "Bruschetta de tomate - Panelinha",
+          "url": "https://panelinha.com.br/receita/picadinho-oriental-em-uma-panela-so",
+          "title": "Picadinho oriental em uma panela só - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-23T15:40:41+00:00"
+          "checked_at": "2026-10-24T14:19:15+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
-          "alt": "Bruschetta de Tomate"
+          "url": "https://i.panelinha.com.br/i1/bk-4825-picadinho-oriental-em-uma-panela-so.webp",
+          "alt": "Picadinho oriental em uma panela só"
         },
-        "id": "bruschetta-de-tomate-008b1157"
+        "id": "picadinho-oriental-em-uma-panela-so-43a9b64c"
       },
       {
-        "nome": "Brigadeiro de Copo com Morangos e Balsâmico",
-        "curso": "sobremesa",
-        "tempo": "20 minutos (+ tempo de geladeira)",
-        "porque": "Uma sobremesa brasileira amada, apresentada de forma individual e com um toque sofisticado de morangos e aceto balsâmico, que equilibra o doce. Fácil de fazer e perfeita para um casal.",
+        "nome": "Almôndegas de carne moída com grão-de-bico",
+        "curso": "principal",
+        "tempo": "Cerca de 30-40 minutos",
+        "porque": "Uma opção nutritiva e saborosa que combina carne moída (patinho) com grão-de-bico, adicionando proteína vegetal e fibra. É fácil de preparar, com cozimento na frigideira e molho de tomate, sendo uma refeição completa e prática que rende bem.",
         "tags": [
-          "doce",
-          "chocolate",
-          "frutas",
-          "facil"
+          "carne_vermelha",
+          "grao_de_bico",
+          "refogado",
+          "equilibrado"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "600 g de morangos em cubinhos",
-          "1/3 xícara (chá) de vinagre balsâmico (80 ml)",
-          "1/2 xícara (chá) de açúcar",
-          "2 latas de leite condensado",
-          "2 colheres (sopa) de manteiga",
-          "150 g de chocolate meio amargo picado",
-          "200 ml de creme de leite fresco bem gelado batido em ponto de chantilly"
+          "500 g de carne moída (patinho)",
+          "1 xícara de chá de grão-de-bico cozido",
+          "1 cebola picada",
+          "200 g de molho de tomate",
+          "1 ovo",
+          "3 colheres de sopa de farinha de aveia",
+          "1 dente de alho ralado",
+          "2 colheres de sopa de azeite",
+          "2 colheres de sopa de coentro picado",
+          "2 colheres de sopa de cebolinha picada",
+          "1 pimenta dedo-de-moça picada",
+          "Sal e pimenta-do-reino moída a gosto"
         ],
         "preparo": [
-          "Em uma tigela, misture os morangos em cubinhos, o vinagre balsâmico e o açúcar. Deixe marinar por 1 hora.",
-          "Escorra os morangos em uma peneira, reservando a marinada.",
-          "Em uma panela, coloque o leite condensado e a manteiga. Leve ao fogo baixo, mexendo sempre, por cerca de 8 minutos ou até engrossar.",
-          "Fora do fogo, adicione o chocolate meio amargo picado e misture até derreter. Acrescente a marinada do morango reservada e misture. Deixe esfriar.",
-          "Retire 1/3 dessa mistura de chocolate e misture bem com o creme de leite fresco batido em ponto de chantilly.",
-          "Em taças ou copinhos, distribua os morangos escorridos. Faça uma camada da mistura de chocolate com a marinada e outra camada da mistura de chocolate com chantilly.",
-          "Leve para gelar e sirva decorado com morangos."
+          "Em uma tigela, misture a carne moída, ovo, farinha de aveia, alho, coentro, metade da cebolinha, pimenta dedo-de-moça, sal e pimenta-do-reino até homogeneizar.",
+          "Modele as almôndegas no tamanho desejado.",
+          "Aqueça azeite em uma frigideira antiaderente e frite as almôndegas até dourarem.",
+          "Na mesma panela, refogue a cebola por dois minutos.",
+          "Acrescente o grão-de-bico e o molho de tomate, misture delicadamente e cozinhe por 5 minutos.",
+          "Desligue o fogo, finalize com o restante da cebolinha e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/brigadeiro-de-copo/",
-          "checked_at": "2026-10-23T15:40:43+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-10-24T14:19:15+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/15359109/pexels-photo-15359109.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de panna cotta cremosa coberta com morangos frescos e hortelã, servida em um copo.",
-          "bank_id": "15359109",
-          "credit": "Eduardo Krajan",
-          "query": "Brigadeiro de Copo com Morangos e Balsâmico"
+          "url": "https://images.pexels.com/photos/37261924/pexels-photo-37261924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Detalhe dos ingredientes em uma tigela para fazer almôndegas ao estilo asiático, incluindo carne moída, legumes e ovo.",
+          "bank_id": "37261924",
+          "credit": "Gu Ko",
+          "query": "Almôndegas de carne moída com grão-de-bico"
         },
-        "id": "brigadeiro-de-copo-com-morangos-e-balsamico-2167b278"
+        "id": "almondegas-de-carne-moida-com-grao-de-bico-b9e47f17"
+      },
+      {
+        "nome": "Pão de alho na Air Fryer da Rita Lobo",
+        "curso": "entrada",
+        "tempo": "Cerca de 15-20 minutos",
+        "porque": "Uma entrada clássica e prática, preparada na air fryer para um resultado crocante e sem fritura. É rápida de fazer e ideal para acompanhar o jantar ou como petisco.",
+        "tags": [
+          "air_fryer",
+          "vegetariano",
+          "rapido",
+          "aperitivo"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 pão ciabatta (ou outro pão de sua preferência)",
+          "50 g de manteiga em temperatura ambiente",
+          "1 colher (sopa) de manteiga para dourar o alho",
+          "2 dentes de alho",
+          "¼ de xícara (chá) de queijo parmesão ralado fino",
+          "4 ramos de salsinha",
+          "Raspas de ½ limão",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "2 colheres (sopa) de queijo parmesão ralado fino para finalizar"
+        ],
+        "preparo": [
+          "Pique finamente o alho e a salsinha.",
+          "Em uma frigideira pequena, derreta 1 colher (sopa) de manteiga em fogo baixo e doure o alho. Retire do fogo.",
+          "Em uma tigela, misture a manteiga restante (50g), o alho dourado, ¼ de xícara de parmesão, salsinha picada, raspas de limão, sal e pimenta.",
+          "Corte o pão em fatias ou ao meio, sem separar completamente as partes. Espalhe a pasta de alho generosamente.",
+          "Leve à air fryer preaquecida a 180°C por cerca de 5-8 minutos, ou até dourar e ficar crocante.",
+          "Finalize com as 2 colheres de parmesão ralado e sirva."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/pao-de-alho-na-air-fryer-da-rita-lobo",
+          "title": "Pão de alho na Air Fryer da Rita Lobo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-24T14:19:15+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4746-blog-pao-de-alho-na-af-9.webp",
+          "alt": "Pão de alho na Air Fryer da Rita Lobo"
+        },
+        "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2"
+      },
+      {
+        "nome": "Cocadinha francesa (reaproveitamento)",
+        "curso": "sobremesa",
+        "tempo": "Cerca de 40-45 minutos (30 min de forno)",
+        "porque": "Uma sobremesa prática e deliciosa que reaproveita o bagaço do coco fresco, minimizando o desperdício. É assada no forno, resultando em cocadinhas firmes e saborosas, perfeitas para um doce rápido e caseiro.",
+        "tags": [
+          "coco",
+          "assado",
+          "rapido",
+          "reaproveitamento"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 xícara (chá) de coco fresco ralado",
+          "2 xícaras (chá) de bagaço de coco (ou coco seco sem açúcar)",
+          "1 clara de ovo",
+          "½ xícara (chá) de açúcar",
+          "1 pitada de sal",
+          "Óleo para untar a assadeira"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 160 ºC e unte uma assadeira grande com óleo.",
+          "Em uma tigela, misture o coco ralado, o bagaço de coco, o açúcar, o sal e a clara de ovo até formar uma massa.",
+          "Umedeça as mãos e modele bolinhas de cerca de 1 colher (sopa) da massa, dispondo-as na assadeira com espaço entre elas.",
+          "Leve para assar por cerca de 30 minutos, ou até ficarem firmes e soltarem da assadeira.",
+          "Retire do forno e deixe esfriar completamente antes de servir."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Cocadinha-francesa-reaproveitamento",
+          "checked_at": "2026-10-24T14:19:16+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/9139120/pexels-photo-9139120.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Visão de cima de sopa gourmet de cebola francesa com queijo derretido em uma tigela de cerâmica, servida com uma colher.",
+          "bank_id": "9139120",
+          "credit": "Maria Isabelle Warren",
+          "query": "Cocadinha francesa (reaproveitamento)"
+        },
+        "id": "cocadinha-francesa-reaproveitamento-392f4d8e"
       }
     ]
   },
