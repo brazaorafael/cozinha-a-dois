@@ -5115,5 +5115,29 @@
     ],
     "data": "24/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "fraldinha-na-airfryer-f009b797",
+    "titulo": "Fraldinha na Airfryer",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "rapido",
+      "pratico"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-de-contrafile-com-chimichurri-803e16db",
+    "titulo": "Bife de Contrafilé com Chimichurri",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "molho_fresco",
+      "rapido"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
   }
 ]

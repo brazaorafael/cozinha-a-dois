@@ -1,203 +1,184 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-24T11:17:24-03:00",
+  "gerado_em": "2026-10-25T11:51:38-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "24/10/2026",
-    "dia_semana": "sábado",
+    "data": "25/10/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Picadinho oriental em uma panela só",
+        "nome": "Fraldinha na Airfryer",
         "curso": "principal",
-        "tempo": "Menos de 20 minutos",
-        "porque": "Uma receita versátil e prática de picadinho com um toque oriental, preparada em uma única panela, facilitando o preparo e a limpeza. Contém carne vermelha (contrafilé) e diversos vegetais, garantindo uma refeição equilibrada e saborosa, ideal para um jantar rápido e com potencial para sobras.",
+        "tempo": "30 minutos",
+        "porque": "Carne vermelha preferida, preparo rápido e prático na airfryer, ideal para jantar a dois com potencial de sobra.",
         "tags": [
           "carne_vermelha",
-          "refogado",
+          "airfryer",
           "rapido",
-          "uma_panela_so"
+          "pratico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de contrafilé em bifes",
-          "1 abobrinha",
-          "1 pimentão vermelho",
-          "200 g de cogumelos-de-paris",
-          "1 pimenta dedo-de-moça",
-          "1 cebola roxa",
-          "3 dentes de alho",
-          "1 pedaço de gengibre (cerca de 2 cm)",
-          "4 talos de cebolinha",
-          "½ xícara (chá) de amendoim torrado, sem pele",
-          "1 colher (sopa) de vinagre de arroz",
-          "½ xícara (chá) de molho de soja (shoyu)",
-          "2 colheres (sopa) de amido de milho",
-          "½ xícara (chá) de água",
-          "2 colheres (sopa) de óleo",
-          "1 colher (sopa) de óleo de gergelim torrado (opcional)"
-        ],
-        "preparo": [
-          "Corte o contrafilé em tiras finas e deixe em temperatura ambiente.",
-          "Prepare os vegetais: abobrinha em meias-luas, pimentão em quadrados, cogumelos fatiados, pimenta e cebolinha picadas. Descasque e pique a cebola, alho e gengibre.",
-          "Em uma tigela, misture água, shoyu, vinagre de arroz e amido de milho.",
-          "Aqueça o óleo em uma wok ou frigideira grande e doure a carne em fogo alto por 2 minutos. Retire e reserve.",
-          "Na mesma panela, refogue a abobrinha e pimentão por 6 minutos, depois adicione a cebola por mais 2 minutos.",
-          "Acrescente alho e gengibre, volte a carne à panela, adicione a ervilha (se usar) e cozinhe por 2 minutos. Regue com o molho de shoyu e amido, mexendo até engrossar.",
-          "Desligue o fogo, misture o óleo de gergelim (se usar), salpique com amendoim e cebolinha. Sirva com arroz."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/picadinho-oriental-em-uma-panela-so",
-          "title": "Picadinho oriental em uma panela só - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-24T14:19:15+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4825-picadinho-oriental-em-uma-panela-so.webp",
-          "alt": "Picadinho oriental em uma panela só"
-        },
-        "id": "picadinho-oriental-em-uma-panela-so-43a9b64c"
-      },
-      {
-        "nome": "Almôndegas de carne moída com grão-de-bico",
-        "curso": "principal",
-        "tempo": "Cerca de 30-40 minutos",
-        "porque": "Uma opção nutritiva e saborosa que combina carne moída (patinho) com grão-de-bico, adicionando proteína vegetal e fibra. É fácil de preparar, com cozimento na frigideira e molho de tomate, sendo uma refeição completa e prática que rende bem.",
-        "tags": [
-          "carne_vermelha",
-          "grao_de_bico",
-          "refogado",
-          "equilibrado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500 g de carne moída (patinho)",
-          "1 xícara de chá de grão-de-bico cozido",
-          "1 cebola picada",
-          "200 g de molho de tomate",
-          "1 ovo",
-          "3 colheres de sopa de farinha de aveia",
-          "1 dente de alho ralado",
+          "1 peça de fraldinha (cerca de 1 kg)",
           "2 colheres de sopa de azeite",
-          "2 colheres de sopa de coentro picado",
-          "2 colheres de sopa de cebolinha picada",
-          "1 pimenta dedo-de-moça picada",
-          "Sal e pimenta-do-reino moída a gosto"
+          "1 colher de chá de sal",
+          "1/2 colher de chá de pimenta-do-reino moída na hora",
+          "Opcional: ramos de alecrim ou tomilho"
         ],
         "preparo": [
-          "Em uma tigela, misture a carne moída, ovo, farinha de aveia, alho, coentro, metade da cebolinha, pimenta dedo-de-moça, sal e pimenta-do-reino até homogeneizar.",
-          "Modele as almôndegas no tamanho desejado.",
-          "Aqueça azeite em uma frigideira antiaderente e frite as almôndegas até dourarem.",
-          "Na mesma panela, refogue a cebola por dois minutos.",
-          "Acrescente o grão-de-bico e o molho de tomate, misture delicadamente e cozinhe por 5 minutos.",
-          "Desligue o fogo, finalize com o restante da cebolinha e sirva."
+          "Tempere a fraldinha com azeite, sal e pimenta-do-reino, massageando bem a carne.",
+          "Pré-aqueça a airfryer a 200°C por 5 minutos.",
+          "Coloque a fraldinha na cesta da airfryer, se couber, adicione os ramos de alecrim ou tomilho.",
+          "Asse por 15 minutos de um lado, vire a carne e asse por mais 10 a 15 minutos, ou até atingir o ponto desejado.",
+          "Retire da airfryer, cubra com papel alumínio e deixe descansar por 5 minutos antes de fatiar e servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-24T14:19:15+00:00"
+          "suggested_url": "https://www.tudogostoso.com.br/receitas/322967-fraldinha-na-airfryer.html",
+          "checked_at": "2026-10-25T14:52:56+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/37261924/pexels-photo-37261924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Detalhe dos ingredientes em uma tigela para fazer almôndegas ao estilo asiático, incluindo carne moída, legumes e ovo.",
-          "bank_id": "37261924",
-          "credit": "Gu Ko",
-          "query": "Almôndegas de carne moída com grão-de-bico"
+          "url": "https://images.pexels.com/photos/28525114/pexels-photo-28525114.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa fraldinha grelhada servida com acompanhamentos ao estilo mexicano, incluindo queijo, feijão refrito e molhos.",
+          "bank_id": "28525114",
+          "credit": "Alejandro Aznar",
+          "query": "Fraldinha na Airfryer"
         },
-        "id": "almondegas-de-carne-moida-com-grao-de-bico-b9e47f17"
+        "id": "fraldinha-na-airfryer-f009b797"
       },
       {
-        "nome": "Pão de alho na Air Fryer da Rita Lobo",
-        "curso": "entrada",
-        "tempo": "Cerca de 15-20 minutos",
-        "porque": "Uma entrada clássica e prática, preparada na air fryer para um resultado crocante e sem fritura. É rápida de fazer e ideal para acompanhar o jantar ou como petisco.",
+        "nome": "Bife de Contrafilé com Chimichurri",
+        "curso": "principal",
+        "tempo": "20 minutos",
+        "porque": "Carne vermelha preferida, preparo rápido na grelha ou frigideira, molho fresco e saboroso, ideal para um jantar especial.",
         "tags": [
-          "air_fryer",
-          "vegetariano",
-          "rapido",
-          "aperitivo"
+          "carne_vermelha",
+          "grelhado",
+          "molho_fresco",
+          "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pão ciabatta (ou outro pão de sua preferência)",
-          "50 g de manteiga em temperatura ambiente",
-          "1 colher (sopa) de manteiga para dourar o alho",
-          "2 dentes de alho",
-          "¼ de xícara (chá) de queijo parmesão ralado fino",
-          "4 ramos de salsinha",
-          "Raspas de ½ limão",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "2 colheres (sopa) de queijo parmesão ralado fino para finalizar"
+          "2 bifes de contrafilé (cerca de 200g cada)",
+          "1 colher de sopa de azeite",
+          "Sal e pimenta-do-reino a gosto",
+          "Para o chimichurri:",
+          "1/2 xícara de salsinha picada",
+          "2 dentes de alho picados",
+          "1/4 xícara de azeite extra virgem",
+          "2 colheres de sopa de vinagre de vinho tinto",
+          "1/2 colher de chá de orégano seco",
+          "1/4 colher de chá de pimenta calabresa (opcional)",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Pique finamente o alho e a salsinha.",
-          "Em uma frigideira pequena, derreta 1 colher (sopa) de manteiga em fogo baixo e doure o alho. Retire do fogo.",
-          "Em uma tigela, misture a manteiga restante (50g), o alho dourado, ¼ de xícara de parmesão, salsinha picada, raspas de limão, sal e pimenta.",
-          "Corte o pão em fatias ou ao meio, sem separar completamente as partes. Espalhe a pasta de alho generosamente.",
-          "Leve à air fryer preaquecida a 180°C por cerca de 5-8 minutos, ou até dourar e ficar crocante.",
-          "Finalize com as 2 colheres de parmesão ralado e sirva."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pao-de-alho-na-air-fryer-da-rita-lobo",
-          "title": "Pão de alho na Air Fryer da Rita Lobo - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-24T14:19:15+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4746-blog-pao-de-alho-na-af-9.webp",
-          "alt": "Pão de alho na Air Fryer da Rita Lobo"
-        },
-        "id": "pao-de-alho-na-air-fryer-da-rita-lobo-437399b2"
-      },
-      {
-        "nome": "Cocadinha francesa (reaproveitamento)",
-        "curso": "sobremesa",
-        "tempo": "Cerca de 40-45 minutos (30 min de forno)",
-        "porque": "Uma sobremesa prática e deliciosa que reaproveita o bagaço do coco fresco, minimizando o desperdício. É assada no forno, resultando em cocadinhas firmes e saborosas, perfeitas para um doce rápido e caseiro.",
-        "tags": [
-          "coco",
-          "assado",
-          "rapido",
-          "reaproveitamento"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 xícara (chá) de coco fresco ralado",
-          "2 xícaras (chá) de bagaço de coco (ou coco seco sem açúcar)",
-          "1 clara de ovo",
-          "½ xícara (chá) de açúcar",
-          "1 pitada de sal",
-          "Óleo para untar a assadeira"
-        ],
-        "preparo": [
-          "Preaqueça o forno a 160 ºC e unte uma assadeira grande com óleo.",
-          "Em uma tigela, misture o coco ralado, o bagaço de coco, o açúcar, o sal e a clara de ovo até formar uma massa.",
-          "Umedeça as mãos e modele bolinhas de cerca de 1 colher (sopa) da massa, dispondo-as na assadeira com espaço entre elas.",
-          "Leve para assar por cerca de 30 minutos, ou até ficarem firmes e soltarem da assadeira.",
-          "Retire do forno e deixe esfriar completamente antes de servir."
+          "Prepare o chimichurri: misture a salsinha, alho, azeite, vinagre, orégano, pimenta calabresa e sal em uma tigela. Reserve.",
+          "Tempere os bifes de contrafilé com sal e pimenta-do-reino dos dois lados.",
+          "Aqueça uma frigideira ou grelha em fogo alto com o azeite.",
+          "Grelhe os bifes por 3 a 4 minutos de cada lado para um ponto malpassado a médio, ou até o ponto desejado.",
+          "Retire os bifes da frigideira, deixe descansar por 2 minutos e sirva com o chimichurri por cima."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Cocadinha-francesa-reaproveitamento",
-          "checked_at": "2026-10-24T14:19:16+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bife-de-contrafile-com-chimichurri",
+          "checked_at": "2026-10-25T14:52:57+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/9139120/pexels-photo-9139120.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Visão de cima de sopa gourmet de cebola francesa com queijo derretido em uma tigela de cerâmica, servida com uma colher.",
-          "bank_id": "9139120",
-          "credit": "Maria Isabelle Warren",
-          "query": "Cocadinha francesa (reaproveitamento)"
+          "url": "https://images.pexels.com/photos/11089568/pexels-photo-11089568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Bife grelhado chiando com chimichurri, servido com batatas assadas e tomates frescos em uma tábua de ardósia.",
+          "bank_id": "11089568",
+          "credit": "Анатолий Андреев",
+          "query": "Bife de Contrafilé com Chimichurri"
         },
-        "id": "cocadinha-francesa-reaproveitamento-392f4d8e"
+        "id": "bife-de-contrafile-com-chimichurri-803e16db"
+      },
+      {
+        "nome": "Bruschetta de Tomate e Manjericão",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Entrada leve, fresca e rápida de preparar, complementa bem os pratos principais de carne.",
+        "tags": [
+          "entrada",
+          "vegetariano",
+          "rapido",
+          "fresco"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 baguete pequena ou pão italiano fatiado",
+          "2 tomates maduros picados",
+          "1/4 xícara de folhas de manjericão fresco",
+          "1 dente de alho pequeno, picado",
+          "2 colheres de sopa de azeite extra virgem",
+          "Sal e pimenta-do-reino a gosto"
+        ],
+        "preparo": [
+          "Pré-aqueça o forno a 180°C.",
+          "Fatie o pão e disponha as fatias em uma assadeira. Leve ao forno por cerca de 5-10 minutos para tostar levemente.",
+          "Em uma tigela, misture os tomates picados, manjericão, alho, azeite, sal e pimenta-do-reino.",
+          "Retire o pão do forno, esfregue o dente de alho nas torradas (opcional) e distribua a mistura de tomate sobre as fatias.",
+          "Sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Bruschetta-de-tomate-e-manjericao",
+          "checked_at": "2026-10-25T14:52:58+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5639421/pexels-photo-5639421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de deliciosa bruschetta coberta com tomates, azeitonas e manjericão em uma tábua de madeira.",
+          "bank_id": "5639421",
+          "credit": "Shameel mukkath",
+          "query": "Bruschetta de Tomate e Manjericão"
+        },
+        "id": "bruschetta-de-tomate-e-manjericao-6989fa62"
+      },
+      {
+        "nome": "Banana Assada com Canela",
+        "curso": "sobremesa",
+        "tempo": "15 minutos",
+        "porque": "Sobremesa simples, rápida, leve e saudável, ideal para finalizar o jantar sem pesar.",
+        "tags": [
+          "sobremesa",
+          "fruta",
+          "rapido",
+          "saudavel"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 bananas nanicas maduras",
+          "1 colher de chá de canela em pó",
+          "1 colher de sopa de mel (opcional)"
+        ],
+        "preparo": [
+          "Pré-aqueça o forno a 200°C.",
+          "Corte as bananas ao meio no sentido do comprimento, sem remover a casca.",
+          "Coloque as metades de banana em uma assadeira com a polpa virada para cima.",
+          "Polvilhe a canela sobre as bananas e regue com mel, se desejar.",
+          "Leve ao forno por cerca de 10-15 minutos, ou até as bananas ficarem macias e levemente douradas.",
+          "Sirva quente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Banana-assada-com-canela",
+          "checked_at": "2026-10-25T14:52:59+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5645190/pexels-photo-5645190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um ambiente de café da manhã rústico com peras assadas, fatias de banana e mel sobre uma mesa de madeira.",
+          "bank_id": "5645190",
+          "credit": "Polina ⠀",
+          "query": "Banana Assada com Canela"
+        },
+        "id": "banana-assada-com-canela-9abb72b6"
       }
     ]
   },
