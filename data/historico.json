@@ -5139,5 +5139,233 @@
     ],
     "data": "25/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-rapida-21233a82",
+    "titulo": "Salada Rápida",
+    "tags": [
+      "salada",
+      "rapido",
+      "vegetariano",
+      "leve"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "merengue-de-morango-8744ec5a",
+    "titulo": "Merengue de Morango",
+    "tags": [
+      "doce",
+      "fruta",
+      "classico",
+      "facil"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-mignon-suino-com-legumes-0f652088",
+    "titulo": "Filé Mignon Suíno com Legumes",
+    "tags": [
+      "carne_suina",
+      "grelhado",
+      "equilibrado",
+      "rapido"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-repolho-roxo-com-molho-rose-d20b6dc9",
+    "titulo": "Salada de Repolho Roxo com Molho Rosé",
+    "tags": [
+      "salada",
+      "crocante",
+      "vegetariano",
+      "rapido"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-cavalo-2e640d8f",
+    "titulo": "Bife à Cavalo",
+    "tags": [
+      "carne_vermelha",
+      "classico",
+      "rapido",
+      "frigideira"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-frito-na-air-fryer-c4748c8d",
+    "titulo": "Frango Frito na Air Fryer",
+    "tags": [
+      "frango",
+      "air_fryer",
+      "crocante",
+      "pratico"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-folhas-com-molho-de-iogurte-para-salad-9aa00486",
+    "titulo": "Salada de Folhas com Molho de Iogurte para Salada",
+    "tags": [
+      "salada",
+      "leve",
+      "iogurte",
+      "vegetariano"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "romeu-e-julieta-surpresa-2a8810c8",
+    "titulo": "Romeu e Julieta Surpresa",
+    "tags": [
+      "brasileiro",
+      "doce",
+      "queijo",
+      "facil"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bisteca-com-feijao-branco-e-brocolis-85ea85b2",
+    "titulo": "Bisteca com Feijão-Branco e Brócolis",
+    "tags": [
+      "carne_vermelha",
+      "uma_panela",
+      "equilibrado",
+      "jantar"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-grelhado-com-molho-de-mostarda-e-mel-2e2ff0cb",
+    "titulo": "Frango Grelhado com Molho de Mostarda e Mel",
+    "tags": [
+      "frango",
+      "grelhado",
+      "rapido",
+      "agridoce"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-chocolate-com-3-ingredientes-3903dc99",
+    "titulo": "Mousse de Chocolate com 3 Ingredientes",
+    "tags": [
+      "chocolate",
+      "mousse",
+      "facil",
+      "classico"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salmao-grelhado-com-molho-de-maracuja-701c6efb",
+    "titulo": "Salmão Grelhado com Molho de Maracujá",
+    "tags": [
+      "peixe",
+      "grelhado",
+      "agridoce",
+      "rapido"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "dadinho-de-tapioca-478ce6f4",
+    "titulo": "Dadinho de Tapioca",
+    "tags": [
+      "brasileiro",
+      "petisco",
+      "forno",
+      "queijo"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "risoto-de-cenoura-na-pressao-com-bife-2ffc12dd",
+    "titulo": "Risoto de Cenoura na Pressão com Bife",
+    "tags": [
+      "carne_vermelha",
+      "risoto",
+      "panela_de_pressao",
+      "uma_panela"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "espeto-de-frango-crocante-na-air-fryer-25ef71b9",
+    "titulo": "Espeto de Frango Crocante na Air Fryer",
+    "tags": [
+      "frango",
+      "air_fryer",
+      "espeto",
+      "rapido"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "abacaxi-grelhado-com-coco-20bcf758",
+    "titulo": "Abacaxi Grelhado com Coco",
+    "tags": [
+      "fruta",
+      "grelhado",
+      "tropical",
+      "leve"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "arroz-com-frango-paprica-e-tomate-em-uma-panela--0a08c405",
+    "titulo": "Arroz com Frango, Páprica e Tomate em uma Panela Só",
+    "tags": [
+      "frango",
+      "uma_panela",
+      "rapido",
+      "conforto"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-com-quiabo-1f49ceee",
+    "titulo": "Frango com Quiabo",
+    "tags": [
+      "frango",
+      "classico_brasileiro",
+      "refogado",
+      "conforto"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pudim-de-leite-condensado-moca-00cf903c",
+    "titulo": "Pudim de Leite Condensado Moça",
+    "tags": [
+      "doce",
+      "classico",
+      "cremoso",
+      "facil"
+    ],
+    "data": "25/10/2026",
+    "fonte_status": "unverified"
   }
 ]
