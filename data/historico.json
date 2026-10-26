@@ -5367,5 +5367,17 @@
     ],
     "data": "25/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "brigadeiro-de-colher-bcbbb1d3",
+    "titulo": "Brigadeiro de colher",
+    "tags": [
+      "chocolate",
+      "doce",
+      "rapido",
+      "classico"
+    ],
+    "data": "26/10/2026",
+    "fonte_status": "verified"
   }
 ]

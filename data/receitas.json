@@ -1,184 +1,178 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-25T21:35:37-03:00",
+  "gerado_em": "2026-10-26T14:08:39-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "25/10/2026",
-    "dia_semana": "domingo",
+    "data": "26/10/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Fraldinha na Airfryer",
+        "nome": "Bife de Forno",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Carne vermelha preferida, preparo rápido e prático na airfryer, ideal para jantar a dois com potencial de sobra.",
+        "tempo": "20 minutos",
+        "porque": "Extremamente fácil e rápido, ideal para um jantar prático. Utiliza carne vermelha, a preferida do casal, e é assado no forno com queijo e tomate, evitando frituras.",
         "tags": [
           "carne_vermelha",
-          "airfryer",
+          "forno",
           "rapido",
           "pratico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de fraldinha (cerca de 1 kg)",
-          "2 colheres de sopa de azeite",
-          "1 colher de chá de sal",
-          "1/2 colher de chá de pimenta-do-reino moída na hora",
-          "Opcional: ramos de alecrim ou tomilho"
+          "4 bifes de alcatra (ou outra carne macia)",
+          "1 colher (sopa) de azeite",
+          "Sal e pimenta-do-reino a gosto",
+          "1 cebola pequena fatiada em rodelas",
+          "1 tomate médio fatiado em rodelas",
+          "100g de queijo muçarela fatiado",
+          "Orégano a gosto"
         ],
         "preparo": [
-          "Tempere a fraldinha com azeite, sal e pimenta-do-reino, massageando bem a carne.",
-          "Pré-aqueça a airfryer a 200°C por 5 minutos.",
-          "Coloque a fraldinha na cesta da airfryer, se couber, adicione os ramos de alecrim ou tomilho.",
-          "Asse por 15 minutos de um lado, vire a carne e asse por mais 10 a 15 minutos, ou até atingir o ponto desejado.",
-          "Retire da airfryer, cubra com papel alumínio e deixe descansar por 5 minutos antes de fatiar e servir."
+          "Tempere os bifes com sal e pimenta-do-reino.",
+          "Unte uma assadeira com azeite e disponha os bifes.",
+          "Cubra cada bife com rodelas de cebola e tomate.",
+          "Adicione as fatias de queijo muçarela por cima.",
+          "Polvilhe orégano a gosto.",
+          "Leve ao forno pré-aquecido a 180°C por 15 a 20 minutos, ou até o queijo derreter e a carne estar no ponto desejado."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receitas/322967-fraldinha-na-airfryer.html",
-          "checked_at": "2026-10-25T14:52:56+00:00"
+          "status": "verified",
+          "url": "https://anamariabraga.globo.com/receita/bife-de-forno/",
+          "title": "Bife de forno",
+          "domain": "anamariabraga.globo.com",
+          "confidence": 1.0,
+          "checked_at": "2026-10-26T17:11:03+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/28525114/pexels-photo-28525114.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa fraldinha grelhada servida com acompanhamentos ao estilo mexicano, incluindo queijo, feijão refrito e molhos.",
-          "bank_id": "28525114",
-          "credit": "Alejandro Aznar",
-          "query": "Fraldinha na Airfryer"
+          "kind": "source",
+          "url": "https://static.clubedaanamariabraga.com.br/wp-content/uploads/2021/01/anamariabraga.png",
+          "alt": "Bife de Forno"
         },
-        "id": "fraldinha-na-airfryer-f009b797"
+        "id": "bife-de-forno-25181b12"
       },
       {
-        "nome": "Bife de Contrafilé com Chimichurri",
+        "nome": "Picanha assada com sal grosso",
         "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Carne vermelha preferida, preparo rápido na grelha ou frigideira, molho fresco e saboroso, ideal para um jantar especial.",
+        "tempo": "45 minutos",
+        "porque": "Carne vermelha preferida, assada no forno de forma prática e com um sabor incrível. A técnica do sal grosso garante uma carne úmida e suculenta, sem sujar a churrasqueira.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
-          "molho_fresco",
-          "rapido"
+          "forno",
+          "assado",
+          "especial"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "2 bifes de contrafilé (cerca de 200g cada)",
-          "1 colher de sopa de azeite",
-          "Sal e pimenta-do-reino a gosto",
-          "Para o chimichurri:",
-          "1/2 xícara de salsinha picada",
-          "2 dentes de alho picados",
-          "1/4 xícara de azeite extra virgem",
-          "2 colheres de sopa de vinagre de vinho tinto",
-          "1/2 colher de chá de orégano seco",
-          "1/4 colher de chá de pimenta calabresa (opcional)",
-          "Sal a gosto"
+          "1,2 kg de picanha em peça",
+          "4 claras de ovo",
+          "1 kg de sal grosso",
+          "½ xícara (chá) de farinha de trigo",
+          "Ramos de tomilho fresco a gosto"
         ],
         "preparo": [
-          "Prepare o chimichurri: misture a salsinha, alho, azeite, vinagre, orégano, pimenta calabresa e sal em uma tigela. Reserve.",
-          "Tempere os bifes de contrafilé com sal e pimenta-do-reino dos dois lados.",
-          "Aqueça uma frigideira ou grelha em fogo alto com o azeite.",
-          "Grelhe os bifes por 3 a 4 minutos de cada lado para um ponto malpassado a médio, ou até o ponto desejado.",
-          "Retire os bifes da frigideira, deixe descansar por 2 minutos e sirva com o chimichurri por cima."
+          "Preaqueça o forno a 220 ºC.",
+          "Em uma tigela, misture o sal grosso, as claras e a farinha de trigo até obter uma pasta.",
+          "Em uma assadeira, espalhe 1/3 da mistura de sal, formando uma cama para a carne.",
+          "Disponha os ramos de tomilho sobre o sal e coloque a picanha (com a gordura para cima) por cima.",
+          "Cubra toda a picanha com o restante da mistura de sal, pressionando bem.",
+          "Leve ao forno e diminua a temperatura para 200 °C. Asse por 45 minutos para carne ao ponto.",
+          "Retire do forno, quebre a crosta de sal e fatie para servir."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bife-de-contrafile-com-chimichurri",
-          "checked_at": "2026-10-25T14:52:57+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/picanha-assada-com-sal-grosso",
+          "title": "Picanha assada com sal grosso - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-26T17:11:04+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/11089568/pexels-photo-11089568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Bife grelhado chiando com chimichurri, servido com batatas assadas e tomates frescos em uma tábua de ardósia.",
-          "bank_id": "11089568",
-          "credit": "Анатолий Андреев",
-          "query": "Bife de Contrafilé com Chimichurri"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-3589-picanha-assada-com-sal-grosso.webp",
+          "alt": "Picanha assada com sal grosso"
         },
-        "id": "bife-de-contrafile-com-chimichurri-803e16db"
+        "id": "picanha-assada-com-sal-grosso-9a4c1b1f"
       },
       {
-        "nome": "Bruschetta de Tomate e Manjericão",
+        "nome": "Salada de tomate com azeite crocante",
         "curso": "entrada",
         "tempo": "15 minutos",
-        "porque": "Entrada leve, fresca e rápida de preparar, complementa bem os pratos principais de carne.",
+        "porque": "Uma entrada leve, fresca e rápida, ideal para abrir o apetite. A combinação de tomate com azeite crocante oferece uma textura interessante e sabor marcante, sem fritura.",
         "tags": [
-          "entrada",
           "vegetariano",
+          "leve",
           "rapido",
-          "fresco"
+          "salada"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 baguete pequena ou pão italiano fatiado",
-          "2 tomates maduros picados",
-          "1/4 xícara de folhas de manjericão fresco",
-          "1 dente de alho pequeno, picado",
-          "2 colheres de sopa de azeite extra virgem",
-          "Sal e pimenta-do-reino a gosto"
+          "4 tomates maduros (mas firmes)",
+          "2 dentes de alho",
+          "½ xícara (chá) de azeite extra virgem",
+          "Folhas de manjericão fresco a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Pré-aqueça o forno a 180°C.",
-          "Fatie o pão e disponha as fatias em uma assadeira. Leve ao forno por cerca de 5-10 minutos para tostar levemente.",
-          "Em uma tigela, misture os tomates picados, manjericão, alho, azeite, sal e pimenta-do-reino.",
-          "Retire o pão do forno, esfregue o dente de alho nas torradas (opcional) e distribua a mistura de tomate sobre as fatias.",
-          "Sirva imediatamente."
+          "Lave os tomates e corte-os em rodelas ou gomos. Arrume-os em um prato de servir.",
+          "Descasque e pique finamente os dentes de alho.",
+          "Em uma frigideira pequena, aqueça o azeite em fogo baixo. Adicione o alho picado e cozinhe até dourar levemente e ficar crocante.",
+          "Retire o azeite com o alho crocante do fogo e regue os tomates.",
+          "Tempere a salada com sal e pimenta-do-reino a gosto.",
+          "Finalize com folhas frescas de manjericão e sirva imediatamente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bruschetta-de-tomate-e-manjericao",
-          "checked_at": "2026-10-25T14:52:58+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
+          "title": "Salada de tomate com azeite crocante - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-26T17:11:04+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/5639421/pexels-photo-5639421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de deliciosa bruschetta coberta com tomates, azeitonas e manjericão em uma tábua de madeira.",
-          "bank_id": "5639421",
-          "credit": "Shameel mukkath",
-          "query": "Bruschetta de Tomate e Manjericão"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
+          "alt": "Salada de tomate com azeite crocante"
         },
-        "id": "bruschetta-de-tomate-e-manjericao-6989fa62"
+        "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
       },
       {
-        "nome": "Banana Assada com Canela",
+        "nome": "Brigadeiro de colher",
         "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Sobremesa simples, rápida, leve e saudável, ideal para finalizar o jantar sem pesar.",
+        "tempo": "20 minutos",
+        "porque": "Um clássico brasileiro, rápido e fácil de preparar. A versão com cacau em pó e leite oferece uma cremosidade extra e um sabor intenso, perfeito para finalizar o jantar.",
         "tags": [
-          "sobremesa",
-          "fruta",
+          "chocolate",
+          "doce",
           "rapido",
-          "saudavel"
+          "classico"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "2 bananas nanicas maduras",
-          "1 colher de chá de canela em pó",
-          "1 colher de sopa de mel (opcional)"
+          "1 lata de leite condensado (395 g)",
+          "1⅓ de xícara (chá) de leite",
+          "2 colheres (sopa) de cacau em pó",
+          "1 colher (sopa) de manteiga"
         ],
         "preparo": [
-          "Pré-aqueça o forno a 200°C.",
-          "Corte as bananas ao meio no sentido do comprimento, sem remover a casca.",
-          "Coloque as metades de banana em uma assadeira com a polpa virada para cima.",
-          "Polvilhe a canela sobre as bananas e regue com mel, se desejar.",
-          "Leve ao forno por cerca de 10-15 minutos, ou até as bananas ficarem macias e levemente douradas.",
-          "Sirva quente."
+          "Em uma panela média, coloque o leite e o cacau em pó. Leve ao fogo médio e mexa até dissolver completamente.",
+          "Retire a panela do fogo, junte o leite condensado e a manteiga.",
+          "Volte a panela ao fogo médio e mexa sem parar, até o brigadeiro desgrudar do fundo da panela (cerca de 20 minutos).",
+          "Transfira para um recipiente e sirva quente ou frio."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Banana-assada-com-canela",
-          "checked_at": "2026-10-25T14:52:59+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/brigadeiro-de-colher",
+          "title": "Brigadeiro de colher da Rita Lobo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-26T17:11:04+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/5645190/pexels-photo-5645190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um ambiente de café da manhã rústico com peras assadas, fatias de banana e mel sobre uma mesa de madeira.",
-          "bank_id": "5645190",
-          "credit": "Polina ⠀",
-          "query": "Banana Assada com Canela"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9964-blog-brigadeiro-de-colher-2.webp",
+          "alt": "Brigadeiro de colher"
         },
-        "id": "banana-assada-com-canela-9abb72b6"
+        "id": "brigadeiro-de-colher-bcbbb1d3"
       }
     ]
   },
