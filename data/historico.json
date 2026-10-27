@@ -5379,5 +5379,29 @@
     ],
     "data": "26/10/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "bife-grelhado-com-batatas-laminadas-cobertas-de--06bd4081",
+    "titulo": "Bife Grelhado com Batatas Laminadas Cobertas de Bacon e Queijo ao Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "grelhado",
+      "prato_completo"
+    ],
+    "data": "27/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-suina-ao-molho-oriental-b90cc14e",
+    "titulo": "Carne Suína ao Molho Oriental",
+    "tags": [
+      "carne_de_porco",
+      "refogado",
+      "oriental",
+      "rapido"
+    ],
+    "data": "27/10/2026",
+    "fonte_status": "unverified"
   }
 ]

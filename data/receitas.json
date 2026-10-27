@@ -1,178 +1,207 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-26T14:08:39-03:00",
+  "gerado_em": "2026-10-27T13:13:13-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "26/10/2026",
-    "dia_semana": "segunda",
+    "data": "27/10/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Bife de Forno",
-        "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Extremamente fácil e rápido, ideal para um jantar prático. Utiliza carne vermelha, a preferida do casal, e é assado no forno com queijo e tomate, evitando frituras.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
-          "rapido",
-          "pratico"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "4 bifes de alcatra (ou outra carne macia)",
-          "1 colher (sopa) de azeite",
-          "Sal e pimenta-do-reino a gosto",
-          "1 cebola pequena fatiada em rodelas",
-          "1 tomate médio fatiado em rodelas",
-          "100g de queijo muçarela fatiado",
-          "Orégano a gosto"
-        ],
-        "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino.",
-          "Unte uma assadeira com azeite e disponha os bifes.",
-          "Cubra cada bife com rodelas de cebola e tomate.",
-          "Adicione as fatias de queijo muçarela por cima.",
-          "Polvilhe orégano a gosto.",
-          "Leve ao forno pré-aquecido a 180°C por 15 a 20 minutos, ou até o queijo derreter e a carne estar no ponto desejado."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://anamariabraga.globo.com/receita/bife-de-forno/",
-          "title": "Bife de forno",
-          "domain": "anamariabraga.globo.com",
-          "confidence": 1.0,
-          "checked_at": "2026-10-26T17:11:03+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://static.clubedaanamariabraga.com.br/wp-content/uploads/2021/01/anamariabraga.png",
-          "alt": "Bife de Forno"
-        },
-        "id": "bife-de-forno-25181b12"
-      },
-      {
-        "nome": "Picanha assada com sal grosso",
+        "nome": "Bife Grelhado com Batatas Laminadas Cobertas de Bacon e Queijo ao Forno",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Carne vermelha preferida, assada no forno de forma prática e com um sabor incrível. A técnica do sal grosso garante uma carne úmida e suculenta, sem sujar a churrasqueira.",
+        "porque": "Carne vermelha preferida, preparo combinado (grelha e forno) para um sabor defumado e gratinado. É um prato completo e substancioso, com potencial para sobras.",
         "tags": [
           "carne_vermelha",
           "forno",
-          "assado",
-          "especial"
+          "grelhado",
+          "prato_completo"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1,2 kg de picanha em peça",
-          "4 claras de ovo",
-          "1 kg de sal grosso",
-          "½ xícara (chá) de farinha de trigo",
-          "Ramos de tomilho fresco a gosto"
+          "Para as Batatas:",
+          "1 kg de batata",
+          "200 g de bacon picado",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 colher (sopa) de páprica doce",
+          "Cebolinha a gosto",
+          "Salsinha a gosto",
+          "200 g de queijo cheddar",
+          "100 g de muçarela ralada ou picada",
+          "Sal a gosto",
+          "Para o Molho Especial:",
+          "5 dentes de alho sem pele",
+          "500 g de maionese",
+          "Salsinha a gosto",
+          "Orégano a gosto",
+          "Suco de 1/2 limão",
+          "Para a Carne:",
+          "2 bifes de contrafilé (200 g cada)",
+          "Sal a gosto",
+          "Pimenta a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 220 ºC.",
-          "Em uma tigela, misture o sal grosso, as claras e a farinha de trigo até obter uma pasta.",
-          "Em uma assadeira, espalhe 1/3 da mistura de sal, formando uma cama para a carne.",
-          "Disponha os ramos de tomilho sobre o sal e coloque a picanha (com a gordura para cima) por cima.",
-          "Cubra toda a picanha com o restante da mistura de sal, pressionando bem.",
-          "Leve ao forno e diminua a temperatura para 200 °C. Asse por 45 minutos para carne ao ponto.",
-          "Retire do forno, quebre a crosta de sal e fatie para servir."
+          "Faça cortes nas batatas em formato espiral, tempere com sal e páprica, e coloque-as em uma assadeira com o bacon picado.",
+          "Leve ao forno preaquecido a 160°C por 30 minutos.",
+          "Enquanto as batatas assam, prepare o molho: bata todos os ingredientes do molho especial no liquidificador até obter uma mistura homogênea.",
+          "Retire as batatas do forno, adicione os tomates, a cebola, a cebolinha, a salsinha, o cheddar e a muçarela. Retorne ao forno por mais 10 minutos.",
+          "Aqueça uma frigideira em fogo alto, tempere os bifes com sal e pimenta. Grelhe um dos lados até que a umidade comece a aparecer na parte superior.",
+          "Vire os bifes e frite por mais três minutos, ou até atingir o ponto de cozimento desejado.",
+          "Sirva o bife grelhado com as batatas gratinadas e o molho especial."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/picanha-assada-com-sal-grosso",
-          "title": "Picanha assada com sal grosso - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-26T17:11:04+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-10-27T16:14:41+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-3589-picanha-assada-com-sal-grosso.webp",
-          "alt": "Picanha assada com sal grosso"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/7783361/pexels-photo-7783361.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de deliciosas batatas fritas cobertas com queijo derretido e bacon, acompanhadas de fatias de limão.",
+          "bank_id": "7783361",
+          "credit": "Daniel Fernandez",
+          "query": "Bife Grelhado com Batatas Laminadas Cobertas de Bacon e Queijo ao Forno"
         },
-        "id": "picanha-assada-com-sal-grosso-9a4c1b1f"
+        "id": "bife-grelhado-com-batatas-laminadas-cobertas-de--06bd4081"
       },
       {
-        "nome": "Salada de tomate com azeite crocante",
+        "nome": "Carne Suína ao Molho Oriental",
+        "curso": "principal",
+        "tempo": "20 minutos",
+        "porque": "Opção de carne de porco com um toque oriental, rica em vegetais e pronta rapidamente na panela. É uma alternativa prática e saborosa para variar o cardápio.",
+        "tags": [
+          "carne_de_porco",
+          "refogado",
+          "oriental",
+          "rapido"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 colher (sopa) de gengibre picado",
+          "2 colheres (sopa) de Molho Shoyu Satis!® Tradicional®",
+          "1 e 1/2 colher (sopa) de amido de milho",
+          "500 g de filé mignon suíno, cortado em tiras",
+          "1 colher (sopa) de azeite de oliva",
+          "1 cebola pequena picada",
+          "1 dente de alho picado",
+          "1/2 pimentão vermelho cortado em cubos (70 g)",
+          "1 pitada de pimenta-do-reino",
+          "1 xícara (chá) de água (200 ml)",
+          "Floretes de 1/2 maço de brócolis japonês (150 g)"
+        ],
+        "preparo": [
+          "Em uma tigela pequena, combine o gengibre, o Molho Shoyu Satis!® e o amido de milho. Misture bem e reserve.",
+          "Tempere as tiras de filé mignon suíno com sal e pimenta-do-reino a gosto.",
+          "Aqueça o azeite de oliva em uma panela grande ou wok em fogo alto. Doure as tiras de carne suína e retire da panela, reservando.",
+          "Na mesma panela, refogue a cebola picada, o alho picado e o pimentão vermelho em cubos até que fiquem macios.",
+          "Adicione a água e os floretes de brócolis, cozinhando por alguns minutos até que o brócolis esteja al dente.",
+          "Retorne a carne suína à panela e adicione a mistura reservada de shoyu e amido de milho.",
+          "Cozinhe, mexendo continuamente, até que o molho engrosse e envolva a carne e os vegetais. Sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-10-27T16:14:41+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/34139149/pexels-photo-34139149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up do chef servindo dois pratos de refogado com carne e vegetais.",
+          "bank_id": "34139149",
+          "credit": "Th2city Santana",
+          "query": "Carne Suína ao Molho Oriental"
+        },
+        "id": "carne-suina-ao-molho-oriental-b90cc14e"
+      },
+      {
+        "nome": "Bruschetta de tomate",
         "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, fresca e rápida, ideal para abrir o apetite. A combinação de tomate com azeite crocante oferece uma textura interessante e sabor marcante, sem fritura.",
+        "tempo": "15-20 minutos",
+        "porque": "Entrada clássica italiana, leve, fresca e muito fácil de preparar, utilizando ingredientes simples e acessíveis. É rápida e perfeita para abrir o apetite.",
         "tags": [
           "vegetariano",
-          "leve",
-          "rapido",
-          "salada"
+          "entrada_rapida",
+          "italiana",
+          "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "4 tomates maduros (mas firmes)",
-          "2 dentes de alho",
-          "½ xícara (chá) de azeite extra virgem",
-          "Folhas de manjericão fresco a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "1 baguete pequena",
+          "2 tomates grandes maduros",
+          "1 dente de alho",
+          "2 colheres (sopa) de azeite",
+          "2 ramos de manjericão",
+          "Sal a gosto",
+          "Pimenta a gosto"
         ],
         "preparo": [
-          "Lave os tomates e corte-os em rodelas ou gomos. Arrume-os em um prato de servir.",
-          "Descasque e pique finamente os dentes de alho.",
-          "Em uma frigideira pequena, aqueça o azeite em fogo baixo. Adicione o alho picado e cozinhe até dourar levemente e ficar crocante.",
-          "Retire o azeite com o alho crocante do fogo e regue os tomates.",
-          "Tempere a salada com sal e pimenta-do-reino a gosto.",
-          "Finalize com folhas frescas de manjericão e sirva imediatamente."
+          "Preaqueça o forno a 180 ºC (temperatura média).",
+          "Corte a baguete em fatias de 1 cm de espessura.",
+          "Lave, seque e corte os tomates ao meio, descarte as sementes e pique-os em cubos pequenos.",
+          "Em uma tigela, misture os tomates picados com as folhas de manjericão, 2 colheres (sopa) de azeite, sal e pimenta a gosto.",
+          "Regue as fatias de pão com um fio de azeite e leve ao forno para tostar levemente.",
+          "Retire o pão do forno e esfregue o dente de alho descascado sobre cada fatia ainda quente.",
+          "Distribua a mistura de tomate sobre as fatias de pão tostadas e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
-          "title": "Salada de tomate com azeite crocante - Panelinha",
+          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
+          "title": "Bruschetta de tomate - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-26T17:11:04+00:00"
+          "checked_at": "2026-10-27T16:14:42+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
-          "alt": "Salada de tomate com azeite crocante"
+          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
+          "alt": "Bruschetta de tomate"
         },
-        "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
+        "id": "bruschetta-de-tomate-008b1157"
       },
       {
-        "nome": "Brigadeiro de colher",
+        "nome": "Pudim rápido de tapioca",
         "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Um clássico brasileiro, rápido e fácil de preparar. A versão com cacau em pó e leite oferece uma cremosidade extra e um sabor intenso, perfeito para finalizar o jantar.",
+        "tempo": "15-20 minutos (preparo) + tempo de gelad",
+        "porque": "Sobremesa leve, rápida e versátil, perfeita para finalizar o jantar sem complicação. Pode ser acompanhada de frutas ou geleias, e é fácil de fazer.",
         "tags": [
-          "chocolate",
           "doce",
           "rapido",
-          "classico"
+          "leve",
+          "sem_forno"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 lata de leite condensado (395 g)",
-          "1⅓ de xícara (chá) de leite",
-          "2 colheres (sopa) de cacau em pó",
-          "1 colher (sopa) de manteiga"
+          "1 xícara (chá) de leite",
+          "2 colheres (sopa) de tapioca granulada",
+          "1 colher (sopa) de açúcar",
+          "Acompanhamento a gosto (ex: doce de abóbora, geleia, frutas frescas)"
         ],
         "preparo": [
-          "Em uma panela média, coloque o leite e o cacau em pó. Leve ao fogo médio e mexa até dissolver completamente.",
-          "Retire a panela do fogo, junte o leite condensado e a manteiga.",
-          "Volte a panela ao fogo médio e mexa sem parar, até o brigadeiro desgrudar do fundo da panela (cerca de 20 minutos).",
-          "Transfira para um recipiente e sirva quente ou frio."
+          "Em uma panela pequena, misture o leite, a tapioca granulada e o açúcar.",
+          "Leve a panela ao fogo médio, mexendo sempre para não grudar no fundo.",
+          "Continue cozinhando e mexendo até que a mistura engrosse e a tapioca esteja cozida e transparente.",
+          "Retire do fogo e distribua o pudim em duas taças ou potinhos individuais.",
+          "Deixe esfriar completamente em temperatura ambiente.",
+          "Leve à geladeira por pelo menos 2 horas para firmar e gelar bem.",
+          "Sirva o pudim gelado, acompanhado de doce de abóbora, geleia ou frutas frescas a gosto."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/brigadeiro-de-colher",
-          "title": "Brigadeiro de colher da Rita Lobo - Panelinha",
+          "url": "https://panelinha.com.br/receita/pudim-rapido-de-tapioca",
+          "title": "Pudim rápido de tapioca - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-26T17:11:04+00:00"
+          "checked_at": "2026-10-27T16:14:43+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9964-blog-brigadeiro-de-colher-2.webp",
-          "alt": "Brigadeiro de colher"
+          "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
+          "alt": "Pudim rápido de tapioca"
         },
-        "id": "brigadeiro-de-colher-bcbbb1d3"
+        "id": "pudim-rapido-de-tapioca-484a6aab"
       }
     ]
   },
