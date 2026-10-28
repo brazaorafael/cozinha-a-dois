@@ -1,192 +1,168 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-27T13:13:13-03:00",
+  "gerado_em": "2026-10-28T14:00:21-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "27/10/2026",
-    "dia_semana": "terça",
+    "data": "28/10/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Bife Grelhado com Batatas Laminadas Cobertas de Bacon e Queijo ao Forno",
+        "nome": "Músculo com Cerveja na Pressão",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Carne vermelha preferida, preparo combinado (grelha e forno) para um sabor defumado e gratinado. É um prato completo e substancioso, com potencial para sobras.",
+        "porque": "Carne vermelha macia e suculenta, com um molho saboroso, preparada de forma rápida na panela de pressão. É uma ótima opção para um jantar nutritivo e rende sobras para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "forno",
-          "grelhado",
-          "prato_completo"
+          "panela_de_pressao",
+          "prato_principal",
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "Para as Batatas:",
-          "1 kg de batata",
-          "200 g de bacon picado",
-          "2 tomates picados",
-          "1 cebola picada",
-          "1 colher (sopa) de páprica doce",
-          "Cebolinha a gosto",
-          "Salsinha a gosto",
-          "200 g de queijo cheddar",
-          "100 g de muçarela ralada ou picada",
-          "Sal a gosto",
-          "Para o Molho Especial:",
-          "5 dentes de alho sem pele",
-          "500 g de maionese",
-          "Salsinha a gosto",
-          "Orégano a gosto",
-          "Suco de 1/2 limão",
-          "Para a Carne:",
-          "2 bifes de contrafilé (200 g cada)",
-          "Sal a gosto",
-          "Pimenta a gosto"
+          "1 kg de músculo bovino em cubos de 3 cm",
+          "1 cebola grande picada",
+          "2 dentes de alho picados",
+          "1 folha de louro",
+          "1 lata de cerveja preta (350 ml)",
+          "1 xícara (chá) de água",
+          "1 colher (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Faça cortes nas batatas em formato espiral, tempere com sal e páprica, e coloque-as em uma assadeira com o bacon picado.",
-          "Leve ao forno preaquecido a 160°C por 30 minutos.",
-          "Enquanto as batatas assam, prepare o molho: bata todos os ingredientes do molho especial no liquidificador até obter uma mistura homogênea.",
-          "Retire as batatas do forno, adicione os tomates, a cebola, a cebolinha, a salsinha, o cheddar e a muçarela. Retorne ao forno por mais 10 minutos.",
-          "Aqueça uma frigideira em fogo alto, tempere os bifes com sal e pimenta. Grelhe um dos lados até que a umidade comece a aparecer na parte superior.",
-          "Vire os bifes e frite por mais três minutos, ou até atingir o ponto de cozimento desejado.",
-          "Sirva o bife grelhado com as batatas gratinadas e o molho especial."
+          "Tempere os cubos de músculo com sal e pimenta-do-reino a gosto.",
+          "Na panela de pressão, aqueça o azeite em fogo médio e refogue a cebola e o alho até dourarem.",
+          "Adicione a carne temperada, a folha de louro, a cerveja preta e a água à panela.",
+          "Feche a panela de pressão e, quando começar a chiar, abaixe o fogo e cozinhe por 30 minutos.",
+          "Desligue o fogo e espere a pressão sair naturalmente antes de abrir a panela.",
+          "Verifique o cozimento da carne; se necessário, cozinhe por mais alguns minutos sem pressão para reduzir o molho ao seu gosto."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-27T16:14:41+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/musculo-com-cerveja-na-pressao",
+          "title": "Músculo com cerveja na pressão - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-28T17:03:25+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/7783361/pexels-photo-7783361.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de deliciosas batatas fritas cobertas com queijo derretido e bacon, acompanhadas de fatias de limão.",
-          "bank_id": "7783361",
-          "credit": "Daniel Fernandez",
-          "query": "Bife Grelhado com Batatas Laminadas Cobertas de Bacon e Queijo ao Forno"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-4122-ayu6419-2.webp",
+          "alt": "Músculo com Cerveja na Pressão"
         },
-        "id": "bife-grelhado-com-batatas-laminadas-cobertas-de--06bd4081"
+        "id": "musculo-com-cerveja-na-pressao-787afe36"
       },
       {
-        "nome": "Carne Suína ao Molho Oriental",
+        "nome": "Filé Grelhado com Legumes",
         "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Opção de carne de porco com um toque oriental, rica em vegetais e pronta rapidamente na panela. É uma alternativa prática e saborosa para variar o cardápio.",
+        "tempo": "50 minutos",
+        "porque": "Um prato principal equilibrado, com carne vermelha grelhada e uma variedade de legumes cozidos no ponto certo. É uma opção saudável e colorida, perfeita para um jantar a dois e pode render uma porção extra.",
         "tags": [
-          "carne_de_porco",
-          "refogado",
-          "oriental",
-          "rapido"
+          "carne_vermelha",
+          "grelhado",
+          "vegetais",
+          "saudavel"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 colher (sopa) de gengibre picado",
-          "2 colheres (sopa) de Molho Shoyu Satis!® Tradicional®",
-          "1 e 1/2 colher (sopa) de amido de milho",
-          "500 g de filé mignon suíno, cortado em tiras",
-          "1 colher (sopa) de azeite de oliva",
-          "1 cebola pequena picada",
-          "1 dente de alho picado",
-          "1/2 pimentão vermelho cortado em cubos (70 g)",
-          "1 pitada de pimenta-do-reino",
-          "1 xícara (chá) de água (200 ml)",
-          "Floretes de 1/2 maço de brócolis japonês (150 g)"
+          "4 bifes de contrafilé (cerca de 150g cada)",
+          "1 cenoura grande",
+          "1/2 couve-flor pequena",
+          "1 xícara (chá) de vagem picada",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Em uma tigela pequena, combine o gengibre, o Molho Shoyu Satis!® e o amido de milho. Misture bem e reserve.",
-          "Tempere as tiras de filé mignon suíno com sal e pimenta-do-reino a gosto.",
-          "Aqueça o azeite de oliva em uma panela grande ou wok em fogo alto. Doure as tiras de carne suína e retire da panela, reservando.",
-          "Na mesma panela, refogue a cebola picada, o alho picado e o pimentão vermelho em cubos até que fiquem macios.",
-          "Adicione a água e os floretes de brócolis, cozinhando por alguns minutos até que o brócolis esteja al dente.",
-          "Retorne a carne suína à panela e adicione a mistura reservada de shoyu e amido de milho.",
-          "Cozinhe, mexendo continuamente, até que o molho engrosse e envolva a carne e os vegetais. Sirva imediatamente."
+          "Corte a cenoura em rodelas e a couve-flor em floretes pequenos. Cozinhe a cenoura, couve-flor e vagem em água fervente com sal até ficarem al dente. Escorra e reserve.",
+          "Tempere os bifes de contrafilé com sal e pimenta-do-reino a gosto.",
+          "Aqueça uma grelha ou frigideira antiaderente com um fio de azeite em fogo alto.",
+          "Grelhe os bifes por 3 a 4 minutos de cada lado, ou até atingir o ponto desejado.",
+          "Na mesma grelha, adicione um pouco mais de azeite e salteie os legumes cozidos por alguns minutos.",
+          "Sirva os bifes grelhados acompanhados dos legumes salteados."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-27T16:14:41+00:00"
+          "status": "verified",
+          "url": "https://guiadacozinha.com.br/receitas/file-grelhado-com-legumes/",
+          "title": "Filé grelhado com legumes: comece o ano com o prato saudável",
+          "domain": "guiadacozinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-10-28T17:03:28+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/34139149/pexels-photo-34139149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up do chef servindo dois pratos de refogado com carne e vegetais.",
-          "bank_id": "34139149",
-          "credit": "Th2city Santana",
-          "query": "Carne Suína ao Molho Oriental"
+          "kind": "source",
+          "url": "https://guiadacozinha.com.br/wp-content/uploads/2013/01/filegrelhadocomlegumes.webp",
+          "alt": "Filé Grelhado com Legumes"
         },
-        "id": "carne-suina-ao-molho-oriental-b90cc14e"
+        "id": "file-grelhado-com-legumes-900ceaa3"
       },
       {
-        "nome": "Bruschetta de tomate",
+        "nome": "Salada de Tomate com Azeite Crocante",
         "curso": "entrada",
-        "tempo": "15-20 minutos",
-        "porque": "Entrada clássica italiana, leve, fresca e muito fácil de preparar, utilizando ingredientes simples e acessíveis. É rápida e perfeita para abrir o apetite.",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada leve e refrescante, com um toque especial do azeite crocante que adiciona textura e sabor. É rápida de preparar e ideal para abrir o apetite.",
         "tags": [
+          "salada",
           "vegetariano",
-          "entrada_rapida",
-          "italiana",
+          "rapido",
           "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 baguete pequena",
-          "2 tomates grandes maduros",
-          "1 dente de alho",
-          "2 colheres (sopa) de azeite",
-          "2 ramos de manjericão",
-          "Sal a gosto",
-          "Pimenta a gosto"
+          "3 tomates maduros",
+          "½ xícara (chá) de azeite",
+          "3 colheres (sopa) de castanha-de-caju torrada sem sal",
+          "2 colheres (sopa) de semente de girassol",
+          "3 dentes de alho",
+          "1 colher (chá) de semente de coentro",
+          "½ colher (chá) de pimenta calabresa",
+          "3 ramos de alecrim",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 180 ºC (temperatura média).",
-          "Corte a baguete em fatias de 1 cm de espessura.",
-          "Lave, seque e corte os tomates ao meio, descarte as sementes e pique-os em cubos pequenos.",
-          "Em uma tigela, misture os tomates picados com as folhas de manjericão, 2 colheres (sopa) de azeite, sal e pimenta a gosto.",
-          "Regue as fatias de pão com um fio de azeite e leve ao forno para tostar levemente.",
-          "Retire o pão do forno e esfregue o dente de alho descascado sobre cada fatia ainda quente.",
-          "Distribua a mistura de tomate sobre as fatias de pão tostadas e sirva imediatamente."
+          "Pique grosseiramente as castanhas-de-caju e debulhe as folhas de alecrim. Fatie os dentes de alho finamente.",
+          "Em uma frigideira pequena, combine o azeite, as castanhas-de-caju, as sementes de girassol e coentro, a pimenta calabresa, o alecrim e o sal.",
+          "Leve ao fogo baixo por cerca de 10 minutos, mexendo ocasionalmente, até o alho dourar e as castanhas ficarem crocantes. Retire do fogo e reserve.",
+          "Corte os tomates em fatias ou gomos e arrume-os em um prato de servir.",
+          "Regue os tomates com o azeite crocante ainda morno e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
-          "title": "Bruschetta de tomate - Panelinha",
+          "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
+          "title": "Salada de tomate com azeite crocante - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-27T16:14:42+00:00"
+          "checked_at": "2026-10-28T17:03:28+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
-          "alt": "Bruschetta de tomate"
+          "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
+          "alt": "Salada de Tomate com Azeite Crocante"
         },
-        "id": "bruschetta-de-tomate-008b1157"
+        "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
       },
       {
-        "nome": "Pudim rápido de tapioca",
+        "nome": "Pudim Rápido de Tapioca",
         "curso": "sobremesa",
-        "tempo": "15-20 minutos (preparo) + tempo de gelad",
-        "porque": "Sobremesa leve, rápida e versátil, perfeita para finalizar o jantar sem complicação. Pode ser acompanhada de frutas ou geleias, e é fácil de fazer.",
+        "tempo": "25 minutos",
+        "porque": "Uma sobremesa prática e versátil, com sabor suave que permite diversas combinações de acompanhamentos. Fica pronta em poucos minutos de preparo ativo e é perfeita para um doce rápido.",
         "tags": [
-          "doce",
+          "sobremesa",
           "rapido",
-          "leve",
+          "facil",
           "sem_forno"
         ],
         "rende_sobra": true,
         "ingredientes": [
           "1 xícara (chá) de leite",
           "2 colheres (sopa) de tapioca granulada",
-          "1 colher (sopa) de açúcar",
-          "Acompanhamento a gosto (ex: doce de abóbora, geleia, frutas frescas)"
+          "1 colher (sopa) de açúcar"
         ],
         "preparo": [
-          "Em uma panela pequena, misture o leite, a tapioca granulada e o açúcar.",
-          "Leve a panela ao fogo médio, mexendo sempre para não grudar no fundo.",
-          "Continue cozinhando e mexendo até que a mistura engrosse e a tapioca esteja cozida e transparente.",
-          "Retire do fogo e distribua o pudim em duas taças ou potinhos individuais.",
-          "Deixe esfriar completamente em temperatura ambiente.",
-          "Leve à geladeira por pelo menos 2 horas para firmar e gelar bem.",
-          "Sirva o pudim gelado, acompanhado de doce de abóbora, geleia ou frutas frescas a gosto."
+          "Em uma panela, misture o leite e o açúcar. Leve ao fogo médio.",
+          "Assim que surgirem as primeiras bolhas, reduza o fogo e adicione a tapioca granulada.",
+          "Mexa continuamente por cerca de 2 minutos, até que o creme engrosse e a tapioca fique transparente.",
+          "Transfira o creme ainda quente para dois potinhos individuais.",
+          "Leve à geladeira por aproximadamente 20 minutos para firmar.",
+          "Sirva o pudim com o acompanhamento de sua preferência, como doce de abóbora, goiabada ou frutas frescas."
         ],
         "fonte": {
           "status": "verified",
@@ -194,12 +170,12 @@
           "title": "Pudim rápido de tapioca - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-10-27T16:14:43+00:00"
+          "checked_at": "2026-10-28T17:03:29+00:00"
         },
         "imagem": {
           "kind": "source",
           "url": "https://i.panelinha.com.br/i1/bk-7209-pudim-rapido-de-tapioca.webp",
-          "alt": "Pudim rápido de tapioca"
+          "alt": "Pudim Rápido de Tapioca"
         },
         "id": "pudim-rapido-de-tapioca-484a6aab"
       }

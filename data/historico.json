@@ -5403,5 +5403,17 @@
     ],
     "data": "27/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "file-grelhado-com-legumes-900ceaa3",
+    "titulo": "Filé Grelhado com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "vegetais",
+      "saudavel"
+    ],
+    "data": "28/10/2026",
+    "fonte_status": "verified"
   }
 ]
