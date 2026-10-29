@@ -5415,5 +5415,41 @@
     ],
     "data": "28/10/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "bife-de-tira-na-grelha-com-salada-de-batata-e-ru-f7abe1ea",
+    "titulo": "Bife de Tira na Grelha com Salada de Batata e Rúcula",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "29/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "strogonoff-de-carne-2c9e658f",
+    "titulo": "Strogonoff de Carne",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "classico",
+      "rapido"
+    ],
+    "data": "29/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "sobremesa-3-ingredientes-e96e7ae8",
+    "titulo": "Sobremesa 3 Ingredientes",
+    "tags": [
+      "sobremesa",
+      "rapido",
+      "doce",
+      "sem_forno"
+    ],
+    "data": "29/10/2026",
+    "fonte_status": "verified"
   }
 ]
