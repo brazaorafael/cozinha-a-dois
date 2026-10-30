@@ -1,188 +1,189 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-29T14:19:16-03:00",
+  "gerado_em": "2026-10-30T13:56:41-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "29/10/2026",
-    "dia_semana": "quinta",
+    "data": "30/10/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Bife de Tira na Grelha com Salada de Batata e Rúcula",
+        "nome": "Carne de Panela Rápida",
         "curso": "principal",
-        "tempo": "35-40 minutos",
-        "porque": "Carne vermelha grelhada, rápida e equilibrada com carboidrato e vegetais. O preparo da salada acontece enquanto a carne grelha, tornando-o prático para um jantar a dois e com potencial para sobras.",
+        "tempo": "40 minutos",
+        "porque": "Receita de carne vermelha saborosa e prática, feita na panela de pressão para agilizar o preparo, ideal para o jantar e com potencial para sobras. Atende à preferência por carne vermelha e é fácil de fazer.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
-          "rapido",
-          "equilibrado"
+          "panela_de_pressao",
+          "prato_principal",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 bifes de tira (contrafilé) de cerca de 200g cada",
-          "4 batatas médias",
-          "1 maço de rúcula",
-          "2 colheres (sopa) de azeite",
-          "1 colher (sopa) de vinagre de vinho tinto",
-          "1 colher (chá) de mostarda Dijon",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "1 kg de carne (paleta, acém ou músculo) em cubos",
+          "1 cebola grande picada",
+          "3 dentes de alho amassados",
+          "1 tomate picado sem sementes",
+          "1 pimentão verde picado",
+          "1 tablete de caldo de carne",
+          "1/2 xícara (chá) de água",
+          "Sal e pimenta-do-reino a gosto",
+          "Cheiro-verde picado a gosto"
         ],
         "preparo": [
-          "Lave as batatas e cozinhe-as com casca em água fervente com sal até ficarem macias, mas firmes. Escorra e deixe amornar.",
-          "Enquanto as batatas cozinham, tempere os bifes com sal e pimenta-do-reino dos dois lados.",
-          "Aqueça uma grelha ou frigideira pesada em fogo alto. Quando estiver bem quente, coloque os bifes e grelhe por cerca de 3-4 minutos de cada lado para um ponto malpassado, ajustando o tempo conforme sua preferência.",
-          "Retire os bifes da grelha e deixe descansar por alguns minutos em uma tábua antes de fatiar.",
-          "Corte as batatas amornadas em rodelas ou cubos. Lave e seque bem a rúcula.",
-          "Em uma tigela, prepare o molho da salada: misture o azeite, o vinagre e a mostarda. Tempere com sal e pimenta. Junte as batatas e a rúcula ao molho, misture delicadamente.",
-          "Fatie os bifes em tiras e sirva imediatamente com a salada de batata e rúcula."
+          "Em uma panela de pressão, doure a carne em um fio de óleo.",
+          "Adicione a cebola, o alho, o tomate e o pimentão, refogando por alguns minutos.",
+          "Dissolva o tablete de caldo de carne na água e adicione à panela.",
+          "Tempere com sal e pimenta-do-reino a gosto.",
+          "Feche a panela de pressão e, após pegar pressão, cozinhe por 30 minutos.",
+          "Desligue o fogo, espere a pressão sair naturalmente e finalize com cheiro-verde picado."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/bife-de-tira-na-grelha-com-salada-de-batata-e-rucula",
-          "checked_at": "2026-10-29T17:20:47+00:00"
+          "suggested_url": "https://www.tudogostoso.com.br/receita/2890-carne-de-panela-rapida.html",
+          "checked_at": "2026-10-30T16:58:28+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36879799/pexels-photo-36879799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife grelhado com batatas, salada fresca e fatias de maçã em um prato branco.",
-          "bank_id": "36879799",
-          "credit": "Karina Kåsa",
-          "query": "Bife de Tira na Grelha com Salada de Batata e Rúcula"
+          "url": "https://images.pexels.com/photos/2181151/pexels-photo-2181151.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Refogado colorido de carne bovina e legumes variados em uma panela, destacando ingredientes frescos.",
+          "bank_id": "2181151",
+          "credit": "Kleine Beyers",
+          "query": "Carne de Panela Rápida"
         },
-        "id": "bife-de-tira-na-grelha-com-salada-de-batata-e-ru-f7abe1ea"
+        "id": "carne-de-panela-rapida-486731ce"
       },
       {
-        "nome": "Strogonoff de Carne",
+        "nome": "Escondidinho de Carne Moída",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Um clássico da carne vermelha, refogado e pronto em pouco tempo. É um prato substancioso que rende bem para sobras, ideal para o almoço de uma pessoa.",
+        "tempo": "40 minutos",
+        "porque": "Uma opção de carne vermelha completa e reconfortante, preparada no forno, que é prática e rende bem para o jantar e para o almoço do dia seguinte. É uma receita popular e bem avaliada.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "classico",
-          "rapido"
+          "forno",
+          "prato_unico",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 colheres (sopa) de azeite",
-          "100 g de cogumelos paris frescos",
-          "300 g de contra filé limpo em tiras finas",
-          "2 tomates, sem pele e sem sementes, picados",
+          "500 g de carne moída",
+          "1 kg de batatas",
+          "1/2 xícara (chá) de leite",
+          "2 colheres (sopa) de manteiga",
           "1 cebola picada",
-          "1 pitada de noz moscada",
-          "1 colher (chá) de ketchup",
-          "1 colher (chá) de mostarda",
-          "1 lata de creme de leite (ou 1 pote de 200g)",
-          "½ colher (chá) de sal"
+          "2 dentes de alho amassados",
+          "1 lata de molho de tomate",
+          "200 g de queijo mussarela fatiado ou ralado",
+          "Sal, pimenta-do-reino e cheiro-verde a gosto"
         ],
         "preparo": [
-          "Em uma frigideira grande, aqueça 1 colher (sopa) de azeite e doure a carne aos poucos, em fogo alto, para não juntar suco. Reserve a carne.",
-          "Coloque na frigideira o azeite restante e refogue a cebola até ficar transparente.",
-          "Junte a noz-moscada, o ketchup e a mostarda à carne reservada e tempere com o sal. Misture bem.",
-          "Acrescente os cogumelos e os tomates picados à frigideira e misture. Abaixe o fogo, tampe a panela e deixe cozinhar por cerca de 5 minutos.",
-          "Incorpore delicadamente o creme de leite, misturando até aquecer. Retire do fogo antes de ferver.",
-          "Sirva em seguida com arroz branco e batata palha, se desejar."
+          "Cozinhe as batatas até ficarem macias, escorra e amasse para fazer um purê. Adicione o leite, a manteiga, sal e reserve.",
+          "Em uma panela, refogue a cebola e o alho em um fio de óleo. Adicione a carne moída e cozinhe até dourar.",
+          "Acrescente o molho de tomate, tempere com sal, pimenta-do-reino e cheiro-verde. Cozinhe por alguns minutos.",
+          "Em um refratário, faça uma camada com metade do purê de batatas.",
+          "Espalhe a carne moída refogada sobre o purê.",
+          "Cubra com o restante do purê e, por cima, distribua o queijo mussarela.",
+          "Leve ao forno preaquecido a 180°C por cerca de 20 minutos, ou até o queijo gratinar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-29T17:20:47+00:00"
+          "suggested_url": "https://www.tudogostoso.com.br/receita/2012-escondidinho-de-carne-moida.html",
+          "checked_at": "2026-10-30T16:58:29+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34139149/pexels-photo-34139149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up do chef servindo dois pratos de refogado com carne e vegetais.",
-          "bank_id": "34139149",
-          "credit": "Th2city Santana",
-          "query": "Strogonoff de Carne"
+          "url": "https://images.pexels.com/photos/18973339/pexels-photo-18973339.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de carne fresca e carne moída em uma vitrine no mercado San Vito, Costa Rica.",
+          "bank_id": "18973339",
+          "credit": "Luis Kuthe",
+          "query": "Escondidinho de Carne Moída"
         },
-        "id": "strogonoff-de-carne-2c9e658f"
+        "id": "escondidinho-de-carne-moida-8e6627df"
       },
       {
-        "nome": "Patê de Atum com Iogurte",
+        "nome": "Guacamole Simples",
         "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada leve, prática e rápida de preparar, ideal para abrir o apetite sem pesar. Pode ser feito com antecedência e guardado na geladeira.",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, fresca e rápida de preparar, ideal para abrir o apetite. Utiliza ingredientes acessíveis e não está na lista de pratos recentes.",
         "tags": [
           "entrada",
-          "leve",
-          "rapido",
-          "sem_fritura"
+          "vegetariano",
+          "fresco",
+          "rapido"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "2 potes de iogurte natural sem açúcar (170 g cada)",
-          "1 lata de atum em pedaços em água (170 g)",
-          "8 azeitonas verdes sem caroço",
-          "Raspas de 1 limão",
-          "2 ramos de cebolinha",
-          "2 colheres (chá) de azeite",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto (opcional)"
+          "2 abacates maduros",
+          "1/2 cebola roxa picada finamente",
+          "1 tomate pequeno picado sem sementes",
+          "Suco de 1 limão",
+          "Coentro picado a gosto",
+          "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Em uma tigela, coloque o iogurte, o atum escorrido, as azeitonas picadas, as raspas de limão e a cebolinha picada.",
-          "Regue com o azeite, tempere com sal e pimenta-do-reino moída na hora a gosto.",
-          "Misture bem com uma colher até incorporar todos os ingredientes.",
-          "Sirva imediatamente com torradas ou pães, ou mantenha na geladeira por até 5 dias."
+          "Corte os abacates ao meio, retire o caroço e a polpa, amassando-a com um garfo em uma tigela.",
+          "Adicione a cebola roxa, o tomate picado e o coentro.",
+          "Regue com o suco de limão e tempere com sal e pimenta-do-reino a gosto.",
+          "Misture bem todos os ingredientes até incorporar.",
+          "Sirva imediatamente com torradas, nachos ou como acompanhamento."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/pate-de-atum-com-iogurte",
-          "title": "Patê de atum com iogurte - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-29T17:20:48+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receita/guacamole-simples-da-ana-maria/",
+          "checked_at": "2026-10-30T16:58:31+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9449-blog-pate-de-atum-com-iogurte.webp",
-          "alt": "Patê de Atum com Iogurte"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5848732/pexels-photo-5848732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de chips de tortilha combinados com um molho cremoso de guacamole, ideal para temas de cozinha mexicana.",
+          "bank_id": "5848732",
+          "credit": "Polina Tankilevitch",
+          "query": "Guacamole Simples"
         },
-        "id": "pate-de-atum-com-iogurte-ca024684"
+        "id": "guacamole-simples-38764f34"
       },
       {
-        "nome": "Sobremesa 3 Ingredientes",
+        "nome": "Mousse de Coco com 2 Ingredientes",
         "curso": "sobremesa",
-        "tempo": "15 minutos (mais tempo de geladeira)",
-        "porque": "Uma sobremesa extremamente fácil e rápida, que utiliza poucos ingredientes acessíveis e não requer forno, perfeita para finalizar o jantar com um toque doce.",
+        "tempo": "10 minutos (mais tempo de geladeira)",
+        "porque": "Uma sobremesa extremamente fácil e rápida de fazer, com poucos ingredientes e um sabor leve e refrescante. Perfeita para finalizar o jantar sem complicação e não está na lista de pratos recentes.",
         "tags": [
           "sobremesa",
           "rapido",
-          "doce",
-          "sem_forno"
+          "facil",
+          "coco"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 caixas de leite condensado",
-          "100 ml de suco de limão",
-          "3 pacotes de biscoito cookie"
+          "200 g de marshmallow branco (tipo rolha)",
+          "1 litro de leite de coco",
+          "Coco queimado ralado a gosto (opcional, para decorar)"
         ],
         "preparo": [
-          "Em uma tigela, misture o leite condensado com o suco de limão até obter um creme homogêneo e consistente. Reserve.",
-          "Triture um pacote de biscoito cookie para usar como base ou cobertura, e reserve.",
-          "Em um refratário ou taças individuais, comece com uma camada do creme de leite condensado e limão.",
-          "Em seguida, adicione uma camada de biscoitos cookie inteiros ou quebrados.",
-          "Repita as camadas, alternando creme e biscoitos, até terminar com uma camada do creme.",
-          "Finalize decorando com o biscoito triturado por cima.",
-          "Leve à geladeira por pelo menos 2 horas para firmar antes de servir."
+          "Em uma tigela, junte o marshmallow branco e o leite de coco.",
+          "Leve ao micro-ondas em potência alta por 2 minutos, ou aqueça em uma panela em fogo baixo, mexendo sempre, até o marshmallow derreter completamente.",
+          "Misture bem até obter um creme homogêneo.",
+          "Despeje a mistura em taças individuais ou em um refratário.",
+          "Leve à geladeira por pelo menos 3 horas, ou até firmar.",
+          "Se desejar, decore com coco queimado ralado antes de servir."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.tudogostoso.com.br/receita/308591-sobremesa-3-ingredientes.html",
-          "title": "Sobremesa 3 ingredientes",
-          "domain": "tudogostoso.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-10-29T17:20:48+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receita/mousse-de-coco-com-2-ingredientes/",
+          "checked_at": "2026-10-30T16:58:33+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://static.itdg.com.br/images/1200-675/6c7310341a049f4b27ea596079346e99/344884-original.jpg",
-          "alt": "Sobremesa 3 Ingredientes"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/11287582/pexels-photo-11287582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa mousse de chocolate em camadas em um copo de vidro transparente com raspas de chocolate, ao lado dos ingredientes.",
+          "bank_id": "11287582",
+          "credit": "Harish .P",
+          "query": "Mousse de Coco com 2 Ingredientes"
         },
-        "id": "sobremesa-3-ingredientes-e96e7ae8"
+        "id": "mousse-de-coco-com-2-ingredientes-c7dd533a"
       }
     ]
   },

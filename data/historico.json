@@ -5451,5 +5451,29 @@
     ],
     "data": "29/10/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "escondidinho-de-carne-moida-8e6627df",
+    "titulo": "Escondidinho de Carne Moída",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "prato_unico",
+      "sobra"
+    ],
+    "data": "30/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "guacamole-simples-38764f34",
+    "titulo": "Guacamole Simples",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "fresco",
+      "rapido"
+    ],
+    "data": "30/10/2026",
+    "fonte_status": "unverified"
   }
 ]
