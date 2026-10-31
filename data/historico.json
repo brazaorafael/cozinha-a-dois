@@ -5475,5 +5475,53 @@
     ],
     "data": "30/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-grelhado-com-ervas-e-cebolas-agridoce-60144ef4",
+    "titulo": "Bife Grelhado com Ervas e Cebolas Agridoce",
+    "tags": [
+      "carne_vermelha",
+      "grelha",
+      "rapida",
+      "equilibrado"
+    ],
+    "data": "31/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-canela-fce7fdd2",
+    "titulo": "Carne Moída com Canela",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapida",
+      "rende_sobra"
+    ],
+    "data": "31/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cestinhas-de-massa-de-pastel-recheadas-4e8b0bbd",
+    "titulo": "Cestinhas de Massa de Pastel Recheadas",
+    "tags": [
+      "entrada",
+      "rapida",
+      "forno",
+      "vegetais"
+    ],
+    "data": "31/10/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-morango-com-tang-4666f2f8",
+    "titulo": "Mousse de Morango com Tang",
+    "tags": [
+      "sobremesa",
+      "rapida",
+      "sem_forno",
+      "frutas"
+    ],
+    "data": "31/10/2026",
+    "fonte_status": "unverified"
   }
 ]

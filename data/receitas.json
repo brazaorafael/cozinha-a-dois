@@ -1,189 +1,193 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-30T13:56:41-03:00",
+  "gerado_em": "2026-10-31T12:57:39-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "30/10/2026",
-    "dia_semana": "sexta",
+    "data": "31/10/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Carne de Panela Rápida",
+        "nome": "Bife Grelhado com Ervas e Cebolas Agridoce",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Receita de carne vermelha saborosa e prática, feita na panela de pressão para agilizar o preparo, ideal para o jantar e com potencial para sobras. Atende à preferência por carne vermelha e é fácil de fazer.",
+        "tempo": "25 minutos (10 min preparo + 15 min cozi",
+        "porque": "Um prato principal com carne vermelha, a preferida do casal, preparado de forma rápida na grelha. As cebolas agridoce adicionam um toque especial e equilibrado, sem fritura. Ideal para um jantar a dois.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "prato_principal",
-          "sobra"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 kg de carne (paleta, acém ou músculo) em cubos",
-          "1 cebola grande picada",
-          "3 dentes de alho amassados",
-          "1 tomate picado sem sementes",
-          "1 pimentão verde picado",
-          "1 tablete de caldo de carne",
-          "1/2 xícara (chá) de água",
-          "Sal e pimenta-do-reino a gosto",
-          "Cheiro-verde picado a gosto"
-        ],
-        "preparo": [
-          "Em uma panela de pressão, doure a carne em um fio de óleo.",
-          "Adicione a cebola, o alho, o tomate e o pimentão, refogando por alguns minutos.",
-          "Dissolva o tablete de caldo de carne na água e adicione à panela.",
-          "Tempere com sal e pimenta-do-reino a gosto.",
-          "Feche a panela de pressão e, após pegar pressão, cozinhe por 30 minutos.",
-          "Desligue o fogo, espere a pressão sair naturalmente e finalize com cheiro-verde picado."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/2890-carne-de-panela-rapida.html",
-          "checked_at": "2026-10-30T16:58:28+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/2181151/pexels-photo-2181151.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Refogado colorido de carne bovina e legumes variados em uma panela, destacando ingredientes frescos.",
-          "bank_id": "2181151",
-          "credit": "Kleine Beyers",
-          "query": "Carne de Panela Rápida"
-        },
-        "id": "carne-de-panela-rapida-486731ce"
-      },
-      {
-        "nome": "Escondidinho de Carne Moída",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma opção de carne vermelha completa e reconfortante, preparada no forno, que é prática e rende bem para o jantar e para o almoço do dia seguinte. É uma receita popular e bem avaliada.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
-          "prato_unico",
-          "sobra"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500 g de carne moída",
-          "1 kg de batatas",
-          "1/2 xícara (chá) de leite",
-          "2 colheres (sopa) de manteiga",
-          "1 cebola picada",
-          "2 dentes de alho amassados",
-          "1 lata de molho de tomate",
-          "200 g de queijo mussarela fatiado ou ralado",
-          "Sal, pimenta-do-reino e cheiro-verde a gosto"
-        ],
-        "preparo": [
-          "Cozinhe as batatas até ficarem macias, escorra e amasse para fazer um purê. Adicione o leite, a manteiga, sal e reserve.",
-          "Em uma panela, refogue a cebola e o alho em um fio de óleo. Adicione a carne moída e cozinhe até dourar.",
-          "Acrescente o molho de tomate, tempere com sal, pimenta-do-reino e cheiro-verde. Cozinhe por alguns minutos.",
-          "Em um refratário, faça uma camada com metade do purê de batatas.",
-          "Espalhe a carne moída refogada sobre o purê.",
-          "Cubra com o restante do purê e, por cima, distribua o queijo mussarela.",
-          "Leve ao forno preaquecido a 180°C por cerca de 20 minutos, ou até o queijo gratinar."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/2012-escondidinho-de-carne-moida.html",
-          "checked_at": "2026-10-30T16:58:29+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/18973339/pexels-photo-18973339.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de carne fresca e carne moída em uma vitrine no mercado San Vito, Costa Rica.",
-          "bank_id": "18973339",
-          "credit": "Luis Kuthe",
-          "query": "Escondidinho de Carne Moída"
-        },
-        "id": "escondidinho-de-carne-moida-8e6627df"
-      },
-      {
-        "nome": "Guacamole Simples",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, fresca e rápida de preparar, ideal para abrir o apetite. Utiliza ingredientes acessíveis e não está na lista de pratos recentes.",
-        "tags": [
-          "entrada",
-          "vegetariano",
-          "fresco",
-          "rapido"
+          "grelha",
+          "rapida",
+          "equilibrado"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 abacates maduros",
-          "1/2 cebola roxa picada finamente",
-          "1 tomate pequeno picado sem sementes",
-          "Suco de 1 limão",
-          "Coentro picado a gosto",
-          "Sal e pimenta-do-reino a gosto"
+          "2 bifes de carne bovina (cerca de 180/220 gramas cada)",
+          "2 cebolas médias",
+          "2 colheres de sopa de azeite extravirgem (e mais um pouco para servir)",
+          "1 colher de sopa de açúcar (de preferência de cana)",
+          "2 colheres de sopa de vinagre de vinho branco",
+          "Sal grosso a gosto",
+          "Pimenta do reino a gosto",
+          "Tomilho fresco a gosto",
+          "Orégano fresco a gosto",
+          "Rúcula (opcional, para acompanhar)"
         ],
         "preparo": [
-          "Corte os abacates ao meio, retire o caroço e a polpa, amassando-a com um garfo em uma tigela.",
-          "Adicione a cebola roxa, o tomate picado e o coentro.",
-          "Regue com o suco de limão e tempere com sal e pimenta-do-reino a gosto.",
-          "Misture bem todos os ingredientes até incorporar.",
-          "Sirva imediatamente com torradas, nachos ou como acompanhamento."
+          "Tempere os bifes com sal grosso, pimenta do reino, tomilho e orégano. Deixe descansar por cerca de 15 minutos.",
+          "Descasque as cebolas e corte-as em meias-luas de aproximadamente 0,5 cm de espessura.",
+          "Em uma frigideira, aqueça 1 colher de sopa de azeite e refogue as cebolas em fogo médio até ficarem macias e translúcidas.",
+          "Adicione o açúcar e o vinagre de vinho branco às cebolas, mexendo bem. Cozinhe até o líquido reduzir e as cebolas caramelizarem levemente, formando um molho agridoce. Reserve.",
+          "Aqueça uma grelha ou frigideira de fundo grosso em fogo alto com o azeite restante. Grelhe os bifes por cerca de 3 a 4 minutos de cada lado para um ponto médio, ou até o ponto desejado.",
+          "Sirva os bifes imediatamente, cobertos com as cebolas agridoce. Se desejar, acompanhe com folhas frescas de rúcula."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/guacamole-simples-da-ana-maria/",
-          "checked_at": "2026-10-30T16:58:31+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-10-31T15:59:20+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5848732/pexels-photo-5848732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de chips de tortilha combinados com um molho cremoso de guacamole, ideal para temas de cozinha mexicana.",
-          "bank_id": "5848732",
-          "credit": "Polina Tankilevitch",
-          "query": "Guacamole Simples"
+          "url": "https://images.pexels.com/photos/19362408/pexels-photo-19362408.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso bife grelhado com vegetais em um prato de ardósia preta, decorado com especiarias e ervas.",
+          "bank_id": "19362408",
+          "credit": "Иван Григорьев",
+          "query": "Bife Grelhado com Ervas e Cebolas Agridoce"
         },
-        "id": "guacamole-simples-38764f34"
+        "id": "bife-grelhado-com-ervas-e-cebolas-agridoce-60144ef4"
       },
       {
-        "nome": "Mousse de Coco com 2 Ingredientes",
-        "curso": "sobremesa",
-        "tempo": "10 minutos (mais tempo de geladeira)",
-        "porque": "Uma sobremesa extremamente fácil e rápida de fazer, com poucos ingredientes e um sabor leve e refrescante. Perfeita para finalizar o jantar sem complicação e não está na lista de pratos recentes.",
+        "nome": "Carne Moída com Canela",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Uma receita prática e rápida de carne moída, com um toque surpreendente e aromático da canela. É uma ótima opção para o jantar e rende bem, podendo sobrar para o almoço de uma pessoa.",
         "tags": [
-          "sobremesa",
-          "rapido",
-          "facil",
-          "coco"
+          "carne_vermelha",
+          "refogado",
+          "rapida",
+          "rende_sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "200 g de marshmallow branco (tipo rolha)",
-          "1 litro de leite de coco",
-          "Coco queimado ralado a gosto (opcional, para decorar)"
+          "500g de carne moída",
+          "1 cebola média",
+          "2 dentes de alho",
+          "1/2 colher de chá de canela em pó",
+          "2 colheres de sopa de salsinha picada",
+          "Azeite a gosto",
+          "Sal a gosto",
+          "Pimenta do reino a gosto"
         ],
         "preparo": [
-          "Em uma tigela, junte o marshmallow branco e o leite de coco.",
-          "Leve ao micro-ondas em potência alta por 2 minutos, ou aqueça em uma panela em fogo baixo, mexendo sempre, até o marshmallow derreter completamente.",
-          "Misture bem até obter um creme homogêneo.",
-          "Despeje a mistura em taças individuais ou em um refratário.",
-          "Leve à geladeira por pelo menos 3 horas, ou até firmar.",
-          "Se desejar, decore com coco queimado ralado antes de servir."
+          "Descasque e pique finamente a cebola e o alho. Lave e pique a salsinha.",
+          "Em uma panela grande, aqueça um fio de azeite em fogo médio. Adicione a cebola picada e refogue até ficar transparente.",
+          "Acrescente o alho picado e refogue por mais 1 minuto, até perfumar.",
+          "Adicione a carne moída à panela. Cozinhe, mexendo e desfazendo os grumos com uma colher, até que a carne esteja dourada e cozida por completo.",
+          "Tempere a carne com sal, pimenta do reino e a canela em pó. Misture bem para que os temperos se incorporem.",
+          "Cozinhe por mais alguns minutos em fogo baixo para apurar os sabores.",
+          "Finalize com a salsinha picada e sirva quente, acompanhada de arroz e uma salada."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/mousse-de-coco-com-2-ingredientes/",
-          "checked_at": "2026-10-30T16:58:33+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-10-31T15:59:21+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/11287582/pexels-photo-11287582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa mousse de chocolate em camadas em um copo de vidro transparente com raspas de chocolate, ao lado dos ingredientes.",
-          "bank_id": "11287582",
-          "credit": "Harish .P",
-          "query": "Mousse de Coco com 2 Ingredientes"
+          "url": "https://images.pexels.com/photos/30168758/pexels-photo-30168758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um saboroso café da manhã na frigideira com ovos fritos e carne moída, guarnecido com ervas frescas.",
+          "bank_id": "30168758",
+          "credit": "Anthony Rahayel",
+          "query": "Carne Moída com Canela"
         },
-        "id": "mousse-de-coco-com-2-ingredientes-c7dd533a"
+        "id": "carne-moida-com-canela-fce7fdd2"
+      },
+      {
+        "nome": "Cestinhas de Massa de Pastel Recheadas",
+        "curso": "entrada",
+        "tempo": "30 minutos",
+        "porque": "Uma entrada leve e saborosa, perfeita para abrir o apetite. É fácil de preparar, utiliza ingredientes acessíveis e fica pronta em pouco tempo, sem fritura.",
+        "tags": [
+          "entrada",
+          "rapida",
+          "forno",
+          "vegetais"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 pacote de massa de pastel redonda (tamanho pequeno)",
+          "1/2 xícara de palmito picado",
+          "1/2 xícara de tomate cereja picado",
+          "2 colheres de sopa de requeijão cremoso",
+          "Sal a gosto",
+          "Pimenta do reino a gosto",
+          "Cheiro-verde picado a gosto",
+          "Azeite para untar"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 180°C. Unte levemente forminhas de cupcake ou empada com azeite.",
+          "Forre cada forminha com um disco de massa de pastel, pressionando bem para formar uma cestinha.",
+          "Em uma tigela, misture o palmito picado, o tomate cereja picado, o requeijão cremoso, sal, pimenta do reino e cheiro-verde.",
+          "Recheie as cestinhas de massa de pastel com a mistura preparada.",
+          "Leve ao forno preaquecido por cerca de 15 a 20 minutos, ou até as bordas da massa ficarem douradas e crocantes.",
+          "Retire do forno e sirva as cestinhas quentes como entrada."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-10-31T15:59:21+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/8279637/pexels-photo-8279637.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma pessoa dobra a massa habilidosamente para fazer empanadas caseiras, enfatizando a preparação de alimentos tradicionais.",
+          "bank_id": "8279637",
+          "credit": "Los Muertos Crew",
+          "query": "Cestinhas de Massa de Pastel Recheadas"
+        },
+        "id": "cestinhas-de-massa-de-pastel-recheadas-4e8b0bbd"
+      },
+      {
+        "nome": "Mousse de Morango com Tang",
+        "curso": "sobremesa",
+        "tempo": "20 minutos (mais tempo de geladeira)",
+        "porque": "Uma sobremesa rápida, fácil e refrescante, ideal para finalizar o jantar. Leva poucos ingredientes e não requer cozimento, apenas tempo de geladeira para firmar.",
+        "tags": [
+          "sobremesa",
+          "rapida",
+          "sem_forno",
+          "frutas"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 lata de leite condensado (395g)",
+          "1 caixa de creme de leite (200g)",
+          "1 pacote de pó para refresco sabor morango (Tang ou similar, 25g)",
+          "Morangos frescos para decorar (opcional)"
+        ],
+        "preparo": [
+          "Em uma tigela grande, adicione o leite condensado e o creme de leite.",
+          "Acrescente o conteúdo do pacote de pó para refresco sabor morango.",
+          "Com um fouet ou batedor manual, misture vigorosamente todos os ingredientes até obter uma mistura homogênea e cremosa.",
+          "Despeje a mousse em taças individuais ou em um refratário de sua preferência.",
+          "Leve à geladeira por, no mínimo, 2 horas para que a mousse fique bem firme e gelada.",
+          "Na hora de servir, decore com morangos frescos, se desejar."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-10-31T15:59:22+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/29819834/pexels-photo-29819834.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa sobremesa de mousse de morango em camadas com cobertura de frutas frescas, servida elegantemente em um prato branco.",
+          "bank_id": "29819834",
+          "credit": "Võ Văn Tiến",
+          "query": "Mousse de Morango com Tang"
+        },
+        "id": "mousse-de-morango-com-tang-4666f2f8"
       }
     ]
   },
