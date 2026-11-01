@@ -1,193 +1,187 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-10-31T12:57:39-03:00",
+  "gerado_em": "2026-11-01T14:00:23-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "31/10/2026",
-    "dia_semana": "sábado",
+    "data": "01/11/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Bife Grelhado com Ervas e Cebolas Agridoce",
+        "nome": "Carne moída com refogado de pimentão",
         "curso": "principal",
-        "tempo": "25 minutos (10 min preparo + 15 min cozi",
-        "porque": "Um prato principal com carne vermelha, a preferida do casal, preparado de forma rápida na grelha. As cebolas agridoce adicionam um toque especial e equilibrado, sem fritura. Ideal para um jantar a dois.",
+        "tempo": "25 minutos",
+        "porque": "Prato de carne vermelha com vegetais, fácil e prático, pronto em cerca de 25 minutos de cozimento. Rende 4 porções, sendo uma boa opção para ter sobras para o almoço.",
         "tags": [
           "carne_vermelha",
-          "grelha",
-          "rapida",
+          "refogado",
+          "rapido",
+          "equilibrado"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500 g de patinho moído",
+          "1 pimentão vermelho médio",
+          "1 cebola média",
+          "2 dentes de alho",
+          "2 colheres (sopa) de azeite",
+          "1/2 xícara (chá) de água",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Cheiro-verde picado a gosto (para finalizar)"
+        ],
+        "preparo": [
+          "Lave e seque o pimentão. Corte-o ao meio, descarte as sementes e pique em cubos pequenos.",
+          "Descasque e pique fino a cebola e o alho.",
+          "Leve uma panela média ao fogo médio. Regue com o azeite e adicione a cebola. Refogue por 3 minutos, até murchar.",
+          "Junte o alho e o pimentão, refogue por mais 3 minutos. Adicione a carne moída e tempere com sal e pimenta-do-reino.",
+          "Mexa com uma espátula, desfazendo os grumos, até a carne mudar de cor. Regue com a água e misture.",
+          "Diminua o fogo, tampe a panela e cozinhe por 10 minutos, mexendo de vez em quando, até a água secar e a carne ficar macia.",
+          "Desligue o fogo, misture o cheiro-verde picado e sirva a seguir."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-refogado-de-pimentao",
+          "checked_at": "2026-11-01T17:01:54+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
+          "bank_id": "34714654",
+          "credit": "UNDO KIM",
+          "query": "Carne moída com refogado de pimentão"
+        },
+        "id": "carne-moida-com-refogado-de-pimentao-283735d9"
+      },
+      {
+        "nome": "Bife com molho de limão e grão-de-bico",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Prato de carne vermelha rápido e prático, preparado em 'uma panela só', o que facilita a limpeza. A combinação com grão-de-bico e agrião garante uma refeição equilibrada e saborosa.",
+        "tags": [
+          "carne_vermelha",
+          "uma_panela_so",
+          "rapido",
           "equilibrado"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 bifes de carne bovina (cerca de 180/220 gramas cada)",
-          "2 cebolas médias",
-          "2 colheres de sopa de azeite extravirgem (e mais um pouco para servir)",
-          "1 colher de sopa de açúcar (de preferência de cana)",
-          "2 colheres de sopa de vinagre de vinho branco",
-          "Sal grosso a gosto",
-          "Pimenta do reino a gosto",
-          "Tomilho fresco a gosto",
-          "Orégano fresco a gosto",
-          "Rúcula (opcional, para acompanhar)"
+          "2 bifes de contrafilé (cerca de 150g cada)",
+          "1 limão-siciliano",
+          "1 lata de grão-de-bico cozido (240g)",
+          "1 maço pequeno de agrião",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Tempere os bifes com sal grosso, pimenta do reino, tomilho e orégano. Deixe descansar por cerca de 15 minutos.",
-          "Descasque as cebolas e corte-as em meias-luas de aproximadamente 0,5 cm de espessura.",
-          "Em uma frigideira, aqueça 1 colher de sopa de azeite e refogue as cebolas em fogo médio até ficarem macias e translúcidas.",
-          "Adicione o açúcar e o vinagre de vinho branco às cebolas, mexendo bem. Cozinhe até o líquido reduzir e as cebolas caramelizarem levemente, formando um molho agridoce. Reserve.",
-          "Aqueça uma grelha ou frigideira de fundo grosso em fogo alto com o azeite restante. Grelhe os bifes por cerca de 3 a 4 minutos de cada lado para um ponto médio, ou até o ponto desejado.",
-          "Sirva os bifes imediatamente, cobertos com as cebolas agridoce. Se desejar, acompanhe com folhas frescas de rúcula."
+          "Lave e seque o limão-siciliano. Rale a casca (apenas a parte amarela) e esprema o suco.",
+          "Lave e seque o agrião, descarte os talos mais grossos.",
+          "Abra a lata de grão-de-bico, escorra a água e passe por água corrente.",
+          "Tempere os bifes com sal e pimenta-do-reino.",
+          "Leve uma frigideira grande ao fogo médio. Regue com 1 colher (sopa) de azeite e doure os bifes por 3 a 4 minutos de cada lado, ou até o ponto desejado. Retire e reserve.",
+          "Na mesma frigideira, adicione o azeite restante, o grão-de-bico, as raspas e o suco de limão. Refogue por 2 minutos.",
+          "Junte o agrião, misture rapidamente até murchar e sirva com os bifes."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-31T15:59:20+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/bife-com-molho-de-limao-e-grao-de-bico",
+          "title": "Bife com molho de limão e grão-de-bico - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-01T17:01:55+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/19362408/pexels-photo-19362408.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife grelhado com vegetais em um prato de ardósia preta, decorado com especiarias e ervas.",
-          "bank_id": "19362408",
-          "credit": "Иван Григорьев",
-          "query": "Bife Grelhado com Ervas e Cebolas Agridoce"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7174-img-9932.webp",
+          "alt": "Bife com molho de limão e grão-de-bico"
         },
-        "id": "bife-grelhado-com-ervas-e-cebolas-agridoce-60144ef4"
+        "id": "bife-com-molho-de-limao-e-grao-de-bico-43f65ca8"
       },
       {
-        "nome": "Carne Moída com Canela",
-        "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma receita prática e rápida de carne moída, com um toque surpreendente e aromático da canela. É uma ótima opção para o jantar e rende bem, podendo sobrar para o almoço de uma pessoa.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "rapida",
-          "rende_sobra"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500g de carne moída",
-          "1 cebola média",
-          "2 dentes de alho",
-          "1/2 colher de chá de canela em pó",
-          "2 colheres de sopa de salsinha picada",
-          "Azeite a gosto",
-          "Sal a gosto",
-          "Pimenta do reino a gosto"
-        ],
-        "preparo": [
-          "Descasque e pique finamente a cebola e o alho. Lave e pique a salsinha.",
-          "Em uma panela grande, aqueça um fio de azeite em fogo médio. Adicione a cebola picada e refogue até ficar transparente.",
-          "Acrescente o alho picado e refogue por mais 1 minuto, até perfumar.",
-          "Adicione a carne moída à panela. Cozinhe, mexendo e desfazendo os grumos com uma colher, até que a carne esteja dourada e cozida por completo.",
-          "Tempere a carne com sal, pimenta do reino e a canela em pó. Misture bem para que os temperos se incorporem.",
-          "Cozinhe por mais alguns minutos em fogo baixo para apurar os sabores.",
-          "Finalize com a salsinha picada e sirva quente, acompanhada de arroz e uma salada."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-31T15:59:21+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/30168758/pexels-photo-30168758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um saboroso café da manhã na frigideira com ovos fritos e carne moída, guarnecido com ervas frescas.",
-          "bank_id": "30168758",
-          "credit": "Anthony Rahayel",
-          "query": "Carne Moída com Canela"
-        },
-        "id": "carne-moida-com-canela-fce7fdd2"
-      },
-      {
-        "nome": "Cestinhas de Massa de Pastel Recheadas",
+        "nome": "Salada de pepino com iogurte e hortelã",
         "curso": "entrada",
-        "tempo": "30 minutos",
-        "porque": "Uma entrada leve e saborosa, perfeita para abrir o apetite. É fácil de preparar, utiliza ingredientes acessíveis e fica pronta em pouco tempo, sem fritura.",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada leve, refrescante e muito rápida de preparar, ideal para abrir o apetite. Utiliza ingredientes acessíveis e é uma ótima opção para um jantar a dois.",
         "tags": [
-          "entrada",
-          "rapida",
-          "forno",
-          "vegetais"
+          "salada",
+          "vegetariano",
+          "rapido",
+          "refrescante"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 pacote de massa de pastel redonda (tamanho pequeno)",
-          "1/2 xícara de palmito picado",
-          "1/2 xícara de tomate cereja picado",
-          "2 colheres de sopa de requeijão cremoso",
-          "Sal a gosto",
-          "Pimenta do reino a gosto",
-          "Cheiro-verde picado a gosto",
-          "Azeite para untar"
+          "2 pepinos japoneses",
+          "1 pote de iogurte natural sem açúcar (170 g)",
+          "1 colher (sopa) de azeite",
+          "20 folhas de hortelã",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 180°C. Unte levemente forminhas de cupcake ou empada com azeite.",
-          "Forre cada forminha com um disco de massa de pastel, pressionando bem para formar uma cestinha.",
-          "Em uma tigela, misture o palmito picado, o tomate cereja picado, o requeijão cremoso, sal, pimenta do reino e cheiro-verde.",
-          "Recheie as cestinhas de massa de pastel com a mistura preparada.",
-          "Leve ao forno preaquecido por cerca de 15 a 20 minutos, ou até as bordas da massa ficarem douradas e crocantes.",
-          "Retire do forno e sirva as cestinhas quentes como entrada."
+          "Lave, seque e corte as pontas dos pepinos.",
+          "Passe os pepinos por um fatiador de legumes para formar rodelas finas.",
+          "Lave e seque as folhas de hortelã.",
+          "Numa tigela média, junte o pepino fatiado, as folhas de hortelã e o iogurte.",
+          "Tempere com o azeite e sal a gosto. Misture delicadamente e sirva a seguir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-31T15:59:21+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-pepino-com-iogurte-e-hortela",
+          "checked_at": "2026-11-01T17:01:55+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/8279637/pexels-photo-8279637.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma pessoa dobra a massa habilidosamente para fazer empanadas caseiras, enfatizando a preparação de alimentos tradicionais.",
-          "bank_id": "8279637",
-          "credit": "Los Muertos Crew",
-          "query": "Cestinhas de Massa de Pastel Recheadas"
+          "url": "https://images.pexels.com/photos/36929190/pexels-photo-36929190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma salada vibrante de tomate e pepino com uma folha de hortelã como guarnição, servida em um prato de vidro decorativo.",
+          "bank_id": "36929190",
+          "credit": "Christina & Peter",
+          "query": "Salada de pepino com iogurte e hortelã"
         },
-        "id": "cestinhas-de-massa-de-pastel-recheadas-4e8b0bbd"
+        "id": "salada-de-pepino-com-iogurte-e-hortela-af852756"
       },
       {
-        "nome": "Mousse de Morango com Tang",
+        "nome": "Mousse de Maracujá Cremoso e Prático",
         "curso": "sobremesa",
-        "tempo": "20 minutos (mais tempo de geladeira)",
-        "porque": "Uma sobremesa rápida, fácil e refrescante, ideal para finalizar o jantar. Leva poucos ingredientes e não requer cozimento, apenas tempo de geladeira para firmar.",
+        "tempo": "15 minutos (preparo)",
+        "porque": "Uma sobremesa clássica, fácil, rápida e refrescante, perfeita para finalizar o jantar. Rende porções extras, ideal para sobrar para o almoço de uma pessoa.",
         "tags": [
           "sobremesa",
-          "rapida",
-          "sem_forno",
-          "frutas"
+          "doce",
+          "rapido",
+          "frutado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 lata de leite condensado (395g)",
-          "1 caixa de creme de leite (200g)",
-          "1 pacote de pó para refresco sabor morango (Tang ou similar, 25g)",
-          "Morangos frescos para decorar (opcional)"
+          "1 colher (sopa) de gelatina em pó sem sabor (12 g)",
+          "5 colheres (sopa) de água fria (para hidratar a gelatina)",
+          "1 embalagem de Leite Condensado MOÇA® (395 g)",
+          "1 caixinha de NESTLÉ® Creme de Leite (200g)",
+          "1 xícara (chá) de suco de maracujá concentrado (240 ml)",
+          "Polpa de 1 maracujá com sementes (opcional, para decorar)"
         ],
         "preparo": [
-          "Em uma tigela grande, adicione o leite condensado e o creme de leite.",
-          "Acrescente o conteúdo do pacote de pó para refresco sabor morango.",
-          "Com um fouet ou batedor manual, misture vigorosamente todos os ingredientes até obter uma mistura homogênea e cremosa.",
-          "Despeje a mousse em taças individuais ou em um refratário de sua preferência.",
-          "Leve à geladeira por, no mínimo, 2 horas para que a mousse fique bem firme e gelada.",
-          "Na hora de servir, decore com morangos frescos, se desejar."
+          "Em um recipiente, hidrate a gelatina em pó com a água fria e leve ao micro-ondas por 15 segundos para dissolver.",
+          "No liquidificador, bata o Leite Condensado MOÇA®, o NESTLÉ Creme de Leite e o suco de maracujá concentrado.",
+          "Adicione a gelatina dissolvida e bata novamente até ficar homogêneo.",
+          "Despeje a mousse em um refratário ou em taças individuais.",
+          "Leve à geladeira por, no mínimo, 2 horas, ou até firmar.",
+          "Se desejar, decore com a polpa de maracujá com sementes antes de servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-10-31T15:59:22+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-maracuja-cremoso-e-pratico",
+          "checked_at": "2026-11-01T17:01:57+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/29819834/pexels-photo-29819834.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa sobremesa de mousse de morango em camadas com cobertura de frutas frescas, servida elegantemente em um prato branco.",
-          "bank_id": "29819834",
-          "credit": "Võ Văn Tiến",
-          "query": "Mousse de Morango com Tang"
+          "url": "https://images.pexels.com/photos/5060425/pexels-photo-5060425.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de gelato de maracujá cremoso com frutas frescas como guarnição em uma mesa colorida.",
+          "bank_id": "5060425",
+          "credit": "ROMAN ODINTSOV",
+          "query": "Mousse de Maracujá Cremoso e Prático"
         },
-        "id": "mousse-de-morango-com-tang-4666f2f8"
+        "id": "mousse-de-maracuja-cremoso-e-pratico-d17c593a"
       }
     ]
   },
