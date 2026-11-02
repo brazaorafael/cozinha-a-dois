@@ -5523,5 +5523,209 @@
     ],
     "data": "31/10/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "medalhao-de-file-mignon-com-molho-de-mostarda-8619c462",
+    "titulo": "Medalhão de Filé Mignon com Molho de Mostarda",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "frigideira",
+      "molho"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "panqueca-de-carne-moida-1f23c594",
+    "titulo": "Panqueca de Carne Moída",
+    "tags": [
+      "carne_moida",
+      "forno",
+      "prato_unico",
+      "confort_food"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mix-de-iogurte-com-frutas-66c4fa2a",
+    "titulo": "Mix de Iogurte com Frutas",
+    "tags": [
+      "saudavel",
+      "rapido",
+      "frutas",
+      "leve"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "figado-acebolado-32a2a414",
+    "titulo": "Fígado Acebolado",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "frigideira",
+      "tradicional"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "musse-de-maracuja-com-cardamomo-2e4ff8c4",
+    "titulo": "Musse de Maracujá com Cardamomo",
+    "tags": [
+      "doce",
+      "frutas",
+      "gelada",
+      "exotica"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bife-a-role-de-forno-b890cb32",
+    "titulo": "Bife à Rolê de Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "prato_unico",
+      "recheado"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "costelinha-de-porco-na-airfryer-0f387eb0",
+    "titulo": "Costelinha de Porco na Airfryer",
+    "tags": [
+      "carne_suina",
+      "airfryer",
+      "rapido",
+      "crocante"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pate-de-atum-cremoso-especial-f08caf17",
+    "titulo": "Patê de Atum Cremoso Especial",
+    "tags": [
+      "rapido",
+      "proteina",
+      "frio",
+      "lanche"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "banana-assada-com-mel-e-canela-8fc282c9",
+    "titulo": "Banana Assada com Mel e Canela",
+    "tags": [
+      "frutas",
+      "saudavel",
+      "forno",
+      "rapido"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "tilapia-grelhada-com-legumes-7d480f67",
+    "titulo": "Tilápia Grelhada com Legumes",
+    "tags": [
+      "peixe",
+      "grelhado",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mini-sanduiche-natural-de-atum-67b75413",
+    "titulo": "Mini Sanduíche Natural de Atum",
+    "tags": [
+      "rapido",
+      "leve",
+      "lanche",
+      "frio"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "pave-simples-de-limao-a5a61031",
+    "titulo": "Pavê Simples de Limão",
+    "tags": [
+      "doce",
+      "gelada",
+      "rapido",
+      "citrico"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "creme-de-abobora-com-gengibre-101fb5f4",
+    "titulo": "Creme de Abóbora com Gengibre",
+    "tags": [
+      "vegetariano",
+      "sopa",
+      "saudavel",
+      "cremoso"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "espetinho-de-legumes-com-queijo-coalho-3efea444",
+    "titulo": "Espetinho de Legumes com Queijo Coalho",
+    "tags": [
+      "vegetariano",
+      "grelhado",
+      "rapido",
+      "petisco"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pudim-de-micro-ondas-sem-leite-condensado-7260950a",
+    "titulo": "Pudim de Micro-ondas sem Leite Condensado",
+    "tags": [
+      "doce",
+      "rapido",
+      "micro_ondas",
+      "economico"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-folhas-com-figo-e-molho-de-queijo-4af447f3",
+    "titulo": "Salada de Folhas com Figo e Molho de Queijo",
+    "tags": [
+      "vegetariano",
+      "salada",
+      "leve",
+      "elegante"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "tigelinhas-de-suspiro-com-maracuja-f0c3f2f0",
+    "titulo": "Tigelinhas de Suspiro com Maracujá",
+    "tags": [
+      "doce",
+      "crocante",
+      "frutas",
+      "rapido"
+    ],
+    "data": "01/11/2026",
+    "fonte_status": "verified"
   }
 ]
