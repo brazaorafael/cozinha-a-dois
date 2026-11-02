@@ -1,187 +1,194 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-01T22:42:45-03:00",
+  "gerado_em": "2026-11-02T17:38:39-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "01/11/2026",
-    "dia_semana": "domingo",
+    "data": "02/11/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Carne moída com refogado de pimentão",
+        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
         "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Prato de carne vermelha com vegetais, fácil e prático, pronto em cerca de 25 minutos de cozimento. Rende 4 porções, sendo uma boa opção para ter sobras para o almoço.",
+        "tempo": "45 minutos (tempo de cozimento na pressã",
+        "porque": "Receita reconfortante de carne vermelha, preparada na panela de pressão para agilizar o cozimento. Garante uma carne macia e um ensopado equilibrado com vegetais, ideal para um jantar completo e com sobras para o almoço.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "rapido",
+          "panela_de_pressao",
+          "ensopado",
           "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de patinho moído",
-          "1 pimentão vermelho médio",
-          "1 cebola média",
-          "2 dentes de alho",
+          "1 peça de acém (cerca de 1 kg), em cubos de 3 cm",
+          "1 colher (chá) de páprica doce",
+          "1 colher (chá) de páprica defumada",
+          "½ colher (chá) de canela em pó",
+          "1 colher (chá) de sal",
+          "Pimenta-do-reino moída a gosto",
+          "2 ramos de orégano fresco (ou 1 colher de chá de orégano seco)",
+          "1 cebola média, picada fino",
+          "3 dentes de alho, picados fino",
+          "2 cenouras médias, cortadas em rodelas de 1 cm",
+          "2 batatas médias, lavadas e cortadas em cubos grandes (com casca, se preferir)",
           "2 colheres (sopa) de azeite",
-          "1/2 xícara (chá) de água",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Cheiro-verde picado a gosto (para finalizar)"
+          "Água quente (o suficiente para cobrir a carne)"
         ],
         "preparo": [
-          "Lave e seque o pimentão. Corte-o ao meio, descarte as sementes e pique em cubos pequenos.",
-          "Descasque e pique fino a cebola e o alho.",
-          "Leve uma panela média ao fogo médio. Regue com o azeite e adicione a cebola. Refogue por 3 minutos, até murchar.",
-          "Junte o alho e o pimentão, refogue por mais 3 minutos. Adicione a carne moída e tempere com sal e pimenta-do-reino.",
-          "Mexa com uma espátula, desfazendo os grumos, até a carne mudar de cor. Regue com a água e misture.",
-          "Diminua o fogo, tampe a panela e cozinhe por 10 minutos, mexendo de vez em quando, até a água secar e a carne ficar macia.",
-          "Desligue o fogo, misture o cheiro-verde picado e sirva a seguir."
+          "Com a ponta de uma faca, faça pequenos furos na carne. Numa tigela, misture as pápricas, canela, sal e pimenta. Esfregue na carne com o orégano.",
+          "Em uma panela de pressão, aqueça o azeite em fogo médio. Refogue a cebola e o alho até dourarem.",
+          "Adicione a carne temperada e sele por todos os lados por cerca de 3 a 5 minutos.",
+          "Cubra a carne com água quente, tampe a panela de pressão e cozinhe por 30 minutos após o início da pressão.",
+          "Desligue o fogo e espere a pressão sair naturalmente. Abra a panela e adicione as cenouras e batatas.",
+          "Tampe novamente e cozinhe por mais 10 minutos após pegar pressão, ou até os vegetais ficarem macios. Sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Carne-moida-com-refogado-de-pimentao",
-          "checked_at": "2026-11-01T17:01:54+00:00"
+          "suggested_url": "https://panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
+          "checked_at": "2026-11-02T20:40:02+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
-          "bank_id": "34714654",
-          "credit": "UNDO KIM",
-          "query": "Carne moída com refogado de pimentão"
+          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
+          "bank_id": "6545671",
+          "credit": "Thiago Rebouças",
+          "query": "Carne de Panela com Batata e Cenoura na Pressão"
         },
-        "id": "carne-moida-com-refogado-de-pimentao-283735d9"
+        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
       },
       {
-        "nome": "Bife com molho de limão e grão-de-bico",
+        "nome": "Rosbife na Airfryer com Azeite de Ervas",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Prato de carne vermelha rápido e prático, preparado em 'uma panela só', o que facilita a limpeza. A combinação com grão-de-bico e agrião garante uma refeição equilibrada e saborosa.",
+        "tempo": "25 minutos (15 min de airfryer + 10 min ",
+        "porque": "Uma opção de carne vermelha rápida e prática, utilizando a airfryer para um cozimento uniforme e com pouca gordura. O azeite de ervas adiciona um toque especial, ideal para um jantar saboroso e sem complicação.",
         "tags": [
           "carne_vermelha",
-          "uma_panela_so",
+          "airfryer",
           "rapido",
-          "equilibrado"
+          "grelhado"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 peça de maminha bovina (aprox. 1,3 kg)",
+          "2 colheres (sopa) de sal grosso",
+          "Pimenta-do-reino moída a gosto",
+          "50 g de azeite",
+          "10 g de chimichurri",
+          "½ colher (chá) de tomilho debulhado",
+          "1 colher (chá) de raspas de limão-siciliano"
+        ],
+        "preparo": [
+          "Tempere a peça de maminha com o sal grosso e pimenta-do-reino moída a gosto, esfregando bem por toda a carne.",
+          "Preaqueça a airfryer a 200 °C. Coloque a maminha na cesta da airfryer com a gordura para cima e cozinhe por 10 minutos.",
+          "Vire a carne e cozinhe por mais 5 minutos, ou até dourar a seu gosto.",
+          "Retire o rosbife da airfryer e coloque-o sobre uma grade para descansar por 5 a 10 minutos antes de fatiar.",
+          "Enquanto a carne descansa, prepare o azeite de ervas: em uma tigela, misture o azeite, chimichurri, tomilho, raspas de limão-siciliano, sal e pimenta-do-reino a gosto.",
+          "Fatie o rosbife em fatias finas e sirva com o azeite de ervas."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-11-02T20:40:02+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/11179202/pexels-photo-11179202.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um delicioso rosbife temperado com ervas e decorado com tomates-cereja, perfeito para uma refeição gourmet.",
+          "bank_id": "11179202",
+          "credit": "Hadis Padidaran",
+          "query": "Rosbife na Airfryer com Azeite de Ervas"
+        },
+        "id": "rosbife-na-airfryer-com-azeite-de-ervas-43bfe150"
+      },
+      {
+        "nome": "Tabule",
+        "curso": "entrada",
+        "tempo": "25 minutos (15 min de hidratação + 10 mi",
+        "porque": "Uma entrada leve, fresca e nutritiva, perfeita para abrir o apetite. É fácil de preparar e o tempo de hidratação do trigo é curto, encaixando na rotina do casal. Prioriza vegetais e é uma opção equilibrada.",
+        "tags": [
+          "vegetariano",
+          "fresco",
+          "rapido",
+          "saudavel"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 bifes de contrafilé (cerca de 150g cada)",
-          "1 limão-siciliano",
-          "1 lata de grão-de-bico cozido (240g)",
-          "1 maço pequeno de agrião",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "½ xícara (chá) de trigo fino (para quibe)",
+          "2 tomates maduros",
+          "½ cebola",
+          "1 ½ xícara (chá) de folhas de salsinha (cerca de 1 maço)",
+          "¾ de xícara (chá) de folhas de hortelã fresca (cerca de 1 maço)",
+          "Caldo de 1 limão",
+          "¼ de xícara (chá) de azeite",
+          "Sal a gosto",
+          "Folhas de minialface romana para servir"
         ],
         "preparo": [
-          "Lave e seque o limão-siciliano. Rale a casca (apenas a parte amarela) e esprema o suco.",
-          "Lave e seque o agrião, descarte os talos mais grossos.",
-          "Abra a lata de grão-de-bico, escorra a água e passe por água corrente.",
-          "Tempere os bifes com sal e pimenta-do-reino.",
-          "Leve uma frigideira grande ao fogo médio. Regue com 1 colher (sopa) de azeite e doure os bifes por 3 a 4 minutos de cada lado, ou até o ponto desejado. Retire e reserve.",
-          "Na mesma frigideira, adicione o azeite restante, o grão-de-bico, as raspas e o suco de limão. Refogue por 2 minutos.",
-          "Junte o agrião, misture rapidamente até murchar e sirva com os bifes."
+          "Em uma tigela média, coloque o trigo para quibe, cubra com água e deixe hidratar por 15 minutos.",
+          "Enquanto o trigo hidrata, lave, seque e corte os tomates ao meio, descarte as sementes e pique em cubos pequenos. Descasque e pique a cebola em cubos pequenos.",
+          "Lave e seque bem as folhas de salsinha e hortelã. Pique-as grosseiramente.",
+          "Passados os 15 minutos, forre uma peneira com um pano de prato limpo e escorra a água do trigo. Una as pontas do pano e torça bem para remover o excesso de água.",
+          "Em uma tigela grande, combine a cebola, o tomate, a salsinha e a hortelã picados. Tempere com o caldo de limão, o azeite e sal a gosto, misturando bem.",
+          "Acrescente o trigo hidratado e misture delicadamente com uma colher. Sirva imediatamente sobre folhas de alface."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/bife-com-molho-de-limao-e-grao-de-bico",
-          "title": "Bife com molho de limão e grão-de-bico - Panelinha",
+          "url": "https://panelinha.com.br/receita/tabule",
+          "title": "Tabule - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-11-01T17:01:55+00:00"
+          "checked_at": "2026-11-02T20:40:04+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7174-img-9932.webp",
-          "alt": "Bife com molho de limão e grão-de-bico"
+          "url": "https://i.panelinha.com.br/i1/bk-7204-tabule.webp",
+          "alt": "Tabule"
         },
-        "id": "bife-com-molho-de-limao-e-grao-de-bico-43f65ca8"
+        "id": "tabule-945c4c0f"
       },
       {
-        "nome": "Salada de pepino com iogurte e hortelã",
-        "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada leve, refrescante e muito rápida de preparar, ideal para abrir o apetite. Utiliza ingredientes acessíveis e é uma ótima opção para um jantar a dois.",
+        "nome": "Sobremesa Sensação",
+        "curso": "sobremesa",
+        "tempo": "30 minutos (preparo + tempo de geladeira",
+        "porque": "Uma sobremesa clássica e deliciosa de chocolate com morangos, fácil de fazer e pronta em pouco tempo. É uma opção indulgente e equilibrada para finalizar o jantar do casal.",
         "tags": [
-          "salada",
-          "vegetariano",
-          "rapido",
-          "refrescante"
+          "doce",
+          "chocolate",
+          "frutas",
+          "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 pepinos japoneses",
-          "1 pote de iogurte natural sem açúcar (170 g)",
-          "1 colher (sopa) de azeite",
-          "20 folhas de hortelã",
-          "Sal a gosto"
+          "1 tablete de chocolate ao leite (250 g)",
+          "1 tablete de chocolate meio amargo (250 g)",
+          "1 lata de creme de leite sem o soro (300 g)",
+          "1 caixinha de morangos"
         ],
         "preparo": [
-          "Lave, seque e corte as pontas dos pepinos.",
-          "Passe os pepinos por um fatiador de legumes para formar rodelas finas.",
-          "Lave e seque as folhas de hortelã.",
-          "Numa tigela média, junte o pepino fatiado, as folhas de hortelã e o iogurte.",
-          "Tempere com o azeite e sal a gosto. Misture delicadamente e sirva a seguir."
+          "Derreta os chocolates (ao leite e meio amargo) em banho-maria.",
+          "Retire do fogo e adicione o creme de leite sem soro, misturando bem até obter um creme homogêneo.",
+          "Lave e pique os morangos em pedaços pequenos.",
+          "Em um refratário de vidro, faça camadas alternadas de creme de chocolate e morangos picados.",
+          "Leve à geladeira por pelo menos 2 horas para firmar.",
+          "Sirva gelado."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-pepino-com-iogurte-e-hortela",
-          "checked_at": "2026-11-01T17:01:55+00:00"
+          "suggested_url": "https://anamariabraga.globo.com/receita/sobremesa-sensacao/",
+          "checked_at": "2026-11-02T20:40:05+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36929190/pexels-photo-36929190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma salada vibrante de tomate e pepino com uma folha de hortelã como guarnição, servida em um prato de vidro decorativo.",
-          "bank_id": "36929190",
-          "credit": "Christina & Peter",
-          "query": "Salada de pepino com iogurte e hortelã"
-        },
-        "id": "salada-de-pepino-com-iogurte-e-hortela-af852756"
-      },
-      {
-        "nome": "Mousse de Maracujá Cremoso e Prático",
-        "curso": "sobremesa",
-        "tempo": "15 minutos (preparo)",
-        "porque": "Uma sobremesa clássica, fácil, rápida e refrescante, perfeita para finalizar o jantar. Rende porções extras, ideal para sobrar para o almoço de uma pessoa.",
-        "tags": [
-          "sobremesa",
-          "doce",
-          "rapido",
-          "frutado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 colher (sopa) de gelatina em pó sem sabor (12 g)",
-          "5 colheres (sopa) de água fria (para hidratar a gelatina)",
-          "1 embalagem de Leite Condensado MOÇA® (395 g)",
-          "1 caixinha de NESTLÉ® Creme de Leite (200g)",
-          "1 xícara (chá) de suco de maracujá concentrado (240 ml)",
-          "Polpa de 1 maracujá com sementes (opcional, para decorar)"
-        ],
-        "preparo": [
-          "Em um recipiente, hidrate a gelatina em pó com a água fria e leve ao micro-ondas por 15 segundos para dissolver.",
-          "No liquidificador, bata o Leite Condensado MOÇA®, o NESTLÉ Creme de Leite e o suco de maracujá concentrado.",
-          "Adicione a gelatina dissolvida e bata novamente até ficar homogêneo.",
-          "Despeje a mousse em um refratário ou em taças individuais.",
-          "Leve à geladeira por, no mínimo, 2 horas, ou até firmar.",
-          "Se desejar, decore com a polpa de maracujá com sementes antes de servir."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/mousse-de-maracuja-cremoso-e-pratico",
-          "checked_at": "2026-11-01T17:01:57+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/5060425/pexels-photo-5060425.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de gelato de maracujá cremoso com frutas frescas como guarnição em uma mesa colorida.",
-          "bank_id": "5060425",
+          "url": "https://images.pexels.com/photos/5897452/pexels-photo-5897452.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de barras de sobremesa congelada de framboesa com framboesas frescas.",
+          "bank_id": "5897452",
           "credit": "ROMAN ODINTSOV",
-          "query": "Mousse de Maracujá Cremoso e Prático"
+          "query": "Sobremesa Sensação"
         },
-        "id": "mousse-de-maracuja-cremoso-e-pratico-d17c593a"
+        "id": "sobremesa-sensacao-9a2be3fd"
       }
     ]
   },

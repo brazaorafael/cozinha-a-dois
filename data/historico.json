@@ -5727,5 +5727,41 @@
     ],
     "data": "01/11/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "rosbife-na-airfryer-com-azeite-de-ervas-43bfe150",
+    "titulo": "Rosbife na Airfryer com Azeite de Ervas",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "rapido",
+      "grelhado"
+    ],
+    "data": "02/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "tabule-945c4c0f",
+    "titulo": "Tabule",
+    "tags": [
+      "vegetariano",
+      "fresco",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "02/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "sobremesa-sensacao-9a2be3fd",
+    "titulo": "Sobremesa Sensação",
+    "tags": [
+      "doce",
+      "chocolate",
+      "frutas",
+      "rapido"
+    ],
+    "data": "02/11/2026",
+    "fonte_status": "unverified"
   }
 ]
