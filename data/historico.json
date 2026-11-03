@@ -5763,5 +5763,41 @@
     ],
     "data": "02/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-de-patinho-com-farofa-de-couve-8d2a22c7",
+    "titulo": "Bife de Patinho com Farofa de Couve",
+    "tags": [
+      "carne_vermelha",
+      "grelhado",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "03/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "tiras-de-alcatra-com-pimentoes-20ecf198",
+    "titulo": "Tiras de Alcatra com Pimentões",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "colorido"
+    ],
+    "data": "03/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bombom-de-uva-no-pote-c9af0a91",
+    "titulo": "Bombom de Uva no Pote",
+    "tags": [
+      "doce",
+      "gelado",
+      "fruta",
+      "rapido"
+    ],
+    "data": "03/11/2026",
+    "fonte_status": "unverified"
   }
 ]

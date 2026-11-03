@@ -1,194 +1,197 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-02T17:38:39-03:00",
+  "gerado_em": "2026-11-03T15:14:45-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "02/11/2026",
-    "dia_semana": "segunda",
+    "data": "03/11/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
+        "nome": "Bife de Patinho com Farofa de Couve",
         "curso": "principal",
-        "tempo": "45 minutos (tempo de cozimento na pressã",
-        "porque": "Receita reconfortante de carne vermelha, preparada na panela de pressão para agilizar o cozimento. Garante uma carne macia e um ensopado equilibrado com vegetais, ideal para um jantar completo e com sobras para o almoço.",
+        "tempo": "30 minutos",
+        "porque": "Carne vermelha magra e grelhada, ideal para um jantar rápido e saudável. A farofa de couve adiciona vegetais e sabor, e o prato é equilibrado e pode render sobras para o almoço do dia seguinte. Não está na lista de pratos recentes.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "ensopado",
+          "grelhado",
+          "rapido",
           "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de acém (cerca de 1 kg), em cubos de 3 cm",
-          "1 colher (chá) de páprica doce",
-          "1 colher (chá) de páprica defumada",
-          "½ colher (chá) de canela em pó",
-          "1 colher (chá) de sal",
-          "Pimenta-do-reino moída a gosto",
-          "2 ramos de orégano fresco (ou 1 colher de chá de orégano seco)",
-          "1 cebola média, picada fino",
-          "3 dentes de alho, picados fino",
-          "2 cenouras médias, cortadas em rodelas de 1 cm",
-          "2 batatas médias, lavadas e cortadas em cubos grandes (com casca, se preferir)",
+          "2 bifes de patinho (cerca de 150g cada)",
+          "1 maço de couve manteiga",
+          "1/2 cebola pequena picada",
+          "2 dentes de alho picados",
+          "1 xícara (chá) de farinha de mandioca",
           "2 colheres (sopa) de azeite",
-          "Água quente (o suficiente para cobrir a carne)"
+          "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Com a ponta de uma faca, faça pequenos furos na carne. Numa tigela, misture as pápricas, canela, sal e pimenta. Esfregue na carne com o orégano.",
-          "Em uma panela de pressão, aqueça o azeite em fogo médio. Refogue a cebola e o alho até dourarem.",
-          "Adicione a carne temperada e sele por todos os lados por cerca de 3 a 5 minutos.",
-          "Cubra a carne com água quente, tampe a panela de pressão e cozinhe por 30 minutos após o início da pressão.",
-          "Desligue o fogo e espere a pressão sair naturalmente. Abra a panela e adicione as cenouras e batatas.",
-          "Tampe novamente e cozinhe por mais 10 minutos após pegar pressão, ou até os vegetais ficarem macios. Sirva quente."
+          "Tempere os bifes de patinho com sal e pimenta-do-reino a gosto.",
+          "Lave e seque a couve, retire os talos e pique as folhas finamente.",
+          "Em uma frigideira, aqueça 1 colher de sopa de azeite e grelhe os bifes por cerca de 3-4 minutos de cada lado, ou até o ponto desejado. Reserve.",
+          "Na mesma frigideira, adicione o azeite restante e refogue a cebola e o alho até dourarem.",
+          "Acrescente a couve picada e refogue rapidamente até murchar.",
+          "Adicione a farinha de mandioca e mexa bem até tostar levemente, formando a farofa.",
+          "Sirva os bifes grelhados acompanhados da farofa de couve."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
-          "checked_at": "2026-11-02T20:40:02+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bife-de-patinho-com-farofa-de-couve",
+          "checked_at": "2026-11-03T18:16:16+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
-          "bank_id": "6545671",
-          "credit": "Thiago Rebouças",
-          "query": "Carne de Panela com Batata e Cenoura na Pressão"
+          "url": "https://images.pexels.com/photos/29095934/pexels-photo-29095934.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso bife de ancho grelhado com salsa colorida e farofa servido em uma tábua de madeira.",
+          "bank_id": "29095934",
+          "credit": "Tiago Morheto",
+          "query": "Bife de Patinho com Farofa de Couve"
         },
-        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+        "id": "bife-de-patinho-com-farofa-de-couve-8d2a22c7"
       },
       {
-        "nome": "Rosbife na Airfryer com Azeite de Ervas",
+        "nome": "Tiras de Alcatra com Pimentões",
         "curso": "principal",
-        "tempo": "25 minutos (15 min de airfryer + 10 min ",
-        "porque": "Uma opção de carne vermelha rápida e prática, utilizando a airfryer para um cozimento uniforme e com pouca gordura. O azeite de ervas adiciona um toque especial, ideal para um jantar saboroso e sem complicação.",
+        "tempo": "20 minutos",
+        "porque": "Carne vermelha em tiras que cozinha rapidamente, combinada com pimentões coloridos para um prato rico em vegetais. É prático, saboroso e ideal para um jantar rápido, podendo ser acompanhado de arroz. Não está na lista de pratos recentes.",
         "tags": [
           "carne_vermelha",
-          "airfryer",
+          "refogado",
           "rapido",
-          "grelhado"
+          "colorido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 peça de maminha bovina (aprox. 1,3 kg)",
-          "2 colheres (sopa) de sal grosso",
-          "Pimenta-do-reino moída a gosto",
-          "50 g de azeite",
-          "10 g de chimichurri",
-          "½ colher (chá) de tomilho debulhado",
-          "1 colher (chá) de raspas de limão-siciliano"
+          "350g de alcatra em tiras",
+          "1 pimentão vermelho (80g) em tiras",
+          "1 pimentão verde (80g) em tiras",
+          "1 pimentão amarelo (80g) em tiras",
+          "1/2 cebola roxa em rodelas finas",
+          "2 colheres (sopa) de molho de soja",
+          "1 colher (sopa) de amido de milho",
+          "3 colheres (sopa) de molho de tomate",
+          "80 ml de água",
+          "1 colher (chá) de óleo de gergelim",
+          "2 colheres (sopa) de óleo de girassol",
+          "Sal, pimenta-do-reino e páprica a gosto"
         ],
         "preparo": [
-          "Tempere a peça de maminha com o sal grosso e pimenta-do-reino moída a gosto, esfregando bem por toda a carne.",
-          "Preaqueça a airfryer a 200 °C. Coloque a maminha na cesta da airfryer com a gordura para cima e cozinhe por 10 minutos.",
-          "Vire a carne e cozinhe por mais 5 minutos, ou até dourar a seu gosto.",
-          "Retire o rosbife da airfryer e coloque-o sobre uma grade para descansar por 5 a 10 minutos antes de fatiar.",
-          "Enquanto a carne descansa, prepare o azeite de ervas: em uma tigela, misture o azeite, chimichurri, tomilho, raspas de limão-siciliano, sal e pimenta-do-reino a gosto.",
-          "Fatie o rosbife em fatias finas e sirva com o azeite de ervas."
+          "Em um recipiente, tempere as tiras de carne com sal, pimenta-do-reino, páprica, molho de soja e 1 colher de amido de milho. Misture bem.",
+          "Aqueça o óleo de girassol em uma frigideira grande em fogo alto e doure a carne rapidamente.",
+          "Adicione o óleo de gergelim, os pimentões e a cebola roxa à frigideira, refogando por alguns minutos.",
+          "Em um recipiente separado, misture o molho de tomate com a água e a colher restante de amido de milho.",
+          "Despeje o molho sobre a carne e os vegetais, mexendo até engrossar.",
+          "Deixe cozinhar por mais 2 minutos para que os sabores se incorporem. Sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-11-02T20:40:02+00:00"
+          "suggested_url": "https://www.tudogostoso.com.br/receita/12440-tiras-de-alcatra-com-pimentoes.html",
+          "checked_at": "2026-11-03T18:16:19+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/11179202/pexels-photo-11179202.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um delicioso rosbife temperado com ervas e decorado com tomates-cereja, perfeito para uma refeição gourmet.",
-          "bank_id": "11179202",
-          "credit": "Hadis Padidaran",
-          "query": "Rosbife na Airfryer com Azeite de Ervas"
+          "url": "https://images.pexels.com/photos/36945993/pexels-photo-36945993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de carne salteada com purê de batatas, pimentões amarelos e verduras.",
+          "bank_id": "36945993",
+          "credit": "Karina Kåsa",
+          "query": "Tiras de Alcatra com Pimentões"
         },
-        "id": "rosbife-na-airfryer-com-azeite-de-ervas-43bfe150"
+        "id": "tiras-de-alcatra-com-pimentoes-20ecf198"
       },
       {
-        "nome": "Tabule",
+        "nome": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo",
         "curso": "entrada",
-        "tempo": "25 minutos (15 min de hidratação + 10 mi",
-        "porque": "Uma entrada leve, fresca e nutritiva, perfeita para abrir o apetite. É fácil de preparar e o tempo de hidratação do trigo é curto, encaixando na rotina do casal. Prioriza vegetais e é uma opção equilibrada.",
+        "tempo": "20 minutos",
+        "porque": "Uma entrada elegante e muito prática, preparada na airfryer, o que a torna rápida e sem fritura. Combina o sabor suave do queijo brie com um toque de mel e pimenta, ideal para abrir o apetite. Não está na lista de pratos recentes.",
         "tags": [
-          "vegetariano",
-          "fresco",
+          "airfryer",
+          "queijo",
           "rapido",
-          "saudavel"
+          "aperitivo"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "½ xícara (chá) de trigo fino (para quibe)",
-          "2 tomates maduros",
-          "½ cebola",
-          "1 ½ xícara (chá) de folhas de salsinha (cerca de 1 maço)",
-          "¾ de xícara (chá) de folhas de hortelã fresca (cerca de 1 maço)",
-          "Caldo de 1 limão",
-          "¼ de xícara (chá) de azeite",
-          "Sal a gosto",
-          "Folhas de minialface romana para servir"
+          "1 peça de queijo francês petit brie (125 g)",
+          "1/4 colher (chá) de azeite",
+          "1 colher (chá) de mel",
+          "1/4 colher (chá) de pimenta calabresa seca",
+          "5 ramos de tomilho-limão (ou tomilho comum)"
         ],
         "preparo": [
-          "Em uma tigela média, coloque o trigo para quibe, cubra com água e deixe hidratar por 15 minutos.",
-          "Enquanto o trigo hidrata, lave, seque e corte os tomates ao meio, descarte as sementes e pique em cubos pequenos. Descasque e pique a cebola em cubos pequenos.",
-          "Lave e seque bem as folhas de salsinha e hortelã. Pique-as grosseiramente.",
-          "Passados os 15 minutos, forre uma peneira com um pano de prato limpo e escorra a água do trigo. Una as pontas do pano e torça bem para remover o excesso de água.",
-          "Em uma tigela grande, combine a cebola, o tomate, a salsinha e a hortelã picados. Tempere com o caldo de limão, o azeite e sal a gosto, misturando bem.",
-          "Acrescente o trigo hidratado e misture delicadamente com uma colher. Sirva imediatamente sobre folhas de alface."
+          "Pré-aqueça a Air Fryer a 160 ºC por 10 minutos.",
+          "Coloque o queijo brie em uma tigela pequena ou prato que possa ir à Air Fryer.",
+          "Polvilhe a pimenta calabresa e as folhas de tomilho debulhadas sobre o queijo.",
+          "Regue com o azeite e o mel.",
+          "Leve à Air Fryer e asse por 10 minutos, ou até o queijo estar macio e levemente derretido.",
+          "Sirva imediatamente, acompanhado de torradas ou pães."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/tabule",
-          "title": "Tabule - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-02T20:40:04+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
+          "checked_at": "2026-11-03T18:16:20+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7204-tabule.webp",
-          "alt": "Tabule"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
+          "bank_id": "31994015",
+          "credit": "Mimi",
+          "query": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo"
         },
-        "id": "tabule-945c4c0f"
+        "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6"
       },
       {
-        "nome": "Sobremesa Sensação",
+        "nome": "Bombom de Uva no Pote",
         "curso": "sobremesa",
-        "tempo": "30 minutos (preparo + tempo de geladeira",
-        "porque": "Uma sobremesa clássica e deliciosa de chocolate com morangos, fácil de fazer e pronta em pouco tempo. É uma opção indulgente e equilibrada para finalizar o jantar do casal.",
+        "tempo": "20 minutos (+ tempo de geladeira)",
+        "porque": "Uma sobremesa refrescante, fácil e rápida de preparar, perfeita para finalizar a refeição. Utiliza ingredientes acessíveis e é uma opção diferente das sobremesas recentes, com a cremosidade do creme e o frescor da uva.",
         "tags": [
           "doce",
-          "chocolate",
-          "frutas",
+          "gelado",
+          "fruta",
           "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 tablete de chocolate ao leite (250 g)",
-          "1 tablete de chocolate meio amargo (250 g)",
-          "1 lata de creme de leite sem o soro (300 g)",
-          "1 caixinha de morangos"
+          "1 xícara (chá) de leite em pó (90g)",
+          "3 colheres (sopa) de amido de milho",
+          "1 caixa de leite condensado (395g)",
+          "2 caixas de creme de leite (200g cada)",
+          "600ml de leite",
+          "500g de uvas verdes sem semente",
+          "150g de chocolate ao leite nobre",
+          "1/2 caixa de creme de leite (para a cobertura)",
+          "Flocos de chocolate a gosto (para decorar)"
         ],
         "preparo": [
-          "Derreta os chocolates (ao leite e meio amargo) em banho-maria.",
-          "Retire do fogo e adicione o creme de leite sem soro, misturando bem até obter um creme homogêneo.",
-          "Lave e pique os morangos em pedaços pequenos.",
-          "Em um refratário de vidro, faça camadas alternadas de creme de chocolate e morangos picados.",
-          "Leve à geladeira por pelo menos 2 horas para firmar.",
-          "Sirva gelado."
+          "Em uma panela, misture o leite em pó, o amido de milho, o leite condensado e o leite. Leve ao fogo médio, mexendo sempre, até engrossar e formar um creme.",
+          "Retire do fogo, adicione as 2 caixas de creme de leite e misture bem até incorporar. Deixe esfriar.",
+          "Lave e seque as uvas. Corte-as ao meio, se desejar.",
+          "Em potes individuais, faça camadas alternadas de creme e uvas.",
+          "Para a cobertura, derreta o chocolate ao leite no micro-ondas ou em banho-maria e misture com a 1/2 caixa de creme de leite.",
+          "Cubra os potes com a ganache de chocolate e decore com flocos de chocolate.",
+          "Leve à geladeira por pelo menos 2 horas antes de servir para firmar bem."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receita/sobremesa-sensacao/",
-          "checked_at": "2026-11-02T20:40:05+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/bombom-de-uva-no-pote",
+          "checked_at": "2026-11-03T18:16:22+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5897452/pexels-photo-5897452.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de barras de sobremesa congelada de framboesa com framboesas frescas.",
-          "bank_id": "5897452",
-          "credit": "ROMAN ODINTSOV",
-          "query": "Sobremesa Sensação"
+          "url": "https://images.pexels.com/photos/48817/jam-preparations-jars-fruit-48817.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma visão de perto de vários potes de geleia caseira alinhados em uma prateleira de madeira.",
+          "bank_id": "48817",
+          "credit": "Pixabay",
+          "query": "Bombom de Uva no Pote"
         },
-        "id": "sobremesa-sensacao-9a2be3fd"
+        "id": "bombom-de-uva-no-pote-c9af0a91"
       }
     ]
   },
