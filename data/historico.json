@@ -5799,5 +5799,29 @@
     ],
     "data": "03/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-role-ao-molho-simples-na-panela-de-pressa-45f8e5ad",
+    "titulo": "Bife à Rolê ao Molho Simples na Panela de Pressão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "04/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-limao-faf56e6d",
+    "titulo": "Mousse de Limão",
+    "tags": [
+      "sobremesa",
+      "doce",
+      "refrescante",
+      "facil"
+    ],
+    "data": "04/11/2026",
+    "fonte_status": "unverified"
   }
 ]

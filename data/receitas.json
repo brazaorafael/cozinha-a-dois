@@ -1,197 +1,207 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-03T15:14:45-03:00",
+  "gerado_em": "2026-11-04T15:29:13-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "03/11/2026",
-    "dia_semana": "terça",
+    "data": "04/11/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Bife de Patinho com Farofa de Couve",
+        "nome": "Bife à Rolê ao Molho Simples na Panela de Pressão",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Carne vermelha magra e grelhada, ideal para um jantar rápido e saudável. A farofa de couve adiciona vegetais e sabor, e o prato é equilibrado e pode render sobras para o almoço do dia seguinte. Não está na lista de pratos recentes.",
+        "tempo": "40 minutos",
+        "porque": "Receita de carne vermelha, prática e rápida (panela de pressão), com legumes no recheio para equilíbrio. Ideal para um jantar a dois com possível sobra para o almoço de 1 pessoa.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
+          "panela_de_pressao",
           "rapido",
           "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 bifes de patinho (cerca de 150g cada)",
-          "1 maço de couve manteiga",
-          "1/2 cebola pequena picada",
-          "2 dentes de alho picados",
-          "1 xícara (chá) de farinha de mandioca",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino a gosto"
+          "200 gramas de bife de alcatra",
+          "1 cenoura pequena",
+          "½ gomo de linguiça calabresa defumada",
+          "1 dente de alho",
+          "1 cebola pequena picada",
+          "1 tomate grande picado",
+          "Sal a gosto",
+          "Pimenta do reino a gosto",
+          "1 colher de sopa de óleo",
+          "1 colher de chá de colorau (urucum)",
+          "Água (para cobrir)",
+          "Salsinha a gosto"
         ],
         "preparo": [
-          "Tempere os bifes de patinho com sal e pimenta-do-reino a gosto.",
-          "Lave e seque a couve, retire os talos e pique as folhas finamente.",
-          "Em uma frigideira, aqueça 1 colher de sopa de azeite e grelhe os bifes por cerca de 3-4 minutos de cada lado, ou até o ponto desejado. Reserve.",
-          "Na mesma frigideira, adicione o azeite restante e refogue a cebola e o alho até dourarem.",
-          "Acrescente a couve picada e refogue rapidamente até murchar.",
-          "Adicione a farinha de mandioca e mexa bem até tostar levemente, formando a farofa.",
-          "Sirva os bifes grelhados acompanhados da farofa de couve."
+          "Tempere os bifes com alho, sal e pimenta do reino.",
+          "Corte a cenoura e a calabresa em tiras finas para o recheio.",
+          "Estique os bifes e coloque pedaços de cenoura e calabresa em uma das pontas.",
+          "Enrole os bifes e prenda com um palito para que não desmanchem.",
+          "Em uma panela de pressão, aqueça o óleo e doure os bifes enrolados por cerca de 2 minutos de cada lado.",
+          "Adicione a cebola, o tomate, o colorau e um pouco de água para formar o molho. Tampe a panela.",
+          "Cozinhe na pressão por 20-30 minutos após o início da pressão. Desligue, espere a pressão sair e sirva com salsinha."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bife-de-patinho-com-farofa-de-couve",
-          "checked_at": "2026-11-03T18:16:16+00:00"
+          "suggested_url": "https://www.tudoreceitas.com/receita-de-bife-a-role-ao-molho-simples-na-panela-de-pressao-8321.html",
+          "checked_at": "2026-11-04T18:30:55+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/29095934/pexels-photo-29095934.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife de ancho grelhado com salsa colorida e farofa servido em uma tábua de madeira.",
-          "bank_id": "29095934",
-          "credit": "Tiago Morheto",
-          "query": "Bife de Patinho com Farofa de Couve"
+          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
+          "bank_id": "33673991",
+          "credit": "pedro furtado",
+          "query": "Bife à Rolê ao Molho Simples na Panela de Pressão"
         },
-        "id": "bife-de-patinho-com-farofa-de-couve-8d2a22c7"
+        "id": "bife-a-role-ao-molho-simples-na-panela-de-pressa-45f8e5ad"
       },
       {
-        "nome": "Tiras de Alcatra com Pimentões",
+        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
         "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Carne vermelha em tiras que cozinha rapidamente, combinada com pimentões coloridos para um prato rico em vegetais. É prático, saboroso e ideal para um jantar rápido, podendo ser acompanhado de arroz. Não está na lista de pratos recentes.",
+        "tempo": "45 minutos",
+        "porque": "Carne vermelha em peça, cozida na pressão para agilizar, com batatas e cenouras para uma refeição completa e equilibrada. Rende bem para sobras, ideal para o almoço de 1 pessoa.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "rapido",
-          "colorido"
+          "panela_de_pressao",
+          "refeicao_completa",
+          "rende_sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "350g de alcatra em tiras",
-          "1 pimentão vermelho (80g) em tiras",
-          "1 pimentão verde (80g) em tiras",
-          "1 pimentão amarelo (80g) em tiras",
-          "1/2 cebola roxa em rodelas finas",
-          "2 colheres (sopa) de molho de soja",
-          "1 colher (sopa) de amido de milho",
-          "3 colheres (sopa) de molho de tomate",
-          "80 ml de água",
-          "1 colher (chá) de óleo de gergelim",
-          "2 colheres (sopa) de óleo de girassol",
-          "Sal, pimenta-do-reino e páprica a gosto"
+          "1 kg de miolo de acém em peça",
+          "2 cenouras",
+          "600 g de batata bolinha (ou batatas comuns cortadas)",
+          "1 cebola",
+          "2 dentes de alho",
+          "1 colher (sopa) de extrato de tomate",
+          "1 ½ xícara (chá) de água quente",
+          "½ xícara (chá) de vinho tinto (opcional)",
+          "Azeite a gosto",
+          "2 colheres (sopa) de manteiga",
+          "2 colheres (sopa) de farinha de trigo",
+          "5 ramos de orégano fresco",
+          "1 colher (chá) de páprica doce",
+          "½ colher (chá) de páprica defumada",
+          "¼ de colher (chá) de canela",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Em um recipiente, tempere as tiras de carne com sal, pimenta-do-reino, páprica, molho de soja e 1 colher de amido de milho. Misture bem.",
-          "Aqueça o óleo de girassol em uma frigideira grande em fogo alto e doure a carne rapidamente.",
-          "Adicione o óleo de gergelim, os pimentões e a cebola roxa à frigideira, refogando por alguns minutos.",
-          "Em um recipiente separado, misture o molho de tomate com a água e a colher restante de amido de milho.",
-          "Despeje o molho sobre a carne e os vegetais, mexendo até engrossar.",
-          "Deixe cozinhar por mais 2 minutos para que os sabores se incorporem. Sirva imediatamente."
+          "Faça pequenos furos na carne e tempere com páprica, canela, sal e pimenta. Esfregue bem e deixe marinar por no mínimo 6 horas na geladeira.",
+          "Pique a cebola e o alho. Descasque e fatie as cenouras e lave as batatas.",
+          "Em uma panela de pressão, aqueça azeite e doure a carne de todos os lados.",
+          "Adicione a cebola, o alho, o extrato de tomate, o vinho (se usar) e a água quente.",
+          "Tampe a panela e cozinhe por 30 minutos após pegar pressão. Desligue e espere a pressão sair.",
+          "Abra a panela, adicione as batatas e cenouras e cozinhe por mais 5 minutos sem pressão, até ficarem macias.",
+          "Fatie a carne e sirva com o molho e os legumes."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/12440-tiras-de-alcatra-com-pimentoes.html",
-          "checked_at": "2026-11-03T18:16:19+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
+          "checked_at": "2026-11-04T18:30:56+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36945993/pexels-photo-36945993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso prato de carne salteada com purê de batatas, pimentões amarelos e verduras.",
-          "bank_id": "36945993",
-          "credit": "Karina Kåsa",
-          "query": "Tiras de Alcatra com Pimentões"
+          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
+          "bank_id": "6545671",
+          "credit": "Thiago Rebouças",
+          "query": "Carne de Panela com Batata e Cenoura na Pressão"
         },
-        "id": "tiras-de-alcatra-com-pimentoes-20ecf198"
+        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
       },
       {
-        "nome": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo",
+        "nome": "Bruschetta de Tomate e Manjericão",
         "curso": "entrada",
         "tempo": "20 minutos",
-        "porque": "Uma entrada elegante e muito prática, preparada na airfryer, o que a torna rápida e sem fritura. Combina o sabor suave do queijo brie com um toque de mel e pimenta, ideal para abrir o apetite. Não está na lista de pratos recentes.",
+        "porque": "Entrada clássica italiana, rápida, fresca e fácil de preparar. Perfeita para abrir o apetite sem pesar.",
         "tags": [
-          "airfryer",
-          "queijo",
+          "entrada",
+          "vegetariano",
           "rapido",
-          "aperitivo"
+          "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 peça de queijo francês petit brie (125 g)",
-          "1/4 colher (chá) de azeite",
-          "1 colher (chá) de mel",
-          "1/4 colher (chá) de pimenta calabresa seca",
-          "5 ramos de tomilho-limão (ou tomilho comum)"
+          "1 baguete pequena",
+          "2 tomates grandes maduros",
+          "1 dente de alho",
+          "2 colheres (sopa) de azeite",
+          "2 ramos de manjericão fresco",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Pré-aqueça a Air Fryer a 160 ºC por 10 minutos.",
-          "Coloque o queijo brie em uma tigela pequena ou prato que possa ir à Air Fryer.",
-          "Polvilhe a pimenta calabresa e as folhas de tomilho debulhadas sobre o queijo.",
-          "Regue com o azeite e o mel.",
-          "Leve à Air Fryer e asse por 10 minutos, ou até o queijo estar macio e levemente derretido.",
-          "Sirva imediatamente, acompanhado de torradas ou pães."
+          "Preaqueça o forno a 180 ºC. Corte a baguete em fatias de 1 cm e disponha em uma assadeira.",
+          "Leve ao forno por cerca de 10 minutos, até ficarem crocantes e levemente douradas.",
+          "Lave, seque e corte os tomates em cubos pequenos (descarte as sementes).",
+          "Transfira os tomates para uma tigela, junte as folhas de manjericão, regue com azeite, tempere com sal e pimenta. Misture delicadamente.",
+          "Descasque o dente de alho. Esfregue o alho sobre cada torrada ainda quente.",
+          "Monte as bruschettas colocando uma porção do tomate temperado sobre cada torrada. Regue com um fio de azeite e sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
-          "checked_at": "2026-11-03T18:16:20+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bruschetta-de-tomate-e-manjericao",
+          "checked_at": "2026-11-04T18:30:57+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
-          "bank_id": "31994015",
-          "credit": "Mimi",
-          "query": "Queijo Brie Aperitivo na Air Fryer da Rita Lobo"
+          "url": "https://images.pexels.com/photos/5639421/pexels-photo-5639421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de deliciosa bruschetta coberta com tomates, azeitonas e manjericão em uma tábua de madeira.",
+          "bank_id": "5639421",
+          "credit": "Shameel mukkath",
+          "query": "Bruschetta de Tomate e Manjericão"
         },
-        "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6"
+        "id": "bruschetta-de-tomate-e-manjericao-6989fa62"
       },
       {
-        "nome": "Bombom de Uva no Pote",
+        "nome": "Mousse de Limão",
         "curso": "sobremesa",
-        "tempo": "20 minutos (+ tempo de geladeira)",
-        "porque": "Uma sobremesa refrescante, fácil e rápida de preparar, perfeita para finalizar a refeição. Utiliza ingredientes acessíveis e é uma opção diferente das sobremesas recentes, com a cremosidade do creme e o frescor da uva.",
+        "tempo": "15 minutos (preparo ativo) + 2 horas (ge",
+        "porque": "Sobremesa clássica, refrescante e fácil de fazer. O tempo de preparo ativo é rápido, ideal para um doce leve após o jantar.",
         "tags": [
+          "sobremesa",
           "doce",
-          "gelado",
-          "fruta",
-          "rapido"
+          "refrescante",
+          "facil"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "1 xícara (chá) de leite em pó (90g)",
-          "3 colheres (sopa) de amido de milho",
-          "1 caixa de leite condensado (395g)",
-          "2 caixas de creme de leite (200g cada)",
-          "600ml de leite",
-          "500g de uvas verdes sem semente",
-          "150g de chocolate ao leite nobre",
-          "1/2 caixa de creme de leite (para a cobertura)",
-          "Flocos de chocolate a gosto (para decorar)"
+          "1 lata de creme de leite",
+          "1 lata de leite condensado (395 g)",
+          "Raspas de 3 limões sicilianos",
+          "¾ de xícara (chá) de caldo de limão siciliano coado",
+          "3 claras de ovo",
+          "3 colheres (sopa) de açúcar",
+          "½ pacote de gelatina em pó incolor e sem sabor (6 g)",
+          "⅓ de xícara (chá) de água filtrada morna",
+          "1 pitada de sal"
         ],
         "preparo": [
-          "Em uma panela, misture o leite em pó, o amido de milho, o leite condensado e o leite. Leve ao fogo médio, mexendo sempre, até engrossar e formar um creme.",
-          "Retire do fogo, adicione as 2 caixas de creme de leite e misture bem até incorporar. Deixe esfriar.",
-          "Lave e seque as uvas. Corte-as ao meio, se desejar.",
-          "Em potes individuais, faça camadas alternadas de creme e uvas.",
-          "Para a cobertura, derreta o chocolate ao leite no micro-ondas ou em banho-maria e misture com a 1/2 caixa de creme de leite.",
-          "Cubra os potes com a ganache de chocolate e decore com flocos de chocolate.",
-          "Leve à geladeira por pelo menos 2 horas antes de servir para firmar bem."
+          "No liquidificador, bata o suco de limão, o leite condensado e o creme de leite até ficar liso. Adicione metade das raspas de limão e pulse.",
+          "Em uma tigela com água morna, polvilhe a gelatina e mexa até dissolver. Junte ao creme do liquidificador e pulse para incorporar.",
+          "Transfira o creme para uma tigela grande.",
+          "Na batedeira, bata as claras com uma pitada de sal até espumar. Adicione o açúcar e bata até formar picos firmes.",
+          "Incorpore delicadamente as claras em neve ao creme de limão com uma espátula, fazendo movimentos circulares de baixo para cima.",
+          "Transfira a mousse para uma travessa e leve à geladeira por no mínimo 2 horas para gelar e firmar. Sirva com raspas de limão."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/bombom-de-uva-no-pote",
-          "checked_at": "2026-11-03T18:16:22+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Mousse-de-limao",
+          "checked_at": "2026-11-04T18:30:57+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/48817/jam-preparations-jars-fruit-48817.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma visão de perto de vários potes de geleia caseira alinhados em uma prateleira de madeira.",
-          "bank_id": "48817",
-          "credit": "Pixabay",
-          "query": "Bombom de Uva no Pote"
+          "url": "https://images.pexels.com/photos/1893566/pexels-photo-1893566.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa mousse de limão decorada com framboesas frescas, hortelã e raspas de chocolate em um prato preto.",
+          "bank_id": "1893566",
+          "credit": "Valeria Boltneva",
+          "query": "Mousse de Limão"
         },
-        "id": "bombom-de-uva-no-pote-c9af0a91"
+        "id": "mousse-de-limao-faf56e6d"
       }
     ]
   },
