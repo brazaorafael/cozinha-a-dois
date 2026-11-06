@@ -1,122 +1,110 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-04T15:29:13-03:00",
+  "gerado_em": "2026-11-06T14:48:56-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "04/11/2026",
-    "dia_semana": "quarta",
+    "data": "06/11/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Bife à Rolê ao Molho Simples na Panela de Pressão",
+        "nome": "Bife Acebolado",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Receita de carne vermelha, prática e rápida (panela de pressão), com legumes no recheio para equilíbrio. Ideal para um jantar a dois com possível sobra para o almoço de 1 pessoa.",
+        "tempo": "25 minutos",
+        "porque": "Um clássico da culinária brasileira, rápido de preparar e muito saboroso. É uma excelente fonte de proteína e pode ser facilmente acompanhado de vegetais para uma refeição equilibrada.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
           "rapido",
+          "frigideira",
           "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "200 gramas de bife de alcatra",
-          "1 cenoura pequena",
-          "½ gomo de linguiça calabresa defumada",
-          "1 dente de alho",
-          "1 cebola pequena picada",
-          "1 tomate grande picado",
+          "2 bifes de contrafilé (ou alcatra/coxão mole)",
+          "1 cebola grande",
+          "2 colheres (sopa) de água",
+          "2 colheres (chá) de vinagre de vinho branco",
+          "1 colher (chá) de manteiga",
+          "Azeite para grelhar",
           "Sal a gosto",
-          "Pimenta do reino a gosto",
-          "1 colher de sopa de óleo",
-          "1 colher de chá de colorau (urucum)",
-          "Água (para cobrir)",
-          "Salsinha a gosto"
+          "Pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Tempere os bifes com alho, sal e pimenta do reino.",
-          "Corte a cenoura e a calabresa em tiras finas para o recheio.",
-          "Estique os bifes e coloque pedaços de cenoura e calabresa em uma das pontas.",
-          "Enrole os bifes e prenda com um palito para que não desmanchem.",
-          "Em uma panela de pressão, aqueça o óleo e doure os bifes enrolados por cerca de 2 minutos de cada lado.",
-          "Adicione a cebola, o tomate, o colorau e um pouco de água para formar o molho. Tampe a panela.",
-          "Cozinhe na pressão por 20-30 minutos após o início da pressão. Desligue, espere a pressão sair e sirva com salsinha."
+          "Retire os bifes da geladeira 10 minutos antes de cozinhar. Descasque e corte a cebola em meias-luas de 0,5 cm. Em uma tigela pequena, misture a água com o vinagre.",
+          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
+          "Leve uma frigideira grande ao fogo médio para aquecer. Quando estiver bem quente, regue com um fio de azeite, coloque os bifes e grelhe por cerca de 2 minutos de cada lado, ou até dourar. Retire e reserve.",
+          "Na mesma frigideira, adicione um pouco mais de azeite, se necessário, e salteie a cebola por 2 minutos, até começar a murchar.",
+          "Regue a cebola com a mistura de água e vinagre, raspando bem o fundo da frigideira para soltar os sabores. Cozinhe por mais 3 minutos.",
+          "Desligue o fogo, adicione a manteiga e misture até derreter. Sirva a cebola e o molho sobre os bifes grelhados."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.tudoreceitas.com/receita-de-bife-a-role-ao-molho-simples-na-panela-de-pressao-8321.html",
-          "checked_at": "2026-11-04T18:30:55+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bife-acebolado-com-arroz-e-feijao",
+          "checked_at": "2026-11-06T17:50:05+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
-          "bank_id": "33673991",
-          "credit": "pedro furtado",
-          "query": "Bife à Rolê ao Molho Simples na Panela de Pressão"
+          "url": "https://images.pexels.com/photos/3660/food-restaurant-dinner-lunch.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso bife servido com batatas e fatias de tomate fresco. Perfeito para o almoço ou jantar.",
+          "bank_id": "3660",
+          "credit": "JÉSHOOTS",
+          "query": "Bife Acebolado"
         },
-        "id": "bife-a-role-ao-molho-simples-na-panela-de-pressa-45f8e5ad"
+        "id": "bife-acebolado-f9fc8939"
       },
       {
-        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
+        "nome": "Espetinho de Carne com Legumes",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Carne vermelha em peça, cozida na pressão para agilizar, com batatas e cenouras para uma refeição completa e equilibrada. Rende bem para sobras, ideal para o almoço de 1 pessoa.",
+        "tempo": "30 minutos",
+        "porque": "Uma opção prática e saudável, que combina proteína e vegetais em um único preparo. Ideal para grelhar ou usar na airfryer, resultando em um prato saboroso e equilibrado, com potencial de sobras.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "refeicao_completa",
-          "rende_sobra"
+          "legumes",
+          "grelha_airfryer",
+          "pratico"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 kg de miolo de acém em peça",
-          "2 cenouras",
-          "600 g de batata bolinha (ou batatas comuns cortadas)",
-          "1 cebola",
-          "2 dentes de alho",
-          "1 colher (sopa) de extrato de tomate",
-          "1 ½ xícara (chá) de água quente",
-          "½ xícara (chá) de vinho tinto (opcional)",
+          "400g de alcatra em cubos",
+          "1 pimentão verde em cubos grandes",
+          "1 pimentão vermelho em cubos grandes",
+          "1 pimentão amarelo em cubos grandes",
+          "1 abobrinha média em rodelas grossas",
+          "1 cebola roxa em pétalas",
+          "1 xícara de tomatinhos cereja",
+          "Sal a gosto",
+          "Pimenta-do-reino a gosto",
           "Azeite a gosto",
-          "2 colheres (sopa) de manteiga",
-          "2 colheres (sopa) de farinha de trigo",
-          "5 ramos de orégano fresco",
-          "1 colher (chá) de páprica doce",
-          "½ colher (chá) de páprica defumada",
-          "¼ de colher (chá) de canela",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "Palitos de churrasco"
         ],
         "preparo": [
-          "Faça pequenos furos na carne e tempere com páprica, canela, sal e pimenta. Esfregue bem e deixe marinar por no mínimo 6 horas na geladeira.",
-          "Pique a cebola e o alho. Descasque e fatie as cenouras e lave as batatas.",
-          "Em uma panela de pressão, aqueça azeite e doure a carne de todos os lados.",
-          "Adicione a cebola, o alho, o extrato de tomate, o vinho (se usar) e a água quente.",
-          "Tampe a panela e cozinhe por 30 minutos após pegar pressão. Desligue e espere a pressão sair.",
-          "Abra a panela, adicione as batatas e cenouras e cozinhe por mais 5 minutos sem pressão, até ficarem macias.",
-          "Fatie a carne e sirva com o molho e os legumes."
+          "Lave e seque todos os legumes. Corte a cebola em pedaços médios, os pimentões em cubos grandes e a abobrinha em rodelas. Reserve os tomates-cereja inteiros. Corte a alcatra em cubos uniformes.",
+          "Tempere os cubos de carne com sal e pimenta-do-reino a gosto.",
+          "Em palitos de churrasco, intercale os cubos de carne com os pedaços de legumes, mantendo uma distribuição equilibrada.",
+          "Pré-aqueça a churrasqueira, frigideira grelhada ou airfryer. Regue os espetinhos montados com um fio de azeite.",
+          "Cozinhe os espetinhos por 10 a 15 minutos, virando regularmente, até que a carne esteja dourada e os legumes macios."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/carne-de-panela-com-batata-e-cenoura-na-pressao",
-          "checked_at": "2026-11-04T18:30:56+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-11-06T17:50:05+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
-          "bank_id": "6545671",
-          "credit": "Thiago Rebouças",
-          "query": "Carne de Panela com Batata e Cenoura na Pressão"
+          "url": "https://images.pexels.com/photos/9510363/pexels-photo-9510363.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosos espetinhos de carne de cordeiro grelhados acompanhados de brócolis frescos, perfeitos para uma refeição saborosa.",
+          "bank_id": "9510363",
+          "credit": "Karl Solano",
+          "query": "Espetinho de Carne com Legumes"
         },
-        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+        "id": "espetinho-de-carne-com-legumes-30b1c454"
       },
       {
         "nome": "Bruschetta de Tomate e Manjericão",
         "curso": "entrada",
         "tempo": "20 minutos",
-        "porque": "Entrada clássica italiana, rápida, fresca e fácil de preparar. Perfeita para abrir o apetite sem pesar.",
+        "porque": "Uma entrada clássica italiana, leve e fresca, perfeita para abrir o apetite. É rápida de preparar e utiliza ingredientes simples e acessíveis.",
         "tags": [
           "entrada",
           "vegetariano",
@@ -125,83 +113,78 @@
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 baguete pequena",
+          "1 baguete pequena (ou pão italiano)",
           "2 tomates grandes maduros",
           "1 dente de alho",
-          "2 colheres (sopa) de azeite",
+          "2 colheres (sopa) de azeite de oliva extra virgem",
           "2 ramos de manjericão fresco",
-          "Sal e pimenta-do-reino moída na hora a gosto"
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 180 ºC. Corte a baguete em fatias de 1 cm e disponha em uma assadeira.",
-          "Leve ao forno por cerca de 10 minutos, até ficarem crocantes e levemente douradas.",
-          "Lave, seque e corte os tomates em cubos pequenos (descarte as sementes).",
-          "Transfira os tomates para uma tigela, junte as folhas de manjericão, regue com azeite, tempere com sal e pimenta. Misture delicadamente.",
-          "Descasque o dente de alho. Esfregue o alho sobre cada torrada ainda quente.",
-          "Monte as bruschettas colocando uma porção do tomate temperado sobre cada torrada. Regue com um fio de azeite e sirva imediatamente."
+          "Preaqueça o forno a 180 ºC. Corte a baguete em fatias de aproximadamente 1 cm de espessura.",
+          "Corte os tomates em cubos pequenos, retirando as sementes. Pique grosseiramente as folhas de manjericão fresco.",
+          "Em uma tigela, misture os cubos de tomate e o manjericão. Tempere com sal, pimenta-do-reino e regue com um fio de azeite. Reserve para marinar.",
+          "Acomode as fatias de pão em uma assadeira, regue com um fio de azeite e leve ao forno por 5 a 10 minutos, até que fiquem levemente douradas e crocantes.",
+          "Retire o pão do forno e, enquanto ainda estiver quente, esfregue o dente de alho descascado na superfície de cada fatia.",
+          "Distribua a mistura de tomate e manjericão sobre as fatias de pão torradas. Sirva imediatamente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bruschetta-de-tomate-e-manjericao",
-          "checked_at": "2026-11-04T18:30:57+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
+          "title": "Bruschetta de tomate - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 0.72,
+          "checked_at": "2026-11-06T17:50:07+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/5639421/pexels-photo-5639421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de deliciosa bruschetta coberta com tomates, azeitonas e manjericão em uma tábua de madeira.",
-          "bank_id": "5639421",
-          "credit": "Shameel mukkath",
-          "query": "Bruschetta de Tomate e Manjericão"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
+          "alt": "Bruschetta de Tomate e Manjericão"
         },
-        "id": "bruschetta-de-tomate-e-manjericao-6989fa62"
+        "id": "bruschetta-de-tomate-e-manjericao-2143a4d0"
       },
       {
-        "nome": "Mousse de Limão",
+        "nome": "Parfait de Iogurte com Frutas Vermelhas",
         "curso": "sobremesa",
-        "tempo": "15 minutos (preparo ativo) + 2 horas (ge",
-        "porque": "Sobremesa clássica, refrescante e fácil de fazer. O tempo de preparo ativo é rápido, ideal para um doce leve após o jantar.",
+        "tempo": "15 minutos",
+        "porque": "Uma sobremesa leve, refrescante e muito fácil de fazer. É uma opção saudável e rápida, perfeita para finalizar o jantar sem pesar.",
         "tags": [
           "sobremesa",
-          "doce",
-          "refrescante",
-          "facil"
+          "leve",
+          "frutas",
+          "rapido"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 lata de creme de leite",
-          "1 lata de leite condensado (395 g)",
-          "Raspas de 3 limões sicilianos",
-          "¾ de xícara (chá) de caldo de limão siciliano coado",
-          "3 claras de ovo",
-          "3 colheres (sopa) de açúcar",
-          "½ pacote de gelatina em pó incolor e sem sabor (6 g)",
-          "⅓ de xícara (chá) de água filtrada morna",
-          "1 pitada de sal"
+          "2 copos de iogurte MOLICO® sabor Baunilha (ou iogurte natural/grego)",
+          "2 xícaras (chá) de frutas vermelhas frescas (morango, mirtilo, framboesa)",
+          "6 colheres (sopa) de granola sem açúcar",
+          "2 colheres (sopa) de amêndoas em lascas (opcional)"
         ],
         "preparo": [
-          "No liquidificador, bata o suco de limão, o leite condensado e o creme de leite até ficar liso. Adicione metade das raspas de limão e pulse.",
-          "Em uma tigela com água morna, polvilhe a gelatina e mexa até dissolver. Junte ao creme do liquidificador e pulse para incorporar.",
-          "Transfira o creme para uma tigela grande.",
-          "Na batedeira, bata as claras com uma pitada de sal até espumar. Adicione o açúcar e bata até formar picos firmes.",
-          "Incorpore delicadamente as claras em neve ao creme de limão com uma espátula, fazendo movimentos circulares de baixo para cima.",
-          "Transfira a mousse para uma travessa e leve à geladeira por no mínimo 2 horas para gelar e firmar. Sirva com raspas de limão."
+          "Separe dois copos altos ou taças para montar os parfaits.",
+          "No fundo de cada copo, coloque uma camada de 3 colheres (sopa) de granola.",
+          "Adicione uma camada de iogurte sobre a granola, utilizando metade do iogurte de um copo em cada taça.",
+          "Distribua uma porção das frutas vermelhas sobre o iogurte.",
+          "Repita as camadas de granola, iogurte e frutas vermelhas, finalizando com as frutas no topo.",
+          "Decore com as amêndoas em lascas, se desejar. Sirva gelado."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Mousse-de-limao",
-          "checked_at": "2026-11-04T18:30:57+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/parfait-de-iogurte-com-frutas-vermelhas",
+          "checked_at": "2026-11-06T17:50:08+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/1893566/pexels-photo-1893566.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa mousse de limão decorada com framboesas frescas, hortelã e raspas de chocolate em um prato preto.",
-          "bank_id": "1893566",
-          "credit": "Valeria Boltneva",
-          "query": "Mousse de Limão"
+          "url": "https://images.pexels.com/photos/36361397/pexels-photo-36361397.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Vista superior de um parfait de iogurte com frutas vermelhas frescas sobre um fundo neutro.",
+          "bank_id": "36361397",
+          "credit": "Çiğdem Bilgin",
+          "query": "Parfait de Iogurte com Frutas Vermelhas"
         },
-        "id": "mousse-de-limao-faf56e6d"
+        "id": "parfait-de-iogurte-com-frutas-vermelhas-d86b00b9"
       }
     ]
   },

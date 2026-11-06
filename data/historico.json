@@ -5823,5 +5823,17 @@
     ],
     "data": "04/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-acebolado-f9fc8939",
+    "titulo": "Bife Acebolado",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "frigideira",
+      "equilibrado"
+    ],
+    "data": "06/11/2026",
+    "fonte_status": "unverified"
   }
 ]
