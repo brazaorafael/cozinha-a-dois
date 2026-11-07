@@ -5835,5 +5835,41 @@
     ],
     "data": "06/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-a-parmegiana-sem-fritura-649e4101",
+    "titulo": "Bife à parmegiana sem fritura",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "sem_fritura",
+      "classico"
+    ],
+    "data": "07/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bruschetta-a-pomodoro-2dbccb16",
+    "titulo": "Bruschetta à pomodoro",
+    "tags": [
+      "entrada",
+      "rapida",
+      "vegetariana",
+      "forno"
+    ],
+    "data": "07/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-maracuja-3000dc2d",
+    "titulo": "Mousse de Maracujá",
+    "tags": [
+      "sobremesa",
+      "rapida",
+      "frutas",
+      "cremosa"
+    ],
+    "data": "07/11/2026",
+    "fonte_status": "verified"
   }
 ]

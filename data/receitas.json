@@ -1,190 +1,190 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-06T14:48:56-03:00",
+  "gerado_em": "2026-11-07T13:45:13-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "06/11/2026",
-    "dia_semana": "sexta",
+    "data": "07/11/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Bife Acebolado",
-        "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Um clássico da culinária brasileira, rápido de preparar e muito saboroso. É uma excelente fonte de proteína e pode ser facilmente acompanhado de vegetais para uma refeição equilibrada.",
-        "tags": [
-          "carne_vermelha",
-          "rapido",
-          "frigideira",
-          "equilibrado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "2 bifes de contrafilé (ou alcatra/coxão mole)",
-          "1 cebola grande",
-          "2 colheres (sopa) de água",
-          "2 colheres (chá) de vinagre de vinho branco",
-          "1 colher (chá) de manteiga",
-          "Azeite para grelhar",
-          "Sal a gosto",
-          "Pimenta-do-reino a gosto"
-        ],
-        "preparo": [
-          "Retire os bifes da geladeira 10 minutos antes de cozinhar. Descasque e corte a cebola em meias-luas de 0,5 cm. Em uma tigela pequena, misture a água com o vinagre.",
-          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
-          "Leve uma frigideira grande ao fogo médio para aquecer. Quando estiver bem quente, regue com um fio de azeite, coloque os bifes e grelhe por cerca de 2 minutos de cada lado, ou até dourar. Retire e reserve.",
-          "Na mesma frigideira, adicione um pouco mais de azeite, se necessário, e salteie a cebola por 2 minutos, até começar a murchar.",
-          "Regue a cebola com a mistura de água e vinagre, raspando bem o fundo da frigideira para soltar os sabores. Cozinhe por mais 3 minutos.",
-          "Desligue o fogo, adicione a manteiga e misture até derreter. Sirva a cebola e o molho sobre os bifes grelhados."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bife-acebolado-com-arroz-e-feijao",
-          "checked_at": "2026-11-06T17:50:05+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/3660/food-restaurant-dinner-lunch.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife servido com batatas e fatias de tomate fresco. Perfeito para o almoço ou jantar.",
-          "bank_id": "3660",
-          "credit": "JÉSHOOTS",
-          "query": "Bife Acebolado"
-        },
-        "id": "bife-acebolado-f9fc8939"
-      },
-      {
-        "nome": "Espetinho de Carne com Legumes",
+        "nome": "Picadinho de carne com legumes",
         "curso": "principal",
         "tempo": "30 minutos",
-        "porque": "Uma opção prática e saudável, que combina proteína e vegetais em um único preparo. Ideal para grelhar ou usar na airfryer, resultando em um prato saboroso e equilibrado, com potencial de sobras.",
+        "porque": "Carne vermelha é a preferida do casal, e este picadinho é um prato completo, rápido e prático (refogado), com bom equilíbrio de proteína e vegetais. Rende porções para 2 com potencial de sobra para o almoço de 1 pessoa.",
         "tags": [
           "carne_vermelha",
-          "legumes",
-          "grelha_airfryer",
-          "pratico"
+          "refogado",
+          "equilibrado",
+          "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "400g de alcatra em cubos",
-          "1 pimentão verde em cubos grandes",
-          "1 pimentão vermelho em cubos grandes",
-          "1 pimentão amarelo em cubos grandes",
-          "1 abobrinha média em rodelas grossas",
-          "1 cebola roxa em pétalas",
-          "1 xícara de tomatinhos cereja",
-          "Sal a gosto",
-          "Pimenta-do-reino a gosto",
-          "Azeite a gosto",
-          "Palitos de churrasco"
+          "300 g de patinho em cubos de 1,5 cm",
+          "1 colher (sopa) de azeite",
+          "1 cebola média picada",
+          "1 dente de alho picado",
+          "1 cenoura média em cubos de 1 cm",
+          "1 batata média em cubos de 1 cm",
+          "½ xícara (chá) de vagem picada",
+          "1 tomate maduro picado",
+          "1 xícara (chá) de caldo de carne (ou água)",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Salsinha picada a gosto para finalizar"
         ],
         "preparo": [
-          "Lave e seque todos os legumes. Corte a cebola em pedaços médios, os pimentões em cubos grandes e a abobrinha em rodelas. Reserve os tomates-cereja inteiros. Corte a alcatra em cubos uniformes.",
-          "Tempere os cubos de carne com sal e pimenta-do-reino a gosto.",
-          "Em palitos de churrasco, intercale os cubos de carne com os pedaços de legumes, mantendo uma distribuição equilibrada.",
-          "Pré-aqueça a churrasqueira, frigideira grelhada ou airfryer. Regue os espetinhos montados com um fio de azeite.",
-          "Cozinhe os espetinhos por 10 a 15 minutos, virando regularmente, até que a carne esteja dourada e os legumes macios."
+          "Tempere a carne com sal e pimenta-do-reino.",
+          "Aqueça o azeite em uma panela e doure a carne em levas. Retire e reserve.",
+          "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
+          "Adicione a cenoura, a batata e a vagem. Refogue por 5 minutos.",
+          "Volte a carne para a panela, junte o tomate e o caldo de carne.",
+          "Cozinhe em fogo baixo, com a panela semi-tampada, por cerca de 20 minutos ou até os legumes ficarem macios e o molho encorpado.",
+          "Finalize com salsinha picada e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-11-06T17:50:05+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Picadinho-de-carne-com-legumes",
+          "checked_at": "2026-11-07T16:46:51+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/9510363/pexels-photo-9510363.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosos espetinhos de carne de cordeiro grelhados acompanhados de brócolis frescos, perfeitos para uma refeição saborosa.",
-          "bank_id": "9510363",
-          "credit": "Karl Solano",
-          "query": "Espetinho de Carne com Legumes"
+          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
+          "bank_id": "38330332",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Picadinho de carne com legumes"
         },
-        "id": "espetinho-de-carne-com-legumes-30b1c454"
+        "id": "picadinho-de-carne-com-legumes-60ed6959"
       },
       {
-        "nome": "Bruschetta de Tomate e Manjericão",
-        "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Uma entrada clássica italiana, leve e fresca, perfeita para abrir o apetite. É rápida de preparar e utiliza ingredientes simples e acessíveis.",
+        "nome": "Bife à parmegiana sem fritura",
+        "curso": "principal",
+        "tempo": "30-40 minutos",
+        "porque": "Uma opção clássica de carne vermelha, preparada de forma mais saudável no forno (sem fritura), garantindo sabor e praticidade em menos de 45 minutos. Ideal para um jantar a dois.",
         "tags": [
-          "entrada",
-          "vegetariano",
-          "rapido",
-          "fresco"
+          "carne_vermelha",
+          "forno",
+          "sem_fritura",
+          "classico"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 baguete pequena (ou pão italiano)",
-          "2 tomates grandes maduros",
-          "1 dente de alho",
-          "2 colheres (sopa) de azeite de oliva extra virgem",
-          "2 ramos de manjericão fresco",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto"
+          "4 bifes de filé mignon ou contrafilé (cerca de 150g cada)",
+          "Sal e pimenta-do-reino a gosto",
+          "1 xícara (chá) de molho de tomate pronto",
+          "150 g de queijo muçarela fatiado",
+          "Orégano a gosto",
+          "Azeite para untar"
         ],
         "preparo": [
-          "Preaqueça o forno a 180 ºC. Corte a baguete em fatias de aproximadamente 1 cm de espessura.",
-          "Corte os tomates em cubos pequenos, retirando as sementes. Pique grosseiramente as folhas de manjericão fresco.",
-          "Em uma tigela, misture os cubos de tomate e o manjericão. Tempere com sal, pimenta-do-reino e regue com um fio de azeite. Reserve para marinar.",
-          "Acomode as fatias de pão em uma assadeira, regue com um fio de azeite e leve ao forno por 5 a 10 minutos, até que fiquem levemente douradas e crocantes.",
-          "Retire o pão do forno e, enquanto ainda estiver quente, esfregue o dente de alho descascado na superfície de cada fatia.",
-          "Distribua a mistura de tomate e manjericão sobre as fatias de pão torradas. Sirva imediatamente."
+          "Tempere os bifes com sal e pimenta-do-reino.",
+          "Em uma assadeira untada com azeite, disponha os bifes.",
+          "Cubra cada bife com uma porção de molho de tomate.",
+          "Por cima do molho, coloque as fatias de queijo muçarela.",
+          "Polvilhe orégano a gosto.",
+          "Leve ao forno médio (180°C) preaquecido por cerca de 15-20 minutos, ou até o queijo derreter e gratinar.",
+          "Sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receitas/bife-a-parmegiana-sem-fritura/",
+          "checked_at": "2026-11-07T16:46:53+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/28893432/pexels-photo-28893432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Desfrute de um bife de cheeseburger coberto com molho, servido com batatas fritas e uma guarnição de tomate fresco. Perfeito para amantes da gastronomia.",
+          "bank_id": "28893432",
+          "credit": "pedro furtado",
+          "query": "Bife à parmegiana sem fritura"
+        },
+        "id": "bife-a-parmegiana-sem-fritura-649e4101"
+      },
+      {
+        "nome": "Bruschetta à pomodoro",
+        "curso": "entrada",
+        "tempo": "35 minutos",
+        "porque": "Uma entrada leve e saborosa, rápida de preparar, que utiliza forno ou grelha para o pão e ingredientes frescos, perfeita para abrir o apetite.",
+        "tags": [
+          "entrada",
+          "rapida",
+          "vegetariana",
+          "forno"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "4 fatias de pão italiano (cerca de 1,5 cm de espessura)",
+          "2 dentes de alho",
+          "5 colheres (sopa) de azeite",
+          "3 tomates maduros picados (sem pele e sem sementes)",
+          "½ xícara (chá) de muçarela de búfala ralada grossa (ou em cubos pequenos)",
+          "Sal e pimenta-do-reino a gosto",
+          "Folhas de manjericão a gosto"
+        ],
+        "preparo": [
+          "Grelhe as fatias de pão em uma frigideira ou asse no forno até ficarem crocantes.",
+          "Esfregue os dentes de alho (cortados ao meio) nas fatias de pão tostadas.",
+          "Em uma tigela, misture os tomates picados, a muçarela de búfala e o azeite restante.",
+          "Tempere a mistura de tomate com sal, pimenta-do-reino e orégano (se desejar).",
+          "Distribua a mistura de tomate sobre as fatias de pão.",
+          "Finalize com folhas de manjericão fresco e sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receitas/bruschetta-a-pomodoro/",
+          "checked_at": "2026-11-07T16:46:55+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36933464/pexels-photo-36933464.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Vista de cima para baixo de uma variedade de salgados e bruschettas dispostos em bandejas de madeira para um evento.",
+          "bank_id": "36933464",
+          "credit": "Jonathan Borba",
+          "query": "Bruschetta à pomodoro"
+        },
+        "id": "bruschetta-a-pomodoro-2dbccb16"
+      },
+      {
+        "nome": "Mousse de Maracujá",
+        "curso": "sobremesa",
+        "tempo": "10 minutos de preparo + tempo de geladei",
+        "porque": "Uma sobremesa leve, refrescante e muito fácil de preparar, com poucos ingredientes e que agrada a maioria dos paladares, perfeita para finalizar o jantar.",
+        "tags": [
+          "sobremesa",
+          "rapida",
+          "frutas",
+          "cremosa"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 Leite MOÇA® (lata ou caixinha) 395 g",
+          "1 lata de NESTLÉ® Creme de Leite",
+          "1 xícara (chá) de suco concentrado de maracujá",
+          "Calda (opcional): ½ xícara (chá) de polpa de maracujá com sementes, ½ xícara (chá) de açúcar refinado"
+        ],
+        "preparo": [
+          "No liquidificador, bata o Leite MOÇA®, o NESTLÉ® Creme de Leite e o suco concentrado de maracujá até obter um creme homogêneo.",
+          "Despeje a mousse em um recipiente ou em taças individuais.",
+          "Leve à geladeira por, no mínimo, 2 horas, ou até firmar.",
+          "Para a calda (opcional): Em uma panela, misture a polpa de maracujá com o açúcar. Leve ao fogo baixo, mexendo ocasionalmente, até ferver e formar uma calda levemente espessa. Deixe esfriar.",
+          "Sirva a mousse gelada, com a calda de maracujá por cima, se desejar."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/bruschetta-de-tomate",
-          "title": "Bruschetta de tomate - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 0.72,
-          "checked_at": "2026-11-06T17:50:07+00:00"
+          "url": "https://www.receitasnestle.com.br/receitas/mousse-de-maracuja-moca",
+          "title": "Mousse de Maracujá Moça",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-07T16:46:57+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-8124-receita-bruschetta.webp",
-          "alt": "Bruschetta de Tomate e Manjericão"
+          "url": "https://d1uz88p17r663j.cloudfront.net/original/1f25fe8005f72d46a628e999418b81aa_mousse-maracuja-receitas-nestle.jpg",
+          "alt": "Mousse de Maracujá"
         },
-        "id": "bruschetta-de-tomate-e-manjericao-2143a4d0"
-      },
-      {
-        "nome": "Parfait de Iogurte com Frutas Vermelhas",
-        "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Uma sobremesa leve, refrescante e muito fácil de fazer. É uma opção saudável e rápida, perfeita para finalizar o jantar sem pesar.",
-        "tags": [
-          "sobremesa",
-          "leve",
-          "frutas",
-          "rapido"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 copos de iogurte MOLICO® sabor Baunilha (ou iogurte natural/grego)",
-          "2 xícaras (chá) de frutas vermelhas frescas (morango, mirtilo, framboesa)",
-          "6 colheres (sopa) de granola sem açúcar",
-          "2 colheres (sopa) de amêndoas em lascas (opcional)"
-        ],
-        "preparo": [
-          "Separe dois copos altos ou taças para montar os parfaits.",
-          "No fundo de cada copo, coloque uma camada de 3 colheres (sopa) de granola.",
-          "Adicione uma camada de iogurte sobre a granola, utilizando metade do iogurte de um copo em cada taça.",
-          "Distribua uma porção das frutas vermelhas sobre o iogurte.",
-          "Repita as camadas de granola, iogurte e frutas vermelhas, finalizando com as frutas no topo.",
-          "Decore com as amêndoas em lascas, se desejar. Sirva gelado."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/parfait-de-iogurte-com-frutas-vermelhas",
-          "checked_at": "2026-11-06T17:50:08+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/36361397/pexels-photo-36361397.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Vista superior de um parfait de iogurte com frutas vermelhas frescas sobre um fundo neutro.",
-          "bank_id": "36361397",
-          "credit": "Çiğdem Bilgin",
-          "query": "Parfait de Iogurte com Frutas Vermelhas"
-        },
-        "id": "parfait-de-iogurte-com-frutas-vermelhas-d86b00b9"
+        "id": "mousse-de-maracuja-3000dc2d"
       }
     ]
   },
