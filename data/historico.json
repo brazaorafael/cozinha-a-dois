@@ -5871,5 +5871,41 @@
     ],
     "data": "07/11/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "carne-de-panela-com-molho-rustico-9b375cf1",
+    "titulo": "Carne de Panela com Molho Rústico",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "refeicao_completa",
+      "sobra"
+    ],
+    "data": "09/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cubinhos-de-carne-na-airfryer-dourados-e-suculen-c4ef0da7",
+    "titulo": "Cubinhos de Carne na Airfryer – Dourados e Suculentos",
+    "tags": [
+      "carne_vermelha",
+      "airfryer",
+      "rapido",
+      "proteico"
+    ],
+    "data": "09/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-com-rabanete-e-grao-de-bico-assados-na-ai-cda4b475",
+    "titulo": "Salada com rabanete e grão-de-bico assados na Air Fryer da Rita Lobo",
+    "tags": [
+      "vegetariano",
+      "airfryer",
+      "leve",
+      "salada"
+    ],
+    "data": "09/11/2026",
+    "fonte_status": "unverified"
   }
 ]

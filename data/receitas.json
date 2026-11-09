@@ -1,190 +1,188 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-07T13:45:13-03:00",
+  "gerado_em": "2026-11-09T18:18:26-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "07/11/2026",
-    "dia_semana": "sábado",
+    "data": "09/11/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Picadinho de carne com legumes",
+        "nome": "Carne de Panela com Molho Rústico",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Carne vermelha é a preferida do casal, e este picadinho é um prato completo, rápido e prático (refogado), com bom equilíbrio de proteína e vegetais. Rende porções para 2 com potencial de sobra para o almoço de 1 pessoa.",
+        "tempo": "45 minutos",
+        "porque": "Carne vermelha preparada na panela de pressão, garantindo rapidez e um molho encorpado e saboroso, ideal para um jantar reconfortante e com potencial de sobras para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "equilibrado",
-          "rapido"
+          "panela_de_pressao",
+          "refeicao_completa",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "300 g de patinho em cubos de 1,5 cm",
-          "1 colher (sopa) de azeite",
+          "500g de coxão duro em cubos",
+          "2 dentes de alho picados",
           "1 cebola média picada",
-          "1 dente de alho picado",
-          "1 cenoura média em cubos de 1 cm",
-          "1 batata média em cubos de 1 cm",
-          "½ xícara (chá) de vagem picada",
-          "1 tomate maduro picado",
-          "1 xícara (chá) de caldo de carne (ou água)",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Salsinha picada a gosto para finalizar"
+          "1/2 xícara de vinho tinto seco",
+          "1 lata de molho de tomate (340g)",
+          "1 xícara de caldo de carne",
+          "1 folha de louro",
+          "Ramos de alecrim e tomilho frescos",
+          "Sal e pimenta-do-reino a gosto",
+          "Azeite para refogar"
         ],
         "preparo": [
-          "Tempere a carne com sal e pimenta-do-reino.",
-          "Aqueça o azeite em uma panela e doure a carne em levas. Retire e reserve.",
+          "Tempere os cubos de carne com sal e pimenta-do-reino.",
+          "Aqueça um fio de azeite na panela de pressão e doure a carne por todos os lados. Retire e reserve.",
           "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
-          "Adicione a cenoura, a batata e a vagem. Refogue por 5 minutos.",
-          "Volte a carne para a panela, junte o tomate e o caldo de carne.",
-          "Cozinhe em fogo baixo, com a panela semi-tampada, por cerca de 20 minutos ou até os legumes ficarem macios e o molho encorpado.",
-          "Finalize com salsinha picada e sirva."
+          "Adicione o vinho tinto e raspe o fundo da panela para soltar os sabores. Deixe o álcool evaporar.",
+          "Retorne a carne à panela, acrescente o molho de tomate, o caldo de carne, a folha de louro, alecrim e tomilho. Misture bem.",
+          "Feche a panela de pressão e, após pegar pressão, cozinhe por cerca de 30-35 minutos em fogo médio.",
+          "Desligue o fogo, espere a pressão sair naturalmente e verifique o cozimento da carne. Se necessário, cozinhe por mais alguns minutos sem pressão para apurar o molho."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Picadinho-de-carne-com-legumes",
-          "checked_at": "2026-11-07T16:46:51+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-11-09T21:19:56+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
-          "bank_id": "38330332",
-          "credit": "DΛVΞ GΛRCIΛ",
-          "query": "Picadinho de carne com legumes"
+          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
+          "bank_id": "34837746",
+          "credit": "Caleb Oquendo",
+          "query": "Carne de Panela com Molho Rústico"
         },
-        "id": "picadinho-de-carne-com-legumes-60ed6959"
+        "id": "carne-de-panela-com-molho-rustico-9b375cf1"
       },
       {
-        "nome": "Bife à parmegiana sem fritura",
+        "nome": "Cubinhos de Carne na Airfryer – Dourados e Suculentos",
         "curso": "principal",
-        "tempo": "30-40 minutos",
-        "porque": "Uma opção clássica de carne vermelha, preparada de forma mais saudável no forno (sem fritura), garantindo sabor e praticidade em menos de 45 minutos. Ideal para um jantar a dois.",
+        "tempo": "25 minutos",
+        "porque": "Opção de carne vermelha extremamente rápida e prática, preparada na airfryer, ideal para um jantar em que o tempo é escasso e a prioridade é a proteína com pouca gordura.",
         "tags": [
           "carne_vermelha",
-          "forno",
-          "sem_fritura",
-          "classico"
+          "airfryer",
+          "rapido",
+          "proteico"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "4 bifes de filé mignon ou contrafilé (cerca de 150g cada)",
-          "Sal e pimenta-do-reino a gosto",
-          "1 xícara (chá) de molho de tomate pronto",
-          "150 g de queijo muçarela fatiado",
-          "Orégano a gosto",
-          "Azeite para untar"
+          "400g de carne bovina em cubos (alcatra ou patinho)",
+          "1 colher (sopa) de azeite de oliva",
+          "1 colher (chá) de páprica doce",
+          "1/2 colher (chá) de alho em pó",
+          "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino.",
-          "Em uma assadeira untada com azeite, disponha os bifes.",
-          "Cubra cada bife com uma porção de molho de tomate.",
-          "Por cima do molho, coloque as fatias de queijo muçarela.",
-          "Polvilhe orégano a gosto.",
-          "Leve ao forno médio (180°C) preaquecido por cerca de 15-20 minutos, ou até o queijo derreter e gratinar.",
-          "Sirva imediatamente."
+          "Em uma tigela, tempere os cubos de carne com azeite, páprica, alho em pó, sal e pimenta. Misture bem para que todos os cubos fiquem temperados.",
+          "Pré-aqueça a airfryer a 200°C por 5 minutos.",
+          "Distribua os cubos de carne na cesta da airfryer em uma única camada, evitando sobrepor. Se necessário, faça em levas.",
+          "Cozinhe por 10-15 minutos, virando os cubos na metade do tempo, até ficarem dourados e suculentos.",
+          "Sirva imediatamente, acompanhado de legumes ou uma salada fresca."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receitas/bife-a-parmegiana-sem-fritura/",
-          "checked_at": "2026-11-07T16:46:53+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-11-09T21:19:57+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/28893432/pexels-photo-28893432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Desfrute de um bife de cheeseburger coberto com molho, servido com batatas fritas e uma guarnição de tomate fresco. Perfeito para amantes da gastronomia.",
-          "bank_id": "28893432",
-          "credit": "pedro furtado",
-          "query": "Bife à parmegiana sem fritura"
+          "url": "https://images.pexels.com/photos/4210809/pexels-photo-4210809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Talheres dourados cortando carne com batatas em um prato, mostrando uma refeição deliciosa.",
+          "bank_id": "4210809",
+          "credit": "https://kaboompics.com/",
+          "query": "Cubinhos de Carne na Airfryer – Dourados e Suculentos"
         },
-        "id": "bife-a-parmegiana-sem-fritura-649e4101"
+        "id": "cubinhos-de-carne-na-airfryer-dourados-e-suculen-c4ef0da7"
       },
       {
-        "nome": "Bruschetta à pomodoro",
+        "nome": "Salada com rabanete e grão-de-bico assados na Air Fryer da Rita Lobo",
         "curso": "entrada",
-        "tempo": "35 minutos",
-        "porque": "Uma entrada leve e saborosa, rápida de preparar, que utiliza forno ou grelha para o pão e ingredientes frescos, perfeita para abrir o apetite.",
+        "tempo": "25 minutos",
+        "porque": "Uma entrada leve e refrescante, que utiliza a airfryer para dar textura crocante ao grão-de-bico e adocicar o rabanete, combinando perfeitamente com os pratos principais de carne vermelha.",
         "tags": [
-          "entrada",
-          "rapida",
-          "vegetariana",
-          "forno"
+          "vegetariano",
+          "airfryer",
+          "leve",
+          "salada"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "4 fatias de pão italiano (cerca de 1,5 cm de espessura)",
-          "2 dentes de alho",
-          "5 colheres (sopa) de azeite",
-          "3 tomates maduros picados (sem pele e sem sementes)",
-          "½ xícara (chá) de muçarela de búfala ralada grossa (ou em cubos pequenos)",
-          "Sal e pimenta-do-reino a gosto",
-          "Folhas de manjericão a gosto"
+          "1 xícara (chá) de grão-de-bico cozido",
+          "1 maço de rabanetes",
+          "1 maço de alface (ou mix de folhas)",
+          "Azeite a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Para o molho:",
+          "1 dente de alho",
+          "2 colheres (sopa) de tahine",
+          "2 colheres (sopa) de caldo de limão",
+          "2 a 3 colheres (sopa) de água"
         ],
         "preparo": [
-          "Grelhe as fatias de pão em uma frigideira ou asse no forno até ficarem crocantes.",
-          "Esfregue os dentes de alho (cortados ao meio) nas fatias de pão tostadas.",
-          "Em uma tigela, misture os tomates picados, a muçarela de búfala e o azeite restante.",
-          "Tempere a mistura de tomate com sal, pimenta-do-reino e orégano (se desejar).",
-          "Distribua a mistura de tomate sobre as fatias de pão.",
-          "Finalize com folhas de manjericão fresco e sirva imediatamente."
+          "Lave e seque bem os rabanetes. Corte-os em metades ou quartos, dependendo do tamanho.",
+          "Em uma tigela, misture os rabanetes e o grão-de-bico com um fio de azeite, sal e pimenta.",
+          "Leve à airfryer pré-aquecida a 200°C por cerca de 15-20 minutos, mexendo na metade do tempo, até os rabanetes ficarem macios e o grão-de-bico crocante.",
+          "Enquanto isso, prepare o molho: amasse o alho com uma pitada de sal até formar uma pasta. Misture com o tahine, caldo de limão e adicione a água aos poucos até obter a consistência desejada.",
+          "Lave as folhas de alface e seque bem. Arrume-as em um prato.",
+          "Distribua os rabanetes e grão-de-bico assados sobre as folhas e sirva com o molho à parte."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receitas/bruschetta-a-pomodoro/",
-          "checked_at": "2026-11-07T16:46:55+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/salada-com-rabanete-e-grao-de-bico-assados-na-air-fryer-da-rita-lobo",
+          "checked_at": "2026-11-09T21:19:57+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36933464/pexels-photo-36933464.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Vista de cima para baixo de uma variedade de salgados e bruschettas dispostos em bandejas de madeira para um evento.",
-          "bank_id": "36933464",
-          "credit": "Jonathan Borba",
-          "query": "Bruschetta à pomodoro"
+          "url": "https://images.pexels.com/photos/9218747/pexels-photo-9218747.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa salada de espinafre com rabanetes, grão-de-bico e cebolas em conserva em um prato vermelho.",
+          "bank_id": "9218747",
+          "credit": "Loren Castillo",
+          "query": "Salada com rabanete e grão-de-bico assados na Air Fryer da Rita Lobo"
         },
-        "id": "bruschetta-a-pomodoro-2dbccb16"
+        "id": "salada-com-rabanete-e-grao-de-bico-assados-na-ai-cda4b475"
       },
       {
-        "nome": "Mousse de Maracujá",
+        "nome": "Musse de chocolate com água",
         "curso": "sobremesa",
-        "tempo": "10 minutos de preparo + tempo de geladei",
-        "porque": "Uma sobremesa leve, refrescante e muito fácil de preparar, com poucos ingredientes e que agrada a maioria dos paladares, perfeita para finalizar o jantar.",
+        "tempo": "20 minutos (preparo ativo) + 30 minutos ",
+        "porque": "Uma sobremesa de chocolate surpreendentemente leve e rápida, que utiliza apenas dois ingredientes e uma técnica simples para criar uma musse aerada e deliciosa, perfeita para finalizar o jantar.",
         "tags": [
-          "sobremesa",
-          "rapida",
-          "frutas",
-          "cremosa"
+          "chocolate",
+          "rapido",
+          "facil",
+          "doce"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 Leite MOÇA® (lata ou caixinha) 395 g",
-          "1 lata de NESTLÉ® Creme de Leite",
-          "1 xícara (chá) de suco concentrado de maracujá",
-          "Calda (opcional): ½ xícara (chá) de polpa de maracujá com sementes, ½ xícara (chá) de açúcar refinado"
+          "200g de chocolate meio amargo picado",
+          "100ml de água"
         ],
         "preparo": [
-          "No liquidificador, bata o Leite MOÇA®, o NESTLÉ® Creme de Leite e o suco concentrado de maracujá até obter um creme homogêneo.",
-          "Despeje a mousse em um recipiente ou em taças individuais.",
-          "Leve à geladeira por, no mínimo, 2 horas, ou até firmar.",
-          "Para a calda (opcional): Em uma panela, misture a polpa de maracujá com o açúcar. Leve ao fogo baixo, mexendo ocasionalmente, até ferver e formar uma calda levemente espessa. Deixe esfriar.",
-          "Sirva a mousse gelada, com a calda de maracujá por cima, se desejar."
+          "Pique o chocolate meio amargo em pedaços pequenos para facilitar o derretimento.",
+          "Em uma panela pequena, leve a água ao fogo médio até ferver.",
+          "Adicione o chocolate picado à água fervente e mexa bem com uma espátula até derreter completamente e formar um creme liso e homogêneo.",
+          "Prepare uma tigela grande com cubos de gelo e um pouco de água fria.",
+          "Encaixe a tigela com o creme de chocolate sobre o gelo e bata vigorosamente com um batedor de arame (fouet) por cerca de 5 a 10 minutos, até a musse ficar aerada e encorpada.",
+          "Transfira a musse para copinhos individuais ou uma travessa e leve à geladeira por pelo menos 30 minutos para firmar antes de servir."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/mousse-de-maracuja-moca",
-          "title": "Mousse de Maracujá Moça",
-          "domain": "receitasnestle.com.br",
+          "url": "https://panelinha.com.br/receita/musse-de-chocolate-com-agua",
+          "title": "Musse de chocolate com água - Panelinha",
+          "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-11-07T16:46:57+00:00"
+          "checked_at": "2026-11-09T21:19:58+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://d1uz88p17r663j.cloudfront.net/original/1f25fe8005f72d46a628e999418b81aa_mousse-maracuja-receitas-nestle.jpg",
-          "alt": "Mousse de Maracujá"
+          "url": "https://i.panelinha.com.br/i1/bk-9008-musse-de-chocolate-com-agua.webp",
+          "alt": "Musse de chocolate com água"
         },
-        "id": "mousse-de-maracuja-3000dc2d"
+        "id": "musse-de-chocolate-com-agua-4c818a31"
       }
     ]
   },
