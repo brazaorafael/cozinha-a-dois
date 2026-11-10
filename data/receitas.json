@@ -1,188 +1,196 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-09T18:18:26-03:00",
+  "gerado_em": "2026-11-10T15:29:25-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "09/11/2026",
-    "dia_semana": "segunda",
+    "data": "10/11/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Carne de Panela com Molho Rústico",
+        "nome": "Picadinho de Carne com Purê de Mandioca",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Carne vermelha preparada na panela de pressão, garantindo rapidez e um molho encorpado e saboroso, ideal para um jantar reconfortante e com potencial de sobras para o almoço do dia seguinte.",
+        "porque": "Carne vermelha, prato completo e nutritivo, com carboidrato e vegetais (se adicionados ao picadinho). É uma receita prática e saborosa, ideal para o jantar e com potencial para sobras.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "refeicao_completa",
-          "sobra"
+          "refogado",
+          "pratico",
+          "confort_food"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de coxão duro em cubos",
-          "2 dentes de alho picados",
+          "1 kg de carne bovina (paleta ou acém) em cubos",
           "1 cebola média picada",
-          "1/2 xícara de vinho tinto seco",
-          "1 lata de molho de tomate (340g)",
-          "1 xícara de caldo de carne",
-          "1 folha de louro",
-          "Ramos de alecrim e tomilho frescos",
+          "2 dentes de alho amassados",
+          "1 tomate picado",
+          "½ xícara (chá) de molho de tomate",
+          "½ xícara (chá) de água",
           "Sal e pimenta-do-reino a gosto",
-          "Azeite para refogar"
+          "500g de mandioca cozida e amassada",
+          "2 colheres (sopa) de manteiga",
+          "½ xícara (chá) de leite",
+          "Cheiro-verde picado a gosto"
         ],
         "preparo": [
-          "Tempere os cubos de carne com sal e pimenta-do-reino.",
-          "Aqueça um fio de azeite na panela de pressão e doure a carne por todos os lados. Retire e reserve.",
-          "Na mesma panela, refogue a cebola e o alho até ficarem macios.",
-          "Adicione o vinho tinto e raspe o fundo da panela para soltar os sabores. Deixe o álcool evaporar.",
-          "Retorne a carne à panela, acrescente o molho de tomate, o caldo de carne, a folha de louro, alecrim e tomilho. Misture bem.",
-          "Feche a panela de pressão e, após pegar pressão, cozinhe por cerca de 30-35 minutos em fogo médio.",
-          "Desligue o fogo, espere a pressão sair naturalmente e verifique o cozimento da carne. Se necessário, cozinhe por mais alguns minutos sem pressão para apurar o molho."
+          "Tempere os cubos de carne com sal e pimenta-do-reino a gosto.",
+          "Em uma panela de pressão, aqueça um fio de óleo e doure a carne por todos os lados. Retire a carne e reserve.",
+          "Na mesma panela, refogue a cebola picada e o alho amassado até ficarem macios. Adicione o tomate picado e o molho de tomate, refogando por alguns minutos.",
+          "Retorne a carne dourada à panela, adicione a água, tampe a panela de pressão e cozinhe por cerca de 20 minutos após o início da pressão.",
+          "Enquanto a carne cozinha, prepare o purê: amasse a mandioca cozida, misture com a manteiga, o leite e sal a gosto, levando ao fogo baixo até obter uma consistência homogênea.",
+          "Libere a pressão da panela, verifique o cozimento da carne e, se necessário, cozinhe por mais alguns minutos sem pressão para apurar o molho.",
+          "Sirva o picadinho de carne quente sobre o purê de mandioca cremoso, finalizando com cheiro-verde picado a gosto."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-11-09T21:19:56+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/picadinho-de-carne-com-pure-de-mandioca",
+          "checked_at": "2026-11-10T18:31:53+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
-          "bank_id": "34837746",
-          "credit": "Caleb Oquendo",
-          "query": "Carne de Panela com Molho Rústico"
+          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
+          "bank_id": "38330332",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Picadinho de Carne com Purê de Mandioca"
         },
-        "id": "carne-de-panela-com-molho-rustico-9b375cf1"
+        "id": "picadinho-de-carne-com-pure-de-mandioca-d930ea3f"
       },
       {
-        "nome": "Cubinhos de Carne na Airfryer – Dourados e Suculentos",
+        "nome": "Filé Mignon Suíno com Abacaxi na Airfryer",
         "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Opção de carne vermelha extremamente rápida e prática, preparada na airfryer, ideal para um jantar em que o tempo é escasso e a prioridade é a proteína com pouca gordura.",
+        "tempo": "30 minutos",
+        "porque": "Carne vermelha (suína) preparada na airfryer, com um toque agridoce do abacaxi, resultando em um prato rápido e com pouca gordura.",
         "tags": [
-          "carne_vermelha",
+          "carne_suina",
           "airfryer",
-          "rapido",
-          "proteico"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "400g de carne bovina em cubos (alcatra ou patinho)",
-          "1 colher (sopa) de azeite de oliva",
-          "1 colher (chá) de páprica doce",
-          "1/2 colher (chá) de alho em pó",
-          "Sal e pimenta-do-reino a gosto"
-        ],
-        "preparo": [
-          "Em uma tigela, tempere os cubos de carne com azeite, páprica, alho em pó, sal e pimenta. Misture bem para que todos os cubos fiquem temperados.",
-          "Pré-aqueça a airfryer a 200°C por 5 minutos.",
-          "Distribua os cubos de carne na cesta da airfryer em uma única camada, evitando sobrepor. Se necessário, faça em levas.",
-          "Cozinhe por 10-15 minutos, virando os cubos na metade do tempo, até ficarem dourados e suculentos.",
-          "Sirva imediatamente, acompanhado de legumes ou uma salada fresca."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-11-09T21:19:57+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/4210809/pexels-photo-4210809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Talheres dourados cortando carne com batatas em um prato, mostrando uma refeição deliciosa.",
-          "bank_id": "4210809",
-          "credit": "https://kaboompics.com/",
-          "query": "Cubinhos de Carne na Airfryer – Dourados e Suculentos"
-        },
-        "id": "cubinhos-de-carne-na-airfryer-dourados-e-suculen-c4ef0da7"
-      },
-      {
-        "nome": "Salada com rabanete e grão-de-bico assados na Air Fryer da Rita Lobo",
-        "curso": "entrada",
-        "tempo": "25 minutos",
-        "porque": "Uma entrada leve e refrescante, que utiliza a airfryer para dar textura crocante ao grão-de-bico e adocicar o rabanete, combinando perfeitamente com os pratos principais de carne vermelha.",
-        "tags": [
-          "vegetariano",
-          "airfryer",
-          "leve",
-          "salada"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1 xícara (chá) de grão-de-bico cozido",
-          "1 maço de rabanetes",
-          "1 maço de alface (ou mix de folhas)",
-          "Azeite a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Para o molho:",
-          "1 dente de alho",
-          "2 colheres (sopa) de tahine",
-          "2 colheres (sopa) de caldo de limão",
-          "2 a 3 colheres (sopa) de água"
-        ],
-        "preparo": [
-          "Lave e seque bem os rabanetes. Corte-os em metades ou quartos, dependendo do tamanho.",
-          "Em uma tigela, misture os rabanetes e o grão-de-bico com um fio de azeite, sal e pimenta.",
-          "Leve à airfryer pré-aquecida a 200°C por cerca de 15-20 minutos, mexendo na metade do tempo, até os rabanetes ficarem macios e o grão-de-bico crocante.",
-          "Enquanto isso, prepare o molho: amasse o alho com uma pitada de sal até formar uma pasta. Misture com o tahine, caldo de limão e adicione a água aos poucos até obter a consistência desejada.",
-          "Lave as folhas de alface e seque bem. Arrume-as em um prato.",
-          "Distribua os rabanetes e grão-de-bico assados sobre as folhas e sirva com o molho à parte."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/salada-com-rabanete-e-grao-de-bico-assados-na-air-fryer-da-rita-lobo",
-          "checked_at": "2026-11-09T21:19:57+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/9218747/pexels-photo-9218747.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa salada de espinafre com rabanetes, grão-de-bico e cebolas em conserva em um prato vermelho.",
-          "bank_id": "9218747",
-          "credit": "Loren Castillo",
-          "query": "Salada com rabanete e grão-de-bico assados na Air Fryer da Rita Lobo"
-        },
-        "id": "salada-com-rabanete-e-grao-de-bico-assados-na-ai-cda4b475"
-      },
-      {
-        "nome": "Musse de chocolate com água",
-        "curso": "sobremesa",
-        "tempo": "20 minutos (preparo ativo) + 30 minutos ",
-        "porque": "Uma sobremesa de chocolate surpreendentemente leve e rápida, que utiliza apenas dois ingredientes e uma técnica simples para criar uma musse aerada e deliciosa, perfeita para finalizar o jantar.",
-        "tags": [
-          "chocolate",
-          "rapido",
-          "facil",
-          "doce"
+          "agridoce",
+          "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "200g de chocolate meio amargo picado",
-          "100ml de água"
+          "1 peça de filé mignon suíno (cerca de 600g)",
+          "½ abacaxi cortado em cubos",
+          "2 colheres (sopa) de shoyu",
+          "1 colher (sopa) de mel",
+          "1 dente de alho amassado",
+          "Sal e pimenta-do-reino a gosto",
+          "Azeite para untar"
         ],
         "preparo": [
-          "Pique o chocolate meio amargo em pedaços pequenos para facilitar o derretimento.",
-          "Em uma panela pequena, leve a água ao fogo médio até ferver.",
-          "Adicione o chocolate picado à água fervente e mexa bem com uma espátula até derreter completamente e formar um creme liso e homogêneo.",
-          "Prepare uma tigela grande com cubos de gelo e um pouco de água fria.",
-          "Encaixe a tigela com o creme de chocolate sobre o gelo e bata vigorosamente com um batedor de arame (fouet) por cerca de 5 a 10 minutos, até a musse ficar aerada e encorpada.",
-          "Transfira a musse para copinhos individuais ou uma travessa e leve à geladeira por pelo menos 30 minutos para firmar antes de servir."
+          "Tempere o filé mignon suíno com sal, pimenta-do-reino, alho amassado, shoyu e mel. Deixe marinar por pelo menos 15 minutos para absorver os sabores.",
+          "Pré-aqueça a airfryer a 180°C por 5 minutos.",
+          "Coloque o filé mignon suíno na cesta da airfryer. Adicione os cubos de abacaxi ao redor da carne.",
+          "Cozinhe por 15 minutos, virando a carne na metade do tempo para garantir um cozimento uniforme.",
+          "Aumente a temperatura para 200°C e cozinhe por mais 10 a 15 minutos, ou até que a carne esteja dourada e o abacaxi levemente caramelizado.",
+          "Retire da airfryer, fatie o filé mignon suíno e sirva acompanhado do abacaxi caramelizado."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://receitas.globo.com/receitas/file-mignon-suino-com-abacaxi-na-airfryer.ghtml",
+          "checked_at": "2026-11-10T18:31:54+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
+          "bank_id": "25205263",
+          "credit": "Adriano Bragi",
+          "query": "Filé Mignon Suíno com Abacaxi na Airfryer"
+        },
+        "id": "file-mignon-suino-com-abacaxi-na-airfryer-c2033126"
+      },
+      {
+        "nome": "Salada de Tomate com Azeite Crocante",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Entrada leve, fresca e rápida de preparar, utilizando ingredientes acessíveis. É uma opção saudável e complementa bem os pratos principais.",
+        "tags": [
+          "salada",
+          "entrada",
+          "rapido",
+          "fresco"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "3 tomates maduros",
+          "½ xícara (chá) de azeite",
+          "3 colheres (sopa) de castanha-de-caju torrada sem sal",
+          "2 colheres (sopa) de semente de girassol",
+          "3 dentes de alho",
+          "1 colher (chá) de semente de coentro",
+          "½ colher (chá) de pimenta calabresa",
+          "3 ramos de alecrim",
+          "½ colher (chá) de sal"
+        ],
+        "preparo": [
+          "Lave e corte os tomates em gomos ou rodelas, conforme sua preferência. Reserve-os em um prato ou travessa.",
+          "Descasque os dentes de alho e corte-os em fatias finas. Pique grosseiramente as castanhas-de-caju.",
+          "Em uma frigideira pequena, adicione o azeite, as castanhas-de-caju picadas, as sementes de girassol e de coentro, a pimenta calabresa, as folhas de alecrim e o sal.",
+          "Leve a frigideira ao fogo médio e cozinhe, mexendo ocasionalmente, até que o alho doure e as castanhas fiquem crocantes, o que deve levar cerca de 5 a 7 minutos.",
+          "Desligue o fogo e deixe o azeite crocante esfriar um pouco antes de usar.",
+          "Arrume os tomates no prato de servir e regue-os generosamente com o azeite crocante e seus temperos. Sirva imediatamente para aproveitar a textura."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/musse-de-chocolate-com-agua",
-          "title": "Musse de chocolate com água - Panelinha",
+          "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
+          "title": "Salada de tomate com azeite crocante - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-11-09T21:19:58+00:00"
+          "checked_at": "2026-11-10T18:31:56+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9008-musse-de-chocolate-com-agua.webp",
-          "alt": "Musse de chocolate com água"
+          "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
+          "alt": "Salada de Tomate com Azeite Crocante"
         },
-        "id": "musse-de-chocolate-com-agua-4c818a31"
+        "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
+      },
+      {
+        "nome": "Doce de Amendoim",
+        "curso": "sobremesa",
+        "tempo": "15 minutos",
+        "porque": "Sobremesa fácil, rápida e saborosa, com ingredientes acessíveis e um preparo descomplicado.",
+        "tags": [
+          "doce",
+          "rapido",
+          "amendoim",
+          "facil"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 xícara (chá) de açúcar",
+          "1 colher (sopa) de manteiga",
+          "1 pitada de sal",
+          "1 lata de Leite Condensado MOÇA®",
+          "2 colheres (sopa) de Chocolate em Pó NESTLÉ® CHOCOLATERIA",
+          "1 colher (chá) de essência de baunilha",
+          "200 g de amendoim torrado sem sal, triturado"
+        ],
+        "preparo": [
+          "Em uma panela de fundo grosso, junte o açúcar, a manteiga e a pitada de sal. Leve ao fogo médio, mexendo a cada 2 minutos, até que o açúcar forme um caramelo claro.",
+          "Ainda em fogo médio, adicione o Leite Condensado MOÇA, o Chocolate em Pó NESTLÉ CHOCOLATERIA e a essência de baunilha. Mexa constantemente.",
+          "Continue mexendo por cerca de 10 minutos, até que a mistura comece a desgrudar do fundo da panela.",
+          "Desligue o fogo e incorpore o amendoim torrado e triturado à mistura, mexendo bem para que se incorpore por completo.",
+          "Despeje a massa em um refratário untado com manteiga, espalhe e nivele a superfície com uma espátula.",
+          "Deixe o doce esfriar completamente em temperatura ambiente antes de cortar em pedaços do tamanho desejado e servir."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/doce-de-amendoim",
+          "checked_at": "2026-11-10T18:31:57+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5865648/pexels-photo-5865648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Detalhe de doce de gergelim e amendoim em uma bandeja de madeira, com decoração rústica.",
+          "bank_id": "5865648",
+          "credit": "Rachel Claire",
+          "query": "Doce de Amendoim"
+        },
+        "id": "doce-de-amendoim-dfef1cd9"
       }
     ]
   },

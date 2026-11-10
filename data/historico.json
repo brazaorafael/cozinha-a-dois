@@ -5907,5 +5907,29 @@
     ],
     "data": "09/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "picadinho-de-carne-com-pure-de-mandioca-d930ea3f",
+    "titulo": "Picadinho de Carne com Purê de Mandioca",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "pratico",
+      "confort_food"
+    ],
+    "data": "10/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "file-mignon-suino-com-abacaxi-na-airfryer-c2033126",
+    "titulo": "Filé Mignon Suíno com Abacaxi na Airfryer",
+    "tags": [
+      "carne_suina",
+      "airfryer",
+      "agridoce",
+      "rapido"
+    ],
+    "data": "10/11/2026",
+    "fonte_status": "unverified"
   }
 ]
