@@ -5931,5 +5931,53 @@
     ],
     "data": "10/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-com-cebola-caramelizada-b8e578eb",
+    "titulo": "Bife com Cebola Caramelizada",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "refogado",
+      "jantar"
+    ],
+    "data": "11/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "peixe-assado-com-legumes-8d66467d",
+    "titulo": "Peixe Assado com Legumes",
+    "tags": [
+      "peixe",
+      "forno",
+      "saudavel",
+      "jantar"
+    ],
+    "data": "11/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "dadinho-de-legumes-a9849503",
+    "titulo": "Dadinho de Legumes",
+    "tags": [
+      "vegetariano",
+      "forno",
+      "entrada",
+      "saudavel"
+    ],
+    "data": "11/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "sobremesa-de-banana-facil-b4431709",
+    "titulo": "Sobremesa de Banana Fácil",
+    "tags": [
+      "frutas",
+      "rapido",
+      "doce",
+      "cremoso"
+    ],
+    "data": "11/11/2026",
+    "fonte_status": "unverified"
   }
 ]

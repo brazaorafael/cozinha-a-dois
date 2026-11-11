@@ -1,196 +1,194 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-10T15:29:25-03:00",
+  "gerado_em": "2026-11-11T15:24:36-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "10/11/2026",
-    "dia_semana": "terça",
+    "data": "11/11/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Picadinho de Carne com Purê de Mandioca",
+        "nome": "Bife com Cebola Caramelizada",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Carne vermelha, prato completo e nutritivo, com carboidrato e vegetais (se adicionados ao picadinho). É uma receita prática e saborosa, ideal para o jantar e com potencial para sobras.",
+        "tempo": "30-40 minutos",
+        "porque": "Carne vermelha é a preferida do casal. Esta receita é prática, rápida e oferece um sabor agridoce e diferenciado com a cebola caramelizada, que não se confunde com outras preparações de bife já consumidas.",
         "tags": [
           "carne_vermelha",
+          "rapido",
           "refogado",
-          "pratico",
-          "confort_food"
+          "jantar"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 kg de carne bovina (paleta ou acém) em cubos",
-          "1 cebola média picada",
-          "2 dentes de alho amassados",
-          "1 tomate picado",
-          "½ xícara (chá) de molho de tomate",
-          "½ xícara (chá) de água",
-          "Sal e pimenta-do-reino a gosto",
-          "500g de mandioca cozida e amassada",
-          "2 colheres (sopa) de manteiga",
-          "½ xícara (chá) de leite",
+          "4 bifes de contrafilé (ou outra carne tenra)",
+          "4 cebolas grandes cortadas em rodelas",
+          "4 colheres (sopa) de açúcar mascavo",
+          "4 colheres (sopa) de manteiga",
+          "4 colheres (sopa) de molho shoyu",
+          "Sal a gosto",
+          "Pimenta-do-reino a gosto",
+          "Azeite de oliva a gosto"
+        ],
+        "preparo": [
+          "Tempere os bifes com sal e pimenta-do-reino a gosto.",
+          "Em uma frigideira aquecida com azeite, grelhe os bifes ao ponto desejado e reserve.",
+          "Na mesma frigideira, adicione um pouco mais de azeite e coloque as rodelas de cebola para refogar.",
+          "Acrescente a manteiga, o açúcar mascavo e o molho shoyu. Deixe as cebolas murcharem e caramelizarem em fogo baixo por cerca de 6-7 minutos.",
+          "Sirva as cebolas caramelizadas por cima dos bifes grelhados."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://anamariabraga.globo.com/receitas/bife-com-cebola-caramelizada/",
+          "checked_at": "2026-11-11T18:25:56+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36669799/pexels-photo-36669799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso bife grelhado com cebola roxa e mandioca frita em uma tábua de madeira, uma refeição saborosa.",
+          "bank_id": "36669799",
+          "credit": "Mohamed  Olwy",
+          "query": "Bife com Cebola Caramelizada"
+        },
+        "id": "bife-com-cebola-caramelizada-b8e578eb"
+      },
+      {
+        "nome": "Peixe Assado com Legumes",
+        "curso": "principal",
+        "tempo": "35-45 minutos",
+        "porque": "Opção de peixe para a semana (uma vez por semana), assado no forno, o que o torna saudável e prático. A combinação com legumes garante um prato equilibrado e diferente das receitas de peixe grelhado já consumidas.",
+        "tags": [
+          "peixe",
+          "forno",
+          "saudavel",
+          "jantar"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "4 filés de peixe (tilápia, merluza ou pescada, cerca de 400g)",
+          "2 cebolas grandes cortadas em rodelas",
+          "4 tomates picados (sem pele e sem sementes)",
+          "2 xícaras (chá) de batatas cozidas cortadas em cubos",
+          "2 xícaras (chá) de cenouras cozidas cortadas em rodelas",
+          "2 xícaras (chá) de brócolis picadinho",
+          "3 colheres (sopa) de azeite de oliva",
+          "Suco de 1 limão",
+          "Sal a gosto",
+          "Pimenta-do-reino a gosto",
           "Cheiro-verde picado a gosto"
         ],
         "preparo": [
-          "Tempere os cubos de carne com sal e pimenta-do-reino a gosto.",
-          "Em uma panela de pressão, aqueça um fio de óleo e doure a carne por todos os lados. Retire a carne e reserve.",
-          "Na mesma panela, refogue a cebola picada e o alho amassado até ficarem macios. Adicione o tomate picado e o molho de tomate, refogando por alguns minutos.",
-          "Retorne a carne dourada à panela, adicione a água, tampe a panela de pressão e cozinhe por cerca de 20 minutos após o início da pressão.",
-          "Enquanto a carne cozinha, prepare o purê: amasse a mandioca cozida, misture com a manteiga, o leite e sal a gosto, levando ao fogo baixo até obter uma consistência homogênea.",
-          "Libere a pressão da panela, verifique o cozimento da carne e, se necessário, cozinhe por mais alguns minutos sem pressão para apurar o molho.",
-          "Sirva o picadinho de carne quente sobre o purê de mandioca cremoso, finalizando com cheiro-verde picado a gosto."
+          "Pré-aqueça o forno a 180ºC.",
+          "Tempere os filés de peixe com sal, pimenta-do-reino e suco de limão.",
+          "Em uma assadeira, faça uma camada com as rodelas de cebola.",
+          "Disponha os filés de peixe temperados sobre as cebolas.",
+          "Acrescente os tomates picados, as batatas, cenouras e brócolis ao redor do peixe. Regue tudo com azeite.",
+          "Leve ao forno por cerca de 35-40 minutos, ou até que o peixe esteja cozido e os legumes macios. Finalize com cheiro-verde picado."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/picadinho-de-carne-com-pure-de-mandioca",
-          "checked_at": "2026-11-10T18:31:53+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/peixe-assado-com-legumes",
+          "checked_at": "2026-11-11T18:25:57+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
-          "bank_id": "38330332",
-          "credit": "DΛVΞ GΛRCIΛ",
-          "query": "Picadinho de Carne com Purê de Mandioca"
+          "url": "https://images.pexels.com/photos/19748960/pexels-photo-19748960.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Aprecie este prato de peixe bem apresentado com vegetais assados e um toque de limão.",
+          "bank_id": "19748960",
+          "credit": "Nicu Cobasnean",
+          "query": "Peixe Assado com Legumes"
         },
-        "id": "picadinho-de-carne-com-pure-de-mandioca-d930ea3f"
+        "id": "peixe-assado-com-legumes-8d66467d"
       },
       {
-        "nome": "Filé Mignon Suíno com Abacaxi na Airfryer",
-        "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Carne vermelha (suína) preparada na airfryer, com um toque agridoce do abacaxi, resultando em um prato rápido e com pouca gordura.",
-        "tags": [
-          "carne_suina",
-          "airfryer",
-          "agridoce",
-          "rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 peça de filé mignon suíno (cerca de 600g)",
-          "½ abacaxi cortado em cubos",
-          "2 colheres (sopa) de shoyu",
-          "1 colher (sopa) de mel",
-          "1 dente de alho amassado",
-          "Sal e pimenta-do-reino a gosto",
-          "Azeite para untar"
-        ],
-        "preparo": [
-          "Tempere o filé mignon suíno com sal, pimenta-do-reino, alho amassado, shoyu e mel. Deixe marinar por pelo menos 15 minutos para absorver os sabores.",
-          "Pré-aqueça a airfryer a 180°C por 5 minutos.",
-          "Coloque o filé mignon suíno na cesta da airfryer. Adicione os cubos de abacaxi ao redor da carne.",
-          "Cozinhe por 15 minutos, virando a carne na metade do tempo para garantir um cozimento uniforme.",
-          "Aumente a temperatura para 200°C e cozinhe por mais 10 a 15 minutos, ou até que a carne esteja dourada e o abacaxi levemente caramelizado.",
-          "Retire da airfryer, fatie o filé mignon suíno e sirva acompanhado do abacaxi caramelizado."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/file-mignon-suino-com-abacaxi-na-airfryer.ghtml",
-          "checked_at": "2026-11-10T18:31:54+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/25205263/pexels-photo-25205263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de um filé mignon gourmet com molho de pimenta e tomates-cereja.",
-          "bank_id": "25205263",
-          "credit": "Adriano Bragi",
-          "query": "Filé Mignon Suíno com Abacaxi na Airfryer"
-        },
-        "id": "file-mignon-suino-com-abacaxi-na-airfryer-c2033126"
-      },
-      {
-        "nome": "Salada de Tomate com Azeite Crocante",
+        "nome": "Dadinho de Legumes",
         "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Entrada leve, fresca e rápida de preparar, utilizando ingredientes acessíveis. É uma opção saudável e complementa bem os pratos principais.",
+        "tempo": "35 minutos (mais 30 minutos de descanso)",
+        "porque": "Uma entrada leve e saudável, rica em vegetais e preparada no forno, evitando frituras. É uma opção diferente das saladas e aperitivos já consumidos pelo casal. O tempo de preparo ativo se encaixa no limite de 45 minutos.",
         "tags": [
-          "salada",
+          "vegetariano",
+          "forno",
           "entrada",
-          "rapido",
-          "fresco"
+          "saudavel"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "3 tomates maduros",
-          "½ xícara (chá) de azeite",
-          "3 colheres (sopa) de castanha-de-caju torrada sem sal",
-          "2 colheres (sopa) de semente de girassol",
-          "3 dentes de alho",
-          "1 colher (chá) de semente de coentro",
-          "½ colher (chá) de pimenta calabresa",
-          "3 ramos de alecrim",
-          "½ colher (chá) de sal"
+          "1 abobrinha italiana ralada",
+          "1 cenoura ralada",
+          "1/2 maço de brócolis ralado",
+          "1 berinjela ralada",
+          "1 colher (sopa) de sal",
+          "1/2 xícara (chá) de queijo parmesão ralado",
+          "1/2 xícara (chá) de farinha de rosca",
+          "1 ovo",
+          "Sal e pimenta-do-reino a gosto",
+          "Margarina para untar"
         ],
         "preparo": [
-          "Lave e corte os tomates em gomos ou rodelas, conforme sua preferência. Reserve-os em um prato ou travessa.",
-          "Descasque os dentes de alho e corte-os em fatias finas. Pique grosseiramente as castanhas-de-caju.",
-          "Em uma frigideira pequena, adicione o azeite, as castanhas-de-caju picadas, as sementes de girassol e de coentro, a pimenta calabresa, as folhas de alecrim e o sal.",
-          "Leve a frigideira ao fogo médio e cozinhe, mexendo ocasionalmente, até que o alho doure e as castanhas fiquem crocantes, o que deve levar cerca de 5 a 7 minutos.",
-          "Desligue o fogo e deixe o azeite crocante esfriar um pouco antes de usar.",
-          "Arrume os tomates no prato de servir e regue-os generosamente com o azeite crocante e seus temperos. Sirva imediatamente para aproveitar a textura."
+          "Em uma tigela, misture a abobrinha, cenoura, brócolis e berinjela ralados com 1 colher de sopa de sal. Deixe descansar por 30 minutos.",
+          "Após o descanso, coloque os legumes sobre um pano de prato limpo e aperte bem para retirar o excesso de líquido.",
+          "Transfira os legumes de volta para a tigela e adicione o queijo parmesão, a farinha de rosca e o ovo. Tempere com sal e pimenta-do-reino a gosto.",
+          "Misture bem e modele pequenos dadinhos com as mãos.",
+          "Disponha os dadinhos em uma fôrma forrada com papel-manteiga untado.",
+          "Leve ao forno médio preaquecido por 20 minutos ou até dourarem. Retire e sirva em seguida."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-de-tomate-com-azeite-crocante",
-          "title": "Salada de tomate com azeite crocante - Panelinha",
-          "domain": "panelinha.com.br",
+          "url": "https://guiadacozinha.com.br/receitas/dadinho-de-legumes/",
+          "title": "Dadinho de legumes para um petisco leve e saudável - Guia da Cozinha",
+          "domain": "guiadacozinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-11-10T18:31:56+00:00"
+          "checked_at": "2026-11-11T18:26:01+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9925-blog-salada-de-tomate-com-azeite-crocante-2.webp",
-          "alt": "Salada de Tomate com Azeite Crocante"
+          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/11/dadinho-legumes.jpg",
+          "alt": "Dadinho de Legumes"
         },
-        "id": "salada-de-tomate-com-azeite-crocante-96631d0c"
+        "id": "dadinho-de-legumes-a9849503"
       },
       {
-        "nome": "Doce de Amendoim",
+        "nome": "Sobremesa de Banana Fácil",
         "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Sobremesa fácil, rápida e saborosa, com ingredientes acessíveis e um preparo descomplicado.",
+        "tempo": "25-30 minutos",
+        "porque": "Uma sobremesa prática e rápida, com ingredientes acessíveis e que utiliza frutas, sendo uma opção diferente das mousses e doces à base de leite condensado já consumidos.",
         "tags": [
-          "doce",
+          "frutas",
           "rapido",
-          "amendoim",
-          "facil"
+          "doce",
+          "cremoso"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "1 xícara (chá) de açúcar",
-          "1 colher (sopa) de manteiga",
-          "1 pitada de sal",
-          "1 lata de Leite Condensado MOÇA®",
-          "2 colheres (sopa) de Chocolate em Pó NESTLÉ® CHOCOLATERIA",
-          "1 colher (chá) de essência de baunilha",
-          "200 g de amendoim torrado sem sal, triturado"
+          "4 bananas maduras",
+          "2 colheres (sopa) de maisena",
+          "500 ml de leite",
+          "150 gramas de açúcar",
+          "3 ovos (gemas e claras separadas)"
         ],
         "preparo": [
-          "Em uma panela de fundo grosso, junte o açúcar, a manteiga e a pitada de sal. Leve ao fogo médio, mexendo a cada 2 minutos, até que o açúcar forme um caramelo claro.",
-          "Ainda em fogo médio, adicione o Leite Condensado MOÇA, o Chocolate em Pó NESTLÉ CHOCOLATERIA e a essência de baunilha. Mexa constantemente.",
-          "Continue mexendo por cerca de 10 minutos, até que a mistura comece a desgrudar do fundo da panela.",
-          "Desligue o fogo e incorpore o amendoim torrado e triturado à mistura, mexendo bem para que se incorpore por completo.",
-          "Despeje a massa em um refratário untado com manteiga, espalhe e nivele a superfície com uma espátula.",
-          "Deixe o doce esfriar completamente em temperatura ambiente antes de cortar em pedaços do tamanho desejado e servir."
+          "Corte as bananas em rodelas e reserve.",
+          "Em uma panela, dissolva a maisena em um pouco do leite frio. Adicione o restante do leite, as gemas e 100g de açúcar. Leve ao fogo baixo, mexendo sempre, até engrossar e formar um creme.",
+          "Retire o creme do fogo e adicione as bananas em rodelas, misturando delicadamente.",
+          "Bata as claras em neve e adicione o restante do açúcar (50g) aos poucos, formando um merengue.",
+          "Despeje o creme de banana em um refratário e cubra com o merengue.",
+          "Leve à geladeira por pelo menos 1 hora antes de servir para firmar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/doce-de-amendoim",
-          "checked_at": "2026-11-10T18:31:57+00:00"
+          "suggested_url": "https://www.tudoreceitas.com/receita-de-sobremesa-de-banana-facil-3642.html",
+          "checked_at": "2026-11-11T18:26:02+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5865648/pexels-photo-5865648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Detalhe de doce de gergelim e amendoim em uma bandeja de madeira, com decoração rústica.",
-          "bank_id": "5865648",
-          "credit": "Rachel Claire",
-          "query": "Doce de Amendoim"
+          "url": "https://images.pexels.com/photos/1576120/pexels-photo-1576120.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Sobremesa cremosa de banana coberta com canela, servida em uma taça sobre uma superfície reflexiva.",
+          "bank_id": "1576120",
+          "credit": "Silvia Trigo",
+          "query": "Sobremesa de Banana Fácil"
         },
-        "id": "doce-de-amendoim-dfef1cd9"
+        "id": "sobremesa-de-banana-facil-b4431709"
       }
     ]
   },
