@@ -5979,5 +5979,41 @@
     ],
     "data": "11/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-com-brocolis-e-gergelim-3dd8e2b1",
+    "titulo": "Carne com Brócolis e Gergelim",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "equilibrado"
+    ],
+    "data": "12/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-com-molho-cremoso-de-queijo-7624eec0",
+    "titulo": "Bife com Molho Cremoso de Queijo",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "grelhado",
+      "saboroso"
+    ],
+    "data": "12/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "espetinho-de-queijo-coalho-com-tomate-cereja-25618172",
+    "titulo": "Espetinho de Queijo Coalho com Tomate Cereja",
+    "tags": [
+      "entrada",
+      "rapido",
+      "vegetariano",
+      "leve"
+    ],
+    "data": "12/11/2026",
+    "fonte_status": "unverified"
   }
 ]

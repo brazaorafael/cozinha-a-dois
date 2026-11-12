@@ -1,194 +1,188 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-11T15:24:36-03:00",
+  "gerado_em": "2026-11-12T15:43:08-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "11/11/2026",
-    "dia_semana": "quarta",
+    "data": "12/11/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Bife com Cebola Caramelizada",
+        "nome": "Carne com Brócolis e Gergelim",
         "curso": "principal",
-        "tempo": "30-40 minutos",
-        "porque": "Carne vermelha é a preferida do casal. Esta receita é prática, rápida e oferece um sabor agridoce e diferenciado com a cebola caramelizada, que não se confunde com outras preparações de bife já consumidas.",
+        "tempo": "30 minutos",
+        "porque": "Atende à preferência por carne vermelha, é uma receita rápida e prática, feita no refogado. Oferece um bom equilíbrio entre proteína e vegetais, podendo render uma porção para o almoço do dia seguinte.",
+        "tags": [
+          "carne_vermelha",
+          "refogado",
+          "rapido",
+          "equilibrado"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "300 g de carne bovina (filé mignon ou alcatra), cortada em tiras finas",
+          "1 maço de brócolis, floretes separados",
+          "1 colher (sopa) de óleo vegetal",
+          "2 dentes de alho picados",
+          "1 pedaço pequeno de gengibre ralado (opcional)",
+          "2 colheres (sopa) de shoyu",
+          "1 colher (sopa) de vinagre de arroz (ou vinagre branco)",
+          "1 colher (chá) de açúcar",
+          "1/2 xícara (chá) de água ou caldo de carne",
+          "1 colher (sopa) de amido de milho",
+          "Sementes de gergelim torradas a gosto"
+        ],
+        "preparo": [
+          "Cozinhe os floretes de brócolis em água fervente com sal por 3 minutos; escorra e reserve.",
+          "Em uma tigela, misture shoyu, vinagre, açúcar, água e amido de milho; reserve o molho.",
+          "Aqueça o óleo em uma frigideira grande ou wok em fogo alto. Doure a carne em porções e reserve.",
+          "Na mesma frigideira, refogue o alho e o gengibre por 1 minuto.",
+          "Retorne a carne à frigideira, adicione o brócolis e o molho reservado. Cozinhe, mexendo sempre, até o molho engrossar. Sirva polvilhado com gergelim."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Carne-com-brocolis-e-gergelim",
+          "checked_at": "2026-11-12T18:44:19+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/31867670/pexels-photo-31867670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa fritada de carne e brócolis com cores vibrantes e textura apetitosa.",
+          "bank_id": "31867670",
+          "credit": "Ivan Georgiev",
+          "query": "Carne com Brócolis e Gergelim"
+        },
+        "id": "carne-com-brocolis-e-gergelim-3dd8e2b1"
+      },
+      {
+        "nome": "Bife com Molho Cremoso de Queijo",
+        "curso": "principal",
+        "tempo": "30 minutos",
+        "porque": "Uma excelente opção para quem prioriza carne vermelha, sendo rápida e deliciosa. O molho cremoso de queijo adiciona um toque especial, e o preparo é simples e prático.",
         "tags": [
           "carne_vermelha",
           "rapido",
-          "refogado",
-          "jantar"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "4 bifes de contrafilé (ou outra carne tenra)",
-          "4 cebolas grandes cortadas em rodelas",
-          "4 colheres (sopa) de açúcar mascavo",
-          "4 colheres (sopa) de manteiga",
-          "4 colheres (sopa) de molho shoyu",
-          "Sal a gosto",
-          "Pimenta-do-reino a gosto",
-          "Azeite de oliva a gosto"
-        ],
-        "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino a gosto.",
-          "Em uma frigideira aquecida com azeite, grelhe os bifes ao ponto desejado e reserve.",
-          "Na mesma frigideira, adicione um pouco mais de azeite e coloque as rodelas de cebola para refogar.",
-          "Acrescente a manteiga, o açúcar mascavo e o molho shoyu. Deixe as cebolas murcharem e caramelizarem em fogo baixo por cerca de 6-7 minutos.",
-          "Sirva as cebolas caramelizadas por cima dos bifes grelhados."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://anamariabraga.globo.com/receitas/bife-com-cebola-caramelizada/",
-          "checked_at": "2026-11-11T18:25:56+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/36669799/pexels-photo-36669799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso bife grelhado com cebola roxa e mandioca frita em uma tábua de madeira, uma refeição saborosa.",
-          "bank_id": "36669799",
-          "credit": "Mohamed  Olwy",
-          "query": "Bife com Cebola Caramelizada"
-        },
-        "id": "bife-com-cebola-caramelizada-b8e578eb"
-      },
-      {
-        "nome": "Peixe Assado com Legumes",
-        "curso": "principal",
-        "tempo": "35-45 minutos",
-        "porque": "Opção de peixe para a semana (uma vez por semana), assado no forno, o que o torna saudável e prático. A combinação com legumes garante um prato equilibrado e diferente das receitas de peixe grelhado já consumidas.",
-        "tags": [
-          "peixe",
-          "forno",
-          "saudavel",
-          "jantar"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "4 filés de peixe (tilápia, merluza ou pescada, cerca de 400g)",
-          "2 cebolas grandes cortadas em rodelas",
-          "4 tomates picados (sem pele e sem sementes)",
-          "2 xícaras (chá) de batatas cozidas cortadas em cubos",
-          "2 xícaras (chá) de cenouras cozidas cortadas em rodelas",
-          "2 xícaras (chá) de brócolis picadinho",
-          "3 colheres (sopa) de azeite de oliva",
-          "Suco de 1 limão",
-          "Sal a gosto",
-          "Pimenta-do-reino a gosto",
-          "Cheiro-verde picado a gosto"
-        ],
-        "preparo": [
-          "Pré-aqueça o forno a 180ºC.",
-          "Tempere os filés de peixe com sal, pimenta-do-reino e suco de limão.",
-          "Em uma assadeira, faça uma camada com as rodelas de cebola.",
-          "Disponha os filés de peixe temperados sobre as cebolas.",
-          "Acrescente os tomates picados, as batatas, cenouras e brócolis ao redor do peixe. Regue tudo com azeite.",
-          "Leve ao forno por cerca de 35-40 minutos, ou até que o peixe esteja cozido e os legumes macios. Finalize com cheiro-verde picado."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/peixe-assado-com-legumes",
-          "checked_at": "2026-11-11T18:25:57+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/19748960/pexels-photo-19748960.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Aprecie este prato de peixe bem apresentado com vegetais assados e um toque de limão.",
-          "bank_id": "19748960",
-          "credit": "Nicu Cobasnean",
-          "query": "Peixe Assado com Legumes"
-        },
-        "id": "peixe-assado-com-legumes-8d66467d"
-      },
-      {
-        "nome": "Dadinho de Legumes",
-        "curso": "entrada",
-        "tempo": "35 minutos (mais 30 minutos de descanso)",
-        "porque": "Uma entrada leve e saudável, rica em vegetais e preparada no forno, evitando frituras. É uma opção diferente das saladas e aperitivos já consumidos pelo casal. O tempo de preparo ativo se encaixa no limite de 45 minutos.",
-        "tags": [
-          "vegetariano",
-          "forno",
-          "entrada",
-          "saudavel"
+          "grelhado",
+          "saboroso"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 abobrinha italiana ralada",
-          "1 cenoura ralada",
-          "1/2 maço de brócolis ralado",
-          "1 berinjela ralada",
-          "1 colher (sopa) de sal",
-          "1/2 xícara (chá) de queijo parmesão ralado",
-          "1/2 xícara (chá) de farinha de rosca",
-          "1 ovo",
+          "2 bifes de contrafilé (ou alcatra), com cerca de 2 cm de espessura",
           "Sal e pimenta-do-reino a gosto",
-          "Margarina para untar"
+          "1 colher (sopa) de azeite",
+          "1/2 cebola pequena picada",
+          "1 dente de alho picado",
+          "1/2 xícara (chá) de creme de leite fresco",
+          "50g de queijo gorgonzola (ou outro queijo de sua preferência), picado",
+          "2 colheres (sopa) de queijo parmesão ralado",
+          "Salsinha picada a gosto para finalizar"
         ],
         "preparo": [
-          "Em uma tigela, misture a abobrinha, cenoura, brócolis e berinjela ralados com 1 colher de sopa de sal. Deixe descansar por 30 minutos.",
-          "Após o descanso, coloque os legumes sobre um pano de prato limpo e aperte bem para retirar o excesso de líquido.",
-          "Transfira os legumes de volta para a tigela e adicione o queijo parmesão, a farinha de rosca e o ovo. Tempere com sal e pimenta-do-reino a gosto.",
-          "Misture bem e modele pequenos dadinhos com as mãos.",
-          "Disponha os dadinhos em uma fôrma forrada com papel-manteiga untado.",
-          "Leve ao forno médio preaquecido por 20 minutos ou até dourarem. Retire e sirva em seguida."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://guiadacozinha.com.br/receitas/dadinho-de-legumes/",
-          "title": "Dadinho de legumes para um petisco leve e saudável - Guia da Cozinha",
-          "domain": "guiadacozinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-11T18:26:01+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://guiadacozinha.com.br/wp-content/uploads/2019/11/dadinho-legumes.jpg",
-          "alt": "Dadinho de Legumes"
-        },
-        "id": "dadinho-de-legumes-a9849503"
-      },
-      {
-        "nome": "Sobremesa de Banana Fácil",
-        "curso": "sobremesa",
-        "tempo": "25-30 minutos",
-        "porque": "Uma sobremesa prática e rápida, com ingredientes acessíveis e que utiliza frutas, sendo uma opção diferente das mousses e doces à base de leite condensado já consumidos.",
-        "tags": [
-          "frutas",
-          "rapido",
-          "doce",
-          "cremoso"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "4 bananas maduras",
-          "2 colheres (sopa) de maisena",
-          "500 ml de leite",
-          "150 gramas de açúcar",
-          "3 ovos (gemas e claras separadas)"
-        ],
-        "preparo": [
-          "Corte as bananas em rodelas e reserve.",
-          "Em uma panela, dissolva a maisena em um pouco do leite frio. Adicione o restante do leite, as gemas e 100g de açúcar. Leve ao fogo baixo, mexendo sempre, até engrossar e formar um creme.",
-          "Retire o creme do fogo e adicione as bananas em rodelas, misturando delicadamente.",
-          "Bata as claras em neve e adicione o restante do açúcar (50g) aos poucos, formando um merengue.",
-          "Despeje o creme de banana em um refratário e cubra com o merengue.",
-          "Leve à geladeira por pelo menos 1 hora antes de servir para firmar."
+          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
+          "Aqueça o azeite em uma frigideira em fogo alto e doure os bifes por 3-4 minutos de cada lado, ou até o ponto desejado. Reserve.",
+          "Na mesma frigideira, refogue a cebola e o alho até ficarem macios.",
+          "Adicione o creme de leite, o gorgonzola e o parmesão. Mexa até o queijo derreter e o molho engrossar.",
+          "Retorne os bifes ao molho por alguns segundos para aquecer.",
+          "Sirva imediatamente, polvilhado com salsinha."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.tudoreceitas.com/receita-de-sobremesa-de-banana-facil-3642.html",
-          "checked_at": "2026-11-11T18:26:02+00:00"
+          "suggested_url": "https://receitas.globo.com/receitas/bife-com-molho-cremoso-de-queijo-0229.ghtml",
+          "checked_at": "2026-11-12T18:44:20+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/1576120/pexels-photo-1576120.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Sobremesa cremosa de banana coberta com canela, servida em uma taça sobre uma superfície reflexiva.",
-          "bank_id": "1576120",
-          "credit": "Silvia Trigo",
-          "query": "Sobremesa de Banana Fácil"
+          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
+          "bank_id": "33673991",
+          "credit": "pedro furtado",
+          "query": "Bife com Molho Cremoso de Queijo"
         },
-        "id": "sobremesa-de-banana-facil-b4431709"
+        "id": "bife-com-molho-cremoso-de-queijo-7624eec0"
+      },
+      {
+        "nome": "Espetinho de Queijo Coalho com Tomate Cereja",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, prática e rápida, perfeita para abrir o apetite sem pesar. Não utiliza fritura e combina bem com os pratos principais.",
+        "tags": [
+          "entrada",
+          "rapido",
+          "vegetariano",
+          "leve"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 bloco de queijo coalho (cerca de 250g)",
+          "1 bandeja de tomate cereja",
+          "Azeite a gosto",
+          "Orégano a gosto",
+          "Palitos de churrasco pequenos"
+        ],
+        "preparo": [
+          "Corte o queijo coalho em cubos de aproximadamente 2 cm.",
+          "Em cada palito de churrasco, intercale um cubo de queijo coalho e um tomate cereja.",
+          "Repita a sequência até preencher o palito, terminando com um tomate.",
+          "Aqueça uma frigideira antiaderente ou grelha e doure os espetinhos por alguns minutos de cada lado, até o queijo ficar macio e levemente dourado.",
+          "Regue com azeite e polvilhe orégano antes de servir."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.tudogostoso.com.br/receita/188172-espetinho-de-queijo-coalho-com-tomate-cereja.html",
+          "checked_at": "2026-11-12T18:44:22+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/20016148/pexels-photo-20016148.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato vibrante de espetinhos de frutas e queijos com kiwi, azeitonas e tomates, perfeito para petiscar.",
+          "bank_id": "20016148",
+          "credit": "Vidal Balielo Jr.",
+          "query": "Espetinho de Queijo Coalho com Tomate Cereja"
+        },
+        "id": "espetinho-de-queijo-coalho-com-tomate-cereja-25618172"
+      },
+      {
+        "nome": "Creme de Papaia com Cassis",
+        "curso": "sobremesa",
+        "tempo": "10 minutos",
+        "porque": "Uma sobremesa leve, refrescante e extremamente rápida de preparar, ideal para finalizar o jantar sem complicação.",
+        "tags": [
+          "sobremesa",
+          "rapido",
+          "frutas",
+          "refrescante"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 mamão papaia maduro",
+          "1/2 xícara (chá) de sorvete de creme",
+          "1 colher (sopa) de licor de cassis (ou calda de cassis)"
+        ],
+        "preparo": [
+          "Corte o mamão papaia ao meio, retire as sementes e a casca.",
+          "Corte a polpa do mamão em pedaços e coloque no liquidificador.",
+          "Adicione o sorvete de creme ao liquidificador.",
+          "Bata até obter um creme homogêneo e liso.",
+          "Despeje o creme em taças individuais e regue com o licor (ou calda) de cassis.",
+          "Sirva imediatamente."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Creme-de-papaia-com-cassis",
+          "checked_at": "2026-11-12T18:44:23+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/264727/pexels-photo-264727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma panqueca de dar água na boca coberta com frutas frescas e creme em um prato estiloso, perfeita para um café da manhã doce.",
+          "bank_id": "264727",
+          "credit": "Pixabay",
+          "query": "Creme de Papaia com Cassis"
+        },
+        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
       }
     ]
   },
