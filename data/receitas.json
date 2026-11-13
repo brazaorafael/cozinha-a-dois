@@ -1,16 +1,16 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-12T15:43:08-03:00",
+  "gerado_em": "2026-11-13T15:24:56-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "12/11/2026",
-    "dia_semana": "quinta",
+    "data": "13/11/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Carne com Brócolis e Gergelim",
+        "nome": "Picadinho de Carne com Legumes (Paola Carosella)",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Atende à preferência por carne vermelha, é uma receita rápida e prática, feita no refogado. Oferece um bom equilíbrio entre proteína e vegetais, podendo render uma porção para o almoço do dia seguinte.",
+        "tempo": "45 minutos",
+        "porque": "Uma opção de carne vermelha equilibrada com vegetais, preparada de forma prática e rápida em uma panela. Ideal para um jantar a dois com potencial para sobras. A receita é da renomada Paola Carosella e prioriza o refogado, sem fritura excessiva.",
         "tags": [
           "carne_vermelha",
           "refogado",
@@ -19,170 +19,177 @@
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "300 g de carne bovina (filé mignon ou alcatra), cortada em tiras finas",
-          "1 maço de brócolis, floretes separados",
-          "1 colher (sopa) de óleo vegetal",
-          "2 dentes de alho picados",
-          "1 pedaço pequeno de gengibre ralado (opcional)",
-          "2 colheres (sopa) de shoyu",
-          "1 colher (sopa) de vinagre de arroz (ou vinagre branco)",
-          "1 colher (chá) de açúcar",
-          "1/2 xícara (chá) de água ou caldo de carne",
-          "1 colher (sopa) de amido de milho",
-          "Sementes de gergelim torradas a gosto"
+          "450g de carne para picadinho (alcatra, patinho, filé mignon ou coxão mole)",
+          "½ xícara (chá) de mandioquinha cortada em cubinhos ou bolinhas",
+          "½ xícara (chá) de abóbora cabotiá cortada em cubinhos ou bolinhas",
+          "½ xícara (chá) de ervilha fresca",
+          "1 cebola branca ou roxa picada",
+          "2 dentes de alho laminados",
+          "½ xícara (chá) de bacon picadinho",
+          "1 colher (chá) bem cheia de folhas de tomilho fresco",
+          "Sal a gosto",
+          "Pimenta do reino moída na hora a gosto",
+          "1 colher (café) de pimenta calabresa em flocos",
+          "1 colher (sopa) de conhaque",
+          "1 colher (sobremesa) de molho de soja",
+          "3 colheres (sopa) de azeite de oliva",
+          "½ xícara (chá) de salsinha fresca picada",
+          "1 colher (sopa) de extrato de tomate",
+          "1 xícara (chá) de água fervendo (água do cozimento dos legumes)",
+          "1 folha de louro",
+          "25g de manteiga"
         ],
         "preparo": [
-          "Cozinhe os floretes de brócolis em água fervente com sal por 3 minutos; escorra e reserve.",
-          "Em uma tigela, misture shoyu, vinagre, açúcar, água e amido de milho; reserve o molho.",
-          "Aqueça o óleo em uma frigideira grande ou wok em fogo alto. Doure a carne em porções e reserve.",
-          "Na mesma frigideira, refogue o alho e o gengibre por 1 minuto.",
-          "Retorne a carne à frigideira, adicione o brócolis e o molho reservado. Cozinhe, mexendo sempre, até o molho engrossar. Sirva polvilhado com gergelim."
+          "Corte a carne em tiras e depois em cubos. Tempere com sal, pimenta do reino, tomilho e pimenta calabresa com 1 hora de antecedência.",
+          "Cozinhe a mandioquinha e a abóbora em água com sal até ficarem no ponto. Retire e reserve a água do cozimento. Cozinhe as ervilhas e coloque em água gelada para manter a cor.",
+          "Em uma frigideira grande e de bordas altas, aqueça 2 colheres de azeite e doure a carne em fogo alto por cerca de 2 minutos de cada lado. Transfira a carne para um recipiente e reserve a gordura na frigideira.",
+          "Adicione mais 1 colher de azeite na frigideira, refogue o bacon, a cebola e o alho com uma pitada de sal e pimenta. Retorne a carne à frigideira.",
+          "Misture o extrato de tomate com o molho de soja e a água do cozimento dos legumes. Adicione à frigideira junto com a manteiga e o conhaque.",
+          "Deixe cozinhar até o molho encorpar e os sabores se misturarem. Finalize com salsinha picada."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Carne-com-brocolis-e-gergelim",
-          "checked_at": "2026-11-12T18:44:19+00:00"
+          "suggested_url": "https://receitas.globo.com/paola-carosella/picadinho-de-carne-com-legumes-da-paola-carosella.ghtml",
+          "checked_at": "2026-11-13T18:26:35+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/31867670/pexels-photo-31867670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa fritada de carne e brócolis com cores vibrantes e textura apetitosa.",
-          "bank_id": "31867670",
-          "credit": "Ivan Georgiev",
-          "query": "Carne com Brócolis e Gergelim"
+          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
+          "bank_id": "38330332",
+          "credit": "DΛVΞ GΛRCIΛ",
+          "query": "Picadinho de Carne com Legumes (Paola Carosella)"
         },
-        "id": "carne-com-brocolis-e-gergelim-3dd8e2b1"
+        "id": "picadinho-de-carne-com-legumes-paola-carosella-bdc11f2a"
       },
       {
-        "nome": "Bife com Molho Cremoso de Queijo",
+        "nome": "Rosbife",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma excelente opção para quem prioriza carne vermelha, sendo rápida e deliciosa. O molho cremoso de queijo adiciona um toque especial, e o preparo é simples e prático.",
+        "tempo": "45 minutos",
+        "porque": "Carne vermelha assada no forno, uma alternativa saudável e saborosa à fritura. O tempo de preparo é ideal para um jantar rápido e a receita é de uma fonte confiável. Perfeito para ser servido com uma salada fresca ou legumes assados.",
         "tags": [
           "carne_vermelha",
+          "forno",
           "rapido",
-          "grelhado",
-          "saboroso"
+          "classico"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "2 bifes de contrafilé (ou alcatra), com cerca de 2 cm de espessura",
-          "Sal e pimenta-do-reino a gosto",
-          "1 colher (sopa) de azeite",
-          "1/2 cebola pequena picada",
-          "1 dente de alho picado",
-          "1/2 xícara (chá) de creme de leite fresco",
-          "50g de queijo gorgonzola (ou outro queijo de sua preferência), picado",
-          "2 colheres (sopa) de queijo parmesão ralado",
-          "Salsinha picada a gosto para finalizar"
+          "750g de filé mignon em peça para rosbife",
+          "1 colher (chá) de mostarda amarela em pó",
+          "1 colher (chá) de páprica defumada",
+          "Azeite a gosto",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Tempere os bifes com sal e pimenta-do-reino dos dois lados.",
-          "Aqueça o azeite em uma frigideira em fogo alto e doure os bifes por 3-4 minutos de cada lado, ou até o ponto desejado. Reserve.",
-          "Na mesma frigideira, refogue a cebola e o alho até ficarem macios.",
-          "Adicione o creme de leite, o gorgonzola e o parmesão. Mexa até o queijo derreter e o molho engrossar.",
-          "Retorne os bifes ao molho por alguns segundos para aquecer.",
-          "Sirva imediatamente, polvilhado com salsinha."
+          "Preaqueça o forno a 220 ºC (temperatura alta).",
+          "Retire a peça de filé mignon da geladeira e deixe em temperatura ambiente por 15 minutos.",
+          "Tempere a carne com a mostarda em pó, a páprica defumada, sal e pimenta-do-reino.",
+          "Regue com ½ colher (sopa) de azeite e espalhe bem por toda a superfície da carne.",
+          "Transfira o filé mignon para uma assadeira grande e leve ao forno para assar por 15 minutos.",
+          "Após esse tempo, diminua a temperatura para 180 ºC (temperatura média) e deixe o rosbife no forno por mais 10 minutos para malpassado, ou 15 minutos para ao ponto.",
+          "Retire a assadeira do forno e deixe o rosbife descansar por 10 minutos antes de cortar e servir."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/bife-com-molho-cremoso-de-queijo-0229.ghtml",
-          "checked_at": "2026-11-12T18:44:20+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/rosbife",
+          "title": "Rosbife - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-13T18:26:36+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
-          "bank_id": "33673991",
-          "credit": "pedro furtado",
-          "query": "Bife com Molho Cremoso de Queijo"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9959-rosbife.webp",
+          "alt": "Rosbife"
         },
-        "id": "bife-com-molho-cremoso-de-queijo-7624eec0"
+        "id": "rosbife-5d3431e6"
       },
       {
-        "nome": "Espetinho de Queijo Coalho com Tomate Cereja",
+        "nome": "Tapenade com limão-siciliano e tomilho",
         "curso": "entrada",
         "tempo": "15 minutos",
-        "porque": "Uma entrada leve, prática e rápida, perfeita para abrir o apetite sem pesar. Não utiliza fritura e combina bem com os pratos principais.",
+        "porque": "Uma entrada leve, saborosa e muito rápida de preparar, ideal para abrir o apetite. É uma opção diferente de patê, focada em ingredientes frescos e mediterrâneos.",
         "tags": [
-          "entrada",
-          "rapido",
           "vegetariano",
-          "leve"
+          "rapido",
+          "fresco",
+          "mediterraneo"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 bloco de queijo coalho (cerca de 250g)",
-          "1 bandeja de tomate cereja",
-          "Azeite a gosto",
-          "Orégano a gosto",
-          "Palitos de churrasco pequenos"
+          "1 xícara (chá) de azeitona preta sem caroço (cerca de 120g)",
+          "2 colheres (sopa) de azeite",
+          "Raspas de 1 limão-siciliano",
+          "1 ramo de tomilho"
         ],
         "preparo": [
-          "Corte o queijo coalho em cubos de aproximadamente 2 cm.",
-          "Em cada palito de churrasco, intercale um cubo de queijo coalho e um tomate cereja.",
-          "Repita a sequência até preencher o palito, terminando com um tomate.",
-          "Aqueça uma frigideira antiaderente ou grelha e doure os espetinhos por alguns minutos de cada lado, até o queijo ficar macio e levemente dourado.",
-          "Regue com azeite e polvilhe orégano antes de servir."
+          "Numa tábua, pique fino as azeitonas pretas sem caroço.",
+          "Adicione as raspas de limão-siciliano e as folhas de tomilho picadas finamente às azeitonas.",
+          "Transfira a mistura para uma tigela.",
+          "Regue com o azeite e misture bem até incorporar todos os ingredientes.",
+          "Sirva a tapenade com pães ou torradas."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/188172-espetinho-de-queijo-coalho-com-tomate-cereja.html",
-          "checked_at": "2026-11-12T18:44:22+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/tapenade-com-limao-siciliano-e-tomilho",
+          "title": "Tapenade com limão-siciliano e tomilho - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-13T18:26:36+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/20016148/pexels-photo-20016148.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato vibrante de espetinhos de frutas e queijos com kiwi, azeitonas e tomates, perfeito para petiscar.",
-          "bank_id": "20016148",
-          "credit": "Vidal Balielo Jr.",
-          "query": "Espetinho de Queijo Coalho com Tomate Cereja"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-9944-tapenade-com-limao-siciliano-e-tomilho.webp",
+          "alt": "Tapenade com limão-siciliano e tomilho"
         },
-        "id": "espetinho-de-queijo-coalho-com-tomate-cereja-25618172"
+        "id": "tapenade-com-limao-siciliano-e-tomilho-af1206bc"
       },
       {
-        "nome": "Creme de Papaia com Cassis",
+        "nome": "Tacinha com Creme de Coco e Manga",
         "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Uma sobremesa leve, refrescante e extremamente rápida de preparar, ideal para finalizar o jantar sem complicação.",
+        "tempo": "40 minutos",
+        "porque": "Uma sobremesa refrescante, fácil e rápida de fazer, perfeita para um casal jovem. Combina frutas e coco, sem a necessidade de forno, e é visualmente atraente.",
         "tags": [
-          "sobremesa",
-          "rapido",
+          "doce",
           "frutas",
+          "rapido",
           "refrescante"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 mamão papaia maduro",
-          "1/2 xícara (chá) de sorvete de creme",
-          "1 colher (sopa) de licor de cassis (ou calda de cassis)"
+          "1 Leite MOÇA® Light (leite condensado light)",
+          "1 xícara (chá) de Leite Líquido MOLICO® Total Cálcio",
+          "2 colheres (sopa) de amido de milho",
+          "1 vidro de leite de coco (200 ml)",
+          "4 colheres (sopa) de coco fresco ralado",
+          "2 xícaras (chá) de manga picada",
+          "Lascas de coco fresco para decorar"
         ],
         "preparo": [
-          "Corte o mamão papaia ao meio, retire as sementes e a casca.",
-          "Corte a polpa do mamão em pedaços e coloque no liquidificador.",
-          "Adicione o sorvete de creme ao liquidificador.",
-          "Bata até obter um creme homogêneo e liso.",
-          "Despeje o creme em taças individuais e regue com o licor (ou calda) de cassis.",
-          "Sirva imediatamente."
+          "Para o creme de coco: Em uma panela, misture o Leite MOÇA® Light, o Leite Líquido MOLICO®, o amido de milho, o leite de coco e o coco ralado.",
+          "Leve ao fogo médio, mexendo sempre, por cerca de 10 minutos ou até engrossar. Reserve.",
+          "Para o purê de manga: Bata a manga picada no liquidificador até obter um purê liso.",
+          "Em copinhos de sobremesa ou tacinhas, coloque uma camada do creme de coco e uma camada do purê de manga.",
+          "Repita as camadas, finalizando com as lascas de coco fresco para decorar.",
+          "Leve à geladeira até o momento de servir."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Creme-de-papaia-com-cassis",
-          "checked_at": "2026-11-12T18:44:23+00:00"
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/tacinha-com-creme-de-coco-e-manga",
+          "title": "Tacinha com Creme de Coco e Manga",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-13T18:26:37+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/264727/pexels-photo-264727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma panqueca de dar água na boca coberta com frutas frescas e creme em um prato estiloso, perfeita para um café da manhã doce.",
-          "bank_id": "264727",
-          "credit": "Pixabay",
-          "query": "Creme de Papaia com Cassis"
+          "kind": "source",
+          "url": "https://d1uz88p17r663j.cloudfront.net/original/5ae385739e74b06dbb10c6aaec133063_tacinha-creme-coco-manga-receitas-nestle.jpg",
+          "alt": "Tacinha com Creme de Coco e Manga"
         },
-        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
+        "id": "tacinha-com-creme-de-coco-e-manga-ff7ec713"
       }
     ]
   },
