@@ -1,195 +1,179 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-13T15:24:56-03:00",
+  "gerado_em": "2026-11-15T14:34:52-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "13/11/2026",
-    "dia_semana": "sexta",
+    "data": "15/11/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Picadinho de Carne com Legumes (Paola Carosella)",
+        "nome": "Bife de Alcatra com Molho de Mostarda",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Uma opção de carne vermelha equilibrada com vegetais, preparada de forma prática e rápida em uma panela. Ideal para um jantar a dois com potencial para sobras. A receita é da renomada Paola Carosella e prioriza o refogado, sem fritura excessiva.",
+        "tempo": "25 minutos",
+        "porque": "Receita rápida de carne vermelha (alcatra) grelhada, com um molho saboroso e acompanhamento de batata e brócolis, garantindo equilíbrio e praticidade para o casal. É uma opção que valoriza a proteína e vegetais.",
         "tags": [
           "carne_vermelha",
-          "refogado",
+          "grelhado",
           "rapido",
-          "equilibrado"
+          "jantar"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "450g de carne para picadinho (alcatra, patinho, filé mignon ou coxão mole)",
-          "½ xícara (chá) de mandioquinha cortada em cubinhos ou bolinhas",
-          "½ xícara (chá) de abóbora cabotiá cortada em cubinhos ou bolinhas",
-          "½ xícara (chá) de ervilha fresca",
-          "1 cebola branca ou roxa picada",
-          "2 dentes de alho laminados",
-          "½ xícara (chá) de bacon picadinho",
-          "1 colher (chá) bem cheia de folhas de tomilho fresco",
-          "Sal a gosto",
-          "Pimenta do reino moída na hora a gosto",
-          "1 colher (café) de pimenta calabresa em flocos",
-          "1 colher (sopa) de conhaque",
-          "1 colher (sobremesa) de molho de soja",
-          "3 colheres (sopa) de azeite de oliva",
-          "½ xícara (chá) de salsinha fresca picada",
-          "1 colher (sopa) de extrato de tomate",
-          "1 xícara (chá) de água fervendo (água do cozimento dos legumes)",
-          "1 folha de louro",
-          "25g de manteiga"
+          "2 bifes de alcatra (cerca de 150 g cada)",
+          "1 colher (sopa) de azeite",
+          "1 colher (sopa) de manteiga",
+          "1 cebola pequena picada",
+          "1 dente de alho picado",
+          "1/2 xícara (chá) de creme de leite fresco",
+          "1 colher (sopa) de mostarda Dijon",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Corte a carne em tiras e depois em cubos. Tempere com sal, pimenta do reino, tomilho e pimenta calabresa com 1 hora de antecedência.",
-          "Cozinhe a mandioquinha e a abóbora em água com sal até ficarem no ponto. Retire e reserve a água do cozimento. Cozinhe as ervilhas e coloque em água gelada para manter a cor.",
-          "Em uma frigideira grande e de bordas altas, aqueça 2 colheres de azeite e doure a carne em fogo alto por cerca de 2 minutos de cada lado. Transfira a carne para um recipiente e reserve a gordura na frigideira.",
-          "Adicione mais 1 colher de azeite na frigideira, refogue o bacon, a cebola e o alho com uma pitada de sal e pimenta. Retorne a carne à frigideira.",
-          "Misture o extrato de tomate com o molho de soja e a água do cozimento dos legumes. Adicione à frigideira junto com a manteiga e o conhaque.",
-          "Deixe cozinhar até o molho encorpar e os sabores se misturarem. Finalize com salsinha picada."
+          "Retire os bifes da geladeira 10 minutos antes de cozinhar. Tempere com sal e pimenta dos dois lados.",
+          "Aqueça uma frigideira em fogo médio-alto com azeite e grelhe os bifes por 2-3 minutos de cada lado para o ponto malpassado. Reserve.",
+          "Na mesma frigideira, adicione a manteiga e refogue a cebola e o alho até ficarem macios.",
+          "Junte o creme de leite e a mostarda, misture bem e deixe ferver por 1 minuto.",
+          "Volte os bifes à frigideira para aquecer no molho e sirva imediatamente com acompanhamentos como batatas cozidas e brócolis no vapor."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://receitas.globo.com/paola-carosella/picadinho-de-carne-com-legumes-da-paola-carosella.ghtml",
-          "checked_at": "2026-11-13T18:26:35+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Bife-de-alcatra-com-molho-de-mostarda",
+          "checked_at": "2026-11-15T17:36:46+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/38330332/pexels-photo-38330332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato saboroso de carne e legumes com purê de batatas servido sobre uma mesa de madeira.",
-          "bank_id": "38330332",
-          "credit": "DΛVΞ GΛRCIΛ",
-          "query": "Picadinho de Carne com Legumes (Paola Carosella)"
+          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
+          "bank_id": "33673991",
+          "credit": "pedro furtado",
+          "query": "Bife de Alcatra com Molho de Mostarda"
         },
-        "id": "picadinho-de-carne-com-legumes-paola-carosella-bdc11f2a"
+        "id": "bife-de-alcatra-com-molho-de-mostarda-14bf860f"
       },
       {
-        "nome": "Rosbife",
+        "nome": "Bife Acebolado",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Carne vermelha assada no forno, uma alternativa saudável e saborosa à fritura. O tempo de preparo é ideal para um jantar rápido e a receita é de uma fonte confiável. Perfeito para ser servido com uma salada fresca ou legumes assados.",
+        "tempo": "20 minutos",
+        "porque": "Um clássico da culinária brasileira, este bife acebolado é rápido e fácil de preparar, com uma técnica que garante a carne macia e a cebola dourada, ideal para um jantar prático e saboroso.",
         "tags": [
           "carne_vermelha",
-          "forno",
+          "refogado",
           "rapido",
           "classico"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "750g de filé mignon em peça para rosbife",
-          "1 colher (chá) de mostarda amarela em pó",
-          "1 colher (chá) de páprica defumada",
+          "2 bifes de contrafilé (alcatra ou coxão mole)",
+          "1 cebola média",
+          "2 colheres (sopa) de água",
+          "2 colheres (chá) de vinagre de vinho branco",
+          "1 colher (chá) de manteiga",
           "Azeite a gosto",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto"
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Preaqueça o forno a 220 ºC (temperatura alta).",
-          "Retire a peça de filé mignon da geladeira e deixe em temperatura ambiente por 15 minutos.",
-          "Tempere a carne com a mostarda em pó, a páprica defumada, sal e pimenta-do-reino.",
-          "Regue com ½ colher (sopa) de azeite e espalhe bem por toda a superfície da carne.",
-          "Transfira o filé mignon para uma assadeira grande e leve ao forno para assar por 15 minutos.",
-          "Após esse tempo, diminua a temperatura para 180 ºC (temperatura média) e deixe o rosbife no forno por mais 10 minutos para malpassado, ou 15 minutos para ao ponto.",
-          "Retire a assadeira do forno e deixe o rosbife descansar por 10 minutos antes de cortar e servir."
+          "Retire os bifes da geladeira 10 minutos antes de cozinhar. Tempere-os com sal e pimenta.",
+          "Fatie a cebola em meias-luas finas. Em uma tigela pequena, misture a água com o vinagre.",
+          "Aqueça uma frigideira em fogo médio-alto com um fio de azeite. Grelhe os bifes por 2-3 minutos de cada lado até o ponto desejado. Retire e reserve.",
+          "Na mesma frigideira, adicione a manteiga e refogue a cebola fatiada até ficar macia e translúcida.",
+          "Despeje a mistura de água e vinagre na frigideira para deglacear o fundo, raspando os resíduos para incorporar os sabores.",
+          "Volte os bifes à frigideira, cubra-os com a cebola e o molho formado, e sirva imediatamente."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/rosbife",
-          "title": "Rosbife - Panelinha",
+          "url": "https://panelinha.com.br/receita/bife-acebolado",
+          "title": "Bife acebolado - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-11-13T18:26:36+00:00"
+          "checked_at": "2026-11-15T17:36:47+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9959-rosbife.webp",
-          "alt": "Rosbife"
+          "url": "https://i.panelinha.com.br/i1/bk-7957-blog-ayu8198.webp",
+          "alt": "Bife Acebolado"
         },
-        "id": "rosbife-5d3431e6"
+        "id": "bife-acebolado-959638fa"
       },
       {
-        "nome": "Tapenade com limão-siciliano e tomilho",
+        "nome": "Salada de Pepino com Iogurte e Hortelã",
         "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, saborosa e muito rápida de preparar, ideal para abrir o apetite. É uma opção diferente de patê, focada em ingredientes frescos e mediterrâneos.",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada leve, fresca e rápida de preparar, perfeita para abrir o apetite do casal com sabores vibrantes e acessíveis.",
         "tags": [
+          "entrada",
           "vegetariano",
-          "rapido",
           "fresco",
-          "mediterraneo"
+          "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 xícara (chá) de azeitona preta sem caroço (cerca de 120g)",
-          "2 colheres (sopa) de azeite",
-          "Raspas de 1 limão-siciliano",
-          "1 ramo de tomilho"
+          "2 pepinos japoneses",
+          "1 pote de iogurte natural sem açúcar (170 g)",
+          "1 colher (sopa) de azeite",
+          "20 folhas de hortelã fresca",
+          "Sal a gosto"
         ],
         "preparo": [
-          "Numa tábua, pique fino as azeitonas pretas sem caroço.",
-          "Adicione as raspas de limão-siciliano e as folhas de tomilho picadas finamente às azeitonas.",
-          "Transfira a mistura para uma tigela.",
-          "Regue com o azeite e misture bem até incorporar todos os ingredientes.",
-          "Sirva a tapenade com pães ou torradas."
+          "Lave e seque bem os pepinos e as folhas de hortelã.",
+          "Fatie os pepinos em rodelas bem finas. Pique as folhas de hortelã.",
+          "Em uma tigela média, combine o pepino fatiado, as folhas de hortelã e o iogurte.",
+          "Tempere com azeite e sal a gosto, misturando delicadamente.",
+          "Sirva imediatamente ou leve à geladeira por até 20 minutos para ficar mais refrescante."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/tapenade-com-limao-siciliano-e-tomilho",
-          "title": "Tapenade com limão-siciliano e tomilho - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-13T18:26:36+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-pepino-com-iogurte-e-hortela",
+          "checked_at": "2026-11-15T17:36:48+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-9944-tapenade-com-limao-siciliano-e-tomilho.webp",
-          "alt": "Tapenade com limão-siciliano e tomilho"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/36929190/pexels-photo-36929190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma salada vibrante de tomate e pepino com uma folha de hortelã como guarnição, servida em um prato de vidro decorativo.",
+          "bank_id": "36929190",
+          "credit": "Christina & Peter",
+          "query": "Salada de Pepino com Iogurte e Hortelã"
         },
-        "id": "tapenade-com-limao-siciliano-e-tomilho-af1206bc"
+        "id": "salada-de-pepino-com-iogurte-e-hortela-af852756"
       },
       {
-        "nome": "Tacinha com Creme de Coco e Manga",
+        "nome": "Creme de Papaia com Cassis",
         "curso": "sobremesa",
-        "tempo": "40 minutos",
-        "porque": "Uma sobremesa refrescante, fácil e rápida de fazer, perfeita para um casal jovem. Combina frutas e coco, sem a necessidade de forno, e é visualmente atraente.",
+        "tempo": "5 minutos de preparo ativo + tempo de co",
+        "porque": "Uma sobremesa clássica, leve e refrescante, com a combinação elegante de mamão e licor de cassis, ideal para finalizar o jantar de forma sofisticada e rápida.",
         "tags": [
-          "doce",
-          "frutas",
+          "sobremesa",
+          "fruta",
           "rapido",
-          "refrescante"
+          "elegante"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 Leite MOÇA® Light (leite condensado light)",
-          "1 xícara (chá) de Leite Líquido MOLICO® Total Cálcio",
-          "2 colheres (sopa) de amido de milho",
-          "1 vidro de leite de coco (200 ml)",
-          "4 colheres (sopa) de coco fresco ralado",
-          "2 xícaras (chá) de manga picada",
-          "Lascas de coco fresco para decorar"
+          "1 mamão papaia maduro",
+          "Licor de cassis a gosto para servir"
         ],
         "preparo": [
-          "Para o creme de coco: Em uma panela, misture o Leite MOÇA® Light, o Leite Líquido MOLICO®, o amido de milho, o leite de coco e o coco ralado.",
-          "Leve ao fogo médio, mexendo sempre, por cerca de 10 minutos ou até engrossar. Reserve.",
-          "Para o purê de manga: Bata a manga picada no liquidificador até obter um purê liso.",
-          "Em copinhos de sobremesa ou tacinhas, coloque uma camada do creme de coco e uma camada do purê de manga.",
-          "Repita as camadas, finalizando com as lascas de coco fresco para decorar.",
-          "Leve à geladeira até o momento de servir."
+          "Descasque o mamão papaia, descarte as sementes e corte a polpa em pedaços de aproximadamente 2 cm.",
+          "Congele os pedaços de mamão por pelo menos 30 minutos, ou até ficarem firmes.",
+          "Coloque os pedaços de mamão congelado no processador ou liquidificador e bata até obter um creme homogêneo, raspando as laterais se necessário.",
+          "Sirva o creme imediatamente em taças e regue com licor de cassis a gosto."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://www.receitasnestle.com.br/receitas/tacinha-com-creme-de-coco-e-manga",
-          "title": "Tacinha com Creme de Coco e Manga",
-          "domain": "receitasnestle.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-13T18:26:37+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Creme-de-papaia-congelado-com-licor-de-cassis",
+          "checked_at": "2026-11-15T17:36:48+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://d1uz88p17r663j.cloudfront.net/original/5ae385739e74b06dbb10c6aaec133063_tacinha-creme-coco-manga-receitas-nestle.jpg",
-          "alt": "Tacinha com Creme de Coco e Manga"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/264727/pexels-photo-264727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma panqueca de dar água na boca coberta com frutas frescas e creme em um prato estiloso, perfeita para um café da manhã doce.",
+          "bank_id": "264727",
+          "credit": "Pixabay",
+          "query": "Creme de Papaia com Cassis"
         },
-        "id": "tacinha-com-creme-de-coco-e-manga-ff7ec713"
+        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
       }
     ]
   },
