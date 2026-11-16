@@ -1,179 +1,196 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-15T14:34:52-03:00",
+  "gerado_em": "2026-11-16T17:49:32-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "15/11/2026",
-    "dia_semana": "domingo",
+    "data": "16/11/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Bife de Alcatra com Molho de Mostarda",
+        "nome": "Carne de Panela com Mandioca e Tomate",
         "curso": "principal",
-        "tempo": "25 minutos",
-        "porque": "Receita rápida de carne vermelha (alcatra) grelhada, com um molho saboroso e acompanhamento de batata e brócolis, garantindo equilíbrio e praticidade para o casal. É uma opção que valoriza a proteína e vegetais.",
+        "tempo": "30 min",
+        "porque": "Receita fácil e tradicional de carne bovina (músculo ou paleta) cozida na panela de pressão, com carboidrato (mandioca) e vegetais (tomate), ideal para um jantar rápido e com potencial de sobras.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
-          "rapido",
-          "jantar"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bifes de alcatra (cerca de 150 g cada)",
-          "1 colher (sopa) de azeite",
-          "1 colher (sopa) de manteiga",
-          "1 cebola pequena picada",
-          "1 dente de alho picado",
-          "1/2 xícara (chá) de creme de leite fresco",
-          "1 colher (sopa) de mostarda Dijon",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Retire os bifes da geladeira 10 minutos antes de cozinhar. Tempere com sal e pimenta dos dois lados.",
-          "Aqueça uma frigideira em fogo médio-alto com azeite e grelhe os bifes por 2-3 minutos de cada lado para o ponto malpassado. Reserve.",
-          "Na mesma frigideira, adicione a manteiga e refogue a cebola e o alho até ficarem macios.",
-          "Junte o creme de leite e a mostarda, misture bem e deixe ferver por 1 minuto.",
-          "Volte os bifes à frigideira para aquecer no molho e sirva imediatamente com acompanhamentos como batatas cozidas e brócolis no vapor."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Bife-de-alcatra-com-molho-de-mostarda",
-          "checked_at": "2026-11-15T17:36:46+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673991/pexels-photo-33673991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso prato de fettuccine alfredo cremoso acompanhado de bife de carne macia e molho rico de cogumelos.",
-          "bank_id": "33673991",
-          "credit": "pedro furtado",
-          "query": "Bife de Alcatra com Molho de Mostarda"
-        },
-        "id": "bife-de-alcatra-com-molho-de-mostarda-14bf860f"
-      },
-      {
-        "nome": "Bife Acebolado",
-        "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Um clássico da culinária brasileira, este bife acebolado é rápido e fácil de preparar, com uma técnica que garante a carne macia e a cebola dourada, ideal para um jantar prático e saboroso.",
-        "tags": [
-          "carne_vermelha",
-          "refogado",
-          "rapido",
-          "classico"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 bifes de contrafilé (alcatra ou coxão mole)",
-          "1 cebola média",
-          "2 colheres (sopa) de água",
-          "2 colheres (chá) de vinagre de vinho branco",
-          "1 colher (chá) de manteiga",
-          "Azeite a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Retire os bifes da geladeira 10 minutos antes de cozinhar. Tempere-os com sal e pimenta.",
-          "Fatie a cebola em meias-luas finas. Em uma tigela pequena, misture a água com o vinagre.",
-          "Aqueça uma frigideira em fogo médio-alto com um fio de azeite. Grelhe os bifes por 2-3 minutos de cada lado até o ponto desejado. Retire e reserve.",
-          "Na mesma frigideira, adicione a manteiga e refogue a cebola fatiada até ficar macia e translúcida.",
-          "Despeje a mistura de água e vinagre na frigideira para deglacear o fundo, raspando os resíduos para incorporar os sabores.",
-          "Volte os bifes à frigideira, cubra-os com a cebola e o molho formado, e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/bife-acebolado",
-          "title": "Bife acebolado - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-15T17:36:47+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7957-blog-ayu8198.webp",
-          "alt": "Bife Acebolado"
-        },
-        "id": "bife-acebolado-959638fa"
-      },
-      {
-        "nome": "Salada de Pepino com Iogurte e Hortelã",
-        "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada leve, fresca e rápida de preparar, perfeita para abrir o apetite do casal com sabores vibrantes e acessíveis.",
-        "tags": [
-          "entrada",
-          "vegetariano",
-          "fresco",
+          "panela_de_pressao",
+          "equilibrado",
           "rapido"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "2 pepinos japoneses",
-          "1 pote de iogurte natural sem açúcar (170 g)",
-          "1 colher (sopa) de azeite",
-          "20 folhas de hortelã fresca",
-          "Sal a gosto"
+          "2 colheres (sopa) de óleo ou azeite",
+          "1 kg de carne bovina em cubos (músculo ou paleta)",
+          "1 cebola grande picada",
+          "4 dentes de alho picados",
+          "2 tomates picados",
+          "1 pimentão verde picado",
+          "1 colher (sopa) de extrato de tomate",
+          "2 folhas de louro",
+          "Sal e pimenta-do-reino a gosto",
+          "Água quente (o suficiente para cobrir)",
+          "500g de mandioca descascada e cortada em cubos médios",
+          "Cheiro-verde a gosto"
         ],
         "preparo": [
-          "Lave e seque bem os pepinos e as folhas de hortelã.",
-          "Fatie os pepinos em rodelas bem finas. Pique as folhas de hortelã.",
-          "Em uma tigela média, combine o pepino fatiado, as folhas de hortelã e o iogurte.",
-          "Tempere com azeite e sal a gosto, misturando delicadamente.",
-          "Sirva imediatamente ou leve à geladeira por até 20 minutos para ficar mais refrescante."
+          "Em uma panela de pressão, aqueça o óleo ou azeite em fogo médio. Doure a carne em cubos por todos os lados e reserve.",
+          "Na mesma panela, refogue a cebola e o alho até dourarem. Adicione o tomate, o pimentão e o extrato de tomate, refogando por alguns minutos.",
+          "Retorne a carne à panela, junte as folhas de louro, tempere com sal e pimenta-do-reino. Cubra com água quente.",
+          "Tampe a panela de pressão e cozinhe por cerca de 20 minutos após o início da pressão.",
+          "Desligue o fogo, espere a pressão sair naturalmente e abra a panela. Adicione a mandioca e cozinhe sem pressão até ficar macia.",
+          "Finalize com cheiro-verde picado e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Salada-de-pepino-com-iogurte-e-hortela",
-          "checked_at": "2026-11-15T17:36:48+00:00"
+          "suggested_url": "https://www.guiadacozinha.com.br/receitas/carne-de-panela-com-mandioca-e-tomate/",
+          "checked_at": "2026-11-16T20:51:48+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36929190/pexels-photo-36929190.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma salada vibrante de tomate e pepino com uma folha de hortelã como guarnição, servida em um prato de vidro decorativo.",
-          "bank_id": "36929190",
-          "credit": "Christina & Peter",
-          "query": "Salada de Pepino com Iogurte e Hortelã"
+          "url": "https://images.pexels.com/photos/4768954/pexels-photo-4768954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato colorido de legumes assados e carne em uma panela de cerâmica azul, ideal para jantares em família.",
+          "bank_id": "4768954",
+          "credit": "Denys Gromov",
+          "query": "Carne de Panela com Mandioca e Tomate"
         },
-        "id": "salada-de-pepino-com-iogurte-e-hortela-af852756"
+        "id": "carne-de-panela-com-mandioca-e-tomate-52b8b0e0"
       },
       {
-        "nome": "Creme de Papaia com Cassis",
-        "curso": "sobremesa",
-        "tempo": "5 minutos de preparo ativo + tempo de co",
-        "porque": "Uma sobremesa clássica, leve e refrescante, com a combinação elegante de mamão e licor de cassis, ideal para finalizar o jantar de forma sofisticada e rápida.",
+        "nome": "Frango Xadrez Rápido",
+        "curso": "principal",
+        "tempo": "30 min",
+        "porque": "Versão rápida e prática de um clássico oriental, com frango e vegetais (pimentões coloridos, cebola), garantindo equilíbrio e sabor. Ideal para um jantar diferente e que pode render sobras.",
         "tags": [
-          "sobremesa",
-          "fruta",
-          "rapido",
-          "elegante"
+          "frango",
+          "oriental",
+          "refogado",
+          "rapido"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "1 mamão papaia maduro",
-          "Licor de cassis a gosto para servir"
+          "1 colher (sopa) de óleo",
+          "600 g de peito de frango cortado em cubos",
+          "3 dentes de alho picados",
+          "1 cebola média cortada em cubos",
+          "1 pimentão verde pequeno cortado em cubos",
+          "1 pimentão amarelo pequeno cortado em cubos",
+          "1 pimentão vermelho pequeno cortado em cubos",
+          "2 colheres (sopa) de óleo de gergelim",
+          "½ xícara (chá) de molho shoyu",
+          "1 xícara (chá) de água",
+          "1 colher (sopa) de amido de milho",
+          "½ xícara (chá) de amendoim torrado sem pele e sem sal",
+          "Pimenta-do-reino a gosto",
+          "Sal a gosto (se necessário, após provar o shoyu)"
         ],
         "preparo": [
-          "Descasque o mamão papaia, descarte as sementes e corte a polpa em pedaços de aproximadamente 2 cm.",
-          "Congele os pedaços de mamão por pelo menos 30 minutos, ou até ficarem firmes.",
-          "Coloque os pedaços de mamão congelado no processador ou liquidificador e bata até obter um creme homogêneo, raspando as laterais se necessário.",
-          "Sirva o creme imediatamente em taças e regue com licor de cassis a gosto."
+          "Tempere o frango em cubos com pimenta-do-reino e, se desejar, um pouco de sal.",
+          "Em uma frigideira grande, aqueça o óleo e doure o frango por todos os lados. Retire e reserve.",
+          "Na mesma frigideira, refogue o alho e a cebola até ficarem translúcidos.",
+          "Adicione os pimentões coloridos e refogue até ficarem 'al dente'.",
+          "Volte o frango para a panela. Em um recipiente separado, misture o shoyu, a água e o amido de milho.",
+          "Despeje o molho sobre o frango e os vegetais, mexendo até engrossar. Adicione o óleo de gergelim.",
+          "Finalize com o amendoim torrado e sirva imediatamente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Creme-de-papaia-congelado-com-licor-de-cassis",
-          "checked_at": "2026-11-15T17:36:48+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/frango-xadrez-rapido",
+          "checked_at": "2026-11-16T20:51:49+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/264727/pexels-photo-264727.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma panqueca de dar água na boca coberta com frutas frescas e creme em um prato estiloso, perfeita para um café da manhã doce.",
-          "bank_id": "264727",
-          "credit": "Pixabay",
-          "query": "Creme de Papaia com Cassis"
+          "url": "https://images.pexels.com/photos/36979923/pexels-photo-36979923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Frango saboroso e abobrinha salteados até a perfeição em uma panela.",
+          "bank_id": "36979923",
+          "credit": "Sóc Năng Động",
+          "query": "Frango Xadrez Rápido"
         },
-        "id": "creme-de-papaia-com-cassis-c6f7ec8b"
+        "id": "frango-xadrez-rapido-516da089"
+      },
+      {
+        "nome": "Queijo brie aperitivo na Air Fryer da Rita Lobo",
+        "curso": "entrada",
+        "tempo": "10 min",
+        "porque": "Uma entrada sofisticada e incrivelmente rápida, preparada na air fryer, que realça o sabor do queijo brie com um toque agridoce e picante. Perfeito para um jantar a dois.",
+        "tags": [
+          "queijo",
+          "air_fryer",
+          "rapido",
+          "aperitivo"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 peça de queijo francês petit brie (125 g)",
+          "¼ de colher (chá) de azeite",
+          "1 colher (chá) de mel",
+          "¼ de colher (chá) de pimenta calabresa seca",
+          "5 ramos de tomilho-limão (ou tomilho comum)",
+          "Torradinhas ou pão para acompanhar (sugestão)"
+        ],
+        "preparo": [
+          "Preaqueça a Air Fryer a 160 ºC.",
+          "Coloque o queijo brie em uma tigela pequena ou pratinho que possa ir à Air Fryer.",
+          "Polvilhe a pimenta calabresa e o tomilho debulhado sobre o queijo.",
+          "Regue com o azeite e o mel.",
+          "Leve à Air Fryer e asse por 10 minutos, ou até o queijo ficar macio e levemente derretido.",
+          "Sirva imediatamente com torradinhas ou pão."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
+          "checked_at": "2026-11-16T20:51:50+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
+          "bank_id": "31994015",
+          "credit": "Mimi",
+          "query": "Queijo brie aperitivo na Air Fryer da Rita Lobo"
+        },
+        "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6"
+      },
+      {
+        "nome": "Morango Recheado com Leite MOÇA®",
+        "curso": "sobremesa",
+        "tempo": "15 min",
+        "porque": "Uma sobremesa refrescante, prática e deliciosa, com poucos ingredientes. O contraste da acidez do morango com a cremosidade do Leite MOÇA® é irresistível e perfeita para finalizar o jantar.",
+        "tags": [
+          "fruta",
+          "doce",
+          "rapido",
+          "refrescante"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "Morangos (quantidade desejada, firmes e sem manchas)",
+          "Leite Condensado MOÇA® (ou outro leite condensado)"
+        ],
+        "preparo": [
+          "Lave e higienize os morangos. Corte-os ao meio, no sentido do comprimento.",
+          "Com uma colher pequena ou faca, retire um pouco do miolo de cada metade, formando um pequeno espaço para o recheio.",
+          "Com a ajuda de um saco de confeitar ou colher de café, recheie cada metade de morango com Leite Condensado MOÇA®.",
+          "Leve os morangos recheados ao congelador por alguns minutos, até ficarem bem geladinhos e o recheio mais firme.",
+          "Sirva gelado."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/morango-recheado-com-leite-moca",
+          "checked_at": "2026-11-16T20:51:52+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/32300842/pexels-photo-32300842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Croissant de dar água na boca, recheado com creme e morangos, servido em um ambiente aconchegante de café.",
+          "bank_id": "32300842",
+          "credit": "Samet Burak Dağlıoğlu",
+          "query": "Morango Recheado com Leite MOÇA®"
+        },
+        "id": "morango-recheado-com-leite-moca-3aa410cd"
       }
     ]
   },
