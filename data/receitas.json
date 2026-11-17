@@ -1,196 +1,185 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-16T17:49:32-03:00",
+  "gerado_em": "2026-11-17T16:38:34-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "16/11/2026",
-    "dia_semana": "segunda",
+    "data": "17/11/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Carne de Panela com Mandioca e Tomate",
+        "nome": "Carne Moída com Abobrinha",
         "curso": "principal",
-        "tempo": "30 min",
-        "porque": "Receita fácil e tradicional de carne bovina (músculo ou paleta) cozida na panela de pressão, com carboidrato (mandioca) e vegetais (tomate), ideal para um jantar rápido e com potencial de sobras.",
+        "tempo": "30 minutos",
+        "porque": "Prato principal de carne vermelha, rápido e prático, com bom equilíbrio de proteína e vegetais. Rende sobras para uma pessoa, ideal para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "panela_de_pressao",
-          "equilibrado",
-          "rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "2 colheres (sopa) de óleo ou azeite",
-          "1 kg de carne bovina em cubos (músculo ou paleta)",
-          "1 cebola grande picada",
-          "4 dentes de alho picados",
-          "2 tomates picados",
-          "1 pimentão verde picado",
-          "1 colher (sopa) de extrato de tomate",
-          "2 folhas de louro",
-          "Sal e pimenta-do-reino a gosto",
-          "Água quente (o suficiente para cobrir)",
-          "500g de mandioca descascada e cortada em cubos médios",
-          "Cheiro-verde a gosto"
-        ],
-        "preparo": [
-          "Em uma panela de pressão, aqueça o óleo ou azeite em fogo médio. Doure a carne em cubos por todos os lados e reserve.",
-          "Na mesma panela, refogue a cebola e o alho até dourarem. Adicione o tomate, o pimentão e o extrato de tomate, refogando por alguns minutos.",
-          "Retorne a carne à panela, junte as folhas de louro, tempere com sal e pimenta-do-reino. Cubra com água quente.",
-          "Tampe a panela de pressão e cozinhe por cerca de 20 minutos após o início da pressão.",
-          "Desligue o fogo, espere a pressão sair naturalmente e abra a panela. Adicione a mandioca e cozinhe sem pressão até ficar macia.",
-          "Finalize com cheiro-verde picado e sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.guiadacozinha.com.br/receitas/carne-de-panela-com-mandioca-e-tomate/",
-          "checked_at": "2026-11-16T20:51:48+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/4768954/pexels-photo-4768954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um prato colorido de legumes assados e carne em uma panela de cerâmica azul, ideal para jantares em família.",
-          "bank_id": "4768954",
-          "credit": "Denys Gromov",
-          "query": "Carne de Panela com Mandioca e Tomate"
-        },
-        "id": "carne-de-panela-com-mandioca-e-tomate-52b8b0e0"
-      },
-      {
-        "nome": "Frango Xadrez Rápido",
-        "curso": "principal",
-        "tempo": "30 min",
-        "porque": "Versão rápida e prática de um clássico oriental, com frango e vegetais (pimentões coloridos, cebola), garantindo equilíbrio e sabor. Ideal para um jantar diferente e que pode render sobras.",
-        "tags": [
-          "frango",
-          "oriental",
-          "refogado",
-          "rapido"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 colher (sopa) de óleo",
-          "600 g de peito de frango cortado em cubos",
-          "3 dentes de alho picados",
-          "1 cebola média cortada em cubos",
-          "1 pimentão verde pequeno cortado em cubos",
-          "1 pimentão amarelo pequeno cortado em cubos",
-          "1 pimentão vermelho pequeno cortado em cubos",
-          "2 colheres (sopa) de óleo de gergelim",
-          "½ xícara (chá) de molho shoyu",
-          "1 xícara (chá) de água",
-          "1 colher (sopa) de amido de milho",
-          "½ xícara (chá) de amendoim torrado sem pele e sem sal",
-          "Pimenta-do-reino a gosto",
-          "Sal a gosto (se necessário, após provar o shoyu)"
-        ],
-        "preparo": [
-          "Tempere o frango em cubos com pimenta-do-reino e, se desejar, um pouco de sal.",
-          "Em uma frigideira grande, aqueça o óleo e doure o frango por todos os lados. Retire e reserve.",
-          "Na mesma frigideira, refogue o alho e a cebola até ficarem translúcidos.",
-          "Adicione os pimentões coloridos e refogue até ficarem 'al dente'.",
-          "Volte o frango para a panela. Em um recipiente separado, misture o shoyu, a água e o amido de milho.",
-          "Despeje o molho sobre o frango e os vegetais, mexendo até engrossar. Adicione o óleo de gergelim.",
-          "Finalize com o amendoim torrado e sirva imediatamente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/frango-xadrez-rapido",
-          "checked_at": "2026-11-16T20:51:49+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/36979923/pexels-photo-36979923.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Frango saboroso e abobrinha salteados até a perfeição em uma panela.",
-          "bank_id": "36979923",
-          "credit": "Sóc Năng Động",
-          "query": "Frango Xadrez Rápido"
-        },
-        "id": "frango-xadrez-rapido-516da089"
-      },
-      {
-        "nome": "Queijo brie aperitivo na Air Fryer da Rita Lobo",
-        "curso": "entrada",
-        "tempo": "10 min",
-        "porque": "Uma entrada sofisticada e incrivelmente rápida, preparada na air fryer, que realça o sabor do queijo brie com um toque agridoce e picante. Perfeito para um jantar a dois.",
-        "tags": [
-          "queijo",
-          "air_fryer",
           "rapido",
-          "aperitivo"
+          "equilibrado",
+          "refogado"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500g de carne moída",
+          "1 cebola grande picada",
+          "Sal a gosto",
+          "Pimenta a gosto",
+          "2 abobrinhas grandes em cubos",
+          "1 xícara de água"
+        ],
+        "preparo": [
+          "Refogue a carne moída com a cebola picada, sal e pimenta em uma panela em fogo médio.",
+          "Quando a carne estiver seca e dourada, adicione as abobrinhas em cubos.",
+          "Acrescente 1 xícara de água, tampe a panela e cozinhe em fogo médio.",
+          "Mexa ocasionalmente até a abobrinha ficar macia.",
+          "Se necessário, adicione mais água durante o cozimento para evitar que seque.",
+          "Sirva quente, acompanhado de arroz branco ou outro carboidrato de sua preferência."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-11-17T19:40:32+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/18973339/pexels-photo-18973339.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de carne fresca e carne moída em uma vitrine no mercado San Vito, Costa Rica.",
+          "bank_id": "18973339",
+          "credit": "Luis Kuthe",
+          "query": "Carne Moída com Abobrinha"
+        },
+        "id": "carne-moida-com-abobrinha-e96d4a97"
+      },
+      {
+        "nome": "Bife à Milanesa ao Forno",
+        "curso": "principal",
+        "tempo": "40 minutos",
+        "porque": "Uma versão mais saudável e prática do clássico bife à milanesa, preparada no forno para evitar fritura. Carne vermelha como protagonista, crocante e saboroso, ideal para um jantar de casal e com potencial para sobras.",
+        "tags": [
+          "carne_vermelha",
+          "forno",
+          "pratico",
+          "sem_fritura"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "6 bifes de filé mignon (ou alcatra/patinho)",
+          "1 dente de alho amassado",
+          "Sal a gosto",
+          "Pimenta do reino a gosto",
+          "1 ovo ligeiramente batido",
+          "1 xícara (chá) de farinha de rosca",
+          "Óleo para untar a assadeira"
+        ],
+        "preparo": [
+          "Preaqueça o forno em temperatura alta (200ºC).",
+          "Bata levemente os bifes para que fiquem mais finos.",
+          "Tempere os bifes com o alho amassado, sal e pimenta-do-reino a gosto.",
+          "Passe cada bife no ovo batido e, em seguida, na farinha de rosca, cobrindo bem todos os lados.",
+          "Disponha os bifes em uma assadeira previamente untada com óleo.",
+          "Leve ao forno preaquecido por cerca de 30 minutos, virando os bifes na metade do tempo (após 15 minutos) para dourarem por igual."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-11-17T19:40:33+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/7783364/pexels-photo-7783364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso filé a milanesa coberto com queijo e ervas, servido com salada fresca, tomate e fatia de limão.",
+          "bank_id": "7783364",
+          "credit": "Daniel Fernandez",
+          "query": "Bife à Milanesa ao Forno"
+        },
+        "id": "bife-a-milanesa-ao-forno-c6f975ae"
+      },
+      {
+        "nome": "Ricota Grelhada",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, rápida e saudável, perfeita para abrir o apetite sem pesar. É fácil de preparar e utiliza ingredientes acessíveis.",
+        "tags": [
+          "vegetariano",
+          "rapido",
+          "leve",
+          "grelhado"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 peça de queijo francês petit brie (125 g)",
-          "¼ de colher (chá) de azeite",
-          "1 colher (chá) de mel",
-          "¼ de colher (chá) de pimenta calabresa seca",
-          "5 ramos de tomilho-limão (ou tomilho comum)",
-          "Torradinhas ou pão para acompanhar (sugestão)"
+          "1 ricota fresca (aprox. 400g)",
+          "4 colheres (sopa) de azeite",
+          "8 folhas de manjericão fresco",
+          "8 folhas de hortelã fresca",
+          "8 folhas de salsa crespa fresca",
+          "Sal a gosto",
+          "Pimenta-do-reino moída na hora a gosto",
+          "Grãos de pimenta rosa para perfumar (opcional)"
         ],
         "preparo": [
-          "Preaqueça a Air Fryer a 160 ºC.",
-          "Coloque o queijo brie em uma tigela pequena ou pratinho que possa ir à Air Fryer.",
-          "Polvilhe a pimenta calabresa e o tomilho debulhado sobre o queijo.",
-          "Regue com o azeite e o mel.",
-          "Leve à Air Fryer e asse por 10 minutos, ou até o queijo ficar macio e levemente derretido.",
-          "Sirva imediatamente com torradinhas ou pão."
+          "Corte a ricota em fatias de 2 cm de espessura. Lave e seque as ervas frescas.",
+          "Aqueça uma frigideira antiaderente em fogo médio.",
+          "Adicione 1 colher (sopa) de azeite e coloque as fatias de ricota, grelhando até duas por vez.",
+          "Deixe dourar por 4 minutos de cada lado, até ficarem levemente crocantes e douradas.",
+          "Transfira a ricota grelhada para um prato.",
+          "Tempere com sal e pimenta-do-reino, salpique as ervas frescas picadas e os grãos de pimenta rosa (se usar).",
+          "Regue com um fio de azeite e sirva imediatamente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Queijo-brie-aperitivo-na-Air-Fryer-da-Rita-Lobo",
-          "checked_at": "2026-11-16T20:51:50+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/ricota-grelhada",
+          "title": "Ricota grelhada - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-17T19:40:34+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/31994015/pexels-photo-31994015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Prato elegante de queijos e frutas com brie, figos, uvas e framboesas em uma placa de madeira.",
-          "bank_id": "31994015",
-          "credit": "Mimi",
-          "query": "Queijo brie aperitivo na Air Fryer da Rita Lobo"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
+          "alt": "Ricota Grelhada"
         },
-        "id": "queijo-brie-aperitivo-na-air-fryer-da-rita-lobo-aed785a6"
+        "id": "ricota-grelhada-bb272a1a"
       },
       {
-        "nome": "Morango Recheado com Leite MOÇA®",
+        "nome": "Maçã Assada na Air Fryer da Rita Lobo",
         "curso": "sobremesa",
-        "tempo": "15 min",
-        "porque": "Uma sobremesa refrescante, prática e deliciosa, com poucos ingredientes. O contraste da acidez do morango com a cremosidade do Leite MOÇA® é irresistível e perfeita para finalizar o jantar.",
+        "tempo": "20 minutos",
+        "porque": "Uma sobremesa leve, prática e rápida, utilizando a air fryer conforme a preferência do casal. É uma opção doce e saudável para finalizar o jantar.",
         "tags": [
           "fruta",
-          "doce",
           "rapido",
-          "refrescante"
+          "airfryer",
+          "doce"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "Morangos (quantidade desejada, firmes e sem manchas)",
-          "Leite Condensado MOÇA® (ou outro leite condensado)"
+          "1 maçã (fuji ou gala)",
+          "2 colheres (chá) de mel",
+          "1 pitada de canela em pó"
         ],
         "preparo": [
-          "Lave e higienize os morangos. Corte-os ao meio, no sentido do comprimento.",
-          "Com uma colher pequena ou faca, retire um pouco do miolo de cada metade, formando um pequeno espaço para o recheio.",
-          "Com a ajuda de um saco de confeitar ou colher de café, recheie cada metade de morango com Leite Condensado MOÇA®.",
-          "Leve os morangos recheados ao congelador por alguns minutos, até ficarem bem geladinhos e o recheio mais firme.",
-          "Sirva gelado."
+          "Lave, seque e corte a maçã ao meio no sentido do comprimento.",
+          "Preaqueça a Air Fryer a 200 ºC e programe para assar por 20 minutos.",
+          "Coloque as metades de maçã na cesta da Air Fryer, com o lado cortado para cima.",
+          "Polvilhe a canela em pó sobre as maçãs e regue cada metade com 1 colher (chá) de mel.",
+          "Deixe assar por 20 minutos, ou até que as maçãs fiquem macias e levemente douradas.",
+          "Sirva quente."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/morango-recheado-com-leite-moca",
-          "checked_at": "2026-11-16T20:51:52+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/maca-assada-na-air-fryer-da-rita-lobo",
+          "title": "Maçã assada na Air Fryer da Rita Lobo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-17T19:40:34+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/32300842/pexels-photo-32300842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Croissant de dar água na boca, recheado com creme e morangos, servido em um ambiente aconchegante de café.",
-          "bank_id": "32300842",
-          "credit": "Samet Burak Dağlıoğlu",
-          "query": "Morango Recheado com Leite MOÇA®"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-5932-blog-maca-assada-na-af-8.webp",
+          "alt": "Maçã Assada na Air Fryer da Rita Lobo"
         },
-        "id": "morango-recheado-com-leite-moca-3aa410cd"
+        "id": "maca-assada-na-air-fryer-da-rita-lobo-58a4c72a"
       }
     ]
   },
