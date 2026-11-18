@@ -1,185 +1,183 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-17T16:38:34-03:00",
+  "gerado_em": "2026-11-18T16:15:13-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "17/11/2026",
-    "dia_semana": "terça",
+    "data": "18/11/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Carne Moída com Abobrinha",
+        "nome": "Almôndegas Assadas com Molho de Tomate",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Prato principal de carne vermelha, rápido e prático, com bom equilíbrio de proteína e vegetais. Rende sobras para uma pessoa, ideal para o almoço do dia seguinte.",
+        "tempo": "50 minutos",
+        "porque": "Fácil, prática, assada (sem fritura), proteína (carne moída de patinho) com molho e pode ser acompanhada de arroz integral e legumes para equilíbrio. Rende para 2 pessoas com sobra para 1 almoço.",
         "tags": [
           "carne_vermelha",
-          "rapido",
-          "equilibrado",
-          "refogado"
+          "assado",
+          "prato_principal",
+          "facil"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de carne moída",
+          "500 g de patinho moído",
+          "1 ovo",
+          "½ xícara de aveia em flocos finos (ou farinha de rosca)",
+          "1 cebola pequena ralada ou picada finamente",
+          "2 dentes de alho picados",
+          "Salsinha picada a gosto",
+          "Sal e pimenta-do-reino a gosto",
+          "2 xícaras (chá) de molho de tomate pronto ou caseiro"
+        ],
+        "preparo": [
+          "Em uma tigela, misture a carne moída, ovo, aveia, cebola, alho, salsinha, sal e pimenta até ficar homogêneo.",
+          "Modele pequenas bolinhas com a massa, formando as almôndegas.",
+          "Disponha as almôndegas em uma assadeira untada.",
+          "Cubra as almôndegas com o molho de tomate.",
+          "Leve ao forno preaquecido a 180°C por cerca de 30 minutos, ou até estarem cozidas e douradas."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Almondegas-assadas-com-molho-de-tomate",
+          "checked_at": "2026-11-18T19:17:05+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/34314421/pexels-photo-34314421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosas almôndegas decoradas com salsa em um molho de tomate vibrante, perfeitas para qualquer refeição.",
+          "bank_id": "34314421",
+          "credit": "ERIVELTO Martins",
+          "query": "Almôndegas Assadas com Molho de Tomate"
+        },
+        "id": "almondegas-assadas-com-molho-de-tomate-2e895464"
+      },
+      {
+        "nome": "Bife de Panela com Legumes",
+        "curso": "principal",
+        "tempo": "45 minutos",
+        "porque": "Carne vermelha (acém ou paleta), cozida na panela de pressão para maciez e rapidez, com legumes para um prato equilibrado e prático. Rende para 2 pessoas com sobra para 1 almoço.",
+        "tags": [
+          "carne_vermelha",
+          "panela_de_pressao",
+          "prato_principal",
+          "facil"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 colher (sopa) de óleo",
+          "1 kg de acém ou paleta em bifes",
           "1 cebola grande picada",
-          "Sal a gosto",
-          "Pimenta a gosto",
-          "2 abobrinhas grandes em cubos",
-          "1 xícara de água"
+          "5 colheres (sopa) de extrato de tomate",
+          "3 xícaras (chá) de água",
+          "1 lata de seleta de legumes (ou batata e cenoura em cubos)",
+          "Sal e pimenta-do-reino a gosto"
         ],
         "preparo": [
-          "Refogue a carne moída com a cebola picada, sal e pimenta em uma panela em fogo médio.",
-          "Quando a carne estiver seca e dourada, adicione as abobrinhas em cubos.",
-          "Acrescente 1 xícara de água, tampe a panela e cozinhe em fogo médio.",
-          "Mexa ocasionalmente até a abobrinha ficar macia.",
-          "Se necessário, adicione mais água durante o cozimento para evitar que seque.",
-          "Sirva quente, acompanhado de arroz branco ou outro carboidrato de sua preferência."
+          "Aqueça o óleo em uma panela de pressão em fogo médio e doure os bifes.",
+          "Adicione a cebola picada e o extrato de tomate, refogando por 3 minutos.",
+          "Acrescente a água, a seleta de legumes (ou batata e cenoura), sal e pimenta.",
+          "Tampe a panela e cozinhe por 15 minutos após o início da pressão.",
+          "Desligue o fogo, espere a pressão sair naturalmente, abra a panela e sirva."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-11-17T19:40:32+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/bife-de-panela-com-legumes",
+          "checked_at": "2026-11-18T19:17:09+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/18973339/pexels-photo-18973339.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de carne fresca e carne moída em uma vitrine no mercado San Vito, Costa Rica.",
-          "bank_id": "18973339",
-          "credit": "Luis Kuthe",
-          "query": "Carne Moída com Abobrinha"
+          "url": "https://images.pexels.com/photos/7287118/pexels-photo-7287118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Bife suculento com legumes cozido sobre uma fogueira para uma experiência de refeição ao ar livre.",
+          "bank_id": "7287118",
+          "credit": "ArtHouse Studio",
+          "query": "Bife de Panela com Legumes"
         },
-        "id": "carne-moida-com-abobrinha-e96d4a97"
+        "id": "bife-de-panela-com-legumes-421dd9ae"
       },
       {
-        "nome": "Bife à Milanesa ao Forno",
-        "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Uma versão mais saudável e prática do clássico bife à milanesa, preparada no forno para evitar fritura. Carne vermelha como protagonista, crocante e saboroso, ideal para um jantar de casal e com potencial para sobras.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
-          "pratico",
-          "sem_fritura"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "6 bifes de filé mignon (ou alcatra/patinho)",
-          "1 dente de alho amassado",
-          "Sal a gosto",
-          "Pimenta do reino a gosto",
-          "1 ovo ligeiramente batido",
-          "1 xícara (chá) de farinha de rosca",
-          "Óleo para untar a assadeira"
-        ],
-        "preparo": [
-          "Preaqueça o forno em temperatura alta (200ºC).",
-          "Bata levemente os bifes para que fiquem mais finos.",
-          "Tempere os bifes com o alho amassado, sal e pimenta-do-reino a gosto.",
-          "Passe cada bife no ovo batido e, em seguida, na farinha de rosca, cobrindo bem todos os lados.",
-          "Disponha os bifes em uma assadeira previamente untada com óleo.",
-          "Leve ao forno preaquecido por cerca de 30 minutos, virando os bifes na metade do tempo (após 15 minutos) para dourarem por igual."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-11-17T19:40:33+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/7783364/pexels-photo-7783364.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso filé a milanesa coberto com queijo e ervas, servido com salada fresca, tomate e fatia de limão.",
-          "bank_id": "7783364",
-          "credit": "Daniel Fernandez",
-          "query": "Bife à Milanesa ao Forno"
-        },
-        "id": "bife-a-milanesa-ao-forno-c6f975ae"
-      },
-      {
-        "nome": "Ricota Grelhada",
+        "nome": "Salada de Pepino com Iogurte",
         "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, rápida e saudável, perfeita para abrir o apetite sem pesar. É fácil de preparar e utiliza ingredientes acessíveis.",
+        "tempo": "20 minutos",
+        "porque": "Entrada leve, fresca e nutritiva, com a cremosidade do iogurte e o frescor do pepino. Fácil e rápida de preparar.",
         "tags": [
           "vegetariano",
-          "rapido",
-          "leve",
-          "grelhado"
+          "salada",
+          "entrada",
+          "fresco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 ricota fresca (aprox. 400g)",
-          "4 colheres (sopa) de azeite",
-          "8 folhas de manjericão fresco",
-          "8 folhas de hortelã fresca",
-          "8 folhas de salsa crespa fresca",
-          "Sal a gosto",
-          "Pimenta-do-reino moída na hora a gosto",
-          "Grãos de pimenta rosa para perfumar (opcional)"
+          "½ xícara de iogurte natural de consistência firme",
+          "2 colheres (sopa) de suco de limão",
+          "4 colheres (sopa) de dill picado",
+          "4 pepinos japoneses fatiados finamente na diagonal",
+          "Azeite a gosto",
+          "Sal e pimenta-do-reino moída na hora a gosto"
         ],
         "preparo": [
-          "Corte a ricota em fatias de 2 cm de espessura. Lave e seque as ervas frescas.",
-          "Aqueça uma frigideira antiaderente em fogo médio.",
-          "Adicione 1 colher (sopa) de azeite e coloque as fatias de ricota, grelhando até duas por vez.",
-          "Deixe dourar por 4 minutos de cada lado, até ficarem levemente crocantes e douradas.",
-          "Transfira a ricota grelhada para um prato.",
-          "Tempere com sal e pimenta-do-reino, salpique as ervas frescas picadas e os grãos de pimenta rosa (se usar).",
-          "Regue com um fio de azeite e sirva imediatamente."
+          "Em uma tigela, misture o iogurte, o suco de limão e o dill. Tempere com sal e pimenta.",
+          "Adicione as fatias de pepino e misture bem para incorporar os ingredientes.",
+          "Leve para gelar por 20 minutos.",
+          "Adicione o azeite, misture e sirva."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/ricota-grelhada",
-          "title": "Ricota grelhada - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-17T19:40:34+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-11-18T19:17:09+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-6182-ricota-grelhada.webp",
-          "alt": "Ricota Grelhada"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/34298925/pexels-photo-34298925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa salada mista com rabanetes, pepinos e folhas verdes. Perfeita para uma alimentação saudável.",
+          "bank_id": "34298925",
+          "credit": "Jonathan Borba",
+          "query": "Salada de Pepino com Iogurte"
         },
-        "id": "ricota-grelhada-bb272a1a"
+        "id": "salada-de-pepino-com-iogurte-a64129a5"
       },
       {
-        "nome": "Maçã Assada na Air Fryer da Rita Lobo",
+        "nome": "Mousse de Abacate",
         "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Uma sobremesa leve, prática e rápida, utilizando a air fryer conforme a preferência do casal. É uma opção doce e saudável para finalizar o jantar.",
+        "tempo": "15 minutos (preparo) + 1 hora (geladeira",
+        "porque": "Sobremesa leve, saudável e refrescante, rica em gorduras boas do abacate. Rápida de preparar e ideal para finalizar a refeição.",
         "tags": [
-          "fruta",
-          "rapido",
-          "airfryer",
-          "doce"
+          "sobremesa",
+          "facil",
+          "saudavel",
+          "frutas"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 maçã (fuji ou gala)",
-          "2 colheres (chá) de mel",
-          "1 pitada de canela em pó"
+          "3 abacates maduros",
+          "200 gr de leite condensado (ou a gosto)",
+          "200 ml de natas (creme de leite fresco)",
+          "Sumo de 1 lima (ou limão)",
+          "Opcional: Miolo de avelã picado para decorar"
         ],
         "preparo": [
-          "Lave, seque e corte a maçã ao meio no sentido do comprimento.",
-          "Preaqueça a Air Fryer a 200 ºC e programe para assar por 20 minutos.",
-          "Coloque as metades de maçã na cesta da Air Fryer, com o lado cortado para cima.",
-          "Polvilhe a canela em pó sobre as maçãs e regue cada metade com 1 colher (chá) de mel.",
-          "Deixe assar por 20 minutos, ou até que as maçãs fiquem macias e levemente douradas.",
-          "Sirva quente."
+          "Descasque os abacates, retire o caroço e coloque a polpa em uma taça. Esmague até obter um purê cremoso.",
+          "Regue com o sumo de lima para evitar a oxidação e realçar o sabor.",
+          "Incorpore suavemente o leite condensado, misturando até ficar homogêneo.",
+          "Bata as natas (creme de leite fresco) até obter chantili firme e envolva delicadamente no creme de abacate.",
+          "Transfira para taças individuais ou uma travessa e leve à geladeira por pelo menos 1 hora para firmar. Sirva fresco."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/maca-assada-na-air-fryer-da-rita-lobo",
-          "title": "Maçã assada na Air Fryer da Rita Lobo - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-17T19:40:34+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/Mousse-de-abacate",
+          "checked_at": "2026-11-18T19:17:10+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-5932-blog-maca-assada-na-af-8.webp",
-          "alt": "Maçã Assada na Air Fryer da Rita Lobo"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/3957527/pexels-photo-3957527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa torrada de abacate com sementes de chia e tomates frescos em um prato cinza.",
+          "bank_id": "3957527",
+          "credit": "energepic.com",
+          "query": "Mousse de Abacate"
         },
-        "id": "maca-assada-na-air-fryer-da-rita-lobo-58a4c72a"
+        "id": "mousse-de-abacate-aa95664e"
       }
     ]
   },

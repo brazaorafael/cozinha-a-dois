@@ -6063,5 +6063,29 @@
     ],
     "data": "17/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-de-panela-com-legumes-421dd9ae",
+    "titulo": "Bife de Panela com Legumes",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "prato_principal",
+      "facil"
+    ],
+    "data": "18/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "mousse-de-abacate-aa95664e",
+    "titulo": "Mousse de Abacate",
+    "tags": [
+      "sobremesa",
+      "facil",
+      "saudavel",
+      "frutas"
+    ],
+    "data": "18/11/2026",
+    "fonte_status": "unverified"
   }
 ]
