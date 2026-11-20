@@ -1,183 +1,191 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-18T16:15:13-03:00",
+  "gerado_em": "2026-11-20T15:58:32-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "18/11/2026",
-    "dia_semana": "quarta",
+    "data": "20/11/2026",
+    "dia_semana": "sexta",
     "pratos": [
       {
-        "nome": "Almôndegas Assadas com Molho de Tomate",
+        "nome": "Carne Moída com Batatas",
         "curso": "principal",
-        "tempo": "50 minutos",
-        "porque": "Fácil, prática, assada (sem fritura), proteína (carne moída de patinho) com molho e pode ser acompanhada de arroz integral e legumes para equilíbrio. Rende para 2 pessoas com sobra para 1 almoço.",
+        "tempo": "30 minutos",
+        "porque": "Um prato clássico de carne vermelha, fácil e rápido de fazer, que oferece proteína e carboidrato em uma só panela. Rende bem para o jantar do casal e uma sobra para o almoço.",
         "tags": [
           "carne_vermelha",
-          "assado",
-          "prato_principal",
-          "facil"
+          "refogado",
+          "prato_unico",
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500 g de patinho moído",
-          "1 ovo",
-          "½ xícara de aveia em flocos finos (ou farinha de rosca)",
-          "1 cebola pequena ralada ou picada finamente",
-          "2 dentes de alho picados",
-          "Salsinha picada a gosto",
-          "Sal e pimenta-do-reino a gosto",
-          "2 xícaras (chá) de molho de tomate pronto ou caseiro"
+          "500g de carne moída (acém ou patinho)",
+          "2 colheres de sopa de azeite",
+          "1 cebola média picada",
+          "1 dente de alho triturado",
+          "1 tomate picado",
+          "4 batatas médias, descascadas e cortadas em cubos",
+          "1 colher de chá de sal (ou a gosto)",
+          "Pimenta do reino a gosto",
+          "Cheiro verde picado a gosto"
         ],
         "preparo": [
-          "Em uma tigela, misture a carne moída, ovo, aveia, cebola, alho, salsinha, sal e pimenta até ficar homogêneo.",
-          "Modele pequenas bolinhas com a massa, formando as almôndegas.",
-          "Disponha as almôndegas em uma assadeira untada.",
-          "Cubra as almôndegas com o molho de tomate.",
-          "Leve ao forno preaquecido a 180°C por cerca de 30 minutos, ou até estarem cozidas e douradas."
+          "Em uma panela grande, aqueça o azeite e refogue a cebola e o alho até dourarem levemente.",
+          "Adicione a carne moída e refogue bem, desfazendo os grumos, até que a carne esteja frita e o líquido tenha secado.",
+          "Acrescente o tomate picado, o sal e a pimenta do reino. Misture e cozinhe por alguns minutos.",
+          "Junte as batatas em cubos e adicione água quente suficiente para cobrir a carne e as batatas.",
+          "Cozinhe em fogo médio até as batatas ficarem macias e o molho encorpado.",
+          "Finalize com cheiro verde picado e sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Almondegas-assadas-com-molho-de-tomate",
-          "checked_at": "2026-11-18T19:17:05+00:00"
+          "suggested_url": "https://www.tudogostoso.com.br/receita/11311-carne-moida-com-batatas.html",
+          "checked_at": "2026-11-20T18:59:56+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34314421/pexels-photo-34314421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosas almôndegas decoradas com salsa em um molho de tomate vibrante, perfeitas para qualquer refeição.",
-          "bank_id": "34314421",
-          "credit": "ERIVELTO Martins",
-          "query": "Almôndegas Assadas com Molho de Tomate"
+          "url": "https://images.pexels.com/photos/34429590/pexels-photo-34429590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso ensopado de carne moída com batatas e ervilhas, decorado com ervas frescas em uma tigela branca.",
+          "bank_id": "34429590",
+          "credit": "Laura oliveira",
+          "query": "Carne Moída com Batatas"
         },
-        "id": "almondegas-assadas-com-molho-de-tomate-2e895464"
+        "id": "carne-moida-com-batatas-e6e43c19"
       },
       {
-        "nome": "Bife de Panela com Legumes",
+        "nome": "Tilápia Assada com Crosta de Castanha",
         "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Carne vermelha (acém ou paleta), cozida na panela de pressão para maciez e rapidez, com legumes para um prato equilibrado e prático. Rende para 2 pessoas com sobra para 1 almoço.",
+        "tempo": "35 minutos",
+        "porque": "Uma opção de peixe para variar o cardápio semanal, preparada no forno para evitar fritura. A crosta de castanha adiciona sabor e crocância, sendo uma refeição equilibrada e rápida.",
         "tags": [
-          "carne_vermelha",
-          "panela_de_pressao",
-          "prato_principal",
-          "facil"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 colher (sopa) de óleo",
-          "1 kg de acém ou paleta em bifes",
-          "1 cebola grande picada",
-          "5 colheres (sopa) de extrato de tomate",
-          "3 xícaras (chá) de água",
-          "1 lata de seleta de legumes (ou batata e cenoura em cubos)",
-          "Sal e pimenta-do-reino a gosto"
-        ],
-        "preparo": [
-          "Aqueça o óleo em uma panela de pressão em fogo médio e doure os bifes.",
-          "Adicione a cebola picada e o extrato de tomate, refogando por 3 minutos.",
-          "Acrescente a água, a seleta de legumes (ou batata e cenoura), sal e pimenta.",
-          "Tampe a panela e cozinhe por 15 minutos após o início da pressão.",
-          "Desligue o fogo, espere a pressão sair naturalmente, abra a panela e sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/bife-de-panela-com-legumes",
-          "checked_at": "2026-11-18T19:17:09+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/7287118/pexels-photo-7287118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Bife suculento com legumes cozido sobre uma fogueira para uma experiência de refeição ao ar livre.",
-          "bank_id": "7287118",
-          "credit": "ArtHouse Studio",
-          "query": "Bife de Panela com Legumes"
-        },
-        "id": "bife-de-panela-com-legumes-421dd9ae"
-      },
-      {
-        "nome": "Salada de Pepino com Iogurte",
-        "curso": "entrada",
-        "tempo": "20 minutos",
-        "porque": "Entrada leve, fresca e nutritiva, com a cremosidade do iogurte e o frescor do pepino. Fácil e rápida de preparar.",
-        "tags": [
-          "vegetariano",
-          "salada",
-          "entrada",
-          "fresco"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "½ xícara de iogurte natural de consistência firme",
-          "2 colheres (sopa) de suco de limão",
-          "4 colheres (sopa) de dill picado",
-          "4 pepinos japoneses fatiados finamente na diagonal",
-          "Azeite a gosto",
-          "Sal e pimenta-do-reino moída na hora a gosto"
-        ],
-        "preparo": [
-          "Em uma tigela, misture o iogurte, o suco de limão e o dill. Tempere com sal e pimenta.",
-          "Adicione as fatias de pepino e misture bem para incorporar os ingredientes.",
-          "Leve para gelar por 20 minutos.",
-          "Adicione o azeite, misture e sirva."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-11-18T19:17:09+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/34298925/pexels-photo-34298925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa salada mista com rabanetes, pepinos e folhas verdes. Perfeita para uma alimentação saudável.",
-          "bank_id": "34298925",
-          "credit": "Jonathan Borba",
-          "query": "Salada de Pepino com Iogurte"
-        },
-        "id": "salada-de-pepino-com-iogurte-a64129a5"
-      },
-      {
-        "nome": "Mousse de Abacate",
-        "curso": "sobremesa",
-        "tempo": "15 minutos (preparo) + 1 hora (geladeira",
-        "porque": "Sobremesa leve, saudável e refrescante, rica em gorduras boas do abacate. Rápida de preparar e ideal para finalizar a refeição.",
-        "tags": [
-          "sobremesa",
-          "facil",
+          "peixe",
+          "forno",
           "saudavel",
-          "frutas"
+          "rapido"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "3 abacates maduros",
-          "200 gr de leite condensado (ou a gosto)",
-          "200 ml de natas (creme de leite fresco)",
-          "Sumo de 1 lima (ou limão)",
-          "Opcional: Miolo de avelã picado para decorar"
+          "4 filés de tilápia",
+          "1 e 1/2 xícaras (chá) de castanhas de caju torradas e salgadas",
+          "1 limão siciliano (suco)",
+          "2 ovos batidos",
+          "1/3 xícara (chá) de azeite de oliva extra virgem",
+          "Sal e pimenta do reino a gosto",
+          "Temperos a gosto (ex: Caldo Knorr 100% Natural Legumes ou Maggi Meu Segredo 7 Vegetais)"
         ],
         "preparo": [
-          "Descasque os abacates, retire o caroço e coloque a polpa em uma taça. Esmague até obter um purê cremoso.",
-          "Regue com o sumo de lima para evitar a oxidação e realçar o sabor.",
-          "Incorpore suavemente o leite condensado, misturando até ficar homogêneo.",
-          "Bata as natas (creme de leite fresco) até obter chantili firme e envolva delicadamente no creme de abacate.",
-          "Transfira para taças individuais ou uma travessa e leve à geladeira por pelo menos 1 hora para firmar. Sirva fresco."
+          "Bata as castanhas de caju no liquidificador ou processador até obter uma farinha fina e reserve em um prato raso.",
+          "Tempere os filés de tilápia com suco de limão, sal, pimenta do reino e outros temperos a gosto. Deixe marinar por alguns minutos.",
+          "Passe cada filé temperado nos ovos batidos, retirando o excesso.",
+          "Em seguida, empane os filés na farinha de castanha, pressionando bem para que a crosta adira.",
+          "Preaqueça o forno a 200°C. Em uma frigideira com um fio de azeite, grelhe os filés rapidamente dos dois lados para dourar a crosta.",
+          "Transfira os filés para uma assadeira e leve ao forno preaquecido por cerca de 5 a 10 minutos, ou até o peixe estar cozido."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Mousse-de-abacate",
-          "checked_at": "2026-11-18T19:17:10+00:00"
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/tilapia-assada-com-crosta-de-castanha",
+          "checked_at": "2026-11-20T18:59:57+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/3957527/pexels-photo-3957527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa torrada de abacate com sementes de chia e tomates frescos em um prato cinza.",
-          "bank_id": "3957527",
-          "credit": "energepic.com",
-          "query": "Mousse de Abacate"
+          "url": "https://images.pexels.com/photos/16020702/pexels-photo-16020702.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso carne com crosta de ervas servido com batatas pequenas assadas em um prato de ardósia.",
+          "bank_id": "16020702",
+          "credit": "Khải Huyền Trương",
+          "query": "Tilápia Assada com Crosta de Castanha"
         },
-        "id": "mousse-de-abacate-aa95664e"
+        "id": "tilapia-assada-com-crosta-de-castanha-30ee6295"
+      },
+      {
+        "nome": "Espetinho Caprese com Molho Pesto",
+        "curso": "entrada",
+        "tempo": "15 minutos",
+        "porque": "Uma entrada leve, fresca e rápida de preparar, sem necessidade de cozimento, que complementa bem os pratos principais. É equilibrada e visualmente atraente.",
+        "tags": [
+          "rapido",
+          "fresco",
+          "vegetariano",
+          "sem_cozimento"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "2 caixas de tomate cereja",
+          "2 unidades de mussarela de búfala",
+          "1 mão cheia de folhas de manjericão frescas",
+          "Pimenta do reino a gosto",
+          "Sal a gosto",
+          "Palitos de espeto",
+          "Para o molho pesto:",
+          "1 xícara de folhas de manjericão frescas",
+          "¼ xícara de azeite de oliva extra virgem",
+          "1 dente de alho",
+          "2 colheres de sopa de queijo parmesão ralado",
+          "1 colher de sopa de pinoli, castanha de caju ou nozes"
+        ],
+        "preparo": [
+          "Reúna todos os ingredientes, garantindo tomates maduros e manjericão fresco.",
+          "Monte os espetinhos nos palitos, intercalando tomates, folhas de manjericão e cubos de mussarela de búfala.",
+          "Tempere os espetinhos montados com sal e pimenta do reino a gosto.",
+          "Para o molho pesto, bata as folhas de manjericão, azeite, alho, queijo parmesão e pinoli (ou castanha/nozes) no liquidificador até obter uma mistura homogênea.",
+          "Sirva os espetinhos caprese acompanhados do molho pesto."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.tudoreceitas.com/receita-de-espetinho-caprese-com-molho-pesto-8153.html",
+          "checked_at": "2026-11-20T18:59:58+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/35005850/pexels-photo-35005850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosos espetinhos de carne grelhada cobertos com pesto verde e servidos com molho aioli em um prato rústico.",
+          "bank_id": "35005850",
+          "credit": "Jay Moon",
+          "query": "Espetinho Caprese com Molho Pesto"
+        },
+        "id": "espetinho-caprese-com-molho-pesto-3807f609"
+      },
+      {
+        "nome": "Creme de Papaia Congelado com Licor de Cassis",
+        "curso": "sobremesa",
+        "tempo": "7 minutos (preparo ativo)",
+        "porque": "Uma sobremesa clássica, leve e refrescante, perfeita para finalizar o jantar. É extremamente prática, feita com apenas dois ingredientes e pronta em poucos minutos após o congelamento do mamão.",
+        "tags": [
+          "rapido",
+          "refrescante",
+          "fruta",
+          "sem_lactose"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 mamão papaia maduro",
+          "Licor de cassis a gosto para servir"
+        ],
+        "preparo": [
+          "Corte o mamão ao meio, descarte as sementes e retire a polpa em pedaços de tamanho uniforme.",
+          "Transfira os pedaços de mamão para uma assadeira, sem amontoar, e leve ao congelador por pelo menos 3 horas, ou até congelar completamente.",
+          "Na hora de preparar, retire o mamão congelado e deixe em temperatura ambiente por 10 minutos.",
+          "Coloque os pedaços de mamão no processador e bata no modo pulsar para triturar a fruta. Raspe as laterais do processador conforme necessário.",
+          "Aumente a velocidade e continue batendo por cerca de 7 minutos, até obter uma textura cremosa e homogênea, semelhante a um sorvete.",
+          "Sirva o creme de papaia imediatamente em taças individuais, regado com licor de cassis a gosto."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.panelinha.com.br/receita/creme-de-papaia-congelado-com-licor-de-cassis",
+          "checked_at": "2026-11-20T18:59:59+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/29978686/pexels-photo-29978686.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Sobremesa gourmet elegante com sorvete vermelho e cubos de creme artisticamente dispostos em um prato de cerâmica.",
+          "bank_id": "29978686",
+          "credit": "pedro furtado",
+          "query": "Creme de Papaia Congelado com Licor de Cassis"
+        },
+        "id": "creme-de-papaia-congelado-com-licor-de-cassis-b098d534"
       }
     ]
   },

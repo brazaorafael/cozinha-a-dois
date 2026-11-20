@@ -6087,5 +6087,29 @@
     ],
     "data": "18/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-batatas-e6e43c19",
+    "titulo": "Carne Moída com Batatas",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "prato_unico",
+      "sobra"
+    ],
+    "data": "20/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "tilapia-assada-com-crosta-de-castanha-30ee6295",
+    "titulo": "Tilápia Assada com Crosta de Castanha",
+    "tags": [
+      "peixe",
+      "forno",
+      "saudavel",
+      "rapido"
+    ],
+    "data": "20/11/2026",
+    "fonte_status": "unverified"
   }
 ]
