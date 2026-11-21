@@ -1,191 +1,190 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-20T15:58:32-03:00",
+  "gerado_em": "2026-11-21T14:53:06-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "20/11/2026",
-    "dia_semana": "sexta",
+    "data": "21/11/2026",
+    "dia_semana": "sábado",
     "pratos": [
       {
-        "nome": "Carne Moída com Batatas",
+        "nome": "Abobrinha Recheada com Carne Moída",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Um prato clássico de carne vermelha, fácil e rápido de fazer, que oferece proteína e carboidrato em uma só panela. Rende bem para o jantar do casal e uma sobra para o almoço.",
+        "tempo": "40 minutos",
+        "porque": "Receita prática e saudável, rica em proteína e vegetais. A carne vermelha é a preferida do casal, e a abobrinha recheada oferece uma refeição completa e saborosa, com potencial para sobras.",
         "tags": [
           "carne_vermelha",
-          "refogado",
-          "prato_unico",
-          "sobra"
+          "forno",
+          "vegetais",
+          "saudavel"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de carne moída (acém ou patinho)",
-          "2 colheres de sopa de azeite",
-          "1 cebola média picada",
-          "1 dente de alho triturado",
-          "1 tomate picado",
-          "4 batatas médias, descascadas e cortadas em cubos",
-          "1 colher de chá de sal (ou a gosto)",
-          "Pimenta do reino a gosto",
-          "Cheiro verde picado a gosto"
+          "2 abobrinhas grandes",
+          "500 g de patinho moído",
+          "1 cebola",
+          "2 dentes de alho",
+          "1 colher (sopa) de farinha de trigo",
+          "¼ de xícara (chá) de água",
+          "Azeite a gosto",
+          "½ colher (chá) de páprica doce",
+          "½ colher (chá) de pimenta síria",
+          "1 pitada de canela em pó",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "2 colheres (sopa) de farinha de rosca",
+          "2 colheres (sopa) de queijo parmesão ralado fino"
         ],
         "preparo": [
-          "Em uma panela grande, aqueça o azeite e refogue a cebola e o alho até dourarem levemente.",
-          "Adicione a carne moída e refogue bem, desfazendo os grumos, até que a carne esteja frita e o líquido tenha secado.",
-          "Acrescente o tomate picado, o sal e a pimenta do reino. Misture e cozinhe por alguns minutos.",
-          "Junte as batatas em cubos e adicione água quente suficiente para cobrir a carne e as batatas.",
-          "Cozinhe em fogo médio até as batatas ficarem macias e o molho encorpado.",
-          "Finalize com cheiro verde picado e sirva quente."
+          "Preaqueça o forno a 180 ºC. Lave e corte as abobrinhas ao meio no sentido do comprimento, retire o miolo e pique-o finamente.",
+          "Em uma panela, refogue a cebola e o alho picados em azeite. Adicione a carne moída e cozinhe até dourar.",
+          "Acrescente o miolo picado da abobrinha, páprica, pimenta síria, canela, sal e pimenta-do-reino. Misture bem.",
+          "Polvilhe a farinha de trigo, mexa por 1 minuto e adicione a água, raspando o fundo da panela. Cozinhe até o molho encorpar.",
+          "Recheie as metades de abobrinha com a carne moída. Misture a farinha de rosca com o queijo parmesão e polvilhe sobre o recheio.",
+          "Leve ao forno preaquecido por cerca de 20 minutos, ou até as abobrinhas ficarem macias e o queijo dourado."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/11311-carne-moida-com-batatas.html",
-          "checked_at": "2026-11-20T18:59:56+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/abobrinha-recheada-com-carne-moida",
+          "checked_at": "2026-11-21T17:54:24+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/34429590/pexels-photo-34429590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso ensopado de carne moída com batatas e ervilhas, decorado com ervas frescas em uma tigela branca.",
-          "bank_id": "34429590",
-          "credit": "Laura oliveira",
-          "query": "Carne Moída com Batatas"
+          "url": "https://images.pexels.com/photos/36865407/pexels-photo-36865407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Abobrinha recheada com arroz, deliciosa e servida em uma frigideira sobre uma mesa de madeira.",
+          "bank_id": "36865407",
+          "credit": "Teodor Buhl",
+          "query": "Abobrinha Recheada com Carne Moída"
         },
-        "id": "carne-moida-com-batatas-e6e43c19"
+        "id": "abobrinha-recheada-com-carne-moida-0a110a81"
       },
       {
-        "nome": "Tilápia Assada com Crosta de Castanha",
+        "nome": "Espetinho de Carne com Legumes",
         "curso": "principal",
-        "tempo": "35 minutos",
-        "porque": "Uma opção de peixe para variar o cardápio semanal, preparada no forno para evitar fritura. A crosta de castanha adiciona sabor e crocância, sendo uma refeição equilibrada e rápida.",
+        "tempo": "30 minutos",
+        "porque": "Uma opção de carne vermelha grelhada ou assada com vegetais coloridos, prática e saborosa. É um prato equilibrado e divertido, ideal para um jantar rápido e com potencial para sobras.",
         "tags": [
-          "peixe",
-          "forno",
-          "saudavel",
+          "carne_vermelha",
+          "grelhado",
+          "vegetais",
           "rapido"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "4 filés de tilápia",
-          "1 e 1/2 xícaras (chá) de castanhas de caju torradas e salgadas",
-          "1 limão siciliano (suco)",
-          "2 ovos batidos",
-          "1/3 xícara (chá) de azeite de oliva extra virgem",
-          "Sal e pimenta do reino a gosto",
-          "Temperos a gosto (ex: Caldo Knorr 100% Natural Legumes ou Maggi Meu Segredo 7 Vegetais)"
+          "500g de alcatra cortada em cubos",
+          "1 cebola roxa",
+          "200g de bacon (opcional)",
+          "1 pimentão amarelo",
+          "1 pimentão verde",
+          "200g de tomate-cereja",
+          "Sal grosso a gosto",
+          "Pimenta-do-reino a gosto",
+          "Palitos de churrasco (demolhados em água)"
         ],
         "preparo": [
-          "Bata as castanhas de caju no liquidificador ou processador até obter uma farinha fina e reserve em um prato raso.",
-          "Tempere os filés de tilápia com suco de limão, sal, pimenta do reino e outros temperos a gosto. Deixe marinar por alguns minutos.",
-          "Passe cada filé temperado nos ovos batidos, retirando o excesso.",
-          "Em seguida, empane os filés na farinha de castanha, pressionando bem para que a crosta adira.",
-          "Preaqueça o forno a 200°C. Em uma frigideira com um fio de azeite, grelhe os filés rapidamente dos dois lados para dourar a crosta.",
-          "Transfira os filés para uma assadeira e leve ao forno preaquecido por cerca de 5 a 10 minutos, ou até o peixe estar cozido."
+          "Lave e corte a cebola em pedaços médios, os pimentões em cubos grandes. Reserve os tomates-cereja inteiros.",
+          "Corte a alcatra em cubos uniformes e o bacon em cubos menores, se for usar.",
+          "Tempere os cubos de carne com sal grosso e pimenta-do-reino.",
+          "Em palitos de churrasco previamente demolhados, intercale carne, bacon (se usar) e os legumes.",
+          "Pré-aqueça a churrasqueira, frigideira grelhada ou forno.",
+          "Grelhe ou asse os espetinhos por 10 a 15 minutos, virando regularmente, até a carne ficar no ponto desejado e os legumes macios."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/tilapia-assada-com-crosta-de-castanha",
-          "checked_at": "2026-11-20T18:59:57+00:00"
+          "suggested_url": "https://receitas.globo.com/espetinho-de-carne-com-legumes.ghtml",
+          "checked_at": "2026-11-21T17:54:25+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/16020702/pexels-photo-16020702.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso carne com crosta de ervas servido com batatas pequenas assadas em um prato de ardósia.",
-          "bank_id": "16020702",
-          "credit": "Khải Huyền Trương",
-          "query": "Tilápia Assada com Crosta de Castanha"
+          "url": "https://images.pexels.com/photos/9510363/pexels-photo-9510363.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosos espetinhos de carne de cordeiro grelhados acompanhados de brócolis frescos, perfeitos para uma refeição saborosa.",
+          "bank_id": "9510363",
+          "credit": "Karl Solano",
+          "query": "Espetinho de Carne com Legumes"
         },
-        "id": "tilapia-assada-com-crosta-de-castanha-30ee6295"
+        "id": "espetinho-de-carne-com-legumes-30b1c454"
       },
       {
-        "nome": "Espetinho Caprese com Molho Pesto",
+        "nome": "Homus a jato",
         "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, fresca e rápida de preparar, sem necessidade de cozimento, que complementa bem os pratos principais. É equilibrada e visualmente atraente.",
+        "tempo": "10 minutos",
+        "porque": "Uma entrada rápida, saudável e saborosa, rica em proteína vegetal. Perfeita para abrir o apetite sem pesar, e os ingredientes são acessíveis.",
         "tags": [
-          "rapido",
-          "fresco",
           "vegetariano",
-          "sem_cozimento"
+          "rapido",
+          "saudavel",
+          "pasta"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "2 caixas de tomate cereja",
-          "2 unidades de mussarela de búfala",
-          "1 mão cheia de folhas de manjericão frescas",
-          "Pimenta do reino a gosto",
+          "1 lata de grão-de-bico cozido (escorrido e lavado)",
+          "3 colheres (sopa) de tahine (pasta de gergelim)",
+          "1 dente de alho descascado",
+          "Caldo de ½ limão",
+          "Água filtrada para dar ponto",
           "Sal a gosto",
-          "Palitos de espeto",
-          "Para o molho pesto:",
-          "1 xícara de folhas de manjericão frescas",
-          "¼ xícara de azeite de oliva extra virgem",
-          "1 dente de alho",
-          "2 colheres de sopa de queijo parmesão ralado",
-          "1 colher de sopa de pinoli, castanha de caju ou nozes"
+          "Azeite e páprica para finalizar (opcional)"
         ],
         "preparo": [
-          "Reúna todos os ingredientes, garantindo tomates maduros e manjericão fresco.",
-          "Monte os espetinhos nos palitos, intercalando tomates, folhas de manjericão e cubos de mussarela de búfala.",
-          "Tempere os espetinhos montados com sal e pimenta do reino a gosto.",
-          "Para o molho pesto, bata as folhas de manjericão, azeite, alho, queijo parmesão e pinoli (ou castanha/nozes) no liquidificador até obter uma mistura homogênea.",
-          "Sirva os espetinhos caprese acompanhados do molho pesto."
+          "Escorra e lave o grão-de-bico cozido.",
+          "No processador de alimentos ou liquidificador, coloque o grão-de-bico, tahine, alho, caldo de limão e sal.",
+          "Bata bem, adicionando água filtrada aos poucos, até obter uma pasta lisa e cremosa.",
+          "Prove e ajuste o sal e o limão, se necessário.",
+          "Transfira para uma tigela, regue com um fio de azeite e polvilhe páprica (opcional). Sirva com pão sírio ou vegetais."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudoreceitas.com/receita-de-espetinho-caprese-com-molho-pesto-8153.html",
-          "checked_at": "2026-11-20T18:59:58+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/homus-a-jato",
+          "title": "Homus a jato - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-21T17:54:26+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/35005850/pexels-photo-35005850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosos espetinhos de carne grelhada cobertos com pesto verde e servidos com molho aioli em um prato rústico.",
-          "bank_id": "35005850",
-          "credit": "Jay Moon",
-          "query": "Espetinho Caprese com Molho Pesto"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-3526-blog-homus-a-jato.webp",
+          "alt": "Homus a jato"
         },
-        "id": "espetinho-caprese-com-molho-pesto-3807f609"
+        "id": "homus-a-jato-fda240af"
       },
       {
-        "nome": "Creme de Papaia Congelado com Licor de Cassis",
+        "nome": "Maçã assada na Air Fryer da Rita Lobo",
         "curso": "sobremesa",
-        "tempo": "7 minutos (preparo ativo)",
-        "porque": "Uma sobremesa clássica, leve e refrescante, perfeita para finalizar o jantar. É extremamente prática, feita com apenas dois ingredientes e pronta em poucos minutos após o congelamento do mamão.",
+        "tempo": "20 minutos",
+        "porque": "Uma sobremesa leve, saudável e rápida, perfeita para finalizar a refeição sem culpa. A Air Fryer garante praticidade e um resultado delicioso.",
         "tags": [
-          "rapido",
-          "refrescante",
           "fruta",
-          "sem_lactose"
+          "air_fryer",
+          "saudavel",
+          "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 mamão papaia maduro",
-          "Licor de cassis a gosto para servir"
+          "1 maçã (fuji ou gala)",
+          "2 colheres (chá) de mel",
+          "1 pitada de canela em pó"
         ],
         "preparo": [
-          "Corte o mamão ao meio, descarte as sementes e retire a polpa em pedaços de tamanho uniforme.",
-          "Transfira os pedaços de mamão para uma assadeira, sem amontoar, e leve ao congelador por pelo menos 3 horas, ou até congelar completamente.",
-          "Na hora de preparar, retire o mamão congelado e deixe em temperatura ambiente por 10 minutos.",
-          "Coloque os pedaços de mamão no processador e bata no modo pulsar para triturar a fruta. Raspe as laterais do processador conforme necessário.",
-          "Aumente a velocidade e continue batendo por cerca de 7 minutos, até obter uma textura cremosa e homogênea, semelhante a um sorvete.",
-          "Sirva o creme de papaia imediatamente em taças individuais, regado com licor de cassis a gosto."
+          "Lave a maçã, seque e corte-a ao meio, retirando as sementes.",
+          "Preaqueça a Air Fryer a 200 ºC.",
+          "Coloque as metades de maçã na Air Fryer com o lado cortado para cima.",
+          "Polvilhe canela e regue cada metade com 1 colher (chá) de mel.",
+          "Asse por 20 minutos, ou até a maçã ficar macia e dourada."
         ],
         "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/creme-de-papaia-congelado-com-licor-de-cassis",
-          "checked_at": "2026-11-20T18:59:59+00:00"
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/maca-assada-na-air-fryer-da-rita-lobo",
+          "title": "Maçã assada na Air Fryer da Rita Lobo - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-21T17:54:26+00:00"
         },
         "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/29978686/pexels-photo-29978686.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Sobremesa gourmet elegante com sorvete vermelho e cubos de creme artisticamente dispostos em um prato de cerâmica.",
-          "bank_id": "29978686",
-          "credit": "pedro furtado",
-          "query": "Creme de Papaia Congelado com Licor de Cassis"
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-5932-blog-maca-assada-na-af-8.webp",
+          "alt": "Maçã assada na Air Fryer da Rita Lobo"
         },
-        "id": "creme-de-papaia-congelado-com-licor-de-cassis-b098d534"
+        "id": "maca-assada-na-air-fryer-da-rita-lobo-58a4c72a"
       }
     ]
   },
