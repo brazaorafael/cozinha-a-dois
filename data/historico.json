@@ -6111,5 +6111,53 @@
     ],
     "data": "20/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "almondegas-assadas-no-forno-75d46039",
+    "titulo": "Almôndegas Assadas no Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "pratico",
+      "equilibrado"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-gratinada-com-milho-e-tomate-16f0922d",
+    "titulo": "Carne Moída Gratinada com Milho e Tomate",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "rapido",
+      "gratinado"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-caprese-no-palito-0e6d4eb3",
+    "titulo": "Salada Caprese no Palito",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "rapido",
+      "fresco"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-frutas-com-calda-de-hortela-0fdd620c",
+    "titulo": "Salada de Frutas com Calda de Hortelã",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "leve",
+      "rapido"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
   }
 ]

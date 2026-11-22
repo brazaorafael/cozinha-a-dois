@@ -1,190 +1,197 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-21T14:53:06-03:00",
+  "gerado_em": "2026-11-22T15:15:32-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "21/11/2026",
-    "dia_semana": "sábado",
+    "data": "22/11/2026",
+    "dia_semana": "domingo",
     "pratos": [
       {
-        "nome": "Abobrinha Recheada com Carne Moída",
+        "nome": "Almôndegas Assadas no Forno",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Receita prática e saudável, rica em proteína e vegetais. A carne vermelha é a preferida do casal, e a abobrinha recheada oferece uma refeição completa e saborosa, com potencial para sobras.",
+        "tempo": "45 minutos",
+        "porque": "Uma opção de carne moída assada, mais saudável e diferente de escondidinho ou carne moída refogada. Inclui legumes no molho para equilíbrio.",
         "tags": [
           "carne_vermelha",
           "forno",
-          "vegetais",
-          "saudavel"
+          "pratico",
+          "equilibrado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "2 abobrinhas grandes",
-          "500 g de patinho moído",
+          "500 gramas de carne bovina picada",
+          "2 gemas de ovo",
+          "1 cenoura",
+          "3 tomates cereja",
+          "1 mão cheia de cebolinha, salsinha ou coentros picados",
+          "1 tablete de caldo de carne",
+          "30 gramas de farinha de rosca",
+          "1 pitada de sal",
+          "2 pitadas de pimenta do reino",
+          "2 pitadas de noz moscada",
           "1 cebola",
-          "2 dentes de alho",
-          "1 colher (sopa) de farinha de trigo",
-          "¼ de xícara (chá) de água",
-          "Azeite a gosto",
-          "½ colher (chá) de páprica doce",
-          "½ colher (chá) de pimenta síria",
-          "1 pitada de canela em pó",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "2 colheres (sopa) de farinha de rosca",
-          "2 colheres (sopa) de queijo parmesão ralado fino"
+          "1 fio de azeite de oliva virgem extra",
+          "½ copo de vinho branco"
         ],
         "preparo": [
-          "Preaqueça o forno a 180 ºC. Lave e corte as abobrinhas ao meio no sentido do comprimento, retire o miolo e pique-o finamente.",
-          "Em uma panela, refogue a cebola e o alho picados em azeite. Adicione a carne moída e cozinhe até dourar.",
-          "Acrescente o miolo picado da abobrinha, páprica, pimenta síria, canela, sal e pimenta-do-reino. Misture bem.",
-          "Polvilhe a farinha de trigo, mexa por 1 minuto e adicione a água, raspando o fundo da panela. Cozinhe até o molho encorpar.",
-          "Recheie as metades de abobrinha com a carne moída. Misture a farinha de rosca com o queijo parmesão e polvilhe sobre o recheio.",
-          "Leve ao forno preaquecido por cerca de 20 minutos, ou até as abobrinhas ficarem macias e o queijo dourado."
+          "Em uma tigela, misture a carne picada com as gemas, a farinha de rosca, sal, pimenta e noz moscada. Amasse bem até incorporar.",
+          "Modele pequenas almôndegas com a massa e reserve.",
+          "Em uma panela, refogue a cebola picada no azeite até dourar. Adicione a cenoura e os tomates cereja cortados.",
+          "Acrescente o vinho branco e o tablete de caldo de carne, deixando ferver por alguns minutos.",
+          "Disponha as almôndegas em um refratário e cubra com o molho de legumes.",
+          "Leve ao forno pré-aquecido a 180°C por cerca de 25 minutos, ou até as almôndegas estarem cozidas e o molho encorpado.",
+          "Finalize com as ervas frescas picadas antes de servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/abobrinha-recheada-com-carne-moida",
-          "checked_at": "2026-11-21T17:54:24+00:00"
+          "suggested_url": "https://www.tudoreceitas.com/receita-de-almondegas-assadas-no-forno-2615.html",
+          "checked_at": "2026-11-22T18:16:57+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/36865407/pexels-photo-36865407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Abobrinha recheada com arroz, deliciosa e servida em uma frigideira sobre uma mesa de madeira.",
-          "bank_id": "36865407",
-          "credit": "Teodor Buhl",
-          "query": "Abobrinha Recheada com Carne Moída"
+          "url": "https://images.pexels.com/photos/37206690/pexels-photo-37206690.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosas almôndegas turcas assadas em uma forma de barro com tomates e pimentões, perfeitas para os entusiastas da culinária autêntica.",
+          "bank_id": "37206690",
+          "credit": "Mavi Yıldız Restoran Cumalıkızık Bursa",
+          "query": "Almôndegas Assadas no Forno"
         },
-        "id": "abobrinha-recheada-com-carne-moida-0a110a81"
+        "id": "almondegas-assadas-no-forno-75d46039"
       },
       {
-        "nome": "Espetinho de Carne com Legumes",
+        "nome": "Carne Moída Gratinada com Milho e Tomate",
         "curso": "principal",
-        "tempo": "30 minutos",
-        "porque": "Uma opção de carne vermelha grelhada ou assada com vegetais coloridos, prática e saborosa. É um prato equilibrado e divertido, ideal para um jantar rápido e com potencial para sobras.",
+        "tempo": "20 minutos",
+        "porque": "Uma versão cremosa e rápida de carne moída no forno, que foge das preparações mais comuns e é pronta em 20 minutos.",
         "tags": [
           "carne_vermelha",
-          "grelhado",
-          "vegetais",
-          "rapido"
+          "forno",
+          "rapido",
+          "gratinado"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de alcatra cortada em cubos",
-          "1 cebola roxa",
-          "200g de bacon (opcional)",
-          "1 pimentão amarelo",
-          "1 pimentão verde",
-          "200g de tomate-cereja",
-          "Sal grosso a gosto",
-          "Pimenta-do-reino a gosto",
-          "Palitos de churrasco (demolhados em água)"
+          "3 colheres (sopa) de óleo",
+          "1kg de carne moída",
+          "1 cebola picada",
+          "2 dentes de alho picados",
+          "1 tomate sem sementes picado",
+          "1 lata de milho escorrido",
+          "1 envelope de caldo de carne em pó",
+          "3 colheres (sopa) de salsa picada",
+          "Sal, pimenta-do-reino e orégano a gosto",
+          "1 xícara (chá) de queijo muçarela ralado",
+          "2 colheres (sopa) de queijo parmesão ralado"
         ],
         "preparo": [
-          "Lave e corte a cebola em pedaços médios, os pimentões em cubos grandes. Reserve os tomates-cereja inteiros.",
-          "Corte a alcatra em cubos uniformes e o bacon em cubos menores, se for usar.",
-          "Tempere os cubos de carne com sal grosso e pimenta-do-reino.",
-          "Em palitos de churrasco previamente demolhados, intercale carne, bacon (se usar) e os legumes.",
-          "Pré-aqueça a churrasqueira, frigideira grelhada ou forno.",
-          "Grelhe ou asse os espetinhos por 10 a 15 minutos, virando regularmente, até a carne ficar no ponto desejado e os legumes macios."
+          "Em uma panela, aqueça o óleo em fogo médio e refogue a carne moída até secar.",
+          "Adicione a cebola, o alho e o tomate picados, refogando por 5 minutos.",
+          "Junte o milho escorrido, o caldo de carne em pó e a salsa picada. Tempere com sal, pimenta e orégano a gosto.",
+          "Transfira a carne refogada para um refratário médio.",
+          "Cubra com a muçarela ralada e polvilhe com o queijo parmesão ralado.",
+          "Leve ao forno médio pré-aquecido por 10 minutos, ou até gratinar."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://receitas.globo.com/espetinho-de-carne-com-legumes.ghtml",
-          "checked_at": "2026-11-21T17:54:25+00:00"
+          "suggested_url": "https://guiadacozinha.com.br/carne-moida-gratinada-com-milho-e-tomate/",
+          "checked_at": "2026-11-22T18:17:03+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/9510363/pexels-photo-9510363.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosos espetinhos de carne de cordeiro grelhados acompanhados de brócolis frescos, perfeitos para uma refeição saborosa.",
-          "bank_id": "9510363",
-          "credit": "Karl Solano",
-          "query": "Espetinho de Carne com Legumes"
+          "url": "https://images.pexels.com/photos/5192415/pexels-photo-5192415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de um suculento bife grelhado com tomates-cereja, batatas e milho em uma tábua de madeira.",
+          "bank_id": "5192415",
+          "credit": "Maor Attias",
+          "query": "Carne Moída Gratinada com Milho e Tomate"
         },
-        "id": "espetinho-de-carne-com-legumes-30b1c454"
+        "id": "carne-moida-gratinada-com-milho-e-tomate-16f0922d"
       },
       {
-        "nome": "Homus a jato",
+        "nome": "Salada Caprese no Palito",
         "curso": "entrada",
-        "tempo": "10 minutos",
-        "porque": "Uma entrada rápida, saudável e saborosa, rica em proteína vegetal. Perfeita para abrir o apetite sem pesar, e os ingredientes são acessíveis.",
+        "tempo": "15 minutos",
+        "porque": "Aperitivo fresco, rápido e sem cozimento, ideal para começar a refeição de forma leve e saborosa.",
         "tags": [
+          "entrada",
           "vegetariano",
           "rapido",
-          "saudavel",
-          "pasta"
+          "fresco"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "1 lata de grão-de-bico cozido (escorrido e lavado)",
-          "3 colheres (sopa) de tahine (pasta de gergelim)",
-          "1 dente de alho descascado",
-          "Caldo de ½ limão",
-          "Água filtrada para dar ponto",
-          "Sal a gosto",
-          "Azeite e páprica para finalizar (opcional)"
+          "40 tomates cereja",
+          "10 bolinhas de muçarela de búfala",
+          "40 folhinhas de manjericão",
+          "1 colher (chá) de sal",
+          "1 colher (café) de pimenta do reino preta (moída na hora)",
+          "4 colheres (chá) de azeite"
         ],
         "preparo": [
-          "Escorra e lave o grão-de-bico cozido.",
-          "No processador de alimentos ou liquidificador, coloque o grão-de-bico, tahine, alho, caldo de limão e sal.",
-          "Bata bem, adicionando água filtrada aos poucos, até obter uma pasta lisa e cremosa.",
-          "Prove e ajuste o sal e o limão, se necessário.",
-          "Transfira para uma tigela, regue com um fio de azeite e polvilhe páprica (opcional). Sirva com pão sírio ou vegetais."
+          "Lave bem os tomates cereja e as folhas de manjericão, escorra e seque. Corte os tomates ao meio.",
+          "Escorra a muçarela de búfala e seque o excesso de água. Corte cada bolinha em quatro rodelas.",
+          "Em cada palito de dente, espete uma metade de tomate, uma folha de manjericão, uma rodela de muçarela, outra folha de manjericão e finalize com a outra metade do tomate.",
+          "Na hora de servir, salpique sal, pimenta do reino moída e regue com azeite."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/homus-a-jato",
-          "title": "Homus a jato - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-21T17:54:26+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.tudogostoso.com.br/receita/16773-salada-caprese-no-palito.html",
+          "checked_at": "2026-11-22T18:17:04+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-3526-blog-homus-a-jato.webp",
-          "alt": "Homus a jato"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/5639959/pexels-photo-5639959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Apetitosa salada Caprese com mozzarella, tomates e manjericão em uma tábua de madeira.",
+          "bank_id": "5639959",
+          "credit": "Shameel mukkath",
+          "query": "Salada Caprese no Palito"
         },
-        "id": "homus-a-jato-fda240af"
+        "id": "salada-caprese-no-palito-0e6d4eb3"
       },
       {
-        "nome": "Maçã assada na Air Fryer da Rita Lobo",
+        "nome": "Salada de Frutas com Calda de Hortelã",
         "curso": "sobremesa",
-        "tempo": "20 minutos",
-        "porque": "Uma sobremesa leve, saudável e rápida, perfeita para finalizar a refeição sem culpa. A Air Fryer garante praticidade e um resultado delicioso.",
+        "tempo": "15 minutos",
+        "porque": "Uma sobremesa leve, refrescante e rápida, perfeita para equilibrar a refeição e finalizar com um toque de frescor.",
         "tags": [
-          "fruta",
-          "air_fryer",
-          "saudavel",
+          "sobremesa",
+          "frutas",
+          "leve",
           "rapido"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 maçã (fuji ou gala)",
-          "2 colheres (chá) de mel",
-          "1 pitada de canela em pó"
+          "½ mamão papaia",
+          "½ xícara (chá) de morangos",
+          "1 laranja",
+          "1 maçã",
+          "2 colheres (sopa) de suco de laranja",
+          "½ pote de Iogurte NESTLÉ Natural Integral (170g)",
+          "4 folhas de hortelã picadas"
         ],
         "preparo": [
-          "Lave a maçã, seque e corte-a ao meio, retirando as sementes.",
-          "Preaqueça a Air Fryer a 200 ºC.",
-          "Coloque as metades de maçã na Air Fryer com o lado cortado para cima.",
-          "Polvilhe canela e regue cada metade com 1 colher (chá) de mel.",
-          "Asse por 20 minutos, ou até a maçã ficar macia e dourada."
+          "Lave e pique todas as frutas em pedaços pequenos e distribua-as em taças individuais.",
+          "Em uma tigela separada, misture o suco de laranja com o Iogurte NESTLÉ Natural Integral.",
+          "Adicione as folhas de hortelã picadas à mistura de iogurte e suco, mexendo bem.",
+          "Despeje a calda de hortelã sobre as frutas nas taças.",
+          "Sirva gelado para um sabor mais refrescante."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/maca-assada-na-air-fryer-da-rita-lobo",
-          "title": "Maçã assada na Air Fryer da Rita Lobo - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-21T17:54:26+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/salada-de-frutas-com-calda-de-hortela",
+          "checked_at": "2026-11-22T18:17:05+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-5932-blog-maca-assada-na-af-8.webp",
-          "alt": "Maçã assada na Air Fryer da Rita Lobo"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/4552985/pexels-photo-4552985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Close-up de uma salada de frutas frescas coberta com lascas de coco e hortelã para um lanche saudável.",
+          "bank_id": "4552985",
+          "credit": "ROMAN ODINTSOV",
+          "query": "Salada de Frutas com Calda de Hortelã"
         },
-        "id": "maca-assada-na-air-fryer-da-rita-lobo-58a4c72a"
+        "id": "salada-de-frutas-com-calda-de-hortela-0fdd620c"
       }
     ]
   },
