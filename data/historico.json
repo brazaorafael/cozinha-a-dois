@@ -6159,5 +6159,260 @@
     ],
     "data": "22/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "bife-de-alcatra-ao-molho-madeira-ef9b8eef",
+    "titulo": "Bife de Alcatra ao Molho Madeira",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "refogado",
+      "jantar_especial"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "ensopado-rapido-de-frango-com-grao-de-bico-bbd6ce37",
+    "titulo": "Ensopado Rápido de Frango com Grão-de-Bico",
+    "tags": [
+      "frango",
+      "refogado",
+      "rapido",
+      "saudavel",
+      "rende_sobra"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "bife-de-contrafile-na-pressao-4baa5da0",
+    "titulo": "Bife de Contrafilé na Pressão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "rapido",
+      "rende_sobra"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "tomate-recheado-com-ricota-ce1ee9ac",
+    "titulo": "Tomate Recheado com Ricota",
+    "tags": [
+      "vegetariano",
+      "forno",
+      "leve",
+      "entrada"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "mousse-de-manga-8b1eec8f",
+    "titulo": "Mousse de Manga",
+    "tags": [
+      "doce",
+      "fruta",
+      "rapido",
+      "cremoso"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "file-de-merluza-grelhado-b8287103",
+    "titulo": "Filé de Merluza Grelhado",
+    "tags": [
+      "peixe",
+      "grelhado",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cenoura-assada-com-mel-e-alecrim-935a10ea",
+    "titulo": "Cenoura Assada com Mel e Alecrim",
+    "tags": [
+      "vegetariano",
+      "forno",
+      "rapido",
+      "saudavel"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-moida-com-vagem-e-cenoura-4e1b0fc8",
+    "titulo": "Carne Moída com Vagem e Cenoura",
+    "tags": [
+      "carne_vermelha",
+      "refogado",
+      "rapido",
+      "saudavel",
+      "rende_sobra"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "coxa-e-sobrecoxa-de-frango-na-airfryer-2c13521c",
+    "titulo": "Coxa e Sobrecoxa de Frango na Airfryer",
+    "tags": [
+      "frango",
+      "airfryer",
+      "rapido",
+      "crocante"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "gelatina-colorida-5d2e7d52",
+    "titulo": "Gelatina Colorida",
+    "tags": [
+      "doce",
+      "leve",
+      "rapido",
+      "colorido"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "lagarto-assado-na-panela-de-pressao-00dc4c33",
+    "titulo": "Lagarto Assado na Panela de Pressão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "rende_sobra",
+      "saboroso"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-cremoso-com-milho-3f06368b",
+    "titulo": "Frango Cremoso com Milho",
+    "tags": [
+      "frango",
+      "refogado",
+      "rapido",
+      "cremoso"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "chips-de-batata-doce-na-airfryer-25424b0b",
+    "titulo": "Chips de Batata Doce na Airfryer",
+    "tags": [
+      "vegetariano",
+      "airfryer",
+      "rapido",
+      "saudavel",
+      "crocante"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "brownie-de-caneca-6c88450e",
+    "titulo": "Brownie de Caneca",
+    "tags": [
+      "doce",
+      "rapido",
+      "micro_ondas",
+      "chocolate"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-com-mandioca-na-pressao-4e2241b1",
+    "titulo": "Carne de Panela com Mandioca na Pressão",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "rende_sobra",
+      "confort_food"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "frango-assado-com-batatas-e-cenouras-18315e0a",
+    "titulo": "Frango Assado com Batatas e Cenouras",
+    "tags": [
+      "frango",
+      "forno",
+      "rende_sobra",
+      "saudavel"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cogumelos-salteados-com-alho-e-azeite-7536b420",
+    "titulo": "Cogumelos Salteados com Alho e Azeite",
+    "tags": [
+      "vegetariano",
+      "rapido",
+      "refogado",
+      "leve"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "pudim-de-chia-com-frutas-3ad61b0b",
+    "titulo": "Pudim de Chia com Frutas",
+    "tags": [
+      "doce",
+      "saudavel",
+      "fruta",
+      "rapido"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "bisteca-de-porco-assada-com-batatas-92e8cac9",
+    "titulo": "Bisteca de Porco Assada com Batatas",
+    "tags": [
+      "carne_de_porco",
+      "forno",
+      "rende_sobra",
+      "completo"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "ovos-cozidos-recheados-a67d2627",
+    "titulo": "Ovos Cozidos Recheados",
+    "tags": [
+      "ovos",
+      "vegetariano",
+      "rapido",
+      "proteina"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "compota-de-frutas-vermelhas-rapida-ef175589",
+    "titulo": "Compota de Frutas Vermelhas Rápida",
+    "tags": [
+      "doce",
+      "fruta",
+      "rapido",
+      "versatil"
+    ],
+    "data": "22/11/2026",
+    "fonte_status": "unverified"
   }
 ]
