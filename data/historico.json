@@ -6414,5 +6414,53 @@
     ],
     "data": "22/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "strogonoff-de-carne-simples-9afab7fc",
+    "titulo": "Strogonoff de Carne Simples",
+    "tags": [
+      "carne_vermelha",
+      "rapido",
+      "panela",
+      "cremoso"
+    ],
+    "data": "23/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "costelinha-de-porco-na-panela-de-pressao-6b0253b3",
+    "titulo": "Costelinha de Porco na Panela de Pressão",
+    "tags": [
+      "carne_de_porco",
+      "rapido",
+      "panela_de_pressao",
+      "saboroso"
+    ],
+    "data": "23/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-de-pepino-ao-murro-c8a0527d",
+    "titulo": "Salada de Pepino ao Murro",
+    "tags": [
+      "vegetariano",
+      "leve",
+      "rapido",
+      "salada"
+    ],
+    "data": "23/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "mousse-de-chocolate-de-3-ingredientes-b195dd05",
+    "titulo": "Mousse de Chocolate de 3 Ingredientes",
+    "tags": [
+      "doce",
+      "chocolate",
+      "rapido",
+      "gelado"
+    ],
+    "data": "23/11/2026",
+    "fonte_status": "unverified"
   }
 ]

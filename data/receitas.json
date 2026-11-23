@@ -1,197 +1,190 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-22T23:58:54-03:00",
+  "gerado_em": "2026-11-23T19:27:54-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "22/11/2026",
-    "dia_semana": "domingo",
+    "data": "23/11/2026",
+    "dia_semana": "segunda",
     "pratos": [
       {
-        "nome": "Almôndegas Assadas no Forno",
+        "nome": "Strogonoff de Carne Simples",
+        "curso": "principal",
+        "tempo": "40 minutos",
+        "porque": "Um clássico da culinária brasileira, fácil e rápido de preparar, oferecendo uma boa dose de proteína. Pode ser acompanhado de arroz e batata palha, e vegetais cozidos para uma refeição completa, e rende sobras para o almoço.",
+        "tags": [
+          "carne_vermelha",
+          "rapido",
+          "panela",
+          "cremoso"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500g de alcatra picada em tiras",
+          "3 colheres (sopa) de azeite",
+          "1 cebola média picada",
+          "3 tomates médios picados (sem pele e sem sementes)",
+          "1/2 xícara (chá) de caldo de carne",
+          "2 colheres (sopa) de ketchup",
+          "180g de champignon fatiado (1 lata pequena)",
+          "1 lata de creme de leite sem soro",
+          "Sal e pimenta-do-reino a gosto"
+        ],
+        "preparo": [
+          "Tempere a carne com sal e pimenta-do-reino a gosto.",
+          "Em uma panela grande, aqueça o azeite e doure a carne em fogo alto, em pequenas porções, para não soltar muita água.",
+          "Adicione a cebola picada e refogue até ficar translúcida. Em seguida, junte os tomates picados e o caldo de carne.",
+          "Deixe cozinhar por cerca de 15 a 20 minutos, ou até a carne ficar macia e o molho encorpado.",
+          "Acrescente o ketchup e o champignon fatiado, misturando bem e cozinhando por mais 5 minutos.",
+          "Desligue o fogo e incorpore o creme de leite sem soro, mexendo delicadamente até obter um molho homogêneo.",
+          "Acerte o tempero e sirva imediatamente com arroz branco e batata palha."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.tudogostoso.com.br/receita/21089-strogonoff-de-carne-simples.htm",
+          "checked_at": "2026-11-23T22:29:57+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
+          "bank_id": "34837746",
+          "credit": "Caleb Oquendo",
+          "query": "Strogonoff de Carne Simples"
+        },
+        "id": "strogonoff-de-carne-simples-9afab7fc"
+      },
+      {
+        "nome": "Costelinha de Porco na Panela de Pressão",
         "curso": "principal",
         "tempo": "45 minutos",
-        "porque": "Uma opção de carne moída assada, mais saudável e diferente de escondidinho ou carne moída refogada. Inclui legumes no molho para equilíbrio.",
+        "porque": "Carne de porco macia e suculenta, feita de forma prática e rápida na panela de pressão. A cebola carameliza, conferindo um sabor especial. Pode render sobras para o almoço e o tempo de preparo ativo é curto.",
         "tags": [
-          "carne_vermelha",
-          "forno",
-          "pratico",
-          "equilibrado"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500 gramas de carne bovina picada",
-          "2 gemas de ovo",
-          "1 cenoura",
-          "3 tomates cereja",
-          "1 mão cheia de cebolinha, salsinha ou coentros picados",
-          "1 tablete de caldo de carne",
-          "30 gramas de farinha de rosca",
-          "1 pitada de sal",
-          "2 pitadas de pimenta do reino",
-          "2 pitadas de noz moscada",
-          "1 cebola",
-          "1 fio de azeite de oliva virgem extra",
-          "½ copo de vinho branco"
-        ],
-        "preparo": [
-          "Em uma tigela, misture a carne picada com as gemas, a farinha de rosca, sal, pimenta e noz moscada. Amasse bem até incorporar.",
-          "Modele pequenas almôndegas com a massa e reserve.",
-          "Em uma panela, refogue a cebola picada no azeite até dourar. Adicione a cenoura e os tomates cereja cortados.",
-          "Acrescente o vinho branco e o tablete de caldo de carne, deixando ferver por alguns minutos.",
-          "Disponha as almôndegas em um refratário e cubra com o molho de legumes.",
-          "Leve ao forno pré-aquecido a 180°C por cerca de 25 minutos, ou até as almôndegas estarem cozidas e o molho encorpado.",
-          "Finalize com as ervas frescas picadas antes de servir."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudoreceitas.com/receita-de-almondegas-assadas-no-forno-2615.html",
-          "checked_at": "2026-11-22T18:16:57+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/37206690/pexels-photo-37206690.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosas almôndegas turcas assadas em uma forma de barro com tomates e pimentões, perfeitas para os entusiastas da culinária autêntica.",
-          "bank_id": "37206690",
-          "credit": "Mavi Yıldız Restoran Cumalıkızık Bursa",
-          "query": "Almôndegas Assadas no Forno"
-        },
-        "id": "almondegas-assadas-no-forno-75d46039"
-      },
-      {
-        "nome": "Carne Moída Gratinada com Milho e Tomate",
-        "curso": "principal",
-        "tempo": "20 minutos",
-        "porque": "Uma versão cremosa e rápida de carne moída no forno, que foge das preparações mais comuns e é pronta em 20 minutos.",
-        "tags": [
-          "carne_vermelha",
-          "forno",
+          "carne_de_porco",
           "rapido",
-          "gratinado"
+          "panela_de_pressao",
+          "saboroso"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "3 colheres (sopa) de óleo",
-          "1kg de carne moída",
-          "1 cebola picada",
-          "2 dentes de alho picados",
-          "1 tomate sem sementes picado",
-          "1 lata de milho escorrido",
-          "1 envelope de caldo de carne em pó",
-          "3 colheres (sopa) de salsa picada",
-          "Sal, pimenta-do-reino e orégano a gosto",
-          "1 xícara (chá) de queijo muçarela ralado",
-          "2 colheres (sopa) de queijo parmesão ralado"
+          "1 kg de costelinha de porco em pedaços",
+          "2 dentes de alho amassados",
+          "2 cebolas médias fatiadas em rodelas finas",
+          "1 xícara (chá) de água quente",
+          "2 colheres (sopa) de shoyu",
+          "1 colher (sopa) de colorau ou páprica",
+          "1 colher (sopa) de óleo ou azeite",
+          "1 colher (chá) de pimenta-do-reino moída",
+          "1 colher (chá) de sal"
         ],
         "preparo": [
-          "Em uma panela, aqueça o óleo em fogo médio e refogue a carne moída até secar.",
-          "Adicione a cebola, o alho e o tomate picados, refogando por 5 minutos.",
-          "Junte o milho escorrido, o caldo de carne em pó e a salsa picada. Tempere com sal, pimenta e orégano a gosto.",
-          "Transfira a carne refogada para um refratário médio.",
-          "Cubra com a muçarela ralada e polvilhe com o queijo parmesão ralado.",
-          "Leve ao forno médio pré-aquecido por 10 minutos, ou até gratinar."
+          "Em um saco plástico ou tigela, tempere a costelinha com alho amassado, shoyu, óleo/azeite, colorau/páprica, pimenta-do-reino e sal. Misture bem e, se possível, deixe marinar por 30 minutos.",
+          "Na panela de pressão, disponha as cebolas fatiadas no fundo.",
+          "Sobre as cebolas, coloque a costelinha temperada.",
+          "Tampe a panela de pressão e leve ao fogo alto. Assim que pegar pressão, abaixe o fogo e cozinhe por 15 minutos.",
+          "Desligue o fogo e espere a pressão sair naturalmente antes de abrir a panela.",
+          "Para dourar, leve a panela destampada ao fogo baixo, adicione a água quente e mexa suavemente, raspando o fundo, até a costelinha ficar dourada e o molho reduzir. Sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://guiadacozinha.com.br/carne-moida-gratinada-com-milho-e-tomate/",
-          "checked_at": "2026-11-22T18:17:03+00:00"
+          "suggested_url": "https://www.tudoreceitas.com/receita-de-costelinha-de-porco-na-pressao-12504.html",
+          "checked_at": "2026-11-23T22:29:58+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/5192415/pexels-photo-5192415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de um suculento bife grelhado com tomates-cereja, batatas e milho em uma tábua de madeira.",
-          "bank_id": "5192415",
-          "credit": "Maor Attias",
-          "query": "Carne Moída Gratinada com Milho e Tomate"
+          "url": "https://images.pexels.com/photos/14146060/pexels-photo-14146060.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um close-up de dar água na boca de frango e porco cozidos com batatas em uma panela quente.",
+          "bank_id": "14146060",
+          "credit": "Vladimir Srajber",
+          "query": "Costelinha de Porco na Panela de Pressão"
         },
-        "id": "carne-moida-gratinada-com-milho-e-tomate-16f0922d"
+        "id": "costelinha-de-porco-na-panela-de-pressao-6b0253b3"
       },
       {
-        "nome": "Salada Caprese no Palito",
+        "nome": "Salada de Pepino ao Murro",
         "curso": "entrada",
         "tempo": "15 minutos",
-        "porque": "Aperitivo fresco, rápido e sem cozimento, ideal para começar a refeição de forma leve e saborosa.",
+        "porque": "Uma entrada leve, refrescante e muito rápida de preparar, ideal para abrir o apetite sem pesar. Adiciona vegetais frescos à refeição e combina bem com os pratos principais.",
         "tags": [
-          "entrada",
           "vegetariano",
-          "rapido",
-          "fresco"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "40 tomates cereja",
-          "10 bolinhas de muçarela de búfala",
-          "40 folhinhas de manjericão",
-          "1 colher (chá) de sal",
-          "1 colher (café) de pimenta do reino preta (moída na hora)",
-          "4 colheres (chá) de azeite"
-        ],
-        "preparo": [
-          "Lave bem os tomates cereja e as folhas de manjericão, escorra e seque. Corte os tomates ao meio.",
-          "Escorra a muçarela de búfala e seque o excesso de água. Corte cada bolinha em quatro rodelas.",
-          "Em cada palito de dente, espete uma metade de tomate, uma folha de manjericão, uma rodela de muçarela, outra folha de manjericão e finalize com a outra metade do tomate.",
-          "Na hora de servir, salpique sal, pimenta do reino moída e regue com azeite."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/16773-salada-caprese-no-palito.html",
-          "checked_at": "2026-11-22T18:17:04+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/5639959/pexels-photo-5639959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Apetitosa salada Caprese com mozzarella, tomates e manjericão em uma tábua de madeira.",
-          "bank_id": "5639959",
-          "credit": "Shameel mukkath",
-          "query": "Salada Caprese no Palito"
-        },
-        "id": "salada-caprese-no-palito-0e6d4eb3"
-      },
-      {
-        "nome": "Salada de Frutas com Calda de Hortelã",
-        "curso": "sobremesa",
-        "tempo": "15 minutos",
-        "porque": "Uma sobremesa leve, refrescante e rápida, perfeita para equilibrar a refeição e finalizar com um toque de frescor.",
-        "tags": [
-          "sobremesa",
-          "frutas",
           "leve",
-          "rapido"
+          "rapido",
+          "salada"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "½ mamão papaia",
-          "½ xícara (chá) de morangos",
-          "1 laranja",
-          "1 maçã",
-          "2 colheres (sopa) de suco de laranja",
-          "½ pote de Iogurte NESTLÉ Natural Integral (170g)",
-          "4 folhas de hortelã picadas"
+          "2 pepinos japoneses",
+          "3 talos de cebolinha picados",
+          "1 colher (sopa) de açúcar",
+          "1 colher (chá) de gergelim branco torrado",
+          "1 colher (sopa) de vinagre de arroz",
+          "2 colheres (sopa) de shoyu (molho de soja)",
+          "¼ de colher (chá) de óleo de gergelim",
+          "½ pimenta dedo-de-moça picada (opcional)"
         ],
         "preparo": [
-          "Lave e pique todas as frutas em pedaços pequenos e distribua-as em taças individuais.",
-          "Em uma tigela separada, misture o suco de laranja com o Iogurte NESTLÉ Natural Integral.",
-          "Adicione as folhas de hortelã picadas à mistura de iogurte e suco, mexendo bem.",
-          "Despeje a calda de hortelã sobre as frutas nas taças.",
-          "Sirva gelado para um sabor mais refrescante."
+          "Lave bem os pepinos. Com a lateral da faca, dê um murro leve em cada pepino para rachar, mas sem desmanchar.",
+          "Corte os pepinos em pedaços menores e transfira para uma tigela.",
+          "Em outra tigela, misture o açúcar, vinagre de arroz, shoyu, óleo de gergelim e a pimenta picada (se usar).",
+          "Despeje o molho sobre os pepinos e misture bem.",
+          "Adicione a cebolinha picada e o gergelim torrado, misturando novamente.",
+          "Deixe marinar por alguns minutos na geladeira para apurar o sabor. Sirva fresca."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/salada-de-pepino-ao-murro",
+          "title": "Salada de pepino ao murro - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-23T22:29:59+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-7071-ayu2245-1.webp",
+          "alt": "Salada de Pepino ao Murro"
+        },
+        "id": "salada-de-pepino-ao-murro-c8a0527d"
+      },
+      {
+        "nome": "Mousse de Chocolate de 3 Ingredientes",
+        "curso": "sobremesa",
+        "tempo": "20 minutos (mais tempo de geladeira)",
+        "porque": "Uma sobremesa clássica e indulgente, perfeita para finalizar o jantar. É extremamente rápida de preparar com apenas 3 ingredientes e o tempo de geladeira permite adiantar o preparo.",
+        "tags": [
+          "doce",
+          "chocolate",
+          "rapido",
+          "gelado"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "250g de chocolate meio amargo picado",
+          "200g de creme de leite (1 caixinha)",
+          "200g de leite condensado (1 caixinha)"
+        ],
+        "preparo": [
+          "Derreta o chocolate meio amargo picado em banho-maria ou no micro-ondas, mexendo até ficar liso e homogêneo.",
+          "Retire o chocolate derretido do calor e adicione o creme de leite e o leite condensado. Misture bem até obter um creme uniforme.",
+          "Transfira o creme para uma batedeira e bata em velocidade alta por 3 minutos, até a mistura ficar mais aerada e clara.",
+          "Despeje a mousse em taças individuais ou em um recipiente maior.",
+          "Leve à geladeira por pelo menos 2 horas para firmar antes de servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/salada-de-frutas-com-calda-de-hortela",
-          "checked_at": "2026-11-22T18:17:05+00:00"
+          "suggested_url": "https://receitas.globo.com/receitas/mousse-de-chocolate-rapida-receita725121.ghtml",
+          "checked_at": "2026-11-23T22:30:00+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/4552985/pexels-photo-4552985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Close-up de uma salada de frutas frescas coberta com lascas de coco e hortelã para um lanche saudável.",
-          "bank_id": "4552985",
-          "credit": "ROMAN ODINTSOV",
-          "query": "Salada de Frutas com Calda de Hortelã"
+          "url": "https://images.pexels.com/photos/11287582/pexels-photo-11287582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa mousse de chocolate em camadas em um copo de vidro transparente com raspas de chocolate, ao lado dos ingredientes.",
+          "bank_id": "11287582",
+          "credit": "Harish .P",
+          "query": "Mousse de Chocolate de 3 Ingredientes"
         },
-        "id": "salada-de-frutas-com-calda-de-hortela-0fdd620c"
+        "id": "mousse-de-chocolate-de-3-ingredientes-b195dd05"
       }
     ]
   },
