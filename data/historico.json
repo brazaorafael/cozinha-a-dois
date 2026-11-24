@@ -6462,5 +6462,29 @@
     ],
     "data": "23/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "salada-com-legumes-assados-bbc71b2a",
+    "titulo": "Salada com Legumes Assados",
+    "tags": [
+      "vegetariano",
+      "leve",
+      "forno",
+      "rapido"
+    ],
+    "data": "24/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "cocada-de-forno-com-laranja-14f53ee0",
+    "titulo": "Cocada de Forno com Laranja",
+    "tags": [
+      "doce",
+      "forno",
+      "coco",
+      "citrico"
+    ],
+    "data": "24/11/2026",
+    "fonte_status": "verified"
   }
 ]

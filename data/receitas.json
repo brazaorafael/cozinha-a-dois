@@ -1,190 +1,195 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-23T19:27:54-03:00",
+  "gerado_em": "2026-11-24T17:59:55-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "23/11/2026",
-    "dia_semana": "segunda",
+    "data": "24/11/2026",
+    "dia_semana": "terça",
     "pratos": [
       {
-        "nome": "Strogonoff de Carne Simples",
+        "nome": "Picadinho de Filé Mignon",
         "curso": "principal",
         "tempo": "40 minutos",
-        "porque": "Um clássico da culinária brasileira, fácil e rápido de preparar, oferecendo uma boa dose de proteína. Pode ser acompanhado de arroz e batata palha, e vegetais cozidos para uma refeição completa, e rende sobras para o almoço.",
+        "porque": "Carne vermelha, preferência do casal, em uma versão clássica e prática. O molho encorpado é delicioso e o prato rende bem para sobras, ideal para o almoço de uma pessoa.",
         "tags": [
           "carne_vermelha",
           "rapido",
           "panela",
-          "cremoso"
+          "sobra"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "500g de alcatra picada em tiras",
-          "3 colheres (sopa) de azeite",
+          "1 colher (sopa) de azeite",
           "1 cebola média picada",
-          "3 tomates médios picados (sem pele e sem sementes)",
-          "1/2 xícara (chá) de caldo de carne",
-          "2 colheres (sopa) de ketchup",
-          "180g de champignon fatiado (1 lata pequena)",
-          "1 lata de creme de leite sem soro",
-          "Sal e pimenta-do-reino a gosto"
+          "2 dentes de alho picados",
+          "500 g de filé mignon em cubos de 2 cm",
+          "1/2 xícara (chá) de caldo de carne (ou água)",
+          "1 colher (sopa) de extrato de tomate",
+          "1 colher (chá) de molho inglês",
+          "1/2 xícara (chá) de ervilha fresca (ou congelada)",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Salsinha picada a gosto para finalizar"
         ],
         "preparo": [
-          "Tempere a carne com sal e pimenta-do-reino a gosto.",
-          "Em uma panela grande, aqueça o azeite e doure a carne em fogo alto, em pequenas porções, para não soltar muita água.",
-          "Adicione a cebola picada e refogue até ficar translúcida. Em seguida, junte os tomates picados e o caldo de carne.",
-          "Deixe cozinhar por cerca de 15 a 20 minutos, ou até a carne ficar macia e o molho encorpado.",
-          "Acrescente o ketchup e o champignon fatiado, misturando bem e cozinhando por mais 5 minutos.",
-          "Desligue o fogo e incorpore o creme de leite sem soro, mexendo delicadamente até obter um molho homogêneo.",
-          "Acerte o tempero e sirva imediatamente com arroz branco e batata palha."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudogostoso.com.br/receita/21089-strogonoff-de-carne-simples.htm",
-          "checked_at": "2026-11-23T22:29:57+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Pedaços de carne cozida robusta em uma panela, perfeitos para refeições caseiras.",
-          "bank_id": "34837746",
-          "credit": "Caleb Oquendo",
-          "query": "Strogonoff de Carne Simples"
-        },
-        "id": "strogonoff-de-carne-simples-9afab7fc"
-      },
-      {
-        "nome": "Costelinha de Porco na Panela de Pressão",
-        "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Carne de porco macia e suculenta, feita de forma prática e rápida na panela de pressão. A cebola carameliza, conferindo um sabor especial. Pode render sobras para o almoço e o tempo de preparo ativo é curto.",
-        "tags": [
-          "carne_de_porco",
-          "rapido",
-          "panela_de_pressao",
-          "saboroso"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 kg de costelinha de porco em pedaços",
-          "2 dentes de alho amassados",
-          "2 cebolas médias fatiadas em rodelas finas",
-          "1 xícara (chá) de água quente",
-          "2 colheres (sopa) de shoyu",
-          "1 colher (sopa) de colorau ou páprica",
-          "1 colher (sopa) de óleo ou azeite",
-          "1 colher (chá) de pimenta-do-reino moída",
-          "1 colher (chá) de sal"
-        ],
-        "preparo": [
-          "Em um saco plástico ou tigela, tempere a costelinha com alho amassado, shoyu, óleo/azeite, colorau/páprica, pimenta-do-reino e sal. Misture bem e, se possível, deixe marinar por 30 minutos.",
-          "Na panela de pressão, disponha as cebolas fatiadas no fundo.",
-          "Sobre as cebolas, coloque a costelinha temperada.",
-          "Tampe a panela de pressão e leve ao fogo alto. Assim que pegar pressão, abaixe o fogo e cozinhe por 15 minutos.",
-          "Desligue o fogo e espere a pressão sair naturalmente antes de abrir a panela.",
-          "Para dourar, leve a panela destampada ao fogo baixo, adicione a água quente e mexa suavemente, raspando o fundo, até a costelinha ficar dourada e o molho reduzir. Sirva quente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.tudoreceitas.com/receita-de-costelinha-de-porco-na-pressao-12504.html",
-          "checked_at": "2026-11-23T22:29:58+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/14146060/pexels-photo-14146060.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Um close-up de dar água na boca de frango e porco cozidos com batatas em uma panela quente.",
-          "bank_id": "14146060",
-          "credit": "Vladimir Srajber",
-          "query": "Costelinha de Porco na Panela de Pressão"
-        },
-        "id": "costelinha-de-porco-na-panela-de-pressao-6b0253b3"
-      },
-      {
-        "nome": "Salada de Pepino ao Murro",
-        "curso": "entrada",
-        "tempo": "15 minutos",
-        "porque": "Uma entrada leve, refrescante e muito rápida de preparar, ideal para abrir o apetite sem pesar. Adiciona vegetais frescos à refeição e combina bem com os pratos principais.",
-        "tags": [
-          "vegetariano",
-          "leve",
-          "rapido",
-          "salada"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "2 pepinos japoneses",
-          "3 talos de cebolinha picados",
-          "1 colher (sopa) de açúcar",
-          "1 colher (chá) de gergelim branco torrado",
-          "1 colher (sopa) de vinagre de arroz",
-          "2 colheres (sopa) de shoyu (molho de soja)",
-          "¼ de colher (chá) de óleo de gergelim",
-          "½ pimenta dedo-de-moça picada (opcional)"
-        ],
-        "preparo": [
-          "Lave bem os pepinos. Com a lateral da faca, dê um murro leve em cada pepino para rachar, mas sem desmanchar.",
-          "Corte os pepinos em pedaços menores e transfira para uma tigela.",
-          "Em outra tigela, misture o açúcar, vinagre de arroz, shoyu, óleo de gergelim e a pimenta picada (se usar).",
-          "Despeje o molho sobre os pepinos e misture bem.",
-          "Adicione a cebolinha picada e o gergelim torrado, misturando novamente.",
-          "Deixe marinar por alguns minutos na geladeira para apurar o sabor. Sirva fresca."
+          "Aqueça o azeite em uma panela média em fogo médio. Refogue a cebola e o alho até ficarem macios.",
+          "Adicione os cubos de filé mignon e doure por todos os lados. Tempere com sal e pimenta.",
+          "Junte o caldo de carne, o extrato de tomate e o molho inglês. Misture bem.",
+          "Deixe cozinhar em fogo baixo por cerca de 15 minutos, ou até o molho encorpar.",
+          "Acrescente as ervilhas e cozinhe por mais 5 minutos.",
+          "Finalize com salsinha picada e sirva."
         ],
         "fonte": {
           "status": "verified",
-          "url": "https://panelinha.com.br/receita/salada-de-pepino-ao-murro",
-          "title": "Salada de pepino ao murro - Panelinha",
+          "url": "https://panelinha.com.br/receita/picadinho-de-file-mignon",
+          "title": "Picadinho de filé mignon - Panelinha",
           "domain": "panelinha.com.br",
           "confidence": 1.0,
-          "checked_at": "2026-11-23T22:29:59+00:00"
+          "checked_at": "2026-11-24T21:01:30+00:00"
         },
         "imagem": {
           "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-7071-ayu2245-1.webp",
-          "alt": "Salada de Pepino ao Murro"
+          "url": "https://i.panelinha.com.br/i1/bk-4502-picadinho-receita.webp",
+          "alt": "Picadinho de Filé Mignon"
         },
-        "id": "salada-de-pepino-ao-murro-c8a0527d"
+        "id": "picadinho-de-file-mignon-c8e4be37"
       },
       {
-        "nome": "Mousse de Chocolate de 3 Ingredientes",
-        "curso": "sobremesa",
-        "tempo": "20 minutos (mais tempo de geladeira)",
-        "porque": "Uma sobremesa clássica e indulgente, perfeita para finalizar o jantar. É extremamente rápida de preparar com apenas 3 ingredientes e o tempo de geladeira permite adiantar o preparo.",
+        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
+        "curso": "principal",
+        "tempo": "45 minutos",
+        "porque": "Uma opção de carne vermelha macia e suculenta, acelerada pela panela de pressão. É um prato completo com vegetais e perfeito para render sobras para o almoço.",
         "tags": [
-          "doce",
-          "chocolate",
-          "rapido",
-          "gelado"
+          "carne_vermelha",
+          "panela_de_pressao",
+          "completo",
+          "sobra"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "250g de chocolate meio amargo picado",
-          "200g de creme de leite (1 caixinha)",
-          "200g de leite condensado (1 caixinha)"
+          "1 kg de carne bovina para panela (paleta, acém ou músculo) em cubos grandes",
+          "2 colheres (sopa) de azeite",
+          "1 cebola grande picada",
+          "3 dentes de alho picados",
+          "1 lata de tomate pelado picado",
+          "1 xícara (chá) de água quente",
+          "2 batatas médias descascadas e em cubos grandes",
+          "2 cenouras médias descascadas e em rodelas grossas",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Louro e alecrim a gosto"
         ],
         "preparo": [
-          "Derreta o chocolate meio amargo picado em banho-maria ou no micro-ondas, mexendo até ficar liso e homogêneo.",
-          "Retire o chocolate derretido do calor e adicione o creme de leite e o leite condensado. Misture bem até obter um creme uniforme.",
-          "Transfira o creme para uma batedeira e bata em velocidade alta por 3 minutos, até a mistura ficar mais aerada e clara.",
-          "Despeje a mousse em taças individuais ou em um recipiente maior.",
-          "Leve à geladeira por pelo menos 2 horas para firmar antes de servir."
+          "Tempere a carne com sal e pimenta. Aqueça o azeite na panela de pressão em fogo alto.",
+          "Doure a carne em levas para não juntar água. Retire e reserve.",
+          "Na mesma panela, refogue a cebola e o alho até dourarem.",
+          "Retorne a carne à panela, adicione o tomate pelado, a água quente, o louro e o alecrim.",
+          "Feche a panela de pressão e cozinhe por 25 minutos após o início da pressão.",
+          "Desligue o fogo, espere a pressão sair, abra a panela e adicione as batatas e cenouras.",
+          "Cozinhe sem pressão por mais 15 minutos, ou até os vegetais ficarem macios e o molho encorpado."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://receitas.globo.com/receitas/mousse-de-chocolate-rapida-receita725121.ghtml",
-          "checked_at": "2026-11-23T22:30:00+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/Carne-de-panela-com-batata-e-cenoura-na-pressao",
+          "checked_at": "2026-11-24T21:01:30+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/11287582/pexels-photo-11287582.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa mousse de chocolate em camadas em um copo de vidro transparente com raspas de chocolate, ao lado dos ingredientes.",
-          "bank_id": "11287582",
-          "credit": "Harish .P",
-          "query": "Mousse de Chocolate de 3 Ingredientes"
+          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
+          "bank_id": "6545671",
+          "credit": "Thiago Rebouças",
+          "query": "Carne de Panela com Batata e Cenoura na Pressão"
         },
-        "id": "mousse-de-chocolate-de-3-ingredientes-b195dd05"
+        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+      },
+      {
+        "nome": "Salada com Legumes Assados",
+        "curso": "entrada",
+        "tempo": "30 minutos",
+        "porque": "Uma entrada leve e saudável, que utiliza o forno para assar os legumes, alinhando-se à preferência por pouca fritura. É rápida de preparar e oferece um bom equilíbrio de vegetais.",
+        "tags": [
+          "vegetariano",
+          "leve",
+          "forno",
+          "rapido"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "1 beterraba pequena em cubos",
+          "1 cenoura média em rodelas",
+          "1 batata pequena em cubos",
+          "1/2 cebola roxa em pétalas",
+          "1/2 abobrinha em rodelas",
+          "1 sachê de MAGGI® MEU SEGREDO® Cheiro Verde (ou temperos frescos como salsinha e cebolinha)",
+          "2 colheres (sopa) de azeite",
+          "Sal e pimenta-do-reino a gosto",
+          "Folhas de alface e rúcula para servir"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 200°C.",
+          "Em uma assadeira, misture a beterraba, cenoura, batata, cebola e abobrinha.",
+          "Regue com azeite, tempere com o sachê MAGGI® (ou ervas frescas), sal e pimenta.",
+          "Asse por cerca de 25-30 minutos, virando os legumes na metade do tempo, até ficarem macios e levemente dourados.",
+          "Deixe amornar e sirva sobre as folhas de alface e rúcula."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/salada-com-legumes-assados",
+          "checked_at": "2026-11-24T21:01:38+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/3192367/pexels-photo-3192367.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosa salada de legumes mistos com alface fresca, abacate e legumes assados, perfeita para uma dieta saudável.",
+          "bank_id": "3192367",
+          "credit": "Karina Shilongo",
+          "query": "Salada com Legumes Assados"
+        },
+        "id": "salada-com-legumes-assados-bbc71b2a"
+      },
+      {
+        "nome": "Cocada de Forno com Laranja",
+        "curso": "sobremesa",
+        "tempo": "50 minutos",
+        "porque": "Uma sobremesa prática e saborosa, com coco fresco e um toque cítrico de laranja. É preparada no forno, resultando em uma casquinha crocante e um centro cremoso, ideal para um jantar a dois.",
+        "tags": [
+          "doce",
+          "forno",
+          "coco",
+          "citrico"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "4 xícaras (chá) de coco fresco ralado (cerca de 500 g)",
+          "6 ovos",
+          "3 xícaras (chá) de açúcar",
+          "2 colheres (sopa) de manteiga derretida",
+          "Raspas de 2 laranjas"
+        ],
+        "preparo": [
+          "Preaqueça o forno a 180°C. Unte um refratário médio com manteiga.",
+          "Em uma tigela grande, bata os ovos com a manteiga derretida.",
+          "Adicione o açúcar aos poucos, misturando bem até obter um creme.",
+          "Acrescente as raspas de laranja e o coco ralado, misturando delicadamente com uma espátula.",
+          "Transfira a massa para o refratário untado.",
+          "Leve ao forno por cerca de 40 minutos, ou até a superfície ficar dourada e crocante.",
+          "Retire do forno e deixe esfriar em temperatura ambiente antes de servir."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://panelinha.com.br/receita/cocada-de-forno-com-laranja",
+          "title": "Cocada de forno com laranja - Panelinha",
+          "domain": "panelinha.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-24T21:01:39+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://i.panelinha.com.br/i1/bk-5755-receita-cocada.webp",
+          "alt": "Cocada de Forno com Laranja"
+        },
+        "id": "cocada-de-forno-com-laranja-14f53ee0"
       }
     ]
   },
