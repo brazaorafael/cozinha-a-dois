@@ -6486,5 +6486,53 @@
     ],
     "data": "24/11/2026",
     "fonte_status": "verified"
+  },
+  {
+    "id": "maminha-com-alho-e-mostarda-dijon-no-forno-2c4066a4",
+    "titulo": "Maminha com Alho e Mostarda Dijon no Forno",
+    "tags": [
+      "carne_vermelha",
+      "forno",
+      "facil",
+      "jantar"
+    ],
+    "data": "25/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "arroz-cremoso-com-carne-seca-bc3107fe",
+    "titulo": "Arroz Cremoso com Carne Seca",
+    "tags": [
+      "carne_vermelha",
+      "panela",
+      "facil",
+      "jantar"
+    ],
+    "data": "25/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "dadinho-de-tapioca-com-queijo-coalho-c2205193",
+    "titulo": "Dadinho de Tapioca com Queijo Coalho",
+    "tags": [
+      "vegetariano",
+      "airfryer_forno",
+      "facil",
+      "petisco"
+    ],
+    "data": "25/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "brigadeiro-de-colher-69f3e9ec",
+    "titulo": "Brigadeiro de Colher",
+    "tags": [
+      "chocolate",
+      "doce",
+      "rapido",
+      "panela"
+    ],
+    "data": "25/11/2026",
+    "fonte_status": "unverified"
   }
 ]

@@ -1,195 +1,184 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-24T17:59:55-03:00",
+  "gerado_em": "2026-11-25T17:23:23-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "24/11/2026",
-    "dia_semana": "terça",
+    "data": "25/11/2026",
+    "dia_semana": "quarta",
     "pratos": [
       {
-        "nome": "Picadinho de Filé Mignon",
+        "nome": "Maminha com Alho e Mostarda Dijon no Forno",
         "curso": "principal",
-        "tempo": "40 minutos",
-        "porque": "Carne vermelha, preferência do casal, em uma versão clássica e prática. O molho encorpado é delicioso e o prato rende bem para sobras, ideal para o almoço de uma pessoa.",
+        "tempo": "40 minutos (15 min preparo + 25 min forn",
+        "porque": "Carne vermelha suculenta e saborosa, preparada no forno com um molho marcante de mostarda Dijon e alho. É uma receita fácil e prática, ideal para um jantar especial e que pode render sobras para o almoço do dia seguinte. O tempo de preparo ativo é de apenas 15 minutos, e o cozimento no forno é de 25 minutos.",
         "tags": [
           "carne_vermelha",
-          "rapido",
-          "panela",
-          "sobra"
+          "forno",
+          "facil",
+          "jantar"
         ],
         "rende_sobra": true,
         "ingredientes": [
-          "1 colher (sopa) de azeite",
-          "1 cebola média picada",
-          "2 dentes de alho picados",
-          "500 g de filé mignon em cubos de 2 cm",
-          "1/2 xícara (chá) de caldo de carne (ou água)",
-          "1 colher (sopa) de extrato de tomate",
-          "1 colher (chá) de molho inglês",
-          "1/2 xícara (chá) de ervilha fresca (ou congelada)",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Salsinha picada a gosto para finalizar"
+          "400g de maminha",
+          "3 dentes de alho bem picados",
+          "1 colher (sopa) de manteiga sem sal",
+          "1 colher (sopa) de vinagre balsâmico",
+          "½ colher (café) de pimenta-do-reino preta moída",
+          "1 colher (sobremesa) de mostarda Dijon",
+          "1 colher (sobremesa) de sal grosso",
+          "Papel alumínio"
         ],
         "preparo": [
-          "Aqueça o azeite em uma panela média em fogo médio. Refogue a cebola e o alho até ficarem macios.",
-          "Adicione os cubos de filé mignon e doure por todos os lados. Tempere com sal e pimenta.",
-          "Junte o caldo de carne, o extrato de tomate e o molho inglês. Misture bem.",
-          "Deixe cozinhar em fogo baixo por cerca de 15 minutos, ou até o molho encorpar.",
-          "Acrescente as ervilhas e cozinhe por mais 5 minutos.",
-          "Finalize com salsinha picada e sirva."
-        ],
-        "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/picadinho-de-file-mignon",
-          "title": "Picadinho de filé mignon - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-24T21:01:30+00:00"
-        },
-        "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-4502-picadinho-receita.webp",
-          "alt": "Picadinho de Filé Mignon"
-        },
-        "id": "picadinho-de-file-mignon-c8e4be37"
-      },
-      {
-        "nome": "Carne de Panela com Batata e Cenoura na Pressão",
-        "curso": "principal",
-        "tempo": "45 minutos",
-        "porque": "Uma opção de carne vermelha macia e suculenta, acelerada pela panela de pressão. É um prato completo com vegetais e perfeito para render sobras para o almoço.",
-        "tags": [
-          "carne_vermelha",
-          "panela_de_pressao",
-          "completo",
-          "sobra"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "1 kg de carne bovina para panela (paleta, acém ou músculo) em cubos grandes",
-          "2 colheres (sopa) de azeite",
-          "1 cebola grande picada",
-          "3 dentes de alho picados",
-          "1 lata de tomate pelado picado",
-          "1 xícara (chá) de água quente",
-          "2 batatas médias descascadas e em cubos grandes",
-          "2 cenouras médias descascadas e em rodelas grossas",
-          "Sal e pimenta-do-reino moída na hora a gosto",
-          "Louro e alecrim a gosto"
-        ],
-        "preparo": [
-          "Tempere a carne com sal e pimenta. Aqueça o azeite na panela de pressão em fogo alto.",
-          "Doure a carne em levas para não juntar água. Retire e reserve.",
-          "Na mesma panela, refogue a cebola e o alho até dourarem.",
-          "Retorne a carne à panela, adicione o tomate pelado, a água quente, o louro e o alecrim.",
-          "Feche a panela de pressão e cozinhe por 25 minutos após o início da pressão.",
-          "Desligue o fogo, espere a pressão sair, abra a panela e adicione as batatas e cenouras.",
-          "Cozinhe sem pressão por mais 15 minutos, ou até os vegetais ficarem macios e o molho encorpado."
+          "Em uma assadeira, tempere a peça de maminha com o alho picado, a manteiga derretida, o vinagre balsâmico, a pimenta-do-reino, a mostarda Dijon e o sal grosso. Esfregue bem os temperos na carne.",
+          "Cubra a assadeira com papel alumínio e leve à geladeira para marinar por, pelo menos, 30 minutos.",
+          "Preaqueça o forno a 180°C. Leve a maminha ao forno coberta com papel alumínio por 25 minutos.",
+          "Retire o papel alumínio, regue a carne com o líquido que se formou na assadeira e retorne ao forno por mais 15-20 minutos, ou até dourar e atingir o ponto desejado.",
+          "Retire do forno, fatie a maminha e sirva imediatamente com o molho da assadeira."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/Carne-de-panela-com-batata-e-cenoura-na-pressao",
-          "checked_at": "2026-11-24T21:01:30+00:00"
+          "suggested_url": "",
+          "checked_at": "2026-11-25T20:25:07+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Carne assada macia servida com cenouras e batatas em um prato branco.",
-          "bank_id": "6545671",
-          "credit": "Thiago Rebouças",
-          "query": "Carne de Panela com Batata e Cenoura na Pressão"
+          "url": "https://images.pexels.com/photos/5500989/pexels-photo-5500989.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Vista superior de legumes coloridos assados no forno com temperos em uma travessa rústica.",
+          "bank_id": "5500989",
+          "credit": "Eva Bronzini",
+          "query": "Maminha com Alho e Mostarda Dijon no Forno"
         },
-        "id": "carne-de-panela-com-batata-e-cenoura-na-pressao-283a9074"
+        "id": "maminha-com-alho-e-mostarda-dijon-no-forno-2c4066a4"
       },
       {
-        "nome": "Salada com Legumes Assados",
+        "nome": "Arroz Cremoso com Carne Seca",
+        "curso": "principal",
+        "tempo": "25 minutos (sem contar dessalgue e cozim",
+        "porque": "Um prato completo e reconfortante, com carne vermelha (carne seca) e arroz cremoso. É prático para o dia a dia, cozido em uma única panela e rende bem, sendo uma ótima opção para sobrar para o almoço de uma pessoa. O tempo de preparo ativo é de apenas 25 minutos, após a carne seca estar pronta.",
+        "tags": [
+          "carne_vermelha",
+          "panela",
+          "facil",
+          "jantar"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "500 g de carne-seca limpa (já dessalgada, cozida e desfiada)",
+          "2 colheres (sopa) de azeite de oliva",
+          "1/2 cebola média ralada",
+          "2 xícaras (chá) de arroz parboilizado cru",
+          "2 sachês de Tempero SAZÓN Branco",
+          "1/2 colher (chá) de sal",
+          "4 xícaras (chá) de água fervente (800 ml)",
+          "1/2 xícara (chá) de creme de leite"
+        ],
+        "preparo": [
+          "Em uma panela grande, aqueça o azeite em fogo alto. Adicione a cebola ralada e refogue por 2 minutos, até ficar transparente.",
+          "Acrescente o arroz cru, a carne seca desfiada, o Tempero SAZÓN e o sal. Refogue por mais 2 minutos, garantindo que o arroz esteja bem envolvido nos temperos.",
+          "Despeje a água fervente na panela e misture. Deixe cozinhar em fogo médio, com a panela semitampada, por cerca de 15 minutos, ou até o arroz ficar 'al dente'.",
+          "Quando o arroz estiver cozido e com pouca água, adicione o creme de leite e misture delicadamente até incorporar.",
+          "Retire do fogo e sirva imediatamente. Se for reaquecer, adicione um pouco de leite para manter a cremosidade."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "",
+          "checked_at": "2026-11-25T20:25:07+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/33673972/pexels-photo-33673972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Delicioso filé de carne com redução de vinho tinto e risoto cremoso em um prato branco.",
+          "bank_id": "33673972",
+          "credit": "pedro furtado",
+          "query": "Arroz Cremoso com Carne Seca"
+        },
+        "id": "arroz-cremoso-com-carne-seca-bc3107fe"
+      },
+      {
+        "nome": "Dadinho de Tapioca com Queijo Coalho",
         "curso": "entrada",
-        "tempo": "30 minutos",
-        "porque": "Uma entrada leve e saudável, que utiliza o forno para assar os legumes, alinhando-se à preferência por pouca fritura. É rápida de preparar e oferece um bom equilíbrio de vegetais.",
+        "tempo": "45 minutos (15 min preparo + 30 min forn",
+        "porque": "Uma entrada prática e deliciosa, com textura crocante por fora e macia por dentro. É assado no forno, evitando fritura, e pode ser preparado em cerca de 45 minutos de tempo ativo. Perfeito para um petisco leve antes do prato principal.",
         "tags": [
           "vegetariano",
-          "leve",
-          "forno",
-          "rapido"
+          "airfryer_forno",
+          "facil",
+          "petisco"
         ],
         "rende_sobra": false,
         "ingredientes": [
-          "1 beterraba pequena em cubos",
-          "1 cenoura média em rodelas",
-          "1 batata pequena em cubos",
-          "1/2 cebola roxa em pétalas",
-          "1/2 abobrinha em rodelas",
-          "1 sachê de MAGGI® MEU SEGREDO® Cheiro Verde (ou temperos frescos como salsinha e cebolinha)",
-          "2 colheres (sopa) de azeite",
-          "Sal e pimenta-do-reino a gosto",
-          "Folhas de alface e rúcula para servir"
+          "1¼ de xícara (chá) de tapioca granulada",
+          "250 g de queijo coalho ralado",
+          "0,5 litro de leite",
+          "1 pitada de sal",
+          "1 pitada de pimenta branca moída na hora"
         ],
         "preparo": [
-          "Preaqueça o forno a 200°C.",
-          "Em uma assadeira, misture a beterraba, cenoura, batata, cebola e abobrinha.",
-          "Regue com azeite, tempere com o sachê MAGGI® (ou ervas frescas), sal e pimenta.",
-          "Asse por cerca de 25-30 minutos, virando os legumes na metade do tempo, até ficarem macios e levemente dourados.",
-          "Deixe amornar e sirva sobre as folhas de alface e rúcula."
+          "Forre uma assadeira pequena (aprox. 20x25 cm) com filme plástico, deixando sobras nas laterais para cobrir.",
+          "Em uma tigela grande, rale o queijo coalho e misture com a tapioca granulada, o sal e a pimenta branca.",
+          "Aqueça o leite até ferver. Despeje o leite fervente sobre a mistura de tapioca e queijo, mexendo bem com uma espátula por cerca de 5 minutos, até a mistura engrossar e ficar homogênea.",
+          "Transfira a massa para a assadeira preparada, espalhando uniformemente. Cubra com as sobras do filme plástico e leve à geladeira por pelo menos 4 horas (ou de um dia para o outro) para firmar.",
+          "Preaqueça o forno a 200°C. Desenforme a massa sobre uma tábua e corte em cubos de aproximadamente 2 cm.",
+          "Distribua os dadinhos em uma assadeira antiaderente (ou forrada com papel manteiga) e leve ao forno por cerca de 30 minutos, virando na metade do tempo, até dourarem e ficarem crocantes. Sirva quente."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/salada-com-legumes-assados",
-          "checked_at": "2026-11-24T21:01:38+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/dadinho-de-tapioca",
+          "checked_at": "2026-11-25T20:25:08+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/3192367/pexels-photo-3192367.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosa salada de legumes mistos com alface fresca, abacate e legumes assados, perfeita para uma dieta saudável.",
-          "bank_id": "3192367",
-          "credit": "Karina Shilongo",
-          "query": "Salada com Legumes Assados"
+          "url": "https://images.pexels.com/photos/39982822/pexels-photo-39982822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Deliciosos cubos de tapioca crocantes acompanhados de molho picante, servidos em uma mesa de madeira.",
+          "bank_id": "39982822",
+          "credit": "Tiago Silveira",
+          "query": "Dadinho de Tapioca com Queijo Coalho"
         },
-        "id": "salada-com-legumes-assados-bbc71b2a"
+        "id": "dadinho-de-tapioca-com-queijo-coalho-c2205193"
       },
       {
-        "nome": "Cocada de Forno com Laranja",
+        "nome": "Brigadeiro de Colher",
         "curso": "sobremesa",
-        "tempo": "50 minutos",
-        "porque": "Uma sobremesa prática e saborosa, com coco fresco e um toque cítrico de laranja. É preparada no forno, resultando em uma casquinha crocante e um centro cremoso, ideal para um jantar a dois.",
+        "tempo": "10 minutos",
+        "porque": "Uma sobremesa clássica brasileira, fácil, rápida e deliciosa. Perfeita para adoçar o jantar sem complicação, pronta em apenas 10 minutos.",
         "tags": [
+          "chocolate",
           "doce",
-          "forno",
-          "coco",
-          "citrico"
+          "rapido",
+          "panela"
         ],
-        "rende_sobra": true,
+        "rende_sobra": false,
         "ingredientes": [
-          "4 xícaras (chá) de coco fresco ralado (cerca de 500 g)",
-          "6 ovos",
-          "3 xícaras (chá) de açúcar",
-          "2 colheres (sopa) de manteiga derretida",
-          "Raspas de 2 laranjas"
+          "1 lata de Leite MOÇA® (leite condensado)",
+          "3 colheres (sopa) de NESCAU® (chocolate em pó)",
+          "1 colher (sopa) de manteiga",
+          "Chocolate granulado para decorar (opcional)"
         ],
         "preparo": [
-          "Preaqueça o forno a 180°C. Unte um refratário médio com manteiga.",
-          "Em uma tigela grande, bata os ovos com a manteiga derretida.",
-          "Adicione o açúcar aos poucos, misturando bem até obter um creme.",
-          "Acrescente as raspas de laranja e o coco ralado, misturando delicadamente com uma espátula.",
-          "Transfira a massa para o refratário untado.",
-          "Leve ao forno por cerca de 40 minutos, ou até a superfície ficar dourada e crocante.",
-          "Retire do forno e deixe esfriar em temperatura ambiente antes de servir."
+          "Em uma panela, misture o Leite MOÇA®, o NESCAU® e a manteiga.",
+          "Leve ao fogo baixo, mexendo sempre com uma colher de pau, até a mistura desgrudar do fundo da panela (cerca de 10 minutos).",
+          "Retire do fogo e transfira o brigadeiro para um recipiente.",
+          "Cubra com plástico filme em contato direto com o brigadeiro para evitar a formação de película. Deixe esfriar.",
+          "Sirva em copinhos ou tigelas pequenas e, se desejar, decore com chocolate granulado."
         ],
         "fonte": {
-          "status": "verified",
-          "url": "https://panelinha.com.br/receita/cocada-de-forno-com-laranja",
-          "title": "Cocada de forno com laranja - Panelinha",
-          "domain": "panelinha.com.br",
-          "confidence": 1.0,
-          "checked_at": "2026-11-24T21:01:39+00:00"
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.receitasnestle.com.br/receitas/brigadeiro-de-colher",
+          "checked_at": "2026-11-25T20:25:10+00:00"
         },
         "imagem": {
-          "kind": "source",
-          "url": "https://i.panelinha.com.br/i1/bk-5755-receita-cocada.webp",
-          "alt": "Cocada de Forno com Laranja"
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/10003880/pexels-photo-10003880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Uma vibrante composição plana apresentando pratos e colheres de cerâmica coloridos com designs abstratos.",
+          "bank_id": "10003880",
+          "credit": "Karen Laårk Boshoff",
+          "query": "Brigadeiro de Colher"
         },
-        "id": "cocada-de-forno-com-laranja-14f53ee0"
+        "id": "brigadeiro-de-colher-69f3e9ec"
       }
     ]
   },
