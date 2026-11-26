@@ -1,184 +1,202 @@
 {
   "versao_schema": 2,
-  "gerado_em": "2026-11-25T17:23:23-03:00",
+  "gerado_em": "2026-11-26T16:59:48-03:00",
   "diario": {
     "tipo": "diario",
-    "data": "25/11/2026",
-    "dia_semana": "quarta",
+    "data": "26/11/2026",
+    "dia_semana": "quinta",
     "pratos": [
       {
-        "nome": "Maminha com Alho e Mostarda Dijon no Forno",
+        "nome": "Carne Moída com Refogado de Pimentão",
         "curso": "principal",
-        "tempo": "40 minutos (15 min preparo + 25 min forn",
-        "porque": "Carne vermelha suculenta e saborosa, preparada no forno com um molho marcante de mostarda Dijon e alho. É uma receita fácil e prática, ideal para um jantar especial e que pode render sobras para o almoço do dia seguinte. O tempo de preparo ativo é de apenas 15 minutos, e o cozimento no forno é de 25 minutos.",
+        "tempo": "20 minutos",
+        "porque": "Uma opção de carne vermelha rápida e prática, ideal para um jantar durante a semana. O refogado de pimentão adiciona vegetais e sabor, garantindo um prato equilibrado e que pode render para o almoço do dia seguinte.",
         "tags": [
           "carne_vermelha",
-          "forno",
-          "facil",
-          "jantar"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "400g de maminha",
-          "3 dentes de alho bem picados",
-          "1 colher (sopa) de manteiga sem sal",
-          "1 colher (sopa) de vinagre balsâmico",
-          "½ colher (café) de pimenta-do-reino preta moída",
-          "1 colher (sobremesa) de mostarda Dijon",
-          "1 colher (sobremesa) de sal grosso",
-          "Papel alumínio"
-        ],
-        "preparo": [
-          "Em uma assadeira, tempere a peça de maminha com o alho picado, a manteiga derretida, o vinagre balsâmico, a pimenta-do-reino, a mostarda Dijon e o sal grosso. Esfregue bem os temperos na carne.",
-          "Cubra a assadeira com papel alumínio e leve à geladeira para marinar por, pelo menos, 30 minutos.",
-          "Preaqueça o forno a 180°C. Leve a maminha ao forno coberta com papel alumínio por 25 minutos.",
-          "Retire o papel alumínio, regue a carne com o líquido que se formou na assadeira e retorne ao forno por mais 15-20 minutos, ou até dourar e atingir o ponto desejado.",
-          "Retire do forno, fatie a maminha e sirva imediatamente com o molho da assadeira."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-11-25T20:25:07+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/5500989/pexels-photo-5500989.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Vista superior de legumes coloridos assados no forno com temperos em uma travessa rústica.",
-          "bank_id": "5500989",
-          "credit": "Eva Bronzini",
-          "query": "Maminha com Alho e Mostarda Dijon no Forno"
-        },
-        "id": "maminha-com-alho-e-mostarda-dijon-no-forno-2c4066a4"
-      },
-      {
-        "nome": "Arroz Cremoso com Carne Seca",
-        "curso": "principal",
-        "tempo": "25 minutos (sem contar dessalgue e cozim",
-        "porque": "Um prato completo e reconfortante, com carne vermelha (carne seca) e arroz cremoso. É prático para o dia a dia, cozido em uma única panela e rende bem, sendo uma ótima opção para sobrar para o almoço de uma pessoa. O tempo de preparo ativo é de apenas 25 minutos, após a carne seca estar pronta.",
-        "tags": [
-          "carne_vermelha",
-          "panela",
-          "facil",
-          "jantar"
-        ],
-        "rende_sobra": true,
-        "ingredientes": [
-          "500 g de carne-seca limpa (já dessalgada, cozida e desfiada)",
-          "2 colheres (sopa) de azeite de oliva",
-          "1/2 cebola média ralada",
-          "2 xícaras (chá) de arroz parboilizado cru",
-          "2 sachês de Tempero SAZÓN Branco",
-          "1/2 colher (chá) de sal",
-          "4 xícaras (chá) de água fervente (800 ml)",
-          "1/2 xícara (chá) de creme de leite"
-        ],
-        "preparo": [
-          "Em uma panela grande, aqueça o azeite em fogo alto. Adicione a cebola ralada e refogue por 2 minutos, até ficar transparente.",
-          "Acrescente o arroz cru, a carne seca desfiada, o Tempero SAZÓN e o sal. Refogue por mais 2 minutos, garantindo que o arroz esteja bem envolvido nos temperos.",
-          "Despeje a água fervente na panela e misture. Deixe cozinhar em fogo médio, com a panela semitampada, por cerca de 15 minutos, ou até o arroz ficar 'al dente'.",
-          "Quando o arroz estiver cozido e com pouca água, adicione o creme de leite e misture delicadamente até incorporar.",
-          "Retire do fogo e sirva imediatamente. Se for reaquecer, adicione um pouco de leite para manter a cremosidade."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "",
-          "checked_at": "2026-11-25T20:25:07+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/33673972/pexels-photo-33673972.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Delicioso filé de carne com redução de vinho tinto e risoto cremoso em um prato branco.",
-          "bank_id": "33673972",
-          "credit": "pedro furtado",
-          "query": "Arroz Cremoso com Carne Seca"
-        },
-        "id": "arroz-cremoso-com-carne-seca-bc3107fe"
-      },
-      {
-        "nome": "Dadinho de Tapioca com Queijo Coalho",
-        "curso": "entrada",
-        "tempo": "45 minutos (15 min preparo + 30 min forn",
-        "porque": "Uma entrada prática e deliciosa, com textura crocante por fora e macia por dentro. É assado no forno, evitando fritura, e pode ser preparado em cerca de 45 minutos de tempo ativo. Perfeito para um petisco leve antes do prato principal.",
-        "tags": [
-          "vegetariano",
-          "airfryer_forno",
-          "facil",
-          "petisco"
-        ],
-        "rende_sobra": false,
-        "ingredientes": [
-          "1¼ de xícara (chá) de tapioca granulada",
-          "250 g de queijo coalho ralado",
-          "0,5 litro de leite",
-          "1 pitada de sal",
-          "1 pitada de pimenta branca moída na hora"
-        ],
-        "preparo": [
-          "Forre uma assadeira pequena (aprox. 20x25 cm) com filme plástico, deixando sobras nas laterais para cobrir.",
-          "Em uma tigela grande, rale o queijo coalho e misture com a tapioca granulada, o sal e a pimenta branca.",
-          "Aqueça o leite até ferver. Despeje o leite fervente sobre a mistura de tapioca e queijo, mexendo bem com uma espátula por cerca de 5 minutos, até a mistura engrossar e ficar homogênea.",
-          "Transfira a massa para a assadeira preparada, espalhando uniformemente. Cubra com as sobras do filme plástico e leve à geladeira por pelo menos 4 horas (ou de um dia para o outro) para firmar.",
-          "Preaqueça o forno a 200°C. Desenforme a massa sobre uma tábua e corte em cubos de aproximadamente 2 cm.",
-          "Distribua os dadinhos em uma assadeira antiaderente (ou forrada com papel manteiga) e leve ao forno por cerca de 30 minutos, virando na metade do tempo, até dourarem e ficarem crocantes. Sirva quente."
-        ],
-        "fonte": {
-          "status": "unverified",
-          "url": "",
-          "suggested_url": "https://www.panelinha.com.br/receita/dadinho-de-tapioca",
-          "checked_at": "2026-11-25T20:25:08+00:00"
-        },
-        "imagem": {
-          "kind": "bank",
-          "url": "https://images.pexels.com/photos/39982822/pexels-photo-39982822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Deliciosos cubos de tapioca crocantes acompanhados de molho picante, servidos em uma mesa de madeira.",
-          "bank_id": "39982822",
-          "credit": "Tiago Silveira",
-          "query": "Dadinho de Tapioca com Queijo Coalho"
-        },
-        "id": "dadinho-de-tapioca-com-queijo-coalho-c2205193"
-      },
-      {
-        "nome": "Brigadeiro de Colher",
-        "curso": "sobremesa",
-        "tempo": "10 minutos",
-        "porque": "Uma sobremesa clássica brasileira, fácil, rápida e deliciosa. Perfeita para adoçar o jantar sem complicação, pronta em apenas 10 minutos.",
-        "tags": [
-          "chocolate",
-          "doce",
+          "refogado",
           "rapido",
-          "panela"
+          "facil"
         ],
-        "rende_sobra": false,
+        "rende_sobra": true,
         "ingredientes": [
-          "1 lata de Leite MOÇA® (leite condensado)",
-          "3 colheres (sopa) de NESCAU® (chocolate em pó)",
-          "1 colher (sopa) de manteiga",
-          "Chocolate granulado para decorar (opcional)"
+          "1 colher (sopa) de azeite",
+          "1 cebola média picada",
+          "2 dentes de alho picados",
+          "500 g de patinho moído",
+          "1 pimentão vermelho médio picado",
+          "½ xícara (chá) de água",
+          "Sal e pimenta-do-reino moída na hora a gosto",
+          "Cebolinha picada a gosto para finalizar"
         ],
         "preparo": [
-          "Em uma panela, misture o Leite MOÇA®, o NESCAU® e a manteiga.",
-          "Leve ao fogo baixo, mexendo sempre com uma colher de pau, até a mistura desgrudar do fundo da panela (cerca de 10 minutos).",
-          "Retire do fogo e transfira o brigadeiro para um recipiente.",
-          "Cubra com plástico filme em contato direto com o brigadeiro para evitar a formação de película. Deixe esfriar.",
-          "Sirva em copinhos ou tigelas pequenas e, se desejar, decore com chocolate granulado."
+          "Aqueça o azeite em uma panela média em fogo médio. Refogue a cebola e o alho até ficarem macios.",
+          "Adicione a carne moída e aumente o fogo. Mexa e desfaça os grumos até a carne dourar por igual.",
+          "Junte o pimentão picado e refogue por mais 5 minutos.",
+          "Acrescente a água, tempere com sal e pimenta-do-reino. Misture bem e cozinhe por cerca de 10 minutos, ou até o líquido reduzir.",
+          "Finalize com cebolinha picada antes de servir."
         ],
         "fonte": {
           "status": "unverified",
           "url": "",
-          "suggested_url": "https://www.receitasnestle.com.br/receitas/brigadeiro-de-colher",
-          "checked_at": "2026-11-25T20:25:10+00:00"
+          "suggested_url": "https://www.panelinha.com.br/receita/carne-moida-com-refogado-de-pimentao",
+          "checked_at": "2026-11-26T20:01:46+00:00"
         },
         "imagem": {
           "kind": "bank",
-          "url": "https://images.pexels.com/photos/10003880/pexels-photo-10003880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "alt": "Uma vibrante composição plana apresentando pratos e colheres de cerâmica coloridos com designs abstratos.",
-          "bank_id": "10003880",
-          "credit": "Karen Laårk Boshoff",
-          "query": "Brigadeiro de Colher"
+          "url": "https://images.pexels.com/photos/34714654/pexels-photo-34714654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Salteado de manjericão tailandês com carne moída, legumes, fatias de pepino e ovo frito sobre uma mesa de madeira.",
+          "bank_id": "34714654",
+          "credit": "UNDO KIM",
+          "query": "Carne Moída com Refogado de Pimentão"
         },
-        "id": "brigadeiro-de-colher-69f3e9ec"
+        "id": "carne-moida-com-refogado-de-pimentao-283735d9"
+      },
+      {
+        "nome": "Carne de Panela com Calabresa e Legumes",
+        "curso": "principal",
+        "tempo": "40 minutos",
+        "porque": "Um prato principal substancioso e reconfortante, com a preferência por carne vermelha e a adição de legumes variados. O preparo na panela de pressão é prático e garante a maciez da carne em pouco tempo, ideal para render uma porção extra para o almoço.",
+        "tags": [
+          "carne_vermelha",
+          "panela_de_pressao",
+          "legumes",
+          "jantar"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "1 colher (sopa) de óleo",
+          "500g de acém em cubos",
+          "1 linguiça calabresa fatiada",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "1 tomate picado",
+          "1/2 xícara (chá) de extrato de tomate",
+          "2 batatas médias em cubos",
+          "2 cenouras médias em rodelas",
+          "1/2 xícara (chá) de milho verde",
+          "Sal e pimenta-do-reino a gosto",
+          "Cheiro-verde picado a gosto",
+          "Água quente o suficiente para cobrir"
+        ],
+        "preparo": [
+          "Em uma panela de pressão, aqueça o óleo e doure a carne em cubos. Retire e reserve.",
+          "Na mesma panela, doure a calabresa. Adicione a cebola e o alho, refogando até ficarem macios.",
+          "Acrescente o tomate picado e o extrato de tomate, mexendo por alguns minutos.",
+          "Retorne a carne à panela, junte as batatas, cenouras e o milho. Tempere com sal e pimenta.",
+          "Cubra com água quente, feche a panela e cozinhe por 20 minutos após o início da pressão.",
+          "Desligue o fogo, espere a pressão sair, abra a panela e finalize com cheiro-verde."
+        ],
+        "fonte": {
+          "status": "unverified",
+          "url": "",
+          "suggested_url": "https://www.guiadacozinha.com.br/receitas/carne-de-panela-com-calabresa-e-legumes/",
+          "checked_at": "2026-11-26T20:01:47+00:00"
+        },
+        "imagem": {
+          "kind": "bank",
+          "url": "https://images.pexels.com/photos/4768954/pexels-photo-4768954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "alt": "Um prato colorido de legumes assados e carne em uma panela de cerâmica azul, ideal para jantares em família.",
+          "bank_id": "4768954",
+          "credit": "Denys Gromov",
+          "query": "Carne de Panela com Calabresa e Legumes"
+        },
+        "id": "carne-de-panela-com-calabresa-e-legumes-ceffdbb3"
+      },
+      {
+        "nome": "Antepasto de Berinjela Assado",
+        "curso": "entrada",
+        "tempo": "45 minutos",
+        "porque": "Uma entrada leve e saborosa, perfeita para abrir o apetite. É preparada no forno, evitando frituras, e pode ser feita com antecedência, rendendo para outras ocasiões. Rica em vegetais e fácil de fazer.",
+        "tags": [
+          "entrada",
+          "vegetariano",
+          "forno",
+          "facil"
+        ],
+        "rende_sobra": true,
+        "ingredientes": [
+          "2 berinjelas grandes",
+          "1 pimentão amarelo",
+          "1 pimentão verde",
+          "1 pimentão vermelho",
+          "2 cebolas médias",
+          "3 colheres (sopa) de azeitonas pretas picadas",
+          "3 colheres (sopa) de uvas-passas (opcional)",
+          "3 dentes de alho picados",
+          "Pimenta calabresa a gosto",
+          "Orégano a gosto",
+          "Sal a gosto",
+          "Azeite de oliva a gosto"
+        ],
+        "preparo": [
+          "Corte as berinjelas, pimentões e cebolas em cubos pequenos.",
+          "Em uma tigela grande, misture todos os vegetais cortados, o alho, azeitonas, uvas-passas, pimenta calabresa, orégano e sal.",
+          "Regue generosamente com azeite de oliva e misture bem para que todos os ingredientes fiquem envolvidos.",
+          "Espalhe a mistura em uma assadeira grande.",
+          "Leve ao forno pré-aquecido a 180°C por cerca de 45 minutos, mexendo a cada 15 minutos para dourar por igual.",
+          "Sirva morno ou frio, acompanhado de torradas ou pão italiano."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.tudogostoso.com.br/receita/40720-antepasto-com-berinjela.html",
+          "title": "Antepasto com berinjela",
+          "domain": "tudogostoso.com.br",
+          "confidence": 0.72,
+          "checked_at": "2026-11-26T20:01:47+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://static.itdg.com.br/images/1200-675/e8f9191370f8417835468b1cdc96b8fa/shutterstock-2182030149.jpg",
+          "alt": "Antepasto de Berinjela Assado"
+        },
+        "id": "antepasto-de-berinjela-assado-f1f80fd6"
+      },
+      {
+        "nome": "Frutas Assadas com Farofa Doce Crocante e Iogurte",
+        "curso": "sobremesa",
+        "tempo": "40 minutos",
+        "porque": "Uma sobremesa leve e equilibrada, que utiliza frutas frescas e é preparada no forno, sem fritura. A farofa crocante adiciona textura e a combinação com iogurte natural a torna uma opção saudável e deliciosa.",
+        "tags": [
+          "sobremesa",
+          "frutas",
+          "forno",
+          "leve"
+        ],
+        "rende_sobra": false,
+        "ingredientes": [
+          "½ xícara (chá) de suco de laranja",
+          "1 xícara (chá) de morangos picados",
+          "½ colher (chá) de essência de baunilha",
+          "4 ameixas secas picadas (ou outra fruta como pêssego, pera)",
+          "2 colheres (sopa) de ameixa seca picada (para a farofa)",
+          "2 colheres (sopa) de aveia em flocos",
+          "1 colher (sopa) de coco ralado",
+          "1 colher (sopa) de azeite",
+          "1 colher (sopa) de água",
+          "1 colher (sopa) de amêndoas em lascas",
+          "2 potes de iogurte natural (170g cada)"
+        ],
+        "preparo": [
+          "Em uma assadeira pequena, misture o suco de laranja, morangos picados, baunilha e as ameixas picadas.",
+          "Para a farofa, bata a ameixa, aveia, coco ralado, azeite e água no liquidificador até formar uma pasta.",
+          "Espalhe a pasta em outra assadeira e adicione as amêndoas em lascas.",
+          "Leve as duas assadeiras ao forno médio (200°C) pré-aquecido por cerca de 40 minutos, mexendo as frutas na metade do tempo.",
+          "Sirva as frutas assadas ainda quentes, com o suco que se formou, acompanhadas do iogurte natural e da farofa crocante."
+        ],
+        "fonte": {
+          "status": "verified",
+          "url": "https://www.receitasnestle.com.br/receitas/frutas-assadas-com-farofa-doce-crocante-e-iogurte",
+          "title": "Frutas Assadas com Farofa Doce Crocante e Iogurte",
+          "domain": "receitasnestle.com.br",
+          "confidence": 1.0,
+          "checked_at": "2026-11-26T20:01:50+00:00"
+        },
+        "imagem": {
+          "kind": "source",
+          "url": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/834225dade429b97068139ea198e0561.jpg",
+          "alt": "Frutas Assadas com Farofa Doce Crocante e Iogurte"
+        },
+        "id": "frutas-assadas-com-farofa-doce-crocante-e-iogurt-f86d5d55"
       }
     ]
   },

@@ -6534,5 +6534,41 @@
     ],
     "data": "25/11/2026",
     "fonte_status": "unverified"
+  },
+  {
+    "id": "carne-de-panela-com-calabresa-e-legumes-ceffdbb3",
+    "titulo": "Carne de Panela com Calabresa e Legumes",
+    "tags": [
+      "carne_vermelha",
+      "panela_de_pressao",
+      "legumes",
+      "jantar"
+    ],
+    "data": "26/11/2026",
+    "fonte_status": "unverified"
+  },
+  {
+    "id": "antepasto-de-berinjela-assado-f1f80fd6",
+    "titulo": "Antepasto de Berinjela Assado",
+    "tags": [
+      "entrada",
+      "vegetariano",
+      "forno",
+      "facil"
+    ],
+    "data": "26/11/2026",
+    "fonte_status": "verified"
+  },
+  {
+    "id": "frutas-assadas-com-farofa-doce-crocante-e-iogurt-f86d5d55",
+    "titulo": "Frutas Assadas com Farofa Doce Crocante e Iogurte",
+    "tags": [
+      "sobremesa",
+      "frutas",
+      "forno",
+      "leve"
+    ],
+    "data": "26/11/2026",
+    "fonte_status": "verified"
   }
 ]
